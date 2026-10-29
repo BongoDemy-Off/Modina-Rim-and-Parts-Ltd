@@ -1,0 +1,3 @@
+PASS en enlarged long caption keyboard
+PASS bn enlarged long caption keyboard
+RESULT 2/2

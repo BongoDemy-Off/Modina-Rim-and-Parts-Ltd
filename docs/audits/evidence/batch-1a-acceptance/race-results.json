@@ -1,0 +1,174 @@
+[
+  {
+    "reducedMotion": "no-preference",
+    "cycles": [
+      {
+        "cycle": 1,
+        "passed": true
+      },
+      {
+        "cycle": 2,
+        "passed": true
+      },
+      {
+        "cycle": 3,
+        "passed": true
+      },
+      {
+        "cycle": 4,
+        "passed": true
+      },
+      {
+        "cycle": 5,
+        "passed": true
+      },
+      {
+        "cycle": 6,
+        "passed": true
+      },
+      {
+        "cycle": 7,
+        "passed": true
+      },
+      {
+        "cycle": 8,
+        "passed": true
+      },
+      {
+        "cycle": 9,
+        "passed": true
+      },
+      {
+        "cycle": 10,
+        "passed": true
+      },
+      {
+        "cycle": 11,
+        "passed": true
+      },
+      {
+        "cycle": 12,
+        "passed": true
+      },
+      {
+        "cycle": 13,
+        "passed": true
+      },
+      {
+        "cycle": 14,
+        "passed": true
+      },
+      {
+        "cycle": 15,
+        "passed": true
+      },
+      {
+        "cycle": 16,
+        "passed": true
+      },
+      {
+        "cycle": 17,
+        "passed": true
+      },
+      {
+        "cycle": 18,
+        "passed": true
+      },
+      {
+        "cycle": 19,
+        "passed": true
+      },
+      {
+        "cycle": 20,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "reducedMotion": "reduce",
+    "cycles": [
+      {
+        "cycle": 1,
+        "passed": true
+      },
+      {
+        "cycle": 2,
+        "passed": true
+      },
+      {
+        "cycle": 3,
+        "passed": true
+      },
+      {
+        "cycle": 4,
+        "passed": true
+      },
+      {
+        "cycle": 5,
+        "passed": true
+      },
+      {
+        "cycle": 6,
+        "passed": true
+      },
+      {
+        "cycle": 7,
+        "passed": true
+      },
+      {
+        "cycle": 8,
+        "passed": true
+      },
+      {
+        "cycle": 9,
+        "passed": true
+      },
+      {
+        "cycle": 10,
+        "passed": true
+      },
+      {
+        "cycle": 11,
+        "passed": true
+      },
+      {
+        "cycle": 12,
+        "passed": true
+      },
+      {
+        "cycle": 13,
+        "passed": true
+      },
+      {
+        "cycle": 14,
+        "passed": true
+      },
+      {
+        "cycle": 15,
+        "passed": true
+      },
+      {
+        "cycle": 16,
+        "passed": true
+      },
+      {
+        "cycle": 17,
+        "passed": true
+      },
+      {
+        "cycle": 18,
+        "passed": true
+      },
+      {
+        "cycle": 19,
+        "passed": true
+      },
+      {
+        "cycle": 20,
+        "passed": true
+      }
+    ],
+    "passed": true
+  }
+]

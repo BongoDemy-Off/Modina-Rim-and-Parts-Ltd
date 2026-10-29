@@ -1,0 +1,14 @@
+{
+  "states": [
+    {
+      "state": "en/products-open",
+      "violations": []
+    }
+  ],
+  "teardown": {
+    "closedNormally": false,
+    "bounded": true,
+    "connected": false
+  },
+  "error": "locator.scrollIntoViewIfNeeded: Timeout 9751.461ms exceeded.\nCall log:\n\u001b[2m  - attempting scroll into view action\u001b[22m\n\u001b[2m    - waiting for element to be stable\u001b[22m\n\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-2a\\a11y.cjs:8:222"
+}

@@ -1,0 +1,371 @@
+{
+  "states": [
+    {
+      "phase": "before",
+      "width": 390,
+      "route": "/about",
+      "title": "Our Journey",
+      "settled": true,
+      "file": "before-about-390-section.png",
+      "passed": true
+    },
+    {
+      "phase": "before",
+      "width": 390,
+      "route": "/mission",
+      "title": "Core Values",
+      "settled": true,
+      "file": "before-mission-390-section.png",
+      "passed": true
+    },
+    {
+      "phase": "before",
+      "width": 390,
+      "route": "/sustainability",
+      "title": "Three Pillars of Responsibility",
+      "settled": true,
+      "file": "before-sustainability-390-section.png",
+      "passed": true
+    },
+    {
+      "phase": "before",
+      "width": 390,
+      "route": "/quality",
+      "title": "From Raw Material to Delivery",
+      "settled": true,
+      "file": "before-quality-390-section.png",
+      "passed": true
+    },
+    {
+      "phase": "before",
+      "width": 390,
+      "route": "/certificates",
+      "title": "Internationally Recognized",
+      "settled": true,
+      "file": "before-certificates-390-section.png",
+      "passed": true
+    },
+    {
+      "phase": "before",
+      "width": 390,
+      "route": "/contact",
+      "title": "Dark CTA",
+      "settled": true,
+      "file": "before-contact-390-cta.png",
+      "passed": true
+    },
+    {
+      "phase": "before",
+      "width": 390,
+      "route": "/contact",
+      "title": "Footer clearance",
+      "settled": true,
+      "file": "before-contact-390-footer.png",
+      "passed": true
+    },
+    {
+      "phase": "before",
+      "width": 390,
+      "route": "/gallery",
+      "title": "Lightbox",
+      "settled": true,
+      "file": "before-gallery-390-lightbox.png",
+      "passed": true
+    },
+    {
+      "phase": "before",
+      "width": 390,
+      "route": "/faq",
+      "title": "Expanded FAQ",
+      "settled": true,
+      "file": "before-faq-390-faq.png",
+      "passed": true
+    },
+    {
+      "phase": "before",
+      "width": 390,
+      "route": "/products",
+      "title": "Product detail",
+      "settled": true,
+      "file": "before-products-390-drawer.png",
+      "passed": true
+    },
+    {
+      "phase": "before",
+      "width": 1440,
+      "route": "/about",
+      "title": "Our Journey",
+      "settled": true,
+      "file": "before-about-1440-section.png",
+      "passed": true
+    },
+    {
+      "phase": "before",
+      "width": 1440,
+      "route": "/mission",
+      "title": "Core Values",
+      "settled": true,
+      "file": "before-mission-1440-section.png",
+      "passed": true
+    },
+    {
+      "phase": "before",
+      "width": 1440,
+      "route": "/sustainability",
+      "title": "Three Pillars of Responsibility",
+      "settled": true,
+      "file": "before-sustainability-1440-section.png",
+      "passed": true
+    },
+    {
+      "phase": "before",
+      "width": 1440,
+      "route": "/quality",
+      "title": "From Raw Material to Delivery",
+      "settled": true,
+      "file": "before-quality-1440-section.png",
+      "passed": true
+    },
+    {
+      "phase": "before",
+      "width": 1440,
+      "route": "/certificates",
+      "title": "Internationally Recognized",
+      "settled": true,
+      "file": "before-certificates-1440-section.png",
+      "passed": true
+    },
+    {
+      "phase": "before",
+      "width": 1440,
+      "route": "/contact",
+      "title": "Dark CTA",
+      "settled": true,
+      "file": "before-contact-1440-cta.png",
+      "passed": true
+    },
+    {
+      "phase": "before",
+      "width": 1440,
+      "route": "/contact",
+      "title": "Footer clearance",
+      "settled": true,
+      "file": "before-contact-1440-footer.png",
+      "passed": true
+    },
+    {
+      "phase": "before",
+      "width": 1440,
+      "route": "/gallery",
+      "title": "Lightbox",
+      "settled": true,
+      "file": "before-gallery-1440-lightbox.png",
+      "passed": true
+    },
+    {
+      "phase": "before",
+      "width": 1440,
+      "route": "/faq",
+      "title": "Expanded FAQ",
+      "settled": true,
+      "file": "before-faq-1440-faq.png",
+      "passed": true
+    },
+    {
+      "phase": "before",
+      "width": 1440,
+      "route": "/products",
+      "title": "Product detail",
+      "settled": true,
+      "file": "before-products-1440-drawer.png",
+      "passed": true
+    },
+    {
+      "phase": "after",
+      "width": 390,
+      "route": "/about",
+      "title": "Our Journey",
+      "settled": true,
+      "file": "after-about-390-section.png",
+      "passed": true
+    },
+    {
+      "phase": "after",
+      "width": 390,
+      "route": "/mission",
+      "title": "Core Values",
+      "settled": true,
+      "file": "after-mission-390-section.png",
+      "passed": true
+    },
+    {
+      "phase": "after",
+      "width": 390,
+      "route": "/sustainability",
+      "title": "Three Pillars of Responsibility",
+      "settled": true,
+      "file": "after-sustainability-390-section.png",
+      "passed": true
+    },
+    {
+      "phase": "after",
+      "width": 390,
+      "route": "/quality",
+      "title": "From Raw Material to Delivery",
+      "settled": true,
+      "file": "after-quality-390-section.png",
+      "passed": true
+    },
+    {
+      "phase": "after",
+      "width": 390,
+      "route": "/certificates",
+      "title": "Internationally Recognized",
+      "settled": true,
+      "file": "after-certificates-390-section.png",
+      "passed": true
+    },
+    {
+      "phase": "after",
+      "width": 390,
+      "route": "/contact",
+      "title": "Dark CTA",
+      "settled": true,
+      "file": "after-contact-390-cta.png",
+      "passed": true
+    },
+    {
+      "phase": "after",
+      "width": 390,
+      "route": "/contact",
+      "title": "Footer clearance",
+      "settled": true,
+      "file": "after-contact-390-footer.png",
+      "passed": true
+    },
+    {
+      "phase": "after",
+      "width": 390,
+      "route": "/gallery",
+      "title": "Lightbox",
+      "settled": true,
+      "file": "after-gallery-390-lightbox.png",
+      "passed": true
+    },
+    {
+      "phase": "after",
+      "width": 390,
+      "route": "/faq",
+      "title": "Expanded FAQ",
+      "settled": true,
+      "file": "after-faq-390-faq.png",
+      "passed": true
+    },
+    {
+      "phase": "after",
+      "width": 390,
+      "route": "/products",
+      "title": "Product detail",
+      "settled": true,
+      "file": "after-products-390-drawer.png",
+      "passed": true
+    },
+    {
+      "phase": "after",
+      "width": 1440,
+      "route": "/about",
+      "title": "Our Journey",
+      "settled": true,
+      "file": "after-about-1440-section.png",
+      "passed": true
+    },
+    {
+      "phase": "after",
+      "width": 1440,
+      "route": "/mission",
+      "title": "Core Values",
+      "settled": true,
+      "file": "after-mission-1440-section.png",
+      "passed": true
+    },
+    {
+      "phase": "after",
+      "width": 1440,
+      "route": "/sustainability",
+      "title": "Three Pillars of Responsibility",
+      "settled": true,
+      "file": "after-sustainability-1440-section.png",
+      "passed": true
+    },
+    {
+      "phase": "after",
+      "width": 1440,
+      "route": "/quality",
+      "title": "From Raw Material to Delivery",
+      "settled": true,
+      "file": "after-quality-1440-section.png",
+      "passed": true
+    },
+    {
+      "phase": "after",
+      "width": 1440,
+      "route": "/certificates",
+      "title": "Internationally Recognized",
+      "settled": true,
+      "file": "after-certificates-1440-section.png",
+      "passed": true
+    },
+    {
+      "phase": "after",
+      "width": 1440,
+      "route": "/contact",
+      "title": "Dark CTA",
+      "settled": true,
+      "file": "after-contact-1440-cta.png",
+      "passed": true
+    },
+    {
+      "phase": "after",
+      "width": 1440,
+      "route": "/contact",
+      "title": "Footer clearance",
+      "settled": true,
+      "file": "after-contact-1440-footer.png",
+      "passed": true
+    },
+    {
+      "phase": "after",
+      "width": 1440,
+      "route": "/gallery",
+      "title": "Lightbox",
+      "settled": true,
+      "file": "after-gallery-1440-lightbox.png",
+      "passed": true
+    },
+    {
+      "phase": "after",
+      "width": 1440,
+      "route": "/faq",
+      "title": "Expanded FAQ",
+      "settled": true,
+      "file": "after-faq-1440-faq.png",
+      "passed": true
+    },
+    {
+      "phase": "after",
+      "width": 1440,
+      "route": "/products",
+      "title": "Product detail",
+      "settled": true,
+      "file": "after-products-1440-drawer.png",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "completed": true,
+  "teardown": {
+    "normal": false,
+    "bounded": true,
+    "connected": false
+  }
+}

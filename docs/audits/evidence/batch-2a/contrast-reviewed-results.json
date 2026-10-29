@@ -1,0 +1,568 @@
+{
+  "states": [
+    {
+      "route": "/",
+      "lang": "en",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".p-8.card-premium.group:nth-child(1) > .mb-6.items-start.justify-between > .text-modina-divider.text-4xl.select-none"
+              ],
+              "html": "<span aria-hidden=\"true\" class=\"text-modina-divider font-display text-4xl font-bold select-none\">01</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.18 (foreground color: #ececec, background color: #ffffff, font size: 27.0pt (36px), font weight: bold). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": [
+                ".p-8.card-premium.group:nth-child(2) > .mb-6.items-start.justify-between > .text-modina-divider.text-4xl.select-none"
+              ],
+              "html": "<span aria-hidden=\"true\" class=\"text-modina-divider font-display text-4xl font-bold select-none\">02</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.18 (foreground color: #ececec, background color: #ffffff, font size: 27.0pt (36px), font weight: bold). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": [
+                ".p-8.card-premium.group:nth-child(3) > .mb-6.items-start.justify-between > .text-modina-divider.text-4xl.select-none"
+              ],
+              "html": "<span aria-hidden=\"true\" class=\"text-modina-divider font-display text-4xl font-bold select-none\">03</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.18 (foreground color: #ececec, background color: #ffffff, font size: 27.0pt (36px), font weight: bold). Expected contrast ratio of 3:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/about",
+      "lang": "en",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".text-modina-divider"
+              ],
+              "html": "<p aria-hidden=\"true\" class=\"font-display font-bold text-modina-divider leading-none select-none tracking-tight\" style=\"font-size: clamp(80px, 14vw, 180px);\">2010</p>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.18 (foreground color: #ececec, background color: #ffffff, font size: 60.0pt (80px), font weight: bold). Expected contrast ratio of 3:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/mission",
+      "lang": "en",
+      "violations": []
+    },
+    {
+      "route": "/sustainability",
+      "lang": "en",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".text-\\[120px\\]"
+              ],
+              "html": "<p aria-hidden=\"true\" class=\"text-[120px] font-display font-bold text-modina-divider leading-none select-none tracking-tight\">CSR</p>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.12 (foreground color: #ececec, background color: #f8f9fb, font size: 90.0pt (120px), font weight: bold). Expected contrast ratio of 3:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/products",
+      "lang": "en",
+      "violations": []
+    },
+    {
+      "route": "/quality",
+      "lang": "en",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".text-\\[120px\\]"
+              ],
+              "html": "<p aria-hidden=\"true\" class=\"text-[120px] md:text-[160px] lg:text-[200px] font-display font-bold text-modina-bg-alt leading-none select-none tracking-tight\">100</p>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.05 (foreground color: #f8f9fb, background color: #ffffff, font size: 90.0pt (120px), font weight: bold). Expected contrast ratio of 3:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/certificates",
+      "lang": "en",
+      "violations": []
+    },
+    {
+      "route": "/downloads",
+      "lang": "en",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".text-\\[80px\\]"
+              ],
+              "html": "<p aria-hidden=\"true\" class=\"text-[80px] sm:text-[120px] font-display font-bold text-modina-divider leading-none select-none\">2026</p>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.18 (foreground color: #ececec, background color: #ffffff, font size: 60.0pt (80px), font weight: bold). Expected contrast ratio of 3:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/news",
+      "lang": "en",
+      "violations": []
+    },
+    {
+      "route": "/news/1",
+      "lang": "en",
+      "violations": []
+    },
+    {
+      "route": "/news/invalid",
+      "lang": "en",
+      "violations": []
+    },
+    {
+      "route": "/blog",
+      "lang": "en",
+      "violations": []
+    },
+    {
+      "route": "/blog/1",
+      "lang": "en",
+      "violations": []
+    },
+    {
+      "route": "/blog/featured",
+      "lang": "en",
+      "violations": []
+    },
+    {
+      "route": "/blog/invalid",
+      "lang": "en",
+      "violations": []
+    },
+    {
+      "route": "/contact",
+      "lang": "en",
+      "violations": []
+    },
+    {
+      "route": "/gallery",
+      "lang": "en",
+      "violations": []
+    },
+    {
+      "route": "/careers",
+      "lang": "en",
+      "violations": []
+    },
+    {
+      "route": "/faq",
+      "lang": "en",
+      "violations": []
+    },
+    {
+      "route": "/privacy",
+      "lang": "en",
+      "violations": []
+    },
+    {
+      "route": "/terms",
+      "lang": "en",
+      "violations": []
+    },
+    {
+      "route": "/audit-missing-page",
+      "lang": "en",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".text-modina-divider"
+              ],
+              "html": "<p aria-hidden=\"true\" class=\"font-display font-bold text-modina-divider leading-none select-none tracking-tight\" style=\"font-size: clamp(120px, 20vw, 280px);\">404</p>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.18 (foreground color: #ececec, background color: #ffffff, font size: 90.0pt (120px), font weight: bold). Expected contrast ratio of 3:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/",
+      "lang": "bn",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".p-8.card-premium.group:nth-child(1) > .mb-6.items-start.justify-between > .text-modina-divider.text-4xl.select-none"
+              ],
+              "html": "<span aria-hidden=\"true\" class=\"text-modina-divider font-display text-4xl font-bold select-none\">01</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.18 (foreground color: #ececec, background color: #ffffff, font size: 27.0pt (36px), font weight: bold). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": [
+                ".p-8.card-premium.group:nth-child(2) > .mb-6.items-start.justify-between > .text-modina-divider.text-4xl.select-none"
+              ],
+              "html": "<span aria-hidden=\"true\" class=\"text-modina-divider font-display text-4xl font-bold select-none\">02</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.18 (foreground color: #ececec, background color: #ffffff, font size: 27.0pt (36px), font weight: bold). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": [
+                ".p-8.card-premium.group:nth-child(3) > .mb-6.items-start.justify-between > .text-modina-divider.text-4xl.select-none"
+              ],
+              "html": "<span aria-hidden=\"true\" class=\"text-modina-divider font-display text-4xl font-bold select-none\">03</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.18 (foreground color: #ececec, background color: #ffffff, font size: 27.0pt (36px), font weight: bold). Expected contrast ratio of 3:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/about",
+      "lang": "bn",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".text-modina-divider"
+              ],
+              "html": "<p aria-hidden=\"true\" class=\"font-display font-bold text-modina-divider leading-none select-none tracking-tight\" style=\"font-size: clamp(80px, 14vw, 180px);\">2010</p>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.18 (foreground color: #ececec, background color: #ffffff, font size: 60.0pt (80px), font weight: bold). Expected contrast ratio of 3:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/mission",
+      "lang": "bn",
+      "violations": []
+    },
+    {
+      "route": "/sustainability",
+      "lang": "bn",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".text-\\[120px\\]"
+              ],
+              "html": "<p aria-hidden=\"true\" class=\"text-[120px] font-display font-bold text-modina-divider leading-none select-none tracking-tight\">CSR</p>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.12 (foreground color: #ececec, background color: #f8f9fb, font size: 90.0pt (120px), font weight: bold). Expected contrast ratio of 3:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/products",
+      "lang": "bn",
+      "violations": []
+    },
+    {
+      "route": "/quality",
+      "lang": "bn",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".text-\\[120px\\]"
+              ],
+              "html": "<p aria-hidden=\"true\" class=\"text-[120px] md:text-[160px] lg:text-[200px] font-display font-bold text-modina-bg-alt leading-none select-none tracking-tight\">100</p>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.05 (foreground color: #f8f9fb, background color: #ffffff, font size: 90.0pt (120px), font weight: bold). Expected contrast ratio of 3:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/certificates",
+      "lang": "bn",
+      "violations": []
+    },
+    {
+      "route": "/downloads",
+      "lang": "bn",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".text-\\[80px\\]"
+              ],
+              "html": "<p aria-hidden=\"true\" class=\"text-[80px] sm:text-[120px] font-display font-bold text-modina-divider leading-none select-none\">2026</p>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.18 (foreground color: #ececec, background color: #ffffff, font size: 60.0pt (80px), font weight: bold). Expected contrast ratio of 3:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/news",
+      "lang": "bn",
+      "violations": []
+    },
+    {
+      "route": "/news/1",
+      "lang": "bn",
+      "violations": []
+    },
+    {
+      "route": "/news/invalid",
+      "lang": "bn",
+      "violations": []
+    },
+    {
+      "route": "/blog",
+      "lang": "bn",
+      "violations": []
+    },
+    {
+      "route": "/blog/1",
+      "lang": "bn",
+      "violations": []
+    },
+    {
+      "route": "/blog/featured",
+      "lang": "bn",
+      "violations": []
+    },
+    {
+      "route": "/blog/invalid",
+      "lang": "bn",
+      "violations": []
+    },
+    {
+      "route": "/contact",
+      "lang": "bn",
+      "violations": []
+    },
+    {
+      "route": "/gallery",
+      "lang": "bn",
+      "violations": []
+    },
+    {
+      "route": "/careers",
+      "lang": "bn",
+      "violations": []
+    },
+    {
+      "route": "/faq",
+      "lang": "bn",
+      "violations": []
+    },
+    {
+      "route": "/privacy",
+      "lang": "bn",
+      "violations": []
+    },
+    {
+      "route": "/terms",
+      "lang": "bn",
+      "violations": []
+    },
+    {
+      "route": "/audit-missing-page",
+      "lang": "bn",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".text-modina-divider"
+              ],
+              "html": "<p aria-hidden=\"true\" class=\"font-display font-bold text-modina-divider leading-none select-none tracking-tight\" style=\"font-size: clamp(120px, 20vw, 280px);\">404</p>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.18 (foreground color: #ececec, background color: #ffffff, font size: 90.0pt (120px), font weight: bold). Expected contrast ratio of 3:1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "blocked": [
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    }
+  ],
+  "browserPid": 12640,
+  "completed": true,
+  "teardown": {
+    "normal": false,
+    "bounded": true
+  },
+  "serverStopped": true
+}

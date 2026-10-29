@@ -1,0 +1,292 @@
+{
+  "mode": "group1-review",
+  "base": "http://127.0.0.1:4199",
+  "states": [
+    {
+      "route": "/products",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Products | Modina Rim & Parts Ltd. — 21 SKUs, Bangladesh",
+      "targets": [
+        {
+          "text": "Search products...",
+          "top": 522
+        },
+        {
+          "text": "Product Catalogue",
+          "top": 661
+        },
+        {
+          "text": "Ready to Placean Order?",
+          "top": 5531
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/contact",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Contact Us | Modina Rim & Parts Ltd. — Jashore, Bangladesh",
+      "targets": [
+        {
+          "text": "Let's Talk",
+          "top": 601
+        },
+        {
+          "text": "Full Name *Company NameEmail *PhoneSubject *Select a subject",
+          "top": 664
+        },
+        {
+          "text": "Your full name",
+          "top": 691
+        },
+        {
+          "text": "Your company",
+          "top": 798
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/products",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Products | Modina Rim & Parts Ltd. — 21 SKUs, Bangladesh",
+      "targets": [
+        {
+          "text": "Search products...",
+          "top": 577
+        },
+        {
+          "text": "Product Catalogue",
+          "top": 691
+        },
+        {
+          "text": "Ready to Placean Order?",
+          "top": 2714
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/contact",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Contact Us | Modina Rim & Parts Ltd. — Jashore, Bangladesh",
+      "targets": [
+        {
+          "text": "Let's Talk",
+          "top": 678
+        },
+        {
+          "text": "Full Name *Company NameEmail *PhoneSubject *Select a subject",
+          "top": 760
+        },
+        {
+          "text": "Your full name",
+          "top": 787
+        },
+        {
+          "text": "Your company",
+          "top": 894
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/products",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Products | Modina Rim & Parts Ltd. — 21 SKUs, Bangladesh",
+      "targets": [
+        {
+          "text": "Search products...",
+          "top": 539
+        },
+        {
+          "text": "পণ্যের ক্যাটালগ",
+          "top": 678
+        },
+        {
+          "text": "Ready to Placean Order?",
+          "top": 5622
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/contact",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Contact Us | Modina Rim & Parts Ltd. — Jashore, Bangladesh",
+      "targets": [
+        {
+          "text": "Let's Talk",
+          "top": 599
+        },
+        {
+          "text": "Full Name *Company NameEmail *PhoneSubject *Select a subject",
+          "top": 668
+        },
+        {
+          "text": "Your full name",
+          "top": 695
+        },
+        {
+          "text": "Your company",
+          "top": 802
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/products",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Products | Modina Rim & Parts Ltd. — 21 SKUs, Bangladesh",
+      "targets": [
+        {
+          "text": "Search products...",
+          "top": 598
+        },
+        {
+          "text": "পণ্যের ক্যাটালগ",
+          "top": 712
+        },
+        {
+          "text": "Ready to Placean Order?",
+          "top": 2770
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/contact",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Contact Us | Modina Rim & Parts Ltd. — Jashore, Bangladesh",
+      "targets": [
+        {
+          "text": "Let's Talk",
+          "top": 699
+        },
+        {
+          "text": "Full Name *Company NameEmail *PhoneSubject *Select a subject",
+          "top": 790
+        },
+        {
+          "text": "Your full name",
+          "top": 817
+        },
+        {
+          "text": "Your company",
+          "top": 936
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "captures": [
+    "group1-review-products-390-en-hero.png",
+    {
+      "file": "group1-review-products-390-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          24,
+          177,
+          342,
+          491
+        ],
+        "images": true
+      }
+    },
+    "group1-review-contact-390-en-hero.png",
+    {
+      "file": "group1-review-contact-390-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          24,
+          411.5,
+          342,
+          56
+        ],
+        "images": true
+      }
+    },
+    "group1-review-products-1440-en-hero.png",
+    {
+      "file": "group1-review-products-1440-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          152,
+          193,
+          357.5,
+          513.5
+        ],
+        "images": true
+      }
+    },
+    "group1-review-contact-1440-en-hero.png",
+    {
+      "file": "group1-review-contact-1440-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          64,
+          419.5,
+          591,
+          56
+        ],
+        "images": true
+      }
+    },
+    "group1-review-products-390-bn-hero.png",
+    {
+      "file": "group1-review-products-390-bn-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          24,
+          172.5,
+          342,
+          499.5
+        ],
+        "images": true
+      }
+    },
+    "group1-review-contact-390-bn-hero.png",
+    {
+      "file": "group1-review-contact-390-bn-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          24,
+          412,
+          342,
+          56
+        ],
+        "images": true
+      }
+    }
+  ],
+  "browser": "156.0.8078.49",
+  "completed": true,
+  "teardown": {
+    "normal": false,
+    "bounded": true,
+    "connected": false
+  }
+}

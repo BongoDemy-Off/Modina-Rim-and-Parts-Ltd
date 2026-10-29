@@ -1,0 +1,5 @@
+footer-final en 390 /contact
+footer-final en 1440 /contact
+footer-final bn 390 /contact
+footer-final bn 1440 /contact
+RESULT 4 states 0 failures

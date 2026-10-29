@@ -60,15 +60,15 @@ export default function BlogDetail() {
 
   if (!post) {
     return (
-      <div className="min-h-screen bg-white text-modina-text pt-[112px] sm:pt-[72px] flex flex-col items-center justify-center gap-6">
-        <p className="text-xs font-bold tracking-widest text-modina-muted uppercase">Article not found</p>
+      <div className="min-h-screen bg-white text-modina-text pt-[112px] sm:pt-[72px] flex flex-col items-center justify-center gap-6 public-page public-recovery">
+        <h1 className="public-article-title text-modina-heading text-center">Article not found</h1>
         <Link to="/blog" className="text-xs font-bold tracking-widest text-modina-red uppercase hover:text-modina-heading transition-colors duration-300">← Back to Blog</Link>
       </div>
     );
   }
 
   return (
-    <div className="min-h-screen bg-white text-modina-text pt-[112px] sm:pt-[72px]">
+    <div className="min-h-screen bg-white text-modina-text pt-[112px] sm:pt-[72px] public-page">
       <Helmet>
         <title>{post.title} | Modina Blog</title>
         <meta name="description" content={post.excerpt} />
@@ -76,7 +76,7 @@ export default function BlogDetail() {
       </Helmet>
 
       {/* HERO */}
-      <div className="relative w-full h-[45vh] md:h-[55vh] overflow-hidden">
+      <div className="public-article-media relative w-full overflow-hidden">
         <motion.img
           initial={{ scale: 1.06 }} animate={{ scale: 1 }}
           transition={{ duration: 1.4, ease: [0.16, 1, 0.3, 1] }}
@@ -85,14 +85,14 @@ export default function BlogDetail() {
           referrerPolicy="no-referrer"
         />
         <div className="absolute inset-0 bg-[linear-gradient(to_top,rgba(15,23,42,0.7)_0%,transparent_55%)]" />
-        <div className="absolute bottom-8 left-0 right-0 container mx-auto px-6 md:px-12 lg:px-24">
-          <span className="text-xs font-bold tracking-widest text-modina-red uppercase border border-modina-red/40 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-sm">{post.category}</span>
+        <div className="absolute bottom-8 left-0 right-0 container-premium">
+          <span className="text-xs font-bold tracking-widest text-modina-red uppercase border border-modina-red/40 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-sm public-meta">{post.category}</span>
         </div>
       </div>
 
       {/* ARTICLE */}
-      <article className="container mx-auto px-6 md:px-12 lg:px-24 py-16 max-w-3xl">
-        <div className="text-xs font-bold tracking-widest text-modina-muted uppercase flex items-center gap-2 mb-10 flex-wrap">
+      <article className="container-premium public-task-content max-w-3xl public-reading">
+        <div className="text-xs font-bold tracking-widest text-modina-muted uppercase flex items-center gap-2 mb-10 flex-wrap public-breadcrumb">
           <Link to="/" className="hover:text-modina-red transition-colors duration-300">Home</Link>
           <ChevronRight className="w-2.5 h-2.5" />
           <Link to="/blog" className="hover:text-modina-red transition-colors duration-300">Blog</Link>
@@ -101,26 +101,26 @@ export default function BlogDetail() {
         </div>
 
         <div className="flex items-center gap-6 mb-5 flex-wrap">
-          <span className="text-xs font-bold tracking-widest text-modina-muted uppercase">{post.date}</span>
+          <span className="text-xs font-bold tracking-widest text-modina-muted uppercase public-meta">{post.date}</span>
           <span className="w-[0.5px] h-3 bg-modina-divider" />
-          <div className="flex items-center gap-2"><Clock className="w-3 h-3 text-modina-subtle" /><span className="text-xs font-bold tracking-widest text-modina-muted uppercase">{post.readTime}</span></div>
+          <div className="flex items-center gap-2"><Clock className="w-3 h-3 text-modina-subtle" /><span className="text-xs font-bold tracking-widest text-modina-muted uppercase public-meta">{post.readTime}</span></div>
         </div>
 
         <motion.h1
           initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
-          className="font-display font-bold text-modina-heading text-3xl md:text-4xl lg:text-5xl tracking-tight leading-tight mb-8"
+          className="font-display font-bold text-modina-heading tracking-tight leading-tight mb-8 public-article-title"
         >
           {post.title}
         </motion.h1>
 
         <div className="w-16 h-[2px] bg-modina-red mb-8" />
 
-        <p className="text-[16px] text-modina-muted font-light leading-relaxed mb-10 border-l-2 border-modina-red pl-6">{post.excerpt}</p>
+        <p className="text-[16px] text-modina-muted font-light leading-relaxed mb-10 border-l-2 border-modina-red pl-6 public-body">{post.excerpt}</p>
 
         <div className="flex flex-wrap gap-2 mb-10">
           {post.tags.map(tag => (
-            <span key={tag} className="flex items-center gap-1.5 text-xs font-bold tracking-widest text-modina-muted border border-modina-border px-3 py-1 uppercase rounded-sm">
+            <span key={tag} className="flex items-center gap-1.5 text-xs font-bold tracking-widest text-modina-muted border border-modina-border px-3 py-1 uppercase rounded-sm public-meta">
               <Tag className="w-2.5 h-2.5" />{tag}
             </span>
           ))}
@@ -132,7 +132,7 @@ export default function BlogDetail() {
             initial={{ opacity: 0, y: 12 }} whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: '-40px' }}
             transition={{ duration: 0.5, delay: i * 0.04 }}
-            className="text-[15px] text-modina-muted font-light leading-relaxed mb-6"
+            className="text-[15px] text-modina-muted font-light leading-relaxed mb-6 public-body"
           >
             {para}
           </motion.p>
@@ -140,8 +140,8 @@ export default function BlogDetail() {
 
         <div className="mt-14 pt-8 border-t border-modina-divider flex items-center justify-between flex-wrap gap-4">
           <div>
-            <p className="text-xs font-bold tracking-widest text-modina-subtle uppercase mb-1">Published by</p>
-            <p className="text-xs font-bold tracking-widest text-modina-muted uppercase">Modina Rim &amp; Parts Ltd.</p>
+            <p className="text-xs font-bold tracking-widest text-modina-subtle uppercase mb-1 public-meta">Published by</p>
+            <p className="text-xs font-bold tracking-widest text-modina-muted uppercase public-meta">Modina Rim &amp; Parts Ltd.</p>
           </div>
           <button type="button" onClick={() => navigate('/blog')} className="flex items-center gap-2 text-xs font-bold tracking-widest text-modina-muted uppercase hover:text-modina-red transition-all duration-300 ease-in-out">
             <ArrowLeft className="w-3 h-3" /> Back to Blog
@@ -156,15 +156,15 @@ export default function BlogDetail() {
             {prev ? (
               <Link to={`/blog/${prev.id}`} className="group min-w-0 bg-modina-bg-alt p-6 sm:p-8 lg:p-10 flex flex-col gap-3 relative transition-all duration-300 ease-in-out hover:bg-white">
                 <div className="absolute top-0 left-0 w-0 group-hover:w-full h-[2px] bg-modina-red transition-all duration-500" />
-                <div className="flex items-center gap-2 text-modina-subtle group-hover:text-modina-red transition-colors duration-300"><ArrowLeft className="w-3.5 h-3.5" /><span className="text-xs font-bold tracking-widest uppercase">Previous</span></div>
-                <h3 className="font-display font-bold text-modina-muted group-hover:text-modina-heading text-lg tracking-tight transition-colors duration-300 line-clamp-2">{prev.title}</h3>
+                <div className="flex items-center gap-2 text-modina-subtle group-hover:text-modina-red transition-colors duration-300"><ArrowLeft className="w-3.5 h-3.5" /><span className="text-xs font-bold tracking-widest uppercase public-meta">Previous</span></div>
+                <h3 className="font-display font-bold text-modina-muted group-hover:text-modina-heading text-lg tracking-tight transition-colors duration-300 line-clamp-2 public-card-title">{prev.title}</h3>
               </Link>
             ) : <div className="bg-modina-bg-alt" />}
             {next ? (
               <Link to={`/blog/${next.id}`} className="group bg-modina-bg-alt p-8 lg:p-10 flex flex-col gap-3 items-end text-right relative transition-all duration-300 ease-in-out hover:bg-white">
                 <div className="absolute top-0 right-0 w-0 group-hover:w-full h-[2px] bg-modina-red transition-all duration-500" />
-                <div className="flex items-center gap-2 text-modina-subtle group-hover:text-modina-red transition-colors duration-300"><span className="text-xs font-bold tracking-widest uppercase">Next</span><ArrowRight className="w-3.5 h-3.5" /></div>
-                <h3 className="font-display font-bold text-modina-muted group-hover:text-modina-heading text-lg tracking-tight transition-colors duration-300 line-clamp-2">{next.title}</h3>
+                <div className="flex items-center gap-2 text-modina-subtle group-hover:text-modina-red transition-colors duration-300"><span className="text-xs font-bold tracking-widest uppercase public-meta">Next</span><ArrowRight className="w-3.5 h-3.5" /></div>
+                <h3 className="font-display font-bold text-modina-muted group-hover:text-modina-heading text-lg tracking-tight transition-colors duration-300 line-clamp-2 public-card-title">{next.title}</h3>
               </Link>
             ) : <div className="bg-modina-bg-alt" />}
           </div>

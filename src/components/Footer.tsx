@@ -30,17 +30,17 @@ export default function Footer() {
           <div className="grid w-full grid-cols-[1fr_auto_1fr_auto_1fr] items-center sm:w-auto">
             <div className="flex min-w-0 flex-col items-center px-2 py-2 sm:px-8">
               <span className="text-2xl font-bold text-modina-red">ISO</span>
-              <span className="text-modina-muted text-xs font-medium mt-1">Certified</span>
+              <span className="text-modina-muted text-xs font-medium mt-1 public-meta">Certified</span>
             </div>
             <div className="w-px h-8 bg-modina-divider" />
             <div className="flex min-w-0 flex-col items-center px-2 py-2 sm:px-8">
               <span className="text-2xl font-bold text-modina-red">15+</span>
-              <span className="text-modina-muted text-xs font-medium mt-1">Years</span>
+              <span className="text-modina-muted text-xs font-medium mt-1 public-meta">Years</span>
             </div>
             <div className="w-px h-8 bg-modina-divider" />
             <div className="flex min-w-0 flex-col items-center px-2 py-2 sm:px-8">
               <span className="text-2xl font-bold text-modina-red">21+</span>
-              <span className="text-modina-muted text-xs font-medium mt-1">Products</span>
+              <span className="text-modina-muted text-xs font-medium mt-1 public-meta">Products</span>
             </div>
           </div>
         </div>
@@ -53,19 +53,19 @@ export default function Footer() {
 
             {/* CELL 1 — Company description */}
             <div>
-              <p className="text-modina-red text-xs font-bold tracking-widest uppercase mb-5">— {t('footer.about')}</p>
-              <p className="text-[15px] text-modina-muted leading-relaxed mb-8">
+              <p className="text-modina-red text-xs font-bold tracking-widest uppercase mb-5 public-meta">— {t('footer.about')}</p>
+              <p className="text-[15px] text-modina-muted leading-relaxed mb-8 public-copy">
                 {t('footer.tagline')}
               </p>
               <div>
-                <p className="text-modina-subtle text-xs font-semibold uppercase tracking-wider mb-3">— {t('footer.stay_updated')}</p>
+                <p className="text-modina-subtle text-xs font-semibold uppercase tracking-wider mb-3 public-meta">— {t('footer.stay_updated')}</p>
                 <div className="flex gap-0 border border-modina-border rounded-lg overflow-hidden">
                   <input
                     type="email"
                     placeholder="your@email.com"
                     className="min-w-0 flex-1 bg-transparent focus:outline-none text-base text-modina-text placeholder:text-modina-subtle py-3 px-4 transition-colors"
                   />
-                  <button type="button" className="bg-modina-red px-4 py-3 text-white text-xs font-bold tracking-wider uppercase hover:bg-modina-red-dark transition-colors duration-200">
+                  <button type="button" className="bg-modina-red px-4 py-3 text-white text-xs font-bold tracking-wider uppercase hover:bg-modina-red-dark transition-colors duration-200 public-meta">
                     {t('footer.join')}
                   </button>
                 </div>
@@ -90,7 +90,7 @@ export default function Footer() {
 
             {/* CELL 2 — Company links */}
             <div>
-              <p className="text-modina-red text-xs font-bold tracking-widest uppercase mb-5">— {t('footer.company')}</p>
+              <p className="text-modina-red text-xs font-bold tracking-widest uppercase mb-5 public-meta">— {t('footer.company')}</p>
               <div className="flex flex-col">
                 {[
                   { label: t('nav.about'), path: '/about' },
@@ -114,7 +114,7 @@ export default function Footer() {
 
             {/* CELL 3 — Products links */}
             <div>
-              <p className="text-modina-red text-xs font-bold tracking-widest uppercase mb-5">— {t('footer.products_label')}</p>
+              <p className="text-modina-red text-xs font-bold tracking-widest uppercase mb-5 public-meta">— {t('footer.products_label')}</p>
               <div className="flex flex-col">
                 {[
                   { label: t('footer.view_all'), path: '/products' },
@@ -138,7 +138,7 @@ export default function Footer() {
 
             {/* CELL 4 — Contact info */}
             <div>
-              <p className="text-modina-red text-xs font-bold tracking-widest uppercase mb-5">— {t('nav.contact')}</p>
+              <p className="text-modina-red text-xs font-bold tracking-widest uppercase mb-5 public-meta">— {t('nav.contact')}</p>
               <div className="flex flex-col gap-4">
                 {[
                   { Icon: MapPin, label: 'Address', value: 'Plot S1/A, BSCIC Industrial Area, Jhumjhumpur, Jashore, Bangladesh' },
@@ -151,7 +151,7 @@ export default function Footer() {
                       <Icon className="w-4 h-4 text-modina-red" />
                     </div>
                     <div className="flex flex-col gap-0.5">
-                      <span className="text-modina-subtle text-xs font-semibold uppercase tracking-wider">{label}</span>
+                      <span className="text-modina-subtle text-xs font-semibold uppercase tracking-wider public-meta">{label}</span>
                       <span className="text-modina-text text-sm font-medium leading-snug">{value}</span>
                     </div>
                   </div>

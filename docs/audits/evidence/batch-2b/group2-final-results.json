@@ -1,0 +1,285 @@
+{
+  "mode": "group2-final",
+  "base": "http://127.0.0.1:4199",
+  "states": [
+    {
+      "route": "/downloads",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Downloads | Modina Rim & Parts Ltd. — Catalogs, Certificates & Technical Docs",
+      "targets": [
+        {
+          "text": "Search files...",
+          "top": 488
+        },
+        {
+          "text": "Resources",
+          "top": 637
+        },
+        {
+          "text": "Product Catalog 2026",
+          "top": 4257
+        },
+        {
+          "text": "Can't FindWhat You Need?",
+          "top": 4927
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/downloads",
+      "width": 390,
+      "lang": "en",
+      "passed": false,
+      "error": "page.screenshot: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n"
+    },
+    {
+      "route": "/careers",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Careers | Modina Rim & Parts Ltd. — Join Our Team",
+      "targets": [
+        {
+          "text": "Build Your CareerIn Precision",
+          "top": 566
+        },
+        {
+          "text": "Build Your Career In Precision",
+          "top": 2677
+        },
+        {
+          "text": "Send Us YourCV Anyway",
+          "top": 4207
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/downloads",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Downloads | Modina Rim & Parts Ltd. — Catalogs, Certificates & Technical Docs",
+      "targets": [
+        {
+          "text": "Search files...",
+          "top": 525
+        },
+        {
+          "text": "Resources",
+          "top": 640
+        },
+        {
+          "text": "Product Catalog 2026",
+          "top": 2242
+        },
+        {
+          "text": "Can't FindWhat You Need?",
+          "top": 2924
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/careers",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Careers | Modina Rim & Parts Ltd. — Join Our Team",
+      "targets": [
+        {
+          "text": "Build Your CareerIn Precision",
+          "top": 649
+        },
+        {
+          "text": "Build Your Career In Precision",
+          "top": 1784
+        },
+        {
+          "text": "Send Us YourCV Anyway",
+          "top": 2930
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/downloads",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Downloads | Modina Rim & Parts Ltd. — Catalogs, Certificates & Technical Docs",
+      "targets": [
+        {
+          "text": "Search files...",
+          "top": 498
+        },
+        {
+          "text": "Resources",
+          "top": 647
+        },
+        {
+          "text": "Product Catalog 2026",
+          "top": 4333
+        },
+        {
+          "text": "Can't FindWhat You Need?",
+          "top": 5000
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/careers",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Careers | Modina Rim & Parts Ltd. — Join Our Team",
+      "targets": [
+        {
+          "text": "Build Your CareerIn Precision",
+          "top": 576
+        },
+        {
+          "text": "Build Your Career In Precision",
+          "top": 2609
+        },
+        {
+          "text": "Send Us YourCV Anyway",
+          "top": 4106
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/downloads",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Downloads | Modina Rim & Parts Ltd. — Catalogs, Certificates & Technical Docs",
+      "targets": [
+        {
+          "text": "Search files...",
+          "top": 543
+        },
+        {
+          "text": "Resources",
+          "top": 658
+        },
+        {
+          "text": "Product Catalog 2026",
+          "top": 2293
+        },
+        {
+          "text": "Can't FindWhat You Need?",
+          "top": 2902
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/careers",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Careers | Modina Rim & Parts Ltd. — Join Our Team",
+      "targets": [
+        {
+          "text": "Build Your CareerIn Precision",
+          "top": 667
+        },
+        {
+          "text": "Build Your Career In Precision",
+          "top": 1815
+        },
+        {
+          "text": "Send Us YourCV Anyway",
+          "top": 2985
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "captures": [
+    "group2-final-careers-390-en-hero.png",
+    {
+      "file": "group2-final-careers-390-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          24,
+          267,
+          342,
+          310.5
+        ],
+        "images": true
+      }
+    },
+    "group2-final-downloads-1440-en-hero.png",
+    {
+      "file": "group2-final-downloads-1440-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          177,
+          433.5,
+          312.5,
+          32.5
+        ],
+        "images": true
+      }
+    },
+    "group2-final-careers-1440-en-hero.png",
+    {
+      "file": "group2-final-careers-1440-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          152,
+          244,
+          362.5,
+          348.5
+        ],
+        "images": true
+      }
+    },
+    "group2-final-downloads-390-bn-hero.png",
+    {
+      "file": "group2-final-downloads-390-bn-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          49,
+          408.5,
+          292,
+          28
+        ],
+        "images": true
+      }
+    },
+    "group2-final-careers-390-bn-hero.png",
+    {
+      "file": "group2-final-careers-390-bn-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          24,
+          275.5,
+          342,
+          292.5
+        ],
+        "images": true
+      }
+    }
+  ],
+  "browser": "156.0.8078.49",
+  "completed": true,
+  "teardown": {
+    "normal": false,
+    "bounded": true,
+    "connected": false
+  }
+}

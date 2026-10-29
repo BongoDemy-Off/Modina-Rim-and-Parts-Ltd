@@ -1,0 +1,5 @@
+PASS intro 320 natural
+PASS intro 1440 natural
+PASS intro 320 skip
+PASS intro 390 reduced
+RESULT 4/4

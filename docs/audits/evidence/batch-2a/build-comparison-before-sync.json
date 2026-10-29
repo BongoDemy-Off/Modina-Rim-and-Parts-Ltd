@@ -1,0 +1,46 @@
+{
+  "workspaceOnly": [
+    {
+      "path": "assets/AdminRoutes-D6B0T3Su.js",
+      "size": 638660,
+      "hash": "4bcc0357cb3d2a866339abbd6b0f6c55680876529ef9daa7796d25ecce899ccf"
+    },
+    {
+      "path": "assets/index-CkI7LcT-.js",
+      "size": 1119138,
+      "hash": "c56940dc753004b4499a6b9fbc2e596fe6de77d93708be9547b5412e4eb06287"
+    },
+    {
+      "path": "assets/index-ENv0hXpe.css",
+      "size": 94094,
+      "hash": "0fe77557579963ed23f93aac4a641f739310898a168a5cb4f5d4db04463baefe"
+    },
+    {
+      "path": "index.html",
+      "size": 2410,
+      "hash": "5eb1398c207eaf1d8e640b737d237889d29fc24f237f3768936023799f9fb66d"
+    }
+  ],
+  "testedOnly": [
+    {
+      "path": "assets/AdminRoutes-C5aTvVgk.js",
+      "size": 638660,
+      "hash": "b187806f2eb25367ca8ed106e452cbec6b64c66fef0bf683ef64c1ee7553b7a6"
+    },
+    {
+      "path": "assets/index-Db8_3Swx.js",
+      "size": 1119138,
+      "hash": "900a47e4246462ea6266a71917a2a6e51e6691e5ed637e97e49bcc0e115c9754"
+    },
+    {
+      "path": "assets/index-RfHfpK69.css",
+      "size": 94088,
+      "hash": "0c4248244fdfdc184870c9c3cf2f5a1b5be2df0d1faae8bbc05549812dd013ae"
+    },
+    {
+      "path": "index.html",
+      "size": 2410,
+      "hash": "182e5174fb916cfdff229caf2f91f07c54828e4ddfe42a1f97a0941c8cbb97ea"
+    }
+  ]
+}

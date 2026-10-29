@@ -1,0 +1,83 @@
+{
+  "baseURL": "http://127.0.0.1:4191",
+  "browser": "156.0.8078.48",
+  "runtime": "v24.19.0",
+  "navigation": [
+    {
+      "url": "http://127.0.0.1:4191/products",
+      "status": 200,
+      "domcontentloadedMs": 986
+    },
+    {
+      "url": "http://127.0.0.1:4191/products",
+      "status": 200,
+      "domcontentloadedMs": 1678
+    }
+  ],
+  "resources": [
+    {
+      "type": "locally-fulfilled-analytics",
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "resourceType": "fetch"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1440,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4191/products",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "locally-fulfilled-analytics",
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "resourceType": "fetch"
+    },
+    {
+      "type": "failed",
+      "lang": "bn",
+      "width": 1440,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4191/products",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    }
+  ],
+  "cases": [
+    {
+      "name": "en/1440/products",
+      "passed": true
+    },
+    {
+      "name": "bn/1440/products",
+      "passed": true
+    }
+  ],
+  "console": [],
+  "axe": [],
+  "geometry": [
+    {
+      "lang": "en",
+      "route": "products",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headerHeight": 64
+    },
+    {
+      "lang": "bn",
+      "route": "products",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headerHeight": 64.015625
+    }
+  ],
+  "teardown": {
+    "closedNormally": true
+  },
+  "completed": true
+}

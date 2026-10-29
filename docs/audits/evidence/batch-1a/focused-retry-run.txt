@@ -1,0 +1,13 @@
+AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+
+'3px' !== '2px'
+
+    at C:\Users\BongoDemy\Documents\BongoDemy\Modina-Rim-and-Parts-Ltd\docs\audits\evidence\batch-1a\focused.cjs:57:135 {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: '3px',
+  expected: '2px',
+  operator: 'strictEqual',
+  diff: 'simple'
+}
+Browser teardown watchdog used for owned PID 12380; assertions were saved first.

@@ -1,0 +1,153 @@
+{
+  "runtime": "v24.19.0",
+  "pages": [
+    {
+      "url": "https://modina-rim-and-parts-ltd.vercel.app/products",
+      "requests": [
+        {
+          "url": "https://modina-rim-and-parts-ltd.vercel.app/products",
+          "resourceType": "Document",
+          "method": "GET"
+        },
+        {
+          "url": "https://modina-rim-and-parts-ltd.vercel.app/favicon.ico",
+          "resourceType": "Other",
+          "method": "GET"
+        }
+      ],
+      "failures": [
+        {
+          "url": "https://modina-rim-and-parts-ltd.vercel.app/favicon.ico",
+          "resourceType": "Other",
+          "method": "GET",
+          "error": "net::ERR_ABORTED",
+          "canceled": true
+        }
+      ],
+      "httpErrors": [
+        {
+          "url": "https://modina-rim-and-parts-ltd.vercel.app/products",
+          "status": 404,
+          "resourceType": "document"
+        }
+      ],
+      "preventedWrites": [],
+      "errors": [],
+      "status": 404,
+      "domcontentloadedMs": 270,
+      "navigationError": "locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('main .card-premium').first()\u001b[22m\n"
+    },
+    {
+      "url": "https://modina-rim-and-parts-ltd.vercel.app/gallery",
+      "requests": [
+        {
+          "url": "https://modina-rim-and-parts-ltd.vercel.app/gallery",
+          "resourceType": "Document",
+          "method": "GET"
+        },
+        {
+          "url": "https://modina-rim-and-parts-ltd.vercel.app/favicon.ico",
+          "resourceType": "Other",
+          "method": "GET"
+        }
+      ],
+      "failures": [
+        {
+          "url": "https://modina-rim-and-parts-ltd.vercel.app/favicon.ico",
+          "resourceType": "Other",
+          "method": "GET",
+          "error": "net::ERR_ABORTED",
+          "canceled": true
+        }
+      ],
+      "httpErrors": [
+        {
+          "url": "https://modina-rim-and-parts-ltd.vercel.app/gallery",
+          "status": 404,
+          "resourceType": "document"
+        }
+      ],
+      "preventedWrites": [],
+      "errors": [],
+      "status": 404,
+      "domcontentloadedMs": 459,
+      "navigationError": "locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('main img').first()\u001b[22m\n"
+    },
+    {
+      "url": "https://modinarimandpartsltd.netlify.app/products",
+      "requests": [
+        {
+          "url": "https://modinarimandpartsltd.netlify.app/products",
+          "resourceType": "Document",
+          "method": "GET"
+        },
+        {
+          "url": "https://modinarimandpartsltd.netlify.app/favicon.ico",
+          "resourceType": "Other",
+          "method": "GET"
+        }
+      ],
+      "failures": [
+        {
+          "url": "https://modinarimandpartsltd.netlify.app/favicon.ico",
+          "resourceType": "Other",
+          "method": "GET",
+          "error": "net::ERR_ABORTED",
+          "canceled": true
+        }
+      ],
+      "httpErrors": [
+        {
+          "url": "https://modinarimandpartsltd.netlify.app/products",
+          "status": 404,
+          "resourceType": "document"
+        }
+      ],
+      "preventedWrites": [],
+      "errors": [],
+      "status": 404,
+      "domcontentloadedMs": 1425,
+      "navigationError": "locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('main .card-premium').first()\u001b[22m\n"
+    },
+    {
+      "url": "https://modinarimandpartsltd.netlify.app/gallery",
+      "requests": [
+        {
+          "url": "https://modinarimandpartsltd.netlify.app/gallery",
+          "resourceType": "Document",
+          "method": "GET"
+        },
+        {
+          "url": "https://modinarimandpartsltd.netlify.app/favicon.ico",
+          "resourceType": "Other",
+          "method": "GET"
+        }
+      ],
+      "failures": [
+        {
+          "url": "https://modinarimandpartsltd.netlify.app/favicon.ico",
+          "resourceType": "Other",
+          "method": "GET",
+          "error": "net::ERR_ABORTED",
+          "canceled": true
+        }
+      ],
+      "httpErrors": [
+        {
+          "url": "https://modinarimandpartsltd.netlify.app/gallery",
+          "status": 404,
+          "resourceType": "document"
+        }
+      ],
+      "preventedWrites": [],
+      "errors": [],
+      "status": 404,
+      "domcontentloadedMs": 629,
+      "navigationError": "locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('main img').first()\u001b[22m\n"
+    }
+  ],
+  "browser": "156.0.8078.48",
+  "teardown": {
+    "closedNormally": true
+  }
+}

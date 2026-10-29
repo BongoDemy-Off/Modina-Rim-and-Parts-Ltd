@@ -1,0 +1,36 @@
+PASS en /products enlarged text
+PASS en /contact enlarged text
+PASS en /downloads enlarged text
+FAIL en /about enlarged text The expression evaluated to a falsy value:
+
+  assert.ok(r.size.scrollWidth<=r.size.width+1)
+
+PASS en /sustainability enlarged text
+PASS en /quality enlarged text
+FAIL en /certificates enlarged text The expression evaluated to a falsy value:
+
+  assert.ok(r.size.scrollWidth<=r.size.width+1)
+
+FAIL en /news enlarged text The expression evaluated to a falsy value:
+
+  assert.ok(r.size.scrollWidth<=r.size.width+1)
+
+PASS en /blog enlarged text
+PASS en long Bengali heading stress at 320
+PASS bn /products enlarged text
+PASS bn /contact enlarged text
+PASS bn /downloads enlarged text
+FAIL bn /about enlarged text The expression evaluated to a falsy value:
+
+  assert.ok(r.size.scrollWidth<=r.size.width+1)
+
+PASS bn /sustainability enlarged text
+PASS bn /quality enlarged text
+PASS bn /certificates enlarged text
+FAIL bn /news enlarged text The expression evaluated to a falsy value:
+
+  assert.ok(r.size.scrollWidth<=r.size.width+1)
+
+PASS bn /blog enlarged text
+PASS bn long Bengali heading stress at 320
+RESULT 15/20

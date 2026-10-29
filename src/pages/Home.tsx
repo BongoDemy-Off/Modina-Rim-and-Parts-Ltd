@@ -1,9 +1,10 @@
 import React, { useRef, useEffect, useState } from 'react';
 import { Helmet } from 'react-helmet-async';
-import { motion, useInView, useMotionValue, useTransform, animate, AnimatePresence } from 'motion/react';
+import { motion, useInView, useMotionValue, useTransform, animate, AnimatePresence, useReducedMotion } from 'motion/react';
 import { Link } from 'react-router-dom';
 import { ChevronLeft, ChevronRight, ArrowRight, ShieldCheck, Settings, Award, Download, Quote, Bell, UserRound, Globe as GlobeIcon, Package, CalendarClock } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import PublicVideo from '../components/PublicVideo';
 import facilityVideo from '@/assets/State of the Art Facility.webm';
 import premiumRimsImg from '@/assets/Premium Rims.webp';
 import wasarImg from '@/assets/wasar.webp';
@@ -11,6 +12,7 @@ import cngRimImg from '@/assets/CNG Rim.webp';
 import bicycleRickshawImg from '@/assets/cat_motorcycle_parts.webp';
 
 function AnimatedCounter({ target, suffix = '' }: { target: number; suffix?: string }) {
+  const reduceMotion = useReducedMotion();
   const ref = useRef<HTMLSpanElement>(null);
   const inView = useInView(ref, { once: true, margin: '-50px' });
   const count = useMotionValue(0);
@@ -18,10 +20,11 @@ function AnimatedCounter({ target, suffix = '' }: { target: number; suffix?: str
 
   useEffect(() => {
     if (inView) {
+      if (reduceMotion) { count.set(target); return; }
       const controls = animate(count, target, { duration: 2.5, ease: [0.16, 1, 0.3, 1] });
       return controls.stop;
     }
-  }, [inView, target, count]);
+  }, [inView, target, count, reduceMotion]);
 
   return <motion.span ref={ref}>{rounded}</motion.span>;
 }
@@ -31,7 +34,21 @@ export default function Home() {
   
   // Hero Slider State
   const [activeHeroImage, setActiveHeroImage] = useState(0);
-  const [heroTimerKey, setHeroTimerKey] = useState(0);
+  const reduceMotion = useReducedMotion();
+  const heroRef = useRef<HTMLElement>(null);
+  const heroVisible = useInView(heroRef, { amount: .2 });
+  const [paused, setPaused] = useState(!!reduceMotion);
+  const [userPlay, setUserPlay] = useState(false);
+  const rotationPointerState = useRef(paused);
+  const [hovered, setHovered] = useState(false);
+  const [documentVisible, setDocumentVisible] = useState(!document.hidden);
+  const rotating = !paused && (!reduceMotion || userPlay) && !hovered && heroVisible && documentVisible;
+  useEffect(() => {
+    const update = () => setDocumentVisible(!document.hidden);
+    document.addEventListener('visibilitychange', update);
+    return () => document.removeEventListener('visibilitychange', update);
+  }, []);
+  useEffect(() => { if (reduceMotion) { setPaused(true); setUserPlay(false); } }, [reduceMotion]);
   const heroSlides = [
     { image: '/hero_products.jpg', label: 'ALLOY WHEELS', category: 'CATEGORY 01' },
     { image: '/hero_rims.jpg', label: 'MOTORCYCLE RIMS', category: 'CATEGORY 02' },
@@ -41,19 +58,18 @@ export default function Home() {
   ];
 
   useEffect(() => {
+    if (!rotating) return;
     const timer = setInterval(() => {
       setActiveHeroImage((prev) => (prev + 1) % heroSlides.length);
     }, 5000);
     return () => clearInterval(timer);
-  }, [heroSlides.length, heroTimerKey]);
+  }, [heroSlides.length, rotating]);
 
   const nextHeroImage = () => {
     setActiveHeroImage((prev) => (prev + 1) % heroSlides.length);
-    setHeroTimerKey((prev) => prev + 1);
   };
   const prevHeroImage = () => {
     setActiveHeroImage((prev) => (prev - 1 + heroSlides.length) % heroSlides.length);
-    setHeroTimerKey((prev) => prev + 1);
   };
 
   const [activeTestimonial, setActiveTestimonial] = useState(0);
@@ -67,7 +83,7 @@ export default function Home() {
   const prevTestimonial = () => setActiveTestimonial((prev) => (prev - 1 + testimonials.length) % testimonials.length);
 
   return (
-    <div className="flex flex-col min-h-screen bg-white text-modina-text font-sans">
+    <div className="flex flex-col min-h-screen bg-white text-modina-text font-sans public-page public-home">
       <Helmet>
         <title>Modina Rim &amp; Parts Ltd. | Automotive Components Manufacturer — Bangladesh</title>
         <meta name="description" content="Modina Rim &amp; Parts Ltd. is an ISO 9001:2015, ISO 14001:2015, and ISO 45001:2018 certified manufacturer of premium motorcycle rims, rickshaw rims, and automotive hardware in Jashore, Bangladesh." />
@@ -101,7 +117,7 @@ export default function Home() {
       {/* ═══════════════════════════════════════════════════
           1. HERO — Premium Engineering Showcase
       ═══════════════════════════════════════════════════ */}
-      <section className="relative min-h-[100dvh] w-full bg-white overflow-hidden">
+      <section ref={heroRef} className="relative min-h-[100dvh] w-full bg-white overflow-hidden">
         
         {/* Subtle diagonal red accent lines (inspired by the motion streaks) */}
         <div className="absolute inset-0 pointer-events-none overflow-hidden z-0">
@@ -114,10 +130,10 @@ export default function Home() {
         </div>
 
         {/* Main Content Grid */}
-        <div className="relative z-10 flex flex-col lg:flex-row min-h-[100dvh]">
+        <div className="public-home-grid relative z-10 flex flex-col lg:flex-row min-h-[100dvh]">
           
           {/* LEFT — Text Content (45%) */}
-          <div className="w-full lg:w-[45%] flex flex-col justify-center px-6 sm:px-16 xl:px-24 pt-[152px] sm:pt-[120px] pb-8 lg:pb-0 lg:py-0 shrink-0 min-h-[45vh] lg:min-h-[100dvh]">
+          <div className="public-home-copy w-full lg:w-[45%] flex flex-col justify-center px-6 sm:px-16 xl:px-24 pt-[152px] sm:pt-[120px] pb-8 lg:pb-0 lg:py-0 shrink-0 min-h-[45vh] lg:min-h-[100dvh]">
             <motion.div
               initial="hidden"
               animate="visible"
@@ -127,7 +143,7 @@ export default function Home() {
               {/* Hero Title — ENGINEERING / EXCELLENCE */}
               <motion.h1
                 variants={{ hidden: { opacity: 0, y: 40 }, visible: { opacity: 1, y: 0, transition: { duration: 1, ease: [0.16, 1, 0.3, 1] } } }}
-                className="font-display font-black text-modina-heading leading-[0.95] tracking-tight mb-7 -ml-[3px] w-full"
+                className="font-display font-black text-modina-heading leading-[0.95] tracking-tight mb-7 -ml-[3px] w-full public-home-title"
                 style={{ fontSize: 'clamp(40px, 12.5vw, 84px)' }}
               >
                 <span className="block uppercase break-words sm:whitespace-nowrap text-left">{t('home.hero_title_1')}</span>
@@ -137,8 +153,8 @@ export default function Home() {
               {/* Hero Body */}
               <motion.p
                 variants={{ hidden: { opacity: 0, y: 24 }, visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: [0.16, 1, 0.3, 1] } } }}
-                className="text-modina-muted leading-relaxed mb-10 max-w-lg text-left whitespace-normal"
-                style={{ fontSize: 'clamp(15px, 1.2vw, 17px)' }}
+                className="text-modina-muted leading-relaxed mb-10 max-w-lg text-left whitespace-normal public-body"
+
               >
                 Premium automotive components manufactured in Bangladesh. Trusted by industry leaders, Delivered nationwide.
               </motion.p>
@@ -150,14 +166,14 @@ export default function Home() {
               >
                 <Link
                   to="/products"
-                  className="flex-1 px-7 py-3.5 bg-modina-red text-white text-sm font-bold uppercase tracking-[0.15em] rounded-md hover:bg-modina-red-dark transition-all duration-300 flex items-center justify-center gap-2.5 group shadow-[0_4px_16px_rgba(229,37,37,0.25)] hover:shadow-[0_8px_24px_rgba(229,37,37,0.35)] hover:-translate-y-0.5"
+                  className="btn-primary flex-1 px-7 py-3.5 bg-modina-red text-white text-sm font-bold uppercase tracking-[0.15em] rounded-md hover:bg-modina-red-dark transition-all duration-300 flex items-center justify-center gap-2.5 group shadow-[0_4px_16px_rgba(229,37,37,0.25)] hover:shadow-[0_8px_24px_rgba(229,37,37,0.35)] hover:-translate-y-0.5"
                 >
                   Explore Catalog
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
                 </Link>
                 <Link
                   to="/contact"
-                  className="flex-1 px-7 py-3.5 bg-white border-2 border-modina-heading/15 text-modina-heading text-sm font-bold uppercase tracking-[0.15em] rounded-md hover:border-modina-red hover:text-modina-red transition-all duration-300 flex items-center justify-center gap-2.5 group"
+                  className="btn-secondary flex-1 px-7 py-3.5 bg-white border-2 border-modina-heading/15 text-modina-heading text-sm font-bold uppercase tracking-[0.15em] rounded-md hover:border-modina-red hover:text-modina-red transition-all duration-300 flex items-center justify-center gap-2.5 group"
                 >
                   {t('common.contact_us')}
                   <UserRound className="w-4 h-4 text-modina-muted group-hover:text-modina-red transition-colors duration-300" />
@@ -167,16 +183,20 @@ export default function Home() {
           </div>
 
           {/* RIGHT — Product Showcase Slider (55%) */}
-          <div className="w-full lg:w-[55%] relative min-h-[45vh] lg:min-h-[100dvh] flex-grow overflow-hidden flex items-center justify-center">
+          <div role="region" aria-roledescription="carousel" aria-label={t('public_ui.hero_label')}
+            onFocusCapture={e => { if (!e.currentTarget.contains(e.relatedTarget as Node | null)) setPaused(true); }}
+            onMouseEnter={() => { if (matchMedia('(hover: hover) and (pointer: fine)').matches) setHovered(true); }}
+            onMouseLeave={() => setHovered(false)}
+            className="public-home-showcase w-full lg:w-[55%] relative min-h-[45vh] lg:min-h-[100dvh] flex-grow overflow-hidden flex items-center justify-center">
             {/* Product Image */}
             <AnimatePresence mode="wait">
               <motion.img
                 key={activeHeroImage}
                 src={heroSlides[activeHeroImage].image}
-                initial={{ opacity: 0, scale: 1.04, x: 30 }}
+                initial={reduceMotion ? false : { opacity: 0, scale: 1.04, x: 30 }}
                 animate={{ opacity: 1, scale: 1, x: 0 }}
-                exit={{ opacity: 0, scale: 0.98, x: -20 }}
-                transition={{ duration: 0.9, ease: [0.16, 1, 0.3, 1] }}
+                exit={reduceMotion ? { opacity: 0 } : { opacity: 0, scale: 0.98, x: -20 }}
+                transition={{ duration: reduceMotion ? 0 : 0.35, ease: [0.16, 1, 0.3, 1] }}
                 alt={heroSlides[activeHeroImage].label}
                 className="w-[88%] h-auto max-h-[75%] object-contain drop-shadow-2xl"
               />
@@ -199,36 +219,40 @@ export default function Home() {
             </button>
 
             {/* Slide Indicator Bar — "01  ALLOY WHEELS  01 ——— 05" */}
-            <div className="absolute bottom-6 lg:bottom-10 left-1/2 -translate-x-1/2 z-20 flex items-center gap-3 sm:gap-5">
+            <div className="public-home-controls absolute bottom-24 lg:bottom-28 left-1/2 -translate-x-1/2 z-20 flex items-center gap-2 sm:gap-5">
               <span className="text-modina-heading font-mono text-sm font-bold tracking-wider">
                 {String(activeHeroImage + 1).padStart(2, '0')}
               </span>
-              <span className="text-modina-heading font-display text-xs font-bold tracking-[0.2em] uppercase">
+              <span className="public-home-slide-label text-modina-heading font-display text-xs font-bold tracking-[0.2em] uppercase">
                 {heroSlides[activeHeroImage].label}
               </span>
               <span className="text-modina-heading font-mono text-sm font-bold">
                 {String(activeHeroImage + 1).padStart(2, '0')}
               </span>
+              <div className="public-rotation-row">
+              <button type="button" className="public-rotation-control" onPointerDown={() => { rotationPointerState.current = paused; }} onClick={e => { setPaused(!(e.detail ? rotationPointerState.current : paused)); setUserPlay(true); }}>{paused || (reduceMotion && !userPlay) ? t('public_ui.play_rotation') : t('public_ui.pause_rotation')}</button>
+              </div>
               {/* Progress segments */}
-              <div className="flex items-center gap-1">
+              <div className="flex items-center gap-0">
                 {heroSlides.map((_, idx) => (
                   <button
                     key={idx}
-                    onClick={() => { setActiveHeroImage(idx); setHeroTimerKey((prev) => prev + 1); }}
-                    className={`h-[3px] rounded-full transition-all duration-500 ${
+                    onClick={() => { setActiveHeroImage(idx);  }}
+                    className="public-selector public-hero-selector" aria-pressed={idx === activeHeroImage}
+                    aria-label={`Go to slide ${idx + 1}`}><span aria-hidden="true" className={`h-[3px] rounded-full transition-all duration-500 ${
                       idx === activeHeroImage
                         ? 'w-8 sm:w-12 bg-modina-red'
                         : idx < activeHeroImage
                           ? 'w-4 sm:w-6 bg-modina-heading/30'
                           : 'w-4 sm:w-6 bg-modina-heading/10'
-                    }`}
-                    aria-label={`Go to slide ${idx + 1}`}
-                  />
+                    }`} /></button>
                 ))}
               </div>
               <span className="text-modina-heading font-mono text-sm font-bold tracking-wider">
                 {String(heroSlides.length).padStart(2, '0')}
               </span>
+
+              <p className="sr-only" aria-live={rotating ? 'off' : 'polite'} aria-atomic="true">{activeHeroImage + 1} / {heroSlides.length}: {heroSlides[activeHeroImage].label}</p>
             </div>
           </div>
         </div>
@@ -254,7 +278,7 @@ export default function Home() {
                   </div>
                   <div className="flex flex-col">
                     <span className="text-modina-heading font-display font-bold text-base tracking-tight leading-none">{stat.value}</span>
-                    <span className="text-modina-muted text-xs font-bold tracking-[0.12em] uppercase mt-0.5">{stat.label}</span>
+                    <span className="text-modina-muted text-xs font-bold tracking-[0.12em] uppercase mt-0.5 public-meta">{stat.label}</span>
                   </div>
                 </div>
               ))}
@@ -278,21 +302,21 @@ export default function Home() {
             <div className="flex flex-col">
               <motion.p
                 variants={{ hidden: { opacity: 0, y: 16 }, visible: { opacity: 1, y: 0, transition: { duration: 0.5 } } }}
-                className="text-modina-red text-xs font-bold tracking-widest uppercase mb-4"
+                className="text-modina-red text-xs font-bold tracking-widest uppercase mb-4 public-meta"
               >
                 — About Modina Rim & Parts Ltd.
               </motion.p>
               <motion.h2
                 variants={{ hidden: { opacity: 0, y: 24 }, visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: 'easeOut' } } }}
-                className="font-display font-bold text-modina-heading mb-6 tracking-tight leading-tight [text-wrap:balance]"
-                style={{ fontSize: 'clamp(32px, 4vw, 48px)' }}
+                className="font-display font-bold text-modina-heading mb-6 tracking-tight leading-tight [text-wrap:balance] public-section-title"
+
               >
                 Forging the Backbone of <span className="text-modina-red">Modern Mobility</span>
               </motion.h2>
               <motion.p
                 variants={{ hidden: { opacity: 0, y: 24 }, visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: 'easeOut' } } }}
-                className="text-modina-muted leading-relaxed mb-8"
-                style={{ fontSize: 'clamp(17px, 1.5vw, 20px)' }}
+                className="text-modina-muted leading-relaxed mb-8 public-body"
+
               >
                 {t('home.about_body_1')}
               </motion.p>
@@ -332,30 +356,22 @@ export default function Home() {
               transition={{ duration: 0.6, ease: 'easeOut' }}
               className="relative h-[450px] lg:h-[580px] rounded-[12px] overflow-hidden shadow-[var(--shadow-lg)] border border-modina-border"
             >
-              <video
-                src={facilityVideo}
-                autoPlay
-                loop
-                muted
-                playsInline
-                preload="auto"
-                className="w-full h-full object-cover pointer-events-none"
-              />
-              <div className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-black/70 to-transparent" />
+              <PublicVideo src={facilityVideo} label="State of the Art Facility" className="w-full h-full object-cover" />
+              <div className="pointer-events-none absolute inset-x-0 top-0 h-1/3 bg-gradient-to-b from-black/70 to-transparent" />
               <motion.div
                 initial={{ opacity: 0, y: 16 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: 0.25 }}
-                className="absolute bottom-6 left-6 right-6"
+                className="pointer-events-none absolute top-6 left-6 right-6"
               >
                 <div className="flex items-center gap-4">
                   <div className="w-10 h-10 bg-modina-red rounded-lg flex items-center justify-center shrink-0">
                     <Settings className="w-5 h-5 text-white" />
                   </div>
                   <div>
-                    <h4 className="text-white font-display font-bold text-sm">Using modern technology</h4>
-                    <p className="text-white/70 text-xs mt-0.5">ISO 9001:2015 Certified</p>
+                    <p className="text-white font-display font-bold text-sm">Using modern technology</p>
+                    <p className="text-white/70 text-xs mt-0.5 public-body">ISO 9001:2015 Certified</p>
                   </div>
                 </div>
               </motion.div>
@@ -379,20 +395,20 @@ export default function Home() {
             <div className="max-w-2xl">
               <motion.p
                 variants={{ hidden: { opacity: 0, y: 16 }, visible: { opacity: 1, y: 0, transition: { duration: 0.5 } } }}
-                className="text-modina-red text-xs font-bold tracking-widest uppercase mb-3"
+                className="text-modina-red text-xs font-bold tracking-widest uppercase mb-3 public-meta"
               >
                 — Products
               </motion.p>
               <motion.h2
                 variants={{ hidden: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0, transition: { duration: 0.5 } } }}
-                className="font-display font-bold text-modina-heading mb-3 tracking-tight"
-                style={{ fontSize: 'clamp(32px, 4vw, 48px)' }}
+                className="font-display font-bold text-modina-heading mb-3 tracking-tight public-section-title"
+
               >
                 New <span className="text-modina-red">Arrival</span>
               </motion.h2>
               <motion.p
                 variants={{ hidden: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0, transition: { duration: 0.5 } } }}
-                className="text-modina-muted text-lg leading-relaxed"
+                className="text-modina-muted text-lg leading-relaxed public-body"
               >
                 {t('home.about_body_2')}
               </motion.p>
@@ -428,14 +444,14 @@ export default function Home() {
                     loading="eager"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
-                  <span className="absolute top-5 right-5 text-white/30 font-display text-2xl lg:text-3xl font-light group-hover:text-white/60 transition-colors duration-300">
+                  <span aria-hidden="true" className="absolute top-5 right-5 text-white/30 font-display text-2xl lg:text-3xl font-light group-hover:text-white/60 transition-colors duration-300">
                     0{idx + 1}
                   </span>
-                  <div className="absolute bottom-0 left-0 right-0 p-6 lg:p-8">
-                    <p className="text-modina-red text-[10px] font-bold tracking-[0.25em] uppercase mb-2">{category.subtitle}</p>
+                  <div className="public-dark absolute bottom-0 left-0 right-0 p-6 lg:p-8">
+                    <p className="text-modina-red text-[10px] font-bold tracking-[0.25em] uppercase mb-2 public-meta">{category.subtitle}</p>
                     <h3 className={`${category.titleSize} font-display font-bold text-white mb-4 tracking-tight`}>{category.title}</h3>
                     <div className="w-10 h-0.5 bg-white/30 mb-3 group-hover:w-16 group-hover:bg-modina-red transition-all duration-300 ease-in-out" />
-                    <p className="text-white/70 text-xs uppercase tracking-wider opacity-0 group-hover:opacity-100 transition-opacity duration-300">{category.desc}</p>
+                    <p className="text-white/70 text-xs uppercase tracking-wider opacity-0 group-hover:opacity-100 transition-opacity duration-300 public-meta">{category.desc}</p>
                   </div>
                 </motion.div>
               </Link>
@@ -465,20 +481,20 @@ export default function Home() {
           <div className="text-center max-w-2xl mx-auto mb-14">
             <motion.p
               variants={{ hidden: { opacity: 0, y: 16 }, visible: { opacity: 1, y: 0, transition: { duration: 0.5 } } }}
-              className="text-modina-red text-xs font-bold tracking-widest uppercase mb-4"
+              className="text-modina-red text-xs font-bold tracking-widest uppercase mb-4 public-meta"
             >
               Quality &amp; Trust
             </motion.p>
             <motion.h2
               variants={{ hidden: { opacity: 0, y: 30 }, visible: { opacity: 1, y: 0, transition: { duration: 0.7, ease: 'easeOut' } } }}
-              className="font-display font-bold text-modina-heading mb-4 tracking-tight"
-              style={{ fontSize: 'clamp(32px, 4vw, 48px)' }}
+              className="font-display font-bold text-modina-heading mb-4 tracking-tight public-section-title"
+
             >
               The <span className="text-modina-red">Trust</span> Factor
             </motion.h2>
             <motion.p
               variants={{ hidden: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0, transition: { duration: 0.6 } } }}
-              className="text-modina-muted text-lg leading-relaxed"
+              className="text-modina-muted text-lg leading-relaxed public-body"
             >
               {t('home.features_quality_desc')}
             </motion.p>
@@ -499,12 +515,12 @@ export default function Home() {
                   <div className="w-12 h-12 rounded-xl bg-modina-red/10 flex items-center justify-center group-hover:bg-modina-red group-hover:scale-105 transition-all duration-300 ease-in-out">
                     <feature.icon className="w-6 h-6 text-modina-red group-hover:text-white transition-colors duration-300" />
                   </div>
-                  <span className="text-modina-divider font-display text-4xl font-bold select-none">
+                  <span aria-hidden="true" className="text-modina-divider font-display text-4xl font-bold select-none">
                     0{idx + 1}
                   </span>
                 </div>
-                <h3 className="text-xl font-display font-bold text-modina-heading mb-3 group-hover:text-modina-red transition-colors duration-300">{feature.title}</h3>
-                <p className="text-modina-muted text-base leading-relaxed flex-grow">{feature.desc}</p>
+                <h3 className="text-xl font-display font-bold text-modina-heading mb-3 group-hover:text-modina-red transition-colors duration-300 public-card-title">{feature.title}</h3>
+                <p className="text-modina-muted text-base leading-relaxed flex-grow public-body">{feature.desc}</p>
                 <div className="mt-6 flex items-center gap-2 opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in-out">
                   <ArrowRight className="w-4 h-4 text-modina-red" />
                   <span className="text-modina-red text-sm font-bold">Learn More</span>
@@ -535,18 +551,18 @@ export default function Home() {
                   className="flex items-center gap-3 mb-5"
                 >
                   <div className="w-8 h-0.5 bg-modina-red shrink-0" />
-                  <span className="text-modina-red text-xs font-bold tracking-widest uppercase">{t('footer.resources_label')}</span>
+                  <span className="text-modina-red text-xs font-bold tracking-widest uppercase public-meta">{t('footer.resources_label')}</span>
                 </motion.div>
                 <motion.h2
                   variants={{ hidden: { opacity: 0, y: 24 }, visible: { opacity: 1, y: 0, transition: { duration: 0.7 } } }}
-                  className="font-display font-bold text-modina-heading mb-5 tracking-tight leading-tight"
-                  style={{ fontSize: 'clamp(28px, 3.5vw, 44px)' }}
+                  className="font-display font-bold text-modina-heading mb-5 tracking-tight leading-tight public-section-title"
+
                 >
                   Equipping Our <span className="text-modina-red">Partners.</span>
                 </motion.h2>
                 <motion.p
                   variants={{ hidden: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0, transition: { duration: 0.6 } } }}
-                  className="text-modina-muted text-base mb-8 max-w-md leading-relaxed"
+                  className="text-modina-muted text-base mb-8 max-w-md leading-relaxed public-body"
                 >
                   {t('home.about_body_2')}
                 </motion.p>
@@ -583,7 +599,7 @@ export default function Home() {
                     </div>
                     <div className="flex flex-col flex-grow">
                       <span className="text-sm font-bold text-modina-heading group-hover:text-modina-red transition-colors duration-200">{file.name}</span>
-                      <span className="text-xs text-modina-subtle font-mono mt-0.5">{file.type} · {file.size}</span>
+                      <span className="text-xs text-modina-subtle font-mono mt-0.5 public-meta">{file.type} · {file.size}</span>
                     </div>
                     <ArrowRight className="w-4 h-4 text-modina-subtle opacity-0 group-hover:opacity-100 group-hover:text-modina-red transition-all duration-200 self-center shrink-0" />
                   </motion.div>
@@ -608,14 +624,14 @@ export default function Home() {
           <div className="text-center mb-10">
             <motion.p
               variants={{ hidden: { opacity: 0, y: 16 }, visible: { opacity: 1, y: 0, transition: { duration: 0.5 } } }}
-              className="text-modina-red text-xs font-bold tracking-widest uppercase mb-3"
+              className="text-modina-red text-xs font-bold tracking-widest uppercase mb-3 public-meta"
             >
               — Client Voices
             </motion.p>
             <motion.h2
               variants={{ hidden: { opacity: 0, y: 24 }, visible: { opacity: 1, y: 0, transition: { duration: 0.7 } } }}
-              className="font-display font-bold text-modina-heading tracking-tight"
-              style={{ fontSize: 'clamp(28px, 3.5vw, 40px)' }}
+              className="font-display font-bold text-modina-heading tracking-tight public-section-title"
+
             >
               Global <span className="text-modina-red">Trust</span>
             </motion.h2>
@@ -650,7 +666,7 @@ export default function Home() {
                   className="flex flex-col items-center text-center"
                 >
                   <Quote className="w-8 h-8 text-modina-border mb-4 fill-modina-border/20" />
-                  <p className="text-modina-heading font-display text-lg md:text-xl font-medium leading-relaxed max-w-xl mb-6">
+                  <p className="text-modina-heading font-display text-lg md:text-xl font-medium leading-relaxed max-w-xl mb-6 public-body">
                     "{testimonials[activeTestimonial].quote}"
                   </p>
                   
@@ -664,8 +680,8 @@ export default function Home() {
                       />
                     </div>
                     <div className="text-center">
-                      <h4 className="font-bold text-modina-heading text-sm">{testimonials[activeTestimonial].author}</h4>
-                      <p className="text-modina-red text-[10px] font-bold tracking-widest uppercase mt-0.5">{testimonials[activeTestimonial].company}</p>
+                      <p className="font-bold text-modina-heading text-sm">{testimonials[activeTestimonial].author}</p>
+                      <p className="text-modina-red text-[10px] font-bold tracking-widest uppercase mt-0.5 public-meta">{testimonials[activeTestimonial].company}</p>
                     </div>
                   </div>
                 </motion.div>
@@ -677,8 +693,7 @@ export default function Home() {
                   <button
                     key={idx}
                     onClick={() => setActiveTestimonial(idx)}
-                    className={`h-1.5 rounded-full transition-all duration-300 ease-in-out ${idx === activeTestimonial ? 'w-6 bg-modina-red' : 'w-1.5 bg-modina-border hover:bg-modina-subtle'}`}
-                  />
+                    className="public-selector" aria-pressed={idx === activeTestimonial} aria-label={`Show testimonial ${idx + 1}`}><span aria-hidden="true" className={`h-1.5 rounded-full transition-all duration-300 ease-in-out ${idx === activeTestimonial ? 'w-6 bg-modina-red' : 'w-1.5 bg-modina-border hover:bg-modina-subtle'}`} /></button>
                 ))}
               </div>
             </motion.div>
@@ -689,7 +704,7 @@ export default function Home() {
       {/* ═══════════════════════════════════════════════════
           7. PRE-FOOTER CTA
       ═══════════════════════════════════════════════════ */}
-      <section className="section-py bg-modina-heading border-t border-modina-divider">
+      <section className="section-py bg-modina-heading border-t border-modina-divider public-dark">
         <motion.div
           initial="hidden"
           whileInView="visible"
@@ -700,21 +715,21 @@ export default function Home() {
           <div className="max-w-3xl mx-auto flex flex-col items-center">
             <motion.p
               variants={{ hidden: { opacity: 0, y: 16 }, visible: { opacity: 1, y: 0, transition: { duration: 0.5 } } }}
-              className="text-modina-red text-xs font-bold tracking-widest uppercase mb-5"
+              className="text-modina-red text-xs font-bold tracking-widest uppercase mb-5 public-meta"
             >
               — Get Started
             </motion.p>
             <motion.h2
               variants={{ hidden: { opacity: 0, scale: 0.95, y: 24 }, visible: { opacity: 1, scale: 1, y: 0, transition: { duration: 0.8, ease: 'easeOut' } } }}
-              className="font-display font-bold text-white mb-6 tracking-tight leading-tight [text-wrap:balance]"
-              style={{ fontSize: 'clamp(36px, 5vw, 64px)' }}
+              className="font-display font-bold text-white mb-6 tracking-tight leading-tight [text-wrap:balance] public-section-title"
+
             >
               Partner with{' '}
               <span className="text-modina-red">Modina Rim &amp; Parts</span>
             </motion.h2>
             <motion.p
               variants={{ hidden: { opacity: 0, y: 24 }, visible: { opacity: 1, y: 0, transition: { duration: 0.7 } } }}
-              className="text-white/70 text-lg leading-relaxed mb-10 max-w-2xl"
+              className="text-white/70 text-lg leading-relaxed mb-10 max-w-2xl public-body"
             >
               {t('home.cta_body')}
             </motion.p>

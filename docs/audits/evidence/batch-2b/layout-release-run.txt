@@ -1,0 +1,16 @@
+PASS first-key skip navigation
+PASS FAQ relationships, keyboard, result state
+PASS /careers jump offset
+PASS /news jump offset
+PASS /blog jump offset
+PASS short modal 667x375
+PASS short modal 844x390
+PASS short modal 320x568
+PASS /about timeline keyboard region
+PASS /quality timeline keyboard region
+PASS /certificates timeline keyboard region
+PASS /products 200% root-font approximation
+PASS /contact 200% root-font approximation
+PASS /about 200% root-font approximation
+PASS /privacy 200% root-font approximation
+RESULT 15/15

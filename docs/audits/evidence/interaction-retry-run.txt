@@ -1,0 +1,15 @@
+Product search, empty state, category, pagination recorded
+Product card keyboard access and mobile CTA recorded
+Product drawer carousel, focus, Escape recorded
+Product enquiry context recorded
+Mobile menu focus and Escape recorded
+Mobile global search recorded
+Gallery lightbox keyboard, scrolling recorded
+Downloads inert action recorded
+FAQ toggle semantics recorded
+Careers drawer labels and Escape recorded
+Contact labels and native validation without submission recorded
+Chatbot small landscape recorded
+Desktop dropdown pointer versus keyboard recorded
+Intermediate and landscape layout sweep recorded
+200 percent text enlargement approximation recorded

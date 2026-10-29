@@ -1,0 +1,9 @@
+FAIL en/1024/products: locator.click: Timeout 8000ms exceeded.
+Call log:
+[2m  - waiting for locator('.card-premium').first().getByRole('button', { name: 'Next image', exact: true })[22m
+[2m    - locator resolved to <button type="button" aria-label="Next image" class="absolute right-2 sm:right-3 top-1/2 -translate-y-1/2 w-11 h-11 rounded-full bg-white/90 backdrop-blur 
+CLOSE GEOMETRY {"box":{"x":1630.020751953125,"y":20,"width":80.9375,"height":44},"viewport":{"width":1440,"height":900},"containers":[{"class":"flex-1 overflow-y-auto [&::-webkit-scrollbar]:hidden","scrollTop":509,"rect":{"x":1223.958251953125,"y":85,"width":519,"height":815,"top":85,"right":1742.958251953125,"bottom":900,"left":1223.958251953125}}]}
+FAIL en/1440/careers: Close outside viewport: {"x":1630.020751953125,"y":20,"width":80.9375,"height":44}
+PASS radius-and-admin-isolation
+Browser teardown watchdog used for owned PID 17036; assertions were saved first.
+1/3 cases passed; 0 axe scans.

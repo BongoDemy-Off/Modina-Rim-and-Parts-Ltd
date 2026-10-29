@@ -1,0 +1,14 @@
+[
+  {
+    reducedMotion: 'no-preference',
+    passed: true,
+    cycles: 20,
+    failure: undefined
+  },
+  {
+    reducedMotion: 'reduce',
+    passed: true,
+    cycles: 20,
+    failure: undefined
+  }
+]

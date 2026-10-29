@@ -1,0 +1,995 @@
+{
+  "runtime": "v24.19.0",
+  "pages": [
+    {
+      "url": "https://modina-rim-and-parts-ltd.vercel.app/products",
+      "requests": [
+        {
+          "url": "https://modina-rim-and-parts-ltd.vercel.app/",
+          "resourceType": "Document",
+          "method": "GET"
+        },
+        {
+          "url": "https://www.googletagmanager.com/gtag/js",
+          "resourceType": "Script",
+          "method": "GET"
+        },
+        {
+          "url": "https://modina-rim-and-parts-ltd.vercel.app/assets/index-DkO-FW3y.js",
+          "resourceType": "Script",
+          "method": "GET"
+        },
+        {
+          "url": "https://modina-rim-and-parts-ltd.vercel.app/assets/index-DPCQu5x1.css",
+          "resourceType": "Stylesheet",
+          "method": "GET"
+        },
+        {
+          "url": "https://fonts.googleapis.com/css2",
+          "resourceType": "Stylesheet",
+          "method": "GET"
+        },
+        {
+          "url": "https://modina-rim-and-parts-ltd.vercel.app/assets/logo-Cg58folY.png",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://modina-rim-and-parts-ltd.vercel.app/hero_products.jpg",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://modina-rim-and-parts-ltd.vercel.app/assets/Premium%20Rims-DAivbVtn.webp",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://modina-rim-and-parts-ltd.vercel.app/assets/CNG%20Rim-CWmeImNb.webp",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://modina-rim-and-parts-ltd.vercel.app/assets/cat_motorcycle_parts-BGOdeLlY.webp",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://modina-rim-and-parts-ltd.vercel.app/assets/wasar-Crxolq52.webp",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1560250097-0b93528c311a",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://fonts.gstatic.com/s/manrope/v20/xn7gYHE41ni1AdIRggexSg.woff2",
+          "resourceType": "Font",
+          "method": "GET"
+        },
+        {
+          "url": "https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbv2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKwBNntkaToggR7BYRbKPxDcwg.woff2",
+          "resourceType": "Font",
+          "method": "GET"
+        },
+        {
+          "url": "https://modina-rim-and-parts-ltd.vercel.app/assets/State%20of%20the%20Art%20Facility-C6H4SQ74.webm",
+          "resourceType": "Media",
+          "method": "GET"
+        },
+        {
+          "url": "https://www.google-analytics.com/g/collect",
+          "resourceType": "Fetch",
+          "method": "POST"
+        },
+        {
+          "url": "https://modina-rim-and-parts-ltd.vercel.app/logo.jpg",
+          "resourceType": "Other",
+          "method": "GET"
+        },
+        {
+          "url": "https://modina-rim-and-parts-ltd.vercel.app/logo.jpg",
+          "resourceType": "Other",
+          "method": "GET"
+        },
+        {
+          "url": "https://modina-rim-and-parts-ltd.vercel.app/products/sku-001/01-product.png",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://modina-rim-and-parts-ltd.vercel.app/products/sku-002/01-product.png",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://modina-rim-and-parts-ltd.vercel.app/products/sku-003/01-product.png",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://picsum.photos/seed/modina-4-v2-1/600/400",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://picsum.photos/seed/modina-5-v2-1/600/400",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://picsum.photos/seed/modina-6-v2-1/600/400",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://picsum.photos/seed/modina-7-v2-1/600/400",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://picsum.photos/seed/modina-8-v2-1/600/400",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://picsum.photos/seed/modina-9-v2-1/600/400",
+          "resourceType": "Image",
+          "method": "GET"
+        }
+      ],
+      "failures": [
+        {
+          "url": "https://www.google-analytics.com/g/collect",
+          "resourceType": "Fetch",
+          "method": "POST",
+          "error": "net::ERR_ABORTED",
+          "canceled": true
+        }
+      ],
+      "httpErrors": [],
+      "preventedWrites": [
+        {
+          "url": "https://www.google-analytics.com/g/collect",
+          "method": "POST",
+          "resourceType": "fetch",
+          "action": "local 204 response"
+        }
+      ],
+      "errors": [],
+      "homeStatus": 200,
+      "domcontentloadedMs": 1031,
+      "spaURL": "https://modina-rim-and-parts-ltd.vercel.app/products",
+      "navigationError": "locator.scrollIntoViewIfNeeded: Element is not attached to the DOM\nCall log:\n\u001b[2m  - attempting scroll into view action\u001b[22m\n\u001b[2m    - waiting for element to be stable\u001b[22m\n"
+    },
+    {
+      "url": "https://modina-rim-and-parts-ltd.vercel.app/gallery",
+      "requests": [
+        {
+          "url": "https://modina-rim-and-parts-ltd.vercel.app/",
+          "resourceType": "Document",
+          "method": "GET"
+        },
+        {
+          "url": "https://www.googletagmanager.com/gtag/js",
+          "resourceType": "Script",
+          "method": "GET"
+        },
+        {
+          "url": "https://modina-rim-and-parts-ltd.vercel.app/assets/index-DkO-FW3y.js",
+          "resourceType": "Script",
+          "method": "GET"
+        },
+        {
+          "url": "https://modina-rim-and-parts-ltd.vercel.app/assets/index-DPCQu5x1.css",
+          "resourceType": "Stylesheet",
+          "method": "GET"
+        },
+        {
+          "url": "https://fonts.googleapis.com/css2",
+          "resourceType": "Stylesheet",
+          "method": "GET"
+        },
+        {
+          "url": "https://modina-rim-and-parts-ltd.vercel.app/assets/logo-Cg58folY.png",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://modina-rim-and-parts-ltd.vercel.app/hero_products.jpg",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://modina-rim-and-parts-ltd.vercel.app/assets/Premium%20Rims-DAivbVtn.webp",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://modina-rim-and-parts-ltd.vercel.app/assets/CNG%20Rim-CWmeImNb.webp",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://modina-rim-and-parts-ltd.vercel.app/assets/cat_motorcycle_parts-BGOdeLlY.webp",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://modina-rim-and-parts-ltd.vercel.app/assets/wasar-Crxolq52.webp",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1560250097-0b93528c311a",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://fonts.gstatic.com/s/manrope/v20/xn7gYHE41ni1AdIRggexSg.woff2",
+          "resourceType": "Font",
+          "method": "GET"
+        },
+        {
+          "url": "https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbv2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKwBNntkaToggR7BYRbKPxDcwg.woff2",
+          "resourceType": "Font",
+          "method": "GET"
+        },
+        {
+          "url": "https://modina-rim-and-parts-ltd.vercel.app/assets/State%20of%20the%20Art%20Facility-C6H4SQ74.webm",
+          "resourceType": "Media",
+          "method": "GET"
+        },
+        {
+          "url": "https://www.google-analytics.com/g/collect",
+          "resourceType": "Fetch",
+          "method": "POST"
+        },
+        {
+          "url": "https://modina-rim-and-parts-ltd.vercel.app/logo.jpg",
+          "resourceType": "Other",
+          "method": "GET"
+        },
+        {
+          "url": "https://modina-rim-and-parts-ltd.vercel.app/logo.jpg",
+          "resourceType": "Other",
+          "method": "GET"
+        },
+        {
+          "url": "https://picsum.photos/seed/gal-factory-01/1200/800",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://picsum.photos/seed/gal-cnc-01/600/800",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://picsum.photos/seed/gal-rim-line/600/600",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://picsum.photos/seed/gal-qa-01/600/600",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://picsum.photos/seed/gal-steel-01/600/600",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://picsum.photos/seed/gal-furnace-01/1200/600",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://picsum.photos/seed/gal-rims-stacked/600/800",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://picsum.photos/seed/gal-coating-01/600/600",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://picsum.photos/seed/gal-iso-docs/600/600",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://picsum.photos/seed/gal-safety-01/600/600",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://picsum.photos/seed/gal-dispatch/1200/600",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://picsum.photos/seed/gal-lab-01/600/600",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://fastly.picsum.photos/id/498/600/600.jpg",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://fastly.picsum.photos/id/604/600/800.jpg",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://fastly.picsum.photos/id/437/600/600.jpg",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://fastly.picsum.photos/id/640/1200/800.jpg",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://fastly.picsum.photos/id/911/1200/600.jpg",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://fastly.picsum.photos/id/688/600/600.jpg",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://fastly.picsum.photos/id/198/600/800.jpg",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://fastly.picsum.photos/id/1026/600/600.jpg",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://fastly.picsum.photos/id/377/600/600.jpg",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://fastly.picsum.photos/id/728/1200/600.jpg",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://fastly.picsum.photos/id/642/600/600.jpg",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://fastly.picsum.photos/id/819/600/600.jpg",
+          "resourceType": "Image",
+          "method": "GET"
+        }
+      ],
+      "failures": [
+        {
+          "url": "https://www.google-analytics.com/g/collect",
+          "resourceType": "Fetch",
+          "method": "POST",
+          "error": "net::ERR_ABORTED",
+          "canceled": true
+        }
+      ],
+      "httpErrors": [],
+      "preventedWrites": [
+        {
+          "url": "https://www.google-analytics.com/g/collect",
+          "method": "POST",
+          "resourceType": "fetch",
+          "action": "local 204 response"
+        }
+      ],
+      "errors": [],
+      "homeStatus": 200,
+      "domcontentloadedMs": 958,
+      "spaURL": "https://modina-rim-and-parts-ltd.vercel.app/gallery",
+      "imagesSettled": false,
+      "images": [
+        {
+          "url": "https://picsum.photos/seed/gal-factory-01/1200/800",
+          "complete": true,
+          "width": 1200,
+          "alt": "Factory Floor Overview"
+        },
+        {
+          "url": "https://picsum.photos/seed/gal-cnc-01/600/800",
+          "complete": true,
+          "width": 600,
+          "alt": "CNC Machining Centre"
+        },
+        {
+          "url": "https://picsum.photos/seed/gal-rim-line/600/600",
+          "complete": true,
+          "width": 600,
+          "alt": "Rim Production Line"
+        },
+        {
+          "url": "https://picsum.photos/seed/gal-qa-01/600/600",
+          "complete": true,
+          "width": 600,
+          "alt": "Quality Inspection Station"
+        },
+        {
+          "url": "https://picsum.photos/seed/gal-steel-01/600/600",
+          "complete": true,
+          "width": 600,
+          "alt": "Raw Steel Inventory"
+        },
+        {
+          "url": "https://picsum.photos/seed/gal-furnace-01/1200/600",
+          "complete": true,
+          "width": 1200,
+          "alt": "Heat Treatment Furnace"
+        },
+        {
+          "url": "https://picsum.photos/seed/gal-rims-stacked/600/800",
+          "complete": true,
+          "width": 600,
+          "alt": "Finished Rim Stacks"
+        },
+        {
+          "url": "https://picsum.photos/seed/gal-coating-01/600/600",
+          "complete": true,
+          "width": 600,
+          "alt": "Powder Coating Bay"
+        },
+        {
+          "url": "https://picsum.photos/seed/gal-iso-docs/600/600",
+          "complete": true,
+          "width": 600,
+          "alt": "ISO Audit Documentation"
+        },
+        {
+          "url": "https://picsum.photos/seed/gal-safety-01/600/600",
+          "complete": true,
+          "width": 600,
+          "alt": "Worker Safety Training"
+        },
+        {
+          "url": "https://picsum.photos/seed/gal-dispatch/1200/600",
+          "complete": true,
+          "width": 1200,
+          "alt": "Dispatch & Logistics Bay"
+        },
+        {
+          "url": "https://picsum.photos/seed/gal-lab-01/600/600",
+          "complete": true,
+          "width": 600,
+          "alt": "Precision Measurement Lab"
+        },
+        {
+          "url": "https://picsum.photos/seed/gal-assembly/600/800",
+          "complete": false,
+          "width": 0,
+          "alt": "Spoke & Hardware Assembly"
+        },
+        {
+          "url": "https://picsum.photos/seed/gal-entrance/600/600",
+          "complete": false,
+          "width": 0,
+          "alt": "Company Entrance — BSCIC"
+        },
+        {
+          "url": "https://picsum.photos/seed/gal-pack-01/600/600",
+          "complete": false,
+          "width": 0,
+          "alt": "Export Packaging Station"
+        }
+      ]
+    },
+    {
+      "url": "https://modinarimandpartsltd.netlify.app/products",
+      "requests": [
+        {
+          "url": "https://modinarimandpartsltd.netlify.app/",
+          "resourceType": "Document",
+          "method": "GET"
+        },
+        {
+          "url": "https://www.googletagmanager.com/gtag/js",
+          "resourceType": "Script",
+          "method": "GET"
+        },
+        {
+          "url": "https://modinarimandpartsltd.netlify.app/assets/index-DkO-FW3y.js",
+          "resourceType": "Script",
+          "method": "GET"
+        },
+        {
+          "url": "https://modinarimandpartsltd.netlify.app/assets/index-DPCQu5x1.css",
+          "resourceType": "Stylesheet",
+          "method": "GET"
+        },
+        {
+          "url": "https://www.google-analytics.com/g/collect",
+          "resourceType": "Fetch",
+          "method": "POST"
+        },
+        {
+          "url": "https://fonts.googleapis.com/css2",
+          "resourceType": "Stylesheet",
+          "method": "GET"
+        },
+        {
+          "url": "https://modinarimandpartsltd.netlify.app/assets/logo-Cg58folY.png",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://modinarimandpartsltd.netlify.app/hero_products.jpg",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://modinarimandpartsltd.netlify.app/assets/Premium%20Rims-DAivbVtn.webp",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://modinarimandpartsltd.netlify.app/assets/CNG%20Rim-CWmeImNb.webp",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://modinarimandpartsltd.netlify.app/assets/cat_motorcycle_parts-BGOdeLlY.webp",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://modinarimandpartsltd.netlify.app/assets/wasar-Crxolq52.webp",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1560250097-0b93528c311a",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://fonts.gstatic.com/s/manrope/v20/xn7gYHE41ni1AdIRggexSg.woff2",
+          "resourceType": "Font",
+          "method": "GET"
+        },
+        {
+          "url": "https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbv2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKwBNntkaToggR7BYRbKPxDcwg.woff2",
+          "resourceType": "Font",
+          "method": "GET"
+        },
+        {
+          "url": "https://modinarimandpartsltd.netlify.app/assets/State%20of%20the%20Art%20Facility-C6H4SQ74.webm",
+          "resourceType": "Media",
+          "method": "GET"
+        },
+        {
+          "url": "https://modinarimandpartsltd.netlify.app/logo.jpg",
+          "resourceType": "Other",
+          "method": "GET"
+        },
+        {
+          "url": "https://modinarimandpartsltd.netlify.app/logo.jpg",
+          "resourceType": "Other",
+          "method": "GET"
+        },
+        {
+          "url": "https://modinarimandpartsltd.netlify.app/products/sku-001/01-product.png",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://modinarimandpartsltd.netlify.app/products/sku-002/01-product.png",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://modinarimandpartsltd.netlify.app/products/sku-003/01-product.png",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://picsum.photos/seed/modina-4-v2-1/600/400",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://picsum.photos/seed/modina-5-v2-1/600/400",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://picsum.photos/seed/modina-6-v2-1/600/400",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://picsum.photos/seed/modina-7-v2-1/600/400",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://picsum.photos/seed/modina-8-v2-1/600/400",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://picsum.photos/seed/modina-9-v2-1/600/400",
+          "resourceType": "Image",
+          "method": "GET"
+        }
+      ],
+      "failures": [
+        {
+          "url": "https://www.google-analytics.com/g/collect",
+          "resourceType": "Fetch",
+          "method": "POST",
+          "error": "net::ERR_ABORTED",
+          "canceled": true
+        }
+      ],
+      "httpErrors": [],
+      "preventedWrites": [
+        {
+          "url": "https://www.google-analytics.com/g/collect",
+          "method": "POST",
+          "resourceType": "fetch",
+          "action": "local 204 response"
+        }
+      ],
+      "errors": [],
+      "homeStatus": 200,
+      "domcontentloadedMs": 2109,
+      "spaURL": "https://modinarimandpartsltd.netlify.app/products",
+      "navigationError": "locator.scrollIntoViewIfNeeded: Element is not attached to the DOM\nCall log:\n\u001b[2m  - attempting scroll into view action\u001b[22m\n\u001b[2m    - waiting for element to be stable\u001b[22m\n"
+    },
+    {
+      "url": "https://modinarimandpartsltd.netlify.app/gallery",
+      "requests": [
+        {
+          "url": "https://modinarimandpartsltd.netlify.app/",
+          "resourceType": "Document",
+          "method": "GET"
+        },
+        {
+          "url": "https://www.googletagmanager.com/gtag/js",
+          "resourceType": "Script",
+          "method": "GET"
+        },
+        {
+          "url": "https://modinarimandpartsltd.netlify.app/assets/index-DkO-FW3y.js",
+          "resourceType": "Script",
+          "method": "GET"
+        },
+        {
+          "url": "https://modinarimandpartsltd.netlify.app/assets/index-DPCQu5x1.css",
+          "resourceType": "Stylesheet",
+          "method": "GET"
+        },
+        {
+          "url": "https://fonts.googleapis.com/css2",
+          "resourceType": "Stylesheet",
+          "method": "GET"
+        },
+        {
+          "url": "https://www.google-analytics.com/g/collect",
+          "resourceType": "Fetch",
+          "method": "POST"
+        },
+        {
+          "url": "https://modinarimandpartsltd.netlify.app/assets/logo-Cg58folY.png",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://modinarimandpartsltd.netlify.app/hero_products.jpg",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://modinarimandpartsltd.netlify.app/assets/Premium%20Rims-DAivbVtn.webp",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://modinarimandpartsltd.netlify.app/assets/CNG%20Rim-CWmeImNb.webp",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://modinarimandpartsltd.netlify.app/assets/cat_motorcycle_parts-BGOdeLlY.webp",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://modinarimandpartsltd.netlify.app/assets/wasar-Crxolq52.webp",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1560250097-0b93528c311a",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://fonts.gstatic.com/s/manrope/v20/xn7gYHE41ni1AdIRggexSg.woff2",
+          "resourceType": "Font",
+          "method": "GET"
+        },
+        {
+          "url": "https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbv2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKwBNntkaToggR7BYRbKPxDcwg.woff2",
+          "resourceType": "Font",
+          "method": "GET"
+        },
+        {
+          "url": "https://modinarimandpartsltd.netlify.app/assets/State%20of%20the%20Art%20Facility-C6H4SQ74.webm",
+          "resourceType": "Media",
+          "method": "GET"
+        },
+        {
+          "url": "https://modinarimandpartsltd.netlify.app/logo.jpg",
+          "resourceType": "Other",
+          "method": "GET"
+        },
+        {
+          "url": "https://modinarimandpartsltd.netlify.app/logo.jpg",
+          "resourceType": "Other",
+          "method": "GET"
+        },
+        {
+          "url": "https://picsum.photos/seed/gal-factory-01/1200/800",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://picsum.photos/seed/gal-cnc-01/600/800",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://picsum.photos/seed/gal-rim-line/600/600",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://picsum.photos/seed/gal-qa-01/600/600",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://picsum.photos/seed/gal-steel-01/600/600",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://picsum.photos/seed/gal-furnace-01/1200/600",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://picsum.photos/seed/gal-rims-stacked/600/800",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://picsum.photos/seed/gal-coating-01/600/600",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://picsum.photos/seed/gal-iso-docs/600/600",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://picsum.photos/seed/gal-safety-01/600/600",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://picsum.photos/seed/gal-dispatch/1200/600",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://picsum.photos/seed/gal-lab-01/600/600",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://fastly.picsum.photos/id/688/600/600.jpg",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://fastly.picsum.photos/id/604/600/800.jpg",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://fastly.picsum.photos/id/498/600/600.jpg",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://fastly.picsum.photos/id/640/1200/800.jpg",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://fastly.picsum.photos/id/437/600/600.jpg",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://fastly.picsum.photos/id/911/1200/600.jpg",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://fastly.picsum.photos/id/198/600/800.jpg",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://fastly.picsum.photos/id/377/600/600.jpg",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://fastly.picsum.photos/id/1026/600/600.jpg",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://fastly.picsum.photos/id/642/600/600.jpg",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://fastly.picsum.photos/id/819/600/600.jpg",
+          "resourceType": "Image",
+          "method": "GET"
+        },
+        {
+          "url": "https://fastly.picsum.photos/id/728/1200/600.jpg",
+          "resourceType": "Image",
+          "method": "GET"
+        }
+      ],
+      "failures": [
+        {
+          "url": "https://www.google-analytics.com/g/collect",
+          "resourceType": "Fetch",
+          "method": "POST",
+          "error": "net::ERR_ABORTED",
+          "canceled": true
+        }
+      ],
+      "httpErrors": [],
+      "preventedWrites": [
+        {
+          "url": "https://www.google-analytics.com/g/collect",
+          "method": "POST",
+          "resourceType": "fetch",
+          "action": "local 204 response"
+        }
+      ],
+      "errors": [],
+      "homeStatus": 200,
+      "domcontentloadedMs": 2706,
+      "spaURL": "https://modinarimandpartsltd.netlify.app/gallery",
+      "imagesSettled": false,
+      "images": [
+        {
+          "url": "https://picsum.photos/seed/gal-factory-01/1200/800",
+          "complete": true,
+          "width": 1200,
+          "alt": "Factory Floor Overview"
+        },
+        {
+          "url": "https://picsum.photos/seed/gal-cnc-01/600/800",
+          "complete": true,
+          "width": 600,
+          "alt": "CNC Machining Centre"
+        },
+        {
+          "url": "https://picsum.photos/seed/gal-rim-line/600/600",
+          "complete": true,
+          "width": 600,
+          "alt": "Rim Production Line"
+        },
+        {
+          "url": "https://picsum.photos/seed/gal-qa-01/600/600",
+          "complete": true,
+          "width": 600,
+          "alt": "Quality Inspection Station"
+        },
+        {
+          "url": "https://picsum.photos/seed/gal-steel-01/600/600",
+          "complete": true,
+          "width": 600,
+          "alt": "Raw Steel Inventory"
+        },
+        {
+          "url": "https://picsum.photos/seed/gal-furnace-01/1200/600",
+          "complete": true,
+          "width": 1200,
+          "alt": "Heat Treatment Furnace"
+        },
+        {
+          "url": "https://picsum.photos/seed/gal-rims-stacked/600/800",
+          "complete": true,
+          "width": 600,
+          "alt": "Finished Rim Stacks"
+        },
+        {
+          "url": "https://picsum.photos/seed/gal-coating-01/600/600",
+          "complete": true,
+          "width": 600,
+          "alt": "Powder Coating Bay"
+        },
+        {
+          "url": "https://picsum.photos/seed/gal-iso-docs/600/600",
+          "complete": true,
+          "width": 600,
+          "alt": "ISO Audit Documentation"
+        },
+        {
+          "url": "https://picsum.photos/seed/gal-safety-01/600/600",
+          "complete": true,
+          "width": 600,
+          "alt": "Worker Safety Training"
+        },
+        {
+          "url": "https://picsum.photos/seed/gal-dispatch/1200/600",
+          "complete": true,
+          "width": 1200,
+          "alt": "Dispatch & Logistics Bay"
+        },
+        {
+          "url": "https://picsum.photos/seed/gal-lab-01/600/600",
+          "complete": true,
+          "width": 600,
+          "alt": "Precision Measurement Lab"
+        },
+        {
+          "url": "https://picsum.photos/seed/gal-assembly/600/800",
+          "complete": false,
+          "width": 0,
+          "alt": "Spoke & Hardware Assembly"
+        },
+        {
+          "url": "https://picsum.photos/seed/gal-entrance/600/600",
+          "complete": false,
+          "width": 0,
+          "alt": "Company Entrance — BSCIC"
+        },
+        {
+          "url": "https://picsum.photos/seed/gal-pack-01/600/600",
+          "complete": false,
+          "width": 0,
+          "alt": "Export Packaging Station"
+        }
+      ]
+    }
+  ],
+  "browser": "156.0.8078.48",
+  "teardown": {
+    "closedNormally": true
+  }
+}

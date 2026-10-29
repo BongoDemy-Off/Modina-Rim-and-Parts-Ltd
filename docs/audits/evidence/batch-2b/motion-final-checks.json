@@ -1,0 +1,110 @@
+{
+  "mode": "motion",
+  "base": "http://127.0.0.1:4199",
+  "cases": [
+    {
+      "name": "three normal rotation intervals, one timer",
+      "timers": {
+        "created": 1,
+        "fired": 3,
+        "active": [
+          15
+        ],
+        "createdAt": [
+          6679.700000000186
+        ],
+        "firedAt": [
+          11682.100000000093,
+          16687.700000000186,
+          21696.30000000028
+        ]
+      },
+      "passed": true
+    },
+    {
+      "name": "explicit pause persists across manual navigation",
+      "timers": {
+        "created": 1,
+        "fired": 3,
+        "active": [],
+        "createdAt": [
+          6679.700000000186
+        ],
+        "firedAt": [
+          11682.100000000093,
+          16687.700000000186,
+          21696.30000000028
+        ]
+      },
+      "passed": true
+    },
+    {
+      "name": "Play, keyboard focus, hover and offscreen suspension",
+      "passed": true
+    },
+    {
+      "name": "document hidden suspension",
+      "nativeHidden": false,
+      "syntheticFallback": true,
+      "passed": true
+    },
+    {
+      "name": "reduced-motion static with manual selection",
+      "passed": true
+    },
+    {
+      "name": "/ reduced video native controls",
+      "video": {
+        "src": "/src/assets/State%20of%20the%20Art%20Facility.webm",
+        "controls": true,
+        "paused": true,
+        "autoplay": false,
+        "muted": true,
+        "inline": true
+      },
+      "passed": true
+    },
+    {
+      "name": "/about reduced video native controls",
+      "video": {
+        "src": "/src/assets/State%20of%20the%20Art%20Facility.webm",
+        "controls": true,
+        "paused": true,
+        "autoplay": false,
+        "muted": true,
+        "inline": true
+      },
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "blocked": [
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    }
+  ],
+  "browser": "156.0.8078.49",
+  "completed": true,
+  "teardown": {
+    "normal": false,
+    "bounded": true,
+    "connected": false
+  }
+}

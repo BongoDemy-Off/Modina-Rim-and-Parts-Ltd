@@ -1,0 +1,6 @@
+browserType.launch: Failed to launch chromium because executable doesn't exist at C:/Users/BongoDemy/.cache/puppeteer/chrome/win64-152.0.7977.75/chrome-win64/chrome.exe
+    at run (C:\Users\BongoDemy\Documents\BongoDemy\Modina-Rim-and-Parts-Ltd\docs\audits\evidence\browser-audit.cjs:15:31)
+    at Object.<anonymous> (C:\Users\BongoDemy\Documents\BongoDemy\Modina-Rim-and-Parts-Ltd\docs\audits\evidence\browser-audit.cjs:33:1) {
+  log: [],
+  name: 'Error'
+}

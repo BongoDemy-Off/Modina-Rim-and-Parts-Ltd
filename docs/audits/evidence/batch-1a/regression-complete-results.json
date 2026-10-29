@@ -1,0 +1,1382 @@
+{
+  "baseURL": "http://127.0.0.1:4181",
+  "browser": "156.0.8078.48",
+  "cases": [
+    {
+      "name": "en/320/products",
+      "passed": true
+    },
+    {
+      "name": "en/320/gallery",
+      "passed": true
+    },
+    {
+      "name": "en/320/careers",
+      "passed": true
+    },
+    {
+      "name": "en/320/contact",
+      "passed": true
+    },
+    {
+      "name": "en/320/navigation",
+      "passed": true
+    },
+    {
+      "name": "en/390/products",
+      "passed": true
+    },
+    {
+      "name": "en/390/gallery",
+      "passed": true
+    },
+    {
+      "name": "en/390/careers",
+      "passed": true
+    },
+    {
+      "name": "en/390/contact",
+      "passed": true
+    },
+    {
+      "name": "en/390/navigation",
+      "passed": true
+    },
+    {
+      "name": "en/430/products",
+      "passed": true
+    },
+    {
+      "name": "en/430/gallery",
+      "passed": true
+    },
+    {
+      "name": "en/430/careers",
+      "passed": true
+    },
+    {
+      "name": "en/430/contact",
+      "passed": true
+    },
+    {
+      "name": "en/430/navigation",
+      "passed": true
+    },
+    {
+      "name": "en/768/products",
+      "passed": true
+    },
+    {
+      "name": "en/768/gallery",
+      "passed": true
+    },
+    {
+      "name": "en/768/careers",
+      "passed": true
+    },
+    {
+      "name": "en/768/contact",
+      "passed": true
+    },
+    {
+      "name": "en/768/navigation",
+      "passed": true
+    },
+    {
+      "name": "en/1024/products",
+      "passed": true
+    },
+    {
+      "name": "en/1024/gallery",
+      "passed": true
+    },
+    {
+      "name": "en/1024/careers",
+      "passed": true
+    },
+    {
+      "name": "en/1024/contact",
+      "passed": true
+    },
+    {
+      "name": "en/1024/navigation",
+      "passed": true
+    },
+    {
+      "name": "en/1440/products",
+      "passed": true
+    },
+    {
+      "name": "en/1440/gallery",
+      "passed": true
+    },
+    {
+      "name": "en/1440/careers",
+      "passed": true
+    },
+    {
+      "name": "en/1440/contact",
+      "passed": true
+    },
+    {
+      "name": "en/1440/navigation",
+      "passed": true
+    },
+    {
+      "name": "bn/320/products",
+      "passed": true
+    },
+    {
+      "name": "bn/320/gallery",
+      "passed": true
+    },
+    {
+      "name": "bn/320/careers",
+      "passed": true
+    },
+    {
+      "name": "bn/320/contact",
+      "passed": true
+    },
+    {
+      "name": "bn/320/navigation",
+      "passed": false,
+      "error": "page.goto: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4181/products\", waiting until \"domcontentloaded\"\u001b[22m\n\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a\\regression.cjs:144:20\n    at test (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a\\regression.cjs:16:15)\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a\\regression.cjs:143:13"
+    },
+    {
+      "name": "bn/390/products",
+      "passed": false,
+      "error": "page.goto: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4181/products\", waiting until \"domcontentloaded\"\u001b[22m\n\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a\\regression.cjs:101:20\n    at test (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a\\regression.cjs:16:15)\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a\\regression.cjs:100:16"
+    },
+    {
+      "name": "bn/390/gallery",
+      "passed": false,
+      "error": "page.goto: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4181/gallery\", waiting until \"domcontentloaded\"\u001b[22m\n\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a\\regression.cjs:101:20\n    at test (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a\\regression.cjs:16:15)\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a\\regression.cjs:100:16"
+    },
+    {
+      "name": "bn/390/careers",
+      "passed": true
+    },
+    {
+      "name": "bn/390/contact",
+      "passed": true
+    },
+    {
+      "name": "bn/390/navigation",
+      "passed": true
+    },
+    {
+      "name": "bn/430/products",
+      "passed": true
+    },
+    {
+      "name": "bn/430/gallery",
+      "passed": true
+    },
+    {
+      "name": "bn/430/careers",
+      "passed": true
+    },
+    {
+      "name": "bn/430/contact",
+      "passed": true
+    },
+    {
+      "name": "bn/430/navigation",
+      "passed": true
+    },
+    {
+      "name": "bn/768/products",
+      "passed": true
+    },
+    {
+      "name": "bn/768/gallery",
+      "passed": true
+    },
+    {
+      "name": "bn/768/careers",
+      "passed": true
+    },
+    {
+      "name": "bn/768/contact",
+      "passed": true
+    },
+    {
+      "name": "bn/768/navigation",
+      "passed": true
+    },
+    {
+      "name": "bn/1024/products",
+      "passed": true
+    },
+    {
+      "name": "bn/1024/gallery",
+      "passed": true
+    },
+    {
+      "name": "bn/1024/careers",
+      "passed": true
+    },
+    {
+      "name": "bn/1024/contact",
+      "passed": true
+    },
+    {
+      "name": "bn/1024/navigation",
+      "passed": true
+    },
+    {
+      "name": "bn/1440/products",
+      "passed": true
+    },
+    {
+      "name": "bn/1440/gallery",
+      "passed": true
+    },
+    {
+      "name": "bn/1440/careers",
+      "passed": true
+    },
+    {
+      "name": "bn/1440/contact",
+      "passed": true
+    },
+    {
+      "name": "bn/1440/navigation",
+      "passed": true
+    },
+    {
+      "name": "products/search-filters-pagination",
+      "passed": true
+    },
+    {
+      "name": "enquiry/all-products-and-direct-defaults",
+      "passed": true
+    },
+    {
+      "name": "enquiry/history-edited-values-and-route-departure",
+      "passed": true
+    },
+    {
+      "name": "radius-and-admin-isolation",
+      "passed": false,
+      "error": "page.goto: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4181/products\", waiting until \"domcontentloaded\"\u001b[22m\n\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a\\regression.cjs:226:18\n    at test (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a\\regression.cjs:16:15)\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a\\regression.cjs:225:11"
+    }
+  ],
+  "console": [
+    {
+      "type": "console",
+      "lang": "en",
+      "width": 320,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "en",
+      "width": 320,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "en",
+      "width": 320,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "en",
+      "width": 320,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "en",
+      "width": 320,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "en",
+      "width": 320,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "en",
+      "width": 390,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "en",
+      "width": 390,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "en",
+      "width": 390,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "en",
+      "width": 390,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "en",
+      "width": 390,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "en",
+      "width": 390,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "en",
+      "width": 430,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "en",
+      "width": 430,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "en",
+      "width": 430,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "en",
+      "width": 430,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "en",
+      "width": 430,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "en",
+      "width": 430,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "en",
+      "width": 768,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "en",
+      "width": 768,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "en",
+      "width": 768,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "en",
+      "width": 768,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "en",
+      "width": 768,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "en",
+      "width": 768,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "en",
+      "width": 1024,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "en",
+      "width": 1024,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "en",
+      "width": 1024,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "en",
+      "width": 1024,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "en",
+      "width": 1024,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "en",
+      "width": 1024,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "en",
+      "width": 1440,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "en",
+      "width": 1440,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "en",
+      "width": 1440,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "en",
+      "width": 1440,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "en",
+      "width": 1440,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "en",
+      "width": 1440,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "bn",
+      "width": 320,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "bn",
+      "width": 320,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "bn",
+      "width": 320,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "bn",
+      "width": 320,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "bn",
+      "width": 320,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "bn",
+      "width": 320,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "bn",
+      "width": 390,
+      "text": "Failed to load resource: net::ERR_NETWORK_CHANGED"
+    },
+    {
+      "type": "console",
+      "lang": "bn",
+      "width": 390,
+      "text": "Failed to load resource: net::ERR_NETWORK_CHANGED"
+    },
+    {
+      "type": "console",
+      "lang": "bn",
+      "width": 390,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "bn",
+      "width": 390,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "bn",
+      "width": 390,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "bn",
+      "width": 390,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "bn",
+      "width": 390,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "bn",
+      "width": 430,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "bn",
+      "width": 430,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "bn",
+      "width": 430,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "bn",
+      "width": 430,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "bn",
+      "width": 430,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "bn",
+      "width": 430,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "bn",
+      "width": 768,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "bn",
+      "width": 768,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "bn",
+      "width": 768,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "bn",
+      "width": 768,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "bn",
+      "width": 768,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "bn",
+      "width": 768,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "bn",
+      "width": 768,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "bn",
+      "width": 1024,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "bn",
+      "width": 1024,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "bn",
+      "width": 1024,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "bn",
+      "width": 1024,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "bn",
+      "width": 1024,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "bn",
+      "width": 1024,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "bn",
+      "width": 1440,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "bn",
+      "width": 1440,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "bn",
+      "width": 1440,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "bn",
+      "width": 1440,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "bn",
+      "width": 1440,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "bn",
+      "width": 1440,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "bn",
+      "width": 1440,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    }
+  ],
+  "axe": [
+    {
+      "state": "en/390/products-open",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                ".inline-flex.bg-modina-red\\/10.tracking-wider"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.88 (foreground color: #e52525, background color: #fce9e9, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".sm\\:gap-3 > .font-mono.text-modina-subtle.text-xs"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.56 (foreground color: #94a3b8, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".text-modina-success"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.12 (foreground color: #16a34a, background color: #f8f9fb, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".text-center.text-modina-subtle"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.56 (foreground color: #94a3b8, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "state": "en/390/gallery-open",
+      "violations": []
+    },
+    {
+      "state": "en/390/careers-open",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                ".pt-6.border-t.mb-6 > .text-modina-subtle.mb-4"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.56 (foreground color: #94a3b8, background color: #ffffff, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".pt-6.mb-8.border-t > .text-modina-subtle.mb-4"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.56 (foreground color: #94a3b8, background color: #ffffff, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "state": "en/390/contact",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                ".mb-6"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.31 (foreground color: #e52525, background color: #f8f9fb, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".gap-5.py-5.last\\:border-0:nth-child(2) > .gap-1.flex-col > .text-modina-subtle.tracking-wider"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.43 (foreground color: #94a3b8, background color: #f8f9fb, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".gap-5.py-5.last\\:border-0:nth-child(3) > .gap-1.flex-col > .text-modina-subtle.tracking-wider"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.43 (foreground color: #94a3b8, background color: #f8f9fb, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".gap-5.py-5.last\\:border-0:nth-child(4) > .gap-1.flex-col > .text-modina-subtle.tracking-wider"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.43 (foreground color: #94a3b8, background color: #f8f9fb, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".gap-5.py-5.last\\:border-0:nth-child(5) > .gap-1.flex-col > .text-modina-subtle.tracking-wider"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.43 (foreground color: #94a3b8, background color: #f8f9fb, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".mb-12 > .mb-4.tracking-widest"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.19 (foreground color: #e52525, background color: #f4f6f8, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".mb-3"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.56 (foreground color: #94a3b8, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".py-3.gap-4.last\\:border-0:nth-child(1) > .gap-0\\.5.flex-col > .text-modina-subtle.font-semibold.tracking-wider"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.56 (foreground color: #94a3b8, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".py-3.gap-4.last\\:border-0:nth-child(2) > .gap-0\\.5.flex-col > .text-modina-subtle.font-semibold.tracking-wider"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.56 (foreground color: #94a3b8, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".py-3.gap-4.last\\:border-0:nth-child(3) > .gap-0\\.5.flex-col > .text-modina-subtle.font-semibold.tracking-wider"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.56 (foreground color: #94a3b8, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".py-3.gap-4.last\\:border-0:nth-child(4) > .gap-0\\.5.flex-col > .text-modina-subtle.font-semibold.tracking-wider"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.56 (foreground color: #94a3b8, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                ".hover\\:bg-modina-red\\/5.hover\\:border-modina-red\\/40[href=\"#\"]:nth-child(1)"
+              ],
+              "summary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            },
+            {
+              "target": [
+                ".hover\\:bg-modina-red\\/5.hover\\:border-modina-red\\/40[href=\"#\"]:nth-child(2)"
+              ],
+              "summary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            },
+            {
+              "target": [
+                ".hover\\:bg-modina-red\\/5.hover\\:border-modina-red\\/40[href=\"#\"]:nth-child(3)"
+              ],
+              "summary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            },
+            {
+              "target": [
+                ".hover\\:bg-modina-red\\/5.hover\\:border-modina-red\\/40[href=\"#\"]:nth-child(4)"
+              ],
+              "summary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "state": "en/menu-open",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                ".gap-2\\.5.hover\\:bg-modina-bg-alt[href$=\"about\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.56 (foreground color: #9da2ab, background color: #ffffff, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "a[href$=\"mission\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.56 (foreground color: #9da2ab, background color: #ffffff, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "a[href$=\"careers\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.56 (foreground color: #9da2ab, background color: #ffffff, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".gap-2\\.5.hover\\:bg-modina-bg-alt[href$=\"faq\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.56 (foreground color: #9da2ab, background color: #ffffff, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "state": "bn/390/careers-open",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                ".pt-6.border-t.mb-6 > .text-modina-subtle.mb-4"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.56 (foreground color: #94a3b8, background color: #ffffff, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".pt-6.mb-8.border-t > .text-modina-subtle.mb-4"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.56 (foreground color: #94a3b8, background color: #ffffff, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "state": "bn/390/contact",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                ".mb-6"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.31 (foreground color: #e52525, background color: #f8f9fb, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".gap-5.py-5.last\\:border-0:nth-child(2) > .gap-1.flex-col > .text-modina-subtle.tracking-wider"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.43 (foreground color: #94a3b8, background color: #f8f9fb, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".gap-5.py-5.last\\:border-0:nth-child(3) > .gap-1.flex-col > .text-modina-subtle.tracking-wider"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.43 (foreground color: #94a3b8, background color: #f8f9fb, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".gap-5.py-5.last\\:border-0:nth-child(4) > .gap-1.flex-col > .text-modina-subtle.tracking-wider"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.43 (foreground color: #94a3b8, background color: #f8f9fb, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".gap-5.py-5.last\\:border-0:nth-child(5) > .gap-1.flex-col > .text-modina-subtle.tracking-wider"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.43 (foreground color: #94a3b8, background color: #f8f9fb, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".mb-12 > .mb-4.tracking-widest"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.19 (foreground color: #e52525, background color: #f4f6f8, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".mb-3"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.56 (foreground color: #94a3b8, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".py-3.gap-4.last\\:border-0:nth-child(1) > .gap-0\\.5.flex-col > .text-modina-subtle.font-semibold.tracking-wider"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.56 (foreground color: #94a3b8, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".py-3.gap-4.last\\:border-0:nth-child(2) > .gap-0\\.5.flex-col > .text-modina-subtle.font-semibold.tracking-wider"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.56 (foreground color: #94a3b8, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".py-3.gap-4.last\\:border-0:nth-child(3) > .gap-0\\.5.flex-col > .text-modina-subtle.font-semibold.tracking-wider"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.56 (foreground color: #94a3b8, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".py-3.gap-4.last\\:border-0:nth-child(4) > .gap-0\\.5.flex-col > .text-modina-subtle.font-semibold.tracking-wider"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.56 (foreground color: #94a3b8, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                ".hover\\:bg-modina-red\\/5.hover\\:border-modina-red\\/40[href=\"#\"]:nth-child(1)"
+              ],
+              "summary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            },
+            {
+              "target": [
+                ".hover\\:bg-modina-red\\/5.hover\\:border-modina-red\\/40[href=\"#\"]:nth-child(2)"
+              ],
+              "summary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            },
+            {
+              "target": [
+                ".hover\\:bg-modina-red\\/5.hover\\:border-modina-red\\/40[href=\"#\"]:nth-child(3)"
+              ],
+              "summary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            },
+            {
+              "target": [
+                ".hover\\:bg-modina-red\\/5.hover\\:border-modina-red\\/40[href=\"#\"]:nth-child(4)"
+              ],
+              "summary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "state": "bn/menu-open",
+      "violations": []
+    }
+  ],
+  "geometry": [
+    {
+      "lang": "en",
+      "route": "products",
+      "width": 320,
+      "scrollWidth": 320,
+      "headerHeight": 112
+    },
+    {
+      "lang": "en",
+      "route": "gallery",
+      "width": 320,
+      "scrollWidth": 320,
+      "headerHeight": 112
+    },
+    {
+      "lang": "en",
+      "route": "careers",
+      "width": 320,
+      "scrollWidth": 320,
+      "headerHeight": 112
+    },
+    {
+      "lang": "en",
+      "route": "contact",
+      "width": 320,
+      "scrollWidth": 320,
+      "headerHeight": 112
+    },
+    {
+      "lang": "en",
+      "route": "products",
+      "width": 390,
+      "scrollWidth": 390,
+      "headerHeight": 112
+    },
+    {
+      "lang": "en",
+      "route": "gallery",
+      "width": 390,
+      "scrollWidth": 390,
+      "headerHeight": 112
+    },
+    {
+      "lang": "en",
+      "route": "careers",
+      "width": 390,
+      "scrollWidth": 390,
+      "headerHeight": 112
+    },
+    {
+      "lang": "en",
+      "route": "contact",
+      "width": 390,
+      "scrollWidth": 390,
+      "headerHeight": 112
+    },
+    {
+      "lang": "en",
+      "route": "products",
+      "width": 430,
+      "scrollWidth": 430,
+      "headerHeight": 112
+    },
+    {
+      "lang": "en",
+      "route": "gallery",
+      "width": 430,
+      "scrollWidth": 430,
+      "headerHeight": 112
+    },
+    {
+      "lang": "en",
+      "route": "careers",
+      "width": 430,
+      "scrollWidth": 430,
+      "headerHeight": 112
+    },
+    {
+      "lang": "en",
+      "route": "contact",
+      "width": 430,
+      "scrollWidth": 430,
+      "headerHeight": 112
+    },
+    {
+      "lang": "en",
+      "route": "products",
+      "width": 768,
+      "scrollWidth": 768,
+      "headerHeight": 64
+    },
+    {
+      "lang": "en",
+      "route": "gallery",
+      "width": 768,
+      "scrollWidth": 768,
+      "headerHeight": 64
+    },
+    {
+      "lang": "en",
+      "route": "careers",
+      "width": 768,
+      "scrollWidth": 768,
+      "headerHeight": 64
+    },
+    {
+      "lang": "en",
+      "route": "contact",
+      "width": 768,
+      "scrollWidth": 768,
+      "headerHeight": 64
+    },
+    {
+      "lang": "en",
+      "route": "products",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "headerHeight": 64
+    },
+    {
+      "lang": "en",
+      "route": "gallery",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "headerHeight": 64
+    },
+    {
+      "lang": "en",
+      "route": "careers",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "headerHeight": 64
+    },
+    {
+      "lang": "en",
+      "route": "contact",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "headerHeight": 64
+    },
+    {
+      "lang": "en",
+      "route": "products",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headerHeight": 64
+    },
+    {
+      "lang": "en",
+      "route": "gallery",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headerHeight": 64
+    },
+    {
+      "lang": "en",
+      "route": "careers",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headerHeight": 64
+    },
+    {
+      "lang": "en",
+      "route": "contact",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headerHeight": 64
+    },
+    {
+      "lang": "bn",
+      "route": "products",
+      "width": 320,
+      "scrollWidth": 320,
+      "headerHeight": 112
+    },
+    {
+      "lang": "bn",
+      "route": "gallery",
+      "width": 320,
+      "scrollWidth": 320,
+      "headerHeight": 112
+    },
+    {
+      "lang": "bn",
+      "route": "careers",
+      "width": 320,
+      "scrollWidth": 320,
+      "headerHeight": 112
+    },
+    {
+      "lang": "bn",
+      "route": "contact",
+      "width": 320,
+      "scrollWidth": 320,
+      "headerHeight": 112
+    },
+    {
+      "lang": "bn",
+      "route": "careers",
+      "width": 390,
+      "scrollWidth": 390,
+      "headerHeight": 112
+    },
+    {
+      "lang": "bn",
+      "route": "contact",
+      "width": 390,
+      "scrollWidth": 390,
+      "headerHeight": 112
+    },
+    {
+      "lang": "bn",
+      "route": "products",
+      "width": 430,
+      "scrollWidth": 430,
+      "headerHeight": 112
+    },
+    {
+      "lang": "bn",
+      "route": "gallery",
+      "width": 430,
+      "scrollWidth": 430,
+      "headerHeight": 112
+    },
+    {
+      "lang": "bn",
+      "route": "careers",
+      "width": 430,
+      "scrollWidth": 430,
+      "headerHeight": 112
+    },
+    {
+      "lang": "bn",
+      "route": "contact",
+      "width": 430,
+      "scrollWidth": 430,
+      "headerHeight": 112
+    },
+    {
+      "lang": "bn",
+      "route": "products",
+      "width": 768,
+      "scrollWidth": 768,
+      "headerHeight": 64.140625
+    },
+    {
+      "lang": "bn",
+      "route": "gallery",
+      "width": 768,
+      "scrollWidth": 768,
+      "headerHeight": 64
+    },
+    {
+      "lang": "bn",
+      "route": "careers",
+      "width": 768,
+      "scrollWidth": 768,
+      "headerHeight": 64
+    },
+    {
+      "lang": "bn",
+      "route": "contact",
+      "width": 768,
+      "scrollWidth": 768,
+      "headerHeight": 64
+    },
+    {
+      "lang": "bn",
+      "route": "products",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "headerHeight": 64
+    },
+    {
+      "lang": "bn",
+      "route": "gallery",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "headerHeight": 64.140625
+    },
+    {
+      "lang": "bn",
+      "route": "careers",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "headerHeight": 64
+    },
+    {
+      "lang": "bn",
+      "route": "contact",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "headerHeight": 64
+    },
+    {
+      "lang": "bn",
+      "route": "products",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headerHeight": 64.640625
+    },
+    {
+      "lang": "bn",
+      "route": "gallery",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headerHeight": 64
+    },
+    {
+      "lang": "bn",
+      "route": "careers",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headerHeight": 70.609375
+    },
+    {
+      "lang": "bn",
+      "route": "contact",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headerHeight": 64
+    }
+  ]
+}

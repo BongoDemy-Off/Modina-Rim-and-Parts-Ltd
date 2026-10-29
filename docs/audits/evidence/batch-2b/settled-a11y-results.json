@@ -1,0 +1,173 @@
+{
+  "states": [
+    {
+      "state": "en/products-open",
+      "violations": []
+    },
+    {
+      "state": "en/gallery-open",
+      "violations": []
+    },
+    {
+      "state": "en/careers-open",
+      "violations": []
+    },
+    {
+      "state": "en/contact",
+      "violations": [
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                ".hover\\:bg-modina-red\\/5.hover\\:border-modina-red\\/40[href=\"#\"]:nth-child(1)"
+              ],
+              "summary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            },
+            {
+              "target": [
+                ".hover\\:bg-modina-red\\/5.hover\\:border-modina-red\\/40[href=\"#\"]:nth-child(2)"
+              ],
+              "summary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            },
+            {
+              "target": [
+                ".hover\\:bg-modina-red\\/5.hover\\:border-modina-red\\/40[href=\"#\"]:nth-child(3)"
+              ],
+              "summary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            },
+            {
+              "target": [
+                ".hover\\:bg-modina-red\\/5.hover\\:border-modina-red\\/40[href=\"#\"]:nth-child(4)"
+              ],
+              "summary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "state": "en/menu-open",
+      "violations": [
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                ".hover\\:bg-modina-red\\/5.hover\\:border-modina-red\\/40[href=\"#\"]:nth-child(1)"
+              ],
+              "summary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            },
+            {
+              "target": [
+                ".hover\\:bg-modina-red\\/5.hover\\:border-modina-red\\/40[href=\"#\"]:nth-child(2)"
+              ],
+              "summary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            },
+            {
+              "target": [
+                ".hover\\:bg-modina-red\\/5.hover\\:border-modina-red\\/40[href=\"#\"]:nth-child(3)"
+              ],
+              "summary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            },
+            {
+              "target": [
+                ".hover\\:bg-modina-red\\/5.hover\\:border-modina-red\\/40[href=\"#\"]:nth-child(4)"
+              ],
+              "summary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "state": "bn/products-open",
+      "violations": []
+    },
+    {
+      "state": "bn/gallery-open",
+      "violations": []
+    },
+    {
+      "state": "bn/careers-open",
+      "violations": []
+    },
+    {
+      "state": "bn/contact",
+      "violations": [
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                ".hover\\:bg-modina-red\\/5.hover\\:border-modina-red\\/40[href=\"#\"]:nth-child(1)"
+              ],
+              "summary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            },
+            {
+              "target": [
+                ".hover\\:bg-modina-red\\/5.hover\\:border-modina-red\\/40[href=\"#\"]:nth-child(2)"
+              ],
+              "summary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            },
+            {
+              "target": [
+                ".hover\\:bg-modina-red\\/5.hover\\:border-modina-red\\/40[href=\"#\"]:nth-child(3)"
+              ],
+              "summary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            },
+            {
+              "target": [
+                ".hover\\:bg-modina-red\\/5.hover\\:border-modina-red\\/40[href=\"#\"]:nth-child(4)"
+              ],
+              "summary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "state": "bn/menu-open",
+      "violations": [
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                ".hover\\:bg-modina-red\\/5.hover\\:border-modina-red\\/40[href=\"#\"]:nth-child(1)"
+              ],
+              "summary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            },
+            {
+              "target": [
+                ".hover\\:bg-modina-red\\/5.hover\\:border-modina-red\\/40[href=\"#\"]:nth-child(2)"
+              ],
+              "summary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            },
+            {
+              "target": [
+                ".hover\\:bg-modina-red\\/5.hover\\:border-modina-red\\/40[href=\"#\"]:nth-child(3)"
+              ],
+              "summary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            },
+            {
+              "target": [
+                ".hover\\:bg-modina-red\\/5.hover\\:border-modina-red\\/40[href=\"#\"]:nth-child(4)"
+              ],
+              "summary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "teardown": {
+    "closedNormally": false,
+    "bounded": true,
+    "connected": false
+  }
+}

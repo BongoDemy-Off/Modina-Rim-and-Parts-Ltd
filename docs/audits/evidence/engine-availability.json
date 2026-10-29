@@ -1,0 +1,12 @@
+{
+  "chromium": "Chrome 156.0.8078.48 executed",
+  "firefox": {
+    "path": "C:\\Users\\BongoDemy\\AppData\\Local\\ms-playwright\\firefox-1538\\firefox\\firefox.exe",
+    "exists": false
+  },
+  "webkit": {
+    "path": "C:\\Users\\BongoDemy\\AppData\\Local\\ms-playwright\\webkit-2336\\Playwright.exe",
+    "exists": false
+  },
+  "edge": "installed; also Chromium engine, not a second independent engine"
+}

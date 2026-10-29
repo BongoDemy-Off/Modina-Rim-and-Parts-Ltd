@@ -1,0 +1,168 @@
+{
+  "mode": "before-bn-wide",
+  "base": "http://127.0.0.1:4210",
+  "states": [
+    {
+      "route": "/",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer — Bangladesh",
+      "targets": [
+        {
+          "text": "Forging the Backbone of Modern Mobility",
+          "top": 1076
+        },
+        {
+          "text": "New Arrival",
+          "top": 1964
+        },
+        {
+          "text": "The Trust Factor",
+          "top": 3077
+        },
+        {
+          "text": "Equipping Our Partners.",
+          "top": 3992
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/about",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "About Us | Modina Rim & Parts Ltd. — Since 2010, Jashore Bangladesh",
+      "targets": [
+        {
+          "text": "২০১০ সাল থেকে নির্ভরশীল প্রকৌশল",
+          "top": 1058
+        },
+        {
+          "text": "আমাদের যাত্রা",
+          "top": 2034
+        },
+        {
+          "text": "লক্ষ্য ও মূল্যবোধ",
+          "top": 2890
+        },
+        {
+          "text": "আধুনিক সুযোগ-সুবিধা",
+          "top": 4271
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/products",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Products | Modina Rim & Parts Ltd. — 21 SKUs, Bangladesh",
+      "targets": [
+        {
+          "text": "Search products...",
+          "top": 816
+        },
+        {
+          "text": "Ready to Placean Order?",
+          "top": 2962
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/contact",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Contact Us | Modina Rim & Parts Ltd. — Jashore, Bangladesh",
+      "targets": [
+        {
+          "text": "Let's Talk",
+          "top": 986
+        },
+        {
+          "text": "Full Name *Company NameEmail *PhoneSubject *Select a subject",
+          "top": 1094
+        },
+        {
+          "text": "Your full name",
+          "top": 1133
+        },
+        {
+          "text": "Your company",
+          "top": 1240
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "captures": [
+    "before-bn-wide-home-1440-bn-hero.png",
+    {
+      "file": "before-bn-wide-home-1440-bn-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          152,
+          359,
+          520,
+          134.5
+        ],
+        "images": true
+      }
+    },
+    "before-bn-wide-about-1440-bn-hero.png",
+    {
+      "file": "before-bn-wide-about-1440-bn-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          784,
+          382.5,
+          504,
+          134.5
+        ],
+        "images": true
+      }
+    },
+    "before-bn-wide-products-1440-bn-hero.png",
+    {
+      "file": "before-bn-wide-products-1440-bn-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          152,
+          189,
+          357.5,
+          522.5
+        ],
+        "images": true
+      }
+    },
+    "before-bn-wide-contact-1440-bn-hero.png",
+    {
+      "file": "before-bn-wide-contact-1440-bn-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          64,
+          409.5,
+          591,
+          56
+        ],
+        "images": true
+      }
+    }
+  ],
+  "browser": "156.0.8078.49",
+  "completed": true,
+  "teardown": {
+    "normal": false,
+    "bounded": true,
+    "connected": false
+  }
+}

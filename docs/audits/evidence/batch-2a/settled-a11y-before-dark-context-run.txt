@@ -1,0 +1,10 @@
+PASS en/products-open: targeted accessibility; retained none
+PASS en/gallery-open: targeted accessibility; retained color-contrast
+PASS en/careers-open: targeted accessibility; retained none
+PASS en/contact: targeted accessibility; retained link-name
+PASS en/menu-open: targeted accessibility; retained link-name
+PASS bn/products-open: targeted accessibility; retained none
+PASS bn/gallery-open: targeted accessibility; retained color-contrast
+PASS bn/careers-open: targeted accessibility; retained none
+PASS bn/contact: targeted accessibility; retained link-name
+PASS bn/menu-open: targeted accessibility; retained link-name

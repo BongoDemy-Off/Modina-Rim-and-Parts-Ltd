@@ -1,0 +1,492 @@
+[
+  {
+    "name": "Product search, empty state, category, pagination",
+    "counts": [
+      9,
+      9,
+      3,
+      9
+    ],
+    "empty": true,
+    "screenshot": "products-empty-390.png"
+  },
+  {
+    "name": "Product card keyboard access and mobile CTA",
+    "tag": "DIV",
+    "role": null,
+    "tabindex": null,
+    "detailsOpacity": "0"
+  },
+  {
+    "name": "Product drawer carousel, focus, Escape",
+    "error": "locator.getAttribute: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('main .fixed.right-0').locator('img').first()\u001b[22m\n"
+  },
+  {
+    "name": "Product enquiry context",
+    "error": "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Request Inquiry', exact: true })\u001b[22m\n"
+  },
+  {
+    "name": "Mobile menu focus and Escape",
+    "before": {
+      "active": "Open menu",
+      "dialogCount": 0,
+      "expanded": null
+    },
+    "escapeClosed": false,
+    "screenshot": "mobile-menu-390.png"
+  },
+  {
+    "name": "Mobile global search",
+    "error": "locator.tap: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Open search', exact: true })\u001b[22m\n"
+  },
+  {
+    "name": "Gallery lightbox keyboard, scrolling",
+    "before": {
+      "y": 53,
+      "bodyOverflow": "unset",
+      "dialogs": 0,
+      "active": "BODY"
+    },
+    "escapeStillOpen": true,
+    "afterScrollY": 553,
+    "screenshot": "gallery-lightbox-390.png"
+  },
+  {
+    "name": "Downloads inert action",
+    "downloads": 0,
+    "requests": 0,
+    "url": "http://127.0.0.1:4173/downloads",
+    "screenshot": "download-action-390.png"
+  },
+  {
+    "name": "FAQ toggle semantics",
+    "expanded": null,
+    "controls": null,
+    "answerVisible": true,
+    "screenshot": "faq-expanded-390.png"
+  },
+  {
+    "name": "Careers drawer labels and Escape",
+    "labels": [
+      {
+        "name": "name",
+        "id": "",
+        "labels": 0,
+        "aria": null
+      },
+      {
+        "name": "email",
+        "id": "",
+        "labels": 0,
+        "aria": null
+      },
+      {
+        "name": "phone",
+        "id": "",
+        "labels": 0,
+        "aria": null
+      }
+    ],
+    "escapeStillOpen": true,
+    "screenshot": "careers-form-390.png"
+  },
+  {
+    "name": "Contact labels and native validation without submission",
+    "fields": [
+      {
+        "name": "name",
+        "labels": 0,
+        "required": true,
+        "valid": false
+      },
+      {
+        "name": "company",
+        "labels": 0,
+        "required": false,
+        "valid": true
+      },
+      {
+        "name": "email",
+        "labels": 0,
+        "required": true,
+        "valid": false
+      },
+      {
+        "name": "phone",
+        "labels": 0,
+        "required": false,
+        "valid": true
+      },
+      {
+        "name": "subject",
+        "labels": 0,
+        "required": true,
+        "valid": false
+      },
+      {
+        "name": "message",
+        "labels": 0,
+        "required": true,
+        "valid": false
+      }
+    ],
+    "screenshot": "contact-top-390.png"
+  },
+  {
+    "name": "Chatbot small landscape",
+    "input": {
+      "x": 310,
+      "y": 224,
+      "width": 264,
+      "height": 46
+    },
+    "screenshot": "chat-landscape-667x375.png"
+  },
+  {
+    "name": "Desktop dropdown pointer versus keyboard",
+    "semantics": {
+      "tag": "DIV",
+      "role": null,
+      "tabindex": null
+    },
+    "linkVisible": true,
+    "rect": {
+      "x": 542.765625,
+      "y": 91,
+      "width": 202,
+      "height": 68
+    },
+    "screenshot": "desktop-dropdown-1440.png"
+  },
+  {
+    "name": "Intermediate and landscape layout sweep",
+    "rows": [
+      {
+        "route": "/",
+        "width": 639,
+        "height": 844,
+        "scrollWidth": 639,
+        "viewport": 639,
+        "headerHeight": 111.6875
+      },
+      {
+        "route": "/",
+        "width": 640,
+        "height": 844,
+        "scrollWidth": 640,
+        "viewport": 640,
+        "headerHeight": 75.25
+      },
+      {
+        "route": "/",
+        "width": 767,
+        "height": 900,
+        "scrollWidth": 767,
+        "viewport": 767,
+        "headerHeight": 72
+      },
+      {
+        "route": "/",
+        "width": 769,
+        "height": 900,
+        "scrollWidth": 769,
+        "viewport": 769,
+        "headerHeight": 72
+      },
+      {
+        "route": "/",
+        "width": 1023,
+        "height": 900,
+        "scrollWidth": 1023,
+        "viewport": 1023,
+        "headerHeight": 72
+      },
+      {
+        "route": "/",
+        "width": 1279,
+        "height": 900,
+        "scrollWidth": 1279,
+        "viewport": 1279,
+        "headerHeight": 72
+      },
+      {
+        "route": "/",
+        "width": 1280,
+        "height": 900,
+        "scrollWidth": 1280,
+        "viewport": 1280,
+        "headerHeight": 72
+      },
+      {
+        "route": "/",
+        "width": 1920,
+        "height": 1080,
+        "scrollWidth": 1920,
+        "viewport": 1920,
+        "headerHeight": 72
+      },
+      {
+        "route": "/",
+        "width": 667,
+        "height": 375,
+        "scrollWidth": 667,
+        "viewport": 667,
+        "headerHeight": 72
+      },
+      {
+        "route": "/",
+        "width": 844,
+        "height": 390,
+        "scrollWidth": 844,
+        "viewport": 844,
+        "headerHeight": 72
+      },
+      {
+        "route": "/products",
+        "width": 639,
+        "height": 844,
+        "scrollWidth": 639,
+        "viewport": 639,
+        "headerHeight": 110.6875
+      },
+      {
+        "route": "/products",
+        "width": 640,
+        "height": 844,
+        "scrollWidth": 640,
+        "viewport": 640,
+        "headerHeight": 74.96875
+      },
+      {
+        "route": "/products",
+        "width": 767,
+        "height": 900,
+        "scrollWidth": 767,
+        "viewport": 767,
+        "headerHeight": 72
+      },
+      {
+        "route": "/products",
+        "width": 769,
+        "height": 900,
+        "scrollWidth": 769,
+        "viewport": 769,
+        "headerHeight": 72
+      },
+      {
+        "route": "/products",
+        "width": 1023,
+        "height": 900,
+        "scrollWidth": 1023,
+        "viewport": 1023,
+        "headerHeight": 72
+      },
+      {
+        "route": "/products",
+        "width": 1279,
+        "height": 900,
+        "scrollWidth": 1279,
+        "viewport": 1279,
+        "headerHeight": 72
+      },
+      {
+        "route": "/products",
+        "width": 1280,
+        "height": 900,
+        "scrollWidth": 1280,
+        "viewport": 1280,
+        "headerHeight": 72
+      },
+      {
+        "route": "/products",
+        "width": 1920,
+        "height": 1080,
+        "scrollWidth": 1920,
+        "viewport": 1920,
+        "headerHeight": 72
+      },
+      {
+        "route": "/products",
+        "width": 667,
+        "height": 375,
+        "scrollWidth": 667,
+        "viewport": 667,
+        "headerHeight": 72
+      },
+      {
+        "route": "/products",
+        "width": 844,
+        "height": 390,
+        "scrollWidth": 844,
+        "viewport": 844,
+        "headerHeight": 72
+      },
+      {
+        "route": "/contact",
+        "width": 639,
+        "height": 844,
+        "scrollWidth": 639,
+        "viewport": 639,
+        "headerHeight": 108.734375
+      },
+      {
+        "route": "/contact",
+        "width": 640,
+        "height": 844,
+        "scrollWidth": 640,
+        "viewport": 640,
+        "headerHeight": 75
+      },
+      {
+        "route": "/contact",
+        "width": 767,
+        "height": 900,
+        "scrollWidth": 767,
+        "viewport": 767,
+        "headerHeight": 72
+      },
+      {
+        "route": "/contact",
+        "width": 769,
+        "height": 900,
+        "scrollWidth": 769,
+        "viewport": 769,
+        "headerHeight": 72
+      },
+      {
+        "route": "/contact",
+        "width": 1023,
+        "height": 900,
+        "scrollWidth": 1023,
+        "viewport": 1023,
+        "headerHeight": 72
+      },
+      {
+        "route": "/contact",
+        "width": 1279,
+        "height": 900,
+        "scrollWidth": 1279,
+        "viewport": 1279,
+        "headerHeight": 72
+      },
+      {
+        "route": "/contact",
+        "width": 1280,
+        "height": 900,
+        "scrollWidth": 1280,
+        "viewport": 1280,
+        "headerHeight": 72
+      },
+      {
+        "route": "/contact",
+        "width": 1920,
+        "height": 1080,
+        "scrollWidth": 1920,
+        "viewport": 1920,
+        "headerHeight": 72
+      },
+      {
+        "route": "/contact",
+        "width": 667,
+        "height": 375,
+        "scrollWidth": 667,
+        "viewport": 667,
+        "headerHeight": 72
+      },
+      {
+        "route": "/contact",
+        "width": 844,
+        "height": 390,
+        "scrollWidth": 844,
+        "viewport": 844,
+        "headerHeight": 72
+      },
+      {
+        "route": "/gallery",
+        "width": 639,
+        "height": 844,
+        "scrollWidth": 639,
+        "viewport": 639,
+        "headerHeight": 109.859375
+      },
+      {
+        "route": "/gallery",
+        "width": 640,
+        "height": 844,
+        "scrollWidth": 640,
+        "viewport": 640,
+        "headerHeight": 75.984375
+      },
+      {
+        "route": "/gallery",
+        "width": 767,
+        "height": 900,
+        "scrollWidth": 767,
+        "viewport": 767,
+        "headerHeight": 72
+      },
+      {
+        "route": "/gallery",
+        "width": 769,
+        "height": 900,
+        "scrollWidth": 769,
+        "viewport": 769,
+        "headerHeight": 72
+      },
+      {
+        "route": "/gallery",
+        "width": 1023,
+        "height": 900,
+        "scrollWidth": 1023,
+        "viewport": 1023,
+        "headerHeight": 72
+      },
+      {
+        "route": "/gallery",
+        "width": 1279,
+        "height": 900,
+        "scrollWidth": 1279,
+        "viewport": 1279,
+        "headerHeight": 72
+      },
+      {
+        "route": "/gallery",
+        "width": 1280,
+        "height": 900,
+        "scrollWidth": 1280,
+        "viewport": 1280,
+        "headerHeight": 72
+      },
+      {
+        "route": "/gallery",
+        "width": 1920,
+        "height": 1080,
+        "scrollWidth": 1920,
+        "viewport": 1920,
+        "headerHeight": 72
+      },
+      {
+        "route": "/gallery",
+        "width": 667,
+        "height": 375,
+        "scrollWidth": 667,
+        "viewport": 667,
+        "headerHeight": 72
+      },
+      {
+        "route": "/gallery",
+        "width": 844,
+        "height": 390,
+        "scrollWidth": 844,
+        "viewport": 844,
+        "headerHeight": 72
+      }
+    ]
+  },
+  {
+    "name": "200 percent text enlargement approximation",
+    "method": "Computed font and line-height doubled in browser DOM; approximates text-only zoom, not native browser zoom",
+    "scrollWidth": 417,
+    "screenshot": "products-text200-390.png"
+  }
+]

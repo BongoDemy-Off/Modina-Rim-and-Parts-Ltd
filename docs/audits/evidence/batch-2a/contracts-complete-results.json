@@ -1,0 +1,476 @@
+{
+  "cases": [
+    {
+      "name": "en/downloads/filter-state-focus",
+      "passed": true
+    },
+    {
+      "name": "en/news/filter-state-focus",
+      "passed": true
+    },
+    {
+      "name": "en/blog/filter-state-focus",
+      "passed": true
+    },
+    {
+      "name": "en/faq/filter-state-focus",
+      "passed": true
+    },
+    {
+      "name": "en/home-selectors",
+      "passed": true,
+      "heroRects": [
+        {
+          "width": 32,
+          "height": 44,
+          "label": "Go to slide 1"
+        },
+        {
+          "width": 24,
+          "height": 44,
+          "label": "Go to slide 2"
+        },
+        {
+          "width": 24,
+          "height": 44,
+          "label": "Go to slide 3"
+        },
+        {
+          "width": 24,
+          "height": 44,
+          "label": "Go to slide 4"
+        },
+        {
+          "width": 24,
+          "height": 44,
+          "label": "Go to slide 5"
+        }
+      ],
+      "testimonialRects": [
+        {
+          "width": 44,
+          "height": 44,
+          "label": "Show testimonial 1"
+        },
+        {
+          "width": 44,
+          "height": 44,
+          "label": "Show testimonial 2"
+        },
+        {
+          "width": 44,
+          "height": 44,
+          "label": "Show testimonial 3"
+        }
+      ]
+    },
+    {
+      "name": "bn/downloads/filter-state-focus",
+      "passed": true
+    },
+    {
+      "name": "bn/news/filter-state-focus",
+      "passed": true
+    },
+    {
+      "name": "bn/blog/filter-state-focus",
+      "passed": true
+    },
+    {
+      "name": "bn/faq/filter-state-focus",
+      "passed": true
+    },
+    {
+      "name": "bn/home-selectors",
+      "passed": true,
+      "heroRects": [
+        {
+          "width": 32,
+          "height": 44,
+          "label": "Go to slide 1"
+        },
+        {
+          "width": 24,
+          "height": 44,
+          "label": "Go to slide 2"
+        },
+        {
+          "width": 24,
+          "height": 44,
+          "label": "Go to slide 3"
+        },
+        {
+          "width": 24,
+          "height": 44,
+          "label": "Go to slide 4"
+        },
+        {
+          "width": 24,
+          "height": 44,
+          "label": "Go to slide 5"
+        }
+      ],
+      "testimonialRects": [
+        {
+          "width": 44,
+          "height": 44,
+          "label": "Show testimonial 1"
+        },
+        {
+          "width": 44,
+          "height": 44,
+          "label": "Show testimonial 2"
+        },
+        {
+          "width": 44,
+          "height": 44,
+          "label": "Show testimonial 3"
+        }
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "lang": "en",
+      "width": 320,
+      "size": "35.2px",
+      "lineHeight": "40.48px",
+      "rows": 1,
+      "scrollWidth": 320
+    },
+    {
+      "lang": "en",
+      "width": 360,
+      "size": "39.6px",
+      "lineHeight": "45.54px",
+      "rows": 1,
+      "scrollWidth": 360
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "size": "40px",
+      "lineHeight": "46px",
+      "rows": 1,
+      "scrollWidth": 390
+    },
+    {
+      "lang": "en",
+      "width": 430,
+      "size": "40px",
+      "lineHeight": "46px",
+      "rows": 1,
+      "scrollWidth": 430
+    },
+    {
+      "lang": "en",
+      "width": 639,
+      "size": "40px",
+      "lineHeight": "46px",
+      "rows": 1,
+      "scrollWidth": 639
+    },
+    {
+      "lang": "en",
+      "width": 640,
+      "size": "40px",
+      "lineHeight": "46px",
+      "rows": 1,
+      "scrollWidth": 640
+    },
+    {
+      "lang": "en",
+      "width": 767,
+      "size": "46.02px",
+      "lineHeight": "52.923px",
+      "rows": 1,
+      "scrollWidth": 767
+    },
+    {
+      "lang": "en",
+      "width": 769,
+      "size": "46.14px",
+      "lineHeight": "53.061px",
+      "rows": 1,
+      "scrollWidth": 769
+    },
+    {
+      "lang": "en",
+      "width": 1023,
+      "size": "61.38px",
+      "lineHeight": "70.587px",
+      "rows": 1,
+      "scrollWidth": 1023
+    },
+    {
+      "lang": "en",
+      "width": 1279,
+      "size": "72px",
+      "lineHeight": "82.8px",
+      "rows": 1,
+      "scrollWidth": 1279
+    },
+    {
+      "lang": "en",
+      "width": 1280,
+      "size": "72px",
+      "lineHeight": "82.8px",
+      "rows": 1,
+      "scrollWidth": 1280
+    },
+    {
+      "lang": "en",
+      "width": 1440,
+      "size": "72px",
+      "lineHeight": "82.8px",
+      "rows": 1,
+      "scrollWidth": 1440
+    },
+    {
+      "lang": "bn",
+      "width": 320,
+      "size": "35.2px",
+      "lineHeight": "49.28px",
+      "rows": 1,
+      "scrollWidth": 320
+    },
+    {
+      "lang": "bn",
+      "width": 360,
+      "size": "39.6px",
+      "lineHeight": "55.44px",
+      "rows": 1,
+      "scrollWidth": 360
+    },
+    {
+      "lang": "bn",
+      "width": 390,
+      "size": "40px",
+      "lineHeight": "56px",
+      "rows": 1,
+      "scrollWidth": 390
+    },
+    {
+      "lang": "bn",
+      "width": 430,
+      "size": "40px",
+      "lineHeight": "56px",
+      "rows": 1,
+      "scrollWidth": 430
+    },
+    {
+      "lang": "bn",
+      "width": 639,
+      "size": "40px",
+      "lineHeight": "56px",
+      "rows": 1,
+      "scrollWidth": 639
+    },
+    {
+      "lang": "bn",
+      "width": 640,
+      "size": "40px",
+      "lineHeight": "56px",
+      "rows": 1,
+      "scrollWidth": 640
+    },
+    {
+      "lang": "bn",
+      "width": 767,
+      "size": "46.02px",
+      "lineHeight": "64.428px",
+      "rows": 1,
+      "scrollWidth": 767
+    },
+    {
+      "lang": "bn",
+      "width": 769,
+      "size": "46.14px",
+      "lineHeight": "64.596px",
+      "rows": 1,
+      "scrollWidth": 769
+    },
+    {
+      "lang": "bn",
+      "width": 1023,
+      "size": "61.38px",
+      "lineHeight": "85.932px",
+      "rows": 1,
+      "scrollWidth": 1023
+    },
+    {
+      "lang": "bn",
+      "width": 1279,
+      "size": "72px",
+      "lineHeight": "100.8px",
+      "rows": 1,
+      "scrollWidth": 1279
+    },
+    {
+      "lang": "bn",
+      "width": 1280,
+      "size": "72px",
+      "lineHeight": "100.8px",
+      "rows": 1,
+      "scrollWidth": 1280
+    },
+    {
+      "lang": "bn",
+      "width": 1440,
+      "size": "72px",
+      "lineHeight": "100.8px",
+      "rows": 1,
+      "scrollWidth": 1440
+    }
+  ],
+  "enlargement": [
+    {
+      "lang": "en",
+      "route": "/products",
+      "targetWidth": 390,
+      "method": "200% root font size, supplemental approximation; not native text-only zoom",
+      "width": 390,
+      "scrollWidth": 390,
+      "heading": [
+        {
+          "text": "PRODUCTS",
+          "size": "80px",
+          "scrollWidth": 294,
+          "width": 294
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "route": "/contact",
+      "targetWidth": 390,
+      "method": "200% root font size, supplemental approximation; not native text-only zoom",
+      "width": 390,
+      "scrollWidth": 390,
+      "heading": [
+        {
+          "text": "GET IN TOUCH",
+          "size": "80px",
+          "scrollWidth": 294,
+          "width": 294
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "route": "/about",
+      "targetWidth": 390,
+      "method": "200% root font size, supplemental approximation; not native text-only zoom",
+      "width": 390,
+      "scrollWidth": 390,
+      "heading": [
+        {
+          "text": "Our Story",
+          "size": "80px",
+          "scrollWidth": 294,
+          "width": 294
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "route": "/privacy",
+      "targetWidth": 390,
+      "method": "200% root font size, supplemental approximation; not native text-only zoom",
+      "width": 390,
+      "scrollWidth": 390,
+      "heading": [
+        {
+          "text": "PRIVACY",
+          "size": "80px",
+          "scrollWidth": 294,
+          "width": 294
+        }
+      ]
+    },
+    {
+      "lang": "bn",
+      "route": "/products",
+      "targetWidth": 390,
+      "method": "200% root font size, supplemental approximation; not native text-only zoom",
+      "width": 390,
+      "scrollWidth": 390,
+      "heading": [
+        {
+          "text": "PRODUCTS",
+          "size": "80px",
+          "scrollWidth": 294,
+          "width": 294
+        }
+      ]
+    },
+    {
+      "lang": "bn",
+      "route": "/contact",
+      "targetWidth": 390,
+      "method": "200% root font size, supplemental approximation; not native text-only zoom",
+      "width": 390,
+      "scrollWidth": 390,
+      "heading": [
+        {
+          "text": "GET IN TOUCH",
+          "size": "80px",
+          "scrollWidth": 294,
+          "width": 294
+        }
+      ]
+    },
+    {
+      "lang": "bn",
+      "route": "/about",
+      "targetWidth": 390,
+      "method": "200% root font size, supplemental approximation; not native text-only zoom",
+      "width": 390,
+      "scrollWidth": 390,
+      "heading": [
+        {
+          "text": "আমাদের গল্প",
+          "size": "80px",
+          "scrollWidth": 294,
+          "width": 294
+        }
+      ]
+    },
+    {
+      "lang": "bn",
+      "route": "/privacy",
+      "targetWidth": 390,
+      "method": "200% root font size, supplemental approximation; not native text-only zoom",
+      "width": 390,
+      "scrollWidth": 390,
+      "heading": [
+        {
+          "text": "PRIVACY",
+          "size": "80px",
+          "scrollWidth": 294,
+          "width": 294
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "browserPid": 5644,
+  "nativeZoom": {
+    "method": "Headless Chrome browser shortcut Control+Equal six times",
+    "initial": {
+      "ratio": 1,
+      "width": 1440
+    },
+    "attempted": {
+      "ratio": 1,
+      "width": 1440
+    },
+    "supported": false
+  },
+  "completed": true,
+  "teardown": {
+    "normal": false,
+    "bounded": true
+  },
+  "serverStopped": true
+}

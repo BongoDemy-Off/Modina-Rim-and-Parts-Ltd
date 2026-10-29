@@ -1,0 +1,196 @@
+{
+  "mode": "after-tablet",
+  "base": "http://127.0.0.1:4199",
+  "states": [
+    {
+      "route": "/",
+      "lang": "en",
+      "width": 768,
+      "scrollWidth": 768,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer — Bangladesh",
+      "targets": [
+        {
+          "text": "Forging the Backbone of Modern Mobility",
+          "top": 1227
+        },
+        {
+          "text": "New Arrival",
+          "top": 2315
+        },
+        {
+          "text": "The Trust Factor",
+          "top": 3374
+        },
+        {
+          "text": "Equipping Our Partners.",
+          "top": 4243
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/products",
+      "lang": "en",
+      "width": 768,
+      "scrollWidth": 768,
+      "title": "Products | Modina Rim & Parts Ltd. — 21 SKUs, Bangladesh",
+      "targets": [
+        {
+          "text": "Search products...",
+          "top": 458
+        },
+        {
+          "text": "Product Catalogue",
+          "top": 547
+        },
+        {
+          "text": "Ready to Placean Order?",
+          "top": 3359
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/contact",
+      "lang": "en",
+      "width": 768,
+      "scrollWidth": 768,
+      "title": "Contact Us | Modina Rim & Parts Ltd. — Jashore, Bangladesh",
+      "targets": [
+        {
+          "text": "Let's Talk",
+          "top": 532
+        },
+        {
+          "text": "Full Name *Company NameEmail *PhoneSubject *Select a subject",
+          "top": 595
+        },
+        {
+          "text": "Your full name",
+          "top": 622
+        },
+        {
+          "text": "Your company",
+          "top": 729
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/careers",
+      "lang": "en",
+      "width": 768,
+      "scrollWidth": 768,
+      "title": "Careers | Modina Rim & Parts Ltd. — Join Our Team",
+      "targets": [
+        {
+          "text": "Build Your CareerIn Precision",
+          "top": 504
+        },
+        {
+          "text": "Build Your Career In Precision",
+          "top": 1779
+        },
+        {
+          "text": "Send Us YourCV Anyway",
+          "top": 2762
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/gallery",
+      "lang": "en",
+      "width": 768,
+      "scrollWidth": 768,
+      "title": "Gallery | Modina Rim & Parts Ltd. — Factory Tour",
+      "targets": [
+        {
+          "text": "See It ForYourself",
+          "top": 3818
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "captures": [
+    "after-tablet-home-768-en-hero.png",
+    {
+      "file": "after-tablet-home-768-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          38.5,
+          397,
+          691,
+          38.5
+        ],
+        "images": true
+      }
+    },
+    "after-tablet-products-768-en-hero.png",
+    {
+      "file": "after-tablet-products-768-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          38.5,
+          209,
+          329.5,
+          482
+        ],
+        "images": true
+      }
+    },
+    "after-tablet-contact-768-en-hero.png",
+    {
+      "file": "after-tablet-contact-768-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          40,
+          420,
+          688,
+          56
+        ],
+        "images": true
+      }
+    },
+    "after-tablet-careers-768-en-hero.png",
+    {
+      "file": "after-tablet-careers-768-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          38.5,
+          287,
+          333.5,
+          326.5
+        ],
+        "images": true
+      }
+    },
+    "after-tablet-gallery-768-en-hero.png",
+    {
+      "file": "after-tablet-gallery-768-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          38.5,
+          320,
+          691,
+          260
+        ],
+        "images": true
+      }
+    }
+  ],
+  "browser": "156.0.8078.49",
+  "completed": true,
+  "teardown": {
+    "normal": false,
+    "bounded": true,
+    "connected": false
+  }
+}

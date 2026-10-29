@@ -1,0 +1,55 @@
+FAIL en/320/products: Expected values to be strictly equal:
+
+235 !== 842
+
+PASS en/320/gallery
+PASS en/320/careers
+PASS en/320/contact
+PASS en/320/navigation
+FAIL en/390/products: Expected values to be strictly equal:
+
+260 !== 866
+
+PASS en/390/gallery
+PASS en/390/careers
+PASS en/390/contact
+PASS en/390/navigation
+FAIL en/430/products: Expected values to be strictly equal:
+
+290 !== 896
+
+PASS en/430/gallery
+PASS en/430/careers
+PASS en/430/contact
+PASS en/430/navigation
+FAIL en/768/products: Header shifted on modal open
+FAIL en/768/gallery: Header shifted on modal open
+FAIL en/768/careers: Navbar composition changed
+FAIL en/768/contact: Navbar composition changed
+PASS en/768/navigation
+FAIL en/1024/products: Header shifted on modal open
+FAIL en/1024/gallery: Header shifted on modal open
+FAIL en/1024/careers: Navbar composition changed
+PASS en/1024/contact
+PASS en/1024/navigation
+FAIL en/1440/products: Header shifted on modal open
+FAIL en/1440/gallery: Header shifted on modal open
+FAIL en/1440/careers: Header shifted on modal open
+PASS en/1440/contact
+PASS en/1440/navigation
+FAIL bn/320/products: Expected values to be strictly equal:
+
+207 !== 814
+
+PASS bn/320/gallery
+PASS bn/320/careers
+PASS bn/320/contact
+PASS bn/320/navigation
+FAIL bn/390/products: locator.click: Timeout 8000ms exceeded.
+Call log:
+[2m  - waiting for locator('.card-premium').first().getByRole('button', { name: 'Next image', exact: true })[22m
+[2m    - locator resolved to <button type="button" aria-label="Next image" class="absolute right-2 sm:right-3 top-1/2 -translate-y-1/2 w-11 h-11 rounded-full bg-white/90 backdrop-blur 
+PASS bn/390/gallery
+PASS bn/390/careers
+PASS bn/390/contact
+PASS bn/390/navigation

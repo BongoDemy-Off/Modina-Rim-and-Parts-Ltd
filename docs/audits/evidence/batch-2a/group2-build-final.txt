@@ -1,0 +1,37 @@
+
+> react-example@0.0.0 build
+> vite build --outDir C:\Users\BONGOD~1\AppData\Local\Temp/modina-batch-2a-group2-final-dist
+
+vite v6.4.1 building for production...
+
+(!) outDir C:\Users\BONGOD~1\AppData\Local\Temp\modina-batch-2a-group2-final-dist is not inside project root and will not be emptied.
+Use --emptyOutDir to override.
+
+transforming...
+✓ 2459 modules transformed.
+rendering chunks...
+computing gzip size...
+../../../../BONGOD~1/AppData/Local/Temp/modina-batch-2a-group2-final-dist/index.html                                               2.41 kB │ gzip:   0.94 kB
+../../../../BONGOD~1/AppData/Local/Temp/modina-batch-2a-group2-final-dist/assets/Premium Rims-DAivbVtn.webp                       37.35 kB
+../../../../BONGOD~1/AppData/Local/Temp/modina-batch-2a-group2-final-dist/assets/logo-Cg58folY.png                                47.98 kB
+../../../../BONGOD~1/AppData/Local/Temp/modina-batch-2a-group2-final-dist/assets/Md. Faruq Hossain-DLmwhDN1.webp                  51.31 kB
+../../../../BONGOD~1/AppData/Local/Temp/modina-batch-2a-group2-final-dist/assets/cat_motorcycle_parts-BGOdeLlY.webp               60.71 kB
+../../../../BONGOD~1/AppData/Local/Temp/modina-batch-2a-group2-final-dist/assets/CNG Rim-CWmeImNb.webp                            69.32 kB
+../../../../BONGOD~1/AppData/Local/Temp/modina-batch-2a-group2-final-dist/assets/wasar-Crxolq52.webp                              79.67 kB
+../../../../BONGOD~1/AppData/Local/Temp/modina-batch-2a-group2-final-dist/assets/Li Niladri Nodia Unicode Italic-DM4Rzm-B.ttf     80.61 kB
+../../../../BONGOD~1/AppData/Local/Temp/modina-batch-2a-group2-final-dist/assets/Li Niladri Nodia Unicode-Cm6BR32b.ttf           140.72 kB
+../../../../BONGOD~1/AppData/Local/Temp/modina-batch-2a-group2-final-dist/assets/company-CqX0xWdV.webp                           170.27 kB
+../../../../BONGOD~1/AppData/Local/Temp/modina-batch-2a-group2-final-dist/assets/State of the Art Facility-C6H4SQ74.webm       1,166.09 kB
+../../../../BONGOD~1/AppData/Local/Temp/modina-batch-2a-group2-final-dist/assets/Certificate-03-D9NTs9Bx.png                   1,705.68 kB
+../../../../BONGOD~1/AppData/Local/Temp/modina-batch-2a-group2-final-dist/assets/Certificate-02-B3tjqQXb.png                   1,713.96 kB
+../../../../BONGOD~1/AppData/Local/Temp/modina-batch-2a-group2-final-dist/assets/Certificate-DxjyQzPg.png                      1,777.04 kB
+../../../../BONGOD~1/AppData/Local/Temp/modina-batch-2a-group2-final-dist/assets/AdminRoutes-CmJ4RLql.css                          3.63 kB │ gzip:   1.35 kB
+../../../../BONGOD~1/AppData/Local/Temp/modina-batch-2a-group2-final-dist/assets/index-DbN6j1Rn.css                               93.57 kB │ gzip:  16.52 kB
+../../../../BONGOD~1/AppData/Local/Temp/modina-batch-2a-group2-final-dist/assets/AdminRoutes-DRNOnelZ.js                         638.66 kB │ gzip: 154.17 kB
+../../../../BONGOD~1/AppData/Local/Temp/modina-batch-2a-group2-final-dist/assets/index-D9m8Y37_.js                             1,117.80 kB │ gzip: 286.71 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 17.87s

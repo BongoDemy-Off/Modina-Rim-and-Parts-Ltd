@@ -1,0 +1,5 @@
+footer-clearance-final en 390 /contact
+footer-clearance-final en 1440 /contact
+footer-clearance-final bn 390 /contact
+footer-clearance-final bn 1440 /contact
+RESULT 4 0 failed

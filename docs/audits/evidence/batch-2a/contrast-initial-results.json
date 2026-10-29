@@ -1,0 +1,285 @@
+{
+  "states": [
+    {
+      "route": "/",
+      "lang": "en",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".mb-14 > .mb-4.tracking-widest"
+              ],
+              "html": "<p class=\"text-modina-red text-xs font-bold tracking-widest uppercase mb-4 public-meta\" style=\"opacity: 1; transform: none;\">Quality &amp; Trust</p>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.19 (foreground color: #e52525, background color: #f4f6f8, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".p-8.card-premium.group:nth-child(1) > .mb-6.items-start.justify-between > .text-modina-divider.text-4xl.select-none"
+              ],
+              "html": "<span class=\"text-modina-divider font-display text-4xl font-bold select-none\">01</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.18 (foreground color: #ececec, background color: #ffffff, font size: 27.0pt (36px), font weight: bold). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": [
+                ".p-8.card-premium.group:nth-child(2) > .mb-6.items-start.justify-between > .text-modina-divider.text-4xl.select-none"
+              ],
+              "html": "<span class=\"text-modina-divider font-display text-4xl font-bold select-none\">02</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.18 (foreground color: #ececec, background color: #ffffff, font size: 27.0pt (36px), font weight: bold). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": [
+                ".p-8.card-premium.group:nth-child(3) > .mb-6.items-start.justify-between > .text-modina-divider.text-4xl.select-none"
+              ],
+              "html": "<span class=\"text-modina-divider font-display text-4xl font-bold select-none\">03</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.18 (foreground color: #ececec, background color: #ffffff, font size: 27.0pt (36px), font weight: bold). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": [
+                ".mb-5.gap-3.items-center > .tracking-widest.text-xs.public-meta"
+              ],
+              "html": "<span class=\"text-modina-red text-xs font-bold tracking-widest uppercase public-meta\">Resources</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.19 (foreground color: #e52525, background color: #f4f6f8, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".mb-10.text-center > .tracking-widest.mb-3"
+              ],
+              "html": "<p class=\"text-modina-red text-xs font-bold tracking-widest uppercase mb-3 public-meta\" style=\"opacity: 1; transform: none;\">— Client Voices</p>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.19 (foreground color: #e52525, background color: #f4f6f8, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/about",
+      "lang": "en",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".text-modina-divider"
+              ],
+              "html": "<p class=\"font-display font-bold text-modina-divider leading-none select-none tracking-tight\" style=\"font-size: clamp(80px, 14vw, 180px);\">2010</p>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.18 (foreground color: #ececec, background color: #ffffff, font size: 60.0pt (80px), font weight: bold). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": [
+                ".items-end.mb-16.justify-between > div > .mb-3.tracking-widest.text-modina-red"
+              ],
+              "html": "<p class=\"text-modina-red text-xs font-bold tracking-widest uppercase mb-3 public-meta\">— Timeline</p>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.31 (foreground color: #e52525, background color: #f8f9fb, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".flex-1.flex-col.items-center:nth-child(1) > .text-center.px-2.flex-col > .text-\\[10px\\].mb-2.tracking-widest"
+              ],
+              "html": "<p class=\"text-modina-red text-[10px] font-bold tracking-widest uppercase mb-2 public-meta\">2010</p>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.31 (foreground color: #e52525, background color: #f8f9fb, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".flex-1.flex-col.items-center:nth-child(2) > .text-center.px-2.flex-col > .text-\\[10px\\].mb-2.tracking-widest"
+              ],
+              "html": "<p class=\"text-modina-red text-[10px] font-bold tracking-widest uppercase mb-2 public-meta\">2013</p>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.31 (foreground color: #e52525, background color: #f8f9fb, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".flex-1.flex-col.items-center:nth-child(3) > .text-center.px-2.flex-col > .text-\\[10px\\].mb-2.tracking-widest"
+              ],
+              "html": "<p class=\"text-modina-red text-[10px] font-bold tracking-widest uppercase mb-2 public-meta\">2019</p>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.31 (foreground color: #e52525, background color: #f8f9fb, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".mb-14 > div > .mb-3.tracking-widest.text-modina-red"
+              ],
+              "html": "<p class=\"text-modina-red text-xs font-bold tracking-widest uppercase mb-3 public-meta\">— Our People</p>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.31 (foreground color: #e52525, background color: #f8f9fb, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/mission",
+      "lang": "en",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".mt-2"
+              ],
+              "html": "<p class=\"text-xs font-bold tracking-widest text-modina-red uppercase mt-2 public-meta\">— Our Purpose</p>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.31 (foreground color: #e52525, background color: #f8f9fb, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".mb-6.tracking-widest.uppercase"
+              ],
+              "html": "<p class=\"text-xs font-bold tracking-widest text-modina-red uppercase mb-6 public-meta\">— Vision</p>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.19 (foreground color: #e52525, background color: #f4f6f8, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".mb-16 > .mb-4.tracking-widest.uppercase"
+              ],
+              "html": "<p class=\"text-xs font-bold tracking-widest text-modina-red uppercase mb-4 public-meta\">— What We Stand For</p>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.19 (foreground color: #e52525, background color: #f4f6f8, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/sustainability",
+      "lang": "en",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".text-\\[120px\\]"
+              ],
+              "html": "<p class=\"text-[120px] font-display font-bold text-modina-divider leading-none select-none tracking-tight\">CSR</p>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.12 (foreground color: #ececec, background color: #f8f9fb, font size: 90.0pt (120px), font weight: bold). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": [
+                ".border-r.bg-modina-bg-alt.p-10 > .mt-2"
+              ],
+              "html": "<p class=\"text-xs font-bold tracking-widest text-modina-red uppercase mt-2 public-meta\">— Our Commitment</p>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.31 (foreground color: #e52525, background color: #f8f9fb, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".mb-16 > .mb-4"
+              ],
+              "html": "<p class=\"text-xs font-bold tracking-widest text-modina-red uppercase mb-4 public-meta\">— Our Approach</p>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.31 (foreground color: #e52525, background color: #f8f9fb, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/products",
+      "lang": "en",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".mb-4"
+              ],
+              "html": "<p class=\"text-modina-red text-xs font-bold tracking-widest uppercase mb-4 public-meta\">— Partner With Us</p>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.19 (foreground color: #e52525, background color: #f4f6f8, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/quality",
+      "lang": "en",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".text-\\[120px\\]"
+              ],
+              "html": "<p class=\"text-[120px] md:text-[160px] lg:text-[200px] font-display font-bold text-modina-bg-alt leading-none select-none tracking-tight\">100</p>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.05 (foreground color: #f8f9fb, background color: #ffffff, font size: 90.0pt (120px), font weight: bold). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": [
+                ".mb-3.tracking-widest.uppercase"
+              ],
+              "html": "<p class=\"text-modina-red text-xs font-bold tracking-widest uppercase mb-3 public-meta\">— Our Process</p>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.19 (foreground color: #e52525, background color: #f4f6f8, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".flex-1.flex-col.items-center:nth-child(1) > .text-center.px-2.flex-col > .mb-2.tracking-widest.uppercase:nth-child(1)"
+              ],
+              "html": "<p class=\"text-modina-red text-xs font-bold tracking-widest uppercase mb-2 public-meta\">01</p>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.19 (foreground color: #e52525, background color: #f4f6f8, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".flex-1.flex-col.items-center:nth-child(2) > .text-center.px-2.flex-col > .mb-2.tracking-widest.uppercase:nth-child(1)"
+              ],
+              "html": "<p class=\"text-modina-red text-xs font-bold tracking-widest uppercase mb-2 public-meta\">02</p>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.19 (foreground color: #e52525, background color: #f4f6f8, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".flex-1.flex-col.items-center:nth-child(3) > .text-center.px-2.flex-col > .mb-2.tracking-widest.uppercase:nth-child(1)"
+              ],
+              "html": "<p class=\"text-modina-red text-xs font-bold tracking-widest uppercase mb-2 public-meta\">03</p>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.19 (foreground color: #e52525, background color: #f4f6f8, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [
+    "yearOpacity is not defined"
+  ],
+  "blocked": [
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    }
+  ],
+  "browserPid": 17100,
+  "error": "locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('main') to be visible\u001b[22m\n\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-2a\\contrast.cjs:14:134",
+  "teardown": {
+    "normal": false,
+    "bounded": true
+  },
+  "serverStopped": true
+}

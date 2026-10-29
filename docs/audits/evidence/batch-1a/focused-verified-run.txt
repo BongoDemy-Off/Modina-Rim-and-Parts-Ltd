@@ -1,0 +1,17 @@
+locator.tap: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator('label[for="contact-name"]')
+    - locator resolved to <label for="contact-name" class="text-modina-muted text-xs font-bold uppercase tracking-wider">Full Name *</label>
+  - attempting tap action
+    - waiting for element to be visible, enabled and stable
+
+    at C:\Users\BongoDemy\Documents\BongoDemy\Modina-Rim-and-Parts-Ltd\docs\audits\evidence\batch-1a\focused.cjs:32:53 {
+  log: [
+    `  - waiting for locator('label[for="contact-name"]')`,
+    '    - locator resolved to <label for="contact-name" class="text-modina-muted text-xs font-bold uppercase tracking-wider">Full Name *</label>',
+    '  - attempting tap action',
+    '    - waiting for element to be visible, enabled and stable'
+  ],
+  name: 'TimeoutError'
+}
+Browser teardown watchdog used for owned PID 2156; assertions were saved first.

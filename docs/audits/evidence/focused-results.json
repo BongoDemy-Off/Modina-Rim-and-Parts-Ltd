@@ -1,0 +1,370 @@
+[
+  {
+    "name": "Pagination settled state",
+    "counts": [
+      9,
+      18,
+      21
+    ],
+    "hardwareCount": 21
+  },
+  {
+    "name": "Drawer background focus escape",
+    "rows": [
+      {
+        "tag": "BUTTON",
+        "name": "Next ",
+        "inside": false
+      },
+      {
+        "tag": "BUTTON",
+        "name": "Go to slide 3",
+        "inside": false
+      },
+      {
+        "tag": "BUTTON",
+        "name": "Go to slide 2",
+        "inside": false
+      },
+      {
+        "tag": "BUTTON",
+        "name": "Go to slide 1",
+        "inside": false
+      },
+      {
+        "tag": "BUTTON",
+        "name": "Next image",
+        "inside": false
+      },
+      {
+        "tag": "BUTTON",
+        "name": "Previous image",
+        "inside": false
+      },
+      {
+        "tag": "BUTTON",
+        "name": "Go to slide 3",
+        "inside": false
+      },
+      {
+        "tag": "BUTTON",
+        "name": "Go to slide 2",
+        "inside": false
+      },
+      {
+        "tag": "BUTTON",
+        "name": "Go to slide 1",
+        "inside": false
+      },
+      {
+        "tag": "BUTTON",
+        "name": "Next image",
+        "inside": false
+      },
+      {
+        "tag": "BUTTON",
+        "name": "Previous image",
+        "inside": false
+      },
+      {
+        "tag": "BUTTON",
+        "name": "Go to slide 3",
+        "inside": false
+      },
+      {
+        "tag": "BUTTON",
+        "name": "Go to slide 2",
+        "inside": false
+      },
+      {
+        "tag": "BUTTON",
+        "name": "Go to slide 1",
+        "inside": false
+      },
+      {
+        "tag": "BUTTON",
+        "name": "Next image",
+        "inside": false
+      },
+      {
+        "tag": "BUTTON",
+        "name": "Previous image",
+        "inside": false
+      }
+    ],
+    "backgroundReached": true
+  },
+  {
+    "name": "Product drawer heights and image crop",
+    "error": "locator.tap: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('main .card-premium h3').first()\u001b[22m\n\u001b[2m    - locator resolved to <h3 class=\"text-base font-display font-bold text-modina-heading group-hover:text-modina-red transition-colors duration-300 line-clamp-2 leading-snug\">Box Frame Bearing & Racer (Black Blue & Red)</h3>\u001b[22m\n\u001b"
+  },
+  {
+    "name": "Collection search and filter states",
+    "rows": [
+      {
+        "route": "/downloads",
+        "empty": true,
+        "text": "HOME\nDOWNLOADS\nD\nO\nW\nN\nL\nO\nA\nD\nS\n\nMODINA RIM & PARTS LTD.\n·\nRESOURCE CENTER\n·\nEST. 2010\n\n11\nDOCUMENTS\nFree\nDOWNLOADS\nPDF\nFORMAT\nALL\nCATALOGS\nCERTIFICATES\nTECHNICAL\nLEGAL\n\nNO RESULTS FOUND\n\nCLEAR FILTERS\n\n2026\n\n— LATEST RELEASE\n\nANNUAL CATALOG\n\n— FEATURED DOCUMENT\n\nProduct Catalog 2026\n\nOur most comprehensive catalog to date. Covering all 21 SKUs across 4 categories with full technical specifications, material data, and ordering codes.\n\nDownload Now\nView All Catalogs\n\n— NEED MORE INFO?\n\nCan't Find\nWhat You Need?\nContact Sales\nView Products"
+      },
+      {
+        "route": "/blog",
+        "empty": true,
+        "text": "RED POST\n\nAPRIL 2026\n\nWhy Precision Tolerance Is the Most Underrated Factor in Auto Parts Manufacturing\n\nAcross the automotive supply chain, tolerance specifications are often treated as an afterthought. At Modina, we argue that ±0.01mm is not a number on a datasheet — it is the difference between a part that lasts and a part that fails. This article breaks down why precision matters at every stage of manufacturing.\n\nENGINEERING\nQUALITY\nREAD ARTICLE\nALL\nENGINEERING\nQUALITY\nINDUSTRY\nCOMPANY\nMANUFACTURING\n\nNO POSTS FOUND\n\nCLEAR FILTERS\n\n— EXPLORE FURTHER\n\nSee What\nWe Make\nView Catalog\nContact Us"
+      },
+      {
+        "route": "/news",
+        "empty": true,
+        "text": "RTS LTD.\n·\nLATEST UPDATES\n·\nEST. 2010\n\n2026\nLATEST YEAR\n12+\nARTICLES\n4\nCATEGORIES\nFEATURED\n\n— LATEST NEWS\n\nAPRIL 2026\n\nModina Launches 2026 Product Catalog With 21 New SKUs\n\nModina Rim & Parts Ltd. has officially released its most comprehensive product catalog to date, featuring 21 SKUs across 4 major categories. The new range includes expanded motorcycle components, premium rim variants, and updated hardware specifications for 2026.\n\nREAD ARTICLE\nALL\nCOMPANY NEWS\nPRODUCT UPDATES\nINDUSTRY\nEVENTS\n\nNO RESULTS FOUND\n\nCLEAR FILTERS\n\n— STAY UPDATED\n\nExplore Our\nProduct Range\nView Catalog\nContact Us"
+      },
+      {
+        "route": "/faq",
+        "empty": true,
+        "text": "HOME\nFAQ\nF\nA\nQ\n\n18 QUESTIONS\n·\n5 CATEGORIES\n·\nMODINA RIM & PARTS LTD.\n\nALL (18)\nPRODUCTS (4)\nQUALITY (4)\nSHIPPING (4)\nPRICING (3)\nCOMPANY (3)\n\nNO RESULTS FOUND\n\n— CLEAR FILTERS\n\n— STILL HAVE QUESTIONS?\n\nTalk to Our\nSales Team\nContact Us\nBrowse Products"
+      },
+      {
+        "route": "/gallery",
+        "machineryCards": 2
+      },
+      {
+        "route": "/careers",
+        "qualityCards": 1
+      }
+    ]
+  },
+  {
+    "name": "Titles and metadata after direct navigation",
+    "rows": [
+      {
+        "route": "/news/1",
+        "title": "",
+        "titles": [
+          "",
+          "Modina Rim & Parts Ltd. | Automotive Components Manufacturer"
+        ],
+        "descriptions": [
+          "Modina Rim & Parts Ltd. is a leading automotive rim and parts manufacturer in Bangladesh. ISO 9001:2015 and ISO 14001 certified. 21+ products, 15+ years of precision engineering excellence.",
+          "Modina Rim & Parts Ltd. has completed its annual ISO 9001:2015 surveillance audit with zero non-conformances, reaffirming our commitment to world-class quality management."
+        ],
+        "canonicals": [
+          "https://www.modinarim.com/news/1"
+        ],
+        "robots": "index, follow",
+        "h1": 1
+      },
+      {
+        "route": "/blog/1",
+        "title": "",
+        "titles": [
+          "",
+          "Modina Rim & Parts Ltd. | Automotive Components Manufacturer"
+        ],
+        "descriptions": [
+          "Modina Rim & Parts Ltd. is a leading automotive rim and parts manufacturer in Bangladesh. ISO 9001:2015 and ISO 14001 certified. 21+ products, 15+ years of precision engineering excellence.",
+          "ISO 9001 is more than a certificate on a wall. We break down what each clause means in practice and why it should be your first filter when choosing an auto parts supplier."
+        ],
+        "canonicals": [
+          "https://www.modinarim.com/blog/1"
+        ],
+        "robots": "index, follow",
+        "h1": 1
+      },
+      {
+        "route": "/blog/featured",
+        "title": "",
+        "titles": [
+          "",
+          "Modina Rim & Parts Ltd. | Automotive Components Manufacturer"
+        ],
+        "descriptions": [
+          "Modina Rim & Parts Ltd. is a leading automotive rim and parts manufacturer in Bangladesh. ISO 9001:2015 and ISO 14001 certified. 21+ products, 15+ years of precision engineering excellence.",
+          "Across the automotive supply chain, tolerance specifications are often treated as an afterthought. At Modina, we argue that ±0.01mm is not a number on a datasheet — it is the difference between a part that lasts and a part that fails."
+        ],
+        "canonicals": [
+          "https://www.modinarim.com/blog/featured"
+        ],
+        "robots": "index, follow",
+        "h1": 1
+      },
+      {
+        "route": "/news/9999",
+        "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+        "titles": [
+          "Modina Rim & Parts Ltd. | Automotive Components Manufacturer"
+        ],
+        "descriptions": [
+          "Modina Rim & Parts Ltd. is a leading automotive rim and parts manufacturer in Bangladesh. ISO 9001:2015 and ISO 14001 certified. 21+ products, 15+ years of precision engineering excellence."
+        ],
+        "canonicals": [],
+        "robots": "index, follow",
+        "h1": 0
+      },
+      {
+        "route": "/blog/9999",
+        "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+        "titles": [
+          "Modina Rim & Parts Ltd. | Automotive Components Manufacturer"
+        ],
+        "descriptions": [
+          "Modina Rim & Parts Ltd. is a leading automotive rim and parts manufacturer in Bangladesh. ISO 9001:2015 and ISO 14001 certified. 21+ products, 15+ years of precision engineering excellence."
+        ],
+        "canonicals": [],
+        "robots": "index, follow",
+        "h1": 0
+      },
+      {
+        "route": "/audit-missing-page",
+        "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+        "titles": [
+          "Modina Rim & Parts Ltd. | Automotive Components Manufacturer"
+        ],
+        "descriptions": [
+          "Modina Rim & Parts Ltd. is a leading automotive rim and parts manufacturer in Bangladesh. ISO 9001:2015 and ISO 14001 certified. 21+ products, 15+ years of precision engineering excellence."
+        ],
+        "canonicals": [],
+        "robots": "index, follow",
+        "h1": 1
+      }
+    ]
+  },
+  {
+    "name": "Actual language toggle and persistence",
+    "error": "page.reload: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - waiting for navigation until \"domcontentloaded\"\u001b[22m\n\u001b[2m    - navigated to \"http://127.0.0.1:4173/\"\u001b[22m\n"
+  },
+  {
+    "name": "Header and sticky offsets settled",
+    "error": "page.goto: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4173/products\", waiting until \"domcontentloaded\"\u001b[22m\n"
+  },
+  {
+    "name": "Homepage dimensions targets and skip link",
+    "heroHeight": 913.546875,
+    "skipLinks": 0,
+    "heroDots": [
+      {
+        "name": "Go to slide 1",
+        "rect": {
+          "x": 190.953125,
+          "y": 872.046875,
+          "width": 32,
+          "height": 3,
+          "top": 872.046875,
+          "right": 222.953125,
+          "bottom": 875.046875,
+          "left": 190.953125
+        }
+      },
+      {
+        "name": "Go to slide 2",
+        "rect": {
+          "x": 226.953125,
+          "y": 872.046875,
+          "width": 16,
+          "height": 3,
+          "top": 872.046875,
+          "right": 242.953125,
+          "bottom": 875.046875,
+          "left": 226.953125
+        }
+      },
+      {
+        "name": "Go to slide 3",
+        "rect": {
+          "x": 246.953125,
+          "y": 872.046875,
+          "width": 16,
+          "height": 3,
+          "top": 872.046875,
+          "right": 262.953125,
+          "bottom": 875.046875,
+          "left": 246.953125
+        }
+      },
+      {
+        "name": "Go to slide 4",
+        "rect": {
+          "x": 266.953125,
+          "y": 872.046875,
+          "width": 16,
+          "height": 3,
+          "top": 872.046875,
+          "right": 282.953125,
+          "bottom": 875.046875,
+          "left": 266.953125
+        }
+      },
+      {
+        "name": "Go to slide 5",
+        "rect": {
+          "x": 286.953125,
+          "y": 872.046875,
+          "width": 16,
+          "height": 3,
+          "top": 872.046875,
+          "right": 302.953125,
+          "bottom": 875.046875,
+          "left": 286.953125
+        }
+      }
+    ],
+    "testimonials": [
+      {
+        "x": 25,
+        "y": 7032.1875,
+        "width": 40,
+        "height": 40,
+        "top": 7032.1875,
+        "right": 65,
+        "bottom": 7072.1875,
+        "left": 25
+      },
+      {
+        "x": 325,
+        "y": 7032.1875,
+        "width": 40,
+        "height": 40,
+        "top": 7032.1875,
+        "right": 365,
+        "bottom": 7072.1875,
+        "left": 325
+      },
+      {
+        "x": 169,
+        "y": 7202.3125,
+        "width": 24,
+        "height": 6,
+        "top": 7202.3125,
+        "right": 193,
+        "bottom": 7208.3125,
+        "left": 169
+      },
+      {
+        "x": 201,
+        "y": 7202.3125,
+        "width": 6,
+        "height": 6,
+        "top": 7202.3125,
+        "right": 207,
+        "bottom": 7208.3125,
+        "left": 201
+      },
+      {
+        "x": 215,
+        "y": 7202.3125,
+        "width": 6,
+        "height": 6,
+        "top": 7202.3125,
+        "right": 221,
+        "bottom": 7208.3125,
+        "left": 215
+      }
+    ]
+  },
+  {
+    "name": "Error loading remote photos",
+    "broken": 7,
+    "fallbackMessages": false
+  },
+  {
+    "name": "Static source and network isolation",
+    "method": "GET-only route guard across tests; no contact, career, newsletter or chatbot submission performed"
+  }
+]

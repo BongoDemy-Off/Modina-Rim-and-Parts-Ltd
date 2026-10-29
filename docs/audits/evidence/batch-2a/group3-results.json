@@ -1,0 +1,1428 @@
+{
+  "mode": "group3",
+  "states": [
+    {
+      "route": "/news",
+      "lang": "en",
+      "width": 320,
+      "scrollWidth": 320,
+      "headings": [
+        {
+          "text": "NEWS & EVENTS",
+          "size": "40px",
+          "lineHeight": "46px",
+          "width": 272,
+          "scrollWidth": 272
+        }
+      ],
+      "title": "News & Events | Modina Rim & Parts Ltd.",
+      "passed": true
+    },
+    {
+      "route": "/news/1",
+      "lang": "en",
+      "width": 320,
+      "scrollWidth": 320,
+      "headings": [
+        {
+          "text": "ISO 9001:2015 Certification Successfully Renewed for 2025–2026",
+          "size": "32px",
+          "lineHeight": "38.4px",
+          "width": 272,
+          "scrollWidth": 272
+        }
+      ],
+      "title": "",
+      "passed": true
+    },
+    {
+      "route": "/news/invalid",
+      "lang": "en",
+      "width": 320,
+      "scrollWidth": 320,
+      "headings": [],
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "passed": true
+    },
+    {
+      "route": "/blog",
+      "lang": "en",
+      "width": 320,
+      "scrollWidth": 320,
+      "headings": [
+        {
+          "text": "OUR BLOG",
+          "size": "40px",
+          "lineHeight": "46px",
+          "width": 197.46875,
+          "scrollWidth": 197
+        }
+      ],
+      "title": "Blog | Modina Rim & Parts Ltd. — Engineering & Industry Insights",
+      "passed": true
+    },
+    {
+      "route": "/blog/1",
+      "lang": "en",
+      "width": 320,
+      "scrollWidth": 320,
+      "headings": [
+        {
+          "text": "The Science Behind ISO 9001 and What It Means for Buyers",
+          "size": "32px",
+          "lineHeight": "38.4px",
+          "width": 272,
+          "scrollWidth": 272
+        }
+      ],
+      "title": "",
+      "passed": true
+    },
+    {
+      "route": "/blog/featured",
+      "lang": "en",
+      "width": 320,
+      "scrollWidth": 320,
+      "headings": [
+        {
+          "text": "Why Precision Tolerance Is the Most Underrated Factor in Auto Parts Manufacturing",
+          "size": "32px",
+          "lineHeight": "38.4px",
+          "width": 272,
+          "scrollWidth": 272
+        }
+      ],
+      "title": "",
+      "passed": true
+    },
+    {
+      "route": "/blog/invalid",
+      "lang": "en",
+      "width": 320,
+      "scrollWidth": 320,
+      "headings": [],
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "passed": true
+    },
+    {
+      "route": "/faq",
+      "lang": "en",
+      "width": 320,
+      "scrollWidth": 320,
+      "headings": [
+        {
+          "text": "FAQ",
+          "size": "40px",
+          "lineHeight": "46px",
+          "width": 75.359375,
+          "scrollWidth": 75
+        }
+      ],
+      "title": "FAQ | Modina Rim & Parts Ltd. — Frequently Asked Questions",
+      "passed": true
+    },
+    {
+      "route": "/privacy",
+      "lang": "en",
+      "width": 320,
+      "scrollWidth": 320,
+      "headings": [
+        {
+          "text": "PRIVACY",
+          "size": "40px",
+          "lineHeight": "46px",
+          "width": 164.0625,
+          "scrollWidth": 164
+        }
+      ],
+      "title": "Privacy Policy | Modina Rim & Parts Ltd.",
+      "passed": true
+    },
+    {
+      "route": "/terms",
+      "lang": "en",
+      "width": 320,
+      "scrollWidth": 320,
+      "headings": [
+        {
+          "text": "TERMS",
+          "size": "40px",
+          "lineHeight": "46px",
+          "width": 130.59375,
+          "scrollWidth": 131
+        }
+      ],
+      "title": "Terms of Service | Modina Rim & Parts Ltd.",
+      "passed": true
+    },
+    {
+      "route": "/audit-missing-page",
+      "lang": "en",
+      "width": 320,
+      "scrollWidth": 320,
+      "headings": [
+        {
+          "text": "This Page DoesNot Exist",
+          "size": "32px",
+          "lineHeight": "38.4px",
+          "width": 223.53125,
+          "scrollWidth": 224
+        }
+      ],
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "passed": true
+    },
+    {
+      "route": "/news",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "headings": [
+        {
+          "text": "NEWS & EVENTS",
+          "size": "40px",
+          "lineHeight": "46px",
+          "width": 311.15625,
+          "scrollWidth": 311
+        }
+      ],
+      "title": "News & Events | Modina Rim & Parts Ltd.",
+      "passed": true
+    },
+    {
+      "route": "/news/1",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "headings": [
+        {
+          "text": "ISO 9001:2015 Certification Successfully Renewed for 2025–2026",
+          "size": "32px",
+          "lineHeight": "38.4px",
+          "width": 342,
+          "scrollWidth": 342
+        }
+      ],
+      "title": "",
+      "passed": true
+    },
+    {
+      "route": "/news/invalid",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "headings": [],
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "passed": true
+    },
+    {
+      "route": "/blog",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "headings": [
+        {
+          "text": "OUR BLOG",
+          "size": "40px",
+          "lineHeight": "46px",
+          "width": 197.46875,
+          "scrollWidth": 197
+        }
+      ],
+      "title": "Blog | Modina Rim & Parts Ltd. — Engineering & Industry Insights",
+      "passed": true
+    },
+    {
+      "route": "/blog/1",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "headings": [
+        {
+          "text": "The Science Behind ISO 9001 and What It Means for Buyers",
+          "size": "32px",
+          "lineHeight": "38.4px",
+          "width": 342,
+          "scrollWidth": 342
+        }
+      ],
+      "title": "",
+      "passed": true
+    },
+    {
+      "route": "/blog/featured",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "headings": [
+        {
+          "text": "Why Precision Tolerance Is the Most Underrated Factor in Auto Parts Manufacturing",
+          "size": "32px",
+          "lineHeight": "38.4px",
+          "width": 342,
+          "scrollWidth": 342
+        }
+      ],
+      "title": "",
+      "passed": true
+    },
+    {
+      "route": "/blog/invalid",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "headings": [],
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "passed": true
+    },
+    {
+      "route": "/faq",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "headings": [
+        {
+          "text": "FAQ",
+          "size": "40px",
+          "lineHeight": "46px",
+          "width": 75.359375,
+          "scrollWidth": 75
+        }
+      ],
+      "title": "FAQ | Modina Rim & Parts Ltd. — Frequently Asked Questions",
+      "passed": true
+    },
+    {
+      "route": "/privacy",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "headings": [
+        {
+          "text": "PRIVACY",
+          "size": "40px",
+          "lineHeight": "46px",
+          "width": 164.0625,
+          "scrollWidth": 164
+        }
+      ],
+      "title": "Privacy Policy | Modina Rim & Parts Ltd.",
+      "passed": true
+    },
+    {
+      "route": "/terms",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "headings": [
+        {
+          "text": "TERMS",
+          "size": "40px",
+          "lineHeight": "46px",
+          "width": 130.59375,
+          "scrollWidth": 131
+        }
+      ],
+      "title": "Terms of Service | Modina Rim & Parts Ltd.",
+      "passed": true
+    },
+    {
+      "route": "/audit-missing-page",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "headings": [
+        {
+          "text": "This Page DoesNot Exist",
+          "size": "32px",
+          "lineHeight": "38.4px",
+          "width": 223.53125,
+          "scrollWidth": 224
+        }
+      ],
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "passed": true
+    },
+    {
+      "route": "/news",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headings": [
+        {
+          "text": "NEWS & EVENTS",
+          "size": "72px",
+          "lineHeight": "82.8px",
+          "width": 560.015625,
+          "scrollWidth": 560
+        }
+      ],
+      "title": "News & Events | Modina Rim & Parts Ltd.",
+      "passed": true
+    },
+    {
+      "route": "/news/1",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headings": [
+        {
+          "text": "ISO 9001:2015 Certification Successfully Renewed for 2025–2026",
+          "size": "56px",
+          "lineHeight": "67.2px",
+          "width": 624,
+          "scrollWidth": 624
+        }
+      ],
+      "title": "",
+      "passed": true
+    },
+    {
+      "route": "/news/invalid",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headings": [],
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "passed": true
+    },
+    {
+      "route": "/blog",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headings": [
+        {
+          "text": "OUR BLOG",
+          "size": "72px",
+          "lineHeight": "82.8px",
+          "width": 355.40625,
+          "scrollWidth": 355
+        }
+      ],
+      "title": "Blog | Modina Rim & Parts Ltd. — Engineering & Industry Insights",
+      "passed": true
+    },
+    {
+      "route": "/blog/1",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headings": [
+        {
+          "text": "The Science Behind ISO 9001 and What It Means for Buyers",
+          "size": "56px",
+          "lineHeight": "67.2px",
+          "width": 624,
+          "scrollWidth": 624
+        }
+      ],
+      "title": "",
+      "passed": true
+    },
+    {
+      "route": "/blog/featured",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headings": [
+        {
+          "text": "Why Precision Tolerance Is the Most Underrated Factor in Auto Parts Manufacturing",
+          "size": "56px",
+          "lineHeight": "67.2px",
+          "width": 624,
+          "scrollWidth": 624
+        }
+      ],
+      "title": "",
+      "passed": true
+    },
+    {
+      "route": "/blog/invalid",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headings": [],
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "passed": true
+    },
+    {
+      "route": "/faq",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headings": [
+        {
+          "text": "FAQ",
+          "size": "72px",
+          "lineHeight": "82.8px",
+          "width": 135.640625,
+          "scrollWidth": 136
+        }
+      ],
+      "title": "FAQ | Modina Rim & Parts Ltd. — Frequently Asked Questions",
+      "passed": true
+    },
+    {
+      "route": "/privacy",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headings": [
+        {
+          "text": "PRIVACY",
+          "size": "72px",
+          "lineHeight": "82.8px",
+          "width": 295.265625,
+          "scrollWidth": 295
+        }
+      ],
+      "title": "Privacy Policy | Modina Rim & Parts Ltd.",
+      "passed": true
+    },
+    {
+      "route": "/terms",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headings": [
+        {
+          "text": "TERMS",
+          "size": "72px",
+          "lineHeight": "82.8px",
+          "width": 235.046875,
+          "scrollWidth": 235
+        }
+      ],
+      "title": "Terms of Service | Modina Rim & Parts Ltd.",
+      "passed": true
+    },
+    {
+      "route": "/audit-missing-page",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headings": [
+        {
+          "text": "This Page DoesNot Exist",
+          "size": "56px",
+          "lineHeight": "67.2px",
+          "width": 391.171875,
+          "scrollWidth": 391
+        }
+      ],
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "passed": true
+    },
+    {
+      "route": "/news",
+      "lang": "bn",
+      "width": 320,
+      "scrollWidth": 320,
+      "headings": [
+        {
+          "text": "NEWS & EVENTS",
+          "size": "40px",
+          "lineHeight": "56px",
+          "width": 268.5625,
+          "scrollWidth": 269
+        }
+      ],
+      "title": "News & Events | Modina Rim & Parts Ltd.",
+      "passed": true
+    },
+    {
+      "route": "/news/1",
+      "lang": "bn",
+      "width": 320,
+      "scrollWidth": 320,
+      "headings": [
+        {
+          "text": "ISO 9001:2015 Certification Successfully Renewed for 2025–2026",
+          "size": "32px",
+          "lineHeight": "44.8px",
+          "width": 272,
+          "scrollWidth": 272
+        }
+      ],
+      "title": "",
+      "passed": true
+    },
+    {
+      "route": "/news/invalid",
+      "lang": "bn",
+      "width": 320,
+      "scrollWidth": 320,
+      "headings": [],
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "passed": true
+    },
+    {
+      "route": "/blog",
+      "lang": "bn",
+      "width": 320,
+      "scrollWidth": 320,
+      "headings": [
+        {
+          "text": "OUR BLOG",
+          "size": "40px",
+          "lineHeight": "56px",
+          "width": 171.9375,
+          "scrollWidth": 172
+        }
+      ],
+      "title": "Blog | Modina Rim & Parts Ltd. — Engineering & Industry Insights",
+      "passed": true
+    },
+    {
+      "route": "/blog/1",
+      "lang": "bn",
+      "width": 320,
+      "scrollWidth": 320,
+      "headings": [
+        {
+          "text": "The Science Behind ISO 9001 and What It Means for Buyers",
+          "size": "32px",
+          "lineHeight": "44.8px",
+          "width": 272,
+          "scrollWidth": 272
+        }
+      ],
+      "title": "",
+      "passed": true
+    },
+    {
+      "route": "/blog/featured",
+      "lang": "bn",
+      "width": 320,
+      "scrollWidth": 320,
+      "headings": [
+        {
+          "text": "Why Precision Tolerance Is the Most Underrated Factor in Auto Parts Manufacturing",
+          "size": "32px",
+          "lineHeight": "44.8px",
+          "width": 272,
+          "scrollWidth": 272
+        }
+      ],
+      "title": "",
+      "passed": true
+    },
+    {
+      "route": "/blog/invalid",
+      "lang": "bn",
+      "width": 320,
+      "scrollWidth": 320,
+      "headings": [],
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "passed": true
+    },
+    {
+      "route": "/faq",
+      "lang": "bn",
+      "width": 320,
+      "scrollWidth": 320,
+      "headings": [
+        {
+          "text": "FAQ",
+          "size": "40px",
+          "lineHeight": "56px",
+          "width": 70.03125,
+          "scrollWidth": 70
+        }
+      ],
+      "title": "FAQ | Modina Rim & Parts Ltd. — Frequently Asked Questions",
+      "passed": true
+    },
+    {
+      "route": "/privacy",
+      "lang": "bn",
+      "width": 320,
+      "scrollWidth": 320,
+      "headings": [
+        {
+          "text": "PRIVACY",
+          "size": "40px",
+          "lineHeight": "56px",
+          "width": 151.5625,
+          "scrollWidth": 152
+        }
+      ],
+      "title": "Privacy Policy | Modina Rim & Parts Ltd.",
+      "passed": true
+    },
+    {
+      "route": "/terms",
+      "lang": "bn",
+      "width": 320,
+      "scrollWidth": 320,
+      "headings": [
+        {
+          "text": "TERMS",
+          "size": "40px",
+          "lineHeight": "56px",
+          "width": 107.921875,
+          "scrollWidth": 108
+        }
+      ],
+      "title": "Terms of Service | Modina Rim & Parts Ltd.",
+      "passed": true
+    },
+    {
+      "route": "/audit-missing-page",
+      "lang": "bn",
+      "width": 320,
+      "scrollWidth": 320,
+      "headings": [
+        {
+          "text": "This Page DoesNot Exist",
+          "size": "32px",
+          "lineHeight": "44.8px",
+          "width": 195.203125,
+          "scrollWidth": 195
+        }
+      ],
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "passed": true
+    },
+    {
+      "route": "/news",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "headings": [
+        {
+          "text": "NEWS & EVENTS",
+          "size": "40px",
+          "lineHeight": "56px",
+          "width": 268.5625,
+          "scrollWidth": 269
+        }
+      ],
+      "title": "News & Events | Modina Rim & Parts Ltd.",
+      "passed": true
+    },
+    {
+      "route": "/news/1",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "headings": [
+        {
+          "text": "ISO 9001:2015 Certification Successfully Renewed for 2025–2026",
+          "size": "32px",
+          "lineHeight": "44.8px",
+          "width": 342,
+          "scrollWidth": 342
+        }
+      ],
+      "title": "",
+      "passed": true
+    },
+    {
+      "route": "/news/invalid",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "headings": [],
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "passed": true
+    },
+    {
+      "route": "/blog",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "headings": [
+        {
+          "text": "OUR BLOG",
+          "size": "40px",
+          "lineHeight": "56px",
+          "width": 171.9375,
+          "scrollWidth": 172
+        }
+      ],
+      "title": "Blog | Modina Rim & Parts Ltd. — Engineering & Industry Insights",
+      "passed": true
+    },
+    {
+      "route": "/blog/1",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "headings": [
+        {
+          "text": "The Science Behind ISO 9001 and What It Means for Buyers",
+          "size": "32px",
+          "lineHeight": "44.8px",
+          "width": 342,
+          "scrollWidth": 342
+        }
+      ],
+      "title": "",
+      "passed": true
+    },
+    {
+      "route": "/blog/featured",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "headings": [
+        {
+          "text": "Why Precision Tolerance Is the Most Underrated Factor in Auto Parts Manufacturing",
+          "size": "32px",
+          "lineHeight": "44.8px",
+          "width": 342,
+          "scrollWidth": 342
+        }
+      ],
+      "title": "",
+      "passed": true
+    },
+    {
+      "route": "/blog/invalid",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "headings": [],
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "passed": true
+    },
+    {
+      "route": "/faq",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "headings": [
+        {
+          "text": "FAQ",
+          "size": "40px",
+          "lineHeight": "56px",
+          "width": 70.03125,
+          "scrollWidth": 70
+        }
+      ],
+      "title": "FAQ | Modina Rim & Parts Ltd. — Frequently Asked Questions",
+      "passed": true
+    },
+    {
+      "route": "/privacy",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "headings": [
+        {
+          "text": "PRIVACY",
+          "size": "40px",
+          "lineHeight": "56px",
+          "width": 151.5625,
+          "scrollWidth": 152
+        }
+      ],
+      "title": "Privacy Policy | Modina Rim & Parts Ltd.",
+      "passed": true
+    },
+    {
+      "route": "/terms",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "headings": [
+        {
+          "text": "TERMS",
+          "size": "40px",
+          "lineHeight": "56px",
+          "width": 107.921875,
+          "scrollWidth": 108
+        }
+      ],
+      "title": "Terms of Service | Modina Rim & Parts Ltd.",
+      "passed": true
+    },
+    {
+      "route": "/audit-missing-page",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "headings": [
+        {
+          "text": "This Page DoesNot Exist",
+          "size": "32px",
+          "lineHeight": "44.8px",
+          "width": 195.203125,
+          "scrollWidth": 195
+        }
+      ],
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "passed": true
+    },
+    {
+      "route": "/news",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headings": [
+        {
+          "text": "NEWS & EVENTS",
+          "size": "72px",
+          "lineHeight": "100.8px",
+          "width": 483.34375,
+          "scrollWidth": 483
+        }
+      ],
+      "title": "News & Events | Modina Rim & Parts Ltd.",
+      "passed": true
+    },
+    {
+      "route": "/news/1",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headings": [
+        {
+          "text": "ISO 9001:2015 Certification Successfully Renewed for 2025–2026",
+          "size": "56px",
+          "lineHeight": "78.4px",
+          "width": 624,
+          "scrollWidth": 624
+        }
+      ],
+      "title": "",
+      "passed": true
+    },
+    {
+      "route": "/news/invalid",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headings": [],
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "passed": true
+    },
+    {
+      "route": "/blog",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headings": [
+        {
+          "text": "OUR BLOG",
+          "size": "72px",
+          "lineHeight": "100.8px",
+          "width": 309.4375,
+          "scrollWidth": 309
+        }
+      ],
+      "title": "Blog | Modina Rim & Parts Ltd. — Engineering & Industry Insights",
+      "passed": true
+    },
+    {
+      "route": "/blog/1",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headings": [
+        {
+          "text": "The Science Behind ISO 9001 and What It Means for Buyers",
+          "size": "56px",
+          "lineHeight": "78.4px",
+          "width": 624,
+          "scrollWidth": 624
+        }
+      ],
+      "title": "",
+      "passed": true
+    },
+    {
+      "route": "/blog/featured",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headings": [
+        {
+          "text": "Why Precision Tolerance Is the Most Underrated Factor in Auto Parts Manufacturing",
+          "size": "56px",
+          "lineHeight": "78.4px",
+          "width": 624,
+          "scrollWidth": 624
+        }
+      ],
+      "title": "",
+      "passed": true
+    },
+    {
+      "route": "/blog/invalid",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headings": [],
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "passed": true
+    },
+    {
+      "route": "/faq",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headings": [
+        {
+          "text": "FAQ",
+          "size": "72px",
+          "lineHeight": "100.8px",
+          "width": 126.03125,
+          "scrollWidth": 126
+        }
+      ],
+      "title": "FAQ | Modina Rim & Parts Ltd. — Frequently Asked Questions",
+      "passed": true
+    },
+    {
+      "route": "/privacy",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headings": [
+        {
+          "text": "PRIVACY",
+          "size": "72px",
+          "lineHeight": "100.8px",
+          "width": 272.796875,
+          "scrollWidth": 273
+        }
+      ],
+      "title": "Privacy Policy | Modina Rim & Parts Ltd.",
+      "passed": true
+    },
+    {
+      "route": "/terms",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headings": [
+        {
+          "text": "TERMS",
+          "size": "72px",
+          "lineHeight": "100.8px",
+          "width": 194.21875,
+          "scrollWidth": 194
+        }
+      ],
+      "title": "Terms of Service | Modina Rim & Parts Ltd.",
+      "passed": true
+    },
+    {
+      "route": "/audit-missing-page",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headings": [
+        {
+          "text": "This Page DoesNot Exist",
+          "size": "56px",
+          "lineHeight": "78.4px",
+          "width": 341.609375,
+          "scrollWidth": 342
+        }
+      ],
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "blocked": [
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    }
+  ],
+  "screenshots": [
+    "group3-news-390-en-hero.png",
+    "group3-news-390-en-content.png",
+    "group3-news-1-390-en-hero.png",
+    "group3-news-1-390-en-content.png",
+    "group3-news-invalid-390-en-hero.png",
+    "group3-news-invalid-390-en-content.png",
+    "group3-blog-390-en-hero.png",
+    "group3-blog-390-en-content.png",
+    "group3-blog-1-390-en-hero.png",
+    "group3-blog-1-390-en-content.png",
+    "group3-blog-featured-390-en-hero.png",
+    "group3-blog-featured-390-en-content.png",
+    "group3-blog-invalid-390-en-hero.png",
+    "group3-blog-invalid-390-en-content.png",
+    "group3-faq-390-en-hero.png",
+    "group3-faq-390-en-content.png",
+    "group3-privacy-390-en-hero.png",
+    "group3-privacy-390-en-content.png",
+    "group3-terms-390-en-hero.png",
+    "group3-terms-390-en-content.png",
+    "group3-audit-missing-page-390-en-hero.png",
+    "group3-audit-missing-page-390-en-content.png",
+    "group3-news-1440-en-hero.png",
+    "group3-news-1440-en-content.png",
+    "group3-news-1-1440-en-hero.png",
+    "group3-news-1-1440-en-content.png",
+    "group3-news-invalid-1440-en-hero.png",
+    "group3-news-invalid-1440-en-content.png",
+    "group3-blog-1440-en-hero.png",
+    "group3-blog-1440-en-content.png",
+    "group3-blog-1-1440-en-hero.png",
+    "group3-blog-1-1440-en-content.png",
+    "group3-blog-featured-1440-en-hero.png",
+    "group3-blog-featured-1440-en-content.png",
+    "group3-blog-invalid-1440-en-hero.png",
+    "group3-blog-invalid-1440-en-content.png",
+    "group3-faq-1440-en-hero.png",
+    "group3-faq-1440-en-content.png",
+    "group3-privacy-1440-en-hero.png",
+    "group3-privacy-1440-en-content.png",
+    "group3-terms-1440-en-hero.png",
+    "group3-terms-1440-en-content.png",
+    "group3-audit-missing-page-1440-en-hero.png",
+    "group3-audit-missing-page-1440-en-content.png",
+    "group3-news-390-bn-hero.png",
+    "group3-news-390-bn-content.png",
+    "group3-news-1-390-bn-hero.png",
+    "group3-news-1-390-bn-content.png",
+    "group3-news-invalid-390-bn-hero.png",
+    "group3-news-invalid-390-bn-content.png",
+    "group3-blog-390-bn-hero.png",
+    "group3-blog-390-bn-content.png",
+    "group3-blog-1-390-bn-hero.png",
+    "group3-blog-1-390-bn-content.png",
+    "group3-blog-featured-390-bn-hero.png",
+    "group3-blog-featured-390-bn-content.png",
+    "group3-blog-invalid-390-bn-hero.png",
+    "group3-blog-invalid-390-bn-content.png",
+    "group3-faq-390-bn-hero.png",
+    "group3-faq-390-bn-content.png",
+    "group3-privacy-390-bn-hero.png",
+    "group3-privacy-390-bn-content.png",
+    "group3-terms-390-bn-hero.png",
+    "group3-terms-390-bn-content.png",
+    "group3-audit-missing-page-390-bn-hero.png",
+    "group3-audit-missing-page-390-bn-content.png",
+    "group3-news-1440-bn-hero.png",
+    "group3-news-1440-bn-content.png",
+    "group3-news-1-1440-bn-hero.png",
+    "group3-news-1-1440-bn-content.png",
+    "group3-news-invalid-1440-bn-hero.png",
+    "group3-news-invalid-1440-bn-content.png",
+    "group3-blog-1440-bn-hero.png",
+    "group3-blog-1440-bn-content.png",
+    "group3-blog-1-1440-bn-hero.png",
+    "group3-blog-1-1440-bn-content.png",
+    "group3-blog-featured-1440-bn-hero.png",
+    "group3-blog-featured-1440-bn-content.png",
+    "group3-blog-invalid-1440-bn-hero.png",
+    "group3-blog-invalid-1440-bn-content.png",
+    "group3-faq-1440-bn-hero.png",
+    "group3-faq-1440-bn-content.png",
+    "group3-privacy-1440-bn-hero.png",
+    "group3-privacy-1440-bn-content.png",
+    "group3-terms-1440-bn-hero.png",
+    "group3-terms-1440-bn-content.png",
+    "group3-audit-missing-page-1440-bn-hero.png",
+    "group3-audit-missing-page-1440-bn-content.png"
+  ],
+  "visibility": [
+    {
+      "route": "/news",
+      "width": 390,
+      "lang": "en",
+      "hidden": []
+    },
+    {
+      "route": "/news/1",
+      "width": 390,
+      "lang": "en",
+      "hidden": []
+    },
+    {
+      "route": "/news/invalid",
+      "width": 390,
+      "lang": "en",
+      "hidden": []
+    },
+    {
+      "route": "/blog",
+      "width": 390,
+      "lang": "en",
+      "hidden": []
+    },
+    {
+      "route": "/blog/1",
+      "width": 390,
+      "lang": "en",
+      "hidden": []
+    },
+    {
+      "route": "/blog/featured",
+      "width": 390,
+      "lang": "en",
+      "hidden": []
+    },
+    {
+      "route": "/blog/invalid",
+      "width": 390,
+      "lang": "en",
+      "hidden": []
+    },
+    {
+      "route": "/faq",
+      "width": 390,
+      "lang": "en",
+      "hidden": []
+    },
+    {
+      "route": "/privacy",
+      "width": 390,
+      "lang": "en",
+      "hidden": []
+    },
+    {
+      "route": "/terms",
+      "width": 390,
+      "lang": "en",
+      "hidden": []
+    },
+    {
+      "route": "/audit-missing-page",
+      "width": 390,
+      "lang": "en",
+      "hidden": []
+    },
+    {
+      "route": "/news",
+      "width": 1440,
+      "lang": "en",
+      "hidden": []
+    },
+    {
+      "route": "/news/1",
+      "width": 1440,
+      "lang": "en",
+      "hidden": []
+    },
+    {
+      "route": "/news/invalid",
+      "width": 1440,
+      "lang": "en",
+      "hidden": []
+    },
+    {
+      "route": "/blog",
+      "width": 1440,
+      "lang": "en",
+      "hidden": []
+    },
+    {
+      "route": "/blog/1",
+      "width": 1440,
+      "lang": "en",
+      "hidden": []
+    },
+    {
+      "route": "/blog/featured",
+      "width": 1440,
+      "lang": "en",
+      "hidden": []
+    },
+    {
+      "route": "/blog/invalid",
+      "width": 1440,
+      "lang": "en",
+      "hidden": []
+    },
+    {
+      "route": "/faq",
+      "width": 1440,
+      "lang": "en",
+      "hidden": []
+    },
+    {
+      "route": "/privacy",
+      "width": 1440,
+      "lang": "en",
+      "hidden": []
+    },
+    {
+      "route": "/terms",
+      "width": 1440,
+      "lang": "en",
+      "hidden": []
+    },
+    {
+      "route": "/audit-missing-page",
+      "width": 1440,
+      "lang": "en",
+      "hidden": []
+    },
+    {
+      "route": "/news",
+      "width": 390,
+      "lang": "bn",
+      "hidden": []
+    },
+    {
+      "route": "/news/1",
+      "width": 390,
+      "lang": "bn",
+      "hidden": []
+    },
+    {
+      "route": "/news/invalid",
+      "width": 390,
+      "lang": "bn",
+      "hidden": []
+    },
+    {
+      "route": "/blog",
+      "width": 390,
+      "lang": "bn",
+      "hidden": []
+    },
+    {
+      "route": "/blog/1",
+      "width": 390,
+      "lang": "bn",
+      "hidden": []
+    },
+    {
+      "route": "/blog/featured",
+      "width": 390,
+      "lang": "bn",
+      "hidden": []
+    },
+    {
+      "route": "/blog/invalid",
+      "width": 390,
+      "lang": "bn",
+      "hidden": []
+    },
+    {
+      "route": "/faq",
+      "width": 390,
+      "lang": "bn",
+      "hidden": []
+    },
+    {
+      "route": "/privacy",
+      "width": 390,
+      "lang": "bn",
+      "hidden": []
+    },
+    {
+      "route": "/terms",
+      "width": 390,
+      "lang": "bn",
+      "hidden": []
+    },
+    {
+      "route": "/audit-missing-page",
+      "width": 390,
+      "lang": "bn",
+      "hidden": []
+    },
+    {
+      "route": "/news",
+      "width": 1440,
+      "lang": "bn",
+      "hidden": []
+    },
+    {
+      "route": "/news/1",
+      "width": 1440,
+      "lang": "bn",
+      "hidden": []
+    },
+    {
+      "route": "/news/invalid",
+      "width": 1440,
+      "lang": "bn",
+      "hidden": []
+    },
+    {
+      "route": "/blog",
+      "width": 1440,
+      "lang": "bn",
+      "hidden": []
+    },
+    {
+      "route": "/blog/1",
+      "width": 1440,
+      "lang": "bn",
+      "hidden": []
+    },
+    {
+      "route": "/blog/featured",
+      "width": 1440,
+      "lang": "bn",
+      "hidden": []
+    },
+    {
+      "route": "/blog/invalid",
+      "width": 1440,
+      "lang": "bn",
+      "hidden": []
+    },
+    {
+      "route": "/faq",
+      "width": 1440,
+      "lang": "bn",
+      "hidden": []
+    },
+    {
+      "route": "/privacy",
+      "width": 1440,
+      "lang": "bn",
+      "hidden": []
+    },
+    {
+      "route": "/terms",
+      "width": 1440,
+      "lang": "bn",
+      "hidden": []
+    },
+    {
+      "route": "/audit-missing-page",
+      "width": 1440,
+      "lang": "bn",
+      "hidden": []
+    }
+  ],
+  "browser": "156.0.8078.48",
+  "completed": true,
+  "teardown": {
+    "normal": false,
+    "connected": false,
+    "bounded": true
+  },
+  "serverStopped": true
+}

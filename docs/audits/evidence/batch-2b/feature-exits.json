@@ -1,0 +1,18 @@
+[
+  {
+    "suite": "layout",
+    "exitCode": 0
+  },
+  {
+    "suite": "intro",
+    "exitCode": 1
+  },
+  {
+    "suite": "motion",
+    "exitCode": 1
+  },
+  {
+    "suite": "video",
+    "exitCode": 0
+  }
+]

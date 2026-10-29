@@ -1,0 +1,7087 @@
+{
+  "mode": "sweep",
+  "base": "http://127.0.0.1:4191",
+  "states": [
+    {
+      "route": "/products",
+      "lang": "en",
+      "width": 320,
+      "scrollWidth": 320,
+      "title": "Products | Modina Rim & Parts Ltd. — 21 SKUs, Bangladesh",
+      "targets": [
+        {
+          "text": "Search products...",
+          "top": 621
+        },
+        {
+          "text": "Product Catalogue",
+          "top": 760
+        },
+        {
+          "text": "Ready to Placean Order?",
+          "top": 5379
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/contact",
+      "lang": "en",
+      "width": 320,
+      "scrollWidth": 320,
+      "title": "Contact Us | Modina Rim & Parts Ltd. — Jashore, Bangladesh",
+      "targets": [
+        {
+          "text": "Let's Talk",
+          "top": 601
+        },
+        {
+          "text": "Full Name *Company NameEmail *PhoneSubject *Select a subject",
+          "top": 664
+        },
+        {
+          "text": "Your full name",
+          "top": 700
+        },
+        {
+          "text": "Your company",
+          "top": 808
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/downloads",
+      "lang": "en",
+      "width": 320,
+      "scrollWidth": 320,
+      "title": "Downloads | Modina Rim & Parts Ltd. — Catalogs, Certificates & Technical Docs",
+      "targets": [
+        {
+          "text": "Search files...",
+          "top": 561
+        },
+        {
+          "text": "Resources",
+          "top": 710
+        },
+        {
+          "text": "Product Catalog 2026",
+          "top": 4719
+        },
+        {
+          "text": "Can't FindWhat You Need?",
+          "top": 5558
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/careers",
+      "lang": "en",
+      "width": 320,
+      "scrollWidth": 320,
+      "title": "Careers | Modina Rim & Parts Ltd. — Join Our Team",
+      "targets": [
+        {
+          "text": "Build Your CareerIn Precision",
+          "top": 595
+        },
+        {
+          "text": "Build Your Career In Precision",
+          "top": 2852
+        },
+        {
+          "text": "Send Us YourCV Anyway",
+          "top": 4591
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/",
+      "lang": "en",
+      "width": 320,
+      "scrollWidth": 320,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer — Bangladesh",
+      "targets": [
+        {
+          "text": "Forging the Backbone of Modern Mobility",
+          "top": 1138
+        },
+        {
+          "text": "New Arrival",
+          "top": 2600
+        },
+        {
+          "text": "The Trust Factor",
+          "top": 4378
+        },
+        {
+          "text": "Equipping Our Partners.",
+          "top": 6019
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/about",
+      "lang": "en",
+      "width": 320,
+      "scrollWidth": 320,
+      "title": "About Us | Modina Rim & Parts Ltd. — Since 2010, Jashore Bangladesh",
+      "targets": [
+        {
+          "text": "Engineering Reliability Since 2010",
+          "top": 988
+        },
+        {
+          "text": "Our Journey",
+          "top": 1955
+        },
+        {
+          "text": "Mission & Values",
+          "top": 2554
+        },
+        {
+          "text": "State of the Art Facility",
+          "top": 5042
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/mission",
+      "lang": "en",
+      "width": 320,
+      "scrollWidth": 320,
+      "title": "Our Mission & Values | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Engineering Trust. Delivering Excellence.",
+          "top": 976
+        },
+        {
+          "text": "Core Values",
+          "top": 2510
+        },
+        {
+          "text": "Built on Conviction.",
+          "top": 6090
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 7029
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/sustainability",
+      "lang": "en",
+      "width": 320,
+      "scrollWidth": 320,
+      "title": "Sustainability & CSR | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Responsible by Design.",
+          "top": 1039
+        },
+        {
+          "text": "Three Pillars of Responsibility",
+          "top": 1808
+        },
+        {
+          "text": "ISO 14001 Certified Operations",
+          "top": 4813
+        },
+        {
+          "text": "CSR Initiatives",
+          "top": 6028
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/quality",
+      "lang": "en",
+      "width": 320,
+      "scrollWidth": 320,
+      "title": "Quality Assurance | Modina Rim & Parts Ltd. — ISO 9001:2015 Certified",
+      "targets": [
+        {
+          "text": "Precision Is Not Optional",
+          "top": 952
+        },
+        {
+          "text": "From Raw Material to Delivery",
+          "top": 1924
+        },
+        {
+          "text": "Certifications & Standards",
+          "top": 2460
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 4743
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/certificates",
+      "lang": "en",
+      "width": 320,
+      "scrollWidth": 320,
+      "title": "Certifications | Modina Rim & Parts Ltd. — ISO 9001, 14001, 45001",
+      "targets": [
+        {
+          "text": "Proof, Not a Promise",
+          "top": 1063
+        },
+        {
+          "text": "Internationally Recognized",
+          "top": 1861
+        },
+        {
+          "text": "Awards & Milestones",
+          "top": 4653
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 5402
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/gallery",
+      "lang": "en",
+      "width": 320,
+      "scrollWidth": 320,
+      "title": "Gallery | Modina Rim & Parts Ltd. — Factory Tour",
+      "targets": [
+        {
+          "text": "See It ForYourself",
+          "top": 5488
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/news",
+      "lang": "en",
+      "width": 320,
+      "scrollWidth": 320,
+      "title": "News & Events | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Modina Launches 2026 Product Catalog With 21 New SKUs",
+          "top": 1114
+        },
+        {
+          "text": "Search news...",
+          "top": 1782
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 6064
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/news/1",
+      "lang": "en",
+      "width": 320,
+      "scrollWidth": 320,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/news/invalid",
+      "lang": "en",
+      "width": 320,
+      "scrollWidth": 320,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog",
+      "lang": "en",
+      "width": 320,
+      "scrollWidth": 320,
+      "title": "Blog | Modina Rim & Parts Ltd. — Engineering & Industry Insights",
+      "targets": [
+        {
+          "text": "Why Precision Tolerance Is the Most Underrated Factor in Aut",
+          "top": 1020
+        },
+        {
+          "text": "Search posts...",
+          "top": 1879
+        },
+        {
+          "text": "See WhatWe Make",
+          "top": 7349
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/blog/1",
+      "lang": "en",
+      "width": 320,
+      "scrollWidth": 320,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog/featured",
+      "lang": "en",
+      "width": 320,
+      "scrollWidth": 320,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog/invalid",
+      "lang": "en",
+      "width": 320,
+      "scrollWidth": 320,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/faq",
+      "lang": "en",
+      "width": 320,
+      "scrollWidth": 320,
+      "title": "FAQ | Modina Rim & Parts Ltd. — Frequently Asked Questions",
+      "targets": [
+        {
+          "text": "Search questions...",
+          "top": 393
+        },
+        {
+          "text": "ProductsWhat products does Modina Rim & Parts Ltd. manufactu",
+          "top": 528
+        },
+        {
+          "text": "ProductsWhat is the minimum order quantity (MOQ)?",
+          "top": 701
+        },
+        {
+          "text": "ProductsDo you offer custom specifications or OEM manufactur",
+          "top": 875
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/privacy",
+      "lang": "en",
+      "width": 320,
+      "scrollWidth": 320,
+      "title": "Privacy Policy | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "1. Introduction",
+          "top": 793
+        },
+        {
+          "text": "2. Information We Collect",
+          "top": 1443
+        },
+        {
+          "text": "3. Use of Your Information",
+          "top": 2476
+        },
+        {
+          "text": "4. Disclosure of Your Information",
+          "top": 3468
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/terms",
+      "lang": "en",
+      "width": 320,
+      "scrollWidth": 320,
+      "title": "Terms of Service | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "1. Acceptance of Terms",
+          "top": 763
+        },
+        {
+          "text": "2. Use of the Site",
+          "top": 1518
+        },
+        {
+          "text": "3. Intellectual Property Rights",
+          "top": 2435
+        },
+        {
+          "text": "4. Disclaimer of Warranties",
+          "top": 3360
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/audit-missing-page",
+      "lang": "en",
+      "width": 320,
+      "scrollWidth": 320,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/products",
+      "lang": "en",
+      "width": 360,
+      "scrollWidth": 360,
+      "title": "Products | Modina Rim & Parts Ltd. — 21 SKUs, Bangladesh",
+      "targets": [
+        {
+          "text": "Search products...",
+          "top": 522
+        },
+        {
+          "text": "Product Catalogue",
+          "top": 661
+        },
+        {
+          "text": "Ready to Placean Order?",
+          "top": 5377
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/contact",
+      "lang": "en",
+      "width": 360,
+      "scrollWidth": 360,
+      "title": "Contact Us | Modina Rim & Parts Ltd. — Jashore, Bangladesh",
+      "targets": [
+        {
+          "text": "Let's Talk",
+          "top": 601
+        },
+        {
+          "text": "Full Name *Company NameEmail *PhoneSubject *Select a subject",
+          "top": 664
+        },
+        {
+          "text": "Your full name",
+          "top": 700
+        },
+        {
+          "text": "Your company",
+          "top": 808
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/downloads",
+      "lang": "en",
+      "width": 360,
+      "scrollWidth": 360,
+      "title": "Downloads | Modina Rim & Parts Ltd. — Catalogs, Certificates & Technical Docs",
+      "targets": [
+        {
+          "text": "Search files...",
+          "top": 488
+        },
+        {
+          "text": "Resources",
+          "top": 637
+        },
+        {
+          "text": "Product Catalog 2026",
+          "top": 4309
+        },
+        {
+          "text": "Can't FindWhat You Need?",
+          "top": 5008
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/careers",
+      "lang": "en",
+      "width": 360,
+      "scrollWidth": 360,
+      "title": "Careers | Modina Rim & Parts Ltd. — Join Our Team",
+      "targets": [
+        {
+          "text": "Build Your CareerIn Precision",
+          "top": 566
+        },
+        {
+          "text": "Build Your Career In Precision",
+          "top": 2707
+        },
+        {
+          "text": "Send Us YourCV Anyway",
+          "top": 4270
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/",
+      "lang": "en",
+      "width": 360,
+      "scrollWidth": 360,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer — Bangladesh",
+      "targets": [
+        {
+          "text": "Forging the Backbone of Modern Mobility",
+          "top": 1126
+        },
+        {
+          "text": "New Arrival",
+          "top": 2559
+        },
+        {
+          "text": "The Trust Factor",
+          "top": 4439
+        },
+        {
+          "text": "Equipping Our Partners.",
+          "top": 5994
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/about",
+      "lang": "en",
+      "width": 360,
+      "scrollWidth": 360,
+      "title": "About Us | Modina Rim & Parts Ltd. — Since 2010, Jashore Bangladesh",
+      "targets": [
+        {
+          "text": "Engineering Reliability Since 2010",
+          "top": 890
+        },
+        {
+          "text": "Our Journey",
+          "top": 1768
+        },
+        {
+          "text": "Mission & Values",
+          "top": 2367
+        },
+        {
+          "text": "State of the Art Facility",
+          "top": 4745
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/mission",
+      "lang": "en",
+      "width": 360,
+      "scrollWidth": 360,
+      "title": "Our Mission & Values | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Engineering Trust. Delivering Excellence.",
+          "top": 976
+        },
+        {
+          "text": "Core Values",
+          "top": 2343
+        },
+        {
+          "text": "Built on Conviction.",
+          "top": 5716
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 6571
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/sustainability",
+      "lang": "en",
+      "width": 360,
+      "scrollWidth": 360,
+      "title": "Sustainability & CSR | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Responsible by Design.",
+          "top": 925
+        },
+        {
+          "text": "Three Pillars of Responsibility",
+          "top": 1633
+        },
+        {
+          "text": "ISO 14001 Certified Operations",
+          "top": 4403
+        },
+        {
+          "text": "CSR Initiatives",
+          "top": 5440
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/quality",
+      "lang": "en",
+      "width": 360,
+      "scrollWidth": 360,
+      "title": "Quality Assurance | Modina Rim & Parts Ltd. — ISO 9001:2015 Certified",
+      "targets": [
+        {
+          "text": "Precision Is Not Optional",
+          "top": 952
+        },
+        {
+          "text": "From Raw Material to Delivery",
+          "top": 1775
+        },
+        {
+          "text": "Certifications & Standards",
+          "top": 2312
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 4447
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/certificates",
+      "lang": "en",
+      "width": 360,
+      "scrollWidth": 360,
+      "title": "Certifications | Modina Rim & Parts Ltd. — ISO 9001, 14001, 45001",
+      "targets": [
+        {
+          "text": "Proof, Not a Promise",
+          "top": 1013
+        },
+        {
+          "text": "Internationally Recognized",
+          "top": 1722
+        },
+        {
+          "text": "Awards & Milestones",
+          "top": 4395
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 5106
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/gallery",
+      "lang": "en",
+      "width": 360,
+      "scrollWidth": 360,
+      "title": "Gallery | Modina Rim & Parts Ltd. — Factory Tour",
+      "targets": [
+        {
+          "text": "See It ForYourself",
+          "top": 5488
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/news",
+      "lang": "en",
+      "width": 360,
+      "scrollWidth": 360,
+      "title": "News & Events | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Modina Launches 2026 Product Catalog With 21 New SKUs",
+          "top": 1012
+        },
+        {
+          "text": "Search news...",
+          "top": 1611
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 5894
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/news/1",
+      "lang": "en",
+      "width": 360,
+      "scrollWidth": 360,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/news/invalid",
+      "lang": "en",
+      "width": 360,
+      "scrollWidth": 360,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog",
+      "lang": "en",
+      "width": 360,
+      "scrollWidth": 360,
+      "title": "Blog | Modina Rim & Parts Ltd. — Engineering & Industry Insights",
+      "targets": [
+        {
+          "text": "Why Precision Tolerance Is the Most Underrated Factor in Aut",
+          "top": 991
+        },
+        {
+          "text": "Search posts...",
+          "top": 1752
+        },
+        {
+          "text": "See WhatWe Make",
+          "top": 7082
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/blog/1",
+      "lang": "en",
+      "width": 360,
+      "scrollWidth": 360,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog/featured",
+      "lang": "en",
+      "width": 360,
+      "scrollWidth": 360,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog/invalid",
+      "lang": "en",
+      "width": 360,
+      "scrollWidth": 360,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/faq",
+      "lang": "en",
+      "width": 360,
+      "scrollWidth": 360,
+      "title": "FAQ | Modina Rim & Parts Ltd. — Frequently Asked Questions",
+      "targets": [
+        {
+          "text": "Search questions...",
+          "top": 393
+        },
+        {
+          "text": "ProductsWhat products does Modina Rim & Parts Ltd. manufactu",
+          "top": 528
+        },
+        {
+          "text": "ProductsWhat is the minimum order quantity (MOQ)?",
+          "top": 701
+        },
+        {
+          "text": "ProductsDo you offer custom specifications or OEM manufactur",
+          "top": 846
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/privacy",
+      "lang": "en",
+      "width": 360,
+      "scrollWidth": 360,
+      "title": "Privacy Policy | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "1. Introduction",
+          "top": 764
+        },
+        {
+          "text": "2. Information We Collect",
+          "top": 1324
+        },
+        {
+          "text": "3. Use of Your Information",
+          "top": 2238
+        },
+        {
+          "text": "4. Disclosure of Your Information",
+          "top": 3141
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/terms",
+      "lang": "en",
+      "width": 360,
+      "scrollWidth": 360,
+      "title": "Terms of Service | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "1. Acceptance of Terms",
+          "top": 723
+        },
+        {
+          "text": "2. Use of the Site",
+          "top": 1399
+        },
+        {
+          "text": "3. Intellectual Property Rights",
+          "top": 2227
+        },
+        {
+          "text": "4. Disclaimer of Warranties",
+          "top": 2977
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/audit-missing-page",
+      "lang": "en",
+      "width": 360,
+      "scrollWidth": 360,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/products",
+      "lang": "en",
+      "width": 375,
+      "scrollWidth": 375,
+      "title": "Products | Modina Rim & Parts Ltd. — 21 SKUs, Bangladesh",
+      "targets": [
+        {
+          "text": "Search products...",
+          "top": 522
+        },
+        {
+          "text": "Product Catalogue",
+          "top": 661
+        },
+        {
+          "text": "Ready to Placean Order?",
+          "top": 5478
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/contact",
+      "lang": "en",
+      "width": 375,
+      "scrollWidth": 375,
+      "title": "Contact Us | Modina Rim & Parts Ltd. — Jashore, Bangladesh",
+      "targets": [
+        {
+          "text": "Let's Talk",
+          "top": 601
+        },
+        {
+          "text": "Full Name *Company NameEmail *PhoneSubject *Select a subject",
+          "top": 664
+        },
+        {
+          "text": "Your full name",
+          "top": 691
+        },
+        {
+          "text": "Your company",
+          "top": 798
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/downloads",
+      "lang": "en",
+      "width": 375,
+      "scrollWidth": 375,
+      "title": "Downloads | Modina Rim & Parts Ltd. — Catalogs, Certificates & Technical Docs",
+      "targets": [
+        {
+          "text": "Search files...",
+          "top": 488
+        },
+        {
+          "text": "Resources",
+          "top": 637
+        },
+        {
+          "text": "Product Catalog 2026",
+          "top": 4257
+        },
+        {
+          "text": "Can't FindWhat You Need?",
+          "top": 4927
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/careers",
+      "lang": "en",
+      "width": 375,
+      "scrollWidth": 375,
+      "title": "Careers | Modina Rim & Parts Ltd. — Join Our Team",
+      "targets": [
+        {
+          "text": "Build Your CareerIn Precision",
+          "top": 566
+        },
+        {
+          "text": "Build Your Career In Precision",
+          "top": 2707
+        },
+        {
+          "text": "Send Us YourCV Anyway",
+          "top": 4237
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/",
+      "lang": "en",
+      "width": 375,
+      "scrollWidth": 375,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer — Bangladesh",
+      "targets": [
+        {
+          "text": "Forging the Backbone of Modern Mobility",
+          "top": 1137
+        },
+        {
+          "text": "New Arrival",
+          "top": 2531
+        },
+        {
+          "text": "The Trust Factor",
+          "top": 4471
+        },
+        {
+          "text": "Equipping Our Partners.",
+          "top": 5937
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/about",
+      "lang": "en",
+      "width": 375,
+      "scrollWidth": 375,
+      "title": "About Us | Modina Rim & Parts Ltd. — Since 2010, Jashore Bangladesh",
+      "targets": [
+        {
+          "text": "Engineering Reliability Since 2010",
+          "top": 890
+        },
+        {
+          "text": "Our Journey",
+          "top": 1699
+        },
+        {
+          "text": "Mission & Values",
+          "top": 2299
+        },
+        {
+          "text": "State of the Art Facility",
+          "top": 4626
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/mission",
+      "lang": "en",
+      "width": 375,
+      "scrollWidth": 375,
+      "title": "Our Mission & Values | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Engineering Trust. Delivering Excellence.",
+          "top": 976
+        },
+        {
+          "text": "Core Values",
+          "top": 2343
+        },
+        {
+          "text": "Built on Conviction.",
+          "top": 5657
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 6448
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/sustainability",
+      "lang": "en",
+      "width": 375,
+      "scrollWidth": 375,
+      "title": "Sustainability & CSR | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Responsible by Design.",
+          "top": 896
+        },
+        {
+          "text": "Three Pillars of Responsibility",
+          "top": 1575
+        },
+        {
+          "text": "ISO 14001 Certified Operations",
+          "top": 4315
+        },
+        {
+          "text": "CSR Initiatives",
+          "top": 5284
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/quality",
+      "lang": "en",
+      "width": 375,
+      "scrollWidth": 375,
+      "title": "Quality Assurance | Modina Rim & Parts Ltd. — ISO 9001:2015 Certified",
+      "targets": [
+        {
+          "text": "Precision Is Not Optional",
+          "top": 923
+        },
+        {
+          "text": "From Raw Material to Delivery",
+          "top": 1716
+        },
+        {
+          "text": "Certifications & Standards",
+          "top": 2253
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 4358
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/certificates",
+      "lang": "en",
+      "width": 375,
+      "scrollWidth": 375,
+      "title": "Certifications | Modina Rim & Parts Ltd. — ISO 9001, 14001, 45001",
+      "targets": [
+        {
+          "text": "Proof, Not a Promise",
+          "top": 940
+        },
+        {
+          "text": "Internationally Recognized",
+          "top": 1619
+        },
+        {
+          "text": "Awards & Milestones",
+          "top": 4233
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 4943
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/gallery",
+      "lang": "en",
+      "width": 375,
+      "scrollWidth": 375,
+      "title": "Gallery | Modina Rim & Parts Ltd. — Factory Tour",
+      "targets": [
+        {
+          "text": "See It ForYourself",
+          "top": 5488
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/news",
+      "lang": "en",
+      "width": 375,
+      "scrollWidth": 375,
+      "title": "News & Events | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Modina Launches 2026 Product Catalog With 21 New SKUs",
+          "top": 995
+        },
+        {
+          "text": "Search news...",
+          "top": 1564
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 5847
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/news/1",
+      "lang": "en",
+      "width": 375,
+      "scrollWidth": 375,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/news/invalid",
+      "lang": "en",
+      "width": 375,
+      "scrollWidth": 375,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog",
+      "lang": "en",
+      "width": 375,
+      "scrollWidth": 375,
+      "title": "Blog | Modina Rim & Parts Ltd. — Engineering & Industry Insights",
+      "targets": [
+        {
+          "text": "Why Precision Tolerance Is the Most Underrated Factor in Aut",
+          "top": 991
+        },
+        {
+          "text": "Search posts...",
+          "top": 1684
+        },
+        {
+          "text": "See WhatWe Make",
+          "top": 6979
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/blog/1",
+      "lang": "en",
+      "width": 375,
+      "scrollWidth": 375,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog/featured",
+      "lang": "en",
+      "width": 375,
+      "scrollWidth": 375,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog/invalid",
+      "lang": "en",
+      "width": 375,
+      "scrollWidth": 375,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/faq",
+      "lang": "en",
+      "width": 375,
+      "scrollWidth": 375,
+      "title": "FAQ | Modina Rim & Parts Ltd. — Frequently Asked Questions",
+      "targets": [
+        {
+          "text": "Search questions...",
+          "top": 393
+        },
+        {
+          "text": "ProductsWhat products does Modina Rim & Parts Ltd. manufactu",
+          "top": 528
+        },
+        {
+          "text": "ProductsWhat is the minimum order quantity (MOQ)?",
+          "top": 701
+        },
+        {
+          "text": "ProductsDo you offer custom specifications or OEM manufactur",
+          "top": 846
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/privacy",
+      "lang": "en",
+      "width": 375,
+      "scrollWidth": 375,
+      "title": "Privacy Policy | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "1. Introduction",
+          "top": 764
+        },
+        {
+          "text": "2. Information We Collect",
+          "top": 1324
+        },
+        {
+          "text": "3. Use of Your Information",
+          "top": 2209
+        },
+        {
+          "text": "4. Disclosure of Your Information",
+          "top": 3111
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/terms",
+      "lang": "en",
+      "width": 375,
+      "scrollWidth": 375,
+      "title": "Terms of Service | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "1. Acceptance of Terms",
+          "top": 734
+        },
+        {
+          "text": "2. Use of the Site",
+          "top": 1370
+        },
+        {
+          "text": "3. Intellectual Property Rights",
+          "top": 2168
+        },
+        {
+          "text": "4. Disclaimer of Warranties",
+          "top": 2888
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/audit-missing-page",
+      "lang": "en",
+      "width": 375,
+      "scrollWidth": 375,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/products",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Products | Modina Rim & Parts Ltd. — 21 SKUs, Bangladesh",
+      "targets": [
+        {
+          "text": "Search products...",
+          "top": 522
+        },
+        {
+          "text": "Product Catalogue",
+          "top": 661
+        },
+        {
+          "text": "Ready to Placean Order?",
+          "top": 5531
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/contact",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Contact Us | Modina Rim & Parts Ltd. — Jashore, Bangladesh",
+      "targets": [
+        {
+          "text": "Let's Talk",
+          "top": 601
+        },
+        {
+          "text": "Full Name *Company NameEmail *PhoneSubject *Select a subject",
+          "top": 664
+        },
+        {
+          "text": "Your full name",
+          "top": 698
+        },
+        {
+          "text": "Your company",
+          "top": 807
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/downloads",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Downloads | Modina Rim & Parts Ltd. — Catalogs, Certificates & Technical Docs",
+      "targets": [
+        {
+          "text": "Search files...",
+          "top": 488
+        },
+        {
+          "text": "Resources",
+          "top": 637
+        },
+        {
+          "text": "Product Catalog 2026",
+          "top": 4257
+        },
+        {
+          "text": "Can't FindWhat You Need?",
+          "top": 4927
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/careers",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Careers | Modina Rim & Parts Ltd. — Join Our Team",
+      "targets": [
+        {
+          "text": "Build Your CareerIn Precision",
+          "top": 566
+        },
+        {
+          "text": "Build Your Career In Precision",
+          "top": 2677
+        },
+        {
+          "text": "Send Us YourCV Anyway",
+          "top": 4207
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer — Bangladesh",
+      "targets": [
+        {
+          "text": "Forging the Backbone of Modern Mobility",
+          "top": 1118
+        },
+        {
+          "text": "New Arrival",
+          "top": 2463
+        },
+        {
+          "text": "The Trust Factor",
+          "top": 4463
+        },
+        {
+          "text": "Equipping Our Partners.",
+          "top": 5899
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/about",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "About Us | Modina Rim & Parts Ltd. — Since 2010, Jashore Bangladesh",
+      "targets": [
+        {
+          "text": "Engineering Reliability Since 2010",
+          "top": 890
+        },
+        {
+          "text": "Our Journey",
+          "top": 1670
+        },
+        {
+          "text": "Mission & Values",
+          "top": 2269
+        },
+        {
+          "text": "State of the Art Facility",
+          "top": 4566
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/mission",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Our Mission & Values | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Engineering Trust. Delivering Excellence.",
+          "top": 976
+        },
+        {
+          "text": "Core Values",
+          "top": 2274
+        },
+        {
+          "text": "Built on Conviction.",
+          "top": 5529
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 6291
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/sustainability",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Sustainability & CSR | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Responsible by Design.",
+          "top": 896
+        },
+        {
+          "text": "Three Pillars of Responsibility",
+          "top": 1545
+        },
+        {
+          "text": "ISO 14001 Certified Operations",
+          "top": 4226
+        },
+        {
+          "text": "CSR Initiatives",
+          "top": 5195
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/quality",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Quality Assurance | Modina Rim & Parts Ltd. — ISO 9001:2015 Certified",
+      "targets": [
+        {
+          "text": "Precision Is Not Optional",
+          "top": 923
+        },
+        {
+          "text": "From Raw Material to Delivery",
+          "top": 1687
+        },
+        {
+          "text": "Certifications & Standards",
+          "top": 2223
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 4329
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/certificates",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Certifications | Modina Rim & Parts Ltd. — ISO 9001, 14001, 45001",
+      "targets": [
+        {
+          "text": "Proof, Not a Promise",
+          "top": 940
+        },
+        {
+          "text": "Internationally Recognized",
+          "top": 1580
+        },
+        {
+          "text": "Awards & Milestones",
+          "top": 4105
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 4816
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/gallery",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Gallery | Modina Rim & Parts Ltd. — Factory Tour",
+      "targets": [
+        {
+          "text": "See It ForYourself",
+          "top": 5488
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/news",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "News & Events | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Modina Launches 2026 Product Catalog With 21 New SKUs",
+          "top": 995
+        },
+        {
+          "text": "Search news...",
+          "top": 1535
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 5817
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/news/1",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/news/invalid",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Blog | Modina Rim & Parts Ltd. — Engineering & Industry Insights",
+      "targets": [
+        {
+          "text": "Why Precision Tolerance Is the Most Underrated Factor in Aut",
+          "top": 974
+        },
+        {
+          "text": "Search posts...",
+          "top": 1637
+        },
+        {
+          "text": "See WhatWe Make",
+          "top": 6862
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/blog/1",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog/featured",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog/invalid",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/faq",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "FAQ | Modina Rim & Parts Ltd. — Frequently Asked Questions",
+      "targets": [
+        {
+          "text": "Search questions...",
+          "top": 393
+        },
+        {
+          "text": "ProductsWhat products does Modina Rim & Parts Ltd. manufactu",
+          "top": 528
+        },
+        {
+          "text": "ProductsWhat is the minimum order quantity (MOQ)?",
+          "top": 701
+        },
+        {
+          "text": "ProductsDo you offer custom specifications or OEM manufactur",
+          "top": 846
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/privacy",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Privacy Policy | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "1. Introduction",
+          "top": 752
+        },
+        {
+          "text": "2. Information We Collect",
+          "top": 1294
+        },
+        {
+          "text": "3. Use of Your Information",
+          "top": 2149
+        },
+        {
+          "text": "4. Disclosure of Your Information",
+          "top": 2963
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/terms",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Terms of Service | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "1. Acceptance of Terms",
+          "top": 737
+        },
+        {
+          "text": "2. Use of the Site",
+          "top": 1340
+        },
+        {
+          "text": "3. Intellectual Property Rights",
+          "top": 2138
+        },
+        {
+          "text": "4. Disclaimer of Warranties",
+          "top": 2858
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/audit-missing-page",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/products",
+      "lang": "en",
+      "width": 430,
+      "scrollWidth": 430,
+      "title": "Products | Modina Rim & Parts Ltd. — 21 SKUs, Bangladesh",
+      "targets": [
+        {
+          "text": "Search products...",
+          "top": 489
+        },
+        {
+          "text": "Product Catalogue",
+          "top": 628
+        },
+        {
+          "text": "Ready to Placean Order?",
+          "top": 5767
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/contact",
+      "lang": "en",
+      "width": 430,
+      "scrollWidth": 430,
+      "title": "Contact Us | Modina Rim & Parts Ltd. — Jashore, Bangladesh",
+      "targets": [
+        {
+          "text": "Let's Talk",
+          "top": 601
+        },
+        {
+          "text": "Full Name *Company NameEmail *PhoneSubject *Select a subject",
+          "top": 664
+        },
+        {
+          "text": "Your full name",
+          "top": 696
+        },
+        {
+          "text": "Your company",
+          "top": 804
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/downloads",
+      "lang": "en",
+      "width": 430,
+      "scrollWidth": 430,
+      "title": "Downloads | Modina Rim & Parts Ltd. — Catalogs, Certificates & Technical Docs",
+      "targets": [
+        {
+          "text": "Search files...",
+          "top": 488
+        },
+        {
+          "text": "Resources",
+          "top": 637
+        },
+        {
+          "text": "Product Catalog 2026",
+          "top": 4257
+        },
+        {
+          "text": "Can't FindWhat You Need?",
+          "top": 4898
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/careers",
+      "lang": "en",
+      "width": 430,
+      "scrollWidth": 430,
+      "title": "Careers | Modina Rim & Parts Ltd. — Join Our Team",
+      "targets": [
+        {
+          "text": "Build Your CareerIn Precision",
+          "top": 566
+        },
+        {
+          "text": "Build Your Career In Precision",
+          "top": 2529
+        },
+        {
+          "text": "Send Us YourCV Anyway",
+          "top": 4007
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/",
+      "lang": "en",
+      "width": 430,
+      "scrollWidth": 430,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer — Bangladesh",
+      "targets": [
+        {
+          "text": "Forging the Backbone of Modern Mobility",
+          "top": 1147
+        },
+        {
+          "text": "New Arrival",
+          "top": 2472
+        },
+        {
+          "text": "The Trust Factor",
+          "top": 4602
+        },
+        {
+          "text": "Equipping Our Partners.",
+          "top": 6038
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/about",
+      "lang": "en",
+      "width": 430,
+      "scrollWidth": 430,
+      "title": "About Us | Modina Rim & Parts Ltd. — Since 2010, Jashore Bangladesh",
+      "targets": [
+        {
+          "text": "Engineering Reliability Since 2010",
+          "top": 890
+        },
+        {
+          "text": "Our Journey",
+          "top": 1640
+        },
+        {
+          "text": "Mission & Values",
+          "top": 2240
+        },
+        {
+          "text": "State of the Art Facility",
+          "top": 4486
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/mission",
+      "lang": "en",
+      "width": 430,
+      "scrollWidth": 430,
+      "title": "Our Mission & Values | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Engineering Trust. Delivering Excellence.",
+          "top": 976
+        },
+        {
+          "text": "Core Values",
+          "top": 2177
+        },
+        {
+          "text": "Built on Conviction.",
+          "top": 5342
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 6020
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/sustainability",
+      "lang": "en",
+      "width": 430,
+      "scrollWidth": 430,
+      "title": "Sustainability & CSR | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Responsible by Design.",
+          "top": 896
+        },
+        {
+          "text": "Three Pillars of Responsibility",
+          "top": 1477
+        },
+        {
+          "text": "ISO 14001 Certified Operations",
+          "top": 4069
+        },
+        {
+          "text": "CSR Initiatives",
+          "top": 4949
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/quality",
+      "lang": "en",
+      "width": 430,
+      "scrollWidth": 430,
+      "title": "Quality Assurance | Modina Rim & Parts Ltd. — ISO 9001:2015 Certified",
+      "targets": [
+        {
+          "text": "Precision Is Not Optional",
+          "top": 923
+        },
+        {
+          "text": "From Raw Material to Delivery",
+          "top": 1627
+        },
+        {
+          "text": "Certifications & Standards",
+          "top": 2164
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 4180
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/certificates",
+      "lang": "en",
+      "width": 430,
+      "scrollWidth": 430,
+      "title": "Certifications | Modina Rim & Parts Ltd. — ISO 9001, 14001, 45001",
+      "targets": [
+        {
+          "text": "Proof, Not a Promise",
+          "top": 940
+        },
+        {
+          "text": "Internationally Recognized",
+          "top": 1521
+        },
+        {
+          "text": "Awards & Milestones",
+          "top": 4046
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 4757
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/gallery",
+      "lang": "en",
+      "width": 430,
+      "scrollWidth": 430,
+      "title": "Gallery | Modina Rim & Parts Ltd. — Factory Tour",
+      "targets": [
+        {
+          "text": "See It ForYourself",
+          "top": 5488
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/news",
+      "lang": "en",
+      "width": 430,
+      "scrollWidth": 430,
+      "title": "News & Events | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Modina Launches 2026 Product Catalog With 21 New SKUs",
+          "top": 995
+        },
+        {
+          "text": "Search news...",
+          "top": 1496
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 5778
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/news/1",
+      "lang": "en",
+      "width": 430,
+      "scrollWidth": 430,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/news/invalid",
+      "lang": "en",
+      "width": 430,
+      "scrollWidth": 430,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog",
+      "lang": "en",
+      "width": 430,
+      "scrollWidth": 430,
+      "title": "Blog | Modina Rim & Parts Ltd. — Engineering & Industry Insights",
+      "targets": [
+        {
+          "text": "Why Precision Tolerance Is the Most Underrated Factor in Aut",
+          "top": 974
+        },
+        {
+          "text": "Search posts...",
+          "top": 1607
+        },
+        {
+          "text": "See WhatWe Make",
+          "top": 6832
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/blog/1",
+      "lang": "en",
+      "width": 430,
+      "scrollWidth": 430,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog/featured",
+      "lang": "en",
+      "width": 430,
+      "scrollWidth": 430,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog/invalid",
+      "lang": "en",
+      "width": 430,
+      "scrollWidth": 430,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/faq",
+      "lang": "en",
+      "width": 430,
+      "scrollWidth": 430,
+      "title": "FAQ | Modina Rim & Parts Ltd. — Frequently Asked Questions",
+      "targets": [
+        {
+          "text": "Search questions...",
+          "top": 393
+        },
+        {
+          "text": "ProductsWhat products does Modina Rim & Parts Ltd. manufactu",
+          "top": 528
+        },
+        {
+          "text": "ProductsWhat is the minimum order quantity (MOQ)?",
+          "top": 673
+        },
+        {
+          "text": "ProductsDo you offer custom specifications or OEM manufactur",
+          "top": 817
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/privacy",
+      "lang": "en",
+      "width": 430,
+      "scrollWidth": 430,
+      "title": "Privacy Policy | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "1. Introduction",
+          "top": 706
+        },
+        {
+          "text": "2. Information We Collect",
+          "top": 1206
+        },
+        {
+          "text": "3. Use of Your Information",
+          "top": 2031
+        },
+        {
+          "text": "4. Disclosure of Your Information",
+          "top": 2845
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/terms",
+      "lang": "en",
+      "width": 430,
+      "scrollWidth": 430,
+      "title": "Terms of Service | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "1. Acceptance of Terms",
+          "top": 707
+        },
+        {
+          "text": "2. Use of the Site",
+          "top": 1281
+        },
+        {
+          "text": "3. Intellectual Property Rights",
+          "top": 2020
+        },
+        {
+          "text": "4. Disclaimer of Warranties",
+          "top": 2651
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/audit-missing-page",
+      "lang": "en",
+      "width": 430,
+      "scrollWidth": 430,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/products",
+      "lang": "en",
+      "width": 768,
+      "scrollWidth": 768,
+      "title": "Products | Modina Rim & Parts Ltd. — 21 SKUs, Bangladesh",
+      "targets": [
+        {
+          "text": "Search products...",
+          "top": 458
+        },
+        {
+          "text": "Product Catalogue",
+          "top": 547
+        },
+        {
+          "text": "Ready to Placean Order?",
+          "top": 3359
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/contact",
+      "lang": "en",
+      "width": 768,
+      "scrollWidth": 768,
+      "title": "Contact Us | Modina Rim & Parts Ltd. — Jashore, Bangladesh",
+      "targets": [
+        {
+          "text": "Let's Talk",
+          "top": 532
+        },
+        {
+          "text": "Full Name *Company NameEmail *PhoneSubject *Select a subject",
+          "top": 595
+        },
+        {
+          "text": "Your full name",
+          "top": 626
+        },
+        {
+          "text": "Your company",
+          "top": 734
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/downloads",
+      "lang": "en",
+      "width": 768,
+      "scrollWidth": 768,
+      "title": "Downloads | Modina Rim & Parts Ltd. — Catalogs, Certificates & Technical Docs",
+      "targets": [
+        {
+          "text": "Search files...",
+          "top": 433
+        },
+        {
+          "text": "Resources",
+          "top": 588
+        },
+        {
+          "text": "Product Catalog 2026",
+          "top": 2747
+        },
+        {
+          "text": "Can't FindWhat You Need?",
+          "top": 3217
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/careers",
+      "lang": "en",
+      "width": 768,
+      "scrollWidth": 768,
+      "title": "Careers | Modina Rim & Parts Ltd. — Join Our Team",
+      "targets": [
+        {
+          "text": "Build Your CareerIn Precision",
+          "top": 504
+        },
+        {
+          "text": "Build Your Career In Precision",
+          "top": 1779
+        },
+        {
+          "text": "Send Us YourCV Anyway",
+          "top": 2762
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/",
+      "lang": "en",
+      "width": 768,
+      "scrollWidth": 768,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer — Bangladesh",
+      "targets": [
+        {
+          "text": "Forging the Backbone of Modern Mobility",
+          "top": 1227
+        },
+        {
+          "text": "New Arrival",
+          "top": 2315
+        },
+        {
+          "text": "The Trust Factor",
+          "top": 3374
+        },
+        {
+          "text": "Equipping Our Partners.",
+          "top": 4243
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/about",
+      "lang": "en",
+      "width": 768,
+      "scrollWidth": 768,
+      "title": "About Us | Modina Rim & Parts Ltd. — Since 2010, Jashore Bangladesh",
+      "targets": [
+        {
+          "text": "Engineering Reliability Since 2010",
+          "top": 864
+        },
+        {
+          "text": "Our Journey",
+          "top": 1493
+        },
+        {
+          "text": "Mission & Values",
+          "top": 2182
+        },
+        {
+          "text": "State of the Art Facility",
+          "top": 3852
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/mission",
+      "lang": "en",
+      "width": 768,
+      "scrollWidth": 768,
+      "title": "Our Mission & Values | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Engineering Trust. Delivering Excellence.",
+          "top": 904
+        },
+        {
+          "text": "Core Values",
+          "top": 1878
+        },
+        {
+          "text": "Built on Conviction.",
+          "top": 3916
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 4465
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/sustainability",
+      "lang": "en",
+      "width": 768,
+      "scrollWidth": 768,
+      "title": "Sustainability & CSR | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Responsible by Design.",
+          "top": 824
+        },
+        {
+          "text": "Three Pillars of Responsibility",
+          "top": 1287
+        },
+        {
+          "text": "ISO 14001 Certified Operations",
+          "top": 2943
+        },
+        {
+          "text": "CSR Initiatives",
+          "top": 3636
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/quality",
+      "lang": "en",
+      "width": 768,
+      "scrollWidth": 768,
+      "title": "Quality Assurance | Modina Rim & Parts Ltd. — ISO 9001:2015 Certified",
+      "targets": [
+        {
+          "text": "Precision Is Not Optional",
+          "top": 904
+        },
+        {
+          "text": "From Raw Material to Delivery",
+          "top": 1481
+        },
+        {
+          "text": "Certifications & Standards",
+          "top": 2056
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 3193
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/certificates",
+      "lang": "en",
+      "width": 768,
+      "scrollWidth": 768,
+      "title": "Certifications | Modina Rim & Parts Ltd. — ISO 9001, 14001, 45001",
+      "targets": [
+        {
+          "text": "Proof, Not a Promise",
+          "top": 885
+        },
+        {
+          "text": "Internationally Recognized",
+          "top": 1377
+        },
+        {
+          "text": "Awards & Milestones",
+          "top": 2771
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 3482
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/gallery",
+      "lang": "en",
+      "width": 768,
+      "scrollWidth": 768,
+      "title": "Gallery | Modina Rim & Parts Ltd. — Factory Tour",
+      "targets": [
+        {
+          "text": "See It ForYourself",
+          "top": 3818
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/news",
+      "lang": "en",
+      "width": 768,
+      "scrollWidth": 768,
+      "title": "News & Events | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Modina Launches 2026 Product Catalog With 21 New SKUs",
+          "top": 940
+        },
+        {
+          "text": "Search news...",
+          "top": 1314
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 3590
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/news/1",
+      "lang": "en",
+      "width": 768,
+      "scrollWidth": 768,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/news/invalid",
+      "lang": "en",
+      "width": 768,
+      "scrollWidth": 768,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog",
+      "lang": "en",
+      "width": 768,
+      "scrollWidth": 768,
+      "title": "Blog | Modina Rim & Parts Ltd. — Engineering & Industry Insights",
+      "targets": [
+        {
+          "text": "Why Precision Tolerance Is the Most Underrated Factor in Aut",
+          "top": 919
+        },
+        {
+          "text": "Search posts...",
+          "top": 1416
+        },
+        {
+          "text": "See WhatWe Make",
+          "top": 4517
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/blog/1",
+      "lang": "en",
+      "width": 768,
+      "scrollWidth": 768,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog/featured",
+      "lang": "en",
+      "width": 768,
+      "scrollWidth": 768,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog/invalid",
+      "lang": "en",
+      "width": 768,
+      "scrollWidth": 768,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/faq",
+      "lang": "en",
+      "width": 768,
+      "scrollWidth": 768,
+      "title": "FAQ | Modina Rim & Parts Ltd. — Frequently Asked Questions",
+      "targets": [
+        {
+          "text": "Search questions...",
+          "top": 331
+        },
+        {
+          "text": "ProductsWhat products does Modina Rim & Parts Ltd. manufactu",
+          "top": 472
+        },
+        {
+          "text": "ProductsWhat is the minimum order quantity (MOQ)?",
+          "top": 588
+        },
+        {
+          "text": "ProductsDo you offer custom specifications or OEM manufactur",
+          "top": 704
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/privacy",
+      "lang": "en",
+      "width": 768,
+      "scrollWidth": 768,
+      "title": "Privacy Policy | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "1. Introduction",
+          "top": 585
+        },
+        {
+          "text": "2. Information We Collect",
+          "top": 936
+        },
+        {
+          "text": "3. Use of Your Information",
+          "top": 1464
+        },
+        {
+          "text": "4. Disclosure of Your Information",
+          "top": 2041
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/terms",
+      "lang": "en",
+      "width": 768,
+      "scrollWidth": 768,
+      "title": "Terms of Service | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "1. Acceptance of Terms",
+          "top": 586
+        },
+        {
+          "text": "2. Use of the Site",
+          "top": 982
+        },
+        {
+          "text": "3. Intellectual Property Rights",
+          "top": 1512
+        },
+        {
+          "text": "4. Disclaimer of Warranties",
+          "top": 1936
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/audit-missing-page",
+      "lang": "en",
+      "width": 768,
+      "scrollWidth": 768,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/products",
+      "lang": "en",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "title": "Products | Modina Rim & Parts Ltd. — 21 SKUs, Bangladesh",
+      "targets": [
+        {
+          "text": "Search products...",
+          "top": 503
+        },
+        {
+          "text": "Product Catalogue",
+          "top": 604
+        },
+        {
+          "text": "Ready to Placean Order?",
+          "top": 2472
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/contact",
+      "lang": "en",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "title": "Contact Us | Modina Rim & Parts Ltd. — Jashore, Bangladesh",
+      "targets": [
+        {
+          "text": "Let's Talk",
+          "top": 601
+        },
+        {
+          "text": "Full Name *Company NameEmail *PhoneSubject *Select a subject",
+          "top": 674
+        },
+        {
+          "text": "Your full name",
+          "top": 711
+        },
+        {
+          "text": "Your company",
+          "top": 819
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/downloads",
+      "lang": "en",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "title": "Downloads | Modina Rim & Parts Ltd. — Catalogs, Certificates & Technical Docs",
+      "targets": [
+        {
+          "text": "Search files...",
+          "top": 473
+        },
+        {
+          "text": "Resources",
+          "top": 641
+        },
+        {
+          "text": "Product Catalog 2026",
+          "top": 2314
+        },
+        {
+          "text": "Can't FindWhat You Need?",
+          "top": 3006
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/careers",
+      "lang": "en",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "title": "Careers | Modina Rim & Parts Ltd. — Join Our Team",
+      "targets": [
+        {
+          "text": "Build Your CareerIn Precision",
+          "top": 562
+        },
+        {
+          "text": "Build Your Career In Precision",
+          "top": 1632
+        },
+        {
+          "text": "Send Us YourCV Anyway",
+          "top": 2675
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/",
+      "lang": "en",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer — Bangladesh",
+      "targets": [
+        {
+          "text": "Forging the Backbone of Modern Mobility",
+          "top": 1043
+        },
+        {
+          "text": "New Arrival",
+          "top": 1792
+        },
+        {
+          "text": "The Trust Factor",
+          "top": 2802
+        },
+        {
+          "text": "Equipping Our Partners.",
+          "top": 3668
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/about",
+      "lang": "en",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "title": "About Us | Modina Rim & Parts Ltd. — Since 2010, Jashore Bangladesh",
+      "targets": [
+        {
+          "text": "Engineering Reliability Since 2010",
+          "top": 663
+        },
+        {
+          "text": "Our Journey",
+          "top": 1499
+        },
+        {
+          "text": "Mission & Values",
+          "top": 2145
+        },
+        {
+          "text": "State of the Art Facility",
+          "top": 3476
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/mission",
+      "lang": "en",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "title": "Our Mission & Values | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Engineering Trust. Delivering Excellence.",
+          "top": 639
+        },
+        {
+          "text": "Core Values",
+          "top": 1917
+        },
+        {
+          "text": "Built on Conviction.",
+          "top": 3798
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 4508
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/sustainability",
+      "lang": "en",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "title": "Sustainability & CSR | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Responsible by Design.",
+          "top": 639
+        },
+        {
+          "text": "Three Pillars of Responsibility",
+          "top": 1292
+        },
+        {
+          "text": "ISO 14001 Certified Operations",
+          "top": 2440
+        },
+        {
+          "text": "CSR Initiatives",
+          "top": 3353
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/quality",
+      "lang": "en",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "title": "Quality Assurance | Modina Rim & Parts Ltd. — ISO 9001:2015 Certified",
+      "targets": [
+        {
+          "text": "Precision Is Not Optional",
+          "top": 692
+        },
+        {
+          "text": "From Raw Material to Delivery",
+          "top": 1430
+        },
+        {
+          "text": "Certifications & Standards",
+          "top": 2001
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 2986
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/certificates",
+      "lang": "en",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "title": "Certifications | Modina Rim & Parts Ltd. — ISO 9001, 14001, 45001",
+      "targets": [
+        {
+          "text": "Proof, Not a Promise",
+          "top": 639
+        },
+        {
+          "text": "Internationally Recognized",
+          "top": 1243
+        },
+        {
+          "text": "Awards & Milestones",
+          "top": 2441
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 3088
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/gallery",
+      "lang": "en",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "title": "Gallery | Modina Rim & Parts Ltd. — Factory Tour",
+      "targets": [
+        {
+          "text": "See It ForYourself",
+          "top": 2868
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/news",
+      "lang": "en",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "title": "News & Events | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Modina Launches 2026 Product Catalog With 21 New SKUs",
+          "top": 683
+        },
+        {
+          "text": "Search news...",
+          "top": 1260
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 3079
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/news/1",
+      "lang": "en",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/news/invalid",
+      "lang": "en",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog",
+      "lang": "en",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "title": "Blog | Modina Rim & Parts Ltd. — Engineering & Industry Insights",
+      "targets": [
+        {
+          "text": "Why Precision Tolerance Is the Most Underrated Factor in Aut",
+          "top": 683
+        },
+        {
+          "text": "Search posts...",
+          "top": 1473
+        },
+        {
+          "text": "See WhatWe Make",
+          "top": 3553
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/blog/1",
+      "lang": "en",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog/featured",
+      "lang": "en",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog/invalid",
+      "lang": "en",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/faq",
+      "lang": "en",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "title": "FAQ | Modina Rim & Parts Ltd. — Frequently Asked Questions",
+      "targets": [
+        {
+          "text": "Search questions...",
+          "top": 371
+        },
+        {
+          "text": "ProductsWhat products does Modina Rim & Parts Ltd. manufactu",
+          "top": 525
+        },
+        {
+          "text": "ProductsWhat is the minimum order quantity (MOQ)?",
+          "top": 641
+        },
+        {
+          "text": "ProductsDo you offer custom specifications or OEM manufactur",
+          "top": 757
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/privacy",
+      "lang": "en",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "title": "Privacy Policy | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "1. Introduction",
+          "top": 665
+        },
+        {
+          "text": "2. Information We Collect",
+          "top": 1017
+        },
+        {
+          "text": "3. Use of Your Information",
+          "top": 1576
+        },
+        {
+          "text": "4. Disclosure of Your Information",
+          "top": 2182
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/terms",
+      "lang": "en",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "title": "Terms of Service | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "1. Acceptance of Terms",
+          "top": 662
+        },
+        {
+          "text": "2. Use of the Site",
+          "top": 1063
+        },
+        {
+          "text": "3. Intellectual Property Rights",
+          "top": 1624
+        },
+        {
+          "text": "4. Disclaimer of Warranties",
+          "top": 2077
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/audit-missing-page",
+      "lang": "en",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/products",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Products | Modina Rim & Parts Ltd. — 21 SKUs, Bangladesh",
+      "targets": [
+        {
+          "text": "Search products...",
+          "top": 577
+        },
+        {
+          "text": "Product Catalogue",
+          "top": 691
+        },
+        {
+          "text": "Ready to Placean Order?",
+          "top": 2714
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/contact",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Contact Us | Modina Rim & Parts Ltd. — Jashore, Bangladesh",
+      "targets": [
+        {
+          "text": "Let's Talk",
+          "top": 678
+        },
+        {
+          "text": "Full Name *Company NameEmail *PhoneSubject *Select a subject",
+          "top": 760
+        },
+        {
+          "text": "Your full name",
+          "top": 790
+        },
+        {
+          "text": "Your company",
+          "top": 899
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/downloads",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Downloads | Modina Rim & Parts Ltd. — Catalogs, Certificates & Technical Docs",
+      "targets": [
+        {
+          "text": "Search files...",
+          "top": 525
+        },
+        {
+          "text": "Resources",
+          "top": 640
+        },
+        {
+          "text": "Product Catalog 2026",
+          "top": 2242
+        },
+        {
+          "text": "Can't FindWhat You Need?",
+          "top": 2924
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/careers",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Careers | Modina Rim & Parts Ltd. — Join Our Team",
+      "targets": [
+        {
+          "text": "Build Your CareerIn Precision",
+          "top": 649
+        },
+        {
+          "text": "Build Your Career In Precision",
+          "top": 1784
+        },
+        {
+          "text": "Send Us YourCV Anyway",
+          "top": 2930
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer — Bangladesh",
+      "targets": [
+        {
+          "text": "Forging the Backbone of Modern Mobility",
+          "top": 1076
+        },
+        {
+          "text": "New Arrival",
+          "top": 1914
+        },
+        {
+          "text": "The Trust Factor",
+          "top": 3009
+        },
+        {
+          "text": "Equipping Our Partners.",
+          "top": 3894
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/about",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "About Us | Modina Rim & Parts Ltd. — Since 2010, Jashore Bangladesh",
+      "targets": [
+        {
+          "text": "Engineering Reliability Since 2010",
+          "top": 767
+        },
+        {
+          "text": "Our Journey",
+          "top": 1570
+        },
+        {
+          "text": "Mission & Values",
+          "top": 2323
+        },
+        {
+          "text": "State of the Art Facility",
+          "top": 3711
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/mission",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Our Mission & Values | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Engineering Trust. Delivering Excellence.",
+          "top": 701
+        },
+        {
+          "text": "Core Values",
+          "top": 1929
+        },
+        {
+          "text": "Built on Conviction.",
+          "top": 3818
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 4506
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/sustainability",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Sustainability & CSR | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Responsible by Design.",
+          "top": 701
+        },
+        {
+          "text": "Three Pillars of Responsibility",
+          "top": 1343
+        },
+        {
+          "text": "ISO 14001 Certified Operations",
+          "top": 2450
+        },
+        {
+          "text": "CSR Initiatives",
+          "top": 3321
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/quality",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Quality Assurance | Modina Rim & Parts Ltd. — ISO 9001:2015 Certified",
+      "targets": [
+        {
+          "text": "Precision Is Not Optional",
+          "top": 765
+        },
+        {
+          "text": "From Raw Material to Delivery",
+          "top": 1470
+        },
+        {
+          "text": "Certifications & Standards",
+          "top": 2090
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 3115
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/certificates",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Certifications | Modina Rim & Parts Ltd. — ISO 9001, 14001, 45001",
+      "targets": [
+        {
+          "text": "Proof, Not a Promise",
+          "top": 701
+        },
+        {
+          "text": "Internationally Recognized",
+          "top": 1343
+        },
+        {
+          "text": "Awards & Milestones",
+          "top": 2604
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 3349
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/gallery",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Gallery | Modina Rim & Parts Ltd. — Factory Tour",
+      "targets": [
+        {
+          "text": "See It ForYourself",
+          "top": 2955
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/news",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "News & Events | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Modina Launches 2026 Product Catalog With 21 New SKUs",
+          "top": 737
+        },
+        {
+          "text": "Search news...",
+          "top": 1286
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 3133
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/news/1",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/news/invalid",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Blog | Modina Rim & Parts Ltd. — Engineering & Industry Insights",
+      "targets": [
+        {
+          "text": "Why Precision Tolerance Is the Most Underrated Factor in Aut",
+          "top": 737
+        },
+        {
+          "text": "Search posts...",
+          "top": 1449
+        },
+        {
+          "text": "See WhatWe Make",
+          "top": 3445
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/blog/1",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog/featured",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog/invalid",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/faq",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "FAQ | Modina Rim & Parts Ltd. — Frequently Asked Questions",
+      "targets": [
+        {
+          "text": "Search questions...",
+          "top": 430
+        },
+        {
+          "text": "ProductsWhat products does Modina Rim & Parts Ltd. manufactu",
+          "top": 539
+        },
+        {
+          "text": "ProductsWhat is the minimum order quantity (MOQ)?",
+          "top": 655
+        },
+        {
+          "text": "ProductsDo you offer custom specifications or OEM manufactur",
+          "top": 770
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/privacy",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Privacy Policy | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "1. Introduction",
+          "top": 833
+        },
+        {
+          "text": "2. Information We Collect",
+          "top": 1246
+        },
+        {
+          "text": "3. Use of Your Information",
+          "top": 1886
+        },
+        {
+          "text": "4. Disclosure of Your Information",
+          "top": 2606
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/terms",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Terms of Service | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "1. Acceptance of Terms",
+          "top": 834
+        },
+        {
+          "text": "2. Use of the Site",
+          "top": 1328
+        },
+        {
+          "text": "3. Intellectual Property Rights",
+          "top": 1967
+        },
+        {
+          "text": "4. Disclaimer of Warranties",
+          "top": 2524
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/audit-missing-page",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/products",
+      "lang": "bn",
+      "width": 320,
+      "scrollWidth": 320,
+      "title": "Products | Modina Rim & Parts Ltd. — 21 SKUs, Bangladesh",
+      "targets": [
+        {
+          "text": "Search products...",
+          "top": 539
+        },
+        {
+          "text": "পণ্যের ক্যাটালগ",
+          "top": 678
+        },
+        {
+          "text": "Ready to Placean Order?",
+          "top": 5200
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/contact",
+      "lang": "bn",
+      "width": 320,
+      "scrollWidth": 320,
+      "title": "Contact Us | Modina Rim & Parts Ltd. — Jashore, Bangladesh",
+      "targets": [
+        {
+          "text": "Let's Talk",
+          "top": 617
+        },
+        {
+          "text": "Full Name *Company NameEmail *PhoneSubject *Select a subject",
+          "top": 685
+        },
+        {
+          "text": "Your full name",
+          "top": 720
+        },
+        {
+          "text": "Your company",
+          "top": 830
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/downloads",
+      "lang": "bn",
+      "width": 320,
+      "scrollWidth": 320,
+      "title": "Downloads | Modina Rim & Parts Ltd. — Catalogs, Certificates & Technical Docs",
+      "targets": [
+        {
+          "text": "Search files...",
+          "top": 498
+        },
+        {
+          "text": "প্রয়োজনীয় নথি",
+          "top": 647
+        },
+        {
+          "text": "Product Catalog 2026",
+          "top": 4477
+        },
+        {
+          "text": "Can't FindWhat You Need?",
+          "top": 5228
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/careers",
+      "lang": "bn",
+      "width": 320,
+      "scrollWidth": 320,
+      "title": "Careers | Modina Rim & Parts Ltd. — Join Our Team",
+      "targets": [
+        {
+          "text": "Build Your CareerIn Precision",
+          "top": 576
+        },
+        {
+          "text": "Build Your Career In Precision",
+          "top": 2836
+        },
+        {
+          "text": "Send Us YourCV Anyway",
+          "top": 4445
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/",
+      "lang": "bn",
+      "width": 320,
+      "scrollWidth": 320,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer — Bangladesh",
+      "targets": [
+        {
+          "text": "Forging the Backbone of Modern Mobility",
+          "top": 1127
+        },
+        {
+          "text": "New Arrival",
+          "top": 2625
+        },
+        {
+          "text": "The Trust Factor",
+          "top": 4425
+        },
+        {
+          "text": "Equipping Our Partners.",
+          "top": 6068
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/about",
+      "lang": "bn",
+      "width": 320,
+      "scrollWidth": 320,
+      "title": "About Us | Modina Rim & Parts Ltd. — Since 2010, Jashore Bangladesh",
+      "targets": [
+        {
+          "text": "২০১০ সাল থেকে নির্ভরশীল প্রকৌশল",
+          "top": 955
+        },
+        {
+          "text": "আমাদের যাত্রা",
+          "top": 2028
+        },
+        {
+          "text": "লক্ষ্য ও মূল্যবোধ",
+          "top": 2661
+        },
+        {
+          "text": "আধুনিক সুযোগ-সুবিধা",
+          "top": 5145
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/mission",
+      "lang": "bn",
+      "width": 320,
+      "scrollWidth": 320,
+      "title": "Our Mission & Values | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Engineering Trust. Delivering Excellence.",
+          "top": 986
+        },
+        {
+          "text": "Core Values",
+          "top": 2448
+        },
+        {
+          "text": "Built on Conviction.",
+          "top": 5998
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 6895
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/sustainability",
+      "lang": "bn",
+      "width": 320,
+      "scrollWidth": 320,
+      "title": "Sustainability & CSR | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Responsible by Design.",
+          "top": 928
+        },
+        {
+          "text": "Three Pillars of Responsibility",
+          "top": 1685
+        },
+        {
+          "text": "ISO 14001 Certified Operations",
+          "top": 4605
+        },
+        {
+          "text": "CSR Initiatives",
+          "top": 5772
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/quality",
+      "lang": "bn",
+      "width": 320,
+      "scrollWidth": 320,
+      "title": "Quality Assurance | Modina Rim & Parts Ltd. — ISO 9001:2015 Certified",
+      "targets": [
+        {
+          "text": "Precision Is Not Optional",
+          "top": 962
+        },
+        {
+          "text": "From Raw Material to Delivery",
+          "top": 1844
+        },
+        {
+          "text": "Certifications & Standards",
+          "top": 2403
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 4702
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/certificates",
+      "lang": "bn",
+      "width": 320,
+      "scrollWidth": 320,
+      "title": "Certifications | Modina Rim & Parts Ltd. — ISO 9001, 14001, 45001",
+      "targets": [
+        {
+          "text": "Proof, Not a Promise",
+          "top": 1023
+        },
+        {
+          "text": "Internationally Recognized",
+          "top": 1780
+        },
+        {
+          "text": "Awards & Milestones",
+          "top": 4542
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 5299
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/gallery",
+      "lang": "bn",
+      "width": 320,
+      "scrollWidth": 320,
+      "title": "Gallery | Modina Rim & Parts Ltd. — Factory Tour",
+      "targets": [
+        {
+          "text": "See It ForYourself",
+          "top": 5498
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/news",
+      "lang": "bn",
+      "width": 320,
+      "scrollWidth": 320,
+      "title": "News & Events | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Modina Launches 2026 Product Catalog With 21 New SKUs",
+          "top": 1022
+        },
+        {
+          "text": "Search news...",
+          "top": 1674
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 6049
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/news/1",
+      "lang": "bn",
+      "width": 320,
+      "scrollWidth": 320,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/news/invalid",
+      "lang": "bn",
+      "width": 320,
+      "scrollWidth": 320,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog",
+      "lang": "bn",
+      "width": 320,
+      "scrollWidth": 320,
+      "title": "Blog | Modina Rim & Parts Ltd. — Engineering & Industry Insights",
+      "targets": [
+        {
+          "text": "Why Precision Tolerance Is the Most Underrated Factor in Aut",
+          "top": 1001
+        },
+        {
+          "text": "Search posts...",
+          "top": 1830
+        },
+        {
+          "text": "See WhatWe Make",
+          "top": 7300
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/blog/1",
+      "lang": "bn",
+      "width": 320,
+      "scrollWidth": 320,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog/featured",
+      "lang": "bn",
+      "width": 320,
+      "scrollWidth": 320,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog/invalid",
+      "lang": "bn",
+      "width": 320,
+      "scrollWidth": 320,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/faq",
+      "lang": "bn",
+      "width": 320,
+      "scrollWidth": 320,
+      "title": "FAQ | Modina Rim & Parts Ltd. — Frequently Asked Questions",
+      "targets": [
+        {
+          "text": "Search questions...",
+          "top": 403
+        },
+        {
+          "text": "ProductsWhat products does Modina Rim & Parts Ltd. manufactu",
+          "top": 538
+        },
+        {
+          "text": "ProductsWhat is the minimum order quantity (MOQ)?",
+          "top": 711
+        },
+        {
+          "text": "ProductsDo you offer custom specifications or OEM manufactur",
+          "top": 856
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/privacy",
+      "lang": "bn",
+      "width": 320,
+      "scrollWidth": 320,
+      "title": "Privacy Policy | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "1. Introduction",
+          "top": 788
+        },
+        {
+          "text": "2. Information We Collect",
+          "top": 1419
+        },
+        {
+          "text": "3. Use of Your Information",
+          "top": 2466
+        },
+        {
+          "text": "4. Disclosure of Your Information",
+          "top": 3465
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/terms",
+      "lang": "bn",
+      "width": 320,
+      "scrollWidth": 320,
+      "title": "Terms of Service | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "1. Acceptance of Terms",
+          "top": 789
+        },
+        {
+          "text": "2. Use of the Site",
+          "top": 1500
+        },
+        {
+          "text": "3. Intellectual Property Rights",
+          "top": 2450
+        },
+        {
+          "text": "4. Disclaimer of Warranties",
+          "top": 3319
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/audit-missing-page",
+      "lang": "bn",
+      "width": 320,
+      "scrollWidth": 320,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/products",
+      "lang": "bn",
+      "width": 360,
+      "scrollWidth": 360,
+      "title": "Products | Modina Rim & Parts Ltd. — 21 SKUs, Bangladesh",
+      "targets": [
+        {
+          "text": "Search products...",
+          "top": 539
+        },
+        {
+          "text": "পণ্যের ক্যাটালগ",
+          "top": 678
+        },
+        {
+          "text": "Ready to Placean Order?",
+          "top": 5442
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/contact",
+      "lang": "bn",
+      "width": 360,
+      "scrollWidth": 360,
+      "title": "Contact Us | Modina Rim & Parts Ltd. — Jashore, Bangladesh",
+      "targets": [
+        {
+          "text": "Let's Talk",
+          "top": 617
+        },
+        {
+          "text": "Full Name *Company NameEmail *PhoneSubject *Select a subject",
+          "top": 685
+        },
+        {
+          "text": "Your full name",
+          "top": 720
+        },
+        {
+          "text": "Your company",
+          "top": 828
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/downloads",
+      "lang": "bn",
+      "width": 360,
+      "scrollWidth": 360,
+      "title": "Downloads | Modina Rim & Parts Ltd. — Catalogs, Certificates & Technical Docs",
+      "targets": [
+        {
+          "text": "Search files...",
+          "top": 498
+        },
+        {
+          "text": "প্রয়োজনীয় নথি",
+          "top": 647
+        },
+        {
+          "text": "Product Catalog 2026",
+          "top": 4333
+        },
+        {
+          "text": "Can't FindWhat You Need?",
+          "top": 5032
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/careers",
+      "lang": "bn",
+      "width": 360,
+      "scrollWidth": 360,
+      "title": "Careers | Modina Rim & Parts Ltd. — Join Our Team",
+      "targets": [
+        {
+          "text": "Build Your CareerIn Precision",
+          "top": 576
+        },
+        {
+          "text": "Build Your Career In Precision",
+          "top": 2739
+        },
+        {
+          "text": "Send Us YourCV Anyway",
+          "top": 4287
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/",
+      "lang": "bn",
+      "width": 360,
+      "scrollWidth": 360,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer — Bangladesh",
+      "targets": [
+        {
+          "text": "Forging the Backbone of Modern Mobility",
+          "top": 1104
+        },
+        {
+          "text": "New Arrival",
+          "top": 2526
+        },
+        {
+          "text": "The Trust Factor",
+          "top": 4458
+        },
+        {
+          "text": "Equipping Our Partners.",
+          "top": 6003
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/about",
+      "lang": "bn",
+      "width": 360,
+      "scrollWidth": 360,
+      "title": "About Us | Modina Rim & Parts Ltd. — Since 2010, Jashore Bangladesh",
+      "targets": [
+        {
+          "text": "২০১০ সাল থেকে নির্ভরশীল প্রকৌশল",
+          "top": 923
+        },
+        {
+          "text": "আমাদের যাত্রা",
+          "top": 1853
+        },
+        {
+          "text": "লক্ষ্য ও মূল্যবোধ",
+          "top": 2487
+        },
+        {
+          "text": "আধুনিক সুযোগ-সুবিধা",
+          "top": 4831
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/mission",
+      "lang": "bn",
+      "width": 360,
+      "scrollWidth": 360,
+      "title": "Our Mission & Values | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Engineering Trust. Delivering Excellence.",
+          "top": 986
+        },
+        {
+          "text": "Core Values",
+          "top": 2344
+        },
+        {
+          "text": "Built on Conviction.",
+          "top": 5700
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 6496
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/sustainability",
+      "lang": "bn",
+      "width": 360,
+      "scrollWidth": 360,
+      "title": "Sustainability & CSR | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Responsible by Design.",
+          "top": 905
+        },
+        {
+          "text": "Three Pillars of Responsibility",
+          "top": 1630
+        },
+        {
+          "text": "ISO 14001 Certified Operations",
+          "top": 4421
+        },
+        {
+          "text": "CSR Initiatives",
+          "top": 5446
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/quality",
+      "lang": "bn",
+      "width": 360,
+      "scrollWidth": 360,
+      "title": "Quality Assurance | Modina Rim & Parts Ltd. — ISO 9001:2015 Certified",
+      "targets": [
+        {
+          "text": "Precision Is Not Optional",
+          "top": 933
+        },
+        {
+          "text": "From Raw Material to Delivery",
+          "top": 1750
+        },
+        {
+          "text": "Certifications & Standards",
+          "top": 2309
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 4479
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/certificates",
+      "lang": "bn",
+      "width": 360,
+      "scrollWidth": 360,
+      "title": "Certifications | Modina Rim & Parts Ltd. — ISO 9001, 14001, 45001",
+      "targets": [
+        {
+          "text": "Proof, Not a Promise",
+          "top": 950
+        },
+        {
+          "text": "Internationally Recognized",
+          "top": 1629
+        },
+        {
+          "text": "Awards & Milestones",
+          "top": 4229
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 4941
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/gallery",
+      "lang": "bn",
+      "width": 360,
+      "scrollWidth": 360,
+      "title": "Gallery | Modina Rim & Parts Ltd. — Factory Tour",
+      "targets": [
+        {
+          "text": "See It ForYourself",
+          "top": 5498
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/news",
+      "lang": "bn",
+      "width": 360,
+      "scrollWidth": 360,
+      "title": "News & Events | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Modina Launches 2026 Product Catalog With 21 New SKUs",
+          "top": 1005
+        },
+        {
+          "text": "Search news...",
+          "top": 1592
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 5967
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/news/1",
+      "lang": "bn",
+      "width": 360,
+      "scrollWidth": 360,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/news/invalid",
+      "lang": "bn",
+      "width": 360,
+      "scrollWidth": 360,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog",
+      "lang": "bn",
+      "width": 360,
+      "scrollWidth": 360,
+      "title": "Blog | Modina Rim & Parts Ltd. — Engineering & Industry Insights",
+      "targets": [
+        {
+          "text": "Why Precision Tolerance Is the Most Underrated Factor in Aut",
+          "top": 984
+        },
+        {
+          "text": "Search posts...",
+          "top": 1703
+        },
+        {
+          "text": "See WhatWe Make",
+          "top": 7033
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/blog/1",
+      "lang": "bn",
+      "width": 360,
+      "scrollWidth": 360,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog/featured",
+      "lang": "bn",
+      "width": 360,
+      "scrollWidth": 360,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog/invalid",
+      "lang": "bn",
+      "width": 360,
+      "scrollWidth": 360,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/faq",
+      "lang": "bn",
+      "width": 360,
+      "scrollWidth": 360,
+      "title": "FAQ | Modina Rim & Parts Ltd. — Frequently Asked Questions",
+      "targets": [
+        {
+          "text": "Search questions...",
+          "top": 403
+        },
+        {
+          "text": "ProductsWhat products does Modina Rim & Parts Ltd. manufactu",
+          "top": 538
+        },
+        {
+          "text": "ProductsWhat is the minimum order quantity (MOQ)?",
+          "top": 711
+        },
+        {
+          "text": "ProductsDo you offer custom specifications or OEM manufactur",
+          "top": 856
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/privacy",
+      "lang": "bn",
+      "width": 360,
+      "scrollWidth": 360,
+      "title": "Privacy Policy | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "1. Introduction",
+          "top": 776
+        },
+        {
+          "text": "2. Information We Collect",
+          "top": 1354
+        },
+        {
+          "text": "3. Use of Your Information",
+          "top": 2272
+        },
+        {
+          "text": "4. Disclosure of Your Information",
+          "top": 3141
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/terms",
+      "lang": "bn",
+      "width": 360,
+      "scrollWidth": 360,
+      "title": "Terms of Service | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "1. Acceptance of Terms",
+          "top": 757
+        },
+        {
+          "text": "2. Use of the Site",
+          "top": 1402
+        },
+        {
+          "text": "3. Intellectual Property Rights",
+          "top": 2255
+        },
+        {
+          "text": "4. Disclaimer of Warranties",
+          "top": 3028
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/audit-missing-page",
+      "lang": "bn",
+      "width": 360,
+      "scrollWidth": 360,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/products",
+      "lang": "bn",
+      "width": 375,
+      "scrollWidth": 375,
+      "title": "Products | Modina Rim & Parts Ltd. — 21 SKUs, Bangladesh",
+      "targets": [
+        {
+          "text": "Search products...",
+          "top": 539
+        },
+        {
+          "text": "পণ্যের ক্যাটালগ",
+          "top": 678
+        },
+        {
+          "text": "Ready to Placean Order?",
+          "top": 5521
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/contact",
+      "lang": "bn",
+      "width": 375,
+      "scrollWidth": 375,
+      "title": "Contact Us | Modina Rim & Parts Ltd. — Jashore, Bangladesh",
+      "targets": [
+        {
+          "text": "Let's Talk",
+          "top": 617
+        },
+        {
+          "text": "Full Name *Company NameEmail *PhoneSubject *Select a subject",
+          "top": 685
+        },
+        {
+          "text": "Your full name",
+          "top": 712
+        },
+        {
+          "text": "Your company",
+          "top": 819
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/downloads",
+      "lang": "bn",
+      "width": 375,
+      "scrollWidth": 375,
+      "title": "Downloads | Modina Rim & Parts Ltd. — Catalogs, Certificates & Technical Docs",
+      "targets": [
+        {
+          "text": "Search files...",
+          "top": 498
+        },
+        {
+          "text": "প্রয়োজনীয় নথি",
+          "top": 647
+        },
+        {
+          "text": "Product Catalog 2026",
+          "top": 4333
+        },
+        {
+          "text": "Can't FindWhat You Need?",
+          "top": 5032
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/careers",
+      "lang": "bn",
+      "width": 375,
+      "scrollWidth": 375,
+      "title": "Careers | Modina Rim & Parts Ltd. — Join Our Team",
+      "targets": [
+        {
+          "text": "Build Your CareerIn Precision",
+          "top": 576
+        },
+        {
+          "text": "Build Your Career In Precision",
+          "top": 2674
+        },
+        {
+          "text": "Send Us YourCV Anyway",
+          "top": 4222
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/",
+      "lang": "bn",
+      "width": 375,
+      "scrollWidth": 375,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer — Bangladesh",
+      "targets": [
+        {
+          "text": "Forging the Backbone of Modern Mobility",
+          "top": 1115
+        },
+        {
+          "text": "New Arrival",
+          "top": 2537
+        },
+        {
+          "text": "The Trust Factor",
+          "top": 4496
+        },
+        {
+          "text": "Equipping Our Partners.",
+          "top": 6010
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/about",
+      "lang": "bn",
+      "width": 375,
+      "scrollWidth": 375,
+      "title": "About Us | Modina Rim & Parts Ltd. — Since 2010, Jashore Bangladesh",
+      "targets": [
+        {
+          "text": "২০১০ সাল থেকে নির্ভরশীল প্রকৌশল",
+          "top": 923
+        },
+        {
+          "text": "আমাদের যাত্রা",
+          "top": 1821
+        },
+        {
+          "text": "লক্ষ্য ও মূল্যবোধ",
+          "top": 2454
+        },
+        {
+          "text": "আধুনিক সুযোগ-সুবিধা",
+          "top": 4799
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/mission",
+      "lang": "bn",
+      "width": 375,
+      "scrollWidth": 375,
+      "title": "Our Mission & Values | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Engineering Trust. Delivering Excellence.",
+          "top": 986
+        },
+        {
+          "text": "Core Values",
+          "top": 2267
+        },
+        {
+          "text": "Built on Conviction.",
+          "top": 5558
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 6321
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/sustainability",
+      "lang": "bn",
+      "width": 375,
+      "scrollWidth": 375,
+      "title": "Sustainability & CSR | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Responsible by Design.",
+          "top": 906
+        },
+        {
+          "text": "Three Pillars of Responsibility",
+          "top": 1598
+        },
+        {
+          "text": "ISO 14001 Certified Operations",
+          "top": 4324
+        },
+        {
+          "text": "CSR Initiatives",
+          "top": 5349
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/quality",
+      "lang": "bn",
+      "width": 375,
+      "scrollWidth": 375,
+      "title": "Quality Assurance | Modina Rim & Parts Ltd. — ISO 9001:2015 Certified",
+      "targets": [
+        {
+          "text": "Precision Is Not Optional",
+          "top": 933
+        },
+        {
+          "text": "From Raw Material to Delivery",
+          "top": 1718
+        },
+        {
+          "text": "Certifications & Standards",
+          "top": 2277
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 4414
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/certificates",
+      "lang": "bn",
+      "width": 375,
+      "scrollWidth": 375,
+      "title": "Certifications | Modina Rim & Parts Ltd. — ISO 9001, 14001, 45001",
+      "targets": [
+        {
+          "text": "Proof, Not a Promise",
+          "top": 950
+        },
+        {
+          "text": "Internationally Recognized",
+          "top": 1597
+        },
+        {
+          "text": "Awards & Milestones",
+          "top": 4197
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 4909
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/gallery",
+      "lang": "bn",
+      "width": 375,
+      "scrollWidth": 375,
+      "title": "Gallery | Modina Rim & Parts Ltd. — Factory Tour",
+      "targets": [
+        {
+          "text": "See It ForYourself",
+          "top": 5498
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/news",
+      "lang": "bn",
+      "width": 375,
+      "scrollWidth": 375,
+      "title": "News & Events | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Modina Launches 2026 Product Catalog With 21 New SKUs",
+          "top": 1005
+        },
+        {
+          "text": "Search news...",
+          "top": 1547
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 5922
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/news/1",
+      "lang": "bn",
+      "width": 375,
+      "scrollWidth": 375,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/news/invalid",
+      "lang": "bn",
+      "width": 375,
+      "scrollWidth": 375,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog",
+      "lang": "bn",
+      "width": 375,
+      "scrollWidth": 375,
+      "title": "Blog | Modina Rim & Parts Ltd. — Engineering & Industry Insights",
+      "targets": [
+        {
+          "text": "Why Precision Tolerance Is the Most Underrated Factor in Aut",
+          "top": 984
+        },
+        {
+          "text": "Search posts...",
+          "top": 1703
+        },
+        {
+          "text": "See WhatWe Make",
+          "top": 7033
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/blog/1",
+      "lang": "bn",
+      "width": 375,
+      "scrollWidth": 375,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog/featured",
+      "lang": "bn",
+      "width": 375,
+      "scrollWidth": 375,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog/invalid",
+      "lang": "bn",
+      "width": 375,
+      "scrollWidth": 375,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/faq",
+      "lang": "bn",
+      "width": 375,
+      "scrollWidth": 375,
+      "title": "FAQ | Modina Rim & Parts Ltd. — Frequently Asked Questions",
+      "targets": [
+        {
+          "text": "Search questions...",
+          "top": 403
+        },
+        {
+          "text": "ProductsWhat products does Modina Rim & Parts Ltd. manufactu",
+          "top": 538
+        },
+        {
+          "text": "ProductsWhat is the minimum order quantity (MOQ)?",
+          "top": 683
+        },
+        {
+          "text": "ProductsDo you offer custom specifications or OEM manufactur",
+          "top": 827
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/privacy",
+      "lang": "bn",
+      "width": 375,
+      "scrollWidth": 375,
+      "title": "Privacy Policy | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "1. Introduction",
+          "top": 726
+        },
+        {
+          "text": "2. Information We Collect",
+          "top": 1260
+        },
+        {
+          "text": "3. Use of Your Information",
+          "top": 2146
+        },
+        {
+          "text": "4. Disclosure of Your Information",
+          "top": 3015
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/terms",
+      "lang": "bn",
+      "width": 375,
+      "scrollWidth": 375,
+      "title": "Terms of Service | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "1. Acceptance of Terms",
+          "top": 756
+        },
+        {
+          "text": "2. Use of the Site",
+          "top": 1402
+        },
+        {
+          "text": "3. Intellectual Property Rights",
+          "top": 2190
+        },
+        {
+          "text": "4. Disclaimer of Warranties",
+          "top": 2930
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/audit-missing-page",
+      "lang": "bn",
+      "width": 375,
+      "scrollWidth": 375,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/products",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Products | Modina Rim & Parts Ltd. — 21 SKUs, Bangladesh",
+      "targets": [
+        {
+          "text": "Search products...",
+          "top": 539
+        },
+        {
+          "text": "পণ্যের ক্যাটালগ",
+          "top": 678
+        },
+        {
+          "text": "Ready to Placean Order?",
+          "top": 5622
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/contact",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Contact Us | Modina Rim & Parts Ltd. — Jashore, Bangladesh",
+      "targets": [
+        {
+          "text": "Let's Talk",
+          "top": 599
+        },
+        {
+          "text": "Full Name *Company NameEmail *PhoneSubject *Select a subject",
+          "top": 668
+        },
+        {
+          "text": "Your full name",
+          "top": 704
+        },
+        {
+          "text": "Your company",
+          "top": 813
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/downloads",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Downloads | Modina Rim & Parts Ltd. — Catalogs, Certificates & Technical Docs",
+      "targets": [
+        {
+          "text": "Search files...",
+          "top": 498
+        },
+        {
+          "text": "প্রয়োজনীয় নথি",
+          "top": 647
+        },
+        {
+          "text": "Product Catalog 2026",
+          "top": 4333
+        },
+        {
+          "text": "Can't FindWhat You Need?",
+          "top": 5000
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/careers",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Careers | Modina Rim & Parts Ltd. — Join Our Team",
+      "targets": [
+        {
+          "text": "Build Your CareerIn Precision",
+          "top": 576
+        },
+        {
+          "text": "Build Your Career In Precision",
+          "top": 2609
+        },
+        {
+          "text": "Send Us YourCV Anyway",
+          "top": 4106
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer — Bangladesh",
+      "targets": [
+        {
+          "text": "Forging the Backbone of Modern Mobility",
+          "top": 1126
+        },
+        {
+          "text": "New Arrival",
+          "top": 2548
+        },
+        {
+          "text": "The Trust Factor",
+          "top": 4567
+        },
+        {
+          "text": "Equipping Our Partners.",
+          "top": 6048
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/about",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "About Us | Modina Rim & Parts Ltd. — Since 2010, Jashore Bangladesh",
+      "targets": [
+        {
+          "text": "২০১০ সাল থেকে নির্ভরশীল প্রকৌশল",
+          "top": 923
+        },
+        {
+          "text": "আমাদের যাত্রা",
+          "top": 1821
+        },
+        {
+          "text": "লক্ষ্য ও মূল্যবোধ",
+          "top": 2454
+        },
+        {
+          "text": "আধুনিক সুযোগ-সুবিধা",
+          "top": 4766
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/mission",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Our Mission & Values | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Engineering Trust. Delivering Excellence.",
+          "top": 986
+        },
+        {
+          "text": "Core Values",
+          "top": 2267
+        },
+        {
+          "text": "Built on Conviction.",
+          "top": 5526
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 6264
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/sustainability",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Sustainability & CSR | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Responsible by Design.",
+          "top": 906
+        },
+        {
+          "text": "Three Pillars of Responsibility",
+          "top": 1521
+        },
+        {
+          "text": "ISO 14001 Certified Operations",
+          "top": 4215
+        },
+        {
+          "text": "CSR Initiatives",
+          "top": 5207
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/quality",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Quality Assurance | Modina Rim & Parts Ltd. — ISO 9001:2015 Certified",
+      "targets": [
+        {
+          "text": "Precision Is Not Optional",
+          "top": 933
+        },
+        {
+          "text": "From Raw Material to Delivery",
+          "top": 1685
+        },
+        {
+          "text": "Certifications & Standards",
+          "top": 2244
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 4317
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/certificates",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Certifications | Modina Rim & Parts Ltd. — ISO 9001, 14001, 45001",
+      "targets": [
+        {
+          "text": "Proof, Not a Promise",
+          "top": 950
+        },
+        {
+          "text": "Internationally Recognized",
+          "top": 1597
+        },
+        {
+          "text": "Awards & Milestones",
+          "top": 4197
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 4909
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/gallery",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Gallery | Modina Rim & Parts Ltd. — Factory Tour",
+      "targets": [
+        {
+          "text": "See It ForYourself",
+          "top": 5498
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/news",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "News & Events | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Modina Launches 2026 Product Catalog With 21 New SKUs",
+          "top": 1005
+        },
+        {
+          "text": "Search news...",
+          "top": 1547
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 5922
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/news/1",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/news/invalid",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Blog | Modina Rim & Parts Ltd. — Engineering & Industry Insights",
+      "targets": [
+        {
+          "text": "Why Precision Tolerance Is the Most Underrated Factor in Aut",
+          "top": 984
+        },
+        {
+          "text": "Search posts...",
+          "top": 1671
+        },
+        {
+          "text": "See WhatWe Make",
+          "top": 7000
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/blog/1",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog/featured",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog/invalid",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/faq",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "FAQ | Modina Rim & Parts Ltd. — Frequently Asked Questions",
+      "targets": [
+        {
+          "text": "Search questions...",
+          "top": 403
+        },
+        {
+          "text": "ProductsWhat products does Modina Rim & Parts Ltd. manufactu",
+          "top": 538
+        },
+        {
+          "text": "ProductsWhat is the minimum order quantity (MOQ)?",
+          "top": 683
+        },
+        {
+          "text": "ProductsDo you offer custom specifications or OEM manufactur",
+          "top": 827
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/privacy",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Privacy Policy | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "1. Introduction",
+          "top": 729
+        },
+        {
+          "text": "2. Information We Collect",
+          "top": 1260
+        },
+        {
+          "text": "3. Use of Your Information",
+          "top": 2146
+        },
+        {
+          "text": "4. Disclosure of Your Information",
+          "top": 3015
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/terms",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Terms of Service | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "1. Acceptance of Terms",
+          "top": 725
+        },
+        {
+          "text": "2. Use of the Site",
+          "top": 1341
+        },
+        {
+          "text": "3. Intellectual Property Rights",
+          "top": 2129
+        },
+        {
+          "text": "4. Disclaimer of Warranties",
+          "top": 2804
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/audit-missing-page",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/products",
+      "lang": "bn",
+      "width": 430,
+      "scrollWidth": 430,
+      "title": "Products | Modina Rim & Parts Ltd. — 21 SKUs, Bangladesh",
+      "targets": [
+        {
+          "text": "Search products...",
+          "top": 502
+        },
+        {
+          "text": "পণ্যের ক্যাটালগ",
+          "top": 641
+        },
+        {
+          "text": "Ready to Placean Order?",
+          "top": 5855
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/contact",
+      "lang": "bn",
+      "width": 430,
+      "scrollWidth": 430,
+      "title": "Contact Us | Modina Rim & Parts Ltd. — Jashore, Bangladesh",
+      "targets": [
+        {
+          "text": "Let's Talk",
+          "top": 599
+        },
+        {
+          "text": "Full Name *Company NameEmail *PhoneSubject *Select a subject",
+          "top": 668
+        },
+        {
+          "text": "Your full name",
+          "top": 704
+        },
+        {
+          "text": "Your company",
+          "top": 812
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/downloads",
+      "lang": "bn",
+      "width": 430,
+      "scrollWidth": 430,
+      "title": "Downloads | Modina Rim & Parts Ltd. — Catalogs, Certificates & Technical Docs",
+      "targets": [
+        {
+          "text": "Search files...",
+          "top": 498
+        },
+        {
+          "text": "প্রয়োজনীয় নথি",
+          "top": 647
+        },
+        {
+          "text": "Product Catalog 2026",
+          "top": 4333
+        },
+        {
+          "text": "Can't FindWhat You Need?",
+          "top": 4955
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/careers",
+      "lang": "bn",
+      "width": 430,
+      "scrollWidth": 430,
+      "title": "Careers | Modina Rim & Parts Ltd. — Join Our Team",
+      "targets": [
+        {
+          "text": "Build Your CareerIn Precision",
+          "top": 576
+        },
+        {
+          "text": "Build Your Career In Precision",
+          "top": 2577
+        },
+        {
+          "text": "Send Us YourCV Anyway",
+          "top": 4045
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/",
+      "lang": "bn",
+      "width": 430,
+      "scrollWidth": 430,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer — Bangladesh",
+      "targets": [
+        {
+          "text": "Forging the Backbone of Modern Mobility",
+          "top": 1155
+        },
+        {
+          "text": "New Arrival",
+          "top": 2512
+        },
+        {
+          "text": "The Trust Factor",
+          "top": 4659
+        },
+        {
+          "text": "Equipping Our Partners.",
+          "top": 6140
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/about",
+      "lang": "bn",
+      "width": 430,
+      "scrollWidth": 430,
+      "title": "About Us | Modina Rim & Parts Ltd. — Since 2010, Jashore Bangladesh",
+      "targets": [
+        {
+          "text": "২০১০ সাল থেকে নির্ভরশীল প্রকৌশল",
+          "top": 923
+        },
+        {
+          "text": "আমাদের যাত্রা",
+          "top": 1756
+        },
+        {
+          "text": "লক্ষ্য ও মূল্যবোধ",
+          "top": 2390
+        },
+        {
+          "text": "আধুনিক সুযোগ-সুবিধা",
+          "top": 4595
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/mission",
+      "lang": "bn",
+      "width": 430,
+      "scrollWidth": 430,
+      "title": "Our Mission & Values | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Engineering Trust. Delivering Excellence.",
+          "top": 986
+        },
+        {
+          "text": "Core Values",
+          "top": 2163
+        },
+        {
+          "text": "Built on Conviction.",
+          "top": 5227
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 5913
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/sustainability",
+      "lang": "bn",
+      "width": 430,
+      "scrollWidth": 430,
+      "title": "Sustainability & CSR | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Responsible by Design.",
+          "top": 889
+        },
+        {
+          "text": "Three Pillars of Responsibility",
+          "top": 1503
+        },
+        {
+          "text": "ISO 14001 Certified Operations",
+          "top": 4100
+        },
+        {
+          "text": "CSR Initiatives",
+          "top": 4995
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/quality",
+      "lang": "bn",
+      "width": 430,
+      "scrollWidth": 430,
+      "title": "Quality Assurance | Modina Rim & Parts Ltd. — ISO 9001:2015 Certified",
+      "targets": [
+        {
+          "text": "Precision Is Not Optional",
+          "top": 933
+        },
+        {
+          "text": "From Raw Material to Delivery",
+          "top": 1608
+        },
+        {
+          "text": "Certifications & Standards",
+          "top": 2167
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 4162
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/certificates",
+      "lang": "bn",
+      "width": 430,
+      "scrollWidth": 430,
+      "title": "Certifications | Modina Rim & Parts Ltd. — ISO 9001, 14001, 45001",
+      "targets": [
+        {
+          "text": "Proof, Not a Promise",
+          "top": 950
+        },
+        {
+          "text": "Internationally Recognized",
+          "top": 1532
+        },
+        {
+          "text": "Awards & Milestones",
+          "top": 3990
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 4702
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/gallery",
+      "lang": "bn",
+      "width": 430,
+      "scrollWidth": 430,
+      "title": "Gallery | Modina Rim & Parts Ltd. — Factory Tour",
+      "targets": [
+        {
+          "text": "See It ForYourself",
+          "top": 5498
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/news",
+      "lang": "bn",
+      "width": 430,
+      "scrollWidth": 430,
+      "title": "News & Events | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Modina Launches 2026 Product Catalog With 21 New SKUs",
+          "top": 1005
+        },
+        {
+          "text": "Search news...",
+          "top": 1515
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 5890
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/news/1",
+      "lang": "bn",
+      "width": 430,
+      "scrollWidth": 430,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/news/invalid",
+      "lang": "bn",
+      "width": 430,
+      "scrollWidth": 430,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog",
+      "lang": "bn",
+      "width": 430,
+      "scrollWidth": 430,
+      "title": "Blog | Modina Rim & Parts Ltd. — Engineering & Industry Insights",
+      "targets": [
+        {
+          "text": "Why Precision Tolerance Is the Most Underrated Factor in Aut",
+          "top": 984
+        },
+        {
+          "text": "Search posts...",
+          "top": 1626
+        },
+        {
+          "text": "See WhatWe Make",
+          "top": 6955
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/blog/1",
+      "lang": "bn",
+      "width": 430,
+      "scrollWidth": 430,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog/featured",
+      "lang": "bn",
+      "width": 430,
+      "scrollWidth": 430,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog/invalid",
+      "lang": "bn",
+      "width": 430,
+      "scrollWidth": 430,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/faq",
+      "lang": "bn",
+      "width": 430,
+      "scrollWidth": 430,
+      "title": "FAQ | Modina Rim & Parts Ltd. — Frequently Asked Questions",
+      "targets": [
+        {
+          "text": "Search questions...",
+          "top": 403
+        },
+        {
+          "text": "ProductsWhat products does Modina Rim & Parts Ltd. manufactu",
+          "top": 538
+        },
+        {
+          "text": "ProductsWhat is the minimum order quantity (MOQ)?",
+          "top": 683
+        },
+        {
+          "text": "ProductsDo you offer custom specifications or OEM manufactur",
+          "top": 827
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/privacy",
+      "lang": "bn",
+      "width": 430,
+      "scrollWidth": 430,
+      "title": "Privacy Policy | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "1. Introduction",
+          "top": 729
+        },
+        {
+          "text": "2. Information We Collect",
+          "top": 1195
+        },
+        {
+          "text": "3. Use of Your Information",
+          "top": 1984
+        },
+        {
+          "text": "4. Disclosure of Your Information",
+          "top": 2820
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/terms",
+      "lang": "bn",
+      "width": 430,
+      "scrollWidth": 430,
+      "title": "Terms of Service | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "1. Acceptance of Terms",
+          "top": 694
+        },
+        {
+          "text": "2. Use of the Site",
+          "top": 1244
+        },
+        {
+          "text": "3. Intellectual Property Rights",
+          "top": 1967
+        },
+        {
+          "text": "4. Disclaimer of Warranties",
+          "top": 2642
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/audit-missing-page",
+      "lang": "bn",
+      "width": 430,
+      "scrollWidth": 430,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/products",
+      "lang": "bn",
+      "width": 768,
+      "scrollWidth": 768,
+      "title": "Products | Modina Rim & Parts Ltd. — 21 SKUs, Bangladesh",
+      "targets": [
+        {
+          "text": "Search products...",
+          "top": 473
+        },
+        {
+          "text": "পণ্যের ক্যাটালগ",
+          "top": 561
+        },
+        {
+          "text": "Ready to Placean Order?",
+          "top": 3419
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/contact",
+      "lang": "bn",
+      "width": 768,
+      "scrollWidth": 768,
+      "title": "Contact Us | Modina Rim & Parts Ltd. — Jashore, Bangladesh",
+      "targets": [
+        {
+          "text": "Let's Talk",
+          "top": 547
+        },
+        {
+          "text": "Full Name *Company NameEmail *PhoneSubject *Select a subject",
+          "top": 615
+        },
+        {
+          "text": "Your full name",
+          "top": 649
+        },
+        {
+          "text": "Your company",
+          "top": 757
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/downloads",
+      "lang": "bn",
+      "width": 768,
+      "scrollWidth": 768,
+      "title": "Downloads | Modina Rim & Parts Ltd. — Catalogs, Certificates & Technical Docs",
+      "targets": [
+        {
+          "text": "Search files...",
+          "top": 445
+        },
+        {
+          "text": "প্রয়োজনীয় নথি",
+          "top": 600
+        },
+        {
+          "text": "Product Catalog 2026",
+          "top": 2794
+        },
+        {
+          "text": "Can't FindWhat You Need?",
+          "top": 3279
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/careers",
+      "lang": "bn",
+      "width": 768,
+      "scrollWidth": 768,
+      "title": "Careers | Modina Rim & Parts Ltd. — Join Our Team",
+      "targets": [
+        {
+          "text": "Build Your CareerIn Precision",
+          "top": 516
+        },
+        {
+          "text": "Build Your Career In Precision",
+          "top": 1809
+        },
+        {
+          "text": "Send Us YourCV Anyway",
+          "top": 2809
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/",
+      "lang": "bn",
+      "width": 768,
+      "scrollWidth": 768,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer — Bangladesh",
+      "targets": [
+        {
+          "text": "Forging the Backbone of Modern Mobility",
+          "top": 1203
+        },
+        {
+          "text": "New Arrival",
+          "top": 2308
+        },
+        {
+          "text": "The Trust Factor",
+          "top": 3382
+        },
+        {
+          "text": "Equipping Our Partners.",
+          "top": 4286
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/about",
+      "lang": "bn",
+      "width": 768,
+      "scrollWidth": 768,
+      "title": "About Us | Modina Rim & Parts Ltd. — Since 2010, Jashore Bangladesh",
+      "targets": [
+        {
+          "text": "২০১০ সাল থেকে নির্ভরশীল প্রকৌশল",
+          "top": 878
+        },
+        {
+          "text": "আমাদের যাত্রা",
+          "top": 1543
+        },
+        {
+          "text": "লক্ষ্য ও মূল্যবোধ",
+          "top": 2263
+        },
+        {
+          "text": "আধুনিক সুযোগ-সুবিধা",
+          "top": 3959
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/mission",
+      "lang": "bn",
+      "width": 768,
+      "scrollWidth": 768,
+      "title": "Our Mission & Values | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Engineering Trust. Delivering Excellence.",
+          "top": 916
+        },
+        {
+          "text": "Core Values",
+          "top": 1920
+        },
+        {
+          "text": "Built on Conviction.",
+          "top": 3951
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 4523
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/sustainability",
+      "lang": "bn",
+      "width": 768,
+      "scrollWidth": 768,
+      "title": "Sustainability & CSR | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Responsible by Design.",
+          "top": 836
+        },
+        {
+          "text": "Three Pillars of Responsibility",
+          "top": 1321
+        },
+        {
+          "text": "ISO 14001 Certified Operations",
+          "top": 2957
+        },
+        {
+          "text": "CSR Initiatives",
+          "top": 3678
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/quality",
+      "lang": "bn",
+      "width": 768,
+      "scrollWidth": 768,
+      "title": "Quality Assurance | Modina Rim & Parts Ltd. — ISO 9001:2015 Certified",
+      "targets": [
+        {
+          "text": "Precision Is Not Optional",
+          "top": 916
+        },
+        {
+          "text": "From Raw Material to Delivery",
+          "top": 1462
+        },
+        {
+          "text": "Certifications & Standards",
+          "top": 2054
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 3151
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/certificates",
+      "lang": "bn",
+      "width": 768,
+      "scrollWidth": 768,
+      "title": "Certifications | Modina Rim & Parts Ltd. — ISO 9001, 14001, 45001",
+      "targets": [
+        {
+          "text": "Proof, Not a Promise",
+          "top": 897
+        },
+        {
+          "text": "Internationally Recognized",
+          "top": 1382
+        },
+        {
+          "text": "Awards & Milestones",
+          "top": 2813
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 3525
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/gallery",
+      "lang": "bn",
+      "width": 768,
+      "scrollWidth": 768,
+      "title": "Gallery | Modina Rim & Parts Ltd. — Factory Tour",
+      "targets": [
+        {
+          "text": "See It ForYourself",
+          "top": 3830
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/news",
+      "lang": "bn",
+      "width": 768,
+      "scrollWidth": 768,
+      "title": "News & Events | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Modina Launches 2026 Product Catalog With 21 New SKUs",
+          "top": 952
+        },
+        {
+          "text": "Search news...",
+          "top": 1352
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 3674
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/news/1",
+      "lang": "bn",
+      "width": 768,
+      "scrollWidth": 768,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/news/invalid",
+      "lang": "bn",
+      "width": 768,
+      "scrollWidth": 768,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog",
+      "lang": "bn",
+      "width": 768,
+      "scrollWidth": 768,
+      "title": "Blog | Modina Rim & Parts Ltd. — Engineering & Industry Insights",
+      "targets": [
+        {
+          "text": "Why Precision Tolerance Is the Most Underrated Factor in Aut",
+          "top": 931
+        },
+        {
+          "text": "Search posts...",
+          "top": 1386
+        },
+        {
+          "text": "See WhatWe Make",
+          "top": 4475
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/blog/1",
+      "lang": "bn",
+      "width": 768,
+      "scrollWidth": 768,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog/featured",
+      "lang": "bn",
+      "width": 768,
+      "scrollWidth": 768,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog/invalid",
+      "lang": "bn",
+      "width": 768,
+      "scrollWidth": 768,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/faq",
+      "lang": "bn",
+      "width": 768,
+      "scrollWidth": 768,
+      "title": "FAQ | Modina Rim & Parts Ltd. — Frequently Asked Questions",
+      "targets": [
+        {
+          "text": "Search questions...",
+          "top": 343
+        },
+        {
+          "text": "ProductsWhat products does Modina Rim & Parts Ltd. manufactu",
+          "top": 484
+        },
+        {
+          "text": "ProductsWhat is the minimum order quantity (MOQ)?",
+          "top": 600
+        },
+        {
+          "text": "ProductsDo you offer custom specifications or OEM manufactur",
+          "top": 715
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/privacy",
+      "lang": "bn",
+      "width": 768,
+      "scrollWidth": 768,
+      "title": "Privacy Policy | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "1. Introduction",
+          "top": 602
+        },
+        {
+          "text": "2. Information We Collect",
+          "top": 941
+        },
+        {
+          "text": "3. Use of Your Information",
+          "top": 1470
+        },
+        {
+          "text": "4. Disclosure of Your Information",
+          "top": 2080
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/terms",
+      "lang": "bn",
+      "width": 768,
+      "scrollWidth": 768,
+      "title": "Terms of Service | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "1. Acceptance of Terms",
+          "top": 600
+        },
+        {
+          "text": "2. Use of the Site",
+          "top": 1021
+        },
+        {
+          "text": "3. Intellectual Property Rights",
+          "top": 1583
+        },
+        {
+          "text": "4. Disclaimer of Warranties",
+          "top": 2031
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/audit-missing-page",
+      "lang": "bn",
+      "width": 768,
+      "scrollWidth": 768,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/products",
+      "lang": "bn",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "title": "Products | Modina Rim & Parts Ltd. — 21 SKUs, Bangladesh",
+      "targets": [
+        {
+          "text": "Search products...",
+          "top": 521
+        },
+        {
+          "text": "পণ্যের ক্যাটালগ",
+          "top": 623
+        },
+        {
+          "text": "Ready to Placean Order?",
+          "top": 2440
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/contact",
+      "lang": "bn",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "title": "Contact Us | Modina Rim & Parts Ltd. — Jashore, Bangladesh",
+      "targets": [
+        {
+          "text": "Let's Talk",
+          "top": 619
+        },
+        {
+          "text": "Full Name *Company NameEmail *PhoneSubject *Select a subject",
+          "top": 700
+        },
+        {
+          "text": "Your full name",
+          "top": 727
+        },
+        {
+          "text": "Your company",
+          "top": 834
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/downloads",
+      "lang": "bn",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "title": "Downloads | Modina Rim & Parts Ltd. — Catalogs, Certificates & Technical Docs",
+      "targets": [
+        {
+          "text": "Search files...",
+          "top": 488
+        },
+        {
+          "text": "প্রয়োজনীয় নথি",
+          "top": 657
+        },
+        {
+          "text": "Product Catalog 2026",
+          "top": 2254
+        },
+        {
+          "text": "Can't FindWhat You Need?",
+          "top": 2921
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/careers",
+      "lang": "bn",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "title": "Careers | Modina Rim & Parts Ltd. — Join Our Team",
+      "targets": [
+        {
+          "text": "Build Your CareerIn Precision",
+          "top": 577
+        },
+        {
+          "text": "Build Your Career In Precision",
+          "top": 1633
+        },
+        {
+          "text": "Send Us YourCV Anyway",
+          "top": 2697
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/",
+      "lang": "bn",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer — Bangladesh",
+      "targets": [
+        {
+          "text": "Forging the Backbone of Modern Mobility",
+          "top": 1043
+        },
+        {
+          "text": "New Arrival",
+          "top": 1857
+        },
+        {
+          "text": "The Trust Factor",
+          "top": 2883
+        },
+        {
+          "text": "Equipping Our Partners.",
+          "top": 3727
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/about",
+      "lang": "bn",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "title": "About Us | Modina Rim & Parts Ltd. — Since 2010, Jashore Bangladesh",
+      "targets": [
+        {
+          "text": "২০১০ সাল থেকে নির্ভরশীল প্রকৌশল",
+          "top": 681
+        },
+        {
+          "text": "আমাদের যাত্রা",
+          "top": 1555
+        },
+        {
+          "text": "লক্ষ্য ও মূল্যবোধ",
+          "top": 2290
+        },
+        {
+          "text": "আধুনিক সুযোগ-সুবিধা",
+          "top": 3637
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/mission",
+      "lang": "bn",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "title": "Our Mission & Values | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Engineering Trust. Delivering Excellence.",
+          "top": 654
+        },
+        {
+          "text": "Core Values",
+          "top": 1900
+        },
+        {
+          "text": "Built on Conviction.",
+          "top": 3798
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 4537
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/sustainability",
+      "lang": "bn",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "title": "Sustainability & CSR | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Responsible by Design.",
+          "top": 654
+        },
+        {
+          "text": "Three Pillars of Responsibility",
+          "top": 1258
+        },
+        {
+          "text": "ISO 14001 Certified Operations",
+          "top": 2415
+        },
+        {
+          "text": "CSR Initiatives",
+          "top": 3378
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/quality",
+      "lang": "bn",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "title": "Quality Assurance | Modina Rim & Parts Ltd. — ISO 9001:2015 Certified",
+      "targets": [
+        {
+          "text": "Precision Is Not Optional",
+          "top": 707
+        },
+        {
+          "text": "From Raw Material to Delivery",
+          "top": 1495
+        },
+        {
+          "text": "Certifications & Standards",
+          "top": 2086
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 3070
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/certificates",
+      "lang": "bn",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "title": "Certifications | Modina Rim & Parts Ltd. — ISO 9001, 14001, 45001",
+      "targets": [
+        {
+          "text": "Proof, Not a Promise",
+          "top": 654
+        },
+        {
+          "text": "Internationally Recognized",
+          "top": 1258
+        },
+        {
+          "text": "Awards & Milestones",
+          "top": 2474
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 3149
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/gallery",
+      "lang": "bn",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "title": "Gallery | Modina Rim & Parts Ltd. — Factory Tour",
+      "targets": [
+        {
+          "text": "See It ForYourself",
+          "top": 2883
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/news",
+      "lang": "bn",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "title": "News & Events | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Modina Launches 2026 Product Catalog With 21 New SKUs",
+          "top": 698
+        },
+        {
+          "text": "Search news...",
+          "top": 1238
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 3091
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/news/1",
+      "lang": "bn",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/news/invalid",
+      "lang": "bn",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog",
+      "lang": "bn",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "title": "Blog | Modina Rim & Parts Ltd. — Engineering & Industry Insights",
+      "targets": [
+        {
+          "text": "Why Precision Tolerance Is the Most Underrated Factor in Aut",
+          "top": 698
+        },
+        {
+          "text": "Search posts...",
+          "top": 1529
+        },
+        {
+          "text": "See WhatWe Make",
+          "top": 3644
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/blog/1",
+      "lang": "bn",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog/featured",
+      "lang": "bn",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog/invalid",
+      "lang": "bn",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/faq",
+      "lang": "bn",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "title": "FAQ | Modina Rim & Parts Ltd. — Frequently Asked Questions",
+      "targets": [
+        {
+          "text": "Search questions...",
+          "top": 386
+        },
+        {
+          "text": "ProductsWhat products does Modina Rim & Parts Ltd. manufactu",
+          "top": 541
+        },
+        {
+          "text": "ProductsWhat is the minimum order quantity (MOQ)?",
+          "top": 656
+        },
+        {
+          "text": "ProductsDo you offer custom specifications or OEM manufactur",
+          "top": 772
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/privacy",
+      "lang": "bn",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "title": "Privacy Policy | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "1. Introduction",
+          "top": 673
+        },
+        {
+          "text": "2. Information We Collect",
+          "top": 1058
+        },
+        {
+          "text": "3. Use of Your Information",
+          "top": 1620
+        },
+        {
+          "text": "4. Disclosure of Your Information",
+          "top": 2231
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/terms",
+      "lang": "bn",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "title": "Terms of Service | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "1. Acceptance of Terms",
+          "top": 687
+        },
+        {
+          "text": "2. Use of the Site",
+          "top": 1106
+        },
+        {
+          "text": "3. Intellectual Property Rights",
+          "top": 1668
+        },
+        {
+          "text": "4. Disclaimer of Warranties",
+          "top": 2117
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/audit-missing-page",
+      "lang": "bn",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/products",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Products | Modina Rim & Parts Ltd. — 21 SKUs, Bangladesh",
+      "targets": [
+        {
+          "text": "Search products...",
+          "top": 598
+        },
+        {
+          "text": "পণ্যের ক্যাটালগ",
+          "top": 712
+        },
+        {
+          "text": "Ready to Placean Order?",
+          "top": 2770
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/contact",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Contact Us | Modina Rim & Parts Ltd. — Jashore, Bangladesh",
+      "targets": [
+        {
+          "text": "Let's Talk",
+          "top": 699
+        },
+        {
+          "text": "Full Name *Company NameEmail *PhoneSubject *Select a subject",
+          "top": 790
+        },
+        {
+          "text": "Your full name",
+          "top": 819
+        },
+        {
+          "text": "Your company",
+          "top": 936
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/downloads",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Downloads | Modina Rim & Parts Ltd. — Catalogs, Certificates & Technical Docs",
+      "targets": [
+        {
+          "text": "Search files...",
+          "top": 543
+        },
+        {
+          "text": "প্রয়োজনীয় নথি",
+          "top": 658
+        },
+        {
+          "text": "Product Catalog 2026",
+          "top": 2293
+        },
+        {
+          "text": "Can't FindWhat You Need?",
+          "top": 2902
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/careers",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Careers | Modina Rim & Parts Ltd. — Join Our Team",
+      "targets": [
+        {
+          "text": "Build Your CareerIn Precision",
+          "top": 667
+        },
+        {
+          "text": "Build Your Career In Precision",
+          "top": 1815
+        },
+        {
+          "text": "Send Us YourCV Anyway",
+          "top": 2985
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer — Bangladesh",
+      "targets": [
+        {
+          "text": "Forging the Backbone of Modern Mobility",
+          "top": 1076
+        },
+        {
+          "text": "New Arrival",
+          "top": 1964
+        },
+        {
+          "text": "The Trust Factor",
+          "top": 3077
+        },
+        {
+          "text": "Equipping Our Partners.",
+          "top": 3992
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/about",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "About Us | Modina Rim & Parts Ltd. — Since 2010, Jashore Bangladesh",
+      "targets": [
+        {
+          "text": "২০১০ সাল থেকে নির্ভরশীল প্রকৌশল",
+          "top": 788
+        },
+        {
+          "text": "আমাদের যাত্রা",
+          "top": 1715
+        },
+        {
+          "text": "লক্ষ্য ও মূল্যবোধ",
+          "top": 2535
+        },
+        {
+          "text": "আধুনিক সুযোগ-সুবিধা",
+          "top": 3916
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/mission",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Our Mission & Values | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Engineering Trust. Delivering Excellence.",
+          "top": 719
+        },
+        {
+          "text": "Core Values",
+          "top": 1994
+        },
+        {
+          "text": "Built on Conviction.",
+          "top": 3917
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 4608
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/sustainability",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Sustainability & CSR | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Responsible by Design.",
+          "top": 719
+        },
+        {
+          "text": "Three Pillars of Responsibility",
+          "top": 1359
+        },
+        {
+          "text": "ISO 14001 Certified Operations",
+          "top": 2503
+        },
+        {
+          "text": "CSR Initiatives",
+          "top": 3417
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/quality",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Quality Assurance | Modina Rim & Parts Ltd. — ISO 9001:2015 Certified",
+      "targets": [
+        {
+          "text": "Precision Is Not Optional",
+          "top": 783
+        },
+        {
+          "text": "From Raw Material to Delivery",
+          "top": 1528
+        },
+        {
+          "text": "Certifications & Standards",
+          "top": 2167
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 3221
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/certificates",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Certifications | Modina Rim & Parts Ltd. — ISO 9001, 14001, 45001",
+      "targets": [
+        {
+          "text": "Proof, Not a Promise",
+          "top": 719
+        },
+        {
+          "text": "Internationally Recognized",
+          "top": 1395
+        },
+        {
+          "text": "Awards & Milestones",
+          "top": 2660
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 3436
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/gallery",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Gallery | Modina Rim & Parts Ltd. — Factory Tour",
+      "targets": [
+        {
+          "text": "See It ForYourself",
+          "top": 2973
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/news",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "News & Events | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Modina Launches 2026 Product Catalog With 21 New SKUs",
+          "top": 755
+        },
+        {
+          "text": "Search news...",
+          "top": 1315
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 3198
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/news/1",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/news/invalid",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Blog | Modina Rim & Parts Ltd. — Engineering & Industry Insights",
+      "targets": [
+        {
+          "text": "Why Precision Tolerance Is the Most Underrated Factor in Aut",
+          "top": 755
+        },
+        {
+          "text": "Search posts...",
+          "top": 1466
+        },
+        {
+          "text": "See WhatWe Make",
+          "top": 3497
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/blog/1",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog/featured",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog/invalid",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/faq",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "FAQ | Modina Rim & Parts Ltd. — Frequently Asked Questions",
+      "targets": [
+        {
+          "text": "Search questions...",
+          "top": 448
+        },
+        {
+          "text": "ProductsWhat products does Modina Rim & Parts Ltd. manufactu",
+          "top": 557
+        },
+        {
+          "text": "ProductsWhat is the minimum order quantity (MOQ)?",
+          "top": 673
+        },
+        {
+          "text": "ProductsDo you offer custom specifications or OEM manufactur",
+          "top": 788
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/privacy",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Privacy Policy | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "1. Introduction",
+          "top": 864
+        },
+        {
+          "text": "2. Information We Collect",
+          "top": 1263
+        },
+        {
+          "text": "3. Use of Your Information",
+          "top": 1945
+        },
+        {
+          "text": "4. Disclosure of Your Information",
+          "top": 2676
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/terms",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Terms of Service | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "1. Acceptance of Terms",
+          "top": 827
+        },
+        {
+          "text": "2. Use of the Site",
+          "top": 1351
+        },
+        {
+          "text": "3. Intellectual Property Rights",
+          "top": 1993
+        },
+        {
+          "text": "4. Disclaimer of Warranties",
+          "top": 2516
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/audit-missing-page",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "captures": [],
+  "browser": "156.0.8078.49",
+  "completed": true,
+  "teardown": {
+    "normal": false,
+    "bounded": true,
+    "connected": false
+  }
+}

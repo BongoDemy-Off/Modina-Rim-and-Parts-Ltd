@@ -1,0 +1,582 @@
+{
+  "productsData": [
+    {
+      "id": 1,
+      "name": "Box Frame Bearing & Racer (Black Blue & Red)",
+      "category": "Hardware",
+      "description": "Premium quality box frame bearing and racer, available in black, blue, and red finishes for maximum durability.",
+      "material": "High-Carbon Steel",
+      "certification": "ISO 9001:2015",
+      "availability": "In Stock",
+      "images": [
+        {
+          "src": "/products/sku-001/01-product.png",
+          "alt": "Modina Heavy Duty Frame — product view",
+          "role": "product"
+        },
+        {
+          "src": "/products/sku-001/02-engineering.jpg",
+          "alt": "Modina Heavy Duty Frame — engineering view",
+          "role": "engineering"
+        },
+        {
+          "src": "/products/sku-001/03-assembly.png",
+          "alt": "Modina Heavy Duty Frame — assembly view",
+          "role": "assembly"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Motor Cycle Center Stand",
+      "category": "Motorcycle",
+      "description": "Heavy-duty center stand engineered for perfect balance and stability.",
+      "material": "Reinforced Steel Alloy",
+      "certification": "ISO 9001:2015",
+      "availability": "In Stock",
+      "images": [
+        {
+          "src": "/products/sku-002/01-product.png",
+          "alt": "Motor Cycle Center Stand — product view",
+          "role": "product"
+        },
+        {
+          "src": "/products/sku-002/02-engineering.jpg",
+          "alt": "Motor Cycle Center Stand — engineering view",
+          "role": "engineering"
+        },
+        {
+          "src": "/products/sku-002/03-assembly.png",
+          "alt": "Motor Cycle Center Stand — assembly view",
+          "role": "assembly"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Motor Cycle Double Stand",
+      "category": "Motorcycle",
+      "description": "Reinforced double stand providing superior support and longevity.",
+      "material": "Reinforced Steel Alloy",
+      "certification": "ISO 9001:2015",
+      "availability": "In Stock",
+      "images": [
+        {
+          "src": "/products/sku-003/01-product.png",
+          "alt": "Motor Cycle Double Stand — product view",
+          "role": "product"
+        },
+        {
+          "src": "/products/sku-003/02-engineering.jpg",
+          "alt": "Motor Cycle Double Stand — engineering view",
+          "role": "engineering"
+        },
+        {
+          "src": "/products/sku-003/03-assembly.png",
+          "alt": "Motor Cycle Double Stand — assembly view",
+          "role": "assembly"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Motor Cycle Foot Rest Rod",
+      "category": "Motorcycle",
+      "description": "Ergonomic and highly durable foot rest rod for enhanced rider comfort.",
+      "material": "Forged Steel",
+      "certification": "ISO 9001:2015",
+      "availability": "In Stock"
+    },
+    {
+      "id": 5,
+      "name": "Motor Cycle Handlebar",
+      "category": "Motorcycle",
+      "description": "Precision-bent motorcycle handlebar offering optimal control and vibration reduction.",
+      "material": "Chromoly Steel",
+      "certification": "ISO 9001:2015",
+      "availability": "In Stock"
+    },
+    {
+      "id": 6,
+      "name": "Motor Cycle Leg Guard",
+      "category": "Motorcycle",
+      "description": "Robust leg guard designed to protect the rider and vehicle during impacts.",
+      "material": "Heavy-Duty Steel Tubing",
+      "certification": "ISO 9001:2015",
+      "availability": "In Stock"
+    },
+    {
+      "id": 7,
+      "name": "Motor Cycle Sharee Guard Ladies (Black & Nickel)",
+      "category": "Motorcycle",
+      "description": "Elegant and protective sharee guard, available in premium black and nickel finishes.",
+      "material": "Steel with Nickel Plating",
+      "certification": "ISO 9001:2015",
+      "availability": "In Stock"
+    },
+    {
+      "id": 8,
+      "name": "Easy Bike RIM (Black & White)",
+      "category": "Rims",
+      "description": "High-strength Easy Bike rims designed for heavy loads, available in black and white.",
+      "material": "Premium Grade Alloy",
+      "certification": "ISO 9001:2015",
+      "availability": "In Stock"
+    },
+    {
+      "id": 9,
+      "name": "Rikshaw Avon Rim",
+      "category": "Rims",
+      "description": "Classic Avon style rim for rickshaws, built for everyday endurance.",
+      "material": "Premium Grade Alloy",
+      "certification": "ISO 9001:2015",
+      "availability": "In Stock"
+    },
+    {
+      "id": 10,
+      "name": "Cycle Rim (Bichue & Hero)",
+      "category": "Rims",
+      "description": "Standard cycle rims compatible with Bichue and Hero models.",
+      "material": "Aluminum Alloy",
+      "certification": "ISO 9001:2015",
+      "availability": "In Stock"
+    },
+    {
+      "id": 11,
+      "name": "Cycle Rim (26\"X1.5\")",
+      "category": "Rims",
+      "description": "Precision-crafted 26\"x1.5\" cycle rim for smooth and efficient riding.",
+      "material": "Aluminum Alloy",
+      "certification": "ISO 9001:2015",
+      "availability": "In Stock"
+    },
+    {
+      "id": 12,
+      "name": "CNG Rim",
+      "category": "Rims",
+      "description": "Heavy-duty CNG vehicle rims engineered for commercial reliability.",
+      "material": "Premium Grade Alloy",
+      "certification": "ISO 9001:2015",
+      "availability": "In Stock"
+    },
+    {
+      "id": 13,
+      "name": "Rikshaw Rim Gazi",
+      "category": "Rims",
+      "description": "Gazi specification rickshaw rim, known for exceptional load-bearing capacity.",
+      "material": "Premium Grade Alloy",
+      "certification": "ISO 9001:2015",
+      "availability": "In Stock"
+    },
+    {
+      "id": 14,
+      "name": "Mishuk Rim Black & White",
+      "category": "Rims",
+      "description": "Durable Mishuk rims available in classic black and white.",
+      "material": "Premium Grade Alloy",
+      "certification": "ISO 9001:2015",
+      "availability": "In Stock"
+    },
+    {
+      "id": 15,
+      "name": "VAN Rickshaw Jumbo Rim",
+      "category": "Rims",
+      "description": "Jumbo-sized rims for VAN rickshaws, maximizing cargo stability.",
+      "material": "Premium Grade Alloy",
+      "certification": "ISO 9001:2015",
+      "availability": "In Stock"
+    },
+    {
+      "id": 16,
+      "name": "VAN Rickshaw Gold Rim",
+      "category": "Rims",
+      "description": "Premium gold-finished rims for VAN rickshaws, combining aesthetics with strength.",
+      "material": "Premium Grade Alloy",
+      "certification": "ISO 9001:2015",
+      "availability": "In Stock"
+    },
+    {
+      "id": 17,
+      "name": "Rickshaw Japan Rim",
+      "category": "Rims",
+      "description": "Japan-spec rickshaw rims manufactured to exacting international standards.",
+      "material": "Premium Grade Alloy",
+      "certification": "ISO 9001:2015",
+      "availability": "In Stock"
+    },
+    {
+      "id": 18,
+      "name": "Nosimon Rim",
+      "category": "Rims",
+      "description": "Rugged rims specifically designed for Nosimon utility vehicles.",
+      "material": "Premium Grade Alloy",
+      "certification": "ISO 9001:2015",
+      "availability": "In Stock"
+    },
+    {
+      "id": 19,
+      "name": "Patti Rim",
+      "category": "Rims",
+      "description": "Traditional Patti style rims built for extreme local conditions.",
+      "material": "Premium Grade Alloy",
+      "certification": "ISO 9001:2015",
+      "availability": "In Stock"
+    },
+    {
+      "id": 20,
+      "name": "Van Spoke (Black & White)",
+      "category": "Hardware",
+      "description": "High-tensile van spokes available in black and white for custom builds.",
+      "material": "High-Tensile Steel",
+      "certification": "ISO 9001:2015",
+      "availability": "In Stock"
+    },
+    {
+      "id": 21,
+      "name": "Wasar",
+      "category": "Hardware",
+      "description": "Precision-stamped washers for secure and vibration-resistant fastening.",
+      "material": "Galvanized Steel",
+      "certification": "ISO 9001:2015",
+      "availability": "In Stock"
+    }
+  ],
+  "galleryItems": [
+    {
+      "id": 1,
+      "title": "Factory Floor Overview",
+      "category": "Facility",
+      "src": "https://picsum.photos/seed/gal-factory-01/1200/800",
+      "span": "wide"
+    },
+    {
+      "id": 2,
+      "title": "CNC Machining Centre",
+      "category": "Machinery",
+      "src": "https://picsum.photos/seed/gal-cnc-01/600/800",
+      "span": "tall"
+    },
+    {
+      "id": 3,
+      "title": "Rim Production Line",
+      "category": "Production",
+      "src": "https://picsum.photos/seed/gal-rim-line/600/600",
+      "span": "normal"
+    },
+    {
+      "id": 4,
+      "title": "Quality Inspection Station",
+      "category": "Quality",
+      "src": "https://picsum.photos/seed/gal-qa-01/600/600",
+      "span": "normal"
+    },
+    {
+      "id": 5,
+      "title": "Raw Steel Inventory",
+      "category": "Materials",
+      "src": "https://picsum.photos/seed/gal-steel-01/600/600",
+      "span": "normal"
+    },
+    {
+      "id": 6,
+      "title": "Heat Treatment Furnace",
+      "category": "Machinery",
+      "src": "https://picsum.photos/seed/gal-furnace-01/1200/600",
+      "span": "wide"
+    },
+    {
+      "id": 7,
+      "title": "Finished Rim Stacks",
+      "category": "Products",
+      "src": "https://picsum.photos/seed/gal-rims-stacked/600/800",
+      "span": "tall"
+    },
+    {
+      "id": 8,
+      "title": "Powder Coating Bay",
+      "category": "Production",
+      "src": "https://picsum.photos/seed/gal-coating-01/600/600",
+      "span": "normal"
+    },
+    {
+      "id": 9,
+      "title": "ISO Audit Documentation",
+      "category": "Quality",
+      "src": "https://picsum.photos/seed/gal-iso-docs/600/600",
+      "span": "normal"
+    },
+    {
+      "id": 10,
+      "title": "Worker Safety Training",
+      "category": "Workforce",
+      "src": "https://picsum.photos/seed/gal-safety-01/600/600",
+      "span": "normal"
+    },
+    {
+      "id": 11,
+      "title": "Dispatch & Logistics Bay",
+      "category": "Facility",
+      "src": "https://picsum.photos/seed/gal-dispatch/1200/600",
+      "span": "wide"
+    },
+    {
+      "id": 12,
+      "title": "Precision Measurement Lab",
+      "category": "Quality",
+      "src": "https://picsum.photos/seed/gal-lab-01/600/600",
+      "span": "normal"
+    },
+    {
+      "id": 13,
+      "title": "Spoke & Hardware Assembly",
+      "category": "Production",
+      "src": "https://picsum.photos/seed/gal-assembly/600/800",
+      "span": "tall"
+    },
+    {
+      "id": 14,
+      "title": "Company Entrance — BSCIC",
+      "category": "Facility",
+      "src": "https://picsum.photos/seed/gal-entrance/600/600",
+      "span": "normal"
+    },
+    {
+      "id": 15,
+      "title": "Export Packaging Station",
+      "category": "Production",
+      "src": "https://picsum.photos/seed/gal-pack-01/600/600",
+      "span": "normal"
+    }
+  ],
+  "filesData": [
+    {
+      "id": 1,
+      "name": "Product Catalog 2026",
+      "category": "Catalogs",
+      "description": "Complete range of all 21 SKUs with specifications and ordering codes.",
+      "size": "4.2 MB",
+      "format": "PDF",
+      "pages": "48 pages",
+      "updated": "2026"
+    },
+    {
+      "id": 2,
+      "name": "Product Catalog 2025",
+      "category": "Catalogs",
+      "description": "Previous year full product range catalog with legacy part numbers.",
+      "size": "3.8 MB",
+      "format": "PDF",
+      "pages": "44 pages",
+      "updated": "2025"
+    },
+    {
+      "id": 3,
+      "name": "Motorcycle Parts Catalog",
+      "category": "Catalogs",
+      "description": "Dedicated catalog for all 7 motorcycle component SKUs.",
+      "size": "1.9 MB",
+      "format": "PDF",
+      "pages": "18 pages",
+      "updated": "2026"
+    },
+    {
+      "id": 4,
+      "name": "Rim & Wheel Catalog",
+      "category": "Catalogs",
+      "description": "Full range of rim products for Easy Bike, Rickshaw, CNG and Van.",
+      "size": "2.1 MB",
+      "format": "PDF",
+      "pages": "22 pages",
+      "updated": "2026"
+    },
+    {
+      "id": 8,
+      "name": "Alloy Technical Spec Sheet",
+      "category": "Technical",
+      "description": "Detailed material composition, tensile strength, and hardness data.",
+      "size": "2.4 MB",
+      "format": "PDF",
+      "pages": "12 pages",
+      "updated": "2026"
+    },
+    {
+      "id": 9,
+      "name": "CNC Tolerance Standards",
+      "category": "Technical",
+      "description": "Machining tolerances and dimensional accuracy guidelines.",
+      "size": "1.3 MB",
+      "format": "PDF",
+      "pages": "8 pages",
+      "updated": "2026"
+    },
+    {
+      "id": 10,
+      "name": "CAD Model Package",
+      "category": "Technical",
+      "description": "3D CAD models for all rim profiles in STEP and IGES formats.",
+      "size": "18.5 MB",
+      "format": "ZIP",
+      "pages": "21 files",
+      "updated": "2025"
+    },
+    {
+      "id": 11,
+      "name": "Quality Control Manual",
+      "category": "Technical",
+      "description": "Internal QC process documentation and inspection checklists.",
+      "size": "3.2 MB",
+      "format": "PDF",
+      "pages": "36 pages",
+      "updated": "2026"
+    },
+    {
+      "id": 12,
+      "name": "Warranty Terms & Conditions",
+      "category": "Legal",
+      "description": "Product warranty coverage, claim process, and exclusions.",
+      "size": "0.6 MB",
+      "format": "PDF",
+      "pages": "6 pages",
+      "updated": "2025"
+    },
+    {
+      "id": 13,
+      "name": "Export Compliance Document",
+      "category": "Legal",
+      "description": "International trade compliance and export regulation summary.",
+      "size": "0.9 MB",
+      "format": "PDF",
+      "pages": "8 pages",
+      "updated": "2025"
+    },
+    {
+      "id": 14,
+      "name": "Distributor Agreement Template",
+      "category": "Legal",
+      "description": "Standard partnership and distribution agreement framework.",
+      "size": "1.2 MB",
+      "format": "PDF",
+      "pages": "14 pages",
+      "updated": "2026"
+    }
+  ],
+  "postsData": [
+    {
+      "id": 1,
+      "title": "The Science Behind ISO 9001 and What It Means for Buyers",
+      "category": "Quality",
+      "date": "March 2026",
+      "excerpt": "ISO 9001 is more than a certificate on a wall. We break down what each clause means in practice and why it should be your first filter when choosing an auto parts supplier.",
+      "readTime": "6 min read",
+      "img": "https://picsum.photos/seed/blog-01/600/400",
+      "tags": [
+        "Quality",
+        "Standards"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "CNC Machining vs. Traditional Stamping: Which Produces Better Rims?",
+      "category": "Engineering",
+      "date": "February 2026",
+      "excerpt": "A technical comparison of CNC machining and traditional die stamping for rim production, covering dimensional accuracy, surface finish, material waste, and cost per unit.",
+      "readTime": "8 min read",
+      "img": "https://picsum.photos/seed/blog-02/600/400",
+      "tags": [
+        "Engineering",
+        "Manufacturing"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "How Bangladesh Became a Serious Auto Parts Exporter",
+      "category": "Industry",
+      "date": "January 2026",
+      "excerpt": "From a purely import-dependent economy to a growing exporter of precision components — the story of Bangladesh automotive manufacturing over the past 15 years.",
+      "readTime": "7 min read",
+      "img": "https://picsum.photos/seed/blog-03/600/400",
+      "tags": [
+        "Industry",
+        "Bangladesh"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Heat Treatment Explained: Why We Fire Our Steel Twice",
+      "category": "Manufacturing",
+      "date": "December 2025",
+      "excerpt": "Our two-stage heat treatment process increases tensile strength by up to 30% compared to single-stage methods. Here is the metallurgy behind the decision.",
+      "readTime": "5 min read",
+      "img": "https://picsum.photos/seed/blog-04/600/400",
+      "tags": [
+        "Manufacturing",
+        "Materials"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "5 Questions to Ask Before Sourcing Rims from Any Manufacturer",
+      "category": "Quality",
+      "date": "November 2025",
+      "excerpt": "Whether you are a distributor or fleet operator, these five technical questions will help you separate quality manufacturers from those cutting corners on specifications.",
+      "readTime": "4 min read",
+      "img": "https://picsum.photos/seed/blog-05/600/400",
+      "tags": [
+        "Quality",
+        "Procurement"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Inside Modina: A Day on the Production Floor",
+      "category": "Company",
+      "date": "October 2025",
+      "excerpt": "From raw coil steel arriving at 6 AM to finished rims passing final QC at 4 PM — a walkthrough of one complete production cycle at our Jashore facility.",
+      "readTime": "9 min read",
+      "img": "https://picsum.photos/seed/blog-06/600/400",
+      "tags": [
+        "Company",
+        "Manufacturing"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Electroplating vs. Powder Coating: Surface Finish Compared",
+      "category": "Engineering",
+      "date": "September 2025",
+      "excerpt": "Both electroplating and powder coating offer corrosion protection — but they perform very differently under real-world conditions. We compare them across 6 key dimensions.",
+      "readTime": "6 min read",
+      "img": "https://picsum.photos/seed/blog-07/600/400",
+      "tags": [
+        "Engineering",
+        "Finishing"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Why Rickshaw Rims Demand More Engineering Than You Think",
+      "category": "Manufacturing",
+      "date": "August 2025",
+      "excerpt": "Rickshaw rims carry enormous dynamic loads on unpaved roads at low speeds — a combination that exposes design weaknesses invisible in standard lab testing. Here is how we solve it.",
+      "readTime": "7 min read",
+      "img": "https://picsum.photos/seed/blog-08/600/400",
+      "tags": [
+        "Manufacturing",
+        "Engineering"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "The True Cost of a Low-Quality Bearing in a Commercial Vehicle",
+      "category": "Industry",
+      "date": "July 2025",
+      "excerpt": "A single substandard bearing in a CNG auto-rickshaw can cause cascading failures costing 20x the original part price. The economics of quality procurement explained.",
+      "readTime": "5 min read",
+      "img": "https://picsum.photos/seed/blog-09/600/400",
+      "tags": [
+        "Industry",
+        "Quality"
+      ]
+    }
+  ]
+}

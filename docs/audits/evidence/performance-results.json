@@ -1,0 +1,447 @@
+[
+  {
+    "route": "/",
+    "method": "one synthetic cold browser sample; 4x CPU, 150ms latency, 1.6Mbps download, 750Kbps upload, cache disabled; fresh public preloader",
+    "observers": {
+      "lcp": [
+        {
+          "startTime": 9164,
+          "duration": 0,
+          "size": 981,
+          "tag": "P"
+        },
+        {
+          "startTime": 12396,
+          "duration": 0,
+          "size": 23115,
+          "tag": "P"
+        }
+      ],
+      "cls": [
+        {
+          "startTime": 12334.5,
+          "value": 0.000010302810050313335,
+          "duration": 0,
+          "hadRecentInput": false
+        }
+      ],
+      "longtasks": [
+        {
+          "startTime": 2586,
+          "duration": 279
+        },
+        {
+          "startTime": 2869.2000000476837,
+          "duration": 222
+        },
+        {
+          "startTime": 7383.399999856949,
+          "duration": 195
+        },
+        {
+          "startTime": 7582.899999856949,
+          "duration": 312
+        },
+        {
+          "startTime": 7897.399999856949,
+          "duration": 1076
+        },
+        {
+          "startTime": 10700.200000047684,
+          "duration": 194
+        }
+      ]
+    },
+    "navigation": [
+      {
+        "domContentLoaded": 7572.200000047684,
+        "load": 7573.5,
+        "transferSize": 2710
+      }
+    ],
+    "resources": [
+      {
+        "name": "https://www.googletagmanager.com/gtag/js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 2340.199999809265,
+        "type": "script"
+      },
+      {
+        "name": "http://127.0.0.1:4173/assets/index-tsH-LyE4.js",
+        "bytes": 1109409,
+        "encoded": 1109109,
+        "duration": 7112.400000095367,
+        "type": "script"
+      },
+      {
+        "name": "http://127.0.0.1:4173/assets/index-Ck3CD_d3.css",
+        "bytes": 88322,
+        "encoded": 88022,
+        "duration": 1439,
+        "type": "link"
+      },
+      {
+        "name": "https://fonts.googleapis.com/css2",
+        "bytes": 1204,
+        "encoded": 904,
+        "duration": 495.7000000476837,
+        "type": "css"
+      },
+      {
+        "name": "https://www.google-analytics.com/g/collect",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 33.700000047683716,
+        "type": "fetch"
+      },
+      {
+        "name": "https://www.google.com/g/collect",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 30.799999952316284,
+        "type": "fetch"
+      },
+      {
+        "name": "http://127.0.0.1:4173/assets/logo-Cg58folY.png",
+        "bytes": 48275,
+        "encoded": 47975,
+        "duration": 1560.2000000476837,
+        "type": "img"
+      },
+      {
+        "name": "http://127.0.0.1:4173/assets/Premium%20Rims-DAivbVtn.webp",
+        "bytes": 37654,
+        "encoded": 37354,
+        "duration": 1354.3999998569489,
+        "type": "img"
+      },
+      {
+        "name": "http://127.0.0.1:4173/assets/CNG%20Rim-CWmeImNb.webp",
+        "bytes": 69616,
+        "encoded": 69316,
+        "duration": 2737.9000000953674,
+        "type": "img"
+      },
+      {
+        "name": "http://127.0.0.1:4173/assets/cat_motorcycle_parts-BGOdeLlY.webp",
+        "bytes": 61008,
+        "encoded": 60708,
+        "duration": 2398.2000000476837,
+        "type": "img"
+      },
+      {
+        "name": "http://127.0.0.1:4173/assets/wasar-Crxolq52.webp",
+        "bytes": 79968,
+        "encoded": 79668,
+        "duration": 2941.7999999523163,
+        "type": "img"
+      },
+      {
+        "name": "https://images.unsplash.com/photo-1560250097-0b93528c311a",
+        "bytes": 8054,
+        "encoded": 7754,
+        "duration": 1625.5,
+        "type": "img"
+      }
+    ],
+    "preloaderStillVisible": false
+  },
+  {
+    "route": "/products",
+    "method": "one synthetic cold browser sample; 4x CPU, 150ms latency, 1.6Mbps download, 750Kbps upload, cache disabled; fresh public preloader",
+    "observers": {
+      "lcp": [
+        {
+          "startTime": 8732,
+          "duration": 0,
+          "size": 2945,
+          "tag": "SPAN"
+        },
+        {
+          "startTime": 9276,
+          "duration": 0,
+          "size": 3097,
+          "tag": "SPAN"
+        },
+        {
+          "startTime": 9560,
+          "duration": 0,
+          "size": 11544,
+          "tag": "DIV"
+        }
+      ],
+      "cls": [
+        {
+          "startTime": 10290.799999952316,
+          "value": 0.003179377338639962,
+          "duration": 0,
+          "hadRecentInput": false
+        },
+        {
+          "startTime": 10324.799999952316,
+          "value": 0.000010302810050313335,
+          "duration": 0,
+          "hadRecentInput": false
+        }
+      ],
+      "longtasks": [
+        {
+          "startTime": 2638.2000000476837,
+          "duration": 172
+        },
+        {
+          "startTime": 2813.7000000476837,
+          "duration": 115
+        },
+        {
+          "startTime": 7509.600000143051,
+          "duration": 261
+        },
+        {
+          "startTime": 7772.900000095367,
+          "duration": 255
+        },
+        {
+          "startTime": 8028.400000095367,
+          "duration": 660
+        },
+        {
+          "startTime": 8714.299999952316,
+          "duration": 52
+        },
+        {
+          "startTime": 10158.200000047684,
+          "duration": 137
+        }
+      ]
+    },
+    "navigation": [
+      {
+        "domContentLoaded": 7768.799999952316,
+        "load": 7770,
+        "transferSize": 2710
+      }
+    ],
+    "resources": [
+      {
+        "name": "https://www.googletagmanager.com/gtag/js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 2305.100000143051,
+        "type": "script"
+      },
+      {
+        "name": "http://127.0.0.1:4173/assets/index-tsH-LyE4.js",
+        "bytes": 1109409,
+        "encoded": 1109109,
+        "duration": 7135.799999952316,
+        "type": "script"
+      },
+      {
+        "name": "http://127.0.0.1:4173/assets/index-Ck3CD_d3.css",
+        "bytes": 88322,
+        "encoded": 88022,
+        "duration": 1474.1000001430511,
+        "type": "link"
+      },
+      {
+        "name": "https://fonts.googleapis.com/css2",
+        "bytes": 1204,
+        "encoded": 904,
+        "duration": 389.5,
+        "type": "css"
+      },
+      {
+        "name": "https://www.google-analytics.com/g/collect",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 10.400000095367432,
+        "type": "fetch"
+      },
+      {
+        "name": "https://www.google.com/g/collect",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 12.700000047683716,
+        "type": "fetch"
+      },
+      {
+        "name": "http://127.0.0.1:4173/assets/logo-Cg58folY.png",
+        "bytes": 48275,
+        "encoded": 47975,
+        "duration": 1325.2999999523163,
+        "type": "img"
+      },
+      {
+        "name": "https://picsum.photos/seed/modina-4-v2-1/600/400",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 4172.200000047684,
+        "type": "img"
+      },
+      {
+        "name": "https://picsum.photos/seed/modina-5-v2-1/600/400",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 3949.2999999523163,
+        "type": "img"
+      },
+      {
+        "name": "https://picsum.photos/seed/modina-6-v2-1/600/400",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 4060.2999999523163,
+        "type": "img"
+      },
+      {
+        "name": "https://picsum.photos/seed/modina-7-v2-1/600/400",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 4537.400000095367,
+        "type": "img"
+      },
+      {
+        "name": "https://picsum.photos/seed/modina-8-v2-1/600/400",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 3503.5999999046326,
+        "type": "img"
+      },
+      {
+        "name": "https://picsum.photos/seed/modina-9-v2-1/600/400",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 5011.399999856949,
+        "type": "img"
+      }
+    ],
+    "preloaderStillVisible": false
+  },
+  {
+    "route": "/contact",
+    "method": "one synthetic cold browser sample; 4x CPU, 150ms latency, 1.6Mbps download, 750Kbps upload, cache disabled; fresh public preloader",
+    "observers": {
+      "lcp": [
+        {
+          "startTime": 8276,
+          "duration": 0,
+          "size": 4255,
+          "tag": "H2"
+        },
+        {
+          "startTime": 9140,
+          "duration": 0,
+          "size": 11544,
+          "tag": "DIV"
+        }
+      ],
+      "cls": [
+        {
+          "startTime": 9215.200000047684,
+          "value": 0.0010101218439699155,
+          "duration": 0,
+          "hadRecentInput": false
+        },
+        {
+          "startTime": 9257.700000047684,
+          "value": 0.000010302810050313335,
+          "duration": 0,
+          "hadRecentInput": false
+        }
+      ],
+      "longtasks": [
+        {
+          "startTime": 2584.9000000953674,
+          "duration": 215
+        },
+        {
+          "startTime": 2803.2999999523163,
+          "duration": 126
+        },
+        {
+          "startTime": 7302.400000095367,
+          "duration": 189
+        },
+        {
+          "startTime": 7493.600000143051,
+          "duration": 216
+        },
+        {
+          "startTime": 7710.600000143051,
+          "duration": 536
+        },
+        {
+          "startTime": 9089.5,
+          "duration": 129
+        }
+      ]
+    },
+    "navigation": [
+      {
+        "domContentLoaded": 7489.200000047684,
+        "load": 7490.100000143051,
+        "transferSize": 2710
+      }
+    ],
+    "resources": [
+      {
+        "name": "https://www.googletagmanager.com/gtag/js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 2345.7000000476837,
+        "type": "script"
+      },
+      {
+        "name": "http://127.0.0.1:4173/assets/index-tsH-LyE4.js",
+        "bytes": 1109409,
+        "encoded": 1109109,
+        "duration": 7038.399999856949,
+        "type": "script"
+      },
+      {
+        "name": "http://127.0.0.1:4173/assets/index-Ck3CD_d3.css",
+        "bytes": 88322,
+        "encoded": 88022,
+        "duration": 1561.5,
+        "type": "link"
+      },
+      {
+        "name": "https://fonts.googleapis.com/css2",
+        "bytes": 1204,
+        "encoded": 904,
+        "duration": 392.59999990463257,
+        "type": "css"
+      },
+      {
+        "name": "https://www.google-analytics.com/g/collect",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 35,
+        "type": "fetch"
+      },
+      {
+        "name": "https://www.google.com/g/collect",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 32.30000019073486,
+        "type": "fetch"
+      },
+      {
+        "name": "https://www.google.com/maps/embed",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 2727.2000000476837,
+        "type": "iframe"
+      },
+      {
+        "name": "http://127.0.0.1:4173/assets/logo-Cg58folY.png",
+        "bytes": 48275,
+        "encoded": 47975,
+        "duration": 615.2999999523163,
+        "type": "img"
+      }
+    ],
+    "preloaderStillVisible": false
+  }
+]

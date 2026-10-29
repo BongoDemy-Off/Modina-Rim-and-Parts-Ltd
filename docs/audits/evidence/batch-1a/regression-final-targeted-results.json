@@ -1,0 +1,34 @@
+{
+  "baseURL": "http://127.0.0.1:4181",
+  "browser": "156.0.8078.48",
+  "cases": [
+    {
+      "name": "bn/320/navigation",
+      "passed": true
+    },
+    {
+      "name": "radius-and-admin-isolation",
+      "passed": true
+    }
+  ],
+  "console": [
+    {
+      "type": "console",
+      "lang": "bn",
+      "width": 320,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "bn",
+      "width": 320,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    }
+  ],
+  "axe": [],
+  "geometry": [],
+  "teardown": {
+    "graceful": true,
+    "ownedBrowserPid": 10396
+  }
+}

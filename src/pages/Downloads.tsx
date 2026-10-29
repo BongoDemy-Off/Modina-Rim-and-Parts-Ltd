@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next';
 import React, { useRef, useState, useMemo } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { motion, AnimatePresence, useInView } from 'motion/react';
@@ -5,10 +6,13 @@ import { Link } from 'react-router-dom';
 import { Download, Search, ChevronRight, ChevronLeft, ArrowRight, Minus, FileText } from 'lucide-react';
 
 import { filesData } from '../lib/data';
+import { scrollToPublicTarget, usePublicToolbar } from '../hooks/usePublicLayout';
 
 const categories = ['All', 'Catalogs', 'Certificates', 'Technical', 'Legal'];
 
 export default function Downloads() {
+  const { t } = useTranslation();
+  const toolbar = usePublicToolbar<HTMLDivElement>();
   const letters = "DOWNLOADS".split("");
   
   const [activeCategory, setActiveCategory] = useState('All');
@@ -44,11 +48,11 @@ export default function Downloads() {
 
   const handleViewAllCatalogs = () => {
     setActiveCategory('Catalogs');
-    window.scrollTo({ top: 400, behavior: 'smooth' });
+    scrollToPublicTarget('resource-list', true);
   };
 
   return (
-    <div className="min-h-screen bg-white text-modina-text pt-[112px] sm:pt-[72px]">
+    <div className="min-h-screen bg-white text-modina-text pt-[112px] sm:pt-[72px] public-page">
       <Helmet>
         <title>Downloads | Modina Rim &amp; Parts Ltd. — Catalogs, Certificates &amp; Technical Docs</title>
         <meta name="description" content="Download product catalogs, ISO certificates, technical specification sheets, CAD models, and legal documents from Modina Rim & Parts Ltd., Jashore, Bangladesh." />
@@ -58,8 +62,8 @@ export default function Downloads() {
       </Helmet>
 
       {/* SECTION 1 — HERO */}
-      <section className="w-full py-20 lg:py-28 flex flex-col items-center text-center bg-white border-b border-modina-divider">
-        <div className="text-xs font-bold tracking-widest text-modina-subtle uppercase flex items-center gap-2 justify-center mb-10">
+      <section className="w-full public-task-hero flex flex-col items-center text-center bg-white border-b border-modina-divider">
+        <div className="text-xs font-bold tracking-widest text-modina-subtle uppercase flex items-center gap-2 justify-center mb-10 public-breadcrumb">
           <Link to="/" className="hover:text-modina-red transition-colors duration-300">Home</Link>
           <ChevronRight className="w-2.5 h-2.5 text-modina-subtle" />
           <span className="text-modina-muted">Downloads</span>
@@ -67,7 +71,7 @@ export default function Downloads() {
 
         <div className="w-24 h-[2px] bg-modina-red mx-auto mb-10" />
 
-        <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-[9rem] font-display font-bold tracking-tight text-modina-heading uppercase leading-none flex items-center justify-center flex-wrap">
+        <h1 className="font-display font-bold tracking-tight text-modina-heading uppercase leading-none flex items-center justify-center flex-wrap public-hero-title">
           {letters.map((letter, i) => (
             letter === " " ? (
               <span key={i} className="w-[0.3em]">&nbsp;</span>
@@ -92,7 +96,7 @@ export default function Downloads() {
           className="w-32 h-[1px] bg-modina-red mx-auto my-10"
         />
 
-        <p className="text-xs font-bold tracking-widest text-modina-muted uppercase flex items-center justify-center flex-wrap gap-2">
+        <p className="text-xs font-bold tracking-widest text-modina-muted uppercase flex items-center justify-center flex-wrap gap-2 public-meta">
           <span>Modina Rim &amp; Parts Ltd.</span>
           <span className="text-modina-red">·</span>
           <span>Resource Center</span>
@@ -105,30 +109,31 @@ export default function Downloads() {
         <div className="responsive-stat-strip grid w-full max-w-xl grid-cols-[1fr_auto_1fr_auto_1fr] items-center mx-auto mb-14">
           <div className="flex min-w-0 flex-col items-center px-1 sm:px-10 md:px-14">
             <span className="text-3xl md:text-4xl font-display font-bold text-modina-red">11</span>
-            <span className="text-xs font-bold tracking-widest text-modina-muted uppercase mt-1">Documents</span>
+            <span className="text-xs font-bold tracking-widest text-modina-muted uppercase mt-1 public-meta">Documents</span>
           </div>
           <span className="w-[0.5px] h-8 bg-modina-divider" />
           <div className="flex min-w-0 flex-col items-center px-1 sm:px-10 md:px-14">
             <span className="text-3xl md:text-4xl font-display font-bold text-modina-red">Free</span>
-            <span className="text-xs font-bold tracking-widest text-modina-muted uppercase mt-1">Downloads</span>
+            <span className="text-xs font-bold tracking-widest text-modina-muted uppercase mt-1 public-meta">Downloads</span>
           </div>
           <span className="w-[0.5px] h-8 bg-modina-divider" />
           <div className="flex min-w-0 flex-col items-center px-1 sm:px-10 md:px-14">
             <span className="text-3xl md:text-4xl font-display font-bold text-modina-red">PDF</span>
-            <span className="text-xs font-bold tracking-widest text-modina-muted uppercase mt-1">Format</span>
+            <span className="text-xs font-bold tracking-widest text-modina-muted uppercase mt-1 public-meta">Format</span>
           </div>
         </div>
       </section>
 
       {/* SECTION 2 — FILTER BAR */}
-      <div className="sticky top-[112px] sm:top-16 z-30 bg-white/95 backdrop-blur-md border-b border-modina-divider">
-        <div className="container mx-auto flex min-h-[104px] flex-col-reverse gap-2 px-4 py-2 md:px-12 xl:h-14 xl:min-h-0 xl:flex-row xl:items-center xl:justify-between xl:px-24 xl:py-0">
+      <div ref={toolbar} className="public-sticky-toolbar sticky z-30 bg-white/95 backdrop-blur-md border-b border-modina-divider">
+        <div className="container-premium flex min-h-[104px] flex-col-reverse gap-2 py-2 xl:h-14 xl:min-h-0 xl:flex-row xl:items-center xl:justify-between xl:py-0">
           <div className="flex w-full min-w-0 items-center overflow-x-auto no-scrollbar xl:w-auto">
             {categories.map((cat, idx) => (
               <React.Fragment key={cat}>
                 <button
                   onClick={() => setActiveCategory(cat)}
-                  className={`relative px-6 h-14 text-xs font-bold tracking-widest uppercase whitespace-nowrap transition-all duration-300 ease-in-out ${
+                  aria-pressed={activeCategory === cat}
+                  className={`public-filter relative px-6 h-14 text-xs font-bold tracking-widest uppercase whitespace-nowrap transition-all duration-300 ease-in-out ${
                     activeCategory === cat ? 'text-modina-heading' : 'text-modina-muted hover:text-modina-heading'
                   }`}
                 >
@@ -150,12 +155,13 @@ export default function Downloads() {
               <input
                 type="text"
                 placeholder="Search files..."
+                aria-label="Search files"
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-full bg-transparent border-b border-modina-border focus:border-modina-red outline-none text-base text-modina-text placeholder:text-modina-subtle transition-all duration-300 pl-6 pb-1 xl:w-32 xl:text-xs xl:focus:w-48"
+                className="public-search-field w-full bg-transparent border-b border-modina-border focus:border-modina-red outline-none text-base text-modina-text placeholder:text-modina-subtle transition-all duration-300 pl-6 xl:w-48"
               />
             </div>
-            <p className="hidden sm:block text-xs font-bold tracking-widest text-modina-muted whitespace-nowrap">
+            <p className="hidden sm:block text-xs font-bold tracking-widest text-modina-muted whitespace-nowrap public-meta">
               — {filteredFiles.length} RESULTS
             </p>
           </div>
@@ -163,7 +169,8 @@ export default function Downloads() {
       </div>
 
       {/* SECTION 3 — FILE GRID */}
-      <section className="container mx-auto px-6 md:px-12 lg:px-24 py-16 lg:py-24 min-h-[400px]">
+      <section className="container-premium public-task-content min-h-[400px]">
+        <h2 id="resource-list" tabIndex={-1} className="font-display font-bold public-section-title public-anchor mb-6">{t('public_ui.resources')}</h2>
         {filteredFiles.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <AnimatePresence mode="popLayout">
@@ -175,7 +182,7 @@ export default function Downloads() {
                   exit={{ opacity: 0, scale: 0.95 }}
                   transition={{ duration: 0.4 }}
                   key={file.id}
-                  className="group flex flex-col bg-white rounded-[12px] border border-modina-border shadow-design-sm hover:shadow-design-md p-6 lg:p-8 cursor-pointer transition-all duration-300 ease-in-out hover:-translate-y-1 relative overflow-hidden"
+                  className="public-card public-card-content group flex flex-col bg-white hover:shadow-design-md cursor-pointer transition-all duration-300 ease-in-out hover:-translate-y-1 relative overflow-hidden"
                 >
                   <div className="absolute top-0 left-0 w-full h-[3px] bg-transparent group-hover:bg-modina-red transition-all duration-300 ease-in-out" />
                   
@@ -187,28 +194,28 @@ export default function Downloads() {
                     )}
                   </div>
 
-                  <h3 className="text-xl font-display font-bold text-modina-heading group-hover:text-modina-red transition-colors duration-300 ease-in-out mb-2 line-clamp-2 min-h-[56px]">
+                  <h3 className="text-xl font-display font-bold text-modina-heading group-hover:text-modina-red transition-colors duration-300 ease-in-out mb-2 public-card-title">
                     {file.name}
                   </h3>
                   
-                  <p className="text-[13px] text-modina-muted font-light leading-relaxed mb-6 line-clamp-3 flex-grow">
+                  <p className="text-[13px] text-modina-muted font-light leading-relaxed mb-6 line-clamp-3 flex-grow public-copy">
                     {file.description}
                   </p>
 
                   <div className="flex flex-col gap-5 mt-auto">
                     <div className="flex items-center gap-3 flex-wrap">
-                      <span className="text-[10px] font-bold tracking-widest text-modina-subtle uppercase bg-modina-bg-section px-2 py-1 rounded">
+                      <span className="text-[10px] font-bold tracking-widest text-modina-subtle uppercase bg-modina-bg-section px-2 py-1 rounded public-meta">
                         {file.format}
                       </span>
-                      <span className="text-[10px] font-bold tracking-widest text-modina-subtle uppercase">
+                      <span className="text-[10px] font-bold tracking-widest text-modina-subtle uppercase public-meta">
                         {file.size}
                       </span>
-                      <span className="text-[10px] font-bold tracking-widest text-modina-subtle uppercase">
+                      <span className="text-[10px] font-bold tracking-widest text-modina-subtle uppercase public-meta">
                         {file.pages}
                       </span>
                     </div>
 
-                    <button className="w-full inline-flex items-center justify-center gap-2 border border-modina-border bg-white text-modina-heading text-sm font-bold py-3 rounded-[8px] group-hover:border-modina-red group-hover:text-modina-red group-hover:bg-modina-red/5 transition-all duration-300 ease-in-out">
+                    <button className="btn-secondary w-full inline-flex items-center justify-center gap-2 group-hover:border-modina-red group-hover:text-modina-red group-hover:bg-modina-red/5 transition-all duration-300 ease-in-out">
                       Download
                       <Download className="w-4 h-4" />
                     </button>
@@ -223,7 +230,7 @@ export default function Downloads() {
             className="flex flex-col items-center justify-center py-32 text-center"
           >
             <Minus className="w-8 h-8 text-modina-subtle mb-6" />
-            <p className="text-xs font-bold tracking-widest text-modina-muted uppercase mb-6">
+            <p className="text-xs font-bold tracking-widest text-modina-muted uppercase mb-6 public-meta">
               No results found
             </p>
             <button 
@@ -242,21 +249,21 @@ export default function Downloads() {
               type="button"
               onClick={() => {
                 setCurrentPage(p => Math.max(1, p - 1));
-                window.scrollTo({ top: 400, behavior: 'smooth' });
+                scrollToPublicTarget('resource-list', true);
               }}
               disabled={currentPage === 1}
               className="text-xs font-bold tracking-widest uppercase text-modina-muted hover:text-modina-red disabled:opacity-30 disabled:cursor-not-allowed transition-all duration-300 ease-in-out flex items-center gap-3"
             >
               <ChevronLeft className="w-3.5 h-3.5" /> Prev
             </button>
-            <span className="text-xs font-bold tracking-widest text-modina-muted uppercase">
+            <span className="text-xs font-bold tracking-widest text-modina-muted uppercase public-meta">
               Page {currentPage.toString().padStart(2, '0')} / {totalPages.toString().padStart(2, '0')}
             </span>
             <button
               type="button"
               onClick={() => {
                 setCurrentPage(p => Math.min(totalPages, p + 1));
-                window.scrollTo({ top: 400, behavior: 'smooth' });
+                scrollToPublicTarget('resource-list', true);
               }}
               disabled={currentPage === totalPages}
               className="text-xs font-bold tracking-widest uppercase text-modina-muted hover:text-modina-red disabled:opacity-30 disabled:cursor-not-allowed transition-all duration-300 ease-in-out flex items-center gap-3"
@@ -269,7 +276,7 @@ export default function Downloads() {
 
       {/* SECTION 4 — FEATURED DOWNLOAD BANNER */}
       <section className="w-full overflow-x-clip border-t border-modina-divider bg-modina-bg-alt py-20 lg:py-24" ref={featuredRef}>
-        <div className="container mx-auto px-6 md:px-12 lg:px-24">
+        <div className="container-premium">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
             <motion.div 
               initial={{ opacity: 0, x: -40 }}
@@ -277,13 +284,13 @@ export default function Downloads() {
               transition={{ duration: 0.9, ease: [0.16, 1, 0.3, 1] }}
               className="card-premium p-10 lg:p-16 flex flex-col justify-center"
             >
-              <p className="text-[80px] sm:text-[120px] font-display font-bold text-modina-divider leading-none select-none">
+              <p aria-hidden="true" className="text-[80px] sm:text-[120px] font-display font-bold text-modina-divider leading-none select-none">
                 2026
               </p>
-              <p className="text-xs font-bold tracking-widest text-modina-red uppercase mt-2">
+              <p className="text-xs font-bold tracking-widest text-modina-red uppercase mt-2 public-meta">
                 — Latest Release
               </p>
-              <p className="text-xs font-bold tracking-widest text-modina-subtle uppercase mt-1">
+              <p className="text-xs font-bold tracking-widest text-modina-subtle uppercase mt-1 public-meta">
                 Annual Catalog
               </p>
             </motion.div>
@@ -294,13 +301,13 @@ export default function Downloads() {
               transition={{ duration: 0.9, delay: 0.15, ease: [0.16, 1, 0.3, 1] }}
               className="card-premium p-10 lg:p-16 flex flex-col justify-center"
             >
-              <p className="text-xs font-bold tracking-widest text-modina-red uppercase mb-8">
+              <p className="text-xs font-bold tracking-widest text-modina-red uppercase mb-8 public-meta">
                 — Featured Document
               </p>
-              <h2 className="text-3xl md:text-4xl font-display font-bold text-modina-heading tracking-tight mb-8">
+              <h2 className="text-3xl md:text-4xl font-display font-bold text-modina-heading tracking-tight mb-8 public-section-title">
                 Product Catalog 2026
               </h2>
-              <p className="text-[14px] text-modina-muted font-light leading-relaxed mb-8 max-w-lg">
+              <p className="text-[14px] text-modina-muted font-light leading-relaxed mb-8 max-w-lg public-body">
                 Our most comprehensive catalog to date. Covering all 21 SKUs across 4 categories with full technical specifications, material data, and ordering codes.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
@@ -321,8 +328,8 @@ export default function Downloads() {
       </section>
 
       {/* SECTION 5 — CTA BANNER */}
-      <section className="w-full border-t border-modina-divider py-24 lg:py-32 bg-modina-heading" ref={ctaRef}>
-        <div className="container mx-auto px-6 md:px-12 lg:px-24 flex flex-col lg:flex-row items-start lg:items-center justify-between gap-10">
+      <section className="w-full border-t border-modina-divider public-section bg-modina-heading public-dark" ref={ctaRef}>
+        <div className="container-premium flex flex-col lg:flex-row items-start lg:items-center justify-between gap-10">
           <motion.div 
             initial={{ opacity: 0, x: -24 }}
             animate={ctaInView ? { opacity: 1, x: 0 } : {}}
@@ -336,8 +343,8 @@ export default function Downloads() {
               style={{ transformOrigin: 'top' }}
               className="absolute left-0 top-0 w-1 h-20 bg-modina-red"
             />
-            <p className="text-xs font-bold tracking-widest text-modina-red uppercase mb-4">— Need More Info?</p>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-white tracking-tight leading-tight">
+            <p className="text-xs font-bold tracking-widest text-modina-red uppercase mb-4 public-meta">— Need More Info?</p>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-white tracking-tight leading-tight public-section-title">
               Can't Find<br />What You Need?
             </h2>
           </motion.div>

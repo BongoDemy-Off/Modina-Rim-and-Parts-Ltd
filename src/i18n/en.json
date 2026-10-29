@@ -1,4 +1,19 @@
 {
+  "public_ui": {
+    "resources": "Resources",
+    "skip_main": "Skip to main content",
+    "catalogue": "Product Catalogue",
+    "open_roles": "View Open Roles",
+    "pause_rotation": "Pause rotation",
+    "play_rotation": "Play rotation",
+    "hero_label": "Product showcase",
+    "skip_intro": "Skip introduction",
+    "intro_label": "Modina branded introduction",
+    "intro_sequence": "Brand introduction",
+    "view_articles": "View All Articles",
+    "view_posts": "View All Posts",
+    "results": "{{count}} results"
+  },
   "nav": {
     "home": "Home",
     "products": "Products",

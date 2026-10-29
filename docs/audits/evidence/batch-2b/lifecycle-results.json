@@ -1,0 +1,22 @@
+[
+  {
+    "reducedMotion": "no-preference",
+    "passed": true,
+    "metrics": {
+      "closeRequests": 12,
+      "shows": 13,
+      "closes": 13
+    },
+    "errors": []
+  },
+  {
+    "reducedMotion": "reduce",
+    "passed": true,
+    "metrics": {
+      "closeRequests": 12,
+      "shows": 19,
+      "closes": 19
+    },
+    "errors": []
+  }
+]

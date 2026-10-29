@@ -1,0 +1,1852 @@
+{
+  "mode": "group2",
+  "states": [
+    {
+      "route": "/",
+      "lang": "en",
+      "width": 320,
+      "scrollWidth": 320,
+      "headings": [
+        {
+          "text": "EngineeringExcellence",
+          "size": "40px",
+          "lineHeight": "38px",
+          "width": 272,
+          "scrollWidth": 272
+        }
+      ],
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer — Bangladesh",
+      "passed": true
+    },
+    {
+      "route": "/about",
+      "lang": "en",
+      "width": 320,
+      "scrollWidth": 320,
+      "headings": [
+        {
+          "text": "Our Story",
+          "size": "40px",
+          "lineHeight": "46px",
+          "width": 222.234375,
+          "scrollWidth": 222
+        }
+      ],
+      "title": "About Us | Modina Rim & Parts Ltd. — Since 2010, Jashore Bangladesh",
+      "passed": true
+    },
+    {
+      "route": "/mission",
+      "lang": "en",
+      "width": 320,
+      "scrollWidth": 320,
+      "headings": [
+        {
+          "text": "OUR MISSION",
+          "size": "40px",
+          "lineHeight": "46px",
+          "width": 257.15625,
+          "scrollWidth": 257
+        }
+      ],
+      "title": "Our Mission & Values | Modina Rim & Parts Ltd.",
+      "passed": true
+    },
+    {
+      "route": "/sustainability",
+      "lang": "en",
+      "width": 320,
+      "scrollWidth": 320,
+      "headings": [
+        {
+          "text": "SUSTAINABILITY",
+          "size": "40px",
+          "lineHeight": "46px",
+          "width": 272,
+          "scrollWidth": 272
+        }
+      ],
+      "title": "Sustainability & CSR | Modina Rim & Parts Ltd.",
+      "passed": true
+    },
+    {
+      "route": "/quality",
+      "lang": "en",
+      "width": 320,
+      "scrollWidth": 320,
+      "headings": [
+        {
+          "text": "OUR QUALITY",
+          "size": "40px",
+          "lineHeight": "46px",
+          "width": 256.125,
+          "scrollWidth": 256
+        }
+      ],
+      "title": "Quality Assurance | Modina Rim & Parts Ltd. — ISO 9001:2015 Certified",
+      "passed": true
+    },
+    {
+      "route": "/certificates",
+      "lang": "en",
+      "width": 320,
+      "scrollWidth": 320,
+      "headings": [
+        {
+          "text": "CERTIFICATES",
+          "size": "40px",
+          "lineHeight": "46px",
+          "width": 267.78125,
+          "scrollWidth": 268
+        }
+      ],
+      "title": "Certifications | Modina Rim & Parts Ltd. — ISO 9001, 14001, 45001",
+      "passed": true
+    },
+    {
+      "route": "/gallery",
+      "lang": "en",
+      "width": 320,
+      "scrollWidth": 320,
+      "headings": [
+        {
+          "text": "GALLERY",
+          "size": "40px",
+          "lineHeight": "46px",
+          "width": 167.5,
+          "scrollWidth": 168
+        }
+      ],
+      "title": "Gallery | Modina Rim & Parts Ltd. — Factory Tour",
+      "passed": true
+    },
+    {
+      "route": "/",
+      "lang": "en",
+      "width": 360,
+      "scrollWidth": 360,
+      "headings": [
+        {
+          "text": "EngineeringExcellence",
+          "size": "45px",
+          "lineHeight": "42.75px",
+          "width": 312,
+          "scrollWidth": 312
+        }
+      ],
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer — Bangladesh",
+      "passed": true
+    },
+    {
+      "route": "/about",
+      "lang": "en",
+      "width": 360,
+      "scrollWidth": 360,
+      "headings": [
+        {
+          "text": "Our Story",
+          "size": "40px",
+          "lineHeight": "46px",
+          "width": 222.234375,
+          "scrollWidth": 222
+        }
+      ],
+      "title": "About Us | Modina Rim & Parts Ltd. — Since 2010, Jashore Bangladesh",
+      "passed": true
+    },
+    {
+      "route": "/mission",
+      "lang": "en",
+      "width": 360,
+      "scrollWidth": 360,
+      "headings": [
+        {
+          "text": "OUR MISSION",
+          "size": "40px",
+          "lineHeight": "46px",
+          "width": 257.15625,
+          "scrollWidth": 257
+        }
+      ],
+      "title": "Our Mission & Values | Modina Rim & Parts Ltd.",
+      "passed": true
+    },
+    {
+      "route": "/sustainability",
+      "lang": "en",
+      "width": 360,
+      "scrollWidth": 360,
+      "headings": [
+        {
+          "text": "SUSTAINABILITY",
+          "size": "40px",
+          "lineHeight": "46px",
+          "width": 305.859375,
+          "scrollWidth": 306
+        }
+      ],
+      "title": "Sustainability & CSR | Modina Rim & Parts Ltd.",
+      "passed": true
+    },
+    {
+      "route": "/quality",
+      "lang": "en",
+      "width": 360,
+      "scrollWidth": 360,
+      "headings": [
+        {
+          "text": "OUR QUALITY",
+          "size": "40px",
+          "lineHeight": "46px",
+          "width": 256.125,
+          "scrollWidth": 256
+        }
+      ],
+      "title": "Quality Assurance | Modina Rim & Parts Ltd. — ISO 9001:2015 Certified",
+      "passed": true
+    },
+    {
+      "route": "/certificates",
+      "lang": "en",
+      "width": 360,
+      "scrollWidth": 360,
+      "headings": [
+        {
+          "text": "CERTIFICATES",
+          "size": "40px",
+          "lineHeight": "46px",
+          "width": 267.78125,
+          "scrollWidth": 268
+        }
+      ],
+      "title": "Certifications | Modina Rim & Parts Ltd. — ISO 9001, 14001, 45001",
+      "passed": true
+    },
+    {
+      "route": "/gallery",
+      "lang": "en",
+      "width": 360,
+      "scrollWidth": 360,
+      "headings": [
+        {
+          "text": "GALLERY",
+          "size": "40px",
+          "lineHeight": "46px",
+          "width": 167.5,
+          "scrollWidth": 168
+        }
+      ],
+      "title": "Gallery | Modina Rim & Parts Ltd. — Factory Tour",
+      "passed": true
+    },
+    {
+      "route": "/",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "headings": [
+        {
+          "text": "EngineeringExcellence",
+          "size": "48.75px",
+          "lineHeight": "46.3125px",
+          "width": 342,
+          "scrollWidth": 342
+        }
+      ],
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer — Bangladesh",
+      "passed": true
+    },
+    {
+      "route": "/about",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "headings": [
+        {
+          "text": "Our Story",
+          "size": "40px",
+          "lineHeight": "46px",
+          "width": 222.234375,
+          "scrollWidth": 222
+        }
+      ],
+      "title": "About Us | Modina Rim & Parts Ltd. — Since 2010, Jashore Bangladesh",
+      "passed": true
+    },
+    {
+      "route": "/mission",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "headings": [
+        {
+          "text": "OUR MISSION",
+          "size": "40px",
+          "lineHeight": "46px",
+          "width": 257.15625,
+          "scrollWidth": 257
+        }
+      ],
+      "title": "Our Mission & Values | Modina Rim & Parts Ltd.",
+      "passed": true
+    },
+    {
+      "route": "/sustainability",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "headings": [
+        {
+          "text": "SUSTAINABILITY",
+          "size": "40px",
+          "lineHeight": "46px",
+          "width": 305.859375,
+          "scrollWidth": 306
+        }
+      ],
+      "title": "Sustainability & CSR | Modina Rim & Parts Ltd.",
+      "passed": true
+    },
+    {
+      "route": "/quality",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "headings": [
+        {
+          "text": "OUR QUALITY",
+          "size": "40px",
+          "lineHeight": "46px",
+          "width": 256.125,
+          "scrollWidth": 256
+        }
+      ],
+      "title": "Quality Assurance | Modina Rim & Parts Ltd. — ISO 9001:2015 Certified",
+      "passed": true
+    },
+    {
+      "route": "/certificates",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "headings": [
+        {
+          "text": "CERTIFICATES",
+          "size": "40px",
+          "lineHeight": "46px",
+          "width": 267.78125,
+          "scrollWidth": 268
+        }
+      ],
+      "title": "Certifications | Modina Rim & Parts Ltd. — ISO 9001, 14001, 45001",
+      "passed": true
+    },
+    {
+      "route": "/gallery",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "headings": [
+        {
+          "text": "GALLERY",
+          "size": "40px",
+          "lineHeight": "46px",
+          "width": 167.5,
+          "scrollWidth": 168
+        }
+      ],
+      "title": "Gallery | Modina Rim & Parts Ltd. — Factory Tour",
+      "passed": true
+    },
+    {
+      "route": "/",
+      "lang": "en",
+      "width": 430,
+      "scrollWidth": 430,
+      "headings": [
+        {
+          "text": "EngineeringExcellence",
+          "size": "53.75px",
+          "lineHeight": "51.0625px",
+          "width": 382,
+          "scrollWidth": 382
+        }
+      ],
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer — Bangladesh",
+      "passed": true
+    },
+    {
+      "route": "/about",
+      "lang": "en",
+      "width": 430,
+      "scrollWidth": 430,
+      "headings": [
+        {
+          "text": "Our Story",
+          "size": "40px",
+          "lineHeight": "46px",
+          "width": 222.234375,
+          "scrollWidth": 222
+        }
+      ],
+      "title": "About Us | Modina Rim & Parts Ltd. — Since 2010, Jashore Bangladesh",
+      "passed": true
+    },
+    {
+      "route": "/mission",
+      "lang": "en",
+      "width": 430,
+      "scrollWidth": 430,
+      "headings": [
+        {
+          "text": "OUR MISSION",
+          "size": "40px",
+          "lineHeight": "46px",
+          "width": 257.15625,
+          "scrollWidth": 257
+        }
+      ],
+      "title": "Our Mission & Values | Modina Rim & Parts Ltd.",
+      "passed": true
+    },
+    {
+      "route": "/sustainability",
+      "lang": "en",
+      "width": 430,
+      "scrollWidth": 430,
+      "headings": [
+        {
+          "text": "SUSTAINABILITY",
+          "size": "40px",
+          "lineHeight": "46px",
+          "width": 305.859375,
+          "scrollWidth": 306
+        }
+      ],
+      "title": "Sustainability & CSR | Modina Rim & Parts Ltd.",
+      "passed": true
+    },
+    {
+      "route": "/quality",
+      "lang": "en",
+      "width": 430,
+      "scrollWidth": 430,
+      "headings": [
+        {
+          "text": "OUR QUALITY",
+          "size": "40px",
+          "lineHeight": "46px",
+          "width": 256.125,
+          "scrollWidth": 256
+        }
+      ],
+      "title": "Quality Assurance | Modina Rim & Parts Ltd. — ISO 9001:2015 Certified",
+      "passed": true
+    },
+    {
+      "route": "/certificates",
+      "lang": "en",
+      "width": 430,
+      "scrollWidth": 430,
+      "headings": [
+        {
+          "text": "CERTIFICATES",
+          "size": "40px",
+          "lineHeight": "46px",
+          "width": 267.78125,
+          "scrollWidth": 268
+        }
+      ],
+      "title": "Certifications | Modina Rim & Parts Ltd. — ISO 9001, 14001, 45001",
+      "passed": true
+    },
+    {
+      "route": "/gallery",
+      "lang": "en",
+      "width": 430,
+      "scrollWidth": 430,
+      "headings": [
+        {
+          "text": "GALLERY",
+          "size": "40px",
+          "lineHeight": "46px",
+          "width": 167.5,
+          "scrollWidth": 168
+        }
+      ],
+      "title": "Gallery | Modina Rim & Parts Ltd. — Factory Tour",
+      "passed": true
+    },
+    {
+      "route": "/",
+      "lang": "en",
+      "width": 768,
+      "scrollWidth": 768,
+      "headings": [
+        {
+          "text": "EngineeringExcellence",
+          "size": "84px",
+          "lineHeight": "79.8px",
+          "width": 536.796875,
+          "scrollWidth": 540
+        }
+      ],
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer — Bangladesh",
+      "passed": true
+    },
+    {
+      "route": "/about",
+      "lang": "en",
+      "width": 768,
+      "scrollWidth": 768,
+      "headings": [
+        {
+          "text": "Our Story",
+          "size": "46.08px",
+          "lineHeight": "52.992px",
+          "width": 256.015625,
+          "scrollWidth": 256
+        }
+      ],
+      "title": "About Us | Modina Rim & Parts Ltd. — Since 2010, Jashore Bangladesh",
+      "passed": true
+    },
+    {
+      "route": "/mission",
+      "lang": "en",
+      "width": 768,
+      "scrollWidth": 768,
+      "headings": [
+        {
+          "text": "OUR MISSION",
+          "size": "46.08px",
+          "lineHeight": "52.992px",
+          "width": 296.296875,
+          "scrollWidth": 296
+        }
+      ],
+      "title": "Our Mission & Values | Modina Rim & Parts Ltd.",
+      "passed": true
+    },
+    {
+      "route": "/sustainability",
+      "lang": "en",
+      "width": 768,
+      "scrollWidth": 768,
+      "headings": [
+        {
+          "text": "SUSTAINABILITY",
+          "size": "46.08px",
+          "lineHeight": "52.992px",
+          "width": 352.390625,
+          "scrollWidth": 352
+        }
+      ],
+      "title": "Sustainability & CSR | Modina Rim & Parts Ltd.",
+      "passed": true
+    },
+    {
+      "route": "/quality",
+      "lang": "en",
+      "width": 768,
+      "scrollWidth": 768,
+      "headings": [
+        {
+          "text": "OUR QUALITY",
+          "size": "46.08px",
+          "lineHeight": "52.992px",
+          "width": 295.0625,
+          "scrollWidth": 295
+        }
+      ],
+      "title": "Quality Assurance | Modina Rim & Parts Ltd. — ISO 9001:2015 Certified",
+      "passed": true
+    },
+    {
+      "route": "/certificates",
+      "lang": "en",
+      "width": 768,
+      "scrollWidth": 768,
+      "headings": [
+        {
+          "text": "CERTIFICATES",
+          "size": "46.08px",
+          "lineHeight": "52.992px",
+          "width": 308.484375,
+          "scrollWidth": 308
+        }
+      ],
+      "title": "Certifications | Modina Rim & Parts Ltd. — ISO 9001, 14001, 45001",
+      "passed": true
+    },
+    {
+      "route": "/gallery",
+      "lang": "en",
+      "width": 768,
+      "scrollWidth": 768,
+      "headings": [
+        {
+          "text": "GALLERY",
+          "size": "46.08px",
+          "lineHeight": "52.992px",
+          "width": 192.953125,
+          "scrollWidth": 193
+        }
+      ],
+      "title": "Gallery | Modina Rim & Parts Ltd. — Factory Tour",
+      "passed": true
+    },
+    {
+      "route": "/",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headings": [
+        {
+          "text": "EngineeringExcellence",
+          "size": "84px",
+          "lineHeight": "79.8px",
+          "width": 536.796875,
+          "scrollWidth": 540
+        }
+      ],
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer — Bangladesh",
+      "passed": true
+    },
+    {
+      "route": "/about",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headings": [
+        {
+          "text": "Our Story",
+          "size": "72px",
+          "lineHeight": "82.8px",
+          "width": 399.984375,
+          "scrollWidth": 400
+        }
+      ],
+      "title": "About Us | Modina Rim & Parts Ltd. — Since 2010, Jashore Bangladesh",
+      "passed": true
+    },
+    {
+      "route": "/mission",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headings": [
+        {
+          "text": "OUR MISSION",
+          "size": "72px",
+          "lineHeight": "82.8px",
+          "width": 462.890625,
+          "scrollWidth": 463
+        }
+      ],
+      "title": "Our Mission & Values | Modina Rim & Parts Ltd.",
+      "passed": true
+    },
+    {
+      "route": "/sustainability",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headings": [
+        {
+          "text": "SUSTAINABILITY",
+          "size": "72px",
+          "lineHeight": "82.8px",
+          "width": 550.515625,
+          "scrollWidth": 551
+        }
+      ],
+      "title": "Sustainability & CSR | Modina Rim & Parts Ltd.",
+      "passed": true
+    },
+    {
+      "route": "/quality",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headings": [
+        {
+          "text": "OUR QUALITY",
+          "size": "72px",
+          "lineHeight": "82.8px",
+          "width": 460.984375,
+          "scrollWidth": 461
+        }
+      ],
+      "title": "Quality Assurance | Modina Rim & Parts Ltd. — ISO 9001:2015 Certified",
+      "passed": true
+    },
+    {
+      "route": "/certificates",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headings": [
+        {
+          "text": "CERTIFICATES",
+          "size": "72px",
+          "lineHeight": "82.8px",
+          "width": 481.953125,
+          "scrollWidth": 482
+        }
+      ],
+      "title": "Certifications | Modina Rim & Parts Ltd. — ISO 9001, 14001, 45001",
+      "passed": true
+    },
+    {
+      "route": "/gallery",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headings": [
+        {
+          "text": "GALLERY",
+          "size": "72px",
+          "lineHeight": "82.8px",
+          "width": 301.453125,
+          "scrollWidth": 301
+        }
+      ],
+      "title": "Gallery | Modina Rim & Parts Ltd. — Factory Tour",
+      "passed": true
+    },
+    {
+      "route": "/",
+      "lang": "bn",
+      "width": 320,
+      "scrollWidth": 320,
+      "headings": [
+        {
+          "text": "প্রকৌশলগতউৎকর্ষ",
+          "size": "40px",
+          "lineHeight": "38px",
+          "width": 272,
+          "scrollWidth": 272
+        }
+      ],
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer — Bangladesh",
+      "passed": true
+    },
+    {
+      "route": "/about",
+      "lang": "bn",
+      "width": 320,
+      "scrollWidth": 320,
+      "headings": [
+        {
+          "text": "আমাদের গল্প",
+          "size": "40px",
+          "lineHeight": "56px",
+          "width": 257.25,
+          "scrollWidth": 257
+        }
+      ],
+      "title": "About Us | Modina Rim & Parts Ltd. — Since 2010, Jashore Bangladesh",
+      "passed": true
+    },
+    {
+      "route": "/mission",
+      "lang": "bn",
+      "width": 320,
+      "scrollWidth": 320,
+      "headings": [
+        {
+          "text": "OUR MISSION",
+          "size": "40px",
+          "lineHeight": "56px",
+          "width": 226.0625,
+          "scrollWidth": 226
+        }
+      ],
+      "title": "Our Mission & Values | Modina Rim & Parts Ltd.",
+      "passed": true
+    },
+    {
+      "route": "/sustainability",
+      "lang": "bn",
+      "width": 320,
+      "scrollWidth": 320,
+      "headings": [
+        {
+          "text": "SUSTAINABILITY",
+          "size": "40px",
+          "lineHeight": "56px",
+          "width": 272,
+          "scrollWidth": 272
+        }
+      ],
+      "title": "Sustainability & CSR | Modina Rim & Parts Ltd.",
+      "passed": true
+    },
+    {
+      "route": "/quality",
+      "lang": "bn",
+      "width": 320,
+      "scrollWidth": 320,
+      "headings": [
+        {
+          "text": "OUR QUALITY",
+          "size": "40px",
+          "lineHeight": "56px",
+          "width": 235.328125,
+          "scrollWidth": 235
+        }
+      ],
+      "title": "Quality Assurance | Modina Rim & Parts Ltd. — ISO 9001:2015 Certified",
+      "passed": true
+    },
+    {
+      "route": "/certificates",
+      "lang": "bn",
+      "width": 320,
+      "scrollWidth": 320,
+      "headings": [
+        {
+          "text": "CERTIFICATES",
+          "size": "40px",
+          "lineHeight": "56px",
+          "width": 234.15625,
+          "scrollWidth": 234
+        }
+      ],
+      "title": "Certifications | Modina Rim & Parts Ltd. — ISO 9001, 14001, 45001",
+      "passed": true
+    },
+    {
+      "route": "/gallery",
+      "lang": "bn",
+      "width": 320,
+      "scrollWidth": 320,
+      "headings": [
+        {
+          "text": "GALLERY",
+          "size": "40px",
+          "lineHeight": "56px",
+          "width": 151.1875,
+          "scrollWidth": 151
+        }
+      ],
+      "title": "Gallery | Modina Rim & Parts Ltd. — Factory Tour",
+      "passed": true
+    },
+    {
+      "route": "/",
+      "lang": "bn",
+      "width": 360,
+      "scrollWidth": 360,
+      "headings": [
+        {
+          "text": "প্রকৌশলগতউৎকর্ষ",
+          "size": "45px",
+          "lineHeight": "42.75px",
+          "width": 312,
+          "scrollWidth": 312
+        }
+      ],
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer — Bangladesh",
+      "passed": true
+    },
+    {
+      "route": "/about",
+      "lang": "bn",
+      "width": 360,
+      "scrollWidth": 360,
+      "headings": [
+        {
+          "text": "আমাদের গল্প",
+          "size": "40px",
+          "lineHeight": "56px",
+          "width": 257.25,
+          "scrollWidth": 257
+        }
+      ],
+      "title": "About Us | Modina Rim & Parts Ltd. — Since 2010, Jashore Bangladesh",
+      "passed": true
+    },
+    {
+      "route": "/mission",
+      "lang": "bn",
+      "width": 360,
+      "scrollWidth": 360,
+      "headings": [
+        {
+          "text": "OUR MISSION",
+          "size": "40px",
+          "lineHeight": "56px",
+          "width": 226.0625,
+          "scrollWidth": 226
+        }
+      ],
+      "title": "Our Mission & Values | Modina Rim & Parts Ltd.",
+      "passed": true
+    },
+    {
+      "route": "/sustainability",
+      "lang": "bn",
+      "width": 360,
+      "scrollWidth": 360,
+      "headings": [
+        {
+          "text": "SUSTAINABILITY",
+          "size": "40px",
+          "lineHeight": "56px",
+          "width": 285.390625,
+          "scrollWidth": 285
+        }
+      ],
+      "title": "Sustainability & CSR | Modina Rim & Parts Ltd.",
+      "passed": true
+    },
+    {
+      "route": "/quality",
+      "lang": "bn",
+      "width": 360,
+      "scrollWidth": 360,
+      "headings": [
+        {
+          "text": "OUR QUALITY",
+          "size": "40px",
+          "lineHeight": "56px",
+          "width": 235.328125,
+          "scrollWidth": 235
+        }
+      ],
+      "title": "Quality Assurance | Modina Rim & Parts Ltd. — ISO 9001:2015 Certified",
+      "passed": true
+    },
+    {
+      "route": "/certificates",
+      "lang": "bn",
+      "width": 360,
+      "scrollWidth": 360,
+      "headings": [
+        {
+          "text": "CERTIFICATES",
+          "size": "40px",
+          "lineHeight": "56px",
+          "width": 234.15625,
+          "scrollWidth": 234
+        }
+      ],
+      "title": "Certifications | Modina Rim & Parts Ltd. — ISO 9001, 14001, 45001",
+      "passed": true
+    },
+    {
+      "route": "/gallery",
+      "lang": "bn",
+      "width": 360,
+      "scrollWidth": 360,
+      "headings": [
+        {
+          "text": "GALLERY",
+          "size": "40px",
+          "lineHeight": "56px",
+          "width": 151.1875,
+          "scrollWidth": 151
+        }
+      ],
+      "title": "Gallery | Modina Rim & Parts Ltd. — Factory Tour",
+      "passed": true
+    },
+    {
+      "route": "/",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "headings": [
+        {
+          "text": "প্রকৌশলগতউৎকর্ষ",
+          "size": "48.75px",
+          "lineHeight": "46.3125px",
+          "width": 342,
+          "scrollWidth": 342
+        }
+      ],
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer — Bangladesh",
+      "passed": true
+    },
+    {
+      "route": "/about",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "headings": [
+        {
+          "text": "আমাদের গল্প",
+          "size": "40px",
+          "lineHeight": "56px",
+          "width": 257.25,
+          "scrollWidth": 257
+        }
+      ],
+      "title": "About Us | Modina Rim & Parts Ltd. — Since 2010, Jashore Bangladesh",
+      "passed": true
+    },
+    {
+      "route": "/mission",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "headings": [
+        {
+          "text": "OUR MISSION",
+          "size": "40px",
+          "lineHeight": "56px",
+          "width": 226.0625,
+          "scrollWidth": 226
+        }
+      ],
+      "title": "Our Mission & Values | Modina Rim & Parts Ltd.",
+      "passed": true
+    },
+    {
+      "route": "/sustainability",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "headings": [
+        {
+          "text": "SUSTAINABILITY",
+          "size": "40px",
+          "lineHeight": "56px",
+          "width": 285.390625,
+          "scrollWidth": 285
+        }
+      ],
+      "title": "Sustainability & CSR | Modina Rim & Parts Ltd.",
+      "passed": true
+    },
+    {
+      "route": "/quality",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "headings": [
+        {
+          "text": "OUR QUALITY",
+          "size": "40px",
+          "lineHeight": "56px",
+          "width": 235.328125,
+          "scrollWidth": 235
+        }
+      ],
+      "title": "Quality Assurance | Modina Rim & Parts Ltd. — ISO 9001:2015 Certified",
+      "passed": true
+    },
+    {
+      "route": "/certificates",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "headings": [
+        {
+          "text": "CERTIFICATES",
+          "size": "40px",
+          "lineHeight": "56px",
+          "width": 234.15625,
+          "scrollWidth": 234
+        }
+      ],
+      "title": "Certifications | Modina Rim & Parts Ltd. — ISO 9001, 14001, 45001",
+      "passed": true
+    },
+    {
+      "route": "/gallery",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "headings": [
+        {
+          "text": "GALLERY",
+          "size": "40px",
+          "lineHeight": "56px",
+          "width": 151.1875,
+          "scrollWidth": 151
+        }
+      ],
+      "title": "Gallery | Modina Rim & Parts Ltd. — Factory Tour",
+      "passed": true
+    },
+    {
+      "route": "/",
+      "lang": "bn",
+      "width": 430,
+      "scrollWidth": 430,
+      "headings": [
+        {
+          "text": "প্রকৌশলগতউৎকর্ষ",
+          "size": "53.75px",
+          "lineHeight": "51.0625px",
+          "width": 382,
+          "scrollWidth": 382
+        }
+      ],
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer — Bangladesh",
+      "passed": true
+    },
+    {
+      "route": "/about",
+      "lang": "bn",
+      "width": 430,
+      "scrollWidth": 430,
+      "headings": [
+        {
+          "text": "আমাদের গল্প",
+          "size": "40px",
+          "lineHeight": "56px",
+          "width": 257.25,
+          "scrollWidth": 257
+        }
+      ],
+      "title": "About Us | Modina Rim & Parts Ltd. — Since 2010, Jashore Bangladesh",
+      "passed": true
+    },
+    {
+      "route": "/mission",
+      "lang": "bn",
+      "width": 430,
+      "scrollWidth": 430,
+      "headings": [
+        {
+          "text": "OUR MISSION",
+          "size": "40px",
+          "lineHeight": "56px",
+          "width": 226.0625,
+          "scrollWidth": 226
+        }
+      ],
+      "title": "Our Mission & Values | Modina Rim & Parts Ltd.",
+      "passed": true
+    },
+    {
+      "route": "/sustainability",
+      "lang": "bn",
+      "width": 430,
+      "scrollWidth": 430,
+      "headings": [
+        {
+          "text": "SUSTAINABILITY",
+          "size": "40px",
+          "lineHeight": "56px",
+          "width": 285.390625,
+          "scrollWidth": 285
+        }
+      ],
+      "title": "Sustainability & CSR | Modina Rim & Parts Ltd.",
+      "passed": true
+    },
+    {
+      "route": "/quality",
+      "lang": "bn",
+      "width": 430,
+      "scrollWidth": 430,
+      "headings": [
+        {
+          "text": "OUR QUALITY",
+          "size": "40px",
+          "lineHeight": "56px",
+          "width": 235.328125,
+          "scrollWidth": 235
+        }
+      ],
+      "title": "Quality Assurance | Modina Rim & Parts Ltd. — ISO 9001:2015 Certified",
+      "passed": true
+    },
+    {
+      "route": "/certificates",
+      "lang": "bn",
+      "width": 430,
+      "scrollWidth": 430,
+      "headings": [
+        {
+          "text": "CERTIFICATES",
+          "size": "40px",
+          "lineHeight": "56px",
+          "width": 234.15625,
+          "scrollWidth": 234
+        }
+      ],
+      "title": "Certifications | Modina Rim & Parts Ltd. — ISO 9001, 14001, 45001",
+      "passed": true
+    },
+    {
+      "route": "/gallery",
+      "lang": "bn",
+      "width": 430,
+      "scrollWidth": 430,
+      "headings": [
+        {
+          "text": "GALLERY",
+          "size": "40px",
+          "lineHeight": "56px",
+          "width": 151.1875,
+          "scrollWidth": 151
+        }
+      ],
+      "title": "Gallery | Modina Rim & Parts Ltd. — Factory Tour",
+      "passed": true
+    },
+    {
+      "route": "/",
+      "lang": "bn",
+      "width": 768,
+      "scrollWidth": 768,
+      "headings": [
+        {
+          "text": "প্রকৌশলগতউৎকর্ষ",
+          "size": "84px",
+          "lineHeight": "79.8px",
+          "width": 512,
+          "scrollWidth": 512
+        }
+      ],
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer — Bangladesh",
+      "passed": true
+    },
+    {
+      "route": "/about",
+      "lang": "bn",
+      "width": 768,
+      "scrollWidth": 768,
+      "headings": [
+        {
+          "text": "আমাদের গল্প",
+          "size": "46.08px",
+          "lineHeight": "64.512px",
+          "width": 296.34375,
+          "scrollWidth": 296
+        }
+      ],
+      "title": "About Us | Modina Rim & Parts Ltd. — Since 2010, Jashore Bangladesh",
+      "passed": true
+    },
+    {
+      "route": "/mission",
+      "lang": "bn",
+      "width": 768,
+      "scrollWidth": 768,
+      "headings": [
+        {
+          "text": "OUR MISSION",
+          "size": "46.08px",
+          "lineHeight": "64.512px",
+          "width": 260.4375,
+          "scrollWidth": 260
+        }
+      ],
+      "title": "Our Mission & Values | Modina Rim & Parts Ltd.",
+      "passed": true
+    },
+    {
+      "route": "/sustainability",
+      "lang": "bn",
+      "width": 768,
+      "scrollWidth": 768,
+      "headings": [
+        {
+          "text": "SUSTAINABILITY",
+          "size": "46.08px",
+          "lineHeight": "64.512px",
+          "width": 328.75,
+          "scrollWidth": 329
+        }
+      ],
+      "title": "Sustainability & CSR | Modina Rim & Parts Ltd.",
+      "passed": true
+    },
+    {
+      "route": "/quality",
+      "lang": "bn",
+      "width": 768,
+      "scrollWidth": 768,
+      "headings": [
+        {
+          "text": "OUR QUALITY",
+          "size": "46.08px",
+          "lineHeight": "64.512px",
+          "width": 271.0625,
+          "scrollWidth": 271
+        }
+      ],
+      "title": "Quality Assurance | Modina Rim & Parts Ltd. — ISO 9001:2015 Certified",
+      "passed": true
+    },
+    {
+      "route": "/certificates",
+      "lang": "bn",
+      "width": 768,
+      "scrollWidth": 768,
+      "headings": [
+        {
+          "text": "CERTIFICATES",
+          "size": "46.08px",
+          "lineHeight": "64.512px",
+          "width": 269.75,
+          "scrollWidth": 270
+        }
+      ],
+      "title": "Certifications | Modina Rim & Parts Ltd. — ISO 9001, 14001, 45001",
+      "passed": true
+    },
+    {
+      "route": "/gallery",
+      "lang": "bn",
+      "width": 768,
+      "scrollWidth": 768,
+      "headings": [
+        {
+          "text": "GALLERY",
+          "size": "46.08px",
+          "lineHeight": "64.512px",
+          "width": 174.140625,
+          "scrollWidth": 174
+        }
+      ],
+      "title": "Gallery | Modina Rim & Parts Ltd. — Factory Tour",
+      "passed": true
+    },
+    {
+      "route": "/",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headings": [
+        {
+          "text": "প্রকৌশলগতউৎকর্ষ",
+          "size": "84px",
+          "lineHeight": "79.8px",
+          "width": 512,
+          "scrollWidth": 512
+        }
+      ],
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer — Bangladesh",
+      "passed": true
+    },
+    {
+      "route": "/about",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headings": [
+        {
+          "text": "আমাদের গল্প",
+          "size": "72px",
+          "lineHeight": "100.8px",
+          "width": 463.015625,
+          "scrollWidth": 463
+        }
+      ],
+      "title": "About Us | Modina Rim & Parts Ltd. — Since 2010, Jashore Bangladesh",
+      "passed": true
+    },
+    {
+      "route": "/mission",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headings": [
+        {
+          "text": "OUR MISSION",
+          "size": "72px",
+          "lineHeight": "100.8px",
+          "width": 406.890625,
+          "scrollWidth": 407
+        }
+      ],
+      "title": "Our Mission & Values | Modina Rim & Parts Ltd.",
+      "passed": true
+    },
+    {
+      "route": "/sustainability",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headings": [
+        {
+          "text": "SUSTAINABILITY",
+          "size": "72px",
+          "lineHeight": "100.8px",
+          "width": 513.640625,
+          "scrollWidth": 514
+        }
+      ],
+      "title": "Sustainability & CSR | Modina Rim & Parts Ltd.",
+      "passed": true
+    },
+    {
+      "route": "/quality",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headings": [
+        {
+          "text": "OUR QUALITY",
+          "size": "72px",
+          "lineHeight": "100.8px",
+          "width": 423.5,
+          "scrollWidth": 424
+        }
+      ],
+      "title": "Quality Assurance | Modina Rim & Parts Ltd. — ISO 9001:2015 Certified",
+      "passed": true
+    },
+    {
+      "route": "/certificates",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headings": [
+        {
+          "text": "CERTIFICATES",
+          "size": "72px",
+          "lineHeight": "100.8px",
+          "width": 421.453125,
+          "scrollWidth": 421
+        }
+      ],
+      "title": "Certifications | Modina Rim & Parts Ltd. — ISO 9001, 14001, 45001",
+      "passed": true
+    },
+    {
+      "route": "/gallery",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headings": [
+        {
+          "text": "GALLERY",
+          "size": "72px",
+          "lineHeight": "100.8px",
+          "width": 272.0625,
+          "scrollWidth": 272
+        }
+      ],
+      "title": "Gallery | Modina Rim & Parts Ltd. — Factory Tour",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "blocked": [
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    }
+  ],
+  "screenshots": [
+    "group2-home-390-en-hero.png",
+    "group2-home-390-en-content.png",
+    "group2-about-390-en-hero.png",
+    "group2-about-390-en-content.png",
+    "group2-mission-390-en-hero.png",
+    "group2-mission-390-en-content.png",
+    "group2-sustainability-390-en-hero.png",
+    "group2-sustainability-390-en-content.png",
+    "group2-quality-390-en-hero.png",
+    "group2-quality-390-en-content.png",
+    "group2-certificates-390-en-hero.png",
+    "group2-certificates-390-en-content.png",
+    "group2-gallery-390-en-hero.png",
+    "group2-gallery-390-en-content.png",
+    "group2-home-1440-en-hero.png",
+    "group2-home-1440-en-content.png",
+    "group2-about-1440-en-hero.png",
+    "group2-about-1440-en-content.png",
+    "group2-mission-1440-en-hero.png",
+    "group2-mission-1440-en-content.png",
+    "group2-sustainability-1440-en-hero.png",
+    "group2-sustainability-1440-en-content.png",
+    "group2-quality-1440-en-hero.png",
+    "group2-quality-1440-en-content.png",
+    "group2-certificates-1440-en-hero.png",
+    "group2-certificates-1440-en-content.png",
+    "group2-gallery-1440-en-hero.png",
+    "group2-gallery-1440-en-content.png",
+    "group2-home-390-bn-hero.png",
+    "group2-home-390-bn-content.png",
+    "group2-about-390-bn-hero.png",
+    "group2-about-390-bn-content.png",
+    "group2-mission-390-bn-hero.png",
+    "group2-mission-390-bn-content.png",
+    "group2-sustainability-390-bn-hero.png",
+    "group2-sustainability-390-bn-content.png",
+    "group2-quality-390-bn-hero.png",
+    "group2-quality-390-bn-content.png",
+    "group2-certificates-390-bn-hero.png",
+    "group2-certificates-390-bn-content.png",
+    "group2-gallery-390-bn-hero.png",
+    "group2-gallery-390-bn-content.png",
+    "group2-home-1440-bn-hero.png",
+    "group2-home-1440-bn-content.png",
+    "group2-about-1440-bn-hero.png",
+    "group2-about-1440-bn-content.png",
+    "group2-mission-1440-bn-hero.png",
+    "group2-mission-1440-bn-content.png",
+    "group2-sustainability-1440-bn-hero.png",
+    "group2-sustainability-1440-bn-content.png",
+    "group2-quality-1440-bn-hero.png",
+    "group2-quality-1440-bn-content.png",
+    "group2-certificates-1440-bn-hero.png",
+    "group2-certificates-1440-bn-content.png",
+    "group2-gallery-1440-bn-hero.png",
+    "group2-gallery-1440-bn-content.png"
+  ],
+  "visibility": [
+    {
+      "route": "/",
+      "width": 390,
+      "lang": "en",
+      "hidden": []
+    },
+    {
+      "route": "/about",
+      "width": 390,
+      "lang": "en",
+      "hidden": []
+    },
+    {
+      "route": "/mission",
+      "width": 390,
+      "lang": "en",
+      "hidden": []
+    },
+    {
+      "route": "/sustainability",
+      "width": 390,
+      "lang": "en",
+      "hidden": []
+    },
+    {
+      "route": "/quality",
+      "width": 390,
+      "lang": "en",
+      "hidden": []
+    },
+    {
+      "route": "/certificates",
+      "width": 390,
+      "lang": "en",
+      "hidden": []
+    },
+    {
+      "route": "/gallery",
+      "width": 390,
+      "lang": "en",
+      "hidden": []
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "lang": "en",
+      "hidden": []
+    },
+    {
+      "route": "/about",
+      "width": 1440,
+      "lang": "en",
+      "hidden": []
+    },
+    {
+      "route": "/mission",
+      "width": 1440,
+      "lang": "en",
+      "hidden": []
+    },
+    {
+      "route": "/sustainability",
+      "width": 1440,
+      "lang": "en",
+      "hidden": []
+    },
+    {
+      "route": "/quality",
+      "width": 1440,
+      "lang": "en",
+      "hidden": []
+    },
+    {
+      "route": "/certificates",
+      "width": 1440,
+      "lang": "en",
+      "hidden": []
+    },
+    {
+      "route": "/gallery",
+      "width": 1440,
+      "lang": "en",
+      "hidden": []
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "lang": "bn",
+      "hidden": []
+    },
+    {
+      "route": "/about",
+      "width": 390,
+      "lang": "bn",
+      "hidden": []
+    },
+    {
+      "route": "/mission",
+      "width": 390,
+      "lang": "bn",
+      "hidden": []
+    },
+    {
+      "route": "/sustainability",
+      "width": 390,
+      "lang": "bn",
+      "hidden": []
+    },
+    {
+      "route": "/quality",
+      "width": 390,
+      "lang": "bn",
+      "hidden": []
+    },
+    {
+      "route": "/certificates",
+      "width": 390,
+      "lang": "bn",
+      "hidden": []
+    },
+    {
+      "route": "/gallery",
+      "width": 390,
+      "lang": "bn",
+      "hidden": []
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "lang": "bn",
+      "hidden": []
+    },
+    {
+      "route": "/about",
+      "width": 1440,
+      "lang": "bn",
+      "hidden": []
+    },
+    {
+      "route": "/mission",
+      "width": 1440,
+      "lang": "bn",
+      "hidden": []
+    },
+    {
+      "route": "/sustainability",
+      "width": 1440,
+      "lang": "bn",
+      "hidden": []
+    },
+    {
+      "route": "/quality",
+      "width": 1440,
+      "lang": "bn",
+      "hidden": []
+    },
+    {
+      "route": "/certificates",
+      "width": 1440,
+      "lang": "bn",
+      "hidden": []
+    },
+    {
+      "route": "/gallery",
+      "width": 1440,
+      "lang": "bn",
+      "hidden": []
+    }
+  ],
+  "browser": "156.0.8078.48",
+  "completed": true,
+  "teardown": {
+    "normal": false,
+    "connected": false,
+    "bounded": true
+  },
+  "serverStopped": true
+}

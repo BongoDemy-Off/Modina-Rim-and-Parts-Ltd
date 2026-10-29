@@ -1,0 +1,6 @@
+after-tablet en 768 /
+after-tablet en 768 /products
+after-tablet en 768 /contact
+after-tablet en 768 /careers
+after-tablet en 768 /gallery
+RESULT 5 0 failed

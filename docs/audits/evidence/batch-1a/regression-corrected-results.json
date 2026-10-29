@@ -1,0 +1,67 @@
+{
+  "baseURL": "http://127.0.0.1:4181",
+  "browser": "156.0.8078.48",
+  "cases": [
+    {
+      "name": "en/1024/products",
+      "passed": false,
+      "error": "locator.click: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.card-premium').first().getByRole('button', { name: 'Next image', exact: true })\u001b[22m\n\u001b[2m    - locator resolved to <button type=\"button\" aria-label=\"Next image\" class=\"absolute right-2 sm:right-3 top-1/2 -translate-y-1/2 w-11 h-11 rounded-full bg-white/90 backdrop-blur border border-modina-border/50 text-modina-heading flex items-center justify-center shadow-sm opacity-100 transition-all duration-300 hover:bg-white hover:text-modina-red z-10 lg:opacity-0 lg:group-hover/carousel:opacity-100 lg:focus:opacity-100\">…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - performing click action\u001b[22m\n\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a\\regression.cjs:108:81\n    at async test (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a\\regression.cjs:15:9)\n    at async C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a\\regression.cjs:88:10"
+    },
+    {
+      "name": "en/1440/careers",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: Close outside viewport: {\"x\":1630.020751953125,\"y\":20,\"width\":80.9375,\"height\":44}\n    at modalChecks (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a\\regression.cjs:64:10)\n    at async C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a\\regression.cjs:116:11\n    at async test (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a\\regression.cjs:15:9)\n    at async C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a\\regression.cjs:88:10"
+    },
+    {
+      "name": "radius-and-admin-isolation",
+      "passed": true
+    }
+  ],
+  "console": [
+    {
+      "type": "console",
+      "lang": "en",
+      "width": 1024,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "en",
+      "width": 1024,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "en",
+      "width": 1440,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "en",
+      "width": 1440,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    }
+  ],
+  "axe": [],
+  "geometry": [
+    {
+      "lang": "en",
+      "route": "products",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "headerHeight": 72
+    },
+    {
+      "lang": "en",
+      "route": "careers",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headerHeight": 71.71875
+    }
+  ],
+  "teardown": {
+    "graceful": false,
+    "ownedBrowserPid": 17036
+  }
+}

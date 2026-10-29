@@ -1,0 +1,90 @@
+{
+  "mode": "group4-final",
+  "base": "http://127.0.0.1:4199",
+  "states": [
+    {
+      "route": "/about",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "About Us | Modina Rim & Parts Ltd. — Since 2010, Jashore Bangladesh",
+      "targets": [
+        {
+          "text": "Engineering Reliability Since 2010",
+          "top": 890
+        },
+        {
+          "text": "Our Journey",
+          "top": 1670
+        },
+        {
+          "text": "Mission & Values",
+          "top": 2269
+        },
+        {
+          "text": "State of the Art Facility",
+          "top": 4566
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/mission",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Our Mission & Values | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Engineering Trust. Delivering Excellence.",
+          "top": 976
+        },
+        {
+          "text": "Core Values",
+          "top": 2274
+        },
+        {
+          "text": "Built on Conviction.",
+          "top": 5529
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 6291
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "captures": [
+    "group4-final-about-390-en-hero.png",
+    {
+      "file": "group4-final-about-390-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          24,
+          383.5,
+          342,
+          77
+        ],
+        "images": true
+      }
+    },
+    "group4-final-mission-390-en-hero.png",
+    {
+      "file": "group4-final-mission-390-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          40,
+          364,
+          310,
+          115
+        ],
+        "images": true
+      }
+    }
+  ],
+  "browser": "156.0.8078.49"
+}

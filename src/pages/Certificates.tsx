@@ -1,3 +1,4 @@
+import PublicScroller from '../components/PublicScroller';
 import React, { useRef } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { motion, useInView } from 'motion/react';
@@ -45,7 +46,6 @@ const milestonesData = [
   { year: "2024", title: "21-Product Line", desc: "Expanded full catalogue to 21 SKUs across motorcycle components, rims, and hardware categories." }
 ];
 
-const yearOpacity = [1, 0.55, 0.38, 0.25, 0.16];
 
 export default function Certificates() {
   const letters = "CERTIFICATES".split("");
@@ -63,7 +63,7 @@ export default function Certificates() {
   const ctaInView = useInView(ctaRef, { once: true, margin: '-60px' });
 
   return (
-    <div className="min-h-screen bg-modina-bg text-modina-text pt-[112px] sm:pt-[72px]">
+    <div className="min-h-screen bg-modina-bg text-modina-text pt-[112px] sm:pt-[72px] public-page">
       <Helmet>
         <title>Certifications | Modina Rim &amp; Parts Ltd. — ISO 9001, 14001, 45001</title>
         <meta name="description" content="Modina Rim &amp; Parts Ltd. holds ISO 9001:2015, ISO 14001:2015, and ISO 45001:2018 certifications issued by LMS Certification Limited, April 2023. View original certificate documents." />
@@ -73,8 +73,8 @@ export default function Certificates() {
       </Helmet>
 
       {/* SECTION 1 — HERO */}
-      <section className="w-full py-20 lg:py-28 flex flex-col items-center text-center bg-modina-bg">
-        <div className="text-modina-red text-xs font-bold tracking-widest uppercase flex items-center gap-2 justify-center mb-10">
+      <section className="w-full public-story-hero flex flex-col items-center text-center bg-modina-bg">
+        <div className="text-modina-red text-xs font-bold tracking-widest uppercase flex items-center gap-2 justify-center mb-10 public-breadcrumb">
           <Link to="/" className="hover:text-modina-heading transition-all duration-300 ease-in-out text-modina-muted">Home</Link>
           <ChevronRight className="w-2.5 h-2.5 text-modina-subtle" />
           <span className="text-modina-muted">Certificates</span>
@@ -82,7 +82,7 @@ export default function Certificates() {
 
         <div className="w-24 h-[2px] bg-modina-red mx-auto mb-10" />
 
-        <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-[9rem] font-display font-bold tracking-tight text-modina-heading uppercase leading-none flex items-center justify-center flex-wrap">
+        <h1 className="font-display font-bold tracking-tight text-modina-heading uppercase leading-none flex items-center justify-center flex-wrap public-hero-title">
           {letters.map((letter, i) => (
             letter === " " ? (
               <span key={i} className="w-[0.3em]">&nbsp;</span>
@@ -107,7 +107,7 @@ export default function Certificates() {
           className="w-32 h-[1px] bg-modina-red mx-auto my-10"
         />
 
-        <p className="text-modina-red text-xs font-bold tracking-widest uppercase flex items-center justify-center flex-wrap gap-2">
+        <p className="text-modina-red text-xs font-bold tracking-widest uppercase flex items-center justify-center flex-wrap gap-2 public-meta">
           <span>Modina Rim &amp; Parts Ltd.</span>
           <span className="text-modina-red">·</span>
           <span>Certified Excellence</span>
@@ -120,17 +120,17 @@ export default function Certificates() {
         <div className="responsive-stat-strip grid w-full max-w-xl grid-cols-[1fr_auto_1fr_auto_1fr] items-center mx-auto">
           <div className="flex min-w-0 flex-col items-center px-1 sm:px-10 md:px-14">
             <span className="text-3xl md:text-4xl font-display font-bold text-modina-red">3+</span>
-            <span className="text-modina-muted text-xs font-bold tracking-widest uppercase mt-1">Certifications</span>
+            <span className="text-modina-muted text-xs font-bold tracking-widest uppercase mt-1 public-meta">Certifications</span>
           </div>
           <span className="w-[0.5px] h-8 bg-modina-divider" />
           <div className="flex min-w-0 flex-col items-center px-1 sm:px-10 md:px-14">
             <span className="text-3xl md:text-4xl font-display font-bold text-modina-red">2010</span>
-            <span className="text-modina-muted text-xs font-bold tracking-widest uppercase mt-1">Since</span>
+            <span className="text-modina-muted text-xs font-bold tracking-widest uppercase mt-1 public-meta">Since</span>
           </div>
           <span className="w-[0.5px] h-8 bg-modina-divider" />
           <div className="flex min-w-0 flex-col items-center px-1 sm:px-10 md:px-14">
             <span className="text-3xl md:text-4xl font-display font-bold text-modina-red">100%</span>
-            <span className="text-modina-muted text-xs font-bold tracking-widest uppercase mt-1">Compliant</span>
+            <span className="text-modina-muted text-xs font-bold tracking-widest uppercase mt-1 public-meta">Compliant</span>
           </div>
         </div>
 
@@ -146,13 +146,13 @@ export default function Certificates() {
             transition={{ duration: 0.9, ease: [0.16, 1, 0.3, 1] }}
             className="bg-white p-10 lg:p-16 flex flex-col justify-center"
           >
-            <p className="text-[180px] font-light text-modina-bg-alt leading-none select-none tracking-tight">
+            <p aria-hidden="true" className="text-[180px] font-light text-modina-bg-alt leading-none select-none tracking-tight">
               ★
             </p>
-            <p className="text-modina-red text-xs font-bold tracking-widest uppercase mt-2">
+            <p className="text-modina-red text-xs font-bold tracking-widest uppercase mt-2 public-meta">
               — Our Recognition
             </p>
-            <p className="text-modina-subtle text-xs font-bold tracking-widest uppercase mt-1">
+            <p className="text-modina-subtle text-xs font-bold tracking-widest uppercase mt-1 public-meta">
               Globally Verified Standards
             </p>
           </motion.div>
@@ -163,16 +163,16 @@ export default function Certificates() {
             transition={{ duration: 0.9, delay: 0.15, ease: [0.16, 1, 0.3, 1] }}
             className="bg-white p-10 lg:p-16 flex flex-col justify-center"
           >
-            <p className="text-modina-red text-xs font-bold tracking-widest uppercase mb-8">
+            <p className="text-modina-red text-xs font-bold tracking-widest uppercase mb-8 public-meta">
               — Why It Matters
             </p>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-modina-heading tracking-tight leading-tight mb-8">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-modina-heading tracking-tight leading-tight mb-8 public-section-title">
               Proof, Not a Promise
             </h2>
-            <p className="text-[14px] text-modina-muted font-light leading-relaxed max-w-lg mb-5">
+            <p className="text-[14px] text-modina-muted font-light leading-relaxed max-w-lg mb-5 public-body">
               Every certification we hold represents years of disciplined process improvement, rigorous auditing, and uncompromising commitment to international quality standards.
             </p>
-            <p className="text-[14px] text-modina-muted font-light leading-relaxed max-w-lg mb-5">
+            <p className="text-[14px] text-modina-muted font-light leading-relaxed max-w-lg mb-5 public-body">
               Our certifications are not marketing tools. They are independently verified evidence that Modina Rim &amp; Parts Ltd. manufactures to the highest global benchmarks consistently, year after year.
             </p>
             <Link to="/quality" className="inline-flex items-center gap-3 mt-4 text-modina-muted text-xs font-bold tracking-widest uppercase hover:text-modina-heading transition-all duration-300 ease-in-out">
@@ -184,15 +184,15 @@ export default function Certificates() {
       </section>
 
       {/* SECTION 3 — CERTIFICATE CARDS */}
-      <section className="w-full border-t border-modina-border py-20 lg:py-28 bg-modina-bg" ref={certsRef}>
-        <div className="container mx-auto px-6 md:px-12 lg:px-24 mb-16">
-          <p className="text-modina-red text-xs font-bold tracking-widest uppercase mb-4">— Our Certifications</p>
-          <h2 className="text-3xl md:text-4xl font-display font-bold text-modina-heading tracking-tight">
+      <section className="w-full border-t border-modina-border public-section bg-modina-bg" ref={certsRef}>
+        <div className="container-premium mb-16">
+          <p className="text-modina-red text-xs font-bold tracking-widest uppercase mb-4 public-meta">— Our Certifications</p>
+          <h2 className="text-3xl md:text-4xl font-display font-bold text-modina-heading tracking-tight public-section-title">
             Internationally Recognized
           </h2>
         </div>
 
-        <div className="container mx-auto px-6 md:px-12 lg:px-24 grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="container-premium grid grid-cols-1 md:grid-cols-3 gap-6">
           {certificatesData.map((cert, idx) => (
             <motion.div
               key={idx}
@@ -214,37 +214,37 @@ export default function Certificates() {
                   loading="lazy"
                 />
                 <div className="absolute top-4 right-4">
-                  <span className="text-modina-red text-xs font-bold tracking-widest uppercase border border-modina-red/40 bg-white/80 px-3 py-1 backdrop-blur-sm">
+                  <span className="text-modina-red text-xs font-bold tracking-widest uppercase border border-modina-red/40 bg-white/80 px-3 py-1 backdrop-blur-sm public-meta">
                     {cert.yearBadge}
                   </span>
                 </div>
               </div>
 
-              <div className="p-8 lg:p-10 flex flex-col flex-grow">
-                <p className="text-modina-red text-xs font-bold tracking-widest uppercase mb-4 mt-2">
+              <div className="p-6 sm:p-8 lg:p-10 flex flex-col flex-grow">
+                <p className="text-modina-red text-xs font-bold tracking-widest uppercase mb-4 mt-2 public-meta">
                   {cert.num}
                 </p>
-                <h3 className="text-2xl md:text-3xl font-display font-bold text-modina-heading tracking-tight mb-4">
+                <h3 className="text-2xl md:text-3xl font-display font-bold text-modina-heading tracking-tight mb-4 public-card-title">
                   {cert.title}
                 </h3>
                 <hr className="border-modina-divider mb-4" />
-                <p className="text-modina-subtle text-xs font-bold tracking-widest uppercase mb-1">
+                <p className="text-modina-subtle text-xs font-bold tracking-widest uppercase mb-1 public-meta">
                   Issued By
                 </p>
-                <p className="text-[12px] text-modina-muted font-light mb-1">
+                <p className="text-[12px] text-modina-muted font-light mb-1 public-body">
                   {cert.issuer}
                 </p>
-                <p className="text-modina-subtle text-xs tracking-widest uppercase mb-5">
+                <p className="text-modina-subtle text-xs tracking-widest uppercase mb-5 public-meta">
                   Cert No. {cert.certNo}
                 </p>
-                <p className="text-[14px] text-modina-muted font-light leading-relaxed flex-grow">
+                <p className="text-[14px] text-modina-muted font-light leading-relaxed flex-grow public-body">
                   {cert.desc}
                 </p>
                 <div className="mt-6 pt-4 border-t border-modina-divider flex items-center justify-between">
-                  <span className="text-modina-subtle text-xs font-bold tracking-widest uppercase">
+                  <span className="text-modina-subtle text-xs font-bold tracking-widest uppercase public-meta">
                     Date Issued
                   </span>
-                  <span className="text-modina-red text-xs font-bold tracking-widest uppercase">
+                  <span className="text-modina-red text-xs font-bold tracking-widest uppercase public-meta">
                     {cert.issued}
                   </span>
                 </div>
@@ -255,19 +255,19 @@ export default function Certificates() {
       </section>
 
       {/* SECTION 4 — AWARDS TIMELINE */}
-      <section className="w-full border-t border-modina-border bg-modina-bg-section py-20 lg:py-28 overflow-hidden" ref={awardsRef}>
-        <div className="container mx-auto px-6 md:px-12 lg:px-24 mb-16 flex justify-between items-end">
+      <section className="w-full border-t border-modina-border bg-modina-bg-section public-section overflow-hidden" ref={awardsRef}>
+        <div className="container-premium mb-16 flex justify-between items-end">
           <div>
-            <p className="text-modina-red text-xs font-bold tracking-widest uppercase mb-3">— Recognition</p>
-            <h2 className="text-3xl md:text-4xl font-display font-bold text-modina-heading tracking-tight">Awards &amp; Milestones</h2>
+            <p className="text-modina-red text-xs font-bold tracking-widest uppercase mb-3 public-meta">— Recognition</p>
+            <h2 id="certificate-milestones-title" className="text-3xl md:text-4xl font-display font-bold text-modina-heading tracking-tight public-section-title">Awards &amp; Milestones</h2>
           </div>
           <div className="hidden md:block text-modina-muted text-xs font-bold tracking-widest uppercase">
             2010 — 2026
           </div>
         </div>
 
-        <div className="container mx-auto px-6 md:px-12 lg:px-24">
-          <div className="w-full overflow-x-auto pb-4 no-scrollbar">
+        <div className="container-premium">
+          <PublicScroller labelledBy="certificate-milestones-title" className="w-full overflow-x-auto pb-4">
             <div className="relative min-w-[700px]">
             <motion.div
               initial={{ scaleX: 0 }}
@@ -280,22 +280,22 @@ export default function Certificates() {
               {milestonesData.map((item, idx) => (
                 <div key={idx} className="flex flex-col items-start w-48 relative group">
                   <div className={`w-3 h-3 mb-6 transition-all duration-500 ease-in-out ${idx === 0 ? 'bg-modina-red' : 'bg-modina-bg-section border border-modina-border group-hover:border-modina-red'}`} />
-                  <p className="font-mono text-2xl mb-3 transition-colors duration-500" style={{ color: `rgba(229, 37, 37, ${yearOpacity[idx]})` }}>
+                  <p className="font-mono text-2xl mb-3 text-modina-red transition-colors duration-500">
                     {item.year}
                   </p>
-                  <h4 className="text-[13px] font-bold text-modina-heading uppercase tracking-tight mb-2">{item.title}</h4>
-                  <p className="text-[12px] text-modina-muted font-light leading-relaxed pr-4">{item.desc}</p>
+                  <h3 className="text-[13px] font-bold text-modina-heading uppercase tracking-tight mb-2">{item.title}</h3>
+                  <p className="text-[12px] text-modina-muted font-light leading-relaxed pr-4 public-body">{item.desc}</p>
                 </div>
               ))}
             </div>
             </div>
-          </div>
+          </PublicScroller>
         </div>
       </section>
 
       {/* SECTION 5 — CTA BANNER */}
-      <section className="w-full border-t border-modina-border py-24 lg:py-32 bg-modina-heading" ref={ctaRef}>
-        <div className="container mx-auto px-6 md:px-12 lg:px-24 flex flex-col lg:flex-row items-start lg:items-center justify-between gap-10">
+      <section className="w-full border-t border-modina-border public-section bg-modina-heading public-dark" ref={ctaRef}>
+        <div className="container-premium flex flex-col lg:flex-row items-start lg:items-center justify-between gap-10">
           <motion.div 
             initial={{ opacity: 0, x: -24 }}
             animate={ctaInView ? { opacity: 1, x: 0 } : {}}
@@ -309,8 +309,8 @@ export default function Certificates() {
               style={{ transformOrigin: 'top' }}
               className="absolute left-0 top-0 w-1 h-20 bg-modina-red"
             />
-            <p className="text-modina-red text-xs font-bold tracking-widest uppercase mb-4">— Verified Quality</p>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-white tracking-tight leading-tight">
+            <p className="text-modina-red text-xs font-bold tracking-widest uppercase mb-4 public-meta">— Verified Quality</p>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-white tracking-tight leading-tight public-section-title">
               Explore Our<br />Product Range
             </h2>
           </motion.div>

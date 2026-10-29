@@ -1,0 +1,146 @@
+{
+  "checks": [
+    {
+      "file": "src/pages/About.tsx",
+      "visibleTextUnchanged": true,
+      "nonPresentationLiteralsUnchanged": true,
+      "handlersUnchanged": true,
+      "destinationsUnchanged": true
+    },
+    {
+      "file": "src/pages/Blog.tsx",
+      "visibleTextUnchanged": true,
+      "nonPresentationLiteralsUnchanged": true,
+      "handlersUnchanged": true,
+      "destinationsUnchanged": true
+    },
+    {
+      "file": "src/pages/BlogDetail.tsx",
+      "visibleTextUnchanged": true,
+      "nonPresentationLiteralsUnchanged": true,
+      "handlersUnchanged": true,
+      "destinationsUnchanged": true
+    },
+    {
+      "file": "src/pages/Careers.tsx",
+      "visibleTextUnchanged": true,
+      "nonPresentationLiteralsUnchanged": true,
+      "handlersUnchanged": true,
+      "destinationsUnchanged": true
+    },
+    {
+      "file": "src/pages/Certificates.tsx",
+      "visibleTextUnchanged": true,
+      "nonPresentationLiteralsUnchanged": true,
+      "handlersUnchanged": true,
+      "destinationsUnchanged": true
+    },
+    {
+      "file": "src/pages/Contact.tsx",
+      "visibleTextUnchanged": true,
+      "nonPresentationLiteralsUnchanged": true,
+      "handlersUnchanged": true,
+      "destinationsUnchanged": true
+    },
+    {
+      "file": "src/pages/Downloads.tsx",
+      "visibleTextUnchanged": true,
+      "nonPresentationLiteralsUnchanged": true,
+      "handlersUnchanged": true,
+      "destinationsUnchanged": true
+    },
+    {
+      "file": "src/pages/FAQ.tsx",
+      "visibleTextUnchanged": true,
+      "nonPresentationLiteralsUnchanged": true,
+      "handlersUnchanged": true,
+      "destinationsUnchanged": true
+    },
+    {
+      "file": "src/pages/Gallery.tsx",
+      "visibleTextUnchanged": true,
+      "nonPresentationLiteralsUnchanged": true,
+      "handlersUnchanged": true,
+      "destinationsUnchanged": true
+    },
+    {
+      "file": "src/pages/Home.tsx",
+      "visibleTextUnchanged": true,
+      "nonPresentationLiteralsUnchanged": true,
+      "handlersUnchanged": true,
+      "destinationsUnchanged": true
+    },
+    {
+      "file": "src/pages/Mission.tsx",
+      "visibleTextUnchanged": true,
+      "nonPresentationLiteralsUnchanged": true,
+      "handlersUnchanged": true,
+      "destinationsUnchanged": true
+    },
+    {
+      "file": "src/pages/News.tsx",
+      "visibleTextUnchanged": true,
+      "nonPresentationLiteralsUnchanged": true,
+      "handlersUnchanged": true,
+      "destinationsUnchanged": true
+    },
+    {
+      "file": "src/pages/NewsDetail.tsx",
+      "visibleTextUnchanged": true,
+      "nonPresentationLiteralsUnchanged": true,
+      "handlersUnchanged": true,
+      "destinationsUnchanged": true
+    },
+    {
+      "file": "src/pages/NotFound.tsx",
+      "visibleTextUnchanged": true,
+      "nonPresentationLiteralsUnchanged": true,
+      "handlersUnchanged": true,
+      "destinationsUnchanged": true
+    },
+    {
+      "file": "src/pages/Privacy.tsx",
+      "visibleTextUnchanged": true,
+      "nonPresentationLiteralsUnchanged": true,
+      "handlersUnchanged": true,
+      "destinationsUnchanged": true
+    },
+    {
+      "file": "src/pages/Products.tsx",
+      "visibleTextUnchanged": true,
+      "nonPresentationLiteralsUnchanged": true,
+      "handlersUnchanged": true,
+      "destinationsUnchanged": true
+    },
+    {
+      "file": "src/pages/Quality.tsx",
+      "visibleTextUnchanged": true,
+      "nonPresentationLiteralsUnchanged": true,
+      "handlersUnchanged": true,
+      "destinationsUnchanged": true
+    },
+    {
+      "file": "src/pages/Sustainability.tsx",
+      "visibleTextUnchanged": true,
+      "nonPresentationLiteralsUnchanged": true,
+      "handlersUnchanged": true,
+      "destinationsUnchanged": true
+    },
+    {
+      "file": "src/pages/Terms.tsx",
+      "visibleTextUnchanged": true,
+      "nonPresentationLiteralsUnchanged": true,
+      "handlersUnchanged": true,
+      "destinationsUnchanged": true
+    },
+    {
+      "file": "src/components/Footer.tsx",
+      "visibleTextUnchanged": true,
+      "nonPresentationLiteralsUnchanged": true,
+      "handlersUnchanged": true,
+      "destinationsUnchanged": true
+    }
+  ],
+  "originalGlobalCSSUnchanged": true,
+  "passed": true
+}

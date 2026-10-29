@@ -1,0 +1,10 @@
+page.goto: Timeout 6000ms exceeded.
+Call log:
+  - navigating to "http://127.0.0.1:4193/docs/audits/evidence/batch-1a-acceptance/lifecycle-harness.html", waiting until "domcontentloaded"
+
+    at C:\Users\BongoDemy\Documents\BongoDemy\Modina-Rim-and-Parts-Ltd\docs\audits\evidence\batch-2b\race.cjs:8:13 {
+  log: [
+    '  - navigating to "http://127.0.0.1:4193/docs/audits/evidence/batch-1a-acceptance/lifecycle-harness.html", waiting until "domcontentloaded"'
+  ],
+  name: 'TimeoutError'
+}

@@ -1,0 +1,20 @@
+const fs=require('node:fs');const path=require('node:path');
+for(const name of ['lifecycle-harness.tsx','lifecycle-harness.html'])fs.copyFileSync(path.join(__dirname,'../batch-1a',name),path.join(__dirname,name));
+let s=fs.readFileSync(path.join(__dirname,'../batch-1a/lifecycle.cjs'),'utf8');
+s=s.replace("const server = await chromium.launchServer(","const browser = await chromium.launch(").replace("  const browser = await chromium.connect(server.wsEndpoint());\n",'');
+s=s.replace('http://127.0.0.1:4183/docs/audits/evidence/batch-1a/','http://127.0.0.1:4193/docs/audits/evidence/batch-1a-acceptance/');
+s=s.replaceAll('await page.waitForTimeout(30);',"await frame(page);").replaceAll('await page.waitForTimeout(20);',"await frame(page);");
+s=s.replaceAll('await page.waitForTimeout(400);',"await expect(page.locator('dialog[open]')).toHaveCount(0);");
+// A reopened modal must finish its entrance while staying open.
+s=s.replace("await page.evaluate(() => batchHarness.setOpen(true));\n        await expect(page.locator('dialog[open]')).toHaveCount(0);", "await page.evaluate(() => batchHarness.setOpen(true));\n        await expect.poll(()=>page.locator('#fixture-title').evaluate(el=>{for(let a=el;a instanceof HTMLElement;a=a.parentElement)if(Number(getComputedStyle(a).opacity)<.99)return false;return true;})).toBe(true);");
+s=s.replace('await page.waitForTimeout(350);',"await expect.poll(()=>page.locator('#fixture-title').evaluate(el=>el.getBoundingClientRect().x)).toBe(94);");
+s=s.replace("assert.equal(await page.evaluate(() => batchHarness.metrics.closeRequests), beforeNative + 1);", "await expect.poll(()=>page.evaluate(() => batchHarness.metrics.closeRequests)).toBe(beforeNative + 1);");
+s=s.replaceAll("el.dispatchEvent(new Event('cancel', { cancelable: true }));", "el.requestClose();");
+s=s.replace("const teardown = await require('./browser-cleanup.cjs')(server, browser);", "await browser.close(); const teardown = {closedNormally:true,node:process.version};");
+s=s.replace('const results = [];',"const results = [];\nconst frame=page=>page.evaluate(()=>new Promise(r=>requestAnimationFrame(r)));");
+s=s.replace('  const browser = await chromium.launch', '  let diagnosticPage;\n  const browser = await chromium.launch');
+s=s.replace("      console.log('fixture loaded');", "      diagnosticPage=page; console.log('fixture loaded');");
+s=s.replace("} catch (e) { console.error(e); throw e; }", "} catch (e) { if(diagnosticPage&&!diagnosticPage.isClosed()) { const state=await diagnosticPage.evaluate(()=>({metrics:batchHarness.metrics,html:document.querySelector('dialog')?.outerHTML,styles:[...document.querySelectorAll('dialog div,dialog h2')].map(el=>({style:el.getAttribute('style'),opacity:getComputedStyle(el).opacity,rect:el.getBoundingClientRect().toJSON()})),scroll:[document.documentElement.style.overflow,document.body.style.overflow]})); fs.writeFileSync(path.join(__dirname,'lifecycle-failure-state.json'),JSON.stringify(state,null,2)); await diagnosticPage.screenshot({path:path.join(__dirname,'lifecycle-failure.png')}); } console.error(e); throw e; }");
+s=s.replace('  process.exit(0);','');
+if(s.includes('waitForTimeout'))throw Error('Fixed wait remains');
+fs.writeFileSync(path.join(__dirname,'lifecycle.cjs'),s);

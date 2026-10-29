@@ -1,0 +1,389 @@
+[
+  {
+    "path": "public/cat_accessories.jpg",
+    "bytes": 259601,
+    "sha256": "e1f6ef1d421033e2b76b18b7b5e4009100b8f85061a727f06be498e51a4f53cb",
+    "width": 1024,
+    "height": 1024,
+    "format": "jpeg"
+  },
+  {
+    "path": "public/cat_motorcycle_parts.jpg",
+    "bytes": 159654,
+    "sha256": "b07c773149d2204d86d86f985f417c43553bc89c68affd1babeec8a3d03c187e",
+    "width": 1024,
+    "height": 1024,
+    "format": "jpeg"
+  },
+  {
+    "path": "public/cat_motorcycle_parts.png",
+    "bytes": 1036249,
+    "sha256": "f9341ee63eb156abe352460532b8cc0f2ef9c5b868e677e396c62cb97adddaee",
+    "width": 1024,
+    "height": 1024,
+    "format": "png"
+  },
+  {
+    "path": "public/hero.jpg",
+    "bytes": 8607874,
+    "sha256": "44df2231a38b7e97de8fac6dae0bba5099ad3ca063009a8bdf33e8a15efe0ef5",
+    "width": 6272,
+    "height": 2688,
+    "format": "png"
+  },
+  {
+    "path": "public/hero_bicycle.jpg",
+    "bytes": 657465,
+    "sha256": "2e65fe0c3114e38e4fef7e14afa00394581a22a14d9664f8cdf65de0fb6791a6",
+    "width": 1376,
+    "height": 768,
+    "format": "jpeg"
+  },
+  {
+    "path": "public/hero_cng_parts.jpg",
+    "bytes": 680587,
+    "sha256": "ba91ab5232960b0f614440323089fb91eb745b119a79194aa2ac289564eb1c4b",
+    "width": 1376,
+    "height": 768,
+    "format": "jpeg"
+  },
+  {
+    "path": "public/hero_hardware.jpg",
+    "bytes": 745650,
+    "sha256": "932d3d4056bfeb2906748a34fd5b45760be8ab73c18ba1b22a9d6102cd390269",
+    "width": 1376,
+    "height": 768,
+    "format": "jpeg"
+  },
+  {
+    "path": "public/hero_products.jpg",
+    "bytes": 521548,
+    "sha256": "5c27196dd5ff99ba5189cbe759cce759b8817ffe16cfc7ba11ee546104e4efed",
+    "width": 1376,
+    "height": 768,
+    "format": "jpeg"
+  },
+  {
+    "path": "public/hero_rims.jpg",
+    "bytes": 680008,
+    "sha256": "913183a62d26114151e0587e2af4f8e9145d2460ea89fb476ba5b08c7dafc67e",
+    "width": 1376,
+    "height": 768,
+    "format": "jpeg"
+  },
+  {
+    "path": "public/iso/iso-14001.png",
+    "bytes": 1713958,
+    "sha256": "37b2004dde11261daa583288cd8068667591b4aea8508a218bfb15855e899b1a",
+    "width": 2550,
+    "height": 3300,
+    "format": "png"
+  },
+  {
+    "path": "public/iso/iso-45001.png",
+    "bytes": 1777038,
+    "sha256": "ac9bbbabd00bcfa6868376c7c70392bdeb5dd4ebfbf523607e7e1cca37bf728e",
+    "width": 2550,
+    "height": 3300,
+    "format": "png"
+  },
+  {
+    "path": "public/iso/iso-9001.png",
+    "bytes": 1705684,
+    "sha256": "11a1ce3fc20069978696bfb41a6af8688dfabe65a4b22e4d5b0b6a7d9755b0a2",
+    "width": 2550,
+    "height": 3300,
+    "format": "png"
+  },
+  {
+    "path": "public/logo.jpg",
+    "bytes": 7935555,
+    "sha256": "2c90f6e7f0b1f408c25083a70ac073266a80d22ee4dc63b5174efce8bd13de55",
+    "width": 12500,
+    "height": 12500,
+    "format": "jpeg"
+  },
+  {
+    "path": "public/products/sku-001/01-product.png",
+    "bytes": 1547236,
+    "sha256": "53858231ef306eb94e0f4089f3118a60f6d68ce23d48fee5e99008deb9854206",
+    "width": 1448,
+    "height": 1086,
+    "format": "png"
+  },
+  {
+    "path": "public/products/sku-001/02-engineering.jpg",
+    "bytes": 2023285,
+    "sha256": "e8fa1806f8653d3524a21d9f7a8d291cb84f0c5194d6674f0eb7e417442df5a1",
+    "width": 2400,
+    "height": 1792,
+    "format": "jpeg"
+  },
+  {
+    "path": "public/products/sku-001/03-assembly.png",
+    "bytes": 1595463,
+    "sha256": "fd9697d0440b872e56476003bcd9ea5773b9fc632c8a4b1cdda4145fbb1eeb13",
+    "width": 1448,
+    "height": 1086,
+    "format": "png"
+  },
+  {
+    "path": "public/products/sku-002/01-product.png",
+    "bytes": 1478089,
+    "sha256": "0996d4ebbe39a5d097f0a59f43f8d2c962cf74e2408ba6ee33684b9f5722e820",
+    "width": 1448,
+    "height": 1086,
+    "format": "png"
+  },
+  {
+    "path": "public/products/sku-002/02-engineering.jpg",
+    "bytes": 1727646,
+    "sha256": "8f847e74e5220474068f26ac05dc0a23a698c6acc0af6083fcec1dda7f1fb100",
+    "width": 2400,
+    "height": 1792,
+    "format": "jpeg"
+  },
+  {
+    "path": "public/products/sku-002/03-assembly.png",
+    "bytes": 1741942,
+    "sha256": "59ed1e625cdd9cf3d8b6ce70b7652a523d90a969e5e793de73a99772a55dab54",
+    "width": 1448,
+    "height": 1086,
+    "format": "png"
+  },
+  {
+    "path": "public/products/sku-003/01-product.png",
+    "bytes": 1482837,
+    "sha256": "ba09b920abd4829e0033b796fbef26a1b070dfc00c07aec117ca5ac0e12d553a",
+    "width": 1448,
+    "height": 1086,
+    "format": "png"
+  },
+  {
+    "path": "public/products/sku-003/02-engineering.jpg",
+    "bytes": 2035579,
+    "sha256": "ed9bf02b802229c538422139d310e33bb0b525c46fba160fe883d797a750e428",
+    "width": 2400,
+    "height": 1792,
+    "format": "jpeg"
+  },
+  {
+    "path": "public/products/sku-003/03-assembly.png",
+    "bytes": 1692820,
+    "sha256": "db34ac291dd07dacb3476c1ded962810c054fde88d1304888c58ff86b8273f7e",
+    "width": 1448,
+    "height": 1086,
+    "format": "png"
+  },
+  {
+    "path": "src/assets/cat_motorcycle_parts.webp",
+    "bytes": 60708,
+    "sha256": "0c2c89d735e3a8740fb63fc998ac21f83fc97de4ea1b5bc846c3f2930a67d3b3",
+    "width": 1024,
+    "height": 1024,
+    "format": "webp"
+  },
+  {
+    "path": "src/assets/CNG Rim.webp",
+    "bytes": 69316,
+    "sha256": "eb1c86674245eadf886d3902585e783ef27744110ddebc4eef0a7ee1b7abdac7",
+    "width": 1254,
+    "height": 1254,
+    "format": "webp"
+  },
+  {
+    "path": "src/assets/company.webp",
+    "bytes": 170268,
+    "sha256": "6e4c7f342d702399495347b39c7358f19215e6b486fbe35f5cde898d6e578dec",
+    "width": 1448,
+    "height": 1086,
+    "format": "webp"
+  },
+  {
+    "path": "src/assets/Fonts/NiladriNodia/ANSI V1/Li Niladri Nodia ANSI V1 Italic.ttf",
+    "bytes": 79948,
+    "sha256": "c59b7b82a20073586ec8c18976162c38ca5de918ef89080d842f0c45992cb453"
+  },
+  {
+    "path": "src/assets/Fonts/NiladriNodia/ANSI V1/Li Niladri Nodia ANSI V1.ttf",
+    "bytes": 138048,
+    "sha256": "8d0acf0cf0cfdd7cb19f5af391151b9969e4fc5b270c9d1382acc062498a4589"
+  },
+  {
+    "path": "src/assets/Fonts/NiladriNodia/ANSI V2/Li Niladri Nodia ANSI V2 Italic.ttf",
+    "bytes": 80172,
+    "sha256": "8762e40f1622090280929edfd411f91727b02eaaa4c97102969e8bed1fc09fa1"
+  },
+  {
+    "path": "src/assets/Fonts/NiladriNodia/ANSI V2/Li Niladri Nodia ANSI V2.ttf",
+    "bytes": 138292,
+    "sha256": "e92a195fa770ce102d9b794cce0ce72562459c82ebebed91104e1f749deb520d"
+  },
+  {
+    "path": "src/assets/Fonts/NiladriNodia/Unicode/Li Niladri Nodia Unicode Italic.ttf",
+    "bytes": 80612,
+    "sha256": "ebee2451ca489413e6b0f04957e795add206dddf69bec4828e1cce4fe5d24421"
+  },
+  {
+    "path": "src/assets/Fonts/NiladriNodia/Unicode/Li Niladri Nodia Unicode.ttf",
+    "bytes": 140724,
+    "sha256": "e90aeff9b4af001a2c8f8627d0768284577032c0c5fe21aa87c4025ce225167c"
+  },
+  {
+    "path": "src/assets/Hero Image.png",
+    "bytes": 8607874,
+    "sha256": "44df2231a38b7e97de8fac6dae0bba5099ad3ca063009a8bdf33e8a15efe0ef5",
+    "width": 6272,
+    "height": 2688,
+    "format": "png"
+  },
+  {
+    "path": "src/assets/ISO/Certificate-02.png",
+    "bytes": 1713958,
+    "sha256": "37b2004dde11261daa583288cd8068667591b4aea8508a218bfb15855e899b1a",
+    "width": 2550,
+    "height": 3300,
+    "format": "png"
+  },
+  {
+    "path": "src/assets/ISO/Certificate-03.png",
+    "bytes": 1705684,
+    "sha256": "11a1ce3fc20069978696bfb41a6af8688dfabe65a4b22e4d5b0b6a7d9755b0a2",
+    "width": 2550,
+    "height": 3300,
+    "format": "png"
+  },
+  {
+    "path": "src/assets/ISO/Certificate.png",
+    "bytes": 1777038,
+    "sha256": "ac9bbbabd00bcfa6868376c7c70392bdeb5dd4ebfbf523607e7e1cca37bf728e",
+    "width": 2550,
+    "height": 3300,
+    "format": "png"
+  },
+  {
+    "path": "src/assets/Logo - Modina Rim & Parts Ltd..jpg",
+    "bytes": 7935555,
+    "sha256": "2c90f6e7f0b1f408c25083a70ac073266a80d22ee4dc63b5174efce8bd13de55",
+    "width": 12500,
+    "height": 12500,
+    "format": "jpeg"
+  },
+  {
+    "path": "src/assets/logo-horizontal.png",
+    "bytes": 170048,
+    "sha256": "091467b6b35e563d7055430f9876a4f4b42b9e8912a68b7f0e1401f16f684d55",
+    "width": 840,
+    "height": 251,
+    "format": "png"
+  },
+  {
+    "path": "src/assets/logo.png",
+    "bytes": 47975,
+    "sha256": "035c45ff9da09443e3708b5432c6867e2b3421468d1e6a3f2f3a6862734f6c33",
+    "width": 239,
+    "height": 255,
+    "format": "png"
+  },
+  {
+    "path": "src/assets/Md. Faruq Hossain.webp",
+    "bytes": 51308,
+    "sha256": "9c72f79cb758d120bd96f4518f93e8e550648b683c47ce708c4c538651917eca",
+    "width": 1122,
+    "height": 1402,
+    "format": "webp"
+  },
+  {
+    "path": "src/assets/Premium Rims.webp",
+    "bytes": 37354,
+    "sha256": "a502a97060e9bbd87b306b2792dc173c6e42bd4a93bfd5862572890da10c02c5",
+    "width": 800,
+    "height": 800,
+    "format": "webp"
+  },
+  {
+    "path": "src/assets/products/SKU-001_product_01_master(2).jpg",
+    "bytes": 2023285,
+    "sha256": "e8fa1806f8653d3524a21d9f7a8d291cb84f0c5194d6674f0eb7e417442df5a1",
+    "width": 2400,
+    "height": 1792,
+    "format": "jpeg"
+  },
+  {
+    "path": "src/assets/products/SKU-001_product_01_master(3).png",
+    "bytes": 1595463,
+    "sha256": "fd9697d0440b872e56476003bcd9ea5773b9fc632c8a4b1cdda4145fbb1eeb13",
+    "width": 1448,
+    "height": 1086,
+    "format": "png"
+  },
+  {
+    "path": "src/assets/products/SKU-001_product_01_master.png",
+    "bytes": 1547236,
+    "sha256": "53858231ef306eb94e0f4089f3118a60f6d68ce23d48fee5e99008deb9854206",
+    "width": 1448,
+    "height": 1086,
+    "format": "png"
+  },
+  {
+    "path": "src/assets/products/SKU-002_product_01_master(2).jpg",
+    "bytes": 1727646,
+    "sha256": "8f847e74e5220474068f26ac05dc0a23a698c6acc0af6083fcec1dda7f1fb100",
+    "width": 2400,
+    "height": 1792,
+    "format": "jpeg"
+  },
+  {
+    "path": "src/assets/products/SKU-002_product_01_master(3).png",
+    "bytes": 1741942,
+    "sha256": "59ed1e625cdd9cf3d8b6ce70b7652a523d90a969e5e793de73a99772a55dab54",
+    "width": 1448,
+    "height": 1086,
+    "format": "png"
+  },
+  {
+    "path": "src/assets/products/SKU-002_product_01_master.png",
+    "bytes": 1478089,
+    "sha256": "0996d4ebbe39a5d097f0a59f43f8d2c962cf74e2408ba6ee33684b9f5722e820",
+    "width": 1448,
+    "height": 1086,
+    "format": "png"
+  },
+  {
+    "path": "src/assets/products/SKU-003_product_01_master(2).jpg",
+    "bytes": 2035579,
+    "sha256": "ed9bf02b802229c538422139d310e33bb0b525c46fba160fe883d797a750e428",
+    "width": 2400,
+    "height": 1792,
+    "format": "jpeg"
+  },
+  {
+    "path": "src/assets/products/SKU-003_product_01_master(3).png",
+    "bytes": 1692820,
+    "sha256": "db34ac291dd07dacb3476c1ded962810c054fde88d1304888c58ff86b8273f7e",
+    "width": 1448,
+    "height": 1086,
+    "format": "png"
+  },
+  {
+    "path": "src/assets/products/SKU-003_product_01_master.png",
+    "bytes": 1482837,
+    "sha256": "ba09b920abd4829e0033b796fbef26a1b070dfc00c07aec117ca5ac0e12d553a",
+    "width": 1448,
+    "height": 1086,
+    "format": "png"
+  },
+  {
+    "path": "src/assets/State of the Art Facility.webm",
+    "bytes": 1166089,
+    "sha256": "d6c5542bbdfe6409bde6eab7e0475cbf6487771cd7137623324db5e48ad62417"
+  },
+  {
+    "path": "src/assets/wasar.webp",
+    "bytes": 79668,
+    "sha256": "6a402ee1ee3d082fa5a59ccbf2c1431d9ba644a1cfafc78647c9bad68ce8a5aa",
+    "width": 1254,
+    "height": 1254,
+    "format": "webp"
+  }
+]

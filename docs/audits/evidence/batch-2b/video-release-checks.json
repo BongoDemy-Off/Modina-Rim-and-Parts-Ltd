@@ -1,0 +1,92 @@
+{
+  "mode": "video",
+  "base": "http://127.0.0.1:4199",
+  "cases": [
+    {
+      "name": "/ explicit pause retained",
+      "initial": {
+        "paused": false,
+        "controls": true,
+        "readyState": 4,
+        "attempts": 1
+      },
+      "after": {
+        "paused": true,
+        "attempts": 1
+      },
+      "passed": true
+    },
+    {
+      "name": "/about explicit pause retained",
+      "initial": {
+        "paused": false,
+        "controls": true,
+        "readyState": 4,
+        "attempts": 1
+      },
+      "after": {
+        "paused": true,
+        "attempts": 1
+      },
+      "passed": true
+    },
+    {
+      "name": "/ autoplay rejection",
+      "initial": {
+        "paused": true,
+        "controls": true,
+        "readyState": 4,
+        "attempts": 1
+      },
+      "after": {
+        "paused": true,
+        "attempts": 1
+      },
+      "passed": true
+    },
+    {
+      "name": "/about autoplay rejection",
+      "initial": {
+        "paused": true,
+        "controls": true,
+        "readyState": 4,
+        "attempts": 1
+      },
+      "after": {
+        "paused": true,
+        "attempts": 1
+      },
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "blocked": [
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    }
+  ],
+  "browser": "156.0.8078.49",
+  "completed": true,
+  "teardown": {
+    "normal": false,
+    "bounded": true,
+    "connected": false
+  }
+}

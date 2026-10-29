@@ -1,0 +1,4 @@
+PASS en/390/gallery
+PASS en/1440/gallery
+Closing browser after assertions
+2/2 cases passed; 1 axe scans.

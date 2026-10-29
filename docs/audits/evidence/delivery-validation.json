@@ -1,0 +1,60 @@
+{
+  "requiredReports": [
+    {
+      "path": "2026-10-27-PUBLIC-UIUX-AUDIT.md",
+      "exists": true
+    },
+    {
+      "path": "PUBLIC-ROUTE-MATRIX.md",
+      "exists": true
+    },
+    {
+      "path": "DESIGN-SYSTEM-GAP-ANALYSIS.md",
+      "exists": true
+    },
+    {
+      "path": "PRODUCT-IMAGE-INVENTORY.csv",
+      "exists": true
+    },
+    {
+      "path": "PLACEHOLDER-ASSET-INVENTORY.md",
+      "exists": true
+    },
+    {
+      "path": "RESPONSIVE-QA-MATRIX.md",
+      "exists": true
+    },
+    {
+      "path": "IMPLEMENTATION-ROADMAP.md",
+      "exists": true
+    },
+    {
+      "path": "ISSUE-REGISTER.md",
+      "exists": true
+    },
+    {
+      "path": "COMMAND-LOG.md",
+      "exists": true
+    }
+  ],
+  "englishStates": 176,
+  "requestedWidths": [
+    320,
+    360,
+    375,
+    390,
+    430,
+    768,
+    1024,
+    1440
+  ],
+  "urls": 22,
+  "bengaliStates": 22,
+  "axeScans": 22,
+  "findings": 43,
+  "productRows": 21,
+  "screenshots": 95,
+  "artifactFiles": 162,
+  "missingLinks": [],
+  "preservationPassed": true
+}

@@ -1,3 +1,5 @@
+import PublicScroller from '../components/PublicScroller';
+import PublicVideo from '../components/PublicVideo';
 import React, { useRef, useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { motion, useInView, useMotionValue, useTransform, animate } from 'motion/react';
@@ -66,10 +68,9 @@ export default function About() {
   const ctaRef = useRef(null);
   const ctaInView = useInView(ctaRef, { once: true, margin: '-60px' });
 
-  const yearOpacity = [1, 0.55, 0.4, 0.3, 0.2];
 
   return (
-    <div className="min-h-screen bg-white text-modina-text pt-[112px] sm:pt-[72px]">
+    <div className="min-h-screen bg-white text-modina-text pt-[112px] sm:pt-[72px] public-page public-company">
       <Helmet>
         <title>About Us | Modina Rim &amp; Parts Ltd. — Since 2010, Jashore Bangladesh</title>
         <meta name="description" content="Founded in 2010, Modina Rim &amp; Parts Ltd. is a triple ISO-certified automotive component manufacturer in Jashore with 15+ years of precision engineering and 21+ product SKUs." />
@@ -79,14 +80,14 @@ export default function About() {
       </Helmet>
 
       {/* ─── HERO ─── */}
-      <section className="w-full py-20 lg:py-28 flex flex-col items-center text-center bg-white border-b border-modina-divider">
-        <div className="flex items-center gap-2 justify-center mb-10 text-sm text-modina-muted">
+      <section className="w-full public-story-hero flex flex-col items-center text-center bg-white border-b border-modina-divider">
+        <div className="flex items-center gap-2 justify-center mb-10 text-sm text-modina-muted public-breadcrumb">
           <Link to="/" className="hover:text-modina-red transition-colors duration-200 font-medium">{t('nav.home')}</Link>
           <ChevronRight className="w-4 h-4 text-modina-subtle" />
           <span className="text-modina-heading font-semibold">{t('about.hero_subtitle')}</span>
         </div>
         <div className="w-16 h-0.5 bg-modina-red mx-auto mb-10" />
-        <h1 className="font-display font-bold text-modina-heading uppercase leading-none flex items-center justify-center flex-wrap tracking-tight" style={{ fontSize: 'clamp(52px, 9vw, 120px)' }}>
+        <h1 className="font-display font-bold text-modina-heading uppercase leading-none flex items-center justify-center flex-wrap tracking-tight public-hero-title" >
           {letters.map((letter, i) =>
             letter === ' ' ? (
               <span key={i} className="w-[0.3em]">&nbsp;</span>
@@ -98,7 +99,7 @@ export default function About() {
           )}
         </h1>
         <motion.div initial={{ scaleX: 0 }} animate={{ scaleX: 1 }} transition={{ duration: 0.8, delay: 0.5, ease: [0.16, 1, 0.3, 1] }} style={{ transformOrigin: 'left' }} className="w-24 h-0.5 bg-modina-red mx-auto my-10" />
-        <p className="text-modina-muted text-sm font-medium">{t('about.hero_banner_desc')}</p>
+        <p className="text-modina-muted text-sm font-medium public-body">{t('about.hero_banner_desc')}</p>
         <hr className="w-full max-w-md border-modina-border mx-auto mt-10 mb-10" />
         <div className="responsive-stat-strip grid w-full max-w-xl grid-cols-[1fr_auto_1fr_auto_1fr] items-center mx-auto">
           {[
@@ -111,7 +112,7 @@ export default function About() {
                 <span className="font-display font-bold text-modina-red" style={{ fontSize: 'clamp(28px, 3vw, 44px)' }}>
                   {item.value ?? <CountUp target={item.countTarget!} suffix={item.suffix} />}
                 </span>
-                <span className="text-modina-muted text-xs font-semibold uppercase tracking-widest mt-1">{item.label}</span>
+                <span className="text-modina-muted text-xs font-semibold uppercase tracking-widest mt-1 public-meta">{item.label}</span>
               </div>
               {idx < arr.length - 1 && <span className="w-px h-8 bg-modina-divider" />}
             </React.Fragment>
@@ -121,21 +122,21 @@ export default function About() {
 
       {/* ─── FOUNDING STORY ─── */}
       <section className="w-full overflow-x-clip border-b border-modina-divider bg-white" ref={foundingRef}>
-        <div className="container-premium py-20 lg:py-32 grid grid-cols-1 lg:grid-cols-2 gap-0">
+        <div className="container-premium public-company-split grid grid-cols-1 lg:grid-cols-2 gap-0">
           <motion.div initial={{ opacity: 0, x: -40 }} animate={foundingInView ? { opacity: 1, x: 0 } : {}} transition={{ duration: 0.9, ease: [0.16, 1, 0.3, 1] }} className="flex flex-col justify-center pr-0 lg:pr-16 border-r-0 lg:border-r border-modina-border py-10 lg:py-0">
-            <p className="font-display font-bold text-modina-divider leading-none select-none tracking-tight" style={{ fontSize: 'clamp(80px, 14vw, 180px)' }}>
+            <p aria-hidden="true" className="font-display font-bold text-modina-divider leading-none select-none tracking-tight" style={{ fontSize: 'clamp(80px, 14vw, 180px)' }}>
               2010
             </p>
-            <p className="text-modina-red text-xs font-bold tracking-widest uppercase mt-2">— {t('about.founded')}</p>
-            <p className="text-modina-muted text-sm font-medium uppercase tracking-wider mt-1">Jashore, Bangladesh</p>
+            <p className="text-modina-red text-xs font-bold tracking-widest uppercase mt-2 public-meta">— {t('about.founded')}</p>
+            <p className="text-modina-muted text-sm font-medium uppercase tracking-wider mt-1 public-meta">Jashore, Bangladesh</p>
           </motion.div>
-          <motion.div initial={{ opacity: 0, x: 40 }} animate={foundingInView ? { opacity: 1, x: 0 } : {}} transition={{ duration: 0.9, delay: 0.15, ease: [0.16, 1, 0.3, 1] }} className="flex flex-col justify-center pl-0 lg:pl-16 py-10 lg:py-0">
-            <p className="text-modina-red text-xs font-bold tracking-widest uppercase mb-6">{t('about.our_beginning')}</p>
-            <h2 className="font-display font-bold text-modina-heading tracking-tight leading-tight mb-6" style={{ fontSize: 'clamp(28px, 3.5vw, 44px)' }}>
+          <motion.div initial={{ opacity: 0, x: 40 }} animate={foundingInView ? { opacity: 1, x: 0 } : {}} transition={{ duration: 0.9, delay: 0.15, ease: [0.16, 1, 0.3, 1] }} className="flex flex-col justify-center pl-0 lg:pl-16 py-6 lg:py-0">
+            <p className="text-modina-red text-xs font-bold tracking-widest uppercase mb-6 public-meta">{t('about.our_beginning')}</p>
+            <h2 className="font-display font-bold text-modina-heading tracking-tight leading-tight mb-6 public-section-title" >
               {t('about.intro_title')}
             </h2>
-            <p className="text-modina-muted text-base leading-relaxed mb-5 max-w-lg">{t('about.intro_body_1')}</p>
-            <p className="text-modina-muted text-base leading-relaxed mb-5 max-w-lg">{t('about.intro_body_2')}</p>
+            <p className="text-modina-muted text-base leading-relaxed mb-5 max-w-lg public-body">{t('about.intro_body_1')}</p>
+            <p className="text-modina-muted text-base leading-relaxed mb-5 max-w-lg public-body">{t('about.intro_body_2')}</p>
             <Link to="/products" className="inline-flex items-center gap-3 mt-2 text-modina-heading font-bold text-base underline underline-offset-4 hover:text-modina-red transition-colors duration-200 group">
               {t('common.view_products')}
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-200" />
@@ -145,46 +146,46 @@ export default function About() {
       </section>
 
       {/* ─── TIMELINE ─── */}
-      <section className="w-full border-b border-modina-divider bg-modina-bg-alt py-20 lg:py-28 overflow-hidden" ref={timelineRef}>
+      <section className="w-full border-b border-modina-divider bg-modina-bg-alt public-section overflow-hidden" ref={timelineRef}>
         <div className="container-premium">
           <div className="flex items-end justify-between mb-16">
             <div>
-              <p className="text-modina-red text-xs font-bold tracking-widest uppercase mb-3">— {t('about.timeline_subtitle')}</p>
-              <h2 className="font-display font-bold text-modina-heading tracking-tight" style={{ fontSize: 'clamp(28px, 3.5vw, 44px)' }}>
+              <p className="text-modina-red text-xs font-bold tracking-widest uppercase mb-3 public-meta">— {t('about.timeline_subtitle')}</p>
+              <h2 id="about-timeline-title" className="font-display font-bold text-modina-heading tracking-tight public-section-title" >
                 {t('about.timeline_title')}
               </h2>
             </div>
-            <p className="text-modina-muted text-sm font-medium hidden md:block">
+            <p className="text-modina-muted text-sm font-medium hidden md:block public-body">
               {t('i18n_lang') === 'bn' ? '২০১০ — ২০২৬' : '2010 — 2026'}
             </p>
           </div>
-          <div className="relative overflow-x-auto pb-4">
+          <PublicScroller labelledBy="about-timeline-title" className="relative overflow-x-auto pb-4">
             <div className="absolute top-[28px] left-0 right-0 h-px bg-modina-border" />
             <motion.div initial={{ scaleX: 0 }} animate={timelineInView ? { scaleX: 1 } : {}} transition={{ duration: 1.8, delay: 0.3, ease: [0.16, 1, 0.3, 1] }} style={{ transformOrigin: 'left' }} className="absolute top-[28px] left-0 right-0 h-px bg-modina-red" />
-            <div className="flex items-start gap-0 min-w-[700px] relative">
+            <ol className="public-timeline-items flex items-start gap-0 min-w-[700px] relative">
               {milestones.map((milestone, idx) => (
-                <div key={idx} className="flex-1 flex flex-col items-center">
+                <li key={idx} className="flex-1 flex flex-col items-center">
                   <motion.div
                     initial={{ scale: 0 }} animate={timelineInView ? { scale: 1 } : {}} transition={{ duration: 0.4, delay: 0.3 + idx * 0.25, ease: [0.16, 1, 0.3, 1] }}
                     className={`w-3 h-3 rounded-full border-2 z-10 mb-6 mt-[22px] ${idx === 0 ? 'bg-modina-red border-modina-red' : 'bg-white border-modina-border hover:border-modina-red'} transition-colors duration-300`}
                   />
                   <div className="flex flex-col items-center text-center px-2">
-                    <p style={{ opacity: yearOpacity[idx] }} className="text-modina-red text-[10px] font-bold tracking-widest uppercase mb-2">{milestone.year}</p>
-                    <p className="text-modina-heading text-xs font-bold uppercase mb-2 leading-tight">{milestone.title}</p>
-                    <p className="text-modina-muted text-xs leading-relaxed max-w-[120px]">{milestone.desc}</p>
+                    <p  className="text-modina-red text-[10px] font-bold tracking-widest uppercase mb-2 public-meta">{milestone.year}</p>
+                    <p className="text-modina-heading text-xs font-bold uppercase mb-2 leading-tight public-meta">{milestone.title}</p>
+                    <p className="text-modina-muted text-xs leading-relaxed max-w-[176px] public-body">{milestone.desc}</p>
                   </div>
-                </div>
+                </li>
               ))}
-            </div>
-          </div>
+            </ol>
+          </PublicScroller>
         </div>
       </section>
 
       {/* ─── MISSION & VALUES ─── */}
       <section className="w-full border-b border-modina-divider bg-white section-py">
         <div className="max-w-lg mx-auto text-center mb-16 px-6">
-          <p className="text-modina-red text-xs font-bold tracking-widest uppercase mb-4">— {t('about.what_we_stand_for')}</p>
-          <h2 className="font-display font-bold text-modina-heading tracking-tight" style={{ fontSize: 'clamp(28px, 3.5vw, 44px)' }}>
+          <p className="text-modina-red text-xs font-bold tracking-widest uppercase mb-4 public-meta">— {t('about.what_we_stand_for')}</p>
+          <h2 className="font-display font-bold text-modina-heading tracking-tight public-section-title" >
             {t('about.mission_values')}
           </h2>
         </div>
@@ -194,11 +195,11 @@ export default function About() {
               key={idx} initial={{ opacity: 0, y: 24 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: '-60px' }} transition={{ duration: 0.7, delay: idx * 0.12, ease: [0.16, 1, 0.3, 1] }}
               className="card-premium p-8 lg:p-10 flex flex-col group cursor-default"
             >
-              <p className="text-modina-red text-xs font-bold tracking-widest uppercase mb-5">{value.num}</p>
-              <h3 className="font-display font-bold text-modina-heading mb-5 tracking-tight" style={{ fontSize: 'clamp(20px, 2vw, 26px)' }}>{value.title}</h3>
+              <p className="text-modina-red text-xs font-bold tracking-widest uppercase mb-5 public-meta">{value.num}</p>
+              <h3 className="font-display font-bold text-modina-heading mb-5 tracking-tight public-card-title" >{value.title}</h3>
               <hr className="border-modina-border mb-5" />
-              <p className="text-modina-muted text-base leading-relaxed flex-grow">{value.desc}</p>
-              <p className="text-modina-subtle text-xs font-semibold uppercase tracking-wider mt-5 group-hover:text-modina-red transition-colors duration-200">{value.detail}</p>
+              <p className="text-modina-muted text-base leading-relaxed flex-grow public-body">{value.desc}</p>
+              <p className="text-modina-subtle text-xs font-semibold uppercase tracking-wider mt-5 group-hover:text-modina-red transition-colors duration-200 public-meta">{value.detail}</p>
             </motion.div>
           ))}
         </div>
@@ -214,8 +215,8 @@ export default function About() {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
             <div className="absolute bottom-6 left-8">
-              <p className="text-white/70 text-xs uppercase tracking-widest">{t('about.manufacturing_facility')}</p>
-              <p className="text-white text-sm font-semibold uppercase tracking-wider mt-1">{t('about.facility_location')}</p>
+              <p className="text-white/70 text-xs uppercase tracking-widest public-meta">{t('about.manufacturing_facility')}</p>
+              <p className="text-white text-sm font-semibold uppercase tracking-wider mt-1 public-meta">{t('about.facility_location')}</p>
             </div>
           </div>
           <div className="grid grid-cols-2">
@@ -224,7 +225,7 @@ export default function About() {
                 <p className="font-display font-bold text-modina-red mb-2" style={{ fontSize: 'clamp(36px, 4vw, 56px)' }}>
                   <CountUp target={stat.value} suffix={stat.suffix} />
                 </p>
-                <p className="text-modina-muted text-xs font-bold uppercase tracking-widest group-hover:text-modina-heading transition-colors duration-300">{stat.label}</p>
+                <p className="text-modina-muted text-xs font-bold uppercase tracking-widest group-hover:text-modina-heading transition-colors duration-300 public-meta">{stat.label}</p>
                 <div className="w-0 group-hover:w-8 h-0.5 bg-modina-red mt-4 transition-all duration-300 ease-in-out" />
               </div>
             ))}
@@ -236,17 +237,17 @@ export default function About() {
       <section className="w-full border-b border-modina-divider bg-white">
         <div className="container-premium py-16 lg:py-24">
           <div className="mb-10">
-            <p className="text-modina-red text-xs font-bold tracking-widest uppercase mb-4">— {t('about.video_subtitle')}</p>
-            <h2 className="font-display font-bold text-modina-heading tracking-tight" style={{ fontSize: 'clamp(28px, 3.5vw, 44px)' }}>
+            <p className="text-modina-red text-xs font-bold tracking-widest uppercase mb-4 public-meta">— {t('about.video_subtitle')}</p>
+            <h2 className="font-display font-bold text-modina-heading tracking-tight public-section-title" >
               {t('about.video_title')}
             </h2>
           </div>
           <div className="relative w-full aspect-video rounded-[12px] overflow-hidden shadow-[var(--shadow-lg)] border border-modina-border">
-            <video src={facilityVideo} autoPlay muted loop playsInline className="w-full h-full object-cover" />
+            <PublicVideo src={facilityVideo} label="State of the Art Facility" className="w-full h-full object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent pointer-events-none" />
             <div className="absolute bottom-6 left-8">
-              <p className="text-white/70 text-xs uppercase tracking-widest">{t('about.manufacturing_facility')}</p>
-              <p className="text-white text-sm font-semibold uppercase tracking-wider mt-1">Jhumjhumpur, Jashore, Bangladesh</p>
+              <p className="text-white/70 text-xs uppercase tracking-widest public-meta">{t('about.manufacturing_facility')}</p>
+              <p className="text-white text-sm font-semibold uppercase tracking-wider mt-1 public-meta">Jhumjhumpur, Jashore, Bangladesh</p>
             </div>
           </div>
         </div>
@@ -257,8 +258,8 @@ export default function About() {
         <div className="container-premium">
           <div className="flex items-end justify-between mb-14">
             <div>
-              <p className="text-modina-red text-xs font-bold tracking-widest uppercase mb-3">— {t('about.team_subtitle')}</p>
-              <h2 className="font-display font-bold text-modina-heading tracking-tight" style={{ fontSize: 'clamp(28px, 3.5vw, 44px)' }}>
+              <p className="text-modina-red text-xs font-bold tracking-widest uppercase mb-3 public-meta">— {t('about.team_subtitle')}</p>
+              <h2 className="font-display font-bold text-modina-heading tracking-tight public-section-title" >
                 {t('about.team_title')}
               </h2>
             </div>
@@ -274,7 +275,7 @@ export default function About() {
                 </div>
                 <div className="p-6 border-t border-modina-border">
                   <p className="text-base font-display font-bold text-modina-heading group-hover:text-modina-red transition-colors duration-300 mb-1">{member.name}</p>
-                  <p className="text-modina-muted text-xs font-semibold uppercase tracking-wider">{member.title}</p>
+                  <p className="text-modina-muted text-xs font-semibold uppercase tracking-wider public-meta">{member.title}</p>
                 </div>
               </motion.div>
             ))}
@@ -283,11 +284,11 @@ export default function About() {
       </section>
 
       {/* ─── CTA BANNER ─── */}
-      <section className="w-full section-py bg-modina-heading" ref={ctaRef}>
+      <section className="w-full section-py bg-modina-heading public-dark" ref={ctaRef}>
         <div className="container-premium flex flex-col lg:flex-row items-start lg:items-center justify-between gap-10">
           <motion.div initial={{ opacity: 0, x: -24 }} animate={ctaInView ? { opacity: 1, x: 0 } : {}} transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}>
-            <p className="text-modina-red text-xs font-bold tracking-widest uppercase mb-4">— {t('about.what_we_make')}</p>
-            <h2 className="font-display font-bold text-white tracking-tight leading-tight" style={{ fontSize: 'clamp(28px, 4vw, 48px)' }}>
+            <p className="text-modina-red text-xs font-bold tracking-widest uppercase mb-4 public-meta">— {t('about.what_we_make')}</p>
+            <h2 className="font-display font-bold text-white tracking-tight leading-tight public-section-title" >
               {t('about.explore_product_range')}
             </h2>
           </motion.div>

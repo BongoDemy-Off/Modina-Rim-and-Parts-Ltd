@@ -1,0 +1,9 @@
+FAIL en/1024/products: Pointer target not visibly hittable at {"x":302.0625,"y":449.75}
+FAIL en/1440/careers: page.screenshot: Timeout 8000ms exceeded.
+Call log:
+[2m  - taking page screenshot[22m
+[2m  - waiting for fonts to load...[22m
+[2m  - fonts loaded[22m
+
+Browser teardown watchdog used for owned PID 16356; assertions were saved first.
+0/2 cases passed; 0 axe scans.

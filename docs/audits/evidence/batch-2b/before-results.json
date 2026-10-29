@@ -1,0 +1,2527 @@
+{
+  "mode": "before",
+  "base": "http://127.0.0.1:4210",
+  "states": [
+    {
+      "route": "/products",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Products | Modina Rim & Parts Ltd. — 21 SKUs, Bangladesh",
+      "targets": [
+        {
+          "text": "Search products...",
+          "top": 669
+        },
+        {
+          "text": "Ready to Placean Order?",
+          "top": 5679
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/contact",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Contact Us | Modina Rim & Parts Ltd. — Jashore, Bangladesh",
+      "targets": [
+        {
+          "text": "Let's Talk",
+          "top": 797
+        },
+        {
+          "text": "Full Name *Company NameEmail *PhoneSubject *Select a subject",
+          "top": 876
+        },
+        {
+          "text": "Your full name",
+          "top": 915
+        },
+        {
+          "text": "Your company",
+          "top": 1022
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/downloads",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Downloads | Modina Rim & Parts Ltd. — Catalogs, Certificates & Technical Docs",
+      "targets": [
+        {
+          "text": "Search files...",
+          "top": 724
+        },
+        {
+          "text": "Product Catalog 2026",
+          "top": 4480
+        },
+        {
+          "text": "Can't FindWhat You Need?",
+          "top": 5150
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/careers",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Careers | Modina Rim & Parts Ltd. — Join Our Team",
+      "targets": [
+        {
+          "text": "Build Your CareerIn Precision",
+          "top": 751
+        },
+        {
+          "text": "Build Your Career In Precision",
+          "top": 2474
+        },
+        {
+          "text": "Send Us YourCV Anyway",
+          "top": 4004
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer — Bangladesh",
+      "targets": [
+        {
+          "text": "Forging the Backbone of Modern Mobility",
+          "top": 1066
+        },
+        {
+          "text": "New Arrival",
+          "top": 2411
+        },
+        {
+          "text": "The Trust Factor",
+          "top": 4411
+        },
+        {
+          "text": "Equipping Our Partners.",
+          "top": 5847
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/about",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "About Us | Modina Rim & Parts Ltd. — Since 2010, Jashore Bangladesh",
+      "targets": [
+        {
+          "text": "Engineering Reliability Since 2010",
+          "top": 1074
+        },
+        {
+          "text": "Our Journey",
+          "top": 1910
+        },
+        {
+          "text": "Mission & Values",
+          "top": 2598
+        },
+        {
+          "text": "State of the Art Facility",
+          "top": 4896
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/mission",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Our Mission & Values | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Engineering Trust. Delivering Excellence.",
+          "top": 1104
+        },
+        {
+          "text": "Core Values",
+          "top": 2402
+        },
+        {
+          "text": "Built on Conviction.",
+          "top": 5842
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 6604
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/sustainability",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Sustainability & CSR | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Responsible by Design.",
+          "top": 1024
+        },
+        {
+          "text": "Three Pillars of Responsibility",
+          "top": 1673
+        },
+        {
+          "text": "ISO 14001 Certified Operations",
+          "top": 4461
+        },
+        {
+          "text": "CSR Initiatives",
+          "top": 5430
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/quality",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Quality Assurance | Modina Rim & Parts Ltd. — ISO 9001:2015 Certified",
+      "targets": [
+        {
+          "text": "Precision Is Not Optional",
+          "top": 1067
+        },
+        {
+          "text": "From Raw Material to Delivery",
+          "top": 1831
+        },
+        {
+          "text": "Certifications & Standards",
+          "top": 2444
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 4549
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/certificates",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Certifications | Modina Rim & Parts Ltd. — ISO 9001, 14001, 45001",
+      "targets": [
+        {
+          "text": "Proof, Not a Promise",
+          "top": 1085
+        },
+        {
+          "text": "Internationally Recognized",
+          "top": 1726
+        },
+        {
+          "text": "Awards & Milestones",
+          "top": 4388
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 5098
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/gallery",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Gallery | Modina Rim & Parts Ltd. — Factory Tour",
+      "targets": [
+        {
+          "text": "See It ForYourself",
+          "top": 5624
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/news",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "News & Events | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Modina Launches 2026 Product Catalog With 21 New SKUs",
+          "top": 1095
+        },
+        {
+          "text": "Search news...",
+          "top": 1635
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 5981
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/news/1",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/news/invalid",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Blog | Modina Rim & Parts Ltd. — Engineering & Industry Insights",
+      "targets": [
+        {
+          "text": "Why Precision Tolerance Is the Most Underrated Factor in Aut",
+          "top": 1074
+        },
+        {
+          "text": "Search posts...",
+          "top": 1737
+        },
+        {
+          "text": "See WhatWe Make",
+          "top": 7011
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/blog/1",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog/featured",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog/invalid",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/faq",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "FAQ | Modina Rim & Parts Ltd. — Frequently Asked Questions",
+      "targets": [
+        {
+          "text": "Search questions...",
+          "top": 529
+        },
+        {
+          "text": "Talk to OurSales Team",
+          "top": 3513
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/privacy",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Privacy Policy | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "1. Introduction",
+          "top": 1052
+        },
+        {
+          "text": "2. Information We Collect",
+          "top": 1578
+        },
+        {
+          "text": "3. Use of Your Information",
+          "top": 2433
+        },
+        {
+          "text": "4. Disclosure of Your Information",
+          "top": 3247
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/terms",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Terms of Service | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "1. Acceptance of Terms",
+          "top": 1023
+        },
+        {
+          "text": "2. Use of the Site",
+          "top": 1624
+        },
+        {
+          "text": "3. Intellectual Property Rights",
+          "top": 2422
+        },
+        {
+          "text": "4. Disclaimer of Warranties",
+          "top": 3142
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/audit-missing-page",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/products",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Products | Modina Rim & Parts Ltd. — 21 SKUs, Bangladesh",
+      "targets": [
+        {
+          "text": "Search products...",
+          "top": 795
+        },
+        {
+          "text": "Ready to Placean Order?",
+          "top": 2915
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/contact",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Contact Us | Modina Rim & Parts Ltd. — Jashore, Bangladesh",
+      "targets": [
+        {
+          "text": "Let's Talk",
+          "top": 986
+        },
+        {
+          "text": "Full Name *Company NameEmail *PhoneSubject *Select a subject",
+          "top": 1084
+        },
+        {
+          "text": "Your full name",
+          "top": 1123
+        },
+        {
+          "text": "Your company",
+          "top": 1230
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/downloads",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Downloads | Modina Rim & Parts Ltd. — Catalogs, Certificates & Technical Docs",
+      "targets": [
+        {
+          "text": "Search files...",
+          "top": 828
+        },
+        {
+          "text": "Product Catalog 2026",
+          "top": 2520
+        },
+        {
+          "text": "Can't FindWhat You Need?",
+          "top": 3201
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/careers",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Careers | Modina Rim & Parts Ltd. — Join Our Team",
+      "targets": [
+        {
+          "text": "Build Your CareerIn Precision",
+          "top": 872
+        },
+        {
+          "text": "Build Your Career In Precision",
+          "top": 1830
+        },
+        {
+          "text": "Send Us YourCV Anyway",
+          "top": 2976
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer — Bangladesh",
+      "targets": [
+        {
+          "text": "Forging the Backbone of Modern Mobility",
+          "top": 1076
+        },
+        {
+          "text": "New Arrival",
+          "top": 1914
+        },
+        {
+          "text": "The Trust Factor",
+          "top": 3009
+        },
+        {
+          "text": "Equipping Our Partners.",
+          "top": 3894
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/about",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "About Us | Modina Rim & Parts Ltd. — Since 2010, Jashore Bangladesh",
+      "targets": [
+        {
+          "text": "Engineering Reliability Since 2010",
+          "top": 1037
+        },
+        {
+          "text": "Our Journey",
+          "top": 1889
+        },
+        {
+          "text": "Mission & Values",
+          "top": 2741
+        },
+        {
+          "text": "State of the Art Facility",
+          "top": 4129
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/mission",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Our Mission & Values | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Engineering Trust. Delivering Excellence.",
+          "top": 875
+        },
+        {
+          "text": "Core Values",
+          "top": 2104
+        },
+        {
+          "text": "Built on Conviction.",
+          "top": 3993
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 4681
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/sustainability",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Sustainability & CSR | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Responsible by Design.",
+          "top": 936
+        },
+        {
+          "text": "Three Pillars of Responsibility",
+          "top": 1579
+        },
+        {
+          "text": "ISO 14001 Certified Operations",
+          "top": 2685
+        },
+        {
+          "text": "CSR Initiatives",
+          "top": 3557
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/quality",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Quality Assurance | Modina Rim & Parts Ltd. — ISO 9001:2015 Certified",
+      "targets": [
+        {
+          "text": "Precision Is Not Optional",
+          "top": 1033
+        },
+        {
+          "text": "From Raw Material to Delivery",
+          "top": 1738
+        },
+        {
+          "text": "Certifications & Standards",
+          "top": 2387
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 3413
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/certificates",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Certifications | Modina Rim & Parts Ltd. — ISO 9001, 14001, 45001",
+      "targets": [
+        {
+          "text": "Proof, Not a Promise",
+          "top": 915
+        },
+        {
+          "text": "Internationally Recognized",
+          "top": 1558
+        },
+        {
+          "text": "Awards & Milestones",
+          "top": 2818
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 3564
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/gallery",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Gallery | Modina Rim & Parts Ltd. — Factory Tour",
+      "targets": [
+        {
+          "text": "See It ForYourself",
+          "top": 3129
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/news",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "News & Events | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Modina Launches 2026 Product Catalog With 21 New SKUs",
+          "top": 936
+        },
+        {
+          "text": "Search news...",
+          "top": 1485
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 3397
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/news/1",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/news/invalid",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Blog | Modina Rim & Parts Ltd. — Engineering & Industry Insights",
+      "targets": [
+        {
+          "text": "Why Precision Tolerance Is the Most Underrated Factor in Aut",
+          "top": 936
+        },
+        {
+          "text": "Search posts...",
+          "top": 1656
+        },
+        {
+          "text": "See WhatWe Make",
+          "top": 3708
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/blog/1",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog/featured",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog/invalid",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/faq",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "FAQ | Modina Rim & Parts Ltd. — Frequently Asked Questions",
+      "targets": [
+        {
+          "text": "Search questions...",
+          "top": 605
+        },
+        {
+          "text": "Talk to OurSales Team",
+          "top": 3070
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/privacy",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Privacy Policy | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "1. Introduction",
+          "top": 1156
+        },
+        {
+          "text": "2. Information We Collect",
+          "top": 1566
+        },
+        {
+          "text": "3. Use of Your Information",
+          "top": 2205
+        },
+        {
+          "text": "4. Disclosure of Your Information",
+          "top": 2926
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/terms",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Terms of Service | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "1. Acceptance of Terms",
+          "top": 1156
+        },
+        {
+          "text": "2. Use of the Site",
+          "top": 1648
+        },
+        {
+          "text": "3. Intellectual Property Rights",
+          "top": 2286
+        },
+        {
+          "text": "4. Disclaimer of Warranties",
+          "top": 2844
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/audit-missing-page",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/products",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Products | Modina Rim & Parts Ltd. — 21 SKUs, Bangladesh",
+      "targets": [
+        {
+          "text": "Search products...",
+          "top": 682
+        },
+        {
+          "text": "Ready to Placean Order?",
+          "top": 5760
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/contact",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Contact Us | Modina Rim & Parts Ltd. — Jashore, Bangladesh",
+      "targets": [
+        {
+          "text": "Let's Talk",
+          "top": 795
+        },
+        {
+          "text": "Full Name *Company NameEmail *PhoneSubject *Select a subject",
+          "top": 880
+        },
+        {
+          "text": "Your full name",
+          "top": 919
+        },
+        {
+          "text": "Your company",
+          "top": 1026
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/downloads",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Downloads | Modina Rim & Parts Ltd. — Catalogs, Certificates & Technical Docs",
+      "targets": [
+        {
+          "text": "Search files...",
+          "top": 734
+        },
+        {
+          "text": "Product Catalog 2026",
+          "top": 4549
+        },
+        {
+          "text": "Can't FindWhat You Need?",
+          "top": 5216
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/careers",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Careers | Modina Rim & Parts Ltd. — Join Our Team",
+      "targets": [
+        {
+          "text": "Build Your CareerIn Precision",
+          "top": 761
+        },
+        {
+          "text": "Build Your Career In Precision",
+          "top": 2489
+        },
+        {
+          "text": "Send Us YourCV Anyway",
+          "top": 3986
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer — Bangladesh",
+      "targets": [
+        {
+          "text": "Forging the Backbone of Modern Mobility",
+          "top": 1075
+        },
+        {
+          "text": "New Arrival",
+          "top": 2496
+        },
+        {
+          "text": "The Trust Factor",
+          "top": 4515
+        },
+        {
+          "text": "Equipping Our Partners.",
+          "top": 5996
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/about",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "About Us | Modina Rim & Parts Ltd. — Since 2010, Jashore Bangladesh",
+      "targets": [
+        {
+          "text": "২০১০ সাল থেকে নির্ভরশীল প্রকৌশল",
+          "top": 1107
+        },
+        {
+          "text": "আমাদের যাত্রা",
+          "top": 2061
+        },
+        {
+          "text": "লক্ষ্য ও মূল্যবোধ",
+          "top": 2780
+        },
+        {
+          "text": "আধুনিক সুযোগ-সুবিধা",
+          "top": 5092
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/mission",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Our Mission & Values | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Engineering Trust. Delivering Excellence.",
+          "top": 1114
+        },
+        {
+          "text": "Core Values",
+          "top": 2395
+        },
+        {
+          "text": "Built on Conviction.",
+          "top": 5782
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 6521
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/sustainability",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Sustainability & CSR | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Responsible by Design.",
+          "top": 1017
+        },
+        {
+          "text": "Three Pillars of Responsibility",
+          "top": 1631
+        },
+        {
+          "text": "ISO 14001 Certified Operations",
+          "top": 4405
+        },
+        {
+          "text": "CSR Initiatives",
+          "top": 5398
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/quality",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Quality Assurance | Modina Rim & Parts Ltd. — ISO 9001:2015 Certified",
+      "targets": [
+        {
+          "text": "Precision Is Not Optional",
+          "top": 1077
+        },
+        {
+          "text": "From Raw Material to Delivery",
+          "top": 1829
+        },
+        {
+          "text": "Certifications & Standards",
+          "top": 2467
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 4539
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/certificates",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Certifications | Modina Rim & Parts Ltd. — ISO 9001, 14001, 45001",
+      "targets": [
+        {
+          "text": "Proof, Not a Promise",
+          "top": 1078
+        },
+        {
+          "text": "Internationally Recognized",
+          "top": 1725
+        },
+        {
+          "text": "Awards & Milestones",
+          "top": 4373
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 5085
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/gallery",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Gallery | Modina Rim & Parts Ltd. — Factory Tour",
+      "targets": [
+        {
+          "text": "See It ForYourself",
+          "top": 5605
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/news",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "News & Events | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Modina Launches 2026 Product Catalog With 21 New SKUs",
+          "top": 1105
+        },
+        {
+          "text": "Search news...",
+          "top": 1647
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 6086
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/news/1",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/news/invalid",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Blog | Modina Rim & Parts Ltd. — Engineering & Industry Insights",
+      "targets": [
+        {
+          "text": "Why Precision Tolerance Is the Most Underrated Factor in Aut",
+          "top": 1084
+        },
+        {
+          "text": "Search posts...",
+          "top": 1771
+        },
+        {
+          "text": "See WhatWe Make",
+          "top": 7149
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/blog/1",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog/featured",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog/invalid",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/faq",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "FAQ | Modina Rim & Parts Ltd. — Frequently Asked Questions",
+      "targets": [
+        {
+          "text": "Search questions...",
+          "top": 539
+        },
+        {
+          "text": "Talk to OurSales Team",
+          "top": 3408
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/privacy",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Privacy Policy | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "1. Introduction",
+          "top": 1044
+        },
+        {
+          "text": "2. Information We Collect",
+          "top": 1573
+        },
+        {
+          "text": "3. Use of Your Information",
+          "top": 2459
+        },
+        {
+          "text": "4. Disclosure of Your Information",
+          "top": 3328
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/terms",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Terms of Service | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "1. Acceptance of Terms",
+          "top": 1044
+        },
+        {
+          "text": "2. Use of the Site",
+          "top": 1654
+        },
+        {
+          "text": "3. Intellectual Property Rights",
+          "top": 2442
+        },
+        {
+          "text": "4. Disclaimer of Warranties",
+          "top": 3117
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/audit-missing-page",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/products",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Products | Modina Rim & Parts Ltd. — 21 SKUs, Bangladesh",
+      "targets": [
+        {
+          "text": "Search products...",
+          "top": 816
+        },
+        {
+          "text": "Ready to Placean Order?",
+          "top": 2962
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/contact",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Contact Us | Modina Rim & Parts Ltd. — Jashore, Bangladesh",
+      "targets": [
+        {
+          "text": "Let's Talk",
+          "top": 986
+        },
+        {
+          "text": "Full Name *Company NameEmail *PhoneSubject *Select a subject",
+          "top": 1094
+        },
+        {
+          "text": "Your full name",
+          "top": 1133
+        },
+        {
+          "text": "Your company",
+          "top": 1240
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/downloads",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Downloads | Modina Rim & Parts Ltd. — Catalogs, Certificates & Technical Docs",
+      "targets": [
+        {
+          "text": "Search files...",
+          "top": 846
+        },
+        {
+          "text": "Product Catalog 2026",
+          "top": 2561
+        },
+        {
+          "text": "Can't FindWhat You Need?",
+          "top": 3170
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/careers",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Careers | Modina Rim & Parts Ltd. — Join Our Team",
+      "targets": [
+        {
+          "text": "Build Your CareerIn Precision",
+          "top": 890
+        },
+        {
+          "text": "Build Your Career In Precision",
+          "top": 1890
+        },
+        {
+          "text": "Send Us YourCV Anyway",
+          "top": 3060
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer — Bangladesh",
+      "targets": [
+        {
+          "text": "Forging the Backbone of Modern Mobility",
+          "top": 1076
+        },
+        {
+          "text": "New Arrival",
+          "top": 1964
+        },
+        {
+          "text": "The Trust Factor",
+          "top": 3077
+        },
+        {
+          "text": "Equipping Our Partners.",
+          "top": 3992
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/about",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "About Us | Modina Rim & Parts Ltd. — Since 2010, Jashore Bangladesh",
+      "targets": [
+        {
+          "text": "২০১০ সাল থেকে নির্ভরশীল প্রকৌশল",
+          "top": 1058
+        },
+        {
+          "text": "আমাদের যাত্রা",
+          "top": 2034
+        },
+        {
+          "text": "লক্ষ্য ও মূল্যবোধ",
+          "top": 2890
+        },
+        {
+          "text": "আধুনিক সুযোগ-সুবিধা",
+          "top": 4271
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/mission",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Our Mission & Values | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Engineering Trust. Delivering Excellence.",
+          "top": 893
+        },
+        {
+          "text": "Core Values",
+          "top": 2168
+        },
+        {
+          "text": "Built on Conviction.",
+          "top": 4091
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 4782
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/sustainability",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Sustainability & CSR | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Responsible by Design.",
+          "top": 893
+        },
+        {
+          "text": "Three Pillars of Responsibility",
+          "top": 1534
+        },
+        {
+          "text": "ISO 14001 Certified Operations",
+          "top": 2678
+        },
+        {
+          "text": "CSR Initiatives",
+          "top": 3592
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/quality",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Quality Assurance | Modina Rim & Parts Ltd. — ISO 9001:2015 Certified",
+      "targets": [
+        {
+          "text": "Precision Is Not Optional",
+          "top": 1030
+        },
+        {
+          "text": "From Raw Material to Delivery",
+          "top": 1774
+        },
+        {
+          "text": "Certifications & Standards",
+          "top": 2442
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 3496
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/certificates",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Certifications | Modina Rim & Parts Ltd. — ISO 9001, 14001, 45001",
+      "targets": [
+        {
+          "text": "Proof, Not a Promise",
+          "top": 933
+        },
+        {
+          "text": "Internationally Recognized",
+          "top": 1610
+        },
+        {
+          "text": "Awards & Milestones",
+          "top": 2875
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 3651
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/gallery",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Gallery | Modina Rim & Parts Ltd. — Factory Tour",
+      "targets": [
+        {
+          "text": "See It ForYourself",
+          "top": 3147
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/news",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "News & Events | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Modina Launches 2026 Product Catalog With 21 New SKUs",
+          "top": 914
+        },
+        {
+          "text": "Search news...",
+          "top": 1474
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 3422
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/news/1",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/news/invalid",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Blog | Modina Rim & Parts Ltd. — Engineering & Industry Insights",
+      "targets": [
+        {
+          "text": "Why Precision Tolerance Is the Most Underrated Factor in Aut",
+          "top": 914
+        },
+        {
+          "text": "Search posts...",
+          "top": 1632
+        },
+        {
+          "text": "See WhatWe Make",
+          "top": 3721
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/blog/1",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog/featured",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog/invalid",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/faq",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "FAQ | Modina Rim & Parts Ltd. — Frequently Asked Questions",
+      "targets": [
+        {
+          "text": "Search questions...",
+          "top": 623
+        },
+        {
+          "text": "Talk to OurSales Team",
+          "top": 3088
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/privacy",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Privacy Policy | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "1. Introduction",
+          "top": 1183
+        },
+        {
+          "text": "2. Information We Collect",
+          "top": 1582
+        },
+        {
+          "text": "3. Use of Your Information",
+          "top": 2265
+        },
+        {
+          "text": "4. Disclosure of Your Information",
+          "top": 2995
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/terms",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Terms of Service | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "1. Acceptance of Terms",
+          "top": 1147
+        },
+        {
+          "text": "2. Use of the Site",
+          "top": 1670
+        },
+        {
+          "text": "3. Intellectual Property Rights",
+          "top": 2313
+        },
+        {
+          "text": "4. Disclaimer of Warranties",
+          "top": 2835
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/audit-missing-page",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "captures": [
+    "before-products-390-en-hero.png",
+    {
+      "file": "before-products-390-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          24,
+          177,
+          342,
+          491
+        ],
+        "images": false
+      }
+    },
+    "before-contact-390-en-hero.png",
+    {
+      "file": "before-contact-390-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          40,
+          381.5,
+          310,
+          56
+        ],
+        "images": true
+      }
+    },
+    "before-downloads-390-en-hero.png",
+    {
+      "file": "before-downloads-390-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          49,
+          408.5,
+          292,
+          27
+        ],
+        "images": true
+      }
+    },
+    "before-careers-390-en-hero.png",
+    {
+      "file": "before-careers-390-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          24,
+          278,
+          342,
+          241
+        ],
+        "images": true
+      }
+    },
+    "before-home-390-en-hero.png",
+    {
+      "file": "before-home-390-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          24,
+          359.5,
+          342,
+          77
+        ],
+        "images": true
+      }
+    },
+    "before-about-390-en-hero.png",
+    {
+      "file": "before-about-390-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          24,
+          383.5,
+          342,
+          77
+        ],
+        "images": true
+      }
+    },
+    "before-mission-390-en-hero.png",
+    {
+      "file": "before-mission-390-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          40,
+          364,
+          310,
+          115
+        ],
+        "images": true
+      }
+    },
+    "before-sustainability-390-en-hero.png",
+    {
+      "file": "before-sustainability-390-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          40,
+          384,
+          310,
+          77
+        ],
+        "images": true
+      }
+    },
+    "before-quality-390-en-hero.png",
+    {
+      "file": "before-quality-390-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          40,
+          383.5,
+          310,
+          77
+        ],
+        "images": true
+      }
+    },
+    "before-certificates-390-en-hero.png",
+    {
+      "file": "before-certificates-390-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          40,
+          403,
+          310,
+          38.5
+        ],
+        "images": true
+      }
+    },
+    "before-gallery-390-en-hero.png",
+    {
+      "file": "before-gallery-390-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          24,
+          292,
+          342,
+          260
+        ],
+        "images": true
+      }
+    },
+    "before-news-390-en-hero.png",
+    {
+      "file": "before-news-390-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          40,
+          345.5,
+          310,
+          153.5
+        ],
+        "images": true
+      }
+    },
+    "before-news-1-390-en-hero.png",
+    {
+      "file": "before-news-1-390-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          0,
+          -643,
+          390,
+          2130
+        ],
+        "images": true
+      }
+    },
+    "before-news-invalid-390-en-hero.png",
+    "before-blog-390-en-hero.png",
+    {
+      "file": "before-blog-390-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          41,
+          326.5,
+          309,
+          192
+        ],
+        "images": true
+      }
+    },
+    "before-blog-1-390-en-hero.png",
+    {
+      "file": "before-blog-1-390-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          0,
+          -756,
+          390,
+          2356.5
+        ],
+        "images": true
+      }
+    },
+    "before-blog-featured-390-en-hero.png",
+    {
+      "file": "before-blog-featured-390-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          0,
+          -866,
+          390,
+          2576
+        ],
+        "images": true
+      }
+    },
+    "before-blog-invalid-390-en-hero.png",
+    "before-faq-390-en-hero.png",
+    {
+      "file": "before-faq-390-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          25,
+          340,
+          340,
+          163.5
+        ],
+        "images": true
+      }
+    },
+    "before-privacy-390-en-hero.png",
+    {
+      "file": "before-privacy-390-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          24,
+          384.5,
+          342,
+          44
+        ],
+        "images": true
+      }
+    },
+    "before-terms-390-en-hero.png",
+    {
+      "file": "before-terms-390-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          24,
+          384,
+          342,
+          44
+        ],
+        "images": true
+      }
+    },
+    "before-audit-missing-page-390-en-hero.png",
+    "before-products-1440-en-hero.png",
+    {
+      "file": "before-products-1440-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          152,
+          193,
+          357.5,
+          513.5
+        ],
+        "images": false
+      }
+    },
+    "before-contact-1440-en-hero.png",
+    {
+      "file": "before-contact-1440-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          64,
+          410,
+          591,
+          56
+        ],
+        "images": true
+      }
+    },
+    "before-downloads-1440-en-hero.png",
+    {
+      "file": "before-downloads-1440-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          177,
+          434,
+          312.5,
+          32.5
+        ],
+        "images": true
+      }
+    },
+    "before-careers-1440-en-hero.png",
+    {
+      "file": "before-careers-1440-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          152,
+          296.5,
+          362.5,
+          259.5
+        ],
+        "images": true
+      }
+    },
+    "before-home-1440-en-hero.png",
+    {
+      "file": "before-home-1440-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          152,
+          368,
+          520,
+          115
+        ],
+        "images": true
+      }
+    },
+    "before-about-1440-en-hero.png",
+    {
+      "file": "before-about-1440-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          784,
+          392.5,
+          504,
+          115
+        ],
+        "images": true
+      }
+    },
+    "before-mission-1440-en-hero.png",
+    {
+      "file": "before-mission-1440-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          784,
+          392,
+          592,
+          115
+        ],
+        "images": true
+      }
+    },
+    "before-sustainability-1440-en-hero.png",
+    {
+      "file": "before-sustainability-1440-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          784,
+          421,
+          592,
+          57.5
+        ],
+        "images": true
+      }
+    },
+    "before-quality-1440-en-hero.png",
+    {
+      "file": "before-quality-1440-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          784.5,
+          421,
+          591.5,
+          57.5
+        ],
+        "images": true
+      }
+    },
+    "before-certificates-1440-en-hero.png",
+    {
+      "file": "before-certificates-1440-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          784.5,
+          421,
+          591.5,
+          57.5
+        ],
+        "images": true
+      }
+    },
+    "before-gallery-1440-en-hero.png",
+    {
+      "file": "before-gallery-1440-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          152,
+          320,
+          754.5,
+          260
+        ],
+        "images": true
+      }
+    },
+    "before-news-1440-en-hero.png",
+    {
+      "file": "before-news-1440-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          784.5,
+          363,
+          591.5,
+          173
+        ],
+        "images": true
+      }
+    },
+    "before-news-1-1440-en-hero.png",
+    {
+      "file": "before-news-1-1440-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          336,
+          -436,
+          768,
+          1772
+        ],
+        "images": true
+      }
+    },
+    "before-news-invalid-1440-en-hero.png",
+    "before-blog-1440-en-hero.png",
+    {
+      "file": "before-blog-1440-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          850.5,
+          306,
+          525.5,
+          288
+        ],
+        "images": true
+      }
+    },
+    "before-blog-1-1440-en-hero.png",
+    {
+      "file": "before-blog-1-1440-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          336,
+          -514,
+          768,
+          1928.5
+        ],
+        "images": true
+      }
+    },
+    "before-blog-featured-1440-en-hero.png",
+    {
+      "file": "before-blog-featured-1440-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          336,
+          -626,
+          768,
+          2153
+        ],
+        "images": true
+      }
+    },
+    "before-blog-invalid-1440-en-hero.png",
+    "before-faq-1440-en-hero.png",
+    {
+      "file": "before-faq-1440-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          345,
+          397,
+          750,
+          106
+        ],
+        "images": true
+      }
+    },
+    "before-privacy-1440-en-hero.png",
+    {
+      "file": "before-privacy-1440-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          408,
+          409.5,
+          624,
+          49.5
+        ],
+        "images": true
+      }
+    },
+    "before-terms-1440-en-hero.png",
+    {
+      "file": "before-terms-1440-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          408,
+          409.5,
+          624,
+          49.5
+        ],
+        "images": true
+      }
+    },
+    "before-audit-missing-page-1440-en-hero.png",
+    "before-products-390-bn-hero.png",
+    {
+      "file": "before-products-390-bn-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          24,
+          172,
+          342,
+          499.5
+        ],
+        "images": false
+      }
+    },
+    "before-contact-390-bn-hero.png",
+    {
+      "file": "before-contact-390-bn-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          40,
+          382,
+          310,
+          56
+        ],
+        "images": true
+      }
+    },
+    "before-downloads-390-bn-hero.png",
+    {
+      "file": "before-downloads-390-bn-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          49,
+          407.5,
+          292,
+          28
+        ],
+        "images": true
+      }
+    },
+    "before-careers-390-bn-hero.png",
+    {
+      "file": "before-careers-390-bn-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          24,
+          287.5,
+          342,
+          220
+        ],
+        "images": true
+      }
+    },
+    "before-home-390-bn-hero.png",
+    {
+      "file": "before-home-390-bn-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          24,
+          353.5,
+          342,
+          89.5
+        ],
+        "images": true
+      }
+    },
+    "before-about-390-bn-hero.png",
+    {
+      "file": "before-about-390-bn-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          24,
+          377.5,
+          342,
+          89.5
+        ],
+        "images": true
+      }
+    },
+    "before-mission-390-bn-hero.png",
+    {
+      "file": "before-mission-390-bn-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          40,
+          377,
+          310,
+          89.5
+        ],
+        "images": true
+      }
+    },
+    "before-sustainability-390-bn-hero.png",
+    {
+      "file": "before-sustainability-390-bn-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          40,
+          399.5,
+          310,
+          45
+        ],
+        "images": true
+      }
+    },
+    "before-quality-390-bn-hero.png",
+    {
+      "file": "before-quality-390-bn-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          40,
+          377.5,
+          310,
+          89.5
+        ],
+        "images": true
+      }
+    },
+    "before-certificates-390-bn-hero.png",
+    {
+      "file": "before-certificates-390-bn-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          40,
+          399.5,
+          310,
+          45
+        ],
+        "images": true
+      }
+    },
+    "before-gallery-390-bn-hero.png",
+    {
+      "file": "before-gallery-390-bn-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          24,
+          292,
+          342,
+          260
+        ],
+        "images": true
+      }
+    },
+    "before-news-390-bn-hero.png",
+    {
+      "file": "before-news-390-bn-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          40,
+          354.5,
+          310,
+          134.5
+        ],
+        "images": true
+      }
+    },
+    "before-news-1-390-bn-hero.png",
+    {
+      "file": "before-news-1-390-bn-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          0,
+          -582,
+          390,
+          2009
+        ],
+        "images": true
+      }
+    },
+    "before-news-invalid-390-bn-hero.png",
+    "before-blog-390-bn-hero.png",
+    {
+      "file": "before-blog-390-bn-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          41,
+          310.5,
+          309,
+          224
+        ],
+        "images": true
+      }
+    },
+    "before-blog-1-390-bn-hero.png",
+    {
+      "file": "before-blog-1-390-bn-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          0,
+          -758,
+          390,
+          2359.5
+        ],
+        "images": true
+      }
+    },
+    "before-blog-featured-390-bn-hero.png",
+    {
+      "file": "before-blog-featured-390-bn-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          0,
+          -841,
+          390,
+          2525.5
+        ],
+        "images": true
+      }
+    },
+    "before-blog-invalid-390-bn-hero.png",
+    "before-faq-390-bn-hero.png",
+    {
+      "file": "before-faq-390-bn-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          25,
+          355,
+          340,
+          134.5
+        ],
+        "images": true
+      }
+    },
+    "before-privacy-390-bn-hero.png",
+    {
+      "file": "before-privacy-390-bn-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          24,
+          383.5,
+          342,
+          45
+        ],
+        "images": true
+      }
+    },
+    "before-terms-390-bn-hero.png",
+    {
+      "file": "before-terms-390-bn-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          24,
+          383.5,
+          342,
+          45
+        ],
+        "images": true
+      }
+    },
+    "before-audit-missing-page-390-bn-hero.png"
+  ],
+  "browser": "156.0.8078.49",
+  "completed": true,
+  "teardown": {
+    "normal": false,
+    "bounded": true,
+    "connected": false
+  }
+}

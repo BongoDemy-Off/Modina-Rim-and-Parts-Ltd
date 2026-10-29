@@ -1,0 +1,20 @@
+START no-preference
+fixture loaded
+locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator('#opener')
+
+    at C:\Users\BongoDemy\Documents\BongoDemy\Modina-Rim-and-Parts-Ltd\docs\audits\evidence\batch-1a\lifecycle.cjs:16:62 {
+  log: [ "  - waiting for locator('#opener')" ],
+  name: 'TimeoutError'
+}
+closing lifecycle browser
+Browser teardown watchdog used for owned PID 15968; assertions were saved first.
+locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator('#opener')
+
+    at C:\Users\BongoDemy\Documents\BongoDemy\Modina-Rim-and-Parts-Ltd\docs\audits\evidence\batch-1a\lifecycle.cjs:16:62 {
+  log: [ "  - waiting for locator('#opener')" ],
+  name: 'TimeoutError'
+}

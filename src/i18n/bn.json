@@ -1,4 +1,19 @@
 {
+  "public_ui": {
+    "resources": "প্রয়োজনীয় নথি",
+    "skip_main": "মূল বিষয়বস্তুতে যান",
+    "catalogue": "পণ্যের ক্যাটালগ",
+    "open_roles": "শূন্য পদ দেখুন",
+    "pause_rotation": "স্লাইড পরিবর্তন থামান",
+    "play_rotation": "স্লাইড পরিবর্তন চালু করুন",
+    "hero_label": "পণ্যের প্রদর্শনী",
+    "skip_intro": "সূচনা এড়িয়ে যান",
+    "intro_label": "মদিনার ব্র্যান্ড পরিচিতি",
+    "intro_sequence": "ব্র্যান্ড পরিচিতি",
+    "view_articles": "সব সংবাদ দেখুন",
+    "view_posts": "সব লেখা দেখুন",
+    "results": "{{count}}টি ফলাফল"
+  },
   "nav": {
     "home": "হোম",
     "products": "পণ্যসমূহ",

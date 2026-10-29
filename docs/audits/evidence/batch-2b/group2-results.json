@@ -1,0 +1,68 @@
+{
+  "mode": "group2",
+  "base": "http://127.0.0.1:4199",
+  "states": [
+    {
+      "route": "/downloads",
+      "width": 390,
+      "lang": "en",
+      "passed": false,
+      "error": "page.goto: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4199/downloads\", waiting until \"domcontentloaded\"\u001b[22m\n"
+    },
+    {
+      "route": "/careers",
+      "width": 390,
+      "lang": "en",
+      "passed": false,
+      "error": "page.goto: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4199/careers\", waiting until \"domcontentloaded\"\u001b[22m\n"
+    },
+    {
+      "route": "/downloads",
+      "width": 1440,
+      "lang": "en",
+      "passed": false,
+      "error": "page.goto: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4199/downloads\", waiting until \"domcontentloaded\"\u001b[22m\n"
+    },
+    {
+      "route": "/careers",
+      "width": 1440,
+      "lang": "en",
+      "passed": false,
+      "error": "page.goto: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4199/careers\", waiting until \"domcontentloaded\"\u001b[22m\n"
+    },
+    {
+      "route": "/downloads",
+      "width": 390,
+      "lang": "bn",
+      "passed": false,
+      "error": "locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('main') to be visible\u001b[22m\n\u001b[2m    5 × waiting for \"http://127.0.0.1:4199/downloads\" navigation to finish...\u001b[22m\n\u001b[2m      - navigated to \"http://127.0.0.1:4199/downloads\"\u001b[22m\n"
+    },
+    {
+      "route": "/careers",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Careers | Modina Rim & Parts Ltd. — Join Our Team",
+      "targets": [
+        {
+          "text": "Build Your CareerIn Precision",
+          "top": 576
+        },
+        {
+          "text": "Build Your Career In Precision",
+          "top": 2609
+        },
+        {
+          "text": "Send Us YourCV Anyway",
+          "top": 4106
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "captures": [
+    "group2-careers-390-bn-hero.png"
+  ],
+  "browser": "156.0.8078.49"
+}

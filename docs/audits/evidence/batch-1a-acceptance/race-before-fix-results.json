@@ -1,0 +1,206 @@
+[
+  {
+    "reducedMotion": "no-preference",
+    "cycles": [
+      {
+        "cycle": 1,
+        "passed": true
+      },
+      {
+        "cycle": 2,
+        "passed": true
+      },
+      {
+        "cycle": 3,
+        "passed": true
+      },
+      {
+        "cycle": 4,
+        "passed": true
+      },
+      {
+        "cycle": 5,
+        "passed": true
+      },
+      {
+        "cycle": 6,
+        "passed": true
+      },
+      {
+        "cycle": 7,
+        "passed": true
+      }
+    ],
+    "failure": {
+      "cycle": 8,
+      "error": "expect(received).toBe(expected) // Object.is equality\n\nExpected: true\nReceived: false\n\nCall Log:\n- Timeout 5000ms exceeded while waiting on the predicate",
+      "state": {
+        "metrics": {
+          "closeRequests": 7,
+          "shows": 8,
+          "closes": 7
+        },
+        "dialog": [
+          {
+            "open": true,
+            "modal": true,
+            "html": "<div class=\"fixed inset-0\" style=\"opacity: 0;\"><div data-public-backdrop=\"true\" class=\"fixed inset-0 bg-black/40\" style=\"opacity: 1;\"></div><div class=\"fixed right-0 top-0 bottom-0 w-80 bg-white p-6\" style=\"transform: none;\"><h2 id=\"fixture-title\" tabindex=\"-1\">Lifecycle fixture</h2><button id=\"fixture-close\">Close fixture</button></div></div>",
+            "styles": [
+              {
+                "tag": "DIV",
+                "style": "opacity: 0;",
+                "opacity": "0",
+                "rect": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 390,
+                  "height": 844,
+                  "top": 0,
+                  "right": 390,
+                  "bottom": 844,
+                  "left": 0
+                }
+              },
+              {
+                "tag": "DIV",
+                "style": "opacity: 1;",
+                "opacity": "1",
+                "rect": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 390,
+                  "height": 844,
+                  "top": 0,
+                  "right": 390,
+                  "bottom": 844,
+                  "left": 0
+                }
+              },
+              {
+                "tag": "DIV",
+                "style": "transform: none;",
+                "opacity": "1",
+                "rect": {
+                  "x": 70,
+                  "y": 0,
+                  "width": 320,
+                  "height": 844,
+                  "top": 0,
+                  "right": 390,
+                  "bottom": 844,
+                  "left": 70
+                }
+              },
+              {
+                "tag": "H2",
+                "style": null,
+                "opacity": "1",
+                "rect": {
+                  "x": 94,
+                  "y": 24,
+                  "width": 272,
+                  "height": 28.796875,
+                  "top": 24,
+                  "right": 366,
+                  "bottom": 52.796875,
+                  "left": 94
+                }
+              }
+            ]
+          }
+        ],
+        "scroll": [
+          "hidden",
+          "hidden"
+        ]
+      }
+    },
+    "passed": false
+  },
+  {
+    "reducedMotion": "reduce",
+    "cycles": [
+      {
+        "cycle": 1,
+        "passed": true
+      },
+      {
+        "cycle": 2,
+        "passed": true
+      },
+      {
+        "cycle": 3,
+        "passed": true
+      },
+      {
+        "cycle": 4,
+        "passed": true
+      },
+      {
+        "cycle": 5,
+        "passed": true
+      },
+      {
+        "cycle": 6,
+        "passed": true
+      },
+      {
+        "cycle": 7,
+        "passed": true
+      },
+      {
+        "cycle": 8,
+        "passed": true
+      },
+      {
+        "cycle": 9,
+        "passed": true
+      },
+      {
+        "cycle": 10,
+        "passed": true
+      },
+      {
+        "cycle": 11,
+        "passed": true
+      },
+      {
+        "cycle": 12,
+        "passed": true
+      },
+      {
+        "cycle": 13,
+        "passed": true
+      },
+      {
+        "cycle": 14,
+        "passed": true
+      },
+      {
+        "cycle": 15,
+        "passed": true
+      },
+      {
+        "cycle": 16,
+        "passed": true
+      },
+      {
+        "cycle": 17,
+        "passed": true
+      },
+      {
+        "cycle": 18,
+        "passed": true
+      },
+      {
+        "cycle": 19,
+        "passed": true
+      },
+      {
+        "cycle": 20,
+        "passed": true
+      }
+    ],
+    "passed": true
+  }
+]

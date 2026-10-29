@@ -43,7 +43,7 @@ export default function Sustainability() {
   const ctaInView = useInView(ctaRef, { once: true, margin: '-60px' });
 
   return (
-    <div className="min-h-screen bg-white text-modina-text pt-[112px] sm:pt-[72px]">
+    <div className="min-h-screen bg-white text-modina-text pt-[112px] sm:pt-[72px] public-page public-company">
       <Helmet>
         <title>Sustainability &amp; CSR | Modina Rim &amp; Parts Ltd.</title>
         <meta name="description" content="Modina Rim & Parts Ltd. is ISO 14001:2015 certified. Committed to 30% waste reduction, 150+ employee welfare, youth apprenticeship programs, and responsible manufacturing in Jashore, Bangladesh." />
@@ -53,8 +53,8 @@ export default function Sustainability() {
       </Helmet>
 
       {/* SECTION 1 — HERO */}
-      <section className="w-full py-20 lg:py-28 flex flex-col items-center text-center bg-white border-b border-modina-divider">
-        <div className="text-xs font-bold tracking-widest text-modina-subtle uppercase flex items-center gap-2 justify-center mb-10">
+      <section className="w-full public-story-hero flex flex-col items-center text-center bg-white border-b border-modina-divider">
+        <div className="text-xs font-bold tracking-widest text-modina-subtle uppercase flex items-center gap-2 justify-center mb-10 public-breadcrumb">
           <Link to="/" className="hover:text-modina-red transition-colors duration-300">Home</Link>
           <ChevronRight className="w-2.5 h-2.5 text-modina-subtle" />
           <span className="text-modina-muted">Sustainability</span>
@@ -62,7 +62,7 @@ export default function Sustainability() {
 
         <div className="w-24 h-[2px] bg-modina-red mx-auto mb-10" />
 
-        <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-[9rem] font-display font-bold tracking-tight text-modina-heading uppercase leading-none flex items-center justify-center flex-wrap">
+        <h1 className="font-display font-bold tracking-tight text-modina-heading uppercase leading-none flex items-center justify-center flex-wrap public-hero-title public-hero-long">
           {letters.map((letter, i) => (
             letter === " " ? (
               <span key={i} className="w-[0.3em]">&nbsp;</span>
@@ -87,7 +87,7 @@ export default function Sustainability() {
           className="w-32 h-[1px] bg-modina-red mx-auto my-10"
         />
 
-        <p className="text-xs font-bold tracking-widest text-modina-muted uppercase flex items-center justify-center flex-wrap gap-2">
+        <p className="text-xs font-bold tracking-widest text-modina-muted uppercase flex items-center justify-center flex-wrap gap-2 public-meta">
           <span>Modina Rim &amp; Parts Ltd.</span>
           <span className="text-modina-red">·</span>
           <span>People. Planet. Purpose.</span>
@@ -100,17 +100,17 @@ export default function Sustainability() {
         <div className="responsive-stat-strip grid w-full max-w-xl grid-cols-[1fr_auto_1fr_auto_1fr] items-center mx-auto">
           <div className="flex min-w-0 flex-col items-center px-1 sm:px-10 md:px-14">
             <span className="text-3xl md:text-4xl font-display font-bold text-modina-red">ISO</span>
-            <span className="text-xs font-bold tracking-widest text-modina-muted uppercase mt-1">14001 Certified</span>
+            <span className="text-xs font-bold tracking-widest text-modina-muted uppercase mt-1 public-meta">14001 Certified</span>
           </div>
           <span className="w-[0.5px] h-8 bg-modina-divider" />
           <div className="flex min-w-0 flex-col items-center px-1 sm:px-10 md:px-14">
             <span className="text-3xl md:text-4xl font-display font-bold text-modina-red">30%</span>
-            <span className="text-xs font-bold tracking-widest text-modina-muted uppercase mt-1">Waste Reduced</span>
+            <span className="text-xs font-bold tracking-widest text-modina-muted uppercase mt-1 public-meta">Waste Reduced</span>
           </div>
           <span className="w-[0.5px] h-8 bg-modina-divider" />
           <div className="flex min-w-0 flex-col items-center px-1 sm:px-10 md:px-14">
             <span className="text-3xl md:text-4xl font-display font-bold text-modina-red">200+</span>
-            <span className="text-xs font-bold tracking-widest text-modina-muted uppercase mt-1">Lives Impacted</span>
+            <span className="text-xs font-bold tracking-widest text-modina-muted uppercase mt-1 public-meta">Lives Impacted</span>
           </div>
         </div>
 
@@ -126,13 +126,13 @@ export default function Sustainability() {
             transition={{ duration: 0.9, ease: [0.16, 1, 0.3, 1] }}
             className="bg-modina-bg-alt p-10 lg:p-16 flex flex-col justify-center border-r border-modina-divider"
           >
-            <p className="text-[120px] font-display font-bold text-modina-divider leading-none select-none tracking-tight">
+            <p aria-hidden="true" className="text-[120px] font-display font-bold text-modina-divider leading-none select-none tracking-tight">
               CSR
             </p>
-            <p className="text-xs font-bold tracking-widest text-modina-red uppercase mt-2">
+            <p className="text-xs font-bold tracking-widest text-modina-red uppercase mt-2 public-meta">
               — Our Commitment
             </p>
-            <p className="text-xs font-bold tracking-widest text-modina-subtle uppercase mt-1">
+            <p className="text-xs font-bold tracking-widest text-modina-subtle uppercase mt-1 public-meta">
               Beyond Manufacturing
             </p>
           </motion.div>
@@ -143,16 +143,16 @@ export default function Sustainability() {
             transition={{ duration: 0.9, delay: 0.15, ease: [0.16, 1, 0.3, 1] }}
             className="bg-white p-10 lg:p-16 flex flex-col justify-center"
           >
-            <p className="text-xs font-bold tracking-widest text-modina-red uppercase mb-8">
+            <p className="text-xs font-bold tracking-widest text-modina-red uppercase mb-8 public-meta">
               — Why It Matters
             </p>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-modina-heading tracking-tight leading-tight mb-8">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-modina-heading tracking-tight leading-tight mb-8 public-section-title">
               Responsible by Design.
             </h2>
-            <p className="text-[14px] text-modina-muted font-light leading-relaxed max-w-lg mb-5">
+            <p className="text-[14px] text-modina-muted font-light leading-relaxed max-w-lg mb-5 public-body">
               At Modina Rim &amp; Parts Ltd., sustainability is not a corporate afterthought. It is embedded in every process decision, every material choice, and every community initiative we undertake.
             </p>
-            <p className="text-[14px] text-modina-muted font-light leading-relaxed max-w-lg mb-5">
+            <p className="text-[14px] text-modina-muted font-light leading-relaxed max-w-lg mb-5 public-body">
               We believe a manufacturer's responsibility extends beyond the factory gate — to the environment we share, the workforce we employ, and the communities that surround us.
             </p>
             <Link to="/about" className="inline-flex items-center gap-3 mt-4 text-xs font-bold tracking-widest text-modina-muted uppercase hover:text-modina-red transition-all duration-300 ease-in-out">
@@ -164,15 +164,15 @@ export default function Sustainability() {
       </section>
 
       {/* SECTION 3 — THREE PILLARS */}
-      <section className="w-full border-b border-modina-divider py-20 lg:py-28 bg-modina-bg-alt" ref={pillarsRef}>
-        <div className="container mx-auto px-6 md:px-12 lg:px-24 mb-16">
-          <p className="text-xs font-bold tracking-widest text-modina-red uppercase mb-4">— Our Approach</p>
-          <h2 className="text-3xl md:text-4xl font-display font-bold text-modina-heading tracking-tight">
+      <section className="w-full border-b border-modina-divider public-section bg-modina-bg-alt" ref={pillarsRef}>
+        <div className="container-premium mb-16">
+          <p className="text-xs font-bold tracking-widest text-modina-red uppercase mb-4 public-meta">— Our Approach</p>
+          <h2 className="text-3xl md:text-4xl font-display font-bold text-modina-heading tracking-tight public-section-title">
             Three Pillars of Responsibility
           </h2>
         </div>
 
-        <div className="container mx-auto px-6 md:px-12 lg:px-24 grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="container-premium grid grid-cols-1 md:grid-cols-3 gap-6">
           {pillarsData.map((pillar, idx) => (
             <motion.div
               key={idx}
@@ -194,22 +194,22 @@ export default function Sustainability() {
                 />
               </div>
 
-              <div className="p-8 lg:p-10 flex flex-col flex-grow">
-                <p className="text-xs font-bold tracking-widest text-modina-red uppercase mb-4 mt-2">
+              <div className="p-6 sm:p-8 lg:p-10 flex flex-col flex-grow">
+                <p className="text-xs font-bold tracking-widest text-modina-red uppercase mb-4 mt-2 public-meta">
                   {pillar.num}
                 </p>
-                <h3 className="text-2xl md:text-3xl font-display font-bold text-modina-heading tracking-tight mb-4">
+                <h3 className="text-2xl md:text-3xl font-display font-bold text-modina-heading tracking-tight mb-4 public-card-title">
                   {pillar.title}
                 </h3>
                 <hr className="border-modina-border mb-4" />
-                <p className="text-[14px] text-modina-muted font-light leading-relaxed flex-grow">
+                <p className="text-[14px] text-modina-muted font-light leading-relaxed flex-grow public-body">
                   {pillar.desc}
                 </p>
-                <div className="mt-6 pt-4 border-t border-modina-border flex items-center justify-between">
-                  <span className="text-xs font-bold tracking-widest text-modina-muted uppercase">
+                <div className="mt-6 pt-4 border-t border-modina-border flex flex-wrap gap-2 items-center justify-between">
+                  <span className="text-xs font-bold tracking-widest text-modina-muted uppercase public-meta">
                     {pillar.label}
                   </span>
-                  <span className="text-xs font-bold tracking-widest text-modina-red uppercase">
+                  <span className="text-xs font-bold tracking-widest text-modina-red uppercase public-meta">
                     {pillar.value}
                   </span>
                 </div>
@@ -234,10 +234,10 @@ export default function Sustainability() {
             />
             <div className="absolute inset-0 bg-[linear-gradient(to_top,rgba(15,23,42,0.6)_0%,transparent_40%)]" />
             <div className="absolute bottom-8 left-8">
-              <p className="text-xs font-bold tracking-widest text-white/70 uppercase">
+              <p className="text-xs font-bold tracking-widest text-white/70 uppercase public-meta">
                 Manufacturing Facility
               </p>
-              <p className="text-xs font-bold tracking-widest text-white uppercase mt-1">
+              <p className="text-xs font-bold tracking-widest text-white uppercase mt-1 public-meta">
                 Jashore, Bangladesh — ISO 14001 Certified
               </p>
             </div>
@@ -249,22 +249,22 @@ export default function Sustainability() {
             transition={{ duration: 0.9, delay: 0.15, ease: [0.16, 1, 0.3, 1] }}
             className="bg-white p-10 lg:p-16 flex flex-col justify-center border-l border-modina-divider"
           >
-            <p className="text-xs font-bold tracking-widest text-modina-red uppercase mb-8">
+            <p className="text-xs font-bold tracking-widest text-modina-red uppercase mb-8 public-meta">
               — Environmental Action
             </p>
-            <h2 className="text-3xl md:text-4xl font-display font-bold text-modina-heading tracking-tight leading-tight mb-8">
+            <h2 className="text-3xl md:text-4xl font-display font-bold text-modina-heading tracking-tight leading-tight mb-8 public-section-title">
               ISO 14001 Certified Operations
             </h2>
             
             <div className="flex flex-col">
               {envInitiatives.map((item, idx) => (
                 <div key={idx} className="border-b border-modina-border py-5 flex items-start gap-6 group/item last:border-0">
-                  <span className="text-xs text-modina-red mt-0.5">—</span>
+                  <span className="text-xs text-modina-red mt-0.5 public-meta">—</span>
                   <div className="flex flex-col gap-1">
                     <h4 className="text-xs font-bold tracking-widest text-modina-muted uppercase group-hover/item:text-modina-heading transition-colors duration-300">
                       {item.title}
                     </h4>
-                    <p className="text-[13px] text-modina-muted font-light leading-relaxed">
+                    <p className="text-[13px] text-modina-muted font-light leading-relaxed public-body">
                       {item.desc}
                     </p>
                   </div>
@@ -276,15 +276,15 @@ export default function Sustainability() {
       </section>
 
       {/* SECTION 5 — CSR INITIATIVES GRID */}
-      <section className="w-full border-b border-modina-divider py-20 lg:py-28 bg-white" ref={csrRef}>
-        <div className="container mx-auto px-6 md:px-12 lg:px-24 mb-20">
-          <p className="text-xs font-bold tracking-widest text-modina-red uppercase mb-4">— Community Impact</p>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-modina-heading tracking-tight">
+      <section className="w-full border-b border-modina-divider public-section bg-white" ref={csrRef}>
+        <div className="container-premium mb-20">
+          <p className="text-xs font-bold tracking-widest text-modina-red uppercase mb-4 public-meta">— Community Impact</p>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-modina-heading tracking-tight public-section-title">
             CSR Initiatives
           </h2>
         </div>
 
-        <div className="container mx-auto px-6 md:px-12 lg:px-24 flex flex-col gap-20">
+        <div className="container-premium flex flex-col gap-20">
           {csrData.map((item, idx) => {
             const isEven = idx % 2 === 0;
             return (
@@ -307,17 +307,17 @@ export default function Sustainability() {
                   </div>
                 </div>
                 <div className="w-full lg:w-1/2 flex flex-col">
-                  <p className="text-xs font-bold tracking-widest text-modina-red uppercase mb-4">
+                  <p className="text-xs font-bold tracking-widest text-modina-red uppercase mb-4 public-meta">
                     {item.num}
                   </p>
-                  <h3 className="text-[clamp(24px,3vw,36px)] font-display font-bold text-modina-heading tracking-tight leading-tight mb-6">
+                  <h3 className="text-[clamp(24px,3vw,36px)] font-display font-bold text-modina-heading tracking-tight leading-tight mb-6 public-card-title">
                     {item.title}
                   </h3>
                   <div className="w-12 h-[1px] bg-modina-divider mb-6" />
-                  <p className="text-[15px] text-modina-muted font-light leading-relaxed mb-8 max-w-lg">
+                  <p className="text-[15px] text-modina-muted font-light leading-relaxed mb-8 max-w-lg public-body">
                     {item.desc}
                   </p>
-                  <span className="inline-block border border-modina-border rounded-full px-4 py-2 text-xs font-bold tracking-widest text-modina-muted uppercase self-start hover:border-modina-red hover:text-modina-red transition-all duration-300 ease-in-out">
+                  <span className="inline-block border border-modina-border rounded-full px-4 py-2 text-xs font-bold tracking-widest text-modina-muted uppercase self-start hover:border-modina-red hover:text-modina-red transition-all duration-300 ease-in-out public-meta">
                     {item.tag}
                   </span>
                 </div>
@@ -328,8 +328,8 @@ export default function Sustainability() {
       </section>
 
       {/* SECTION 6 — CTA BANNER */}
-      <section className="w-full border-t border-modina-divider py-24 lg:py-32 bg-modina-heading" ref={ctaRef}>
-        <div className="container mx-auto px-6 md:px-12 lg:px-24 flex flex-col lg:flex-row items-start lg:items-center justify-between gap-10">
+      <section className="w-full border-t border-modina-divider public-section bg-modina-heading public-dark" ref={ctaRef}>
+        <div className="container-premium flex flex-col lg:flex-row items-start lg:items-center justify-between gap-10">
           <motion.div 
             initial={{ opacity: 0, x: -24 }}
             animate={ctaInView ? { opacity: 1, x: 0 } : {}}
@@ -343,8 +343,8 @@ export default function Sustainability() {
               style={{ transformOrigin: 'top' }}
               className="absolute left-0 top-0 w-1 h-20 bg-modina-red"
             />
-            <p className="text-xs font-bold tracking-widest text-modina-red uppercase mb-4">— Join Our Journey</p>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-white tracking-tight leading-tight">
+            <p className="text-xs font-bold tracking-widest text-modina-red uppercase mb-4 public-meta">— Join Our Journey</p>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-white tracking-tight leading-tight public-section-title">
               Partner With<br />A Responsible Manufacturer
             </h2>
           </motion.div>

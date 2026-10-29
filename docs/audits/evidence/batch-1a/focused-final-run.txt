@@ -1,0 +1,5 @@
+Error: Pointer target not visibly hittable at {"x":265,"y":421.796875}
+    at pointerActivate (C:\Users\BongoDemy\Documents\BongoDemy\Modina-Rim-and-Parts-Ltd\docs\audits\evidence\batch-1a\pointer.cjs:24:24)
+    at async C:\Users\BongoDemy\Documents\BongoDemy\Modina-Rim-and-Parts-Ltd\docs\audits\evidence\batch-1a\focused.cjs:19:5
+Owned-browser cleanup: spawnSync C:\WINDOWS\System32\taskkill.exe ETIMEDOUT
+Browser teardown watchdog used for owned PID 15472; assertions were saved first.

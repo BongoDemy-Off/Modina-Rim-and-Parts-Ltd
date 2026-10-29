@@ -1,0 +1,172 @@
+FAIL direct/close product 1 expect(locator).toBeFocused() failed
+
+Locator:  locator('[data-product-details="1"]')
+Expected: focused
+Received: inactive
+Timeout:  5000ms
+
+Call log:
+  - Expect "to.be.focused" with timeout 5000ms
+  - waiting for locator('[data-product-details="1"]')
+    6 × locator resolved to <button type="button" data-product-details="1" aria-label="View details: Box Frame Bearing & Racer (Black Blue & Red)" class="public-inline-action min-h-11 px-2 text-modina-red text-xs font-bold flex items-center gap-1.5 transition-all duration-300 ease-in-out">…</button>
+      - unexpected value "inactive"
+
+FAIL direct/close product 2 expect(locator).toBeFocused() failed
+
+Locator:  locator('[data-product-details="2"]')
+Expected: focused
+Received: inactive
+Timeout:  5000ms
+
+Call log:
+  - Expect "to.be.focused" with timeout 5000ms
+  - waiting for locator('[data-product-details="2"]')
+    6 × locator resolved to <button type="button" data-product-details="2" aria-label="View details: Motor Cycle Center Stand" class="public-inline-action min-h-11 px-2 text-modina-red text-xs font-bold flex items-center gap-1.5 transition-all duration-300 ease-in-out">…</button>
+      - unexpected value "inactive"
+
+FAIL direct/close product 3 expect(locator).toBeFocused() failed
+
+Locator:  locator('[data-product-details="3"]')
+Expected: focused
+Received: inactive
+Timeout:  5000ms
+
+Call log:
+  - Expect "to.be.focused" with timeout 5000ms
+  - waiting for locator('[data-product-details="3"]')
+    7 × locator resolved to <button type="button" data-product-details="3" aria-label="View details: Motor Cycle Double Stand" class="public-inline-action min-h-11 px-2 text-modina-red text-xs font-bold flex items-center gap-1.5 transition-all duration-300 ease-in-out">…</button>
+      - unexpected value "inactive"
+
+FAIL direct/close product 4 expect(locator).toBeFocused() failed
+
+Locator:  locator('[data-product-details="4"]')
+Expected: focused
+Received: inactive
+Timeout:  5000ms
+
+Call log:
+  - Expect "to.be.focused" with timeout 5000ms
+  - waiting for locator('[data-product-details="4"]')
+    7 × locator resolved to <button type="button" data-product-details="4" aria-label="View details: Motor Cycle Foot Rest Rod" class="public-inline-action min-h-11 px-2 text-modina-red text-xs font-bold flex items-center gap-1.5 transition-all duration-300 ease-in-out">…</button>
+      - unexpected value "inactive"
+
+FAIL direct/close product 5 expect(locator).toBeFocused() failed
+
+Locator:  locator('[data-product-details="5"]')
+Expected: focused
+Received: inactive
+Timeout:  5000ms
+
+Call log:
+  - Expect "to.be.focused" with timeout 5000ms
+  - waiting for locator('[data-product-details="5"]')
+    6 × locator resolved to <button type="button" data-product-details="5" aria-label="View details: Motor Cycle Handlebar" class="public-inline-action min-h-11 px-2 text-modina-red text-xs font-bold flex items-center gap-1.5 transition-all duration-300 ease-in-out">…</button>
+      - unexpected value "inactive"
+
+FAIL direct/close product 6 expect(locator).toBeFocused() failed
+
+Locator:  locator('[data-product-details="6"]')
+Expected: focused
+Received: inactive
+Timeout:  5000ms
+
+Call log:
+  - Expect "to.be.focused" with timeout 5000ms
+  - waiting for locator('[data-product-details="6"]')
+    6 × locator resolved to <button type="button" data-product-details="6" aria-label="View details: Motor Cycle Leg Guard" class="public-inline-action min-h-11 px-2 text-modina-red text-xs font-bold flex items-center gap-1.5 transition-all duration-300 ease-in-out">…</button>
+      - unexpected value "inactive"
+
+FAIL direct/close product 7 expect(locator).toBeFocused() failed
+
+Locator:  locator('[data-product-details="7"]')
+Expected: focused
+Received: inactive
+Timeout:  5000ms
+
+Call log:
+  - Expect "to.be.focused" with timeout 5000ms
+  - waiting for locator('[data-product-details="7"]')
+    6 × locator resolved to <button type="button" data-product-details="7" aria-label="View details: Motor Cycle Sharee Guard Ladies (Black & Nickel)" class="public-inline-action min-h-11 px-2 text-modina-red text-xs font-bold flex items-center gap-1.5 transition-all duration-300 ease-in-out">…</button>
+      - unexpected value "inactive"
+
+FAIL direct/close product 8 expect(locator).toBeFocused() failed
+
+Locator:  locator('[data-product-details="8"]')
+Expected: focused
+Received: inactive
+Timeout:  5000ms
+
+Call log:
+  - Expect "to.be.focused" with timeout 5000ms
+  - waiting for locator('[data-product-details="8"]')
+    6 × locator resolved to <button type="button" data-product-details="8" aria-label="View details: Easy Bike RIM (Black & White)" class="public-inline-action min-h-11 px-2 text-modina-red text-xs font-bold flex items-center gap-1.5 transition-all duration-300 ease-in-out">…</button>
+      - unexpected value "inactive"
+
+FAIL direct/close product 9 expect(locator).toBeFocused() failed
+
+Locator:  locator('[data-product-details="9"]')
+Expected: focused
+Received: inactive
+Timeout:  5000ms
+
+Call log:
+  - Expect "to.be.focused" with timeout 5000ms
+  - waiting for locator('[data-product-details="9"]')
+    3 × locator resolved to <button type="button" data-product-details="9" aria-label="View details: Rikshaw Avon Rim" class="public-inline-action min-h-11 px-2 text-modina-red text-xs font-bold flex items-center gap-1.5 transition-all duration-300 ease-in-out">…</button>
+      - unexpected value "inactive"
+
+FAIL direct/close product 10 expect(locator).toBeFocused() failed
+
+Locator:  locator('[data-product-details="10"]')
+Expected: focused
+Received: inactive
+Timeout:  5000ms
+
+Call log:
+  - Expect "to.be.focused" with timeout 5000ms
+  - waiting for locator('[data-product-details="10"]')
+    7 × locator resolved to <button type="button" data-product-details="10" aria-label="View details: Cycle Rim (Bichue & Hero)" class="public-inline-action min-h-11 px-2 text-modina-red text-xs font-bold flex items-center gap-1.5 transition-all duration-300 ease-in-out">…</button>
+      - unexpected value "inactive"
+
+FAIL direct/close product 11 expect(locator).toBeFocused() failed
+
+Locator:  locator('[data-product-details="11"]')
+Expected: focused
+Received: inactive
+Timeout:  5000ms
+
+Call log:
+  - Expect "to.be.focused" with timeout 5000ms
+  - waiting for locator('[data-product-details="11"]')
+    6 × locator resolved to <button type="button" data-product-details="11" aria-label="View details: Cycle Rim (26"X1.5")" class="public-inline-action min-h-11 px-2 text-modina-red text-xs font-bold flex items-center gap-1.5 transition-all duration-300 ease-in-out">…</button>
+      - unexpected value "inactive"
+
+FAIL direct/close product 12 expect(locator).toBeFocused() failed
+
+Locator:  locator('[data-product-details="12"]')
+Expected: focused
+Received: inactive
+Timeout:  5000ms
+
+Call log:
+  - Expect "to.be.focused" with timeout 5000ms
+  - waiting for locator('[data-product-details="12"]')
+    7 × locator resolved to <button type="button" data-product-details="12" aria-label="View details: CNG Rim" class="public-inline-action min-h-11 px-2 text-modina-red text-xs font-bold flex items-center gap-1.5 transition-all duration-300 ease-in-out">…</button>
+      - unexpected value "inactive"
+
+FAIL direct/close product 13 page.goto: Page crashed
+Call log:
+  - navigating to "http://127.0.0.1:4199/products?category=Rims&product=13", waiting until "domcontentloaded"
+
+FAIL direct/close product 14 page.goto: Page crashed
+Call log:
+  - navigating to "http://127.0.0.1:4199/products?category=Rims&product=14", waiting until "domcontentloaded"
+
+FAIL direct/close product 15 page.goto: Page crashed
+Call log:
+  - navigating to "http://127.0.0.1:4199/products?category=Rims&product=15", waiting until "domcontentloaded"
+
+FAIL direct/close product 16 page.goto: Page crashed
+Call log:
+  - navigating to "http://127.0.0.1:4199/products?category=Rims&product=16", waiting until "domcontentloaded"
+

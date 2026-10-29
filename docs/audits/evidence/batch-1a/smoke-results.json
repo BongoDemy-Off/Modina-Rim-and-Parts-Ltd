@@ -1,0 +1,30 @@
+[
+  {
+    "route": "products",
+    "passed": true,
+    "styles": {
+      "root": "",
+      "body": ""
+    }
+  },
+  {
+    "route": "gallery",
+    "passed": true,
+    "styles": {
+      "root": "",
+      "body": ""
+    }
+  },
+  {
+    "route": "careers",
+    "passed": true,
+    "styles": {
+      "root": "",
+      "body": ""
+    }
+  },
+  {
+    "navigation": true,
+    "errors": []
+  }
+]

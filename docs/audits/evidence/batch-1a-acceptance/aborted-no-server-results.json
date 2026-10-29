@@ -1,0 +1,480 @@
+{
+  "baseURL": "http://127.0.0.1:4191",
+  "browser": "156.0.8078.48",
+  "runtime": "v24.19.0",
+  "navigation": [],
+  "resources": [
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 320,
+      "url": "http://127.0.0.1:4191/products",
+      "resourceType": "document",
+      "error": "net::ERR_CONNECTION_REFUSED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 320,
+      "url": "http://127.0.0.1:4191/gallery",
+      "resourceType": "document",
+      "error": "net::ERR_CONNECTION_REFUSED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 320,
+      "url": "http://127.0.0.1:4191/careers",
+      "resourceType": "document",
+      "error": "net::ERR_CONNECTION_REFUSED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 320,
+      "url": "http://127.0.0.1:4191/contact",
+      "resourceType": "document",
+      "error": "net::ERR_CONNECTION_REFUSED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 320,
+      "url": "http://127.0.0.1:4191/products",
+      "resourceType": "document",
+      "error": "net::ERR_CONNECTION_REFUSED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 390,
+      "url": "http://127.0.0.1:4191/products",
+      "resourceType": "document",
+      "error": "net::ERR_CONNECTION_REFUSED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 390,
+      "url": "http://127.0.0.1:4191/products",
+      "resourceType": "document",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 390,
+      "url": "http://127.0.0.1:4191/gallery",
+      "resourceType": "document",
+      "error": "net::ERR_CONNECTION_REFUSED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 390,
+      "url": "http://127.0.0.1:4191/gallery",
+      "resourceType": "document",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 390,
+      "url": "http://127.0.0.1:4191/careers",
+      "resourceType": "document",
+      "error": "net::ERR_CONNECTION_REFUSED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 390,
+      "url": "http://127.0.0.1:4191/careers",
+      "resourceType": "document",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 390,
+      "url": "http://127.0.0.1:4191/contact",
+      "resourceType": "document",
+      "error": "net::ERR_CONNECTION_REFUSED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 390,
+      "url": "http://127.0.0.1:4191/products",
+      "resourceType": "document",
+      "error": "net::ERR_CONNECTION_REFUSED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 430,
+      "url": "http://127.0.0.1:4191/products",
+      "resourceType": "document",
+      "error": "net::ERR_CONNECTION_REFUSED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 430,
+      "url": "http://127.0.0.1:4191/gallery",
+      "resourceType": "document",
+      "error": "net::ERR_CONNECTION_REFUSED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 430,
+      "url": "http://127.0.0.1:4191/careers",
+      "resourceType": "document",
+      "error": "net::ERR_CONNECTION_REFUSED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 430,
+      "url": "http://127.0.0.1:4191/contact",
+      "resourceType": "document",
+      "error": "net::ERR_CONNECTION_REFUSED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 430,
+      "url": "http://127.0.0.1:4191/products",
+      "resourceType": "document",
+      "error": "net::ERR_CONNECTION_REFUSED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 768,
+      "url": "http://127.0.0.1:4191/products",
+      "resourceType": "document",
+      "error": "net::ERR_CONNECTION_REFUSED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 768,
+      "url": "http://127.0.0.1:4191/gallery",
+      "resourceType": "document",
+      "error": "net::ERR_CONNECTION_REFUSED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 768,
+      "url": "http://127.0.0.1:4191/careers",
+      "resourceType": "document",
+      "error": "net::ERR_CONNECTION_REFUSED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 768,
+      "url": "http://127.0.0.1:4191/careers",
+      "resourceType": "document",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 768,
+      "url": "http://127.0.0.1:4191/contact",
+      "resourceType": "document",
+      "error": "net::ERR_CONNECTION_REFUSED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 768,
+      "url": "http://127.0.0.1:4191/contact",
+      "resourceType": "document",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 768,
+      "url": "http://127.0.0.1:4191/products",
+      "resourceType": "document",
+      "error": "net::ERR_CONNECTION_REFUSED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1024,
+      "url": "http://127.0.0.1:4191/products",
+      "resourceType": "document",
+      "error": "net::ERR_CONNECTION_REFUSED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1024,
+      "url": "http://127.0.0.1:4191/gallery",
+      "resourceType": "document",
+      "error": "net::ERR_CONNECTION_REFUSED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1024,
+      "url": "http://127.0.0.1:4191/careers",
+      "resourceType": "document",
+      "error": "net::ERR_CONNECTION_REFUSED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1024,
+      "url": "http://127.0.0.1:4191/contact",
+      "resourceType": "document",
+      "error": "net::ERR_CONNECTION_REFUSED"
+    }
+  ],
+  "cases": [
+    {
+      "name": "en/320/products",
+      "passed": false,
+      "error": "page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:4191/products\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4191/products\", waiting until \"domcontentloaded\"\u001b[22m\n\n    at navigate (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:35:34)\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:131:15\n    at test (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:46:15)\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:130:16"
+    },
+    {
+      "name": "en/320/gallery",
+      "passed": false,
+      "error": "page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:4191/gallery\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4191/gallery\", waiting until \"domcontentloaded\"\u001b[22m\n\n    at navigate (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:35:34)\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:131:15\n    at test (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:46:15)\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:130:16"
+    },
+    {
+      "name": "en/320/careers",
+      "passed": false,
+      "error": "page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:4191/careers\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4191/careers\", waiting until \"domcontentloaded\"\u001b[22m\n\n    at navigate (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:35:34)\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:131:15\n    at test (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:46:15)\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:130:16"
+    },
+    {
+      "name": "en/320/contact",
+      "passed": false,
+      "error": "page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:4191/contact\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4191/contact\", waiting until \"domcontentloaded\"\u001b[22m\n\n    at navigate (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:35:34)\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:131:15\n    at test (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:46:15)\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:130:16"
+    },
+    {
+      "name": "en/320/navigation",
+      "passed": false,
+      "error": "page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:4191/products\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4191/products\", waiting until \"domcontentloaded\"\u001b[22m\n\n    at navigate (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:35:34)\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:174:15\n    at test (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:46:15)\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:173:13"
+    },
+    {
+      "name": "en/390/products",
+      "passed": false,
+      "error": "page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:4191/products\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4191/products\", waiting until \"domcontentloaded\"\u001b[22m\n\n    at navigate (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:35:34)\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:131:15\n    at test (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:46:15)\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:130:16"
+    },
+    {
+      "name": "en/390/gallery",
+      "passed": false,
+      "error": "page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:4191/gallery\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4191/gallery\", waiting until \"domcontentloaded\"\u001b[22m\n\n    at navigate (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:35:34)\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:131:15\n    at test (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:46:15)\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:130:16"
+    },
+    {
+      "name": "en/390/careers",
+      "passed": false,
+      "error": "page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:4191/careers\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4191/careers\", waiting until \"domcontentloaded\"\u001b[22m\n\n    at navigate (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:35:34)\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:131:15\n    at test (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:46:15)\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:130:16"
+    },
+    {
+      "name": "en/390/contact",
+      "passed": false,
+      "error": "page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:4191/contact\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4191/contact\", waiting until \"domcontentloaded\"\u001b[22m\n\n    at navigate (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:35:34)\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:131:15\n    at test (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:46:15)\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:130:16"
+    },
+    {
+      "name": "en/390/navigation",
+      "passed": false,
+      "error": "page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:4191/products\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4191/products\", waiting until \"domcontentloaded\"\u001b[22m\n\n    at navigate (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:35:34)\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:174:15\n    at test (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:46:15)\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:173:13"
+    },
+    {
+      "name": "en/430/products",
+      "passed": false,
+      "error": "page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:4191/products\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4191/products\", waiting until \"domcontentloaded\"\u001b[22m\n\n    at navigate (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:35:34)\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:131:15\n    at test (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:46:15)\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:130:16"
+    },
+    {
+      "name": "en/430/gallery",
+      "passed": false,
+      "error": "page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:4191/gallery\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4191/gallery\", waiting until \"domcontentloaded\"\u001b[22m\n\n    at navigate (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:35:34)\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:131:15\n    at test (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:46:15)\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:130:16"
+    },
+    {
+      "name": "en/430/careers",
+      "passed": false,
+      "error": "page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:4191/careers\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4191/careers\", waiting until \"domcontentloaded\"\u001b[22m\n\n    at navigate (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:35:34)\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:131:15\n    at test (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:46:15)\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:130:16"
+    },
+    {
+      "name": "en/430/contact",
+      "passed": false,
+      "error": "page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:4191/contact\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4191/contact\", waiting until \"domcontentloaded\"\u001b[22m\n\n    at navigate (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:35:34)\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:131:15\n    at test (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:46:15)\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:130:16"
+    },
+    {
+      "name": "en/430/navigation",
+      "passed": false,
+      "error": "page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:4191/products\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4191/products\", waiting until \"domcontentloaded\"\u001b[22m\n\n    at navigate (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:35:34)\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:174:15\n    at test (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:46:15)\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:173:13"
+    },
+    {
+      "name": "en/768/products",
+      "passed": false,
+      "error": "page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:4191/products\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4191/products\", waiting until \"domcontentloaded\"\u001b[22m\n\n    at navigate (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:35:34)\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:131:15\n    at test (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:46:15)\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:130:16"
+    },
+    {
+      "name": "en/768/gallery",
+      "passed": false,
+      "error": "page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:4191/gallery\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4191/gallery\", waiting until \"domcontentloaded\"\u001b[22m\n\n    at navigate (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:35:34)\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:131:15\n    at test (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:46:15)\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:130:16"
+    },
+    {
+      "name": "en/768/careers",
+      "passed": false,
+      "error": "page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:4191/careers\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4191/careers\", waiting until \"domcontentloaded\"\u001b[22m\n\n    at navigate (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:35:34)\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:131:15\n    at test (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:46:15)\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:130:16"
+    },
+    {
+      "name": "en/768/contact",
+      "passed": false,
+      "error": "page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:4191/contact\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4191/contact\", waiting until \"domcontentloaded\"\u001b[22m\n\n    at navigate (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:35:34)\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:131:15\n    at test (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:46:15)\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:130:16"
+    },
+    {
+      "name": "en/768/navigation",
+      "passed": false,
+      "error": "page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:4191/products\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4191/products\", waiting until \"domcontentloaded\"\u001b[22m\n\n    at navigate (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:35:34)\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:174:15\n    at test (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:46:15)\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:173:13"
+    },
+    {
+      "name": "en/1024/products",
+      "passed": false,
+      "error": "page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:4191/products\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4191/products\", waiting until \"domcontentloaded\"\u001b[22m\n\n    at navigate (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:35:34)\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:131:15\n    at test (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:46:15)\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:130:16"
+    },
+    {
+      "name": "en/1024/gallery",
+      "passed": false,
+      "error": "page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:4191/gallery\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4191/gallery\", waiting until \"domcontentloaded\"\u001b[22m\n\n    at navigate (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:35:34)\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:131:15\n    at test (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:46:15)\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:130:16"
+    },
+    {
+      "name": "en/1024/careers",
+      "passed": false,
+      "error": "page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:4191/careers\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4191/careers\", waiting until \"domcontentloaded\"\u001b[22m\n\n    at navigate (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:35:34)\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:131:15\n    at test (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:46:15)\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:130:16"
+    },
+    {
+      "name": "en/1024/contact",
+      "passed": false,
+      "error": "page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:4191/contact\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4191/contact\", waiting until \"domcontentloaded\"\u001b[22m\n\n    at navigate (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:35:34)\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:131:15\n    at test (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:46:15)\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-acceptance\\regression.cjs:130:16"
+    }
+  ],
+  "console": [
+    {
+      "type": "pageerror",
+      "lang": "en",
+      "width": 320,
+      "text": "Failed to read the 'sessionStorage' property from 'Window': Access is denied for this document."
+    },
+    {
+      "type": "pageerror",
+      "lang": "en",
+      "width": 320,
+      "text": "Failed to read the 'sessionStorage' property from 'Window': Access is denied for this document."
+    },
+    {
+      "type": "pageerror",
+      "lang": "en",
+      "width": 320,
+      "text": "Failed to read the 'sessionStorage' property from 'Window': Access is denied for this document."
+    },
+    {
+      "type": "pageerror",
+      "lang": "en",
+      "width": 320,
+      "text": "Failed to read the 'sessionStorage' property from 'Window': Access is denied for this document."
+    },
+    {
+      "type": "pageerror",
+      "lang": "en",
+      "width": 390,
+      "text": "Failed to read the 'sessionStorage' property from 'Window': Access is denied for this document."
+    },
+    {
+      "type": "pageerror",
+      "lang": "en",
+      "width": 390,
+      "text": "Failed to read the 'sessionStorage' property from 'Window': Access is denied for this document."
+    },
+    {
+      "type": "pageerror",
+      "lang": "en",
+      "width": 390,
+      "text": "Failed to read the 'sessionStorage' property from 'Window': Access is denied for this document."
+    },
+    {
+      "type": "pageerror",
+      "lang": "en",
+      "width": 390,
+      "text": "Failed to read the 'sessionStorage' property from 'Window': Access is denied for this document."
+    },
+    {
+      "type": "pageerror",
+      "lang": "en",
+      "width": 390,
+      "text": "Failed to read the 'sessionStorage' property from 'Window': Access is denied for this document."
+    },
+    {
+      "type": "pageerror",
+      "lang": "en",
+      "width": 430,
+      "text": "Failed to read the 'sessionStorage' property from 'Window': Access is denied for this document."
+    },
+    {
+      "type": "pageerror",
+      "lang": "en",
+      "width": 430,
+      "text": "Failed to read the 'sessionStorage' property from 'Window': Access is denied for this document."
+    },
+    {
+      "type": "pageerror",
+      "lang": "en",
+      "width": 430,
+      "text": "Failed to read the 'sessionStorage' property from 'Window': Access is denied for this document."
+    },
+    {
+      "type": "pageerror",
+      "lang": "en",
+      "width": 430,
+      "text": "Failed to read the 'sessionStorage' property from 'Window': Access is denied for this document."
+    },
+    {
+      "type": "pageerror",
+      "lang": "en",
+      "width": 768,
+      "text": "Failed to read the 'sessionStorage' property from 'Window': Access is denied for this document."
+    },
+    {
+      "type": "pageerror",
+      "lang": "en",
+      "width": 768,
+      "text": "Failed to read the 'sessionStorage' property from 'Window': Access is denied for this document."
+    },
+    {
+      "type": "pageerror",
+      "lang": "en",
+      "width": 768,
+      "text": "Failed to read the 'sessionStorage' property from 'Window': Access is denied for this document."
+    },
+    {
+      "type": "pageerror",
+      "lang": "en",
+      "width": 768,
+      "text": "Failed to read the 'sessionStorage' property from 'Window': Access is denied for this document."
+    },
+    {
+      "type": "pageerror",
+      "lang": "en",
+      "width": 1024,
+      "text": "Failed to read the 'sessionStorage' property from 'Window': Access is denied for this document."
+    },
+    {
+      "type": "pageerror",
+      "lang": "en",
+      "width": 1024,
+      "text": "Failed to read the 'sessionStorage' property from 'Window': Access is denied for this document."
+    }
+  ],
+  "axe": [],
+  "geometry": []
+}

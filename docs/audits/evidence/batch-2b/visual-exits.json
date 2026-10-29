@@ -1,0 +1,30 @@
+[
+  {
+    "suite": "group1-review",
+    "exitCode": 0
+  },
+  {
+    "suite": "group2-review",
+    "exitCode": 0
+  },
+  {
+    "suite": "group3-review",
+    "exitCode": 0
+  },
+  {
+    "suite": "group4-review",
+    "exitCode": 0
+  },
+  {
+    "suite": "group5-review",
+    "exitCode": 0
+  },
+  {
+    "suite": "group6-review",
+    "exitCode": 0
+  },
+  {
+    "suite": "details",
+    "exitCode": 1
+  }
+]

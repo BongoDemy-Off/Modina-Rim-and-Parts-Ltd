@@ -89,7 +89,7 @@ export function ProductImageCarousel({
       <button
         type="button"
         onClick={(e) => paginate(-1, e)}
-        className="absolute left-2 sm:left-3 top-1/2 -translate-y-1/2 w-11 h-11 rounded-full bg-white/90 backdrop-blur border border-modina-border/50 text-modina-heading flex items-center justify-center shadow-sm opacity-100 transition-all duration-300 hover:bg-white hover:text-modina-red z-10 lg:opacity-0 lg:group-hover/carousel:opacity-100 lg:focus:opacity-100"
+        className="product-carousel-arrow absolute left-2 sm:left-3 top-1/2 -translate-y-1/2 w-11 h-11 rounded-full bg-white/90 backdrop-blur border border-modina-border/50 text-modina-heading flex items-center justify-center shadow-sm opacity-100 transition-all duration-300 hover:bg-white hover:text-modina-red z-10"
         aria-label="Previous image"
       >
         <ChevronLeft className="w-4 h-4" />
@@ -98,7 +98,7 @@ export function ProductImageCarousel({
       <button
         type="button"
         onClick={(e) => paginate(1, e)}
-        className="absolute right-2 sm:right-3 top-1/2 -translate-y-1/2 w-11 h-11 rounded-full bg-white/90 backdrop-blur border border-modina-border/50 text-modina-heading flex items-center justify-center shadow-sm opacity-100 transition-all duration-300 hover:bg-white hover:text-modina-red z-10 lg:opacity-0 lg:group-hover/carousel:opacity-100 lg:focus:opacity-100"
+        className="product-carousel-arrow absolute right-2 sm:right-3 top-1/2 -translate-y-1/2 w-11 h-11 rounded-full bg-white/90 backdrop-blur border border-modina-border/50 text-modina-heading flex items-center justify-center shadow-sm opacity-100 transition-all duration-300 hover:bg-white hover:text-modina-red z-10"
         aria-label="Next image"
       >
         <ChevronRight className="w-4 h-4" />
@@ -113,6 +113,7 @@ export function ProductImageCarousel({
             onClick={(e) => handleDotClick(idx, e)}
             className="flex h-8 w-8 items-center justify-center rounded-full"
             aria-label={`Go to slide ${idx + 1}`}
+            aria-pressed={currentIndex === idx}
           >
             <span className={`block transition-all duration-300 rounded-full shadow-sm ${
               currentIndex === idx

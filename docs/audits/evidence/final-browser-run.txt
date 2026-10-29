@@ -1,0 +1,38 @@
+locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator('main .card-premium h3').first()
+    - locator resolved to <h3 class="text-base font-display font-bold text-modina-heading group-hover:text-modina-red transition-colors duration-300 line-clamp-2 leading-snug">Box Frame Bearing & Racer (Black Blue & Red)</h3>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not stable
+    - retrying click action
+    - waiting 20ms
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - element is outside of the viewport
+  - retrying click action
+    - waiting 100ms
+    - waiting for element to be visible, enabled and stable
+
+    at run (C:\Users\BongoDemy\Documents\BongoDemy\Modina-Rim-and-Parts-Ltd\docs\audits\evidence\final-browser-check.cjs:4:241) {
+  log: [
+    "  - waiting for locator('main .card-premium h3').first()",
+    '    - locator resolved to <h3 class="text-base font-display font-bold text-modina-heading group-hover:text-modina-red transition-colors duration-300 line-clamp-2 leading-snug">Box Frame Bearing & Racer (Black Blue & Red)</h3>',
+    '  - attempting click action',
+    '    2 × waiting for element to be visible, enabled and stable',
+    '      - element is not stable',
+    '    - retrying click action',
+    '    - waiting 20ms',
+    '    - waiting for element to be visible, enabled and stable',
+    '    - element is visible, enabled and stable',
+    '    - scrolling into view if needed',
+    '    - done scrolling',
+    '    - element is outside of the viewport',
+    '  - retrying click action',
+    '    - waiting 100ms',
+    '    - waiting for element to be visible, enabled and stable'
+  ],
+  name: 'TimeoutError'
+}

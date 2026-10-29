@@ -1,0 +1,1065 @@
+{
+  "mode": "group6-review",
+  "base": "http://127.0.0.1:4199",
+  "states": [
+    {
+      "route": "/news",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "News & Events | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Modina Launches 2026 Product Catalog With 21 New SKUs",
+          "top": 995
+        },
+        {
+          "text": "Search news...",
+          "top": 1535
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 5817
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/news/1",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/news/invalid",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Blog | Modina Rim & Parts Ltd. — Engineering & Industry Insights",
+      "targets": [
+        {
+          "text": "Why Precision Tolerance Is the Most Underrated Factor in Aut",
+          "top": 974
+        },
+        {
+          "text": "Search posts...",
+          "top": 1637
+        },
+        {
+          "text": "See WhatWe Make",
+          "top": 6862
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/blog/1",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog/featured",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog/invalid",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/faq",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "FAQ | Modina Rim & Parts Ltd. — Frequently Asked Questions",
+      "targets": [
+        {
+          "text": "Search questions...",
+          "top": 393
+        },
+        {
+          "text": "ProductsWhat products does Modina Rim & Parts Ltd. manufactu",
+          "top": 528
+        },
+        {
+          "text": "ProductsWhat is the minimum order quantity (MOQ)?",
+          "top": 701
+        },
+        {
+          "text": "ProductsDo you offer custom specifications or OEM manufactur",
+          "top": 846
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/privacy",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Privacy Policy | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "1. Introduction",
+          "top": 752
+        },
+        {
+          "text": "2. Information We Collect",
+          "top": 1294
+        },
+        {
+          "text": "3. Use of Your Information",
+          "top": 2149
+        },
+        {
+          "text": "4. Disclosure of Your Information",
+          "top": 2963
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/terms",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Terms of Service | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "1. Acceptance of Terms",
+          "top": 723
+        },
+        {
+          "text": "2. Use of the Site",
+          "top": 1340
+        },
+        {
+          "text": "3. Intellectual Property Rights",
+          "top": 2138
+        },
+        {
+          "text": "4. Disclaimer of Warranties",
+          "top": 2858
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/audit-missing-page",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/news",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "News & Events | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Modina Launches 2026 Product Catalog With 21 New SKUs",
+          "top": 737
+        },
+        {
+          "text": "Search news...",
+          "top": 1286
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 3133
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/news/1",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/news/invalid",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Blog | Modina Rim & Parts Ltd. — Engineering & Industry Insights",
+      "targets": [
+        {
+          "text": "Why Precision Tolerance Is the Most Underrated Factor in Aut",
+          "top": 737
+        },
+        {
+          "text": "Search posts...",
+          "top": 1449
+        },
+        {
+          "text": "See WhatWe Make",
+          "top": 3445
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/blog/1",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog/featured",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog/invalid",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/faq",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "FAQ | Modina Rim & Parts Ltd. — Frequently Asked Questions",
+      "targets": [
+        {
+          "text": "Search questions...",
+          "top": 430
+        },
+        {
+          "text": "ProductsWhat products does Modina Rim & Parts Ltd. manufactu",
+          "top": 539
+        },
+        {
+          "text": "ProductsWhat is the minimum order quantity (MOQ)?",
+          "top": 655
+        },
+        {
+          "text": "ProductsDo you offer custom specifications or OEM manufactur",
+          "top": 770
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/privacy",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Privacy Policy | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "1. Introduction",
+          "top": 821
+        },
+        {
+          "text": "2. Information We Collect",
+          "top": 1246
+        },
+        {
+          "text": "3. Use of Your Information",
+          "top": 1886
+        },
+        {
+          "text": "4. Disclosure of Your Information",
+          "top": 2606
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/terms",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Terms of Service | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "1. Acceptance of Terms",
+          "top": 821
+        },
+        {
+          "text": "2. Use of the Site",
+          "top": 1328
+        },
+        {
+          "text": "3. Intellectual Property Rights",
+          "top": 1967
+        },
+        {
+          "text": "4. Disclaimer of Warranties",
+          "top": 2524
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/audit-missing-page",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/news",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "News & Events | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Modina Launches 2026 Product Catalog With 21 New SKUs",
+          "top": 1005
+        },
+        {
+          "text": "Search news...",
+          "top": 1547
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 5922
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/news/1",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/news/invalid",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Blog | Modina Rim & Parts Ltd. — Engineering & Industry Insights",
+      "targets": [
+        {
+          "text": "Why Precision Tolerance Is the Most Underrated Factor in Aut",
+          "top": 984
+        },
+        {
+          "text": "Search posts...",
+          "top": 1671
+        },
+        {
+          "text": "See WhatWe Make",
+          "top": 7000
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/blog/1",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog/featured",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog/invalid",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/faq",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "FAQ | Modina Rim & Parts Ltd. — Frequently Asked Questions",
+      "targets": [
+        {
+          "text": "Search questions...",
+          "top": 403
+        },
+        {
+          "text": "ProductsWhat products does Modina Rim & Parts Ltd. manufactu",
+          "top": 538
+        },
+        {
+          "text": "ProductsWhat is the minimum order quantity (MOQ)?",
+          "top": 683
+        },
+        {
+          "text": "ProductsDo you offer custom specifications or OEM manufactur",
+          "top": 827
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/privacy",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Privacy Policy | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "1. Introduction",
+          "top": 715
+        },
+        {
+          "text": "2. Information We Collect",
+          "top": 1260
+        },
+        {
+          "text": "3. Use of Your Information",
+          "top": 2146
+        },
+        {
+          "text": "4. Disclosure of Your Information",
+          "top": 3015
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/terms",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Terms of Service | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "1. Acceptance of Terms",
+          "top": 715
+        },
+        {
+          "text": "2. Use of the Site",
+          "top": 1341
+        },
+        {
+          "text": "3. Intellectual Property Rights",
+          "top": 2129
+        },
+        {
+          "text": "4. Disclaimer of Warranties",
+          "top": 2804
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/audit-missing-page",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/news",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "News & Events | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Modina Launches 2026 Product Catalog With 21 New SKUs",
+          "top": 755
+        },
+        {
+          "text": "Search news...",
+          "top": 1315
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 3198
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/news/1",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/news/invalid",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Blog | Modina Rim & Parts Ltd. — Engineering & Industry Insights",
+      "targets": [
+        {
+          "text": "Why Precision Tolerance Is the Most Underrated Factor in Aut",
+          "top": 755
+        },
+        {
+          "text": "Search posts...",
+          "top": 1466
+        },
+        {
+          "text": "See WhatWe Make",
+          "top": 3497
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/blog/1",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog/featured",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/blog/invalid",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    },
+    {
+      "route": "/faq",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "FAQ | Modina Rim & Parts Ltd. — Frequently Asked Questions",
+      "targets": [
+        {
+          "text": "Search questions...",
+          "top": 448
+        },
+        {
+          "text": "ProductsWhat products does Modina Rim & Parts Ltd. manufactu",
+          "top": 557
+        },
+        {
+          "text": "ProductsWhat is the minimum order quantity (MOQ)?",
+          "top": 673
+        },
+        {
+          "text": "ProductsDo you offer custom specifications or OEM manufactur",
+          "top": 788
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/privacy",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Privacy Policy | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "1. Introduction",
+          "top": 864
+        },
+        {
+          "text": "2. Information We Collect",
+          "top": 1263
+        },
+        {
+          "text": "3. Use of Your Information",
+          "top": 1945
+        },
+        {
+          "text": "4. Disclosure of Your Information",
+          "top": 2676
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/terms",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Terms of Service | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "1. Acceptance of Terms",
+          "top": 812
+        },
+        {
+          "text": "2. Use of the Site",
+          "top": 1351
+        },
+        {
+          "text": "3. Intellectual Property Rights",
+          "top": 1993
+        },
+        {
+          "text": "4. Disclaimer of Warranties",
+          "top": 2516
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/audit-missing-page",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer",
+      "targets": [],
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "captures": [
+    "group6-review-news-390-en-hero.png",
+    {
+      "file": "group6-review-news-390-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          40,
+          345.5,
+          310,
+          153.5
+        ],
+        "images": true
+      }
+    },
+    "group6-review-news-1-390-en-hero.png",
+    {
+      "file": "group6-review-news-1-390-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          0,
+          -610.5,
+          390,
+          2066
+        ],
+        "images": true
+      }
+    },
+    "group6-review-news-invalid-390-en-hero.png",
+    "group6-review-blog-390-en-hero.png",
+    {
+      "file": "group6-review-blog-390-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          41,
+          326.5,
+          309,
+          192
+        ],
+        "images": true
+      }
+    },
+    "group6-review-blog-1-390-en-hero.png",
+    {
+      "file": "group6-review-blog-1-390-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          0,
+          -724.5,
+          390,
+          2292.5
+        ],
+        "images": true
+      }
+    },
+    "group6-review-blog-featured-390-en-hero.png",
+    {
+      "file": "group6-review-blog-featured-390-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          0,
+          -833.5,
+          390,
+          2512
+        ],
+        "images": true
+      }
+    },
+    "group6-review-blog-invalid-390-en-hero.png",
+    "group6-review-faq-390-en-hero.png",
+    {
+      "file": "group6-review-faq-390-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          25,
+          340,
+          340,
+          163.5
+        ],
+        "images": true
+      }
+    },
+    "group6-review-privacy-390-en-hero.png",
+    {
+      "file": "group6-review-privacy-390-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          24,
+          400.5,
+          342,
+          44
+        ],
+        "images": true
+      }
+    },
+    "group6-review-terms-390-en-hero.png",
+    {
+      "file": "group6-review-terms-390-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          24,
+          400,
+          342,
+          44
+        ],
+        "images": true
+      }
+    },
+    "group6-review-audit-missing-page-390-en-hero.png",
+    "group6-review-news-1440-en-hero.png",
+    {
+      "file": "group6-review-news-1440-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          784.5,
+          364,
+          591.5,
+          173
+        ],
+        "images": true
+      }
+    },
+    "group6-review-news-1-1440-en-hero.png",
+    {
+      "file": "group6-review-news-1-1440-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          336,
+          -436,
+          768,
+          1772
+        ],
+        "images": true
+      }
+    },
+    "group6-review-news-invalid-1440-en-hero.png",
+    "group6-review-blog-1440-en-hero.png",
+    {
+      "file": "group6-review-blog-1440-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          850.5,
+          306,
+          525.5,
+          288
+        ],
+        "images": true
+      }
+    },
+    "group6-review-blog-1-1440-en-hero.png",
+    {
+      "file": "group6-review-blog-1-1440-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          336,
+          -514,
+          768,
+          1928.5
+        ],
+        "images": true
+      }
+    },
+    "group6-review-blog-featured-1440-en-hero.png",
+    {
+      "file": "group6-review-blog-featured-1440-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          336,
+          -626,
+          768,
+          2153
+        ],
+        "images": true
+      }
+    },
+    "group6-review-blog-invalid-1440-en-hero.png",
+    "group6-review-faq-1440-en-hero.png",
+    {
+      "file": "group6-review-faq-1440-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          345,
+          397,
+          750,
+          106
+        ],
+        "images": true
+      }
+    },
+    "group6-review-privacy-1440-en-hero.png",
+    {
+      "file": "group6-review-privacy-1440-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          408,
+          425,
+          624,
+          49.5
+        ],
+        "images": true
+      }
+    },
+    "group6-review-terms-1440-en-hero.png",
+    {
+      "file": "group6-review-terms-1440-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          408,
+          425,
+          624,
+          49.5
+        ],
+        "images": true
+      }
+    },
+    "group6-review-audit-missing-page-1440-en-hero.png",
+    "group6-review-news-390-bn-hero.png",
+    {
+      "file": "group6-review-news-390-bn-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          40,
+          354.5,
+          310,
+          134.5
+        ],
+        "images": true
+      }
+    },
+    "group6-review-news-1-390-bn-hero.png",
+    {
+      "file": "group6-review-news-1-390-bn-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          0,
+          -550.5,
+          390,
+          1945
+        ],
+        "images": true
+      }
+    },
+    "group6-review-news-invalid-390-bn-hero.png",
+    "group6-review-blog-390-bn-hero.png",
+    {
+      "file": "group6-review-blog-390-bn-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          41,
+          310.5,
+          309,
+          224
+        ],
+        "images": true
+      }
+    },
+    "group6-review-blog-1-390-bn-hero.png",
+    {
+      "file": "group6-review-blog-1-390-bn-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          0,
+          -725.5,
+          390,
+          2295.5
+        ],
+        "images": true
+      }
+    },
+    "group6-review-blog-featured-390-bn-hero.png",
+    {
+      "file": "group6-review-blog-featured-390-bn-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          0,
+          -808.5,
+          390,
+          2461.5
+        ],
+        "images": true
+      }
+    },
+    "group6-review-blog-invalid-390-bn-hero.png",
+    "group6-review-faq-390-bn-hero.png",
+    {
+      "file": "group6-review-faq-390-bn-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          25,
+          355,
+          340,
+          134.5
+        ],
+        "images": true
+      }
+    },
+    "group6-review-privacy-390-bn-hero.png",
+    {
+      "file": "group6-review-privacy-390-bn-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          24,
+          399.5,
+          342,
+          45
+        ],
+        "images": true
+      }
+    },
+    "group6-review-terms-390-bn-hero.png",
+    {
+      "file": "group6-review-terms-390-bn-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          24,
+          399.5,
+          342,
+          45
+        ],
+        "images": true
+      }
+    },
+    "group6-review-audit-missing-page-390-bn-hero.png"
+  ],
+  "browser": "156.0.8078.49",
+  "completed": true,
+  "teardown": {
+    "normal": false,
+    "bounded": true,
+    "connected": false
+  }
+}

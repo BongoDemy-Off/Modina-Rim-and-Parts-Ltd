@@ -1,0 +1,137 @@
+{
+  "commands": [
+    {
+      "command": "npm.cmd run lint",
+      "exitCode": 0,
+      "evidence": "typecheck-complete.txt"
+    },
+    {
+      "command": "npm.cmd run build",
+      "exitCode": 0,
+      "evidence": "build-complete.txt"
+    },
+    {
+      "command": "node lifecycle.cjs",
+      "exitCode": 0,
+      "evidence": "lifecycle-complete-run.txt"
+    },
+    {
+      "command": "node local-checks.cjs",
+      "exitCode": 0,
+      "evidence": "local-checks-complete-run.txt"
+    },
+    {
+      "command": "full regression sweep",
+      "outcome": "60 of 64 cases passed; four timeouts; saved results followed by owned-process cleanup after teardown stall",
+      "evidence": "regression-complete-results.json"
+    },
+    {
+      "command": "navigation retry",
+      "exitCode": 1,
+      "passed": 2,
+      "total": 3,
+      "evidence": "regression-navigation-retry-results.json"
+    },
+    {
+      "command": "final targeted retry",
+      "exitCode": 0,
+      "passed": 2,
+      "total": 2,
+      "evidence": "regression-final-targeted-results.json"
+    }
+  ],
+  "browser": "156.0.8078.48",
+  "fullSweep": {
+    "passed": 60,
+    "total": 64,
+    "failed": [
+      "bn/320/navigation",
+      "bn/390/products",
+      "bn/390/gallery",
+      "radius-and-admin-isolation"
+    ]
+  },
+  "passingScenarioEvidenceAcrossRuns": 64,
+  "uniqueScenarios": 64,
+  "remainingScenarioFailures": [],
+  "singleAllGreenFullSweep": false,
+  "keyboardDisclosureUsedInLastNavigationRetry": true,
+  "axe": {
+    "uniqueStates": 10,
+    "violationNodesByRule": {
+      "color-contrast": 37,
+      "link-name": 8
+    },
+    "targetedFailures": []
+  },
+  "pageerrors": [],
+  "externalResourceConsoleEntries": 75,
+  "visualLimitations": [],
+  "lifecycle": [
+    {
+      "reducedMotion": "no-preference",
+      "passed": true,
+      "metrics": {
+        "closeRequests": 12,
+        "shows": 13,
+        "closes": 13
+      },
+      "errors": []
+    },
+    {
+      "reducedMotion": "reduce",
+      "passed": true,
+      "metrics": {
+        "closeRequests": 12,
+        "shows": 19,
+        "closes": 19
+      },
+      "errors": []
+    }
+  ],
+  "localChecks": {
+    "assetPolicy": "External requests blocked to isolate local interaction behavior; not a visual comparison.",
+    "cases": [
+      {
+        "name": "1024-touch-carousel-visible-and-independent",
+        "passed": true
+      },
+      {
+        "name": "1440-careers-settled-close-and-containment",
+        "passed": true
+      },
+      {
+        "name": "desktop-disclosure-exit-removes-links-from-tab-order",
+        "passed": true
+      },
+      {
+        "name": "contact-labels-and-visible-native-fallback",
+        "passed": true
+      }
+    ],
+    "teardown": {
+      "graceful": false,
+      "ownedBrowserPid": 20876
+    }
+  },
+  "preservation": {
+    "baselineFiles": 404,
+    "preExistingUntracked": 163,
+    "preservedUntracked": 163,
+    "unchanged": 396,
+    "changed": [
+      "src/components/Navbar.tsx",
+      "src/components/ProductImageCarousel.tsx",
+      "src/index.css",
+      "src/layouts/Layout.tsx",
+      "src/pages/Careers.tsx",
+      "src/pages/Contact.tsx",
+      "src/pages/Gallery.tsx",
+      "src/pages/Products.tsx"
+    ],
+    "missing": [],
+    "unexpectedChanges": [],
+    "protectedAdminFiles": 136,
+    "protectedFilesChanged": []
+  }
+}

@@ -1,0 +1,21 @@
+Product search, empty state, category, pagination recorded
+Product card keyboard access and mobile CTA recorded
+Product drawer carousel, focus, Escape ERROR locator.getAttribute: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('main .fixed.r
+Product enquiry context ERROR locator.click: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: '
+Mobile menu focus and Escape recorded
+Mobile global search ERROR locator.tap: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Op
+Gallery lightbox keyboard, scrolling recorded
+Downloads inert action recorded
+FAQ toggle semantics recorded
+Careers drawer labels and Escape recorded
+Contact labels and native validation without submission recorded
+Chatbot small landscape recorded
+Desktop dropdown pointer versus keyboard recorded
+Intermediate and landscape layout sweep recorded
+200 percent text enlargement approximation recorded

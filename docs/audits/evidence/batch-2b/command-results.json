@@ -1,0 +1,68 @@
+[
+  {
+    "name": "typecheck-final",
+    "exitCode": 0,
+    "started": "2026-10-28T04:47:53.1273849Z",
+    "finished": "2026-10-28T04:48:10.3872433Z"
+  },
+  {
+    "name": "build-final",
+    "exitCode": 0,
+    "started": "2026-10-28T04:48:10.4796663Z",
+    "finished": "2026-10-28T04:48:33.6036485Z"
+  },
+  {
+    "name": "production-regression-run",
+    "exitCode": 0,
+    "started": "2026-10-28T04:48:33.6147194Z",
+    "finished": "2026-10-28T04:57:28.7575934Z"
+  },
+  {
+    "name": "lifecycle-final-run",
+    "exitCode": 0,
+    "started": "2026-10-28T04:57:28.7628211Z",
+    "finished": "2026-10-28T04:57:56.0239378Z"
+  },
+  {
+    "name": "race-final-run",
+    "exitCode": 1,
+    "started": "2026-10-28T04:57:56.0294396Z",
+    "finished": "2026-10-28T04:58:09.5263156Z"
+  },
+  {
+    "name": "touch-final-run",
+    "exitCode": 0,
+    "started": "2026-10-28T04:58:09.5735320Z",
+    "finished": "2026-10-28T04:58:46.7380742Z"
+  },
+  {
+    "name": "a11y-final-run",
+    "exitCode": 0,
+    "started": "2026-10-28T04:58:46.7421413Z",
+    "finished": "2026-10-28T05:00:08.0312589Z"
+  },
+  {
+    "name": "production-query-run",
+    "exitCode": 0,
+    "started": "2026-10-28T05:00:08.0362439Z",
+    "finished": "2026-10-28T05:02:08.4260063Z"
+  },
+  {
+    "name": "production-sweep-run",
+    "exitCode": 0,
+    "started": "2026-10-28T05:02:08.4328592Z",
+    "finished": "2026-10-28T05:11:04.5748462Z"
+  },
+  {
+    "name": "diff-check-final",
+    "exitCode": 0,
+    "started": "2026-10-28T05:11:04.5823718Z",
+    "finished": "2026-10-28T05:11:04.7915539Z"
+  },
+  {
+    "name": "preservation-final",
+    "exitCode": 0,
+    "started": "2026-10-28T05:11:04.7950542Z",
+    "finished": "2026-10-28T05:11:10.1198718Z"
+  }
+]

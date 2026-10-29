@@ -1,0 +1,104 @@
+{
+  "states": 44,
+  "reportedNodes": 16,
+  "decorativeExceptions": [
+    {
+      "route": "/",
+      "lang": "en",
+      "html": "<span aria-hidden=\"true\" class=\"text-modina-divider font-display text-4xl font-bold select-none\">01</span>",
+      "decorative": true
+    },
+    {
+      "route": "/",
+      "lang": "en",
+      "html": "<span aria-hidden=\"true\" class=\"text-modina-divider font-display text-4xl font-bold select-none\">02</span>",
+      "decorative": true
+    },
+    {
+      "route": "/",
+      "lang": "en",
+      "html": "<span aria-hidden=\"true\" class=\"text-modina-divider font-display text-4xl font-bold select-none\">03</span>",
+      "decorative": true
+    },
+    {
+      "route": "/about",
+      "lang": "en",
+      "html": "<p aria-hidden=\"true\" class=\"font-display font-bold text-modina-divider leading-none select-none tracking-tight\" style=\"font-size: clamp(80px, 14vw, 180px);\">2010</p>",
+      "decorative": true
+    },
+    {
+      "route": "/sustainability",
+      "lang": "en",
+      "html": "<p aria-hidden=\"true\" class=\"text-[120px] font-display font-bold text-modina-divider leading-none select-none tracking-tight\">CSR</p>",
+      "decorative": true
+    },
+    {
+      "route": "/quality",
+      "lang": "en",
+      "html": "<p aria-hidden=\"true\" class=\"text-[120px] md:text-[160px] lg:text-[200px] font-display font-bold text-modina-bg-alt leading-none select-none tracking-tight\">100</p>",
+      "decorative": true
+    },
+    {
+      "route": "/downloads",
+      "lang": "en",
+      "html": "<p aria-hidden=\"true\" class=\"text-[80px] sm:text-[120px] font-display font-bold text-modina-divider leading-none select-none\">2026</p>",
+      "decorative": true
+    },
+    {
+      "route": "/audit-missing-page",
+      "lang": "en",
+      "html": "<p aria-hidden=\"true\" class=\"font-display font-bold text-modina-divider leading-none select-none tracking-tight\" style=\"font-size: clamp(120px, 20vw, 280px);\">404</p>",
+      "decorative": true
+    },
+    {
+      "route": "/",
+      "lang": "bn",
+      "html": "<span aria-hidden=\"true\" class=\"text-modina-divider font-display text-4xl font-bold select-none\">01</span>",
+      "decorative": true
+    },
+    {
+      "route": "/",
+      "lang": "bn",
+      "html": "<span aria-hidden=\"true\" class=\"text-modina-divider font-display text-4xl font-bold select-none\">02</span>",
+      "decorative": true
+    },
+    {
+      "route": "/",
+      "lang": "bn",
+      "html": "<span aria-hidden=\"true\" class=\"text-modina-divider font-display text-4xl font-bold select-none\">03</span>",
+      "decorative": true
+    },
+    {
+      "route": "/about",
+      "lang": "bn",
+      "html": "<p aria-hidden=\"true\" class=\"font-display font-bold text-modina-divider leading-none select-none tracking-tight\" style=\"font-size: clamp(80px, 14vw, 180px);\">2010</p>",
+      "decorative": true
+    },
+    {
+      "route": "/sustainability",
+      "lang": "bn",
+      "html": "<p aria-hidden=\"true\" class=\"text-[120px] font-display font-bold text-modina-divider leading-none select-none tracking-tight\">CSR</p>",
+      "decorative": true
+    },
+    {
+      "route": "/quality",
+      "lang": "bn",
+      "html": "<p aria-hidden=\"true\" class=\"text-[120px] md:text-[160px] lg:text-[200px] font-display font-bold text-modina-bg-alt leading-none select-none tracking-tight\">100</p>",
+      "decorative": true
+    },
+    {
+      "route": "/downloads",
+      "lang": "bn",
+      "html": "<p aria-hidden=\"true\" class=\"text-[80px] sm:text-[120px] font-display font-bold text-modina-divider leading-none select-none\">2026</p>",
+      "decorative": true
+    },
+    {
+      "route": "/audit-missing-page",
+      "lang": "bn",
+      "html": "<p aria-hidden=\"true\" class=\"font-display font-bold text-modina-divider leading-none select-none tracking-tight\" style=\"font-size: clamp(120px, 20vw, 280px);\">404</p>",
+      "decorative": true
+    }
+  ],
+  "unresolvedMeaningful": [],
+  "qualification": "Automated contrast flags are retained. Listed decorative lettering/ordinals duplicate adjacent readable content; no WCAG conformance claim."
+}

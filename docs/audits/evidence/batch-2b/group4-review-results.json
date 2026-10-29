@@ -1,0 +1,454 @@
+{
+  "mode": "group4-review",
+  "base": "http://127.0.0.1:4199",
+  "states": [
+    {
+      "route": "/about",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "About Us | Modina Rim & Parts Ltd. — Since 2010, Jashore Bangladesh",
+      "targets": [
+        {
+          "text": "Engineering Reliability Since 2010",
+          "top": 890
+        },
+        {
+          "text": "Our Journey",
+          "top": 1670
+        },
+        {
+          "text": "Mission & Values",
+          "top": 2269
+        },
+        {
+          "text": "State of the Art Facility",
+          "top": 4566
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/mission",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Our Mission & Values | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Engineering Trust. Delivering Excellence.",
+          "top": 976
+        },
+        {
+          "text": "Core Values",
+          "top": 2274
+        },
+        {
+          "text": "Built on Conviction.",
+          "top": 5529
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 6291
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/sustainability",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Sustainability & CSR | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Responsible by Design.",
+          "top": 896
+        },
+        {
+          "text": "Three Pillars of Responsibility",
+          "top": 1545
+        },
+        {
+          "text": "ISO 14001 Certified Operations",
+          "top": 4226
+        },
+        {
+          "text": "CSR Initiatives",
+          "top": 5195
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/about",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "About Us | Modina Rim & Parts Ltd. — Since 2010, Jashore Bangladesh",
+      "targets": [
+        {
+          "text": "Engineering Reliability Since 2010",
+          "top": 767
+        },
+        {
+          "text": "Our Journey",
+          "top": 1570
+        },
+        {
+          "text": "Mission & Values",
+          "top": 2323
+        },
+        {
+          "text": "State of the Art Facility",
+          "top": 3711
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/mission",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Our Mission & Values | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Engineering Trust. Delivering Excellence.",
+          "top": 701
+        },
+        {
+          "text": "Core Values",
+          "top": 1929
+        },
+        {
+          "text": "Built on Conviction.",
+          "top": 3818
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 4506
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/sustainability",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Sustainability & CSR | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Responsible by Design.",
+          "top": 701
+        },
+        {
+          "text": "Three Pillars of Responsibility",
+          "top": 1343
+        },
+        {
+          "text": "ISO 14001 Certified Operations",
+          "top": 2450
+        },
+        {
+          "text": "CSR Initiatives",
+          "top": 3321
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/about",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "About Us | Modina Rim & Parts Ltd. — Since 2010, Jashore Bangladesh",
+      "targets": [
+        {
+          "text": "২০১০ সাল থেকে নির্ভরশীল প্রকৌশল",
+          "top": 923
+        },
+        {
+          "text": "আমাদের যাত্রা",
+          "top": 1821
+        },
+        {
+          "text": "লক্ষ্য ও মূল্যবোধ",
+          "top": 2454
+        },
+        {
+          "text": "আধুনিক সুযোগ-সুবিধা",
+          "top": 4766
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/mission",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Our Mission & Values | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Engineering Trust. Delivering Excellence.",
+          "top": 986
+        },
+        {
+          "text": "Core Values",
+          "top": 2267
+        },
+        {
+          "text": "Built on Conviction.",
+          "top": 5526
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 6264
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/sustainability",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Sustainability & CSR | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Responsible by Design.",
+          "top": 906
+        },
+        {
+          "text": "Three Pillars of Responsibility",
+          "top": 1521
+        },
+        {
+          "text": "ISO 14001 Certified Operations",
+          "top": 4215
+        },
+        {
+          "text": "CSR Initiatives",
+          "top": 5207
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/about",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "About Us | Modina Rim & Parts Ltd. — Since 2010, Jashore Bangladesh",
+      "targets": [
+        {
+          "text": "২০১০ সাল থেকে নির্ভরশীল প্রকৌশল",
+          "top": 788
+        },
+        {
+          "text": "আমাদের যাত্রা",
+          "top": 1715
+        },
+        {
+          "text": "লক্ষ্য ও মূল্যবোধ",
+          "top": 2535
+        },
+        {
+          "text": "আধুনিক সুযোগ-সুবিধা",
+          "top": 3916
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/mission",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Our Mission & Values | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Engineering Trust. Delivering Excellence.",
+          "top": 719
+        },
+        {
+          "text": "Core Values",
+          "top": 1994
+        },
+        {
+          "text": "Built on Conviction.",
+          "top": 3917
+        },
+        {
+          "text": "Explore OurProduct Range",
+          "top": 4608
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/sustainability",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Sustainability & CSR | Modina Rim & Parts Ltd.",
+      "targets": [
+        {
+          "text": "Responsible by Design.",
+          "top": 719
+        },
+        {
+          "text": "Three Pillars of Responsibility",
+          "top": 1359
+        },
+        {
+          "text": "ISO 14001 Certified Operations",
+          "top": 2503
+        },
+        {
+          "text": "CSR Initiatives",
+          "top": 3417
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "captures": [
+    "group4-review-about-390-en-hero.png",
+    {
+      "file": "group4-review-about-390-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          24,
+          383.5,
+          342,
+          77
+        ],
+        "images": true
+      }
+    },
+    "group4-review-mission-390-en-hero.png",
+    {
+      "file": "group4-review-mission-390-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          40,
+          364,
+          310,
+          115
+        ],
+        "images": true
+      }
+    },
+    "group4-review-sustainability-390-en-hero.png",
+    {
+      "file": "group4-review-sustainability-390-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          40,
+          384,
+          310,
+          77
+        ],
+        "images": true
+      }
+    },
+    "group4-review-about-1440-en-hero.png",
+    {
+      "file": "group4-review-about-1440-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          784,
+          392.5,
+          504,
+          115
+        ],
+        "images": true
+      }
+    },
+    "group4-review-mission-1440-en-hero.png",
+    {
+      "file": "group4-review-mission-1440-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          784,
+          392.5,
+          592,
+          115
+        ],
+        "images": true
+      }
+    },
+    "group4-review-sustainability-1440-en-hero.png",
+    {
+      "file": "group4-review-sustainability-1440-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          784,
+          421.5,
+          592,
+          57.5
+        ],
+        "images": true
+      }
+    },
+    "group4-review-about-390-bn-hero.png",
+    {
+      "file": "group4-review-about-390-bn-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          24,
+          377.5,
+          342,
+          89.5
+        ],
+        "images": true
+      }
+    },
+    "group4-review-mission-390-bn-hero.png",
+    {
+      "file": "group4-review-mission-390-bn-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          40,
+          377,
+          310,
+          89.5
+        ],
+        "images": true
+      }
+    },
+    "group4-review-sustainability-390-bn-hero.png",
+    {
+      "file": "group4-review-sustainability-390-bn-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          40,
+          400,
+          310,
+          45
+        ],
+        "images": true
+      }
+    }
+  ],
+  "browser": "156.0.8078.49",
+  "completed": true,
+  "teardown": {
+    "normal": false,
+    "bounded": true,
+    "connected": false
+  }
+}

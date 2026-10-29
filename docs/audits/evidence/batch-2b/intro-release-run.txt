@@ -1,0 +1,11 @@
+FAIL intro 320 natural The expression evaluated to a falsy value:
+
+  assert.ok(r.duration>=750&&r.duration<1700)
+
+FAIL intro 1440 natural The expression evaluated to a falsy value:
+
+  assert.ok(r.duration>=750&&r.duration<1700)
+
+PASS intro 320 skip
+PASS intro 390 reduced
+RESULT 2/4

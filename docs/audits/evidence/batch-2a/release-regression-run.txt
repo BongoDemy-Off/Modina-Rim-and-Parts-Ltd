@@ -1,0 +1,33 @@
+PASS en/320/products
+FAIL en/320/gallery: expect(received).toBe(expected) // Object.is equality
+
+Expected: true
+Received: false
+
+Call Log:
+- Timeout 5000ms exceeded while waiting on the predicate
+PASS en/320/careers
+PASS en/320/contact
+PASS en/320/navigation
+PASS en/390/products
+PASS en/390/gallery
+PASS en/390/careers
+PASS en/390/contact
+PASS en/390/navigation
+PASS en/430/products
+PASS en/430/gallery
+PASS en/430/careers
+PASS en/430/contact
+PASS en/430/navigation
+PASS en/768/products
+PASS en/768/gallery
+PASS en/768/careers
+PASS en/768/contact
+PASS en/768/navigation
+PASS en/1024/products
+PASS en/1024/gallery
+PASS en/1024/careers
+PASS en/1024/contact
+PASS en/1024/navigation
+PASS en/1440/products
+PASS en/1440/gallery

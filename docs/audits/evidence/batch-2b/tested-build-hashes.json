@@ -1,0 +1,217 @@
+[
+  {
+    "path": "dist\\assets\\AdminRoutes-CmJ4RLql.css",
+    "sha256": "cb3c2dda84afb1f03e72051c0d1189de387191f1f27dca86dcdd7953456a69af",
+    "bytes": 3632
+  },
+  {
+    "path": "dist\\assets\\AdminRoutes-DGNTstA_.js",
+    "sha256": "20d1e0328015d1fbeb3237a2eaf85506e997c2346b3d5dc83aa9a76f097b8a77",
+    "bytes": 638660
+  },
+  {
+    "path": "dist\\assets\\cat_motorcycle_parts-BGOdeLlY.webp",
+    "sha256": "0c2c89d735e3a8740fb63fc998ac21f83fc97de4ea1b5bc846c3f2930a67d3b3",
+    "bytes": 60708
+  },
+  {
+    "path": "dist\\assets\\Certificate-02-B3tjqQXb.png",
+    "sha256": "37b2004dde11261daa583288cd8068667591b4aea8508a218bfb15855e899b1a",
+    "bytes": 1713958
+  },
+  {
+    "path": "dist\\assets\\Certificate-03-D9NTs9Bx.png",
+    "sha256": "11a1ce3fc20069978696bfb41a6af8688dfabe65a4b22e4d5b0b6a7d9755b0a2",
+    "bytes": 1705684
+  },
+  {
+    "path": "dist\\assets\\Certificate-DxjyQzPg.png",
+    "sha256": "ac9bbbabd00bcfa6868376c7c70392bdeb5dd4ebfbf523607e7e1cca37bf728e",
+    "bytes": 1777038
+  },
+  {
+    "path": "dist\\assets\\CNG Rim-CWmeImNb.webp",
+    "sha256": "eb1c86674245eadf886d3902585e783ef27744110ddebc4eef0a7ee1b7abdac7",
+    "bytes": 69316
+  },
+  {
+    "path": "dist\\assets\\company-CqX0xWdV.webp",
+    "sha256": "6e4c7f342d702399495347b39c7358f19215e6b486fbe35f5cde898d6e578dec",
+    "bytes": 170268
+  },
+  {
+    "path": "dist\\assets\\index-CvPtSjxz.js",
+    "sha256": "c970b6756517c96132c367076e23d90ce75aba19a712573c8c60658fc3bfa2da",
+    "bytes": 1127502
+  },
+  {
+    "path": "dist\\assets\\index-CWxOwkIB.css",
+    "sha256": "b2322550ea75c6114819f8953693cd79f846cf59bb5dc55d9730272e67158139",
+    "bytes": 100825
+  },
+  {
+    "path": "dist\\assets\\Li Niladri Nodia Unicode Italic-DM4Rzm-B.ttf",
+    "sha256": "ebee2451ca489413e6b0f04957e795add206dddf69bec4828e1cce4fe5d24421",
+    "bytes": 80612
+  },
+  {
+    "path": "dist\\assets\\Li Niladri Nodia Unicode-Cm6BR32b.ttf",
+    "sha256": "e90aeff9b4af001a2c8f8627d0768284577032c0c5fe21aa87c4025ce225167c",
+    "bytes": 140724
+  },
+  {
+    "path": "dist\\assets\\logo-Cg58folY.png",
+    "sha256": "035c45ff9da09443e3708b5432c6867e2b3421468d1e6a3f2f3a6862734f6c33",
+    "bytes": 47975
+  },
+  {
+    "path": "dist\\assets\\Md. Faruq Hossain-DLmwhDN1.webp",
+    "sha256": "9c72f79cb758d120bd96f4518f93e8e550648b683c47ce708c4c538651917eca",
+    "bytes": 51308
+  },
+  {
+    "path": "dist\\assets\\Premium Rims-DAivbVtn.webp",
+    "sha256": "a502a97060e9bbd87b306b2792dc173c6e42bd4a93bfd5862572890da10c02c5",
+    "bytes": 37354
+  },
+  {
+    "path": "dist\\assets\\State of the Art Facility-C6H4SQ74.webm",
+    "sha256": "d6c5542bbdfe6409bde6eab7e0475cbf6487771cd7137623324db5e48ad62417",
+    "bytes": 1166089
+  },
+  {
+    "path": "dist\\assets\\wasar-Crxolq52.webp",
+    "sha256": "6a402ee1ee3d082fa5a59ccbf2c1431d9ba644a1cfafc78647c9bad68ce8a5aa",
+    "bytes": 79668
+  },
+  {
+    "path": "dist\\cat_accessories.jpg",
+    "sha256": "e1f6ef1d421033e2b76b18b7b5e4009100b8f85061a727f06be498e51a4f53cb",
+    "bytes": 259601
+  },
+  {
+    "path": "dist\\cat_motorcycle_parts.jpg",
+    "sha256": "b07c773149d2204d86d86f985f417c43553bc89c68affd1babeec8a3d03c187e",
+    "bytes": 159654
+  },
+  {
+    "path": "dist\\cat_motorcycle_parts.png",
+    "sha256": "f9341ee63eb156abe352460532b8cc0f2ef9c5b868e677e396c62cb97adddaee",
+    "bytes": 1036249
+  },
+  {
+    "path": "dist\\hero.jpg",
+    "sha256": "44df2231a38b7e97de8fac6dae0bba5099ad3ca063009a8bdf33e8a15efe0ef5",
+    "bytes": 8607874
+  },
+  {
+    "path": "dist\\hero_bicycle.jpg",
+    "sha256": "2e65fe0c3114e38e4fef7e14afa00394581a22a14d9664f8cdf65de0fb6791a6",
+    "bytes": 657465
+  },
+  {
+    "path": "dist\\hero_cng_parts.jpg",
+    "sha256": "ba91ab5232960b0f614440323089fb91eb745b119a79194aa2ac289564eb1c4b",
+    "bytes": 680587
+  },
+  {
+    "path": "dist\\hero_hardware.jpg",
+    "sha256": "932d3d4056bfeb2906748a34fd5b45760be8ab73c18ba1b22a9d6102cd390269",
+    "bytes": 745650
+  },
+  {
+    "path": "dist\\hero_products.jpg",
+    "sha256": "5c27196dd5ff99ba5189cbe759cce759b8817ffe16cfc7ba11ee546104e4efed",
+    "bytes": 521548
+  },
+  {
+    "path": "dist\\hero_rims.jpg",
+    "sha256": "913183a62d26114151e0587e2af4f8e9145d2460ea89fb476ba5b08c7dafc67e",
+    "bytes": 680008
+  },
+  {
+    "path": "dist\\index.html",
+    "sha256": "ebb28d41be4aaaf4107224063d0a850bc263e189ec4cd01d81c829296af0cfe3",
+    "bytes": 2410
+  },
+  {
+    "path": "dist\\iso\\iso-14001.png",
+    "sha256": "37b2004dde11261daa583288cd8068667591b4aea8508a218bfb15855e899b1a",
+    "bytes": 1713958
+  },
+  {
+    "path": "dist\\iso\\iso-45001.png",
+    "sha256": "ac9bbbabd00bcfa6868376c7c70392bdeb5dd4ebfbf523607e7e1cca37bf728e",
+    "bytes": 1777038
+  },
+  {
+    "path": "dist\\iso\\iso-9001.png",
+    "sha256": "11a1ce3fc20069978696bfb41a6af8688dfabe65a4b22e4d5b0b6a7d9755b0a2",
+    "bytes": 1705684
+  },
+  {
+    "path": "dist\\logo.jpg",
+    "sha256": "2c90f6e7f0b1f408c25083a70ac073266a80d22ee4dc63b5174efce8bd13de55",
+    "bytes": 7935555
+  },
+  {
+    "path": "dist\\products\\sku-001\\01-product.png",
+    "sha256": "53858231ef306eb94e0f4089f3118a60f6d68ce23d48fee5e99008deb9854206",
+    "bytes": 1547236
+  },
+  {
+    "path": "dist\\products\\sku-001\\02-engineering.jpg",
+    "sha256": "e8fa1806f8653d3524a21d9f7a8d291cb84f0c5194d6674f0eb7e417442df5a1",
+    "bytes": 2023285
+  },
+  {
+    "path": "dist\\products\\sku-001\\03-assembly.png",
+    "sha256": "fd9697d0440b872e56476003bcd9ea5773b9fc632c8a4b1cdda4145fbb1eeb13",
+    "bytes": 1595463
+  },
+  {
+    "path": "dist\\products\\sku-002\\01-product.png",
+    "sha256": "0996d4ebbe39a5d097f0a59f43f8d2c962cf74e2408ba6ee33684b9f5722e820",
+    "bytes": 1478089
+  },
+  {
+    "path": "dist\\products\\sku-002\\02-engineering.jpg",
+    "sha256": "8f847e74e5220474068f26ac05dc0a23a698c6acc0af6083fcec1dda7f1fb100",
+    "bytes": 1727646
+  },
+  {
+    "path": "dist\\products\\sku-002\\03-assembly.png",
+    "sha256": "59ed1e625cdd9cf3d8b6ce70b7652a523d90a969e5e793de73a99772a55dab54",
+    "bytes": 1741942
+  },
+  {
+    "path": "dist\\products\\sku-003\\01-product.png",
+    "sha256": "ba09b920abd4829e0033b796fbef26a1b070dfc00c07aec117ca5ac0e12d553a",
+    "bytes": 1482837
+  },
+  {
+    "path": "dist\\products\\sku-003\\02-engineering.jpg",
+    "sha256": "ed9bf02b802229c538422139d310e33bb0b525c46fba160fe883d797a750e428",
+    "bytes": 2035579
+  },
+  {
+    "path": "dist\\products\\sku-003\\03-assembly.png",
+    "sha256": "db34ac291dd07dacb3476c1ded962810c054fde88d1304888c58ff86b8273f7e",
+    "bytes": 1692820
+  },
+  {
+    "path": "dist\\robots.txt",
+    "sha256": "914e2f98e14c637b7c24ba83f14dc91e9f55edb24e6169e6c0646f0b7e9c3e9d",
+    "bytes": 87
+  },
+  {
+    "path": "dist\\sitemap.xml",
+    "sha256": "af8acc393e40d012d0a2c44d215659215da9c595e51c9e067ffeea5fc978499a",
+    "bytes": 1584
+  },
+  {
+    "path": "dist\\_redirects",
+    "sha256": "6036983e5fc00f0169c9e939b1816ed771eee00e27f2fcc517b819041460b9ef",
+    "bytes": 19
+  }
+]

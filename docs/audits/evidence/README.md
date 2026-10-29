@@ -1,0 +1,297 @@
+# Evidence index
+
+Audit artifacts only,27 October2026. Local source is authoritative. No app code/package/env/hosting edits. No real enquiry, application, newsletter, call, email or AI message sent.
+
+## Primary evidence
+
+- [environment.json](environment.json): Chromium156.0.8078.48/Playwright1.62.1, touch emulation and viewports.
+- [route-results.json](route-results.json):176English rendered states, DOM/geometry/image/metadata data,22axe4.10.3 scans. No default document overflow; no conformance claim.
+- [locale-results.json](locale-results.json):22Bengali390px initial states.
+- [interaction-results.json](interaction-results.json):corrected16interaction groups; raw exiting-animation card counts are not reliable visible counts.
+- [interaction-first-results.json](interaction-first-results.json):initial locator failures preserved. Corrected title taps/Search name are in retry script; no test pass inferred from a timeout.
+- [focused-results.json](focused-results.json):background keyboard focus, collection filters/empty states, direct metadata, target sizes and image failure evidence;3groups timed out.
+- [performance-results.json](performance-results.json):3single cold CDP-throttled observations; local preview uncompressed; no field INP, official CLS aggregation or Lighthouse score.
+- [reduced-motion.json](reduced-motion.json):hero still advances with reduce; sampled below-fold video paused.
+- [preloader-results.json](preloader-results.json):fresh-session320px screenshot/removed follow-up; timer labels describe requested waits, not exact screenshot wall time.
+- [deployment-results.json](deployment-results.json):Vercel homepage200, Netlify navigation failure. No source/deployment parity claim.
+- [asset-metadata.json](asset-metadata.json):51local image/video/font files with hashes,bytes,dimensions.
+- [public-data.json](public-data.json):public constants used to generate21-row CSV.
+- [button-style-results.json](button-style-results.json):computed radius0px despite rounded utilities.
+- [page-errors.json](page-errors.json):no pageerror events in the main sweep; not a claim of no console warnings or all-state errors.
+- [engine-availability.json](engine-availability.json):Firefox/WebKit not installed; Edge is same engine family.
+- [baseline-hashes.json](baseline-hashes.json), [preservation-verification.json](preservation-verification.json), [git-final.txt](git-final.txt):source/unrelated-work preservation.
+- [typecheck.txt](typecheck.txt), [build.txt](build.txt):successful existing checks.
+- [commands.json](commands.json) and [../COMMAND-LOG.md](../COMMAND-LOG.md):all recorded shell invocations and outcomes.
+
+## Runner limitations
+
+The main route sweep and corrected interaction runner completed data collection but teardown remained active; their verified owned Node processes required cleanup. Initial unavailable Chromium launch, wrong search label/card-centre targeting, an output-file lock, a PowerShell parser error, Python alias failure and overview SVG command escaping failure were corrected or documented. Focused native-action follow-ups timed out for language persistence, multi-size drawer and settled sticky-offset measurements. Neither final-browser run completed; final-browser-first-run.txt/final-browser-retry-run.txt are failure evidence. These failures do not establish app defects. No independent second-engine, physical-device, native-screen-reader or native-text-zoom pass is claimed.
+
+The scripts in this folder are reproducibility aids using absolute bundled runtime paths from this host; adapt those paths in another environment. They are not application implementation or an installed project test suite. axe.min.js is the pinned audit library fetched from cdnjs; no package/lockfile was modified.
+
+## Files created
+
+- `2026-10-27-PUBLIC-UIUX-AUDIT.md`
+- `COMMAND-LOG.md`
+- `DESIGN-SYSTEM-GAP-ANALYSIS.md`
+- `IMPLEMENTATION-ROADMAP.md`
+- `ISSUE-REGISTER.md`
+- `PLACEHOLDER-ASSET-INVENTORY.md`
+- `PRODUCT-IMAGE-INVENTORY.csv`
+- `PUBLIC-ROUTE-MATRIX.md`
+- `RESPONSIVE-QA-MATRIX.md`
+- `evidence/README.md`
+- `evidence/about-1440-en.png`
+- `evidence/about-390-bn.png`
+- `evidence/about-390-en.png`
+- `evidence/artifact-manifest.json`
+- `evidence/asset-inventory.cjs`
+- `evidence/asset-metadata.json`
+- `evidence/audit-missing-page-1440-en.png`
+- `evidence/audit-missing-page-390-bn.png`
+- `evidence/audit-missing-page-390-en.png`
+- `evidence/axe.min.js`
+- `evidence/baseline-hashes.json`
+- `evidence/blog-1-1440-en.png`
+- `evidence/blog-1-390-bn.png`
+- `evidence/blog-1-390-en.png`
+- `evidence/blog-1440-en.png`
+- `evidence/blog-390-bn.png`
+- `evidence/blog-390-en.png`
+- `evidence/blog-featured-1440-en.png`
+- `evidence/blog-featured-390-bn.png`
+- `evidence/blog-featured-390-en.png`
+- `evidence/blog-invalid-1440-en.png`
+- `evidence/blog-invalid-390-bn.png`
+- `evidence/blog-invalid-390-en.png`
+- `evidence/brand-media-contact-sheet.png`
+- `evidence/browser-audit.cjs`
+- `evidence/browser-first-attempt.txt`
+- `evidence/browser-run.txt`
+- `evidence/build.txt`
+- `evidence/button-style-results.json`
+- `evidence/careers-1440-en.png`
+- `evidence/careers-390-bn.png`
+- `evidence/careers-390-en.png`
+- `evidence/careers-form-390.png`
+- `evidence/certificate-contact-sheet.png`
+- `evidence/certificates-1440-en.png`
+- `evidence/certificates-320-en.png`
+- `evidence/certificates-390-bn.png`
+- `evidence/certificates-390-en.png`
+- `evidence/chat-landscape-667x375.png`
+- `evidence/commands.json`
+- `evidence/contact-1440-en.png`
+- `evidence/contact-320-en.png`
+- `evidence/contact-390-bn.png`
+- `evidence/contact-390-en.png`
+- `evidence/contact-top-390.png`
+- `evidence/delivery-validation.json`
+- `evidence/deployed-modina-rim-and-parts-ltd.png`
+- `evidence/deployment-results.json`
+- `evidence/desktop-dropdown-1440.png`
+- `evidence/download-action-390.png`
+- `evidence/downloads-1440-en.png`
+- `evidence/downloads-390-bn.png`
+- `evidence/downloads-390-en.png`
+- `evidence/engine-availability.json`
+- `evidence/environment.json`
+- `evidence/faq-1440-en.png`
+- `evidence/faq-390-bn.png`
+- `evidence/faq-390-en.png`
+- `evidence/faq-expanded-390.png`
+- `evidence/final-browser-check.cjs`
+- `evidence/final-browser-first-run.txt`
+- `evidence/final-browser-retry-run.txt`
+- `evidence/final-browser-run.txt`
+- `evidence/finalize-audit.cjs`
+- `evidence/findings.json`
+- `evidence/focused-results.json`
+- `evidence/focused-run.txt`
+- `evidence/focused-verification.cjs`
+- `evidence/gallery-1440-en.png`
+- `evidence/gallery-320-en.png`
+- `evidence/gallery-390-bn.png`
+- `evidence/gallery-390-en.png`
+- `evidence/gallery-lightbox-390.png`
+- `evidence/git-final.txt`
+- `evidence/global-search-390.png`
+- `evidence/home-1440-en.png`
+- `evidence/home-320-en.png`
+- `evidence/home-390-bn.png`
+- `evidence/home-390-en.png`
+- `evidence/initial-motion-captures/about-390-en.png`
+- `evidence/initial-motion-captures/home-1440-en.png`
+- `evidence/initial-motion-captures/home-390-en.png`
+- `evidence/interaction-audit.cjs`
+- `evidence/interaction-first-results.json`
+- `evidence/interaction-first-run.txt`
+- `evidence/interaction-results.json`
+- `evidence/interaction-retry-run.txt`
+- `evidence/interaction-run.txt`
+- `evidence/locale-performance-audit.cjs`
+- `evidence/locale-performance-run.txt`
+- `evidence/locale-results.json`
+- `evidence/mission-1440-en.png`
+- `evidence/mission-390-bn.png`
+- `evidence/mission-390-en.png`
+- `evidence/mobile-menu-390.png`
+- `evidence/mobile-top-contact-sheet.png`
+- `evidence/news-1-1440-en.png`
+- `evidence/news-1-390-bn.png`
+- `evidence/news-1-390-en.png`
+- `evidence/news-1440-en.png`
+- `evidence/news-390-bn.png`
+- `evidence/news-390-en.png`
+- `evidence/news-invalid-1440-en.png`
+- `evidence/news-invalid-390-bn.png`
+- `evidence/news-invalid-390-en.png`
+- `evidence/page-errors.json`
+- `evidence/performance-results.json`
+- `evidence/polish-report.cjs`
+- `evidence/preloader-320.png`
+- `evidence/preloader-results.json`
+- `evidence/preservation-verification.json`
+- `evidence/privacy-1440-en.png`
+- `evidence/privacy-390-bn.png`
+- `evidence/privacy-390-en.png`
+- `evidence/product-contact-sheet.png`
+- `evidence/product-drawer-390.png`
+- `evidence/product-enquiry-subject-390.png`
+- `evidence/products-1440-en.png`
+- `evidence/products-320-en.png`
+- `evidence/products-390-bn.png`
+- `evidence/products-390-en.png`
+- `evidence/products-empty-390.png`
+- `evidence/products-image-failure-390.png`
+- `evidence/products-text200-390.png`
+- `evidence/public-data.json`
+- `evidence/quality-1440-en.png`
+- `evidence/quality-390-bn.png`
+- `evidence/quality-390-en.png`
+- `evidence/recapture-first-run.txt`
+- `evidence/recapture-pages.cjs`
+- `evidence/recapture-results.json`
+- `evidence/recapture-retry-run.txt`
+- `evidence/recapture-run.txt`
+- `evidence/reduced-motion.json`
+- `evidence/review-overviews.cjs`
+- `evidence/route-overview-1.png`
+- `evidence/route-overview-2.png`
+- `evidence/route-overview-3.png`
+- `evidence/route-overview-4.png`
+- `evidence/route-results.json`
+- `evidence/sustainability-1440-en.png`
+- `evidence/sustainability-390-bn.png`
+- `evidence/sustainability-390-en.png`
+- `evidence/terms-1440-en.png`
+- `evidence/terms-390-bn.png`
+- `evidence/terms-390-en.png`
+- `evidence/typecheck.txt`
+- `evidence/visibility-diagnostic-run.txt`
+- `evidence/visibility-diagnostic.cjs`
+- `evidence/write-command-log.cjs`
+- `evidence/write-reports.cjs`
+- `evidence/write-supporting-reports.cjs`
+
+## Screenshot qualification
+
+Many full-page captures retain transparent below-fold Motion entrances. These preserve geometry but do not prove complete settled visual coverage. Slower-scroll/CDP recapture completed Home390/1440 only and still found hidden sections; the audit-owned runner was stopped. Initial Home frames are preserved under initial-motion-captures/. Blank bands must not be presented as actual empty sections. Use initial viewport, named interaction captures, source and DOM evidence; full settled-motion QA remains a gate. Edge visibility diagnostic yielded no usable saved result and was stopped; it does not establish a second-engine pass.
+
+## Screenshot index
+
+- [about-1440-en.png](about-1440-en.png)
+- [about-390-bn.png](about-390-bn.png)
+- [about-390-en.png](about-390-en.png)
+- [audit-missing-page-1440-en.png](audit-missing-page-1440-en.png)
+- [audit-missing-page-390-bn.png](audit-missing-page-390-bn.png)
+- [audit-missing-page-390-en.png](audit-missing-page-390-en.png)
+- [blog-1-1440-en.png](blog-1-1440-en.png)
+- [blog-1-390-bn.png](blog-1-390-bn.png)
+- [blog-1-390-en.png](blog-1-390-en.png)
+- [blog-1440-en.png](blog-1440-en.png)
+- [blog-390-bn.png](blog-390-bn.png)
+- [blog-390-en.png](blog-390-en.png)
+- [blog-featured-1440-en.png](blog-featured-1440-en.png)
+- [blog-featured-390-bn.png](blog-featured-390-bn.png)
+- [blog-featured-390-en.png](blog-featured-390-en.png)
+- [blog-invalid-1440-en.png](blog-invalid-1440-en.png)
+- [blog-invalid-390-bn.png](blog-invalid-390-bn.png)
+- [blog-invalid-390-en.png](blog-invalid-390-en.png)
+- [brand-media-contact-sheet.png](brand-media-contact-sheet.png)
+- [careers-1440-en.png](careers-1440-en.png)
+- [careers-390-bn.png](careers-390-bn.png)
+- [careers-390-en.png](careers-390-en.png)
+- [careers-form-390.png](careers-form-390.png)
+- [certificate-contact-sheet.png](certificate-contact-sheet.png)
+- [certificates-1440-en.png](certificates-1440-en.png)
+- [certificates-320-en.png](certificates-320-en.png)
+- [certificates-390-bn.png](certificates-390-bn.png)
+- [certificates-390-en.png](certificates-390-en.png)
+- [chat-landscape-667x375.png](chat-landscape-667x375.png)
+- [contact-1440-en.png](contact-1440-en.png)
+- [contact-320-en.png](contact-320-en.png)
+- [contact-390-bn.png](contact-390-bn.png)
+- [contact-390-en.png](contact-390-en.png)
+- [contact-top-390.png](contact-top-390.png)
+- [deployed-modina-rim-and-parts-ltd.png](deployed-modina-rim-and-parts-ltd.png)
+- [desktop-dropdown-1440.png](desktop-dropdown-1440.png)
+- [download-action-390.png](download-action-390.png)
+- [downloads-1440-en.png](downloads-1440-en.png)
+- [downloads-390-bn.png](downloads-390-bn.png)
+- [downloads-390-en.png](downloads-390-en.png)
+- [faq-1440-en.png](faq-1440-en.png)
+- [faq-390-bn.png](faq-390-bn.png)
+- [faq-390-en.png](faq-390-en.png)
+- [faq-expanded-390.png](faq-expanded-390.png)
+- [gallery-1440-en.png](gallery-1440-en.png)
+- [gallery-320-en.png](gallery-320-en.png)
+- [gallery-390-bn.png](gallery-390-bn.png)
+- [gallery-390-en.png](gallery-390-en.png)
+- [gallery-lightbox-390.png](gallery-lightbox-390.png)
+- [global-search-390.png](global-search-390.png)
+- [home-1440-en.png](home-1440-en.png)
+- [home-320-en.png](home-320-en.png)
+- [home-390-bn.png](home-390-bn.png)
+- [home-390-en.png](home-390-en.png)
+- [mission-1440-en.png](mission-1440-en.png)
+- [mission-390-bn.png](mission-390-bn.png)
+- [mission-390-en.png](mission-390-en.png)
+- [mobile-menu-390.png](mobile-menu-390.png)
+- [mobile-top-contact-sheet.png](mobile-top-contact-sheet.png)
+- [news-1-1440-en.png](news-1-1440-en.png)
+- [news-1-390-bn.png](news-1-390-bn.png)
+- [news-1-390-en.png](news-1-390-en.png)
+- [news-1440-en.png](news-1440-en.png)
+- [news-390-bn.png](news-390-bn.png)
+- [news-390-en.png](news-390-en.png)
+- [news-invalid-1440-en.png](news-invalid-1440-en.png)
+- [news-invalid-390-bn.png](news-invalid-390-bn.png)
+- [news-invalid-390-en.png](news-invalid-390-en.png)
+- [preloader-320.png](preloader-320.png)
+- [privacy-1440-en.png](privacy-1440-en.png)
+- [privacy-390-bn.png](privacy-390-bn.png)
+- [privacy-390-en.png](privacy-390-en.png)
+- [product-contact-sheet.png](product-contact-sheet.png)
+- [product-drawer-390.png](product-drawer-390.png)
+- [product-enquiry-subject-390.png](product-enquiry-subject-390.png)
+- [products-1440-en.png](products-1440-en.png)
+- [products-320-en.png](products-320-en.png)
+- [products-390-bn.png](products-390-bn.png)
+- [products-390-en.png](products-390-en.png)
+- [products-empty-390.png](products-empty-390.png)
+- [products-image-failure-390.png](products-image-failure-390.png)
+- [products-text200-390.png](products-text200-390.png)
+- [quality-1440-en.png](quality-1440-en.png)
+- [quality-390-bn.png](quality-390-bn.png)
+- [quality-390-en.png](quality-390-en.png)
+- [route-overview-1.png](route-overview-1.png)
+- [route-overview-2.png](route-overview-2.png)
+- [route-overview-3.png](route-overview-3.png)
+- [route-overview-4.png](route-overview-4.png)
+- [sustainability-1440-en.png](sustainability-1440-en.png)
+- [sustainability-390-bn.png](sustainability-390-bn.png)
+- [sustainability-390-en.png](sustainability-390-en.png)
+- [terms-1440-en.png](terms-1440-en.png)
+- [terms-390-bn.png](terms-390-bn.png)
+- [terms-390-en.png](terms-390-en.png)

@@ -1,0 +1,7 @@
+{
+  "name": "race-rerun",
+  "exitCode": 0,
+  "started": "2026-10-28T05:11:10.7273286Z",
+  "finished": "2026-10-28T05:12:04.1937480Z",
+  "change": "Navigation readiness allowance 6s to 30s only; all cycle assertions unchanged"
+}

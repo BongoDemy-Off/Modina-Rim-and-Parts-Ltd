@@ -1,0 +1,1 @@
+{"base":"/","publicDir":"C:/Users/BongoDemy/Documents/BongoDemy/Modina-Rim-and-Parts-Ltd/public","outDir":"dist","copyPublicDir":true,"appType":"spa"}

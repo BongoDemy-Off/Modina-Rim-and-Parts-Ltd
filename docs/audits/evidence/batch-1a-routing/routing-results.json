@@ -1,0 +1,910 @@
+{
+  "scope": "Local config-driven filesystem-first rule model; provider CLI/emulation and live deployment NOT verified",
+  "node": "v24.19.0",
+  "cases": [
+    {
+      "name": "control/no-fallback-reproduces-nested-404",
+      "passed": true
+    },
+    {
+      "name": "vercel/all-published-static-files",
+      "passed": true
+    },
+    {
+      "name": "vercel/direct-refresh/",
+      "passed": true
+    },
+    {
+      "name": "vercel/direct-refresh/about",
+      "passed": true
+    },
+    {
+      "name": "vercel/direct-refresh/products",
+      "passed": true
+    },
+    {
+      "name": "vercel/direct-refresh/products?category=Rims",
+      "passed": true
+    },
+    {
+      "name": "vercel/direct-refresh/gallery",
+      "passed": true
+    },
+    {
+      "name": "vercel/direct-refresh/contact",
+      "passed": true
+    },
+    {
+      "name": "vercel/direct-refresh/contact?product=Box%20Frame%20Bearing%20%26%20Racer%20(Black%20Blue%20%26%20Red)",
+      "passed": true
+    },
+    {
+      "name": "vercel/direct-refresh/news/1",
+      "passed": false,
+      "error": "Error: expect(page).toHaveTitle(expected) failed\n\nExpected pattern: /ISO 9001:2015 Certification Successfully Renewed for 2025–2026/\nReceived string:  \"\"\nTimeout: 5000ms\n\nCall log:\n  - Expect \"to.have.title\" with timeout 5000ms\n    9 × locator resolved to <html lang=\"en\" dir=\"ltr\" class=\"locale-en\">…</html>\n      - unexpected value \"\"\n\n    at captureRawStack (C:\\Users\\BongoDemy\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\node_modules\\playwright-core\\lib\\coreBundle.js:9681:17)\n    at callMatcherAsStep (C:\\Users\\BongoDemy\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\node_modules\\playwright\\lib\\matchers\\expect.js:13310:57)\n    at Object.toHaveTitle (C:\\Users\\BongoDemy\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\node_modules\\playwright\\lib\\matchers\\expect.js:13300:23)\n    at rendered (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-routing\\verify-routing.cjs:52:30)\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-routing\\verify-routing.cjs:74:258\n    at async test (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-routing\\verify-routing.cjs:11:34)\n    at async C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-routing\\verify-routing.cjs:73:38"
+    },
+    {
+      "name": "vercel/direct-refresh/blog/1",
+      "passed": false,
+      "error": "Error: expect(page).toHaveTitle(expected) failed\n\nExpected pattern: /The Science Behind ISO 9001 and What It Means for Buyers/\nReceived string:  \"\"\nTimeout: 5000ms\n\nCall log:\n  - Expect \"to.have.title\" with timeout 5000ms\n    9 × locator resolved to <html lang=\"en\" dir=\"ltr\" class=\"locale-en\">…</html>\n      - unexpected value \"\"\n\n    at captureRawStack (C:\\Users\\BongoDemy\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\node_modules\\playwright-core\\lib\\coreBundle.js:9681:17)\n    at callMatcherAsStep (C:\\Users\\BongoDemy\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\node_modules\\playwright\\lib\\matchers\\expect.js:13310:57)\n    at Object.toHaveTitle (C:\\Users\\BongoDemy\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\node_modules\\playwright\\lib\\matchers\\expect.js:13300:23)\n    at rendered (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-routing\\verify-routing.cjs:52:30)\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-routing\\verify-routing.cjs:74:258\n    at async test (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-routing\\verify-routing.cjs:11:34)\n    at async C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-routing\\verify-routing.cjs:73:38"
+    },
+    {
+      "name": "vercel/direct-refresh/blog/featured",
+      "passed": false,
+      "error": "Error: expect(page).toHaveTitle(expected) failed\n\nExpected pattern: /Why Precision Tolerance Is the Most Underrated Factor in Auto Parts Manufacturing/\nReceived string:  \"\"\nTimeout: 5000ms\n\nCall log:\n  - Expect \"to.have.title\" with timeout 5000ms\n    8 × locator resolved to <html lang=\"en\" dir=\"ltr\" class=\"locale-en\">…</html>\n      - unexpected value \"\"\n\n    at captureRawStack (C:\\Users\\BongoDemy\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\node_modules\\playwright-core\\lib\\coreBundle.js:9681:17)\n    at callMatcherAsStep (C:\\Users\\BongoDemy\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\node_modules\\playwright\\lib\\matchers\\expect.js:13310:57)\n    at Object.toHaveTitle (C:\\Users\\BongoDemy\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\node_modules\\playwright\\lib\\matchers\\expect.js:13300:23)\n    at rendered (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-routing\\verify-routing.cjs:52:30)\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-routing\\verify-routing.cjs:74:258\n    at async test (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-routing\\verify-routing.cjs:11:34)\n    at async C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-routing\\verify-routing.cjs:73:38"
+    },
+    {
+      "name": "vercel/direct-refresh/faq",
+      "passed": true
+    },
+    {
+      "name": "vercel/direct-refresh/routing-acceptance-unknown",
+      "passed": true
+    },
+    {
+      "name": "vercel/client-navigation-query-history",
+      "passed": false,
+      "error": "Error: Timeout 5000ms exceeded while waiting on the predicate\n    at captureRawStack (C:\\Users\\BongoDemy\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\node_modules\\playwright-core\\lib\\coreBundle.js:9681:17)\n    at callMatcherAsStep (C:\\Users\\BongoDemy\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\node_modules\\playwright\\lib\\matchers\\expect.js:13310:57)\n    at Object.toBe (C:\\Users\\BongoDemy\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\node_modules\\playwright\\lib\\matchers\\expect.js:13300:23)\n    at ready (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-routing\\verify-routing.cjs:37:285)\n    at async C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-routing\\verify-routing.cjs:83:238\n    at async test (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-routing\\verify-routing.cjs:11:34)\n    at async C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-routing\\verify-routing.cjs:77:4"
+    },
+    {
+      "name": "vercel/batch-1a-product-enquiry-and-overlays",
+      "passed": true
+    },
+    {
+      "name": "vercel/admin-route-boundary-only",
+      "passed": true
+    },
+    {
+      "name": "vercel/320-bengali-client-route-cleanup",
+      "passed": true
+    },
+    {
+      "name": "netlify/all-published-static-files",
+      "passed": true
+    },
+    {
+      "name": "netlify/direct-refresh/",
+      "passed": true
+    },
+    {
+      "name": "netlify/direct-refresh/about",
+      "passed": true
+    },
+    {
+      "name": "netlify/direct-refresh/products",
+      "passed": true
+    },
+    {
+      "name": "netlify/direct-refresh/products?category=Rims",
+      "passed": true
+    },
+    {
+      "name": "netlify/direct-refresh/gallery",
+      "passed": true
+    },
+    {
+      "name": "netlify/direct-refresh/contact",
+      "passed": true
+    },
+    {
+      "name": "netlify/direct-refresh/contact?product=Box%20Frame%20Bearing%20%26%20Racer%20(Black%20Blue%20%26%20Red)",
+      "passed": true
+    },
+    {
+      "name": "netlify/direct-refresh/news/1",
+      "passed": false,
+      "error": "Error: expect(page).toHaveTitle(expected) failed\n\nExpected pattern: /ISO 9001:2015 Certification Successfully Renewed for 2025–2026/\nReceived string:  \"\"\nTimeout: 5000ms\n\nCall log:\n  - Expect \"to.have.title\" with timeout 5000ms\n    8 × locator resolved to <html lang=\"en\" dir=\"ltr\" class=\"locale-en\">…</html>\n      - unexpected value \"\"\n\n    at captureRawStack (C:\\Users\\BongoDemy\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\node_modules\\playwright-core\\lib\\coreBundle.js:9681:17)\n    at callMatcherAsStep (C:\\Users\\BongoDemy\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\node_modules\\playwright\\lib\\matchers\\expect.js:13310:57)\n    at Object.toHaveTitle (C:\\Users\\BongoDemy\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\node_modules\\playwright\\lib\\matchers\\expect.js:13300:23)\n    at rendered (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-routing\\verify-routing.cjs:52:30)\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-routing\\verify-routing.cjs:74:258\n    at async test (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-routing\\verify-routing.cjs:11:34)\n    at async C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-routing\\verify-routing.cjs:73:38"
+    },
+    {
+      "name": "netlify/direct-refresh/blog/1",
+      "passed": false,
+      "error": "Error: expect(page).toHaveTitle(expected) failed\n\nExpected pattern: /The Science Behind ISO 9001 and What It Means for Buyers/\nReceived string:  \"\"\nTimeout: 5000ms\n\nCall log:\n  - Expect \"to.have.title\" with timeout 5000ms\n    9 × locator resolved to <html lang=\"en\" dir=\"ltr\" class=\"locale-en\">…</html>\n      - unexpected value \"\"\n\n    at captureRawStack (C:\\Users\\BongoDemy\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\node_modules\\playwright-core\\lib\\coreBundle.js:9681:17)\n    at callMatcherAsStep (C:\\Users\\BongoDemy\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\node_modules\\playwright\\lib\\matchers\\expect.js:13310:57)\n    at Object.toHaveTitle (C:\\Users\\BongoDemy\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\node_modules\\playwright\\lib\\matchers\\expect.js:13300:23)\n    at rendered (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-routing\\verify-routing.cjs:52:30)\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-routing\\verify-routing.cjs:74:258\n    at async test (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-routing\\verify-routing.cjs:11:34)\n    at async C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-routing\\verify-routing.cjs:73:38"
+    },
+    {
+      "name": "netlify/direct-refresh/blog/featured",
+      "passed": false,
+      "error": "Error: expect(page).toHaveTitle(expected) failed\n\nExpected pattern: /Why Precision Tolerance Is the Most Underrated Factor in Auto Parts Manufacturing/\nReceived string:  \"\"\nTimeout: 5000ms\n\nCall log:\n  - Expect \"to.have.title\" with timeout 5000ms\n    9 × locator resolved to <html lang=\"en\" dir=\"ltr\" class=\"locale-en\">…</html>\n      - unexpected value \"\"\n\n    at captureRawStack (C:\\Users\\BongoDemy\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\node_modules\\playwright-core\\lib\\coreBundle.js:9681:17)\n    at callMatcherAsStep (C:\\Users\\BongoDemy\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\node_modules\\playwright\\lib\\matchers\\expect.js:13310:57)\n    at Object.toHaveTitle (C:\\Users\\BongoDemy\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\node_modules\\playwright\\lib\\matchers\\expect.js:13300:23)\n    at rendered (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-routing\\verify-routing.cjs:52:30)\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-routing\\verify-routing.cjs:74:258\n    at async test (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-routing\\verify-routing.cjs:11:34)\n    at async C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-routing\\verify-routing.cjs:73:38"
+    },
+    {
+      "name": "netlify/direct-refresh/faq",
+      "passed": true
+    },
+    {
+      "name": "netlify/direct-refresh/routing-acceptance-unknown",
+      "passed": true
+    },
+    {
+      "name": "netlify/client-navigation-query-history",
+      "passed": false,
+      "error": "Error: Timeout 5000ms exceeded while waiting on the predicate\n    at captureRawStack (C:\\Users\\BongoDemy\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\node_modules\\playwright-core\\lib\\coreBundle.js:9681:17)\n    at callMatcherAsStep (C:\\Users\\BongoDemy\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\node_modules\\playwright\\lib\\matchers\\expect.js:13310:57)\n    at Object.toBe (C:\\Users\\BongoDemy\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\node_modules\\playwright\\lib\\matchers\\expect.js:13300:23)\n    at ready (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-routing\\verify-routing.cjs:37:285)\n    at async C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-routing\\verify-routing.cjs:83:238\n    at async test (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-routing\\verify-routing.cjs:11:34)\n    at async C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-1a-routing\\verify-routing.cjs:77:4"
+    },
+    {
+      "name": "netlify/batch-1a-product-enquiry-and-overlays",
+      "passed": true
+    },
+    {
+      "name": "netlify/admin-route-boundary-only",
+      "passed": true
+    },
+    {
+      "name": "netlify/320-bengali-client-route-cleanup",
+      "passed": true
+    }
+  ],
+  "assets": [
+    {
+      "provider": "vercel",
+      "path": "assets/AdminRoutes-CmJ4RLql.css",
+      "status": 200,
+      "type": "text/css",
+      "bytes": 3632,
+      "sha256": "cb3c2dda84afb1f03e72051c0d1189de387191f1f27dca86dcdd7953456a69af"
+    },
+    {
+      "provider": "vercel",
+      "path": "assets/AdminRoutes-diMQUGXp.js",
+      "status": 200,
+      "type": "text/javascript",
+      "bytes": 638660,
+      "sha256": "b700e67cc6d14742d3acdd46b426b15a26b420c006a5c2225dbe0f238b1fca43"
+    },
+    {
+      "provider": "vercel",
+      "path": "assets/cat_motorcycle_parts-BGOdeLlY.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 60708,
+      "sha256": "0c2c89d735e3a8740fb63fc998ac21f83fc97de4ea1b5bc846c3f2930a67d3b3"
+    },
+    {
+      "provider": "vercel",
+      "path": "assets/Certificate-02-B3tjqQXb.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 1713958,
+      "sha256": "37b2004dde11261daa583288cd8068667591b4aea8508a218bfb15855e899b1a"
+    },
+    {
+      "provider": "vercel",
+      "path": "assets/Certificate-03-D9NTs9Bx.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 1705684,
+      "sha256": "11a1ce3fc20069978696bfb41a6af8688dfabe65a4b22e4d5b0b6a7d9755b0a2"
+    },
+    {
+      "provider": "vercel",
+      "path": "assets/Certificate-DxjyQzPg.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 1777038,
+      "sha256": "ac9bbbabd00bcfa6868376c7c70392bdeb5dd4ebfbf523607e7e1cca37bf728e"
+    },
+    {
+      "provider": "vercel",
+      "path": "assets/CNG Rim-CWmeImNb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 69316,
+      "sha256": "eb1c86674245eadf886d3902585e783ef27744110ddebc4eef0a7ee1b7abdac7"
+    },
+    {
+      "provider": "vercel",
+      "path": "assets/company-CqX0xWdV.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 170268,
+      "sha256": "6e4c7f342d702399495347b39c7358f19215e6b486fbe35f5cde898d6e578dec"
+    },
+    {
+      "provider": "vercel",
+      "path": "assets/index-BkC-ox2B.css",
+      "status": 200,
+      "type": "text/css",
+      "bytes": 89539,
+      "sha256": "b20b7f421cf35931336697fcbecf4a13245b6ac1433538fb315ca57af9553e56"
+    },
+    {
+      "provider": "vercel",
+      "path": "assets/index-Bn7D-hQr.js",
+      "status": 200,
+      "type": "text/javascript",
+      "bytes": 1115620,
+      "sha256": "4af34320b82c9d536267a5c94f80e8d6e120b4cbb2082939963758e60f0f6c27"
+    },
+    {
+      "provider": "vercel",
+      "path": "assets/Li Niladri Nodia Unicode Italic-DM4Rzm-B.ttf",
+      "status": 200,
+      "type": "font/ttf",
+      "bytes": 80612,
+      "sha256": "ebee2451ca489413e6b0f04957e795add206dddf69bec4828e1cce4fe5d24421"
+    },
+    {
+      "provider": "vercel",
+      "path": "assets/Li Niladri Nodia Unicode-Cm6BR32b.ttf",
+      "status": 200,
+      "type": "font/ttf",
+      "bytes": 140724,
+      "sha256": "e90aeff9b4af001a2c8f8627d0768284577032c0c5fe21aa87c4025ce225167c"
+    },
+    {
+      "provider": "vercel",
+      "path": "assets/logo-Cg58folY.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 47975,
+      "sha256": "035c45ff9da09443e3708b5432c6867e2b3421468d1e6a3f2f3a6862734f6c33"
+    },
+    {
+      "provider": "vercel",
+      "path": "assets/Md. Faruq Hossain-DLmwhDN1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 51308,
+      "sha256": "9c72f79cb758d120bd96f4518f93e8e550648b683c47ce708c4c538651917eca"
+    },
+    {
+      "provider": "vercel",
+      "path": "assets/Premium Rims-DAivbVtn.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 37354,
+      "sha256": "a502a97060e9bbd87b306b2792dc173c6e42bd4a93bfd5862572890da10c02c5"
+    },
+    {
+      "provider": "vercel",
+      "path": "assets/State of the Art Facility-C6H4SQ74.webm",
+      "status": 200,
+      "type": "video/webm",
+      "bytes": 1166089,
+      "sha256": "d6c5542bbdfe6409bde6eab7e0475cbf6487771cd7137623324db5e48ad62417"
+    },
+    {
+      "provider": "vercel",
+      "path": "assets/wasar-Crxolq52.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 79668,
+      "sha256": "6a402ee1ee3d082fa5a59ccbf2c1431d9ba644a1cfafc78647c9bad68ce8a5aa"
+    },
+    {
+      "provider": "vercel",
+      "path": "cat_accessories.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 259601,
+      "sha256": "e1f6ef1d421033e2b76b18b7b5e4009100b8f85061a727f06be498e51a4f53cb"
+    },
+    {
+      "provider": "vercel",
+      "path": "cat_motorcycle_parts.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 159654,
+      "sha256": "b07c773149d2204d86d86f985f417c43553bc89c68affd1babeec8a3d03c187e"
+    },
+    {
+      "provider": "vercel",
+      "path": "cat_motorcycle_parts.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 1036249,
+      "sha256": "f9341ee63eb156abe352460532b8cc0f2ef9c5b868e677e396c62cb97adddaee"
+    },
+    {
+      "provider": "vercel",
+      "path": "hero.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 8607874,
+      "sha256": "44df2231a38b7e97de8fac6dae0bba5099ad3ca063009a8bdf33e8a15efe0ef5"
+    },
+    {
+      "provider": "vercel",
+      "path": "hero_bicycle.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 657465,
+      "sha256": "2e65fe0c3114e38e4fef7e14afa00394581a22a14d9664f8cdf65de0fb6791a6"
+    },
+    {
+      "provider": "vercel",
+      "path": "hero_cng_parts.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 680587,
+      "sha256": "ba91ab5232960b0f614440323089fb91eb745b119a79194aa2ac289564eb1c4b"
+    },
+    {
+      "provider": "vercel",
+      "path": "hero_hardware.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 745650,
+      "sha256": "932d3d4056bfeb2906748a34fd5b45760be8ab73c18ba1b22a9d6102cd390269"
+    },
+    {
+      "provider": "vercel",
+      "path": "hero_products.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 521548,
+      "sha256": "5c27196dd5ff99ba5189cbe759cce759b8817ffe16cfc7ba11ee546104e4efed"
+    },
+    {
+      "provider": "vercel",
+      "path": "hero_rims.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 680008,
+      "sha256": "913183a62d26114151e0587e2af4f8e9145d2460ea89fb476ba5b08c7dafc67e"
+    },
+    {
+      "provider": "vercel",
+      "path": "index.html",
+      "status": 200,
+      "type": "text/html",
+      "bytes": 2410,
+      "sha256": "8eef4d2976d97d121b78f17315384a1723cc9ad3ff88ffe4bae699b43f911abf"
+    },
+    {
+      "provider": "vercel",
+      "path": "iso/iso-14001.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 1713958,
+      "sha256": "37b2004dde11261daa583288cd8068667591b4aea8508a218bfb15855e899b1a"
+    },
+    {
+      "provider": "vercel",
+      "path": "iso/iso-45001.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 1777038,
+      "sha256": "ac9bbbabd00bcfa6868376c7c70392bdeb5dd4ebfbf523607e7e1cca37bf728e"
+    },
+    {
+      "provider": "vercel",
+      "path": "iso/iso-9001.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 1705684,
+      "sha256": "11a1ce3fc20069978696bfb41a6af8688dfabe65a4b22e4d5b0b6a7d9755b0a2"
+    },
+    {
+      "provider": "vercel",
+      "path": "logo.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 7935555,
+      "sha256": "2c90f6e7f0b1f408c25083a70ac073266a80d22ee4dc63b5174efce8bd13de55"
+    },
+    {
+      "provider": "vercel",
+      "path": "products/sku-001/01-product.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 1547236,
+      "sha256": "53858231ef306eb94e0f4089f3118a60f6d68ce23d48fee5e99008deb9854206"
+    },
+    {
+      "provider": "vercel",
+      "path": "products/sku-001/02-engineering.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 2023285,
+      "sha256": "e8fa1806f8653d3524a21d9f7a8d291cb84f0c5194d6674f0eb7e417442df5a1"
+    },
+    {
+      "provider": "vercel",
+      "path": "products/sku-001/03-assembly.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 1595463,
+      "sha256": "fd9697d0440b872e56476003bcd9ea5773b9fc632c8a4b1cdda4145fbb1eeb13"
+    },
+    {
+      "provider": "vercel",
+      "path": "products/sku-002/01-product.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 1478089,
+      "sha256": "0996d4ebbe39a5d097f0a59f43f8d2c962cf74e2408ba6ee33684b9f5722e820"
+    },
+    {
+      "provider": "vercel",
+      "path": "products/sku-002/02-engineering.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 1727646,
+      "sha256": "8f847e74e5220474068f26ac05dc0a23a698c6acc0af6083fcec1dda7f1fb100"
+    },
+    {
+      "provider": "vercel",
+      "path": "products/sku-002/03-assembly.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 1741942,
+      "sha256": "59ed1e625cdd9cf3d8b6ce70b7652a523d90a969e5e793de73a99772a55dab54"
+    },
+    {
+      "provider": "vercel",
+      "path": "products/sku-003/01-product.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 1482837,
+      "sha256": "ba09b920abd4829e0033b796fbef26a1b070dfc00c07aec117ca5ac0e12d553a"
+    },
+    {
+      "provider": "vercel",
+      "path": "products/sku-003/02-engineering.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 2035579,
+      "sha256": "ed9bf02b802229c538422139d310e33bb0b525c46fba160fe883d797a750e428"
+    },
+    {
+      "provider": "vercel",
+      "path": "products/sku-003/03-assembly.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 1692820,
+      "sha256": "db34ac291dd07dacb3476c1ded962810c054fde88d1304888c58ff86b8273f7e"
+    },
+    {
+      "provider": "vercel",
+      "path": "robots.txt",
+      "status": 200,
+      "type": "text/plain",
+      "bytes": 87,
+      "sha256": "914e2f98e14c637b7c24ba83f14dc91e9f55edb24e6169e6c0646f0b7e9c3e9d"
+    },
+    {
+      "provider": "vercel",
+      "path": "sitemap.xml",
+      "status": 200,
+      "type": "application/xml",
+      "bytes": 1584,
+      "sha256": "af8acc393e40d012d0a2c44d215659215da9c595e51c9e067ffeea5fc978499a"
+    },
+    {
+      "provider": "vercel",
+      "path": "_redirects",
+      "status": 200,
+      "type": "application/octet-stream",
+      "bytes": 19,
+      "sha256": "6036983e5fc00f0169c9e939b1816ed771eee00e27f2fcc517b819041460b9ef"
+    },
+    {
+      "provider": "netlify",
+      "path": "assets/AdminRoutes-CmJ4RLql.css",
+      "status": 200,
+      "type": "text/css",
+      "bytes": 3632,
+      "sha256": "cb3c2dda84afb1f03e72051c0d1189de387191f1f27dca86dcdd7953456a69af"
+    },
+    {
+      "provider": "netlify",
+      "path": "assets/AdminRoutes-diMQUGXp.js",
+      "status": 200,
+      "type": "text/javascript",
+      "bytes": 638660,
+      "sha256": "b700e67cc6d14742d3acdd46b426b15a26b420c006a5c2225dbe0f238b1fca43"
+    },
+    {
+      "provider": "netlify",
+      "path": "assets/cat_motorcycle_parts-BGOdeLlY.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 60708,
+      "sha256": "0c2c89d735e3a8740fb63fc998ac21f83fc97de4ea1b5bc846c3f2930a67d3b3"
+    },
+    {
+      "provider": "netlify",
+      "path": "assets/Certificate-02-B3tjqQXb.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 1713958,
+      "sha256": "37b2004dde11261daa583288cd8068667591b4aea8508a218bfb15855e899b1a"
+    },
+    {
+      "provider": "netlify",
+      "path": "assets/Certificate-03-D9NTs9Bx.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 1705684,
+      "sha256": "11a1ce3fc20069978696bfb41a6af8688dfabe65a4b22e4d5b0b6a7d9755b0a2"
+    },
+    {
+      "provider": "netlify",
+      "path": "assets/Certificate-DxjyQzPg.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 1777038,
+      "sha256": "ac9bbbabd00bcfa6868376c7c70392bdeb5dd4ebfbf523607e7e1cca37bf728e"
+    },
+    {
+      "provider": "netlify",
+      "path": "assets/CNG Rim-CWmeImNb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 69316,
+      "sha256": "eb1c86674245eadf886d3902585e783ef27744110ddebc4eef0a7ee1b7abdac7"
+    },
+    {
+      "provider": "netlify",
+      "path": "assets/company-CqX0xWdV.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 170268,
+      "sha256": "6e4c7f342d702399495347b39c7358f19215e6b486fbe35f5cde898d6e578dec"
+    },
+    {
+      "provider": "netlify",
+      "path": "assets/index-BkC-ox2B.css",
+      "status": 200,
+      "type": "text/css",
+      "bytes": 89539,
+      "sha256": "b20b7f421cf35931336697fcbecf4a13245b6ac1433538fb315ca57af9553e56"
+    },
+    {
+      "provider": "netlify",
+      "path": "assets/index-Bn7D-hQr.js",
+      "status": 200,
+      "type": "text/javascript",
+      "bytes": 1115620,
+      "sha256": "4af34320b82c9d536267a5c94f80e8d6e120b4cbb2082939963758e60f0f6c27"
+    },
+    {
+      "provider": "netlify",
+      "path": "assets/Li Niladri Nodia Unicode Italic-DM4Rzm-B.ttf",
+      "status": 200,
+      "type": "font/ttf",
+      "bytes": 80612,
+      "sha256": "ebee2451ca489413e6b0f04957e795add206dddf69bec4828e1cce4fe5d24421"
+    },
+    {
+      "provider": "netlify",
+      "path": "assets/Li Niladri Nodia Unicode-Cm6BR32b.ttf",
+      "status": 200,
+      "type": "font/ttf",
+      "bytes": 140724,
+      "sha256": "e90aeff9b4af001a2c8f8627d0768284577032c0c5fe21aa87c4025ce225167c"
+    },
+    {
+      "provider": "netlify",
+      "path": "assets/logo-Cg58folY.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 47975,
+      "sha256": "035c45ff9da09443e3708b5432c6867e2b3421468d1e6a3f2f3a6862734f6c33"
+    },
+    {
+      "provider": "netlify",
+      "path": "assets/Md. Faruq Hossain-DLmwhDN1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 51308,
+      "sha256": "9c72f79cb758d120bd96f4518f93e8e550648b683c47ce708c4c538651917eca"
+    },
+    {
+      "provider": "netlify",
+      "path": "assets/Premium Rims-DAivbVtn.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 37354,
+      "sha256": "a502a97060e9bbd87b306b2792dc173c6e42bd4a93bfd5862572890da10c02c5"
+    },
+    {
+      "provider": "netlify",
+      "path": "assets/State of the Art Facility-C6H4SQ74.webm",
+      "status": 200,
+      "type": "video/webm",
+      "bytes": 1166089,
+      "sha256": "d6c5542bbdfe6409bde6eab7e0475cbf6487771cd7137623324db5e48ad62417"
+    },
+    {
+      "provider": "netlify",
+      "path": "assets/wasar-Crxolq52.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 79668,
+      "sha256": "6a402ee1ee3d082fa5a59ccbf2c1431d9ba644a1cfafc78647c9bad68ce8a5aa"
+    },
+    {
+      "provider": "netlify",
+      "path": "cat_accessories.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 259601,
+      "sha256": "e1f6ef1d421033e2b76b18b7b5e4009100b8f85061a727f06be498e51a4f53cb"
+    },
+    {
+      "provider": "netlify",
+      "path": "cat_motorcycle_parts.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 159654,
+      "sha256": "b07c773149d2204d86d86f985f417c43553bc89c68affd1babeec8a3d03c187e"
+    },
+    {
+      "provider": "netlify",
+      "path": "cat_motorcycle_parts.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 1036249,
+      "sha256": "f9341ee63eb156abe352460532b8cc0f2ef9c5b868e677e396c62cb97adddaee"
+    },
+    {
+      "provider": "netlify",
+      "path": "hero.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 8607874,
+      "sha256": "44df2231a38b7e97de8fac6dae0bba5099ad3ca063009a8bdf33e8a15efe0ef5"
+    },
+    {
+      "provider": "netlify",
+      "path": "hero_bicycle.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 657465,
+      "sha256": "2e65fe0c3114e38e4fef7e14afa00394581a22a14d9664f8cdf65de0fb6791a6"
+    },
+    {
+      "provider": "netlify",
+      "path": "hero_cng_parts.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 680587,
+      "sha256": "ba91ab5232960b0f614440323089fb91eb745b119a79194aa2ac289564eb1c4b"
+    },
+    {
+      "provider": "netlify",
+      "path": "hero_hardware.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 745650,
+      "sha256": "932d3d4056bfeb2906748a34fd5b45760be8ab73c18ba1b22a9d6102cd390269"
+    },
+    {
+      "provider": "netlify",
+      "path": "hero_products.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 521548,
+      "sha256": "5c27196dd5ff99ba5189cbe759cce759b8817ffe16cfc7ba11ee546104e4efed"
+    },
+    {
+      "provider": "netlify",
+      "path": "hero_rims.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 680008,
+      "sha256": "913183a62d26114151e0587e2af4f8e9145d2460ea89fb476ba5b08c7dafc67e"
+    },
+    {
+      "provider": "netlify",
+      "path": "index.html",
+      "status": 200,
+      "type": "text/html",
+      "bytes": 2410,
+      "sha256": "8eef4d2976d97d121b78f17315384a1723cc9ad3ff88ffe4bae699b43f911abf"
+    },
+    {
+      "provider": "netlify",
+      "path": "iso/iso-14001.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 1713958,
+      "sha256": "37b2004dde11261daa583288cd8068667591b4aea8508a218bfb15855e899b1a"
+    },
+    {
+      "provider": "netlify",
+      "path": "iso/iso-45001.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 1777038,
+      "sha256": "ac9bbbabd00bcfa6868376c7c70392bdeb5dd4ebfbf523607e7e1cca37bf728e"
+    },
+    {
+      "provider": "netlify",
+      "path": "iso/iso-9001.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 1705684,
+      "sha256": "11a1ce3fc20069978696bfb41a6af8688dfabe65a4b22e4d5b0b6a7d9755b0a2"
+    },
+    {
+      "provider": "netlify",
+      "path": "logo.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 7935555,
+      "sha256": "2c90f6e7f0b1f408c25083a70ac073266a80d22ee4dc63b5174efce8bd13de55"
+    },
+    {
+      "provider": "netlify",
+      "path": "products/sku-001/01-product.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 1547236,
+      "sha256": "53858231ef306eb94e0f4089f3118a60f6d68ce23d48fee5e99008deb9854206"
+    },
+    {
+      "provider": "netlify",
+      "path": "products/sku-001/02-engineering.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 2023285,
+      "sha256": "e8fa1806f8653d3524a21d9f7a8d291cb84f0c5194d6674f0eb7e417442df5a1"
+    },
+    {
+      "provider": "netlify",
+      "path": "products/sku-001/03-assembly.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 1595463,
+      "sha256": "fd9697d0440b872e56476003bcd9ea5773b9fc632c8a4b1cdda4145fbb1eeb13"
+    },
+    {
+      "provider": "netlify",
+      "path": "products/sku-002/01-product.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 1478089,
+      "sha256": "0996d4ebbe39a5d097f0a59f43f8d2c962cf74e2408ba6ee33684b9f5722e820"
+    },
+    {
+      "provider": "netlify",
+      "path": "products/sku-002/02-engineering.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 1727646,
+      "sha256": "8f847e74e5220474068f26ac05dc0a23a698c6acc0af6083fcec1dda7f1fb100"
+    },
+    {
+      "provider": "netlify",
+      "path": "products/sku-002/03-assembly.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 1741942,
+      "sha256": "59ed1e625cdd9cf3d8b6ce70b7652a523d90a969e5e793de73a99772a55dab54"
+    },
+    {
+      "provider": "netlify",
+      "path": "products/sku-003/01-product.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 1482837,
+      "sha256": "ba09b920abd4829e0033b796fbef26a1b070dfc00c07aec117ca5ac0e12d553a"
+    },
+    {
+      "provider": "netlify",
+      "path": "products/sku-003/02-engineering.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 2035579,
+      "sha256": "ed9bf02b802229c538422139d310e33bb0b525c46fba160fe883d797a750e428"
+    },
+    {
+      "provider": "netlify",
+      "path": "products/sku-003/03-assembly.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 1692820,
+      "sha256": "db34ac291dd07dacb3476c1ded962810c054fde88d1304888c58ff86b8273f7e"
+    },
+    {
+      "provider": "netlify",
+      "path": "robots.txt",
+      "status": 200,
+      "type": "text/plain",
+      "bytes": 87,
+      "sha256": "914e2f98e14c637b7c24ba83f14dc91e9f55edb24e6169e6c0646f0b7e9c3e9d"
+    },
+    {
+      "provider": "netlify",
+      "path": "sitemap.xml",
+      "status": 200,
+      "type": "application/xml",
+      "bytes": 1584,
+      "sha256": "af8acc393e40d012d0a2c44d215659215da9c595e51c9e067ffeea5fc978499a"
+    },
+    {
+      "provider": "netlify",
+      "path": "_redirects",
+      "status": 200,
+      "type": "application/octet-stream",
+      "bytes": 19,
+      "sha256": "6036983e5fc00f0169c9e939b1816ed771eee00e27f2fcc517b819041460b9ef"
+    }
+  ],
+  "pageErrors": [],
+  "guardActions": [
+    {
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST"
+    },
+    {
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST"
+    },
+    {
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST"
+    },
+    {
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST"
+    },
+    {
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST"
+    },
+    {
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST"
+    },
+    {
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST"
+    },
+    {
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST"
+    },
+    {
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST"
+    },
+    {
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST"
+    },
+    {
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST"
+    }
+  ],
+  "models": [
+    {
+      "name": "no-fallback",
+      "base": "http://127.0.0.1:61284"
+    },
+    {
+      "name": "vercel",
+      "base": "http://127.0.0.1:61287"
+    },
+    {
+      "name": "netlify",
+      "base": "http://127.0.0.1:61288"
+    }
+  ],
+  "browser": "156.0.8078.48",
+  "assertionsComplete": true,
+  "browserClosedNormally": true,
+  "serversClosed": true,
+  "completedAt": "2026-10-27T12:19:53.557Z"
+}

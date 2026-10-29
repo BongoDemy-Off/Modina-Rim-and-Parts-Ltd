@@ -1,0 +1,13 @@
+PASS en/products-open: targeted accessibility; retained none
+locator.scrollIntoViewIfNeeded: Timeout 9751.461ms exceeded.
+Call log:
+  - attempting scroll into view action
+    - waiting for element to be stable
+
+    at C:\Users\BongoDemy\Documents\BongoDemy\Modina-Rim-and-Parts-Ltd\docs\audits\evidence\batch-2a\a11y.cjs:8:222 {
+  log: [
+    '  - attempting scroll into view action',
+    '    - waiting for element to be stable'
+  ],
+  name: 'TimeoutError'
+}

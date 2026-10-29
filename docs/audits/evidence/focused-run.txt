@@ -1,0 +1,10 @@
+Pagination settled state
+Drawer background focus escape
+Product drawer heights and image crop
+Collection search and filter states
+Titles and metadata after direct navigation
+Actual language toggle and persistence
+Header and sticky offsets settled
+Homepage dimensions targets and skip link
+Error loading remote photos
+Static source and network isolation

@@ -1,4 +1,5 @@
-import { useEffect, useRef, useState } from 'react';
+import { useLayoutEffect, useRef, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import {
   motion,
   animate as motionAnimate,
@@ -82,6 +83,7 @@ function RimSVG() {
 }
 
 export default function Preloader({ onComplete }: PreloaderProps) {
+  const { t } = useTranslation();
   const [visible, setVisible] = useState(true);
   const progressValue = useMotionValue(0);
   const leftPanelX = useMotionValue('0%');
@@ -94,54 +96,40 @@ export default function Preloader({ onComplete }: PreloaderProps) {
   );
   const barWidth = useTransform(progressValue, (v) => `${v}%`);
 
-  useEffect(() => {
-    let cancelled = false;
-
-    const run = async () => {
-      // 1. Count 0→100 over 2.2s ease-out
-      await motionAnimate(progressValue, 100, {
-        duration: 2.2,
-        ease: [0.16, 1, 0.3, 1],
-      });
-      if (cancelled) return;
-
-      // 2. Hold at 100% for 400ms
-      await new Promise((r) => setTimeout(r, 400));
-      if (cancelled) return;
-
-      // 3. Left panel slides left, right panel slides right — simultaneously
-      await Promise.all([
-        motionAnimate(leftPanelX, '-100%', {
-          duration: 0.8,
-          ease: [0.76, 0, 0.24, 1],
-        }),
-        motionAnimate(rightPanelX, '100%', {
-          duration: 0.8,
-          ease: [0.76, 0, 0.24, 1],
-        }),
-      ]);
-      if (cancelled) return;
-
+  useLayoutEffect(() => {
+    const controls: { stop: () => void }[] = [];
+    // A decorative deadline is independent of animation-frame/network readiness.
+    // Keep all phases; do not await frame-driven promises that can stall in a
+    // background or busy browser and prolong the covered-content interval.
+    controls.push(motionAnimate(progressValue, 100, { duration: .65, ease: [0.16, 1, 0.3, 1] }));
+    const split = window.setTimeout(() => {
+      const left = motionAnimate(leftPanelX, '-100%', { duration: .35, ease: [0.76, 0, 0.24, 1] });
+      const right = motionAnimate(rightPanelX, '100%', { duration: .35, ease: [0.76, 0, 0.24, 1] });
+      controls.push(left, right);
+    }, 650);
+    const complete = window.setTimeout(() => {
       setVisible(false);
       onCompleteRef.current();
-    };
-
-    run();
-    return () => { cancelled = true; };
+    }, 1000);
+    return () => { clearTimeout(split); clearTimeout(complete); controls.forEach(control => control.stop()); };
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   if (!visible) return null;
 
   return (
     <div
-      className="fixed inset-0 overflow-hidden flex"
+      data-public-intro role="group" aria-label={t('public_ui.intro_label')}
+      className="public-site public-intro fixed inset-0 overflow-hidden flex"
+      onKeyDown={e => { if (e.key === 'Escape') { e.preventDefault(); onCompleteRef.current(); } }}
       style={{ zIndex: 99999, backgroundColor: '#FFFFFF' }}
     >
+      <button type="button" className="public-intro-skip" onClick={() => onCompleteRef.current()}>{t('public_ui.skip_intro')}</button>
+      <span className="sr-only" role="status">{t('public_ui.intro_label')}</span>
       {/* ══════════════════════════════════
           LEFT PANEL — Spinning Rim
       ══════════════════════════════════ */}
       <motion.div
-        className="relative flex items-center justify-center overflow-hidden"
+        className="public-intro-rim relative flex items-center justify-center overflow-hidden"
         style={{
           width: '50%',
           backgroundColor: '#F8F9FB',
@@ -163,7 +151,7 @@ export default function Preloader({ onComplete }: PreloaderProps) {
         <motion.div
           style={{ width: 'clamp(200px, 26vw, 300px)' }}
           animate={{ rotate: 360 }}
-          transition={{ duration: 5, repeat: Infinity, ease: 'linear' }}
+          transition={{ duration: 1.2, repeat: Infinity, ease: 'linear' }}
         >
           <RimSVG />
         </motion.div>
@@ -180,7 +168,7 @@ export default function Preloader({ onComplete }: PreloaderProps) {
           VERTICAL DIVIDER LINE
       ══════════════════════════════════ */}
       <motion.div
-        className="absolute top-0 bottom-0 w-[1px]"
+        className="public-intro-divider absolute top-0 bottom-0 w-[1px]"
         style={{
           left: '50%',
           backgroundColor: '#ECECEC',
@@ -188,14 +176,14 @@ export default function Preloader({ onComplete }: PreloaderProps) {
         }}
         initial={{ scaleY: 0, originY: 0.5 }}
         animate={{ scaleY: 1 }}
-        transition={{ duration: 0.6, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
+        transition={{ duration: 0.25, delay: 0, ease: [0.16, 1, 0.3, 1] }}
       />
 
       {/* ══════════════════════════════════
           RIGHT PANEL — Brand + Progress
       ══════════════════════════════════ */}
       <motion.div
-        className="relative flex flex-col justify-center overflow-hidden"
+        className="public-intro-brand relative flex flex-col justify-center overflow-hidden"
         style={{
           width: '50%',
           backgroundColor: '#FFFFFF',
@@ -208,13 +196,13 @@ export default function Preloader({ onComplete }: PreloaderProps) {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
+          transition={{ duration: 0.25, delay: 0, ease: [0.16, 1, 0.3, 1] }}
           className="mb-2"
         >
           <p className="font-mono text-[9px] tracking-[0.35em] text-modina-red uppercase mb-4">
-            — Loading
+            {t('public_ui.intro_sequence')}
           </p>
-          <h1
+          <p
             className="font-condensed uppercase leading-none"
             style={{
               fontSize: 'clamp(36px, 6vw, 72px)',
@@ -224,7 +212,7 @@ export default function Preloader({ onComplete }: PreloaderProps) {
             }}
           >
             MODINA
-          </h1>
+          </p>
           <p
             className="font-condensed uppercase"
             style={{
@@ -244,7 +232,7 @@ export default function Preloader({ onComplete }: PreloaderProps) {
           className="h-[1px] bg-modina-red mb-10"
           initial={{ scaleX: 0, originX: 0 }}
           animate={{ scaleX: 1 }}
-          transition={{ duration: 0.5, delay: 0.65, ease: [0.16, 1, 0.3, 1] }}
+          transition={{ duration: 0.25, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
           style={{ width: 'clamp(60px, 8vw, 100px)' }}
         />
 
@@ -252,7 +240,7 @@ export default function Preloader({ onComplete }: PreloaderProps) {
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ duration: 0.4, delay: 0.8 }}
+          transition={{ duration: 0.25, delay: 0.05 }}
           className="mb-10"
         >
           <motion.span
@@ -279,7 +267,7 @@ export default function Preloader({ onComplete }: PreloaderProps) {
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ duration: 0.4, delay: 0.9 }}
+          transition={{ duration: 0.25, delay: 0.1 }}
         >
           <div className="flex items-center justify-between mb-2">
             <p className="font-mono text-[8px] tracking-[0.3em] uppercase text-[#94A3B8]">

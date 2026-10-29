@@ -16,7 +16,7 @@ export default function BackToTop() {
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: 'smooth',
+      behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth',
     });
   };
 
@@ -37,6 +37,7 @@ export default function BackToTop() {
           transition={{ duration: 0.2 }}
           onClick={scrollToTop}
           className="fixed bottom-[max(1.25rem,env(safe-area-inset-bottom))] right-[max(5rem,calc(env(safe-area-inset-right)+5rem))] w-12 h-12 bg-white hover:bg-modina-red border border-modina-border hover:border-modina-red rounded-xl flex items-center justify-center shadow-[var(--shadow-md)] hover:shadow-[var(--shadow-hover)] z-40 text-modina-muted hover:text-white transition-all duration-300 ease-in-out group"
+          data-public-floating
           aria-label="Back to top"
         >
           <ArrowUp className="w-5 h-5 group-hover:-translate-y-0.5 transition-transform duration-200" />

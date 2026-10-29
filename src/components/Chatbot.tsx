@@ -62,6 +62,7 @@ export default function Chatbot() {
         whileTap={{ scale: 0.95 }}
         onClick={() => setIsOpen(true)}
         aria-label="Open chat"
+        data-public-floating
         className="fixed bottom-[max(1rem,env(safe-area-inset-bottom))] right-[max(1rem,env(safe-area-inset-right))] w-14 h-14 sm:w-[60px] sm:h-[60px] bg-modina-red rounded-full flex items-center justify-center shadow-[0_8px_24px_rgba(229,37,37,0.35)] z-50 text-white hover:bg-modina-red-dark hover:shadow-[0_12px_32px_rgba(229,37,37,0.45)] transition-all duration-300 ease-in-out"
       >
         <MessageCircle className="w-7 h-7" strokeWidth={2.2} />

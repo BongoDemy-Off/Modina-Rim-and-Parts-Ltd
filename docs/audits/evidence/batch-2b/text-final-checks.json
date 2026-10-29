@@ -1,0 +1,348 @@
+{
+  "mode": "text",
+  "base": "http://127.0.0.1:4199",
+  "cases": [
+    {
+      "name": "en /products enlarged text",
+      "size": {
+        "width": 390,
+        "scrollWidth": 390,
+        "overflow": []
+      },
+      "passed": true
+    },
+    {
+      "name": "en /contact enlarged text",
+      "size": {
+        "width": 390,
+        "scrollWidth": 390,
+        "overflow": []
+      },
+      "passed": true
+    },
+    {
+      "name": "en /downloads enlarged text",
+      "size": {
+        "width": 390,
+        "scrollWidth": 390,
+        "overflow": [
+          {
+            "tag": "DIV",
+            "text": "— Featured DocumentProduct Catalog 2026O"
+          }
+        ]
+      },
+      "passed": true
+    },
+    {
+      "name": "en /about enlarged text",
+      "size": {
+        "width": 390,
+        "scrollWidth": 423,
+        "overflow": [
+          {
+            "tag": "SPAN",
+            "text": "Certification"
+          },
+          {
+            "tag": "IMG",
+            "text": ""
+          }
+        ]
+      },
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:\n\n  assert.ok(r.size.scrollWidth<=r.size.width+1)\n\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-2b\\checks.cjs:41:648\n    at async test (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-2b\\checks.cjs:9:77)\n    at async C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-2b\\checks.cjs:41:131"
+    },
+    {
+      "name": "en /sustainability enlarged text",
+      "size": {
+        "width": 390,
+        "scrollWidth": 390,
+        "overflow": [
+          {
+            "tag": "IMG",
+            "text": ""
+          },
+          {
+            "tag": "DIV",
+            "text": "— Environmental ActionISO 14001 Certifie"
+          }
+        ]
+      },
+      "passed": true
+    },
+    {
+      "name": "en /quality enlarged text",
+      "size": {
+        "width": 390,
+        "scrollWidth": 390,
+        "overflow": []
+      },
+      "passed": true
+    },
+    {
+      "name": "en /certificates enlarged text",
+      "size": {
+        "width": 390,
+        "scrollWidth": 401,
+        "overflow": [
+          {
+            "tag": "SPAN",
+            "text": "100%"
+          },
+          {
+            "tag": "SPAN",
+            "text": "Compliant"
+          }
+        ]
+      },
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:\n\n  assert.ok(r.size.scrollWidth<=r.size.width+1)\n\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-2b\\checks.cjs:41:648\n    at async test (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-2b\\checks.cjs:9:77)\n    at async C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-2b\\checks.cjs:41:131"
+    },
+    {
+      "name": "en /news enlarged text",
+      "size": {
+        "width": 390,
+        "scrollWidth": 406,
+        "overflow": [
+          {
+            "tag": "SPAN",
+            "text": "Categories"
+          }
+        ]
+      },
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:\n\n  assert.ok(r.size.scrollWidth<=r.size.width+1)\n\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-2b\\checks.cjs:41:648\n    at async test (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-2b\\checks.cjs:9:77)\n    at async C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-2b\\checks.cjs:41:131"
+    },
+    {
+      "name": "en /blog enlarged text",
+      "size": {
+        "width": 390,
+        "scrollWidth": 390,
+        "overflow": []
+      },
+      "passed": true
+    },
+    {
+      "name": "en long Bengali heading stress at 320",
+      "width": 320,
+      "passed": true
+    },
+    {
+      "name": "bn /products enlarged text",
+      "size": {
+        "width": 390,
+        "scrollWidth": 390,
+        "overflow": []
+      },
+      "passed": true
+    },
+    {
+      "name": "bn /contact enlarged text",
+      "size": {
+        "width": 390,
+        "scrollWidth": 390,
+        "overflow": []
+      },
+      "passed": true
+    },
+    {
+      "name": "bn /downloads enlarged text",
+      "size": {
+        "width": 390,
+        "scrollWidth": 390,
+        "overflow": [
+          {
+            "tag": "DIV",
+            "text": "— Featured DocumentProduct Catalog 2026O"
+          }
+        ]
+      },
+      "passed": true
+    },
+    {
+      "name": "bn /about enlarged text",
+      "size": {
+        "width": 390,
+        "scrollWidth": 412,
+        "overflow": [
+          {
+            "tag": "SPAN",
+            "text": "সার্টিফিকেশন"
+          },
+          {
+            "tag": "IMG",
+            "text": ""
+          }
+        ]
+      },
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:\n\n  assert.ok(r.size.scrollWidth<=r.size.width+1)\n\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-2b\\checks.cjs:41:648\n    at async test (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-2b\\checks.cjs:9:77)\n    at async C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-2b\\checks.cjs:41:131"
+    },
+    {
+      "name": "bn /sustainability enlarged text",
+      "size": {
+        "width": 390,
+        "scrollWidth": 390,
+        "overflow": [
+          {
+            "tag": "IMG",
+            "text": ""
+          },
+          {
+            "tag": "DIV",
+            "text": "— Environmental ActionISO 14001 Certifie"
+          }
+        ]
+      },
+      "passed": true
+    },
+    {
+      "name": "bn /quality enlarged text",
+      "size": {
+        "width": 390,
+        "scrollWidth": 390,
+        "overflow": []
+      },
+      "passed": true
+    },
+    {
+      "name": "bn /certificates enlarged text",
+      "size": {
+        "width": 390,
+        "scrollWidth": 390,
+        "overflow": []
+      },
+      "passed": true
+    },
+    {
+      "name": "bn /news enlarged text",
+      "size": {
+        "width": 390,
+        "scrollWidth": 393,
+        "overflow": [
+          {
+            "tag": "SPAN",
+            "text": "Categories"
+          }
+        ]
+      },
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:\n\n  assert.ok(r.size.scrollWidth<=r.size.width+1)\n\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-2b\\checks.cjs:41:648\n    at async test (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-2b\\checks.cjs:9:77)\n    at async C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-2b\\checks.cjs:41:131"
+    },
+    {
+      "name": "bn /blog enlarged text",
+      "size": {
+        "width": 390,
+        "scrollWidth": 390,
+        "overflow": []
+      },
+      "passed": true
+    },
+    {
+      "name": "bn long Bengali heading stress at 320",
+      "width": 320,
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "blocked": [
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    }
+  ],
+  "browser": "156.0.8078.49",
+  "completed": true,
+  "teardown": {
+    "normal": false,
+    "bounded": true,
+    "connected": false
+  }
+}

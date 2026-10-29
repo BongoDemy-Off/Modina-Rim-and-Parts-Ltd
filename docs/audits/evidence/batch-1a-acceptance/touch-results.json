@@ -1,0 +1,355 @@
+{
+  "cases": [
+    {
+      "lang": "bn",
+      "width": 320,
+      "reducedMotion": "no-preference",
+      "errors": [],
+      "pointers": [],
+      "menuRadius": "6px",
+      "links": [
+        {
+          "text": "আমাদের সম্পর্কে",
+          "href": "/about",
+          "inert": false
+        },
+        {
+          "text": "মিশন ও মূল্যবোধ",
+          "href": "/mission",
+          "inert": false
+        },
+        {
+          "text": "ক্যারিয়ার",
+          "href": "/careers",
+          "inert": false
+        },
+        {
+          "text": "সাধারণ জিজ্ঞাসা",
+          "href": "/faq",
+          "inert": false
+        },
+        {
+          "text": "ডাউনলোড",
+          "href": "/downloads",
+          "inert": false
+        }
+      ],
+      "control": {
+        "rect": {
+          "x": 49,
+          "y": 263,
+          "width": 255,
+          "height": 56,
+          "top": 263,
+          "right": 304,
+          "bottom": 319,
+          "left": 49
+        },
+        "hit": true,
+        "expanded": "true"
+      },
+      "end": {
+        "overflow": [
+          "",
+          ""
+        ],
+        "scrollWidth": 1280,
+        "width": 1280,
+        "pointers": [
+          {
+            "pointerType": "touch",
+            "name": "mobile-navigation"
+          },
+          {
+            "pointerType": "touch",
+            "name": "mobile-nav-company"
+          },
+          {
+            "pointerType": "touch",
+            "name": "mobile-nav-company"
+          },
+          {
+            "pointerType": "touch",
+            "name": "Close menu"
+          },
+          {
+            "pointerType": "touch",
+            "name": "mobile-navigation"
+          },
+          {
+            "pointerType": "touch"
+          },
+          {
+            "pointerType": "touch",
+            "name": "mobile-navigation"
+          }
+        ]
+      },
+      "passed": true
+    },
+    {
+      "lang": "bn",
+      "width": 390,
+      "reducedMotion": "reduce",
+      "errors": [],
+      "pointers": [],
+      "menuRadius": "6px",
+      "links": [
+        {
+          "text": "আমাদের সম্পর্কে",
+          "href": "/about",
+          "inert": false
+        },
+        {
+          "text": "মিশন ও মূল্যবোধ",
+          "href": "/mission",
+          "inert": false
+        },
+        {
+          "text": "ক্যারিয়ার",
+          "href": "/careers",
+          "inert": false
+        },
+        {
+          "text": "সাধারণ জিজ্ঞাসা",
+          "href": "/faq",
+          "inert": false
+        },
+        {
+          "text": "ডাউনলোড",
+          "href": "/downloads",
+          "inert": false
+        }
+      ],
+      "control": {
+        "rect": {
+          "x": 56,
+          "y": 263,
+          "width": 318,
+          "height": 56,
+          "top": 263,
+          "right": 374,
+          "bottom": 319,
+          "left": 56
+        },
+        "hit": true,
+        "expanded": "true"
+      },
+      "end": {
+        "overflow": [
+          "",
+          ""
+        ],
+        "scrollWidth": 1280,
+        "width": 1280,
+        "pointers": [
+          {
+            "pointerType": "touch",
+            "name": "mobile-navigation"
+          },
+          {
+            "pointerType": "touch",
+            "name": "mobile-nav-company"
+          },
+          {
+            "pointerType": "touch",
+            "name": "mobile-nav-company"
+          },
+          {
+            "pointerType": "touch",
+            "name": "Close menu"
+          },
+          {
+            "pointerType": "touch",
+            "name": "mobile-navigation"
+          },
+          {
+            "pointerType": "touch"
+          },
+          {
+            "pointerType": "touch",
+            "name": "mobile-navigation"
+          }
+        ]
+      },
+      "passed": true
+    },
+    {
+      "lang": "en",
+      "width": 320,
+      "reducedMotion": "reduce",
+      "errors": [],
+      "pointers": [],
+      "menuRadius": "6px",
+      "links": [
+        {
+          "text": "About Us",
+          "href": "/about",
+          "inert": false
+        },
+        {
+          "text": "Mission & Core Values",
+          "href": "/mission",
+          "inert": false
+        },
+        {
+          "text": "Careers",
+          "href": "/careers",
+          "inert": false
+        },
+        {
+          "text": "FAQ",
+          "href": "/faq",
+          "inert": false
+        },
+        {
+          "text": "Downloads",
+          "href": "/downloads",
+          "inert": false
+        }
+      ],
+      "control": {
+        "rect": {
+          "x": 49,
+          "y": 263,
+          "width": 255,
+          "height": 56,
+          "top": 263,
+          "right": 304,
+          "bottom": 319,
+          "left": 49
+        },
+        "hit": true,
+        "expanded": "true"
+      },
+      "end": {
+        "overflow": [
+          "",
+          ""
+        ],
+        "scrollWidth": 1280,
+        "width": 1280,
+        "pointers": [
+          {
+            "pointerType": "touch",
+            "name": "mobile-navigation"
+          },
+          {
+            "pointerType": "touch",
+            "name": "mobile-nav-company"
+          },
+          {
+            "pointerType": "touch",
+            "name": "mobile-nav-company"
+          },
+          {
+            "pointerType": "touch",
+            "name": "Close menu"
+          },
+          {
+            "pointerType": "touch",
+            "name": "mobile-navigation"
+          },
+          {
+            "pointerType": "touch"
+          },
+          {
+            "pointerType": "touch",
+            "name": "mobile-navigation"
+          }
+        ]
+      },
+      "passed": true
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "reducedMotion": "no-preference",
+      "errors": [],
+      "pointers": [],
+      "menuRadius": "6px",
+      "links": [
+        {
+          "text": "About Us",
+          "href": "/about",
+          "inert": false
+        },
+        {
+          "text": "Mission & Core Values",
+          "href": "/mission",
+          "inert": false
+        },
+        {
+          "text": "Careers",
+          "href": "/careers",
+          "inert": false
+        },
+        {
+          "text": "FAQ",
+          "href": "/faq",
+          "inert": false
+        },
+        {
+          "text": "Downloads",
+          "href": "/downloads",
+          "inert": false
+        }
+      ],
+      "control": {
+        "rect": {
+          "x": 56,
+          "y": 263,
+          "width": 318,
+          "height": 56,
+          "top": 263,
+          "right": 374,
+          "bottom": 319,
+          "left": 56
+        },
+        "hit": true,
+        "expanded": "true"
+      },
+      "end": {
+        "overflow": [
+          "",
+          ""
+        ],
+        "scrollWidth": 1280,
+        "width": 1280,
+        "pointers": [
+          {
+            "pointerType": "touch",
+            "name": "mobile-navigation"
+          },
+          {
+            "pointerType": "touch",
+            "name": "mobile-nav-company"
+          },
+          {
+            "pointerType": "touch",
+            "name": "mobile-nav-company"
+          },
+          {
+            "pointerType": "touch",
+            "name": "Close menu"
+          },
+          {
+            "pointerType": "touch",
+            "name": "mobile-navigation"
+          },
+          {
+            "pointerType": "touch"
+          },
+          {
+            "pointerType": "touch",
+            "name": "mobile-navigation"
+          }
+        ]
+      },
+      "passed": true
+    }
+  ],
+  "teardown": {
+    "closedNormally": true
+  }
+}

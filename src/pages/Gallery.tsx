@@ -1,6 +1,8 @@
-import { useState } from 'react';
+import PublicScroller from '../components/PublicScroller';
+import { useRef, useState } from 'react';
 import { Helmet } from 'react-helmet-async';
-import { motion, AnimatePresence } from 'motion/react';
+import { motion, AnimatePresence, useReducedMotion } from 'motion/react';
+import PublicModal from '../components/PublicModal';
 import { Link } from 'react-router-dom';
 import { ChevronRight, X, ZoomIn } from 'lucide-react';
 
@@ -12,13 +14,16 @@ export default function Gallery() {
   const letters = 'GALLERY'.split('');
   const [activeCategory, setActiveCategory] = useState('All');
   const [lightboxItem, setLightboxItem] = useState<GalleryItem | null>(null);
+  const [isLightboxOpen, setIsLightboxOpen] = useState(false);
+  const closeButton = useRef<HTMLButtonElement>(null);
+  const reduceMotion = useReducedMotion();
 
   const filtered = activeCategory === 'All'
     ? galleryItems
     : galleryItems.filter(g => g.category === activeCategory);
 
   return (
-    <div className="min-h-screen bg-modina-bg text-modina-text pt-[112px] sm:pt-[72px]">
+    <div className="min-h-screen bg-modina-bg text-modina-text pt-[112px] sm:pt-[72px] public-page">
       <Helmet>
         <title>Gallery | Modina Rim &amp; Parts Ltd. — Factory Tour</title>
         <meta name="description" content="Take a virtual tour of Modina Rim & Parts Ltd.'s ISO-certified manufacturing facility in Jashore, Bangladesh. View our factory floor, CNC machinery, quality labs, and finished products." />
@@ -26,8 +31,8 @@ export default function Gallery() {
       </Helmet>
 
       {/* SECTION 1 — HERO */}
-      <section className="w-full py-20 lg:py-28 flex flex-col items-center text-center bg-modina-bg">
-        <div className="text-modina-red text-xs font-bold tracking-widest uppercase flex items-center gap-2 justify-center mb-10">
+      <section className="w-full public-task-hero flex flex-col items-center text-center bg-modina-bg">
+        <div className="text-modina-red text-xs font-bold tracking-widest uppercase flex items-center gap-2 justify-center mb-10 public-breadcrumb">
           <Link to="/" className="hover:text-modina-red transition-all duration-300 ease-in-out text-modina-muted">Home</Link>
           <ChevronRight className="w-2.5 h-2.5 text-modina-subtle" />
           <span className="text-modina-muted">Gallery</span>
@@ -35,7 +40,7 @@ export default function Gallery() {
 
         <div className="w-24 h-[2px] bg-modina-red mx-auto mb-10" />
 
-        <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-[9rem] font-display font-bold tracking-tight text-modina-heading uppercase leading-none flex items-center justify-center flex-wrap">
+        <h1 className="font-display font-bold tracking-tight text-modina-heading uppercase leading-none flex items-center justify-center flex-wrap public-hero-title">
           {letters.map((letter, i) => (
             <motion.span
               key={i}
@@ -56,7 +61,7 @@ export default function Gallery() {
           className="w-32 h-[1px] bg-modina-red mx-auto my-10"
         />
 
-        <p className="text-modina-red text-xs font-bold tracking-widest uppercase flex items-center justify-center flex-wrap gap-2">
+        <p className="text-modina-red text-xs font-bold tracking-widest uppercase flex items-center justify-center flex-wrap gap-2 public-meta">
           <span>Factory Tour</span>
           <span className="text-modina-red">·</span>
           <span>{galleryItems.length} Photos</span>
@@ -66,7 +71,7 @@ export default function Gallery() {
       </section>
 
       {/* SECTION 2 — FILTER BAR */}
-      <div className="sticky top-[112px] sm:top-16 z-30 w-full bg-white/90 backdrop-blur-md border-t border-modina-border border-b shadow-design-sm">
+      <div className="public-sticky-toolbar sticky z-30 w-full bg-white/90 backdrop-blur-md border-t border-modina-border border-b shadow-design-sm">
         <div className="container mx-auto px-4 md:px-12 lg:px-24 h-14 flex items-center justify-between overflow-x-auto no-scrollbar">
           <div className="flex items-center h-full gap-0 shrink-0">
             {categories.map((cat, idx) => {
@@ -77,7 +82,8 @@ export default function Gallery() {
                   <button
                     type="button"
                     onClick={() => setActiveCategory(cat)}
-                    className={`relative px-5 h-14 text-xs font-bold tracking-widest uppercase whitespace-nowrap transition-all duration-300 ease-in-out ${isActive ? 'text-modina-red' : 'text-modina-muted hover:text-modina-red'}`}
+                    aria-pressed={isActive}
+                    className={`public-filter relative px-5 h-14 text-xs font-bold tracking-widest uppercase whitespace-nowrap transition-all duration-300 ease-in-out ${isActive ? 'text-modina-red' : 'text-modina-muted hover:text-modina-red'}`}
                   >
                     {cat} ({count})
                     {isActive && <motion.span layoutId="activeGalCat" className="absolute bottom-0 left-0 w-full h-[1px] bg-modina-red" />}
@@ -87,14 +93,14 @@ export default function Gallery() {
               );
             })}
           </div>
-          <span className="text-modina-subtle text-xs font-bold tracking-widest uppercase shrink-0 ml-8 hidden sm:block">
+          <span className="text-modina-subtle text-xs font-bold tracking-widest uppercase shrink-0 ml-8 hidden sm:block public-meta">
             — {filtered.length} Photos
           </span>
         </div>
       </div>
 
       {/* SECTION 3 — MASONRY GRID */}
-      <section className="container mx-auto px-6 md:px-12 lg:px-24 py-16 lg:py-24">
+      <section className="container-premium py-16 lg:py-24">
         <AnimatePresence mode="popLayout">
           <motion.div
             key={activeCategory}
@@ -105,15 +111,17 @@ export default function Gallery() {
             transition={{ duration: 0.3 }}
           >
             {filtered.map((item, idx) => (
-              <motion.div
+              <motion.button
                 key={item.id}
+                type="button"
+                aria-label={`View image: ${item.title}`}
                 layout
                 initial={{ opacity: 0, scale: 0.97 }}
                 animate={{ opacity: 1, scale: 1 }}
                 exit={{ opacity: 0 }}
                 transition={{ duration: 0.45, delay: idx * 0.04 }}
-                onClick={() => setLightboxItem(item)}
-                className={`group relative overflow-hidden bg-modina-bg-alt cursor-pointer rounded-lg shadow-design-sm hover:shadow-design-hover transition-all duration-300 ease-in-out
+                onClick={() => { setLightboxItem(item); setIsLightboxOpen(true); }}
+                className={`group relative text-left overflow-hidden bg-modina-bg-alt cursor-pointer rounded-xl shadow-design-sm hover:shadow-design-hover transition-all duration-300 ease-in-out
                   ${item.span === 'wide' ? 'sm:col-span-2' : ''}
                   ${item.span === 'tall' ? 'row-span-2' : ''}
                 `}
@@ -126,59 +134,61 @@ export default function Gallery() {
                   className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-all duration-[1000ms] ease-out scale-100 group-hover:scale-[1.04]"
                 />
                 {/* Gradient */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-80" />
+                <span className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-80" />
 
                 {/* Zoom icon */}
-                <div className="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in-out">
-                  <div className="w-8 h-8 border border-white/30 bg-white/20 backdrop-blur-sm flex items-center justify-center rounded">
+                <span className="absolute top-4 right-4 opacity-0 group-hover:opacity-100 group-focus-visible:opacity-100 transition-all duration-300 ease-in-out">
+                  <span className="w-8 h-8 border border-white/30 bg-white/20 backdrop-blur-sm flex items-center justify-center rounded">
                     <ZoomIn className="w-3.5 h-3.5 text-modina-red" />
-                  </div>
-                </div>
+                  </span>
+                </span>
 
                 {/* Category badge */}
-                <div className="absolute top-4 left-4">
-                  <span className="text-modina-red text-xs font-bold tracking-widest uppercase border border-modina-red/40 bg-white/80 px-2 py-1 backdrop-blur-sm rounded">
+                <span className="absolute top-4 left-4">
+                  <span className="text-modina-red text-xs font-bold tracking-widest uppercase border border-modina-red/40 bg-white/80 px-2 py-1 backdrop-blur-sm rounded public-meta">
                     {item.category}
                   </span>
-                </div>
+                </span>
 
                 {/* Caption */}
-                <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-300 ease-in-out">
-                  <p className="text-white/70 text-xs font-bold tracking-widest uppercase mb-1">#{String(item.id).padStart(2, '0')}</p>
-                  <p className="font-display font-bold text-white text-base tracking-tight leading-tight">
+                <span className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 group-hover:translate-y-0 group-focus-visible:translate-y-0 transition-transform duration-300 ease-in-out">
+                  <span className="block text-white/70 text-xs font-bold tracking-widest uppercase mb-1 public-meta">#{String(item.id).padStart(2, '0')}</span>
+                  <span className="block font-display font-bold text-white text-base tracking-tight leading-tight">
                     {item.title}
-                  </p>
-                </div>
-              </motion.div>
+                  </span>
+                </span>
+              </motion.button>
             ))}
           </motion.div>
         </AnimatePresence>
       </section>
 
       {/* LIGHTBOX */}
-      <AnimatePresence>
+      <PublicModal open={isLightboxOpen} onRequestClose={() => setIsLightboxOpen(false)} labelledBy="gallery-lightbox-title" initialFocusRef={closeButton} exitDuration={0.3}>
         {lightboxItem && (
           <>
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
-              transition={{ duration: 0.25 }}
-              onClick={() => setLightboxItem(null)}
+              transition={{ duration: reduceMotion ? 0 : 0.25 }}
+              data-public-backdrop
               className="fixed inset-0 bg-black/90 z-[9000] backdrop-blur-sm"
             />
             <motion.div
-              initial={{ opacity: 0, scale: 0.94 }}
+              initial={{ opacity: 0, scale: reduceMotion ? 1 : 0.94 }}
               animate={{ opacity: 1, scale: 1 }}
-              exit={{ opacity: 0, scale: 0.94 }}
-              transition={{ duration: 0.3, ease: [0.16, 1, 0.3, 1] }}
-              className="fixed inset-0 z-[9001] flex flex-col items-center justify-center p-4 md:p-10 pointer-events-none"
+              exit={{ opacity: 0, scale: reduceMotion ? 1 : 0.94 }}
+              transition={{ duration: reduceMotion ? 0 : 0.3, ease: [0.16, 1, 0.3, 1] }}
+              className="public-dark fixed inset-0 z-[9001] flex flex-col items-center justify-center p-4 md:p-10 pointer-events-none"
             >
-              <div className="relative w-full max-w-4xl pointer-events-auto">
+              <div className="public-lightbox-frame relative w-full max-w-4xl max-h-full pointer-events-auto">
                 {/* Close button */}
                 <button
-                  onClick={() => setLightboxItem(null)}
-                  className="absolute -top-12 right-0 flex h-11 items-center gap-2 px-2 text-modina-muted text-xs font-bold tracking-widest uppercase hover:text-white transition-all duration-300 ease-in-out z-10"
+                  type="button"
+                  ref={closeButton}
+                  onClick={() => setIsLightboxOpen(false)}
+                  className="ml-auto mb-2 flex h-11 items-center gap-2 px-2 text-white text-xs font-bold tracking-widest uppercase hover:text-white/80 transition-all duration-300 ease-in-out z-10"
                 >
                   Close <X className="w-3 h-3" />
                 </button>
@@ -187,33 +197,33 @@ export default function Gallery() {
                 <img
                   src={lightboxItem.src.replace('/600/600', '/1200/800').replace('/600/800', '/900/1200').replace('/1200/600', '/1600/800')}
                   alt={lightboxItem.title}
-                  className="w-full max-h-[75vh] object-contain"
+                  className="w-full max-h-[calc(100dvh-12rem)] object-contain"
                   referrerPolicy="no-referrer"
                 />
 
                 {/* Caption */}
-                <div className="flex items-center justify-between mt-4 border-t border-white/20 pt-4">
+                <PublicScroller axis="block" labelledBy="gallery-lightbox-title" className="flex flex-wrap items-center justify-between gap-3 mt-4 border-t border-white/20 pt-4">
                   <div>
-                    <p className="text-modina-red text-xs font-bold tracking-widest uppercase mb-1">{lightboxItem.category}</p>
-                    <p className="font-display font-bold text-white text-lg tracking-tight">{lightboxItem.title}</p>
+                    <p className="text-modina-red text-xs font-bold tracking-widest uppercase mb-1 public-meta">{lightboxItem.category}</p>
+                    <p id="gallery-lightbox-title" className="font-display font-bold text-white text-lg tracking-tight">{lightboxItem.title}</p>
                   </div>
-                  <p className="text-white/50 text-xs font-bold tracking-widest uppercase">
+                  <p className="text-white/50 text-xs font-bold tracking-widest uppercase public-meta">
                     #{String(lightboxItem.id).padStart(2, '0')} / {String(galleryItems.length).padStart(2, '0')}
                   </p>
-                </div>
+                </PublicScroller>
               </div>
             </motion.div>
           </>
         )}
-      </AnimatePresence>
+      </PublicModal>
 
       {/* SECTION 4 — CTA */}
-      <section className="w-full border-t border-modina-border py-24 lg:py-32 bg-modina-heading">
-        <div className="container mx-auto px-6 md:px-12 lg:px-24 flex flex-col lg:flex-row items-start lg:items-center justify-between gap-10">
+      <section className="w-full border-t border-modina-border public-section bg-modina-heading public-dark">
+        <div className="container-premium flex flex-col lg:flex-row items-start lg:items-center justify-between gap-10">
           <div className="relative pl-6">
             <div className="absolute left-0 top-0 w-1 h-20 bg-modina-red" />
-            <p className="text-modina-red text-xs font-bold tracking-widest uppercase mb-4">— Visit Us</p>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-white tracking-tight leading-tight">
+            <p className="text-modina-red text-xs font-bold tracking-widest uppercase mb-4 public-meta">— Visit Us</p>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-white tracking-tight leading-tight public-section-title">
               See It For<br />Yourself
             </h2>
           </div>

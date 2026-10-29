@@ -1,0 +1,8 @@
+PASS three normal rotation intervals, one timer
+PASS explicit pause persists across manual navigation
+PASS Play, keyboard focus, hover and offscreen suspension
+PASS document hidden suspension
+PASS reduced-motion static with manual selection
+PASS / reduced video native controls
+PASS /about reduced video native controls
+RESULT 7/7

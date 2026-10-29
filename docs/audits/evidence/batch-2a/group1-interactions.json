@@ -1,0 +1,505 @@
+{
+  "baseURL": "http://127.0.0.1:4198",
+  "browser": "156.0.8078.48",
+  "runtime": "v24.15.0",
+  "navigation": [
+    {
+      "case": "en/390/products",
+      "url": "http://127.0.0.1:4198/products",
+      "status": 200,
+      "domcontentloadedMs": 4221
+    },
+    {
+      "case": "en/390/careers",
+      "url": "http://127.0.0.1:4198/careers",
+      "status": 200,
+      "domcontentloadedMs": 6487
+    },
+    {
+      "case": "en/390/contact",
+      "url": "http://127.0.0.1:4198/contact",
+      "status": 200,
+      "domcontentloadedMs": 2084
+    },
+    {
+      "case": "en/1440/products",
+      "url": "http://127.0.0.1:4198/products",
+      "status": 200,
+      "domcontentloadedMs": 3198
+    },
+    {
+      "case": "en/1440/careers",
+      "url": "http://127.0.0.1:4198/careers",
+      "status": 200,
+      "domcontentloadedMs": 1871
+    },
+    {
+      "case": "en/1440/contact",
+      "url": "http://127.0.0.1:4198/contact",
+      "status": 200,
+      "domcontentloadedMs": 2490
+    },
+    {
+      "case": "products/search-filters-pagination",
+      "url": "http://127.0.0.1:4198/products",
+      "status": 200,
+      "domcontentloadedMs": 3559
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4198/contact?product=Box%20Frame%20Bearing%20%26%20Racer%20(Black%20Blue%20%26%20Red)",
+      "status": 200,
+      "domcontentloadedMs": 2699
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4198/contact?product=Motor%20Cycle%20Center%20Stand",
+      "status": 200,
+      "domcontentloadedMs": 2681
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4198/contact?product=Motor%20Cycle%20Double%20Stand",
+      "status": 200,
+      "domcontentloadedMs": 1563
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4198/contact?product=Motor%20Cycle%20Foot%20Rest%20Rod",
+      "status": 200,
+      "domcontentloadedMs": 1294
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4198/contact?product=Motor%20Cycle%20Handlebar",
+      "status": 200,
+      "domcontentloadedMs": 2069
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4198/contact?product=Motor%20Cycle%20Leg%20Guard",
+      "status": 200,
+      "domcontentloadedMs": 2139
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4198/contact?product=Motor%20Cycle%20Sharee%20Guard%20Ladies%20(Black%20%26%20Nickel)",
+      "status": 200,
+      "domcontentloadedMs": 5095
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4198/contact?product=Easy%20Bike%20RIM%20(Black%20%26%20White)",
+      "status": 200,
+      "domcontentloadedMs": 2181
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4198/contact?product=Rikshaw%20Avon%20Rim",
+      "status": 200,
+      "domcontentloadedMs": 4376
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4198/contact?product=Cycle%20Rim%20(Bichue%20%26%20Hero)",
+      "status": 200,
+      "domcontentloadedMs": 2369
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4198/contact?product=Cycle%20Rim%20(26%22X1.5%22)",
+      "status": 200,
+      "domcontentloadedMs": 2674
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4198/contact?product=CNG%20Rim",
+      "status": 200,
+      "domcontentloadedMs": 2170
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4198/contact?product=Rikshaw%20Rim%20Gazi",
+      "status": 200,
+      "domcontentloadedMs": 1664
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4198/contact?product=Mishuk%20Rim%20Black%20%26%20White",
+      "status": 200,
+      "domcontentloadedMs": 1934
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4198/contact?product=VAN%20Rickshaw%20Jumbo%20Rim",
+      "status": 200,
+      "domcontentloadedMs": 4329
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4198/contact?product=VAN%20Rickshaw%20Gold%20Rim",
+      "status": 200,
+      "domcontentloadedMs": 1079
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4198/contact?product=Rickshaw%20Japan%20Rim",
+      "status": 200,
+      "domcontentloadedMs": 984
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4198/contact?product=Nosimon%20Rim",
+      "status": 200,
+      "domcontentloadedMs": 1490
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4198/contact?product=Patti%20Rim",
+      "status": 200,
+      "domcontentloadedMs": 863
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4198/contact?product=Van%20Spoke%20(Black%20%26%20White)",
+      "status": 200,
+      "domcontentloadedMs": 1337
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4198/contact?product=Wasar",
+      "status": 200,
+      "domcontentloadedMs": 1484
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4198/contact",
+      "status": 200,
+      "domcontentloadedMs": 1622
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4198/contact?product=",
+      "status": 200,
+      "domcontentloadedMs": 2346
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4198/contact?product=Unknown",
+      "status": 200,
+      "domcontentloadedMs": 1693
+    },
+    {
+      "case": "enquiry/history-edited-values-and-route-departure",
+      "url": "http://127.0.0.1:4198/products",
+      "status": 200,
+      "domcontentloadedMs": 3299
+    }
+  ],
+  "resources": [
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 390,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4198/products",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 390,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4198/careers",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 390,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4198/contact",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1440,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4198/products",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1440,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4198/careers",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1440,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4198/contact",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1440,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4198/products",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1440,
+      "url": "https://www.google.com/maps/embed",
+      "method": "GET",
+      "pageURL": "http://127.0.0.1:4198/contact",
+      "resourceType": "document",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1440,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4198/contact",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1440,
+      "url": "https://www.google.com/maps/embed",
+      "method": "GET",
+      "pageURL": "http://127.0.0.1:4198/contact",
+      "resourceType": "document",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1440,
+      "url": "https://www.google.com/maps/embed",
+      "method": "GET",
+      "pageURL": "http://127.0.0.1:4198/contact",
+      "resourceType": "document",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1440,
+      "url": "https://www.google.com/maps/embed",
+      "method": "GET",
+      "pageURL": "http://127.0.0.1:4198/contact",
+      "resourceType": "document",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1440,
+      "url": "https://www.google.com/maps/embed",
+      "method": "GET",
+      "pageURL": "http://127.0.0.1:4198/contact",
+      "resourceType": "document",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1440,
+      "url": "https://www.google.com/maps/embed",
+      "method": "GET",
+      "pageURL": "http://127.0.0.1:4198/contact",
+      "resourceType": "document",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1440,
+      "url": "https://www.google.com/maps/embed",
+      "method": "GET",
+      "pageURL": "http://127.0.0.1:4198/contact",
+      "resourceType": "document",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1440,
+      "url": "https://www.google.com/maps/embed",
+      "method": "GET",
+      "pageURL": "http://127.0.0.1:4198/contact",
+      "resourceType": "document",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1440,
+      "url": "https://www.google.com/maps/embed",
+      "method": "GET",
+      "pageURL": "http://127.0.0.1:4198/contact",
+      "resourceType": "document",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1440,
+      "url": "https://www.google.com/maps/embed",
+      "method": "GET",
+      "pageURL": "http://127.0.0.1:4198/contact",
+      "resourceType": "document",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1440,
+      "url": "https://www.google.com/maps/embed",
+      "method": "GET",
+      "pageURL": "http://127.0.0.1:4198/contact",
+      "resourceType": "document",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1440,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4198/contact",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1440,
+      "url": "https://www.google.com/maps/embed",
+      "method": "GET",
+      "pageURL": "http://127.0.0.1:4198/contact",
+      "resourceType": "document",
+      "error": "net::ERR_ABORTED"
+    }
+  ],
+  "cases": [
+    {
+      "name": "en/390/products",
+      "passed": false,
+      "error": "page.screenshot: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-2a\\regression.cjs:141:53\n    at async test (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-2a\\regression.cjs:48:9)\n    at async C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-2a\\regression.cjs:133:10"
+    },
+    {
+      "name": "en/390/careers",
+      "passed": true
+    },
+    {
+      "name": "en/390/contact",
+      "passed": false,
+      "error": "page.screenshot: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-2a\\regression.cjs:141:53\n    at async test (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-2a\\regression.cjs:48:9)\n    at async C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-2a\\regression.cjs:133:10"
+    },
+    {
+      "name": "en/1440/products",
+      "passed": false,
+      "error": "page.screenshot: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-2a\\regression.cjs:141:53\n    at async test (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-2a\\regression.cjs:48:9)\n    at async C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-2a\\regression.cjs:133:10"
+    },
+    {
+      "name": "en/1440/careers",
+      "passed": true
+    },
+    {
+      "name": "en/1440/contact",
+      "passed": true
+    },
+    {
+      "name": "products/search-filters-pagination",
+      "passed": true
+    },
+    {
+      "name": "enquiry/all-products-and-direct-defaults",
+      "passed": true
+    },
+    {
+      "name": "enquiry/history-edited-values-and-route-departure",
+      "passed": true
+    }
+  ],
+  "console": [],
+  "axe": [
+    {
+      "state": "en/390/careers-open",
+      "violations": []
+    }
+  ],
+  "geometry": [
+    {
+      "lang": "en",
+      "route": "products",
+      "width": 390,
+      "scrollWidth": 390,
+      "headerHeight": 112
+    },
+    {
+      "lang": "en",
+      "route": "careers",
+      "width": 390,
+      "scrollWidth": 390,
+      "headerHeight": 112
+    },
+    {
+      "lang": "en",
+      "route": "contact",
+      "width": 390,
+      "scrollWidth": 390,
+      "headerHeight": 112
+    },
+    {
+      "lang": "en",
+      "route": "products",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headerHeight": 64.140625
+    },
+    {
+      "lang": "en",
+      "route": "careers",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headerHeight": 69.640625
+    },
+    {
+      "lang": "en",
+      "route": "contact",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headerHeight": 64
+    }
+  ],
+  "currentCase": "enquiry/history-edited-values-and-route-departure",
+  "assertionsFinishedAt": "2026-10-27T13:28:09.292Z"
+}

@@ -1,0 +1,704 @@
+{
+  "baseURL": "http://127.0.0.1:4191",
+  "browser": "156.0.8078.48",
+  "runtime": "v24.19.0",
+  "navigation": [
+    {
+      "case": "en/390/products",
+      "url": "http://127.0.0.1:4191/products",
+      "status": 200,
+      "domcontentloadedMs": 1095
+    },
+    {
+      "case": "en/390/careers",
+      "url": "http://127.0.0.1:4191/careers",
+      "status": 200,
+      "domcontentloadedMs": 459
+    },
+    {
+      "case": "en/390/contact",
+      "url": "http://127.0.0.1:4191/contact",
+      "status": 200,
+      "domcontentloadedMs": 304
+    },
+    {
+      "case": "en/1440/products",
+      "url": "http://127.0.0.1:4191/products",
+      "status": 200,
+      "domcontentloadedMs": 530
+    },
+    {
+      "case": "en/1440/careers",
+      "url": "http://127.0.0.1:4191/careers",
+      "status": 200,
+      "domcontentloadedMs": 764
+    },
+    {
+      "case": "en/1440/contact",
+      "url": "http://127.0.0.1:4191/contact",
+      "status": 200,
+      "domcontentloadedMs": 331
+    },
+    {
+      "case": "products/search-filters-pagination",
+      "url": "http://127.0.0.1:4191/products",
+      "status": 200,
+      "domcontentloadedMs": 586
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4191/contact?product=Box%20Frame%20Bearing%20%26%20Racer%20(Black%20Blue%20%26%20Red)",
+      "status": 200,
+      "domcontentloadedMs": 346
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4191/contact?product=Motor%20Cycle%20Center%20Stand",
+      "status": 200,
+      "domcontentloadedMs": 435
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4191/contact?product=Motor%20Cycle%20Double%20Stand",
+      "status": 200,
+      "domcontentloadedMs": 428
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4191/contact?product=Motor%20Cycle%20Foot%20Rest%20Rod",
+      "status": 200,
+      "domcontentloadedMs": 545
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4191/contact?product=Motor%20Cycle%20Handlebar",
+      "status": 200,
+      "domcontentloadedMs": 438
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4191/contact?product=Motor%20Cycle%20Leg%20Guard",
+      "status": 200,
+      "domcontentloadedMs": 506
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4191/contact?product=Motor%20Cycle%20Sharee%20Guard%20Ladies%20(Black%20%26%20Nickel)",
+      "status": 200,
+      "domcontentloadedMs": 2378
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4191/contact?product=Easy%20Bike%20RIM%20(Black%20%26%20White)",
+      "status": 200,
+      "domcontentloadedMs": 261
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4191/contact?product=Rikshaw%20Avon%20Rim",
+      "status": 200,
+      "domcontentloadedMs": 478
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4191/contact?product=Cycle%20Rim%20(Bichue%20%26%20Hero)",
+      "status": 200,
+      "domcontentloadedMs": 367
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4191/contact?product=Cycle%20Rim%20(26%22X1.5%22)",
+      "status": 200,
+      "domcontentloadedMs": 637
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4191/contact?product=CNG%20Rim",
+      "status": 200,
+      "domcontentloadedMs": 793
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4191/contact?product=Rikshaw%20Rim%20Gazi",
+      "status": 200,
+      "domcontentloadedMs": 3050
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4191/contact?product=Mishuk%20Rim%20Black%20%26%20White",
+      "status": 200,
+      "domcontentloadedMs": 555
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4191/contact?product=VAN%20Rickshaw%20Jumbo%20Rim",
+      "status": 200,
+      "domcontentloadedMs": 441
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4191/contact?product=VAN%20Rickshaw%20Gold%20Rim",
+      "status": 200,
+      "domcontentloadedMs": 618
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4191/contact?product=Rickshaw%20Japan%20Rim",
+      "status": 200,
+      "domcontentloadedMs": 495
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4191/contact?product=Nosimon%20Rim",
+      "status": 200,
+      "domcontentloadedMs": 366
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4191/contact?product=Patti%20Rim",
+      "status": 200,
+      "domcontentloadedMs": 502
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4191/contact?product=Van%20Spoke%20(Black%20%26%20White)",
+      "status": 200,
+      "domcontentloadedMs": 465
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4191/contact?product=Wasar",
+      "status": 200,
+      "domcontentloadedMs": 512
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4191/contact",
+      "status": 200,
+      "domcontentloadedMs": 508
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4191/contact?product=",
+      "status": 200,
+      "domcontentloadedMs": 610
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4191/contact?product=Unknown",
+      "status": 200,
+      "domcontentloadedMs": 655
+    },
+    {
+      "case": "enquiry/history-edited-values-and-route-departure",
+      "url": "http://127.0.0.1:4191/products",
+      "status": 200,
+      "domcontentloadedMs": 3053
+    }
+  ],
+  "resources": [
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 390,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4191/products",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 390,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4191/careers",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1440,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4191/products",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1440,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4191/careers",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1440,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4191/products",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1440,
+      "url": "https://www.google.com/maps/embed",
+      "method": "GET",
+      "pageURL": "http://127.0.0.1:4191/contact",
+      "resourceType": "document",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1440,
+      "url": "https://www.google.com/maps/embed",
+      "method": "GET",
+      "pageURL": "http://127.0.0.1:4191/contact",
+      "resourceType": "document",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1440,
+      "url": "https://www.google.com/maps/embed",
+      "method": "GET",
+      "pageURL": "http://127.0.0.1:4191/contact",
+      "resourceType": "document",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1440,
+      "url": "https://www.google.com/maps/embed",
+      "method": "GET",
+      "pageURL": "http://127.0.0.1:4191/contact",
+      "resourceType": "document",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1440,
+      "url": "https://www.google.com/maps/embed",
+      "method": "GET",
+      "pageURL": "http://127.0.0.1:4191/contact",
+      "resourceType": "document",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1440,
+      "url": "https://www.google.com/maps/embed",
+      "method": "GET",
+      "pageURL": "http://127.0.0.1:4191/contact",
+      "resourceType": "document",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1440,
+      "url": "https://www.google.com/maps/embed",
+      "method": "GET",
+      "pageURL": "http://127.0.0.1:4191/contact",
+      "resourceType": "document",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1440,
+      "url": "https://www.google.com/maps/embed",
+      "method": "GET",
+      "pageURL": "http://127.0.0.1:4191/contact",
+      "resourceType": "document",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1440,
+      "url": "https://www.google.com/maps/embed",
+      "method": "GET",
+      "pageURL": "http://127.0.0.1:4191/contact",
+      "resourceType": "document",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1440,
+      "url": "https://www.google.com/maps/embed",
+      "method": "GET",
+      "pageURL": "http://127.0.0.1:4191/contact",
+      "resourceType": "document",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1440,
+      "url": "https://www.google.com/maps/embed",
+      "method": "GET",
+      "pageURL": "http://127.0.0.1:4191/contact",
+      "resourceType": "document",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1440,
+      "url": "https://www.google.com/maps/embed",
+      "method": "GET",
+      "pageURL": "http://127.0.0.1:4191/contact",
+      "resourceType": "document",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1440,
+      "url": "https://www.google.com/maps/embed",
+      "method": "GET",
+      "pageURL": "http://127.0.0.1:4191/contact",
+      "resourceType": "document",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1440,
+      "url": "https://www.google.com/maps/embed",
+      "method": "GET",
+      "pageURL": "http://127.0.0.1:4191/contact",
+      "resourceType": "document",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1440,
+      "url": "https://www.google.com/maps/embed",
+      "method": "GET",
+      "pageURL": "http://127.0.0.1:4191/contact",
+      "resourceType": "document",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1440,
+      "url": "https://www.google.com/maps/embed",
+      "method": "GET",
+      "pageURL": "http://127.0.0.1:4191/contact",
+      "resourceType": "document",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "blocked-write",
+      "url": "https://maps.googleapis.com/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/GetViewportInfo",
+      "method": "POST",
+      "resourceType": "xhr"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1440,
+      "url": "https://maps.googleapis.com/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/GetViewportInfo",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4191/contact",
+      "resourceType": "xhr",
+      "error": "net::ERR_FAILED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1440,
+      "url": "http://127.0.0.1:4191/logo.jpg",
+      "method": "GET",
+      "pageURL": "http://127.0.0.1:4191/products",
+      "resourceType": "other",
+      "error": "net::ERR_NO_BUFFER_SPACE"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1440,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4191/products",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1440,
+      "url": "https://www.google.com/maps/embed",
+      "method": "GET",
+      "pageURL": "http://127.0.0.1:4191/contact",
+      "resourceType": "document",
+      "error": "net::ERR_ABORTED"
+    }
+  ],
+  "cases": [
+    {
+      "name": "en/390/products",
+      "passed": true
+    },
+    {
+      "name": "en/390/careers",
+      "passed": true
+    },
+    {
+      "name": "en/390/contact",
+      "passed": true
+    },
+    {
+      "name": "en/1440/products",
+      "passed": true
+    },
+    {
+      "name": "en/1440/careers",
+      "passed": true
+    },
+    {
+      "name": "en/1440/contact",
+      "passed": true
+    },
+    {
+      "name": "products/search-filters-pagination",
+      "passed": true
+    },
+    {
+      "name": "enquiry/all-products-and-direct-defaults",
+      "passed": true
+    },
+    {
+      "name": "enquiry/history-edited-values-and-route-departure",
+      "passed": true
+    }
+  ],
+  "console": [
+    {
+      "type": "console",
+      "lang": "en",
+      "width": 1440,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "en",
+      "width": 1440,
+      "text": "Failed to load resource: net::ERR_NO_BUFFER_SPACE"
+    }
+  ],
+  "axe": [
+    {
+      "state": "en/390/products-open",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                ".inline-flex.bg-modina-red\\/10.tracking-wider"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.88 (foreground color: #e52525, background color: #fce9e9, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "state": "en/390/careers-open",
+      "violations": []
+    },
+    {
+      "state": "en/390/contact",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                "label[for=\"contact-name\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.22 (foreground color: #87909d, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "label[for=\"contact-company\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.67 (foreground color: #979faa, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "#contact-company"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.12 (foreground color: #797d85, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "label[for=\"contact-email\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.2 (foreground color: #a9afb9, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "#contact-email"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.08 (foreground color: #8f939a, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "label[for=\"contact-phone\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.82 (foreground color: #bbc0c8, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "#contact-phone"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.33 (foreground color: #a7aaaf, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "label[for=\"contact-subject\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.51 (foreground color: #cfd2d7, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "#contact-subject"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.78 (foreground color: #c0c2c6, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "label[for=\"contact-message\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.26 (foreground color: #e3e5e8, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".mt-2"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.05 (foreground color: #ffffff, background color: #fef8f8, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".mb-6"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.31 (foreground color: #e52525, background color: #f8f9fb, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".mb-12 > .mb-4.tracking-widest.public-meta"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.19 (foreground color: #e52525, background color: #f4f6f8, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                ".hover\\:bg-modina-red\\/5.hover\\:border-modina-red\\/40[href=\"#\"]:nth-child(1)"
+              ],
+              "summary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            },
+            {
+              "target": [
+                ".hover\\:bg-modina-red\\/5.hover\\:border-modina-red\\/40[href=\"#\"]:nth-child(2)"
+              ],
+              "summary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            },
+            {
+              "target": [
+                ".hover\\:bg-modina-red\\/5.hover\\:border-modina-red\\/40[href=\"#\"]:nth-child(3)"
+              ],
+              "summary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            },
+            {
+              "target": [
+                ".hover\\:bg-modina-red\\/5.hover\\:border-modina-red\\/40[href=\"#\"]:nth-child(4)"
+              ],
+              "summary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "geometry": [
+    {
+      "lang": "en",
+      "route": "products",
+      "width": 390,
+      "scrollWidth": 390,
+      "headerHeight": 112
+    },
+    {
+      "lang": "en",
+      "route": "careers",
+      "width": 390,
+      "scrollWidth": 390,
+      "headerHeight": 112
+    },
+    {
+      "lang": "en",
+      "route": "contact",
+      "width": 390,
+      "scrollWidth": 390,
+      "headerHeight": 112
+    },
+    {
+      "lang": "en",
+      "route": "products",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headerHeight": 65.328125
+    },
+    {
+      "lang": "en",
+      "route": "careers",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headerHeight": 71.734375
+    },
+    {
+      "lang": "en",
+      "route": "contact",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headerHeight": 64.25
+    }
+  ],
+  "currentCase": "enquiry/history-edited-values-and-route-departure",
+  "assertionsFinishedAt": "2026-10-27T13:34:31.264Z",
+  "teardown": {
+    "closedNormally": false,
+    "bounded": true,
+    "connected": false,
+    "durationMs": 15003
+  },
+  "completed": true
+}

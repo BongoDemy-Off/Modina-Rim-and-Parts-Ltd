@@ -1,0 +1,90 @@
+{
+  "mode": "layout",
+  "base": "http://127.0.0.1:4199",
+  "cases": [
+    {
+      "name": "first-key skip navigation",
+      "passed": true
+    },
+    {
+      "name": "FAQ relationships, keyboard, result state",
+      "passed": true
+    },
+    {
+      "name": "/careers jump offset",
+      "geometry": {
+        "top": 128.28125,
+        "header": 112,
+        "toolbar": 0
+      },
+      "passed": true
+    },
+    {
+      "name": "/news jump offset",
+      "geometry": {
+        "top": 238.5625,
+        "header": 112,
+        "toolbar": 111
+      },
+      "passed": true
+    },
+    {
+      "name": "/blog jump offset",
+      "geometry": {
+        "top": 253.140625,
+        "header": 112,
+        "toolbar": 125
+      },
+      "passed": true
+    },
+    {
+      "name": "short modal 667x375",
+      "action": {
+        "x": 220,
+        "y": 247.40625,
+        "width": 203.5,
+        "height": 78
+      },
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "blocked": [
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    }
+  ],
+  "browser": "156.0.8078.49"
+}

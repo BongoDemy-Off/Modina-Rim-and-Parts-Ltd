@@ -1,0 +1,434 @@
+[
+  {
+    "route": "products",
+    "width": 390,
+    "state": {
+      "overflow": false,
+      "buttons": [
+        {
+          "name": "Search",
+          "radius": "0px"
+        },
+        {
+          "name": "Open menu",
+          "radius": "0px"
+        },
+        {
+          "name": "Filter by All",
+          "radius": "0px"
+        },
+        {
+          "name": "Filter by Motorcycle",
+          "radius": "0px"
+        },
+        {
+          "name": "Filter by Rims",
+          "radius": "0px"
+        },
+        {
+          "name": "Filter by Hardware",
+          "radius": "0px"
+        },
+        {
+          "name": "Previous image",
+          "radius": "0px"
+        },
+        {
+          "name": "Next image",
+          "radius": "0px"
+        },
+        {
+          "name": "Go to slide 1",
+          "radius": "0px"
+        },
+        {
+          "name": "Go to slide 2",
+          "radius": "0px"
+        },
+        {
+          "name": "Go to slide 3",
+          "radius": "0px"
+        },
+        {
+          "name": "Previous image",
+          "radius": "0px"
+        },
+        {
+          "name": "Next image",
+          "radius": "0px"
+        },
+        {
+          "name": "Go to slide 1",
+          "radius": "0px"
+        },
+        {
+          "name": "Go to slide 2",
+          "radius": "0px"
+        },
+        {
+          "name": "Go to slide 3",
+          "radius": "0px"
+        }
+      ]
+    }
+  },
+  {
+    "route": "gallery",
+    "width": 390,
+    "state": {
+      "overflow": false,
+      "buttons": [
+        {
+          "name": "Search",
+          "radius": "0px"
+        },
+        {
+          "name": "Open menu",
+          "radius": "0px"
+        },
+        {
+          "name": "All (15)",
+          "radius": "0px"
+        },
+        {
+          "name": "Facility (3)",
+          "radius": "0px"
+        },
+        {
+          "name": "Machinery (2)",
+          "radius": "0px"
+        },
+        {
+          "name": "Production (4)",
+          "radius": "0px"
+        },
+        {
+          "name": "Quality (3)",
+          "radius": "0px"
+        },
+        {
+          "name": "Products (1)",
+          "radius": "0px"
+        },
+        {
+          "name": "Materials (1)",
+          "radius": "0px"
+        },
+        {
+          "name": "Workforce (1)",
+          "radius": "0px"
+        },
+        {
+          "name": "Join",
+          "radius": "8px"
+        },
+        {
+          "name": "Open chat",
+          "radius": "0px"
+        }
+      ]
+    }
+  },
+  {
+    "route": "careers",
+    "width": 390,
+    "state": {
+      "overflow": false,
+      "buttons": [
+        {
+          "name": "Search",
+          "radius": "0px"
+        },
+        {
+          "name": "Open menu",
+          "radius": "0px"
+        },
+        {
+          "name": "All",
+          "radius": "0px"
+        },
+        {
+          "name": "Manufacturing",
+          "radius": "0px"
+        },
+        {
+          "name": "Quality",
+          "radius": "0px"
+        },
+        {
+          "name": "Sales",
+          "radius": "0px"
+        },
+        {
+          "name": "Operations",
+          "radius": "0px"
+        },
+        {
+          "name": "Join",
+          "radius": "8px"
+        },
+        {
+          "name": "Open chat",
+          "radius": "0px"
+        },
+        {
+          "name": "Back to top",
+          "radius": "0px"
+        }
+      ]
+    }
+  },
+  {
+    "route": "contact",
+    "width": 390,
+    "state": {
+      "overflow": false,
+      "buttons": [
+        {
+          "name": "Search",
+          "radius": "0px"
+        },
+        {
+          "name": "Open menu",
+          "radius": "0px"
+        },
+        {
+          "name": "Send Message",
+          "radius": "8px"
+        },
+        {
+          "name": "Join",
+          "radius": "8px"
+        },
+        {
+          "name": "Open chat",
+          "radius": "0px"
+        },
+        {
+          "name": "Back to top",
+          "radius": "0px"
+        }
+      ]
+    }
+  },
+  {
+    "route": "products",
+    "width": 1440,
+    "state": {
+      "overflow": false,
+      "buttons": [
+        {
+          "name": "EN",
+          "radius": "0px"
+        },
+        {
+          "name": "Filter by All",
+          "radius": "0px"
+        },
+        {
+          "name": "Filter by Motorcycle",
+          "radius": "0px"
+        },
+        {
+          "name": "Filter by Rims",
+          "radius": "0px"
+        },
+        {
+          "name": "Filter by Hardware",
+          "radius": "0px"
+        },
+        {
+          "name": "Previous image",
+          "radius": "0px"
+        },
+        {
+          "name": "Next image",
+          "radius": "0px"
+        },
+        {
+          "name": "Go to slide 1",
+          "radius": "0px"
+        },
+        {
+          "name": "Go to slide 2",
+          "radius": "0px"
+        },
+        {
+          "name": "Go to slide 3",
+          "radius": "0px"
+        },
+        {
+          "name": "Previous image",
+          "radius": "0px"
+        },
+        {
+          "name": "Next image",
+          "radius": "0px"
+        },
+        {
+          "name": "Go to slide 1",
+          "radius": "0px"
+        },
+        {
+          "name": "Go to slide 2",
+          "radius": "0px"
+        },
+        {
+          "name": "Go to slide 3",
+          "radius": "0px"
+        },
+        {
+          "name": "Previous image",
+          "radius": "0px"
+        }
+      ]
+    }
+  },
+  {
+    "route": "gallery",
+    "width": 1440,
+    "state": {
+      "overflow": false,
+      "buttons": [
+        {
+          "name": "EN",
+          "radius": "0px"
+        },
+        {
+          "name": "All (15)",
+          "radius": "0px"
+        },
+        {
+          "name": "Facility (3)",
+          "radius": "0px"
+        },
+        {
+          "name": "Machinery (2)",
+          "radius": "0px"
+        },
+        {
+          "name": "Production (4)",
+          "radius": "0px"
+        },
+        {
+          "name": "Quality (3)",
+          "radius": "0px"
+        },
+        {
+          "name": "Products (1)",
+          "radius": "0px"
+        },
+        {
+          "name": "Materials (1)",
+          "radius": "0px"
+        },
+        {
+          "name": "Workforce (1)",
+          "radius": "0px"
+        },
+        {
+          "name": "Join",
+          "radius": "8px"
+        },
+        {
+          "name": "Open chat",
+          "radius": "0px"
+        }
+      ]
+    }
+  },
+  {
+    "route": "careers",
+    "width": 1440,
+    "state": {
+      "overflow": false,
+      "buttons": [
+        {
+          "name": "EN",
+          "radius": "0px"
+        },
+        {
+          "name": "All",
+          "radius": "0px"
+        },
+        {
+          "name": "Manufacturing",
+          "radius": "0px"
+        },
+        {
+          "name": "Quality",
+          "radius": "0px"
+        },
+        {
+          "name": "Sales",
+          "radius": "0px"
+        },
+        {
+          "name": "Operations",
+          "radius": "0px"
+        },
+        {
+          "name": "Join",
+          "radius": "8px"
+        },
+        {
+          "name": "Open chat",
+          "radius": "0px"
+        },
+        {
+          "name": "Back to top",
+          "radius": "0px"
+        }
+      ]
+    }
+  },
+  {
+    "route": "contact",
+    "width": 1440,
+    "state": {
+      "overflow": false,
+      "buttons": [
+        {
+          "name": "EN",
+          "radius": "0px"
+        },
+        {
+          "name": "Send Message",
+          "radius": "8px"
+        },
+        {
+          "name": "Join",
+          "radius": "8px"
+        },
+        {
+          "name": "Open chat",
+          "radius": "0px"
+        },
+        {
+          "name": "Back to top",
+          "radius": "0px"
+        }
+      ]
+    }
+  },
+  {
+    "route": "admin",
+    "width": 1440,
+    "state": [
+      {
+        "text": "Collapse sidebar",
+        "class": "mt-2 flex min-h-11 w-full items-center rounded-lg text-xs font-bold text-[var(--admin-muted)] hover:bg-slate-100 hover:text-[var(--admin-heading)] justify-center gap-2",
+        "radius": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "height": "44px"
+      },
+      {
+        "text": "",
+        "class": "flex h-11 w-11 shrink-0 items-center justify-center rounded-lg text-[var(--admin-heading)] hover:bg-slate-100 lg:hidden",
+        "radius": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "height": "44px"
+      }
+    ]
+  }
+]

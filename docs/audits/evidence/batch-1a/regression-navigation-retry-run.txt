@@ -1,0 +1,9 @@
+FAIL bn/320/navigation: locator.click: Timeout 8000ms exceeded.
+Call log:
+[2m  - waiting for locator('dialog[open]').locator('button[aria-controls="mobile-nav-company"]')[22m
+[2m    - locator resolved to <button type="button" aria-expanded="false" aria-controls="mobile-nav-company" class="flex items-center justify-between py-3.5 w-full text-left">…</button>[22m
+[2m  
+PASS bn/390/products
+PASS bn/390/gallery
+Browser teardown watchdog used for owned PID 8976; assertions were saved first.
+2/3 cases passed; 2 axe scans.

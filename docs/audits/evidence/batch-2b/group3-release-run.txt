@@ -1,0 +1,5 @@
+group3-release en 390 /
+group3-release en 1440 /
+group3-release bn 390 /
+group3-release bn 1440 /
+RESULT 4 0 failed

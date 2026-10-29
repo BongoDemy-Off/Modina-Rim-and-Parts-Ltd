@@ -1,0 +1,98 @@
+{
+  "mode": "home-touch",
+  "base": "http://127.0.0.1:4199",
+  "cases": [
+    {
+      "name": "en 320 hero touch",
+      "pointers": [
+        "touch",
+        "touch",
+        "touch",
+        "touch"
+      ],
+      "button": {
+        "x": 88,
+        "y": 747.90625,
+        "width": 144,
+        "height": 44
+      },
+      "passed": true
+    },
+    {
+      "name": "en 390 hero touch",
+      "pointers": [
+        "touch",
+        "touch",
+        "touch"
+      ],
+      "button": {
+        "x": 95,
+        "y": 748.21875,
+        "width": 200,
+        "height": 44
+      },
+      "passed": true
+    },
+    {
+      "name": "bn 320 hero touch",
+      "pointers": [
+        "touch",
+        "touch",
+        "touch"
+      ],
+      "button": {
+        "x": 88,
+        "y": 328.71875,
+        "width": 144,
+        "height": 62.78125
+      },
+      "passed": true
+    },
+    {
+      "name": "bn 390 hero touch",
+      "pointers": [
+        "touch",
+        "touch",
+        "touch",
+        "touch"
+      ],
+      "button": {
+        "x": 95,
+        "y": 348.328125,
+        "width": 200,
+        "height": 44
+      },
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "blocked": [
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    }
+  ],
+  "browser": "156.0.8078.49",
+  "completed": true,
+  "teardown": {
+    "normal": false,
+    "bounded": true,
+    "connected": false
+  }
+}

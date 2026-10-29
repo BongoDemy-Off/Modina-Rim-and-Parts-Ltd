@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "checks": [
+    "production-regression-results.json: 64/64",
+    "production-query-checks.json: 49/49",
+    "sweep-results.json: 352/352",
+    "lifecycle-results.json: 2/2",
+    "race-results.json: 2/2",
+    "touch-results.json: 4/4",
+    "layout-release-checks.json: 15/15",
+    "intro-final-checks.json: 4/4",
+    "motion-final-checks.json: 7/7",
+    "video-release-checks.json: 4/4",
+    "text-corrected-checks.json: 20/20",
+    "home-touch-final-checks.json: 4/4",
+    "short-careers-final-checks.json: 3/3",
+    "caption-final-checks.json: 2/2",
+    "accessibility-final-checks.json: 10/10"
+  ],
+  "rapidCycles": 40,
+  "preservation": {
+    "originalFiles": 1466,
+    "unchanged": 1438,
+    "authorizedChanged": 28,
+    "newApplicationFiles": [
+      "src/components/PublicScroller.tsx",
+      "src/components/PublicVideo.tsx",
+      "src/hooks/usePublicLayout.ts"
+    ],
+    "missing": [],
+    "unexpected": [],
+    "passed": true
+  },
+  "git": {
+    "trackedModified": 30,
+    "untracked": 2103,
+    "head": "855c1a2c2866308be0bfd7bd04a9f2b50b88ed0e",
+    "staged": ""
+  },
+  "hashFailures": []
+}

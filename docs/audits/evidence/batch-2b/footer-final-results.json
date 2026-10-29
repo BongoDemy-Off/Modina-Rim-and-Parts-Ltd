@@ -1,0 +1,27 @@
+{
+  "states": [
+    {
+      "phase": "after",
+      "width": 390,
+      "route": "/contact",
+      "title": "Footer clearance",
+      "settled": true,
+      "file": "footer-final-after-contact-390-footer.png",
+      "passed": true
+    },
+    {
+      "phase": "after",
+      "width": 1440,
+      "route": "/contact",
+      "title": "Footer clearance",
+      "settled": true,
+      "file": "footer-final-after-contact-1440-footer.png",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "completed": true,
+  "teardown": {
+    "normal": true
+  }
+}

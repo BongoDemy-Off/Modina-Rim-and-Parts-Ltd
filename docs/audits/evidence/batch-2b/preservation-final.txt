@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "originalFiles": 1466,
+  "unchanged": 1438,
+  "changed": [
+    "src/App.tsx",
+    "src/components/BackToTop.tsx",
+    "src/components/Chatbot.tsx",
+    "src/components/Navbar.tsx",
+    "src/components/Preloader.tsx",
+    "src/i18n/bn.json",
+    "src/i18n/en.json",
+    "src/index.css",
+    "src/layouts/Layout.tsx",
+    "src/pages/About.tsx",
+    "src/pages/Blog.tsx",
+    "src/pages/BlogDetail.tsx",
+    "src/pages/Careers.tsx",
+    "src/pages/Certificates.tsx",
+    "src/pages/Contact.tsx",
+    "src/pages/Downloads.tsx",
+    "src/pages/FAQ.tsx",
+    "src/pages/Gallery.tsx",
+    "src/pages/Home.tsx",
+    "src/pages/Mission.tsx",
+    "src/pages/News.tsx",
+    "src/pages/NewsDetail.tsx",
+    "src/pages/NotFound.tsx",
+    "src/pages/Privacy.tsx",
+    "src/pages/Products.tsx",
+    "src/pages/Quality.tsx",
+    "src/pages/Sustainability.tsx",
+    "src/pages/Terms.tsx"
+  ],
+  "new": [
+    "src/components/PublicScroller.tsx",
+    "src/components/PublicVideo.tsx",
+    "src/hooks/usePublicLayout.ts"
+  ],
+  "missing": [],
+  "unexpected": []
+}

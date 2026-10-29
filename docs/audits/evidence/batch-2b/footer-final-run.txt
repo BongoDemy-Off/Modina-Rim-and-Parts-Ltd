@@ -1,0 +1,2 @@
+after 390 /contact true
+after 1440 /contact true

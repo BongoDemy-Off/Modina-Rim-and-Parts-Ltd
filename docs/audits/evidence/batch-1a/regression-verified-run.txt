@@ -1,0 +1,17 @@
+FAIL en/1024/products: page.goto: Timeout 8000ms exceeded.
+Call log:
+[2m  - navigating to "http://127.0.0.1:4181/products", waiting until "domcontentloaded"[22m
+
+FAIL en/1440/careers: expect(received).toBe(expected) // Object.is equality
+
+Expected: true
+Received: false
+
+Call Log:
+- Timeout 10000ms exceeded while waiting on the predicate
+FAIL radius-and-admin-isolation: page.goto: Timeout 10000ms exceeded.
+Call log:
+[2m  - navigating to "http://127.0.0.1:4181/admin", waiting until "domcontentloaded"[22m
+
+Browser teardown watchdog used for owned PID 7520; assertions were saved first.
+0/3 cases passed; 0 axe scans.

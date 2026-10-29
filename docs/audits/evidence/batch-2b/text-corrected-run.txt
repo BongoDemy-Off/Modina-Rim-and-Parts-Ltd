@@ -1,0 +1,21 @@
+PASS en /products enlarged text
+PASS en /contact enlarged text
+PASS en /downloads enlarged text
+PASS en /about enlarged text
+PASS en /sustainability enlarged text
+PASS en /quality enlarged text
+PASS en /certificates enlarged text
+PASS en /news enlarged text
+PASS en /blog enlarged text
+PASS en long Bengali heading stress at 320
+PASS bn /products enlarged text
+PASS bn /contact enlarged text
+PASS bn /downloads enlarged text
+PASS bn /about enlarged text
+PASS bn /sustainability enlarged text
+PASS bn /quality enlarged text
+PASS bn /certificates enlarged text
+PASS bn /news enlarged text
+PASS bn /blog enlarged text
+PASS bn long Bengali heading stress at 320
+RESULT 20/20

@@ -1,0 +1,192 @@
+{
+  "mode": "before-tablet",
+  "base": "http://127.0.0.1:4210",
+  "states": [
+    {
+      "route": "/",
+      "lang": "en",
+      "width": 768,
+      "scrollWidth": 768,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer — Bangladesh",
+      "targets": [
+        {
+          "text": "Forging the Backbone of Modern Mobility",
+          "top": 1075
+        },
+        {
+          "text": "New Arrival",
+          "top": 2163
+        },
+        {
+          "text": "The Trust Factor",
+          "top": 3222
+        },
+        {
+          "text": "Equipping Our Partners.",
+          "top": 4091
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/products",
+      "lang": "en",
+      "width": 768,
+      "scrollWidth": 768,
+      "title": "Products | Modina Rim & Parts Ltd. — 21 SKUs, Bangladesh",
+      "targets": [
+        {
+          "text": "Search products...",
+          "top": 638
+        },
+        {
+          "text": "Ready to Placean Order?",
+          "top": 3528
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/contact",
+      "lang": "en",
+      "width": 768,
+      "scrollWidth": 768,
+      "title": "Contact Us | Modina Rim & Parts Ltd. — Jashore, Bangladesh",
+      "targets": [
+        {
+          "text": "Let's Talk",
+          "top": 733
+        },
+        {
+          "text": "Full Name *Company NameEmail *PhoneSubject *Select a subject",
+          "top": 812
+        },
+        {
+          "text": "Your full name",
+          "top": 839
+        },
+        {
+          "text": "Your company",
+          "top": 958
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/careers",
+      "lang": "en",
+      "width": 768,
+      "scrollWidth": 768,
+      "title": "Careers | Modina Rim & Parts Ltd. — Join Our Team",
+      "targets": [
+        {
+          "text": "Build Your CareerIn Precision",
+          "top": 689
+        },
+        {
+          "text": "Build Your Career In Precision",
+          "top": 1707
+        },
+        {
+          "text": "Send Us YourCV Anyway",
+          "top": 2690
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/gallery",
+      "lang": "en",
+      "width": 768,
+      "scrollWidth": 768,
+      "title": "Gallery | Modina Rim & Parts Ltd. — Factory Tour",
+      "targets": [
+        {
+          "text": "See It ForYourself",
+          "top": 3954
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "captures": [
+    "before-tablet-home-768-en-hero.png",
+    {
+      "file": "before-tablet-home-768-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          38.5,
+          406.5,
+          691,
+          38.5
+        ],
+        "images": true
+      }
+    },
+    "before-tablet-products-768-en-hero.png",
+    {
+      "file": "before-tablet-products-768-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          38.5,
+          209.5,
+          329.5,
+          482
+        ],
+        "images": true
+      }
+    },
+    "before-tablet-contact-768-en-hero.png",
+    {
+      "file": "before-tablet-contact-768-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          40,
+          422,
+          688,
+          56
+        ],
+        "images": true
+      }
+    },
+    "before-tablet-careers-768-en-hero.png",
+    {
+      "file": "before-tablet-careers-768-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          38.5,
+          306,
+          333.5,
+          241
+        ],
+        "images": true
+      }
+    },
+    "before-tablet-gallery-768-en-hero.png",
+    {
+      "file": "before-tablet-gallery-768-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          38.5,
+          320,
+          691,
+          260
+        ],
+        "images": true
+      }
+    }
+  ],
+  "browser": "156.0.8078.49",
+  "completed": true,
+  "teardown": {
+    "normal": false,
+    "bounded": true,
+    "connected": false
+  }
+}

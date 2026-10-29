@@ -1,0 +1,3360 @@
+{
+  "branch": "main",
+  "commit": "855c1a2c2866308be0bfd7bd04a9f2b50b88ed0e",
+  "trackedCount": 241,
+  "untracked": [
+    "TASK_5B_PRODUCTION_ARCHITECTURE_AUDIT.md",
+    "docs/audits/2026-10-27-PUBLIC-UIUX-AUDIT.md",
+    "docs/audits/BATCH-1A-ACCEPTANCE-CHECK.md",
+    "docs/audits/BATCH-1A-IMPLEMENTATION-REPORT.md",
+    "docs/audits/COMMAND-LOG.md",
+    "docs/audits/DESIGN-SYSTEM-GAP-ANALYSIS.md",
+    "docs/audits/IMPLEMENTATION-ROADMAP.md",
+    "docs/audits/ISSUE-REGISTER.md",
+    "docs/audits/PLACEHOLDER-ASSET-INVENTORY.md",
+    "docs/audits/PRODUCT-IMAGE-INVENTORY.csv",
+    "docs/audits/PUBLIC-ROUTE-MATRIX.md",
+    "docs/audits/RESPONSIVE-QA-MATRIX.md",
+    "docs/audits/evidence/README.md",
+    "docs/audits/evidence/about-1440-en.png",
+    "docs/audits/evidence/about-390-bn.png",
+    "docs/audits/evidence/about-390-en.png",
+    "docs/audits/evidence/artifact-manifest.json",
+    "docs/audits/evidence/asset-inventory.cjs",
+    "docs/audits/evidence/asset-metadata.json",
+    "docs/audits/evidence/audit-missing-page-1440-en.png",
+    "docs/audits/evidence/audit-missing-page-390-bn.png",
+    "docs/audits/evidence/audit-missing-page-390-en.png",
+    "docs/audits/evidence/axe.min.js",
+    "docs/audits/evidence/baseline-hashes.json",
+    "docs/audits/evidence/batch-1a-acceptance/a11y-ownership.json",
+    "docs/audits/evidence/batch-1a-acceptance/a11y-server.txt",
+    "docs/audits/evidence/batch-1a-acceptance/a11y.cjs",
+    "docs/audits/evidence/batch-1a-acceptance/aborted-no-server-results.json",
+    "docs/audits/evidence/batch-1a-acceptance/aborted-no-server-run.txt",
+    "docs/audits/evidence/batch-1a-acceptance/acceptance-summary-run.txt",
+    "docs/audits/evidence/batch-1a-acceptance/acceptance-summary.json",
+    "docs/audits/evidence/batch-1a-acceptance/after-careers-1440-bn.png",
+    "docs/audits/evidence/batch-1a-acceptance/after-careers-1440-en.png",
+    "docs/audits/evidence/batch-1a-acceptance/after-careers-390-bn.png",
+    "docs/audits/evidence/batch-1a-acceptance/after-careers-390-en.png",
+    "docs/audits/evidence/batch-1a-acceptance/after-careers-open-1440-bn.png",
+    "docs/audits/evidence/batch-1a-acceptance/after-careers-open-1440-en.png",
+    "docs/audits/evidence/batch-1a-acceptance/after-careers-open-390-bn.png",
+    "docs/audits/evidence/batch-1a-acceptance/after-careers-open-390-en.png",
+    "docs/audits/evidence/batch-1a-acceptance/after-contact-1440-bn.png",
+    "docs/audits/evidence/batch-1a-acceptance/after-contact-1440-en.png",
+    "docs/audits/evidence/batch-1a-acceptance/after-contact-390-bn.png",
+    "docs/audits/evidence/batch-1a-acceptance/after-contact-390-en.png",
+    "docs/audits/evidence/batch-1a-acceptance/after-gallery-1440-bn.png",
+    "docs/audits/evidence/batch-1a-acceptance/after-gallery-1440-en.png",
+    "docs/audits/evidence/batch-1a-acceptance/after-gallery-390-bn.png",
+    "docs/audits/evidence/batch-1a-acceptance/after-gallery-390-en.png",
+    "docs/audits/evidence/batch-1a-acceptance/after-gallery-open-1440-bn.png",
+    "docs/audits/evidence/batch-1a-acceptance/after-gallery-open-1440-en.png",
+    "docs/audits/evidence/batch-1a-acceptance/after-gallery-open-390-bn.png",
+    "docs/audits/evidence/batch-1a-acceptance/after-gallery-open-390-en.png",
+    "docs/audits/evidence/batch-1a-acceptance/after-menu-390-bn.png",
+    "docs/audits/evidence/batch-1a-acceptance/after-menu-390-en.png",
+    "docs/audits/evidence/batch-1a-acceptance/after-products-1440-bn.png",
+    "docs/audits/evidence/batch-1a-acceptance/after-products-1440-en.png",
+    "docs/audits/evidence/batch-1a-acceptance/after-products-390-bn.png",
+    "docs/audits/evidence/batch-1a-acceptance/after-products-390-en.png",
+    "docs/audits/evidence/batch-1a-acceptance/after-products-open-1440-bn.png",
+    "docs/audits/evidence/batch-1a-acceptance/after-products-open-1440-en.png",
+    "docs/audits/evidence/batch-1a-acceptance/after-products-open-390-bn.png",
+    "docs/audits/evidence/batch-1a-acceptance/after-products-open-390-en.png",
+    "docs/audits/evidence/batch-1a-acceptance/baseline.json",
+    "docs/audits/evidence/batch-1a-acceptance/bn-320-touch.png",
+    "docs/audits/evidence/batch-1a-acceptance/build.txt",
+    "docs/audits/evidence/batch-1a-acceptance/desktop-owned.json",
+    "docs/audits/evidence/batch-1a-acceptance/desktop-retry-results.json",
+    "docs/audits/evidence/batch-1a-acceptance/desktop-retry-run.txt",
+    "docs/audits/evidence/batch-1a-acceptance/diagnostic-run.txt",
+    "docs/audits/evidence/batch-1a-acceptance/diagnostic.cjs",
+    "docs/audits/evidence/batch-1a-acceptance/diagnostic.json",
+    "docs/audits/evidence/batch-1a-acceptance/diff-check.txt",
+    "docs/audits/evidence/batch-1a-acceptance/external-resources-run.txt",
+    "docs/audits/evidence/batch-1a-acceptance/external-resources.cjs",
+    "docs/audits/evidence/batch-1a-acceptance/external-resources.json",
+    "docs/audits/evidence/batch-1a-acceptance/external-spa-resources-run.txt",
+    "docs/audits/evidence/batch-1a-acceptance/external-spa-resources.cjs",
+    "docs/audits/evidence/batch-1a-acceptance/external-spa-resources.json",
+    "docs/audits/evidence/batch-1a-acceptance/final-owned.json",
+    "docs/audits/evidence/batch-1a-acceptance/final-regression-results.json",
+    "docs/audits/evidence/batch-1a-acceptance/final-regression-run.txt",
+    "docs/audits/evidence/batch-1a-acceptance/first-sweep-runner.cjs",
+    "docs/audits/evidence/batch-1a-acceptance/git-status-final.txt",
+    "docs/audits/evidence/batch-1a-acceptance/host-routing-run.txt",
+    "docs/audits/evidence/batch-1a-acceptance/host-routing.cjs",
+    "docs/audits/evidence/batch-1a-acceptance/host-routing.json",
+    "docs/audits/evidence/batch-1a-acceptance/host-status-run.txt",
+    "docs/audits/evidence/batch-1a-acceptance/host-status.cjs",
+    "docs/audits/evidence/batch-1a-acceptance/host-status.json",
+    "docs/audits/evidence/batch-1a-acceptance/lifecycle-before-fix-pass-results.json",
+    "docs/audits/evidence/batch-1a-acceptance/lifecycle-before-fix-pass-run.txt",
+    "docs/audits/evidence/batch-1a-acceptance/lifecycle-early-assertion-ownership.json",
+    "docs/audits/evidence/batch-1a-acceptance/lifecycle-early-assertion-results.json",
+    "docs/audits/evidence/batch-1a-acceptance/lifecycle-early-assertion-run.txt",
+    "docs/audits/evidence/batch-1a-acceptance/lifecycle-early-assertion.cjs",
+    "docs/audits/evidence/batch-1a-acceptance/lifecycle-harness.html",
+    "docs/audits/evidence/batch-1a-acceptance/lifecycle-harness.tsx",
+    "docs/audits/evidence/batch-1a-acceptance/lifecycle-ownership.json",
+    "docs/audits/evidence/batch-1a-acceptance/lifecycle-race-failure-run.txt",
+    "docs/audits/evidence/batch-1a-acceptance/lifecycle-race-failure.cjs",
+    "docs/audits/evidence/batch-1a-acceptance/lifecycle-results.json",
+    "docs/audits/evidence/batch-1a-acceptance/lifecycle-run.txt",
+    "docs/audits/evidence/batch-1a-acceptance/lifecycle-server.txt",
+    "docs/audits/evidence/batch-1a-acceptance/lifecycle-teardown.json",
+    "docs/audits/evidence/batch-1a-acceptance/lifecycle.cjs",
+    "docs/audits/evidence/batch-1a-acceptance/modina-rim-and-parts-ltd.vercel.app-root.png",
+    "docs/audits/evidence/batch-1a-acceptance/modinarimandpartsltd.netlify.app-root.png",
+    "docs/audits/evidence/batch-1a-acceptance/owned-run.json",
+    "docs/audits/evidence/batch-1a-acceptance/pointer.cjs",
+    "docs/audits/evidence/batch-1a-acceptance/prepare-external-spa.cjs",
+    "docs/audits/evidence/batch-1a-acceptance/prepare-lifecycle.cjs",
+    "docs/audits/evidence/batch-1a-acceptance/prepare-runner.cjs",
+    "docs/audits/evidence/batch-1a-acceptance/preservation-results.json",
+    "docs/audits/evidence/batch-1a-acceptance/preservation.cjs",
+    "docs/audits/evidence/batch-1a-acceptance/preview-server.txt",
+    "docs/audits/evidence/batch-1a-acceptance/public-modal-before-acceptance.tsx",
+    "docs/audits/evidence/batch-1a-acceptance/public-modal-stabilization.diff",
+    "docs/audits/evidence/batch-1a-acceptance/race-before-fix-results.json",
+    "docs/audits/evidence/batch-1a-acceptance/race-before-fix-run.txt",
+    "docs/audits/evidence/batch-1a-acceptance/race-failure.png",
+    "docs/audits/evidence/batch-1a-acceptance/race-ownership.json",
+    "docs/audits/evidence/batch-1a-acceptance/race-results.json",
+    "docs/audits/evidence/batch-1a-acceptance/race-run.txt",
+    "docs/audits/evidence/batch-1a-acceptance/race-server.txt",
+    "docs/audits/evidence/batch-1a-acceptance/race.cjs",
+    "docs/audits/evidence/batch-1a-acceptance/regression-results.json",
+    "docs/audits/evidence/batch-1a-acceptance/regression-run.txt",
+    "docs/audits/evidence/batch-1a-acceptance/regression.cjs",
+    "docs/audits/evidence/batch-1a-acceptance/run-isolated.cjs",
+    "docs/audits/evidence/batch-1a-acceptance/run-owned.cjs",
+    "docs/audits/evidence/batch-1a-acceptance/settled-a11y-results.json",
+    "docs/audits/evidence/batch-1a-acceptance/settled-a11y-run.txt",
+    "docs/audits/evidence/batch-1a-acceptance/summarize.cjs",
+    "docs/audits/evidence/batch-1a-acceptance/touch-ownership.json",
+    "docs/audits/evidence/batch-1a-acceptance/touch-results.json",
+    "docs/audits/evidence/batch-1a-acceptance/touch-run.txt",
+    "docs/audits/evidence/batch-1a-acceptance/touch-server.txt",
+    "docs/audits/evidence/batch-1a-acceptance/touch-settled-320-bn.png",
+    "docs/audits/evidence/batch-1a-acceptance/touch-settled-320-en.png",
+    "docs/audits/evidence/batch-1a-acceptance/touch-settled-390-bn.png",
+    "docs/audits/evidence/batch-1a-acceptance/touch-settled-390-en.png",
+    "docs/audits/evidence/batch-1a-acceptance/touch.cjs",
+    "docs/audits/evidence/batch-1a-acceptance/typecheck.txt",
+    "docs/audits/evidence/batch-1a/README.md",
+    "docs/audits/evidence/batch-1a/after-careers-1440-bn.png",
+    "docs/audits/evidence/batch-1a/after-careers-1440-en.png",
+    "docs/audits/evidence/batch-1a/after-careers-390-bn.png",
+    "docs/audits/evidence/batch-1a/after-careers-390-en.png",
+    "docs/audits/evidence/batch-1a/after-careers-open-1440-bn.png",
+    "docs/audits/evidence/batch-1a/after-careers-open-1440-en.png",
+    "docs/audits/evidence/batch-1a/after-careers-open-390-bn.png",
+    "docs/audits/evidence/batch-1a/after-careers-open-390-en.png",
+    "docs/audits/evidence/batch-1a/after-contact-1440-bn.png",
+    "docs/audits/evidence/batch-1a/after-contact-1440-en.png",
+    "docs/audits/evidence/batch-1a/after-contact-390-bn.png",
+    "docs/audits/evidence/batch-1a/after-contact-390-en.png",
+    "docs/audits/evidence/batch-1a/after-gallery-1440-bn.png",
+    "docs/audits/evidence/batch-1a/after-gallery-1440-en.png",
+    "docs/audits/evidence/batch-1a/after-gallery-390-bn.png",
+    "docs/audits/evidence/batch-1a/after-gallery-390-en.png",
+    "docs/audits/evidence/batch-1a/after-gallery-open-1440-bn.png",
+    "docs/audits/evidence/batch-1a/after-gallery-open-1440-en.png",
+    "docs/audits/evidence/batch-1a/after-gallery-open-390-bn.png",
+    "docs/audits/evidence/batch-1a/after-gallery-open-390-en.png",
+    "docs/audits/evidence/batch-1a/after-menu-390-bn.png",
+    "docs/audits/evidence/batch-1a/after-menu-390-en.png",
+    "docs/audits/evidence/batch-1a/after-products-1440-bn.png",
+    "docs/audits/evidence/batch-1a/after-products-1440-en.png",
+    "docs/audits/evidence/batch-1a/after-products-390-bn.png",
+    "docs/audits/evidence/batch-1a/after-products-390-en.png",
+    "docs/audits/evidence/batch-1a/after-products-open-1440-bn.png",
+    "docs/audits/evidence/batch-1a/after-products-open-1440-en.png",
+    "docs/audits/evidence/batch-1a/after-products-open-390-bn.png",
+    "docs/audits/evidence/batch-1a/after-products-open-390-en.png",
+    "docs/audits/evidence/batch-1a/baseline.json",
+    "docs/audits/evidence/batch-1a/before-careers-1440.png",
+    "docs/audits/evidence/batch-1a/before-careers-390.png",
+    "docs/audits/evidence/batch-1a/before-contact-1440.png",
+    "docs/audits/evidence/batch-1a/before-contact-390.png",
+    "docs/audits/evidence/batch-1a/before-gallery-1440.png",
+    "docs/audits/evidence/batch-1a/before-gallery-390.png",
+    "docs/audits/evidence/batch-1a/before-observations.json",
+    "docs/audits/evidence/batch-1a/before-products-1440.png",
+    "docs/audits/evidence/batch-1a/before-products-390.png",
+    "docs/audits/evidence/batch-1a/browser-cleanup.cjs",
+    "docs/audits/evidence/batch-1a/build-complete.txt",
+    "docs/audits/evidence/batch-1a/build-final.txt",
+    "docs/audits/evidence/batch-1a/build-verified.txt",
+    "docs/audits/evidence/batch-1a/build.txt",
+    "docs/audits/evidence/batch-1a/capture-baseline.cjs",
+    "docs/audits/evidence/batch-1a/close-geometry-diagnostic.png",
+    "docs/audits/evidence/batch-1a/focused-final-run.txt",
+    "docs/audits/evidence/batch-1a/focused-first-results.json",
+    "docs/audits/evidence/batch-1a/focused-results.json",
+    "docs/audits/evidence/batch-1a/focused-retry-run.txt",
+    "docs/audits/evidence/batch-1a/focused-run.txt",
+    "docs/audits/evidence/batch-1a/focused-settled-run.txt",
+    "docs/audits/evidence/batch-1a/focused-verified-run.txt",
+    "docs/audits/evidence/batch-1a/focused.cjs",
+    "docs/audits/evidence/batch-1a/git-status-final.txt",
+    "docs/audits/evidence/batch-1a/lifecycle-accepted-run.txt",
+    "docs/audits/evidence/batch-1a/lifecycle-clean-teardown-run.txt",
+    "docs/audits/evidence/batch-1a/lifecycle-complete-run.txt",
+    "docs/audits/evidence/batch-1a/lifecycle-final-run.txt",
+    "docs/audits/evidence/batch-1a/lifecycle-final-verified.txt",
+    "docs/audits/evidence/batch-1a/lifecycle-harness.html",
+    "docs/audits/evidence/batch-1a/lifecycle-harness.tsx",
+    "docs/audits/evidence/batch-1a/lifecycle-results.json",
+    "docs/audits/evidence/batch-1a/lifecycle-retry-run.txt",
+    "docs/audits/evidence/batch-1a/lifecycle-teardown.json",
+    "docs/audits/evidence/batch-1a/lifecycle-verified-run.txt",
+    "docs/audits/evidence/batch-1a/lifecycle.cjs",
+    "docs/audits/evidence/batch-1a/local-checks-complete-run.txt",
+    "docs/audits/evidence/batch-1a/local-checks-first-results.json",
+    "docs/audits/evidence/batch-1a/local-checks-results.json",
+    "docs/audits/evidence/batch-1a/local-checks-run.txt",
+    "docs/audits/evidence/batch-1a/local-checks.cjs",
+    "docs/audits/evidence/batch-1a/owned-process-cleanup.txt",
+    "docs/audits/evidence/batch-1a/pointer.cjs",
+    "docs/audits/evidence/batch-1a/preservation-command.txt",
+    "docs/audits/evidence/batch-1a/preservation-results.json",
+    "docs/audits/evidence/batch-1a/public-smoke-results.json",
+    "docs/audits/evidence/batch-1a/public-smoke-run.txt",
+    "docs/audits/evidence/batch-1a/public-smoke.cjs",
+    "docs/audits/evidence/batch-1a/regression-complete-results.json",
+    "docs/audits/evidence/batch-1a/regression-complete-run.txt",
+    "docs/audits/evidence/batch-1a/regression-corrected-results.json",
+    "docs/audits/evidence/batch-1a/regression-corrected-run.txt",
+    "docs/audits/evidence/batch-1a/regression-final-results.json",
+    "docs/audits/evidence/batch-1a/regression-final-run.txt",
+    "docs/audits/evidence/batch-1a/regression-final-targeted-results.json",
+    "docs/audits/evidence/batch-1a/regression-final-targeted-run.txt",
+    "docs/audits/evidence/batch-1a/regression-first-results.json",
+    "docs/audits/evidence/batch-1a/regression-navigation-retry-results.json",
+    "docs/audits/evidence/batch-1a/regression-navigation-retry-run.txt",
+    "docs/audits/evidence/batch-1a/regression-results.json",
+    "docs/audits/evidence/batch-1a/regression-retry-results.json",
+    "docs/audits/evidence/batch-1a/regression-retry-run.txt",
+    "docs/audits/evidence/batch-1a/regression-run.txt",
+    "docs/audits/evidence/batch-1a/regression-settled-results.json",
+    "docs/audits/evidence/batch-1a/regression-settled-run.txt",
+    "docs/audits/evidence/batch-1a/regression-verified-results.json",
+    "docs/audits/evidence/batch-1a/regression-verified-run.txt",
+    "docs/audits/evidence/batch-1a/regression.cjs",
+    "docs/audits/evidence/batch-1a/smoke-careers-open.png",
+    "docs/audits/evidence/batch-1a/smoke-gallery-open.png",
+    "docs/audits/evidence/batch-1a/smoke-products-open.png",
+    "docs/audits/evidence/batch-1a/smoke-results.json",
+    "docs/audits/evidence/batch-1a/smoke.cjs",
+    "docs/audits/evidence/batch-1a/typecheck-complete.txt",
+    "docs/audits/evidence/batch-1a/typecheck-final.txt",
+    "docs/audits/evidence/batch-1a/typecheck-verified.txt",
+    "docs/audits/evidence/batch-1a/typecheck.txt",
+    "docs/audits/evidence/batch-1a/validation-summary.json",
+    "docs/audits/evidence/batch-1a/verify-preservation.cjs",
+    "docs/audits/evidence/blog-1-1440-en.png",
+    "docs/audits/evidence/blog-1-390-bn.png",
+    "docs/audits/evidence/blog-1-390-en.png",
+    "docs/audits/evidence/blog-1440-en.png",
+    "docs/audits/evidence/blog-390-bn.png",
+    "docs/audits/evidence/blog-390-en.png",
+    "docs/audits/evidence/blog-featured-1440-en.png",
+    "docs/audits/evidence/blog-featured-390-bn.png",
+    "docs/audits/evidence/blog-featured-390-en.png",
+    "docs/audits/evidence/blog-invalid-1440-en.png",
+    "docs/audits/evidence/blog-invalid-390-bn.png",
+    "docs/audits/evidence/blog-invalid-390-en.png",
+    "docs/audits/evidence/brand-media-contact-sheet.png",
+    "docs/audits/evidence/browser-audit.cjs",
+    "docs/audits/evidence/browser-first-attempt.txt",
+    "docs/audits/evidence/browser-run.txt",
+    "docs/audits/evidence/build.txt",
+    "docs/audits/evidence/button-style-results.json",
+    "docs/audits/evidence/careers-1440-en.png",
+    "docs/audits/evidence/careers-390-bn.png",
+    "docs/audits/evidence/careers-390-en.png",
+    "docs/audits/evidence/careers-form-390.png",
+    "docs/audits/evidence/certificate-contact-sheet.png",
+    "docs/audits/evidence/certificates-1440-en.png",
+    "docs/audits/evidence/certificates-320-en.png",
+    "docs/audits/evidence/certificates-390-bn.png",
+    "docs/audits/evidence/certificates-390-en.png",
+    "docs/audits/evidence/chat-landscape-667x375.png",
+    "docs/audits/evidence/commands.json",
+    "docs/audits/evidence/contact-1440-en.png",
+    "docs/audits/evidence/contact-320-en.png",
+    "docs/audits/evidence/contact-390-bn.png",
+    "docs/audits/evidence/contact-390-en.png",
+    "docs/audits/evidence/contact-top-390.png",
+    "docs/audits/evidence/delivery-validation.json",
+    "docs/audits/evidence/deployed-modina-rim-and-parts-ltd.png",
+    "docs/audits/evidence/deployment-results.json",
+    "docs/audits/evidence/desktop-dropdown-1440.png",
+    "docs/audits/evidence/download-action-390.png",
+    "docs/audits/evidence/downloads-1440-en.png",
+    "docs/audits/evidence/downloads-390-bn.png",
+    "docs/audits/evidence/downloads-390-en.png",
+    "docs/audits/evidence/engine-availability.json",
+    "docs/audits/evidence/environment.json",
+    "docs/audits/evidence/faq-1440-en.png",
+    "docs/audits/evidence/faq-390-bn.png",
+    "docs/audits/evidence/faq-390-en.png",
+    "docs/audits/evidence/faq-expanded-390.png",
+    "docs/audits/evidence/final-browser-check.cjs",
+    "docs/audits/evidence/final-browser-first-run.txt",
+    "docs/audits/evidence/final-browser-retry-run.txt",
+    "docs/audits/evidence/final-browser-run.txt",
+    "docs/audits/evidence/finalize-audit.cjs",
+    "docs/audits/evidence/findings.json",
+    "docs/audits/evidence/focused-results.json",
+    "docs/audits/evidence/focused-run.txt",
+    "docs/audits/evidence/focused-verification.cjs",
+    "docs/audits/evidence/gallery-1440-en.png",
+    "docs/audits/evidence/gallery-320-en.png",
+    "docs/audits/evidence/gallery-390-bn.png",
+    "docs/audits/evidence/gallery-390-en.png",
+    "docs/audits/evidence/gallery-lightbox-390.png",
+    "docs/audits/evidence/git-final.txt",
+    "docs/audits/evidence/global-search-390.png",
+    "docs/audits/evidence/home-1440-en.png",
+    "docs/audits/evidence/home-320-en.png",
+    "docs/audits/evidence/home-390-bn.png",
+    "docs/audits/evidence/home-390-en.png",
+    "docs/audits/evidence/initial-motion-captures/about-390-en.png",
+    "docs/audits/evidence/initial-motion-captures/home-1440-en.png",
+    "docs/audits/evidence/initial-motion-captures/home-390-en.png",
+    "docs/audits/evidence/interaction-audit.cjs",
+    "docs/audits/evidence/interaction-first-results.json",
+    "docs/audits/evidence/interaction-first-run.txt",
+    "docs/audits/evidence/interaction-results.json",
+    "docs/audits/evidence/interaction-retry-run.txt",
+    "docs/audits/evidence/interaction-run.txt",
+    "docs/audits/evidence/locale-performance-audit.cjs",
+    "docs/audits/evidence/locale-performance-run.txt",
+    "docs/audits/evidence/locale-results.json",
+    "docs/audits/evidence/mission-1440-en.png",
+    "docs/audits/evidence/mission-390-bn.png",
+    "docs/audits/evidence/mission-390-en.png",
+    "docs/audits/evidence/mobile-menu-390.png",
+    "docs/audits/evidence/mobile-top-contact-sheet.png",
+    "docs/audits/evidence/news-1-1440-en.png",
+    "docs/audits/evidence/news-1-390-bn.png",
+    "docs/audits/evidence/news-1-390-en.png",
+    "docs/audits/evidence/news-1440-en.png",
+    "docs/audits/evidence/news-390-bn.png",
+    "docs/audits/evidence/news-390-en.png",
+    "docs/audits/evidence/news-invalid-1440-en.png",
+    "docs/audits/evidence/news-invalid-390-bn.png",
+    "docs/audits/evidence/news-invalid-390-en.png",
+    "docs/audits/evidence/page-errors.json",
+    "docs/audits/evidence/performance-results.json",
+    "docs/audits/evidence/polish-report.cjs",
+    "docs/audits/evidence/preloader-320.png",
+    "docs/audits/evidence/preloader-results.json",
+    "docs/audits/evidence/preservation-verification.json",
+    "docs/audits/evidence/privacy-1440-en.png",
+    "docs/audits/evidence/privacy-390-bn.png",
+    "docs/audits/evidence/privacy-390-en.png",
+    "docs/audits/evidence/product-contact-sheet.png",
+    "docs/audits/evidence/product-drawer-390.png",
+    "docs/audits/evidence/product-enquiry-subject-390.png",
+    "docs/audits/evidence/products-1440-en.png",
+    "docs/audits/evidence/products-320-en.png",
+    "docs/audits/evidence/products-390-bn.png",
+    "docs/audits/evidence/products-390-en.png",
+    "docs/audits/evidence/products-empty-390.png",
+    "docs/audits/evidence/products-image-failure-390.png",
+    "docs/audits/evidence/products-text200-390.png",
+    "docs/audits/evidence/public-data.json",
+    "docs/audits/evidence/quality-1440-en.png",
+    "docs/audits/evidence/quality-390-bn.png",
+    "docs/audits/evidence/quality-390-en.png",
+    "docs/audits/evidence/recapture-first-run.txt",
+    "docs/audits/evidence/recapture-pages.cjs",
+    "docs/audits/evidence/recapture-results.json",
+    "docs/audits/evidence/recapture-retry-run.txt",
+    "docs/audits/evidence/recapture-run.txt",
+    "docs/audits/evidence/reduced-motion.json",
+    "docs/audits/evidence/review-overviews.cjs",
+    "docs/audits/evidence/route-overview-1.png",
+    "docs/audits/evidence/route-overview-2.png",
+    "docs/audits/evidence/route-overview-3.png",
+    "docs/audits/evidence/route-overview-4.png",
+    "docs/audits/evidence/route-results.json",
+    "docs/audits/evidence/sustainability-1440-en.png",
+    "docs/audits/evidence/sustainability-390-bn.png",
+    "docs/audits/evidence/sustainability-390-en.png",
+    "docs/audits/evidence/terms-1440-en.png",
+    "docs/audits/evidence/terms-390-bn.png",
+    "docs/audits/evidence/terms-390-en.png",
+    "docs/audits/evidence/typecheck.txt",
+    "docs/audits/evidence/visibility-diagnostic-run.txt",
+    "docs/audits/evidence/visibility-diagnostic.cjs",
+    "docs/audits/evidence/write-command-log.cjs",
+    "docs/audits/evidence/write-reports.cjs",
+    "docs/audits/evidence/write-supporting-reports.cjs",
+    "src/components/PublicModal.tsx"
+  ],
+  "status": [
+    "## main...origin/main",
+    " M src/components/Navbar.tsx",
+    " M src/components/ProductImageCarousel.tsx",
+    " M src/index.css",
+    " M src/layouts/Layout.tsx",
+    " M src/pages/Careers.tsx",
+    " M src/pages/Contact.tsx",
+    " M src/pages/Gallery.tsx",
+    " M src/pages/Products.tsx",
+    "?? TASK_5B_PRODUCTION_ARCHITECTURE_AUDIT.md",
+    "?? docs/audits/2026-10-27-PUBLIC-UIUX-AUDIT.md",
+    "?? docs/audits/BATCH-1A-ACCEPTANCE-CHECK.md",
+    "?? docs/audits/BATCH-1A-IMPLEMENTATION-REPORT.md",
+    "?? docs/audits/COMMAND-LOG.md",
+    "?? docs/audits/DESIGN-SYSTEM-GAP-ANALYSIS.md",
+    "?? docs/audits/IMPLEMENTATION-ROADMAP.md",
+    "?? docs/audits/ISSUE-REGISTER.md",
+    "?? docs/audits/PLACEHOLDER-ASSET-INVENTORY.md",
+    "?? docs/audits/PRODUCT-IMAGE-INVENTORY.csv",
+    "?? docs/audits/PUBLIC-ROUTE-MATRIX.md",
+    "?? docs/audits/RESPONSIVE-QA-MATRIX.md",
+    "?? docs/audits/evidence/README.md",
+    "?? docs/audits/evidence/about-1440-en.png",
+    "?? docs/audits/evidence/about-390-bn.png",
+    "?? docs/audits/evidence/about-390-en.png",
+    "?? docs/audits/evidence/artifact-manifest.json",
+    "?? docs/audits/evidence/asset-inventory.cjs",
+    "?? docs/audits/evidence/asset-metadata.json",
+    "?? docs/audits/evidence/audit-missing-page-1440-en.png",
+    "?? docs/audits/evidence/audit-missing-page-390-bn.png",
+    "?? docs/audits/evidence/audit-missing-page-390-en.png",
+    "?? docs/audits/evidence/axe.min.js",
+    "?? docs/audits/evidence/baseline-hashes.json",
+    "?? docs/audits/evidence/batch-1a-acceptance/a11y-ownership.json",
+    "?? docs/audits/evidence/batch-1a-acceptance/a11y-server.txt",
+    "?? docs/audits/evidence/batch-1a-acceptance/a11y.cjs",
+    "?? docs/audits/evidence/batch-1a-acceptance/aborted-no-server-results.json",
+    "?? docs/audits/evidence/batch-1a-acceptance/aborted-no-server-run.txt",
+    "?? docs/audits/evidence/batch-1a-acceptance/acceptance-summary-run.txt",
+    "?? docs/audits/evidence/batch-1a-acceptance/acceptance-summary.json",
+    "?? docs/audits/evidence/batch-1a-acceptance/after-careers-1440-bn.png",
+    "?? docs/audits/evidence/batch-1a-acceptance/after-careers-1440-en.png",
+    "?? docs/audits/evidence/batch-1a-acceptance/after-careers-390-bn.png",
+    "?? docs/audits/evidence/batch-1a-acceptance/after-careers-390-en.png",
+    "?? docs/audits/evidence/batch-1a-acceptance/after-careers-open-1440-bn.png",
+    "?? docs/audits/evidence/batch-1a-acceptance/after-careers-open-1440-en.png",
+    "?? docs/audits/evidence/batch-1a-acceptance/after-careers-open-390-bn.png",
+    "?? docs/audits/evidence/batch-1a-acceptance/after-careers-open-390-en.png",
+    "?? docs/audits/evidence/batch-1a-acceptance/after-contact-1440-bn.png",
+    "?? docs/audits/evidence/batch-1a-acceptance/after-contact-1440-en.png",
+    "?? docs/audits/evidence/batch-1a-acceptance/after-contact-390-bn.png",
+    "?? docs/audits/evidence/batch-1a-acceptance/after-contact-390-en.png",
+    "?? docs/audits/evidence/batch-1a-acceptance/after-gallery-1440-bn.png",
+    "?? docs/audits/evidence/batch-1a-acceptance/after-gallery-1440-en.png",
+    "?? docs/audits/evidence/batch-1a-acceptance/after-gallery-390-bn.png",
+    "?? docs/audits/evidence/batch-1a-acceptance/after-gallery-390-en.png",
+    "?? docs/audits/evidence/batch-1a-acceptance/after-gallery-open-1440-bn.png",
+    "?? docs/audits/evidence/batch-1a-acceptance/after-gallery-open-1440-en.png",
+    "?? docs/audits/evidence/batch-1a-acceptance/after-gallery-open-390-bn.png",
+    "?? docs/audits/evidence/batch-1a-acceptance/after-gallery-open-390-en.png",
+    "?? docs/audits/evidence/batch-1a-acceptance/after-menu-390-bn.png",
+    "?? docs/audits/evidence/batch-1a-acceptance/after-menu-390-en.png",
+    "?? docs/audits/evidence/batch-1a-acceptance/after-products-1440-bn.png",
+    "?? docs/audits/evidence/batch-1a-acceptance/after-products-1440-en.png",
+    "?? docs/audits/evidence/batch-1a-acceptance/after-products-390-bn.png",
+    "?? docs/audits/evidence/batch-1a-acceptance/after-products-390-en.png",
+    "?? docs/audits/evidence/batch-1a-acceptance/after-products-open-1440-bn.png",
+    "?? docs/audits/evidence/batch-1a-acceptance/after-products-open-1440-en.png",
+    "?? docs/audits/evidence/batch-1a-acceptance/after-products-open-390-bn.png",
+    "?? docs/audits/evidence/batch-1a-acceptance/after-products-open-390-en.png",
+    "?? docs/audits/evidence/batch-1a-acceptance/baseline.json",
+    "?? docs/audits/evidence/batch-1a-acceptance/bn-320-touch.png",
+    "?? docs/audits/evidence/batch-1a-acceptance/build.txt",
+    "?? docs/audits/evidence/batch-1a-acceptance/desktop-owned.json",
+    "?? docs/audits/evidence/batch-1a-acceptance/desktop-retry-results.json",
+    "?? docs/audits/evidence/batch-1a-acceptance/desktop-retry-run.txt",
+    "?? docs/audits/evidence/batch-1a-acceptance/diagnostic-run.txt",
+    "?? docs/audits/evidence/batch-1a-acceptance/diagnostic.cjs",
+    "?? docs/audits/evidence/batch-1a-acceptance/diagnostic.json",
+    "?? docs/audits/evidence/batch-1a-acceptance/diff-check.txt",
+    "?? docs/audits/evidence/batch-1a-acceptance/external-resources-run.txt",
+    "?? docs/audits/evidence/batch-1a-acceptance/external-resources.cjs",
+    "?? docs/audits/evidence/batch-1a-acceptance/external-resources.json",
+    "?? docs/audits/evidence/batch-1a-acceptance/external-spa-resources-run.txt",
+    "?? docs/audits/evidence/batch-1a-acceptance/external-spa-resources.cjs",
+    "?? docs/audits/evidence/batch-1a-acceptance/external-spa-resources.json",
+    "?? docs/audits/evidence/batch-1a-acceptance/final-owned.json",
+    "?? docs/audits/evidence/batch-1a-acceptance/final-regression-results.json",
+    "?? docs/audits/evidence/batch-1a-acceptance/final-regression-run.txt",
+    "?? docs/audits/evidence/batch-1a-acceptance/first-sweep-runner.cjs",
+    "?? docs/audits/evidence/batch-1a-acceptance/git-status-final.txt",
+    "?? docs/audits/evidence/batch-1a-acceptance/host-routing-run.txt",
+    "?? docs/audits/evidence/batch-1a-acceptance/host-routing.cjs",
+    "?? docs/audits/evidence/batch-1a-acceptance/host-routing.json",
+    "?? docs/audits/evidence/batch-1a-acceptance/host-status-run.txt",
+    "?? docs/audits/evidence/batch-1a-acceptance/host-status.cjs",
+    "?? docs/audits/evidence/batch-1a-acceptance/host-status.json",
+    "?? docs/audits/evidence/batch-1a-acceptance/lifecycle-before-fix-pass-results.json",
+    "?? docs/audits/evidence/batch-1a-acceptance/lifecycle-before-fix-pass-run.txt",
+    "?? docs/audits/evidence/batch-1a-acceptance/lifecycle-early-assertion-ownership.json",
+    "?? docs/audits/evidence/batch-1a-acceptance/lifecycle-early-assertion-results.json",
+    "?? docs/audits/evidence/batch-1a-acceptance/lifecycle-early-assertion-run.txt",
+    "?? docs/audits/evidence/batch-1a-acceptance/lifecycle-early-assertion.cjs",
+    "?? docs/audits/evidence/batch-1a-acceptance/lifecycle-harness.html",
+    "?? docs/audits/evidence/batch-1a-acceptance/lifecycle-harness.tsx",
+    "?? docs/audits/evidence/batch-1a-acceptance/lifecycle-ownership.json",
+    "?? docs/audits/evidence/batch-1a-acceptance/lifecycle-race-failure-run.txt",
+    "?? docs/audits/evidence/batch-1a-acceptance/lifecycle-race-failure.cjs",
+    "?? docs/audits/evidence/batch-1a-acceptance/lifecycle-results.json",
+    "?? docs/audits/evidence/batch-1a-acceptance/lifecycle-run.txt",
+    "?? docs/audits/evidence/batch-1a-acceptance/lifecycle-server.txt",
+    "?? docs/audits/evidence/batch-1a-acceptance/lifecycle-teardown.json",
+    "?? docs/audits/evidence/batch-1a-acceptance/lifecycle.cjs",
+    "?? docs/audits/evidence/batch-1a-acceptance/modina-rim-and-parts-ltd.vercel.app-root.png",
+    "?? docs/audits/evidence/batch-1a-acceptance/modinarimandpartsltd.netlify.app-root.png",
+    "?? docs/audits/evidence/batch-1a-acceptance/owned-run.json",
+    "?? docs/audits/evidence/batch-1a-acceptance/pointer.cjs",
+    "?? docs/audits/evidence/batch-1a-acceptance/prepare-external-spa.cjs",
+    "?? docs/audits/evidence/batch-1a-acceptance/prepare-lifecycle.cjs",
+    "?? docs/audits/evidence/batch-1a-acceptance/prepare-runner.cjs",
+    "?? docs/audits/evidence/batch-1a-acceptance/preservation-results.json",
+    "?? docs/audits/evidence/batch-1a-acceptance/preservation.cjs",
+    "?? docs/audits/evidence/batch-1a-acceptance/preview-server.txt",
+    "?? docs/audits/evidence/batch-1a-acceptance/public-modal-before-acceptance.tsx",
+    "?? docs/audits/evidence/batch-1a-acceptance/public-modal-stabilization.diff",
+    "?? docs/audits/evidence/batch-1a-acceptance/race-before-fix-results.json",
+    "?? docs/audits/evidence/batch-1a-acceptance/race-before-fix-run.txt",
+    "?? docs/audits/evidence/batch-1a-acceptance/race-failure.png",
+    "?? docs/audits/evidence/batch-1a-acceptance/race-ownership.json",
+    "?? docs/audits/evidence/batch-1a-acceptance/race-results.json",
+    "?? docs/audits/evidence/batch-1a-acceptance/race-run.txt",
+    "?? docs/audits/evidence/batch-1a-acceptance/race-server.txt",
+    "?? docs/audits/evidence/batch-1a-acceptance/race.cjs",
+    "?? docs/audits/evidence/batch-1a-acceptance/regression-results.json",
+    "?? docs/audits/evidence/batch-1a-acceptance/regression-run.txt",
+    "?? docs/audits/evidence/batch-1a-acceptance/regression.cjs",
+    "?? docs/audits/evidence/batch-1a-acceptance/run-isolated.cjs",
+    "?? docs/audits/evidence/batch-1a-acceptance/run-owned.cjs",
+    "?? docs/audits/evidence/batch-1a-acceptance/settled-a11y-results.json",
+    "?? docs/audits/evidence/batch-1a-acceptance/settled-a11y-run.txt",
+    "?? docs/audits/evidence/batch-1a-acceptance/summarize.cjs",
+    "?? docs/audits/evidence/batch-1a-acceptance/touch-ownership.json",
+    "?? docs/audits/evidence/batch-1a-acceptance/touch-results.json",
+    "?? docs/audits/evidence/batch-1a-acceptance/touch-run.txt",
+    "?? docs/audits/evidence/batch-1a-acceptance/touch-server.txt",
+    "?? docs/audits/evidence/batch-1a-acceptance/touch-settled-320-bn.png",
+    "?? docs/audits/evidence/batch-1a-acceptance/touch-settled-320-en.png",
+    "?? docs/audits/evidence/batch-1a-acceptance/touch-settled-390-bn.png",
+    "?? docs/audits/evidence/batch-1a-acceptance/touch-settled-390-en.png",
+    "?? docs/audits/evidence/batch-1a-acceptance/touch.cjs",
+    "?? docs/audits/evidence/batch-1a-acceptance/typecheck.txt",
+    "?? docs/audits/evidence/batch-1a/README.md",
+    "?? docs/audits/evidence/batch-1a/after-careers-1440-bn.png",
+    "?? docs/audits/evidence/batch-1a/after-careers-1440-en.png",
+    "?? docs/audits/evidence/batch-1a/after-careers-390-bn.png",
+    "?? docs/audits/evidence/batch-1a/after-careers-390-en.png",
+    "?? docs/audits/evidence/batch-1a/after-careers-open-1440-bn.png",
+    "?? docs/audits/evidence/batch-1a/after-careers-open-1440-en.png",
+    "?? docs/audits/evidence/batch-1a/after-careers-open-390-bn.png",
+    "?? docs/audits/evidence/batch-1a/after-careers-open-390-en.png",
+    "?? docs/audits/evidence/batch-1a/after-contact-1440-bn.png",
+    "?? docs/audits/evidence/batch-1a/after-contact-1440-en.png",
+    "?? docs/audits/evidence/batch-1a/after-contact-390-bn.png",
+    "?? docs/audits/evidence/batch-1a/after-contact-390-en.png",
+    "?? docs/audits/evidence/batch-1a/after-gallery-1440-bn.png",
+    "?? docs/audits/evidence/batch-1a/after-gallery-1440-en.png",
+    "?? docs/audits/evidence/batch-1a/after-gallery-390-bn.png",
+    "?? docs/audits/evidence/batch-1a/after-gallery-390-en.png",
+    "?? docs/audits/evidence/batch-1a/after-gallery-open-1440-bn.png",
+    "?? docs/audits/evidence/batch-1a/after-gallery-open-1440-en.png",
+    "?? docs/audits/evidence/batch-1a/after-gallery-open-390-bn.png",
+    "?? docs/audits/evidence/batch-1a/after-gallery-open-390-en.png",
+    "?? docs/audits/evidence/batch-1a/after-menu-390-bn.png",
+    "?? docs/audits/evidence/batch-1a/after-menu-390-en.png",
+    "?? docs/audits/evidence/batch-1a/after-products-1440-bn.png",
+    "?? docs/audits/evidence/batch-1a/after-products-1440-en.png",
+    "?? docs/audits/evidence/batch-1a/after-products-390-bn.png",
+    "?? docs/audits/evidence/batch-1a/after-products-390-en.png",
+    "?? docs/audits/evidence/batch-1a/after-products-open-1440-bn.png",
+    "?? docs/audits/evidence/batch-1a/after-products-open-1440-en.png",
+    "?? docs/audits/evidence/batch-1a/after-products-open-390-bn.png",
+    "?? docs/audits/evidence/batch-1a/after-products-open-390-en.png",
+    "?? docs/audits/evidence/batch-1a/baseline.json",
+    "?? docs/audits/evidence/batch-1a/before-careers-1440.png",
+    "?? docs/audits/evidence/batch-1a/before-careers-390.png",
+    "?? docs/audits/evidence/batch-1a/before-contact-1440.png",
+    "?? docs/audits/evidence/batch-1a/before-contact-390.png",
+    "?? docs/audits/evidence/batch-1a/before-gallery-1440.png",
+    "?? docs/audits/evidence/batch-1a/before-gallery-390.png",
+    "?? docs/audits/evidence/batch-1a/before-observations.json",
+    "?? docs/audits/evidence/batch-1a/before-products-1440.png",
+    "?? docs/audits/evidence/batch-1a/before-products-390.png",
+    "?? docs/audits/evidence/batch-1a/browser-cleanup.cjs",
+    "?? docs/audits/evidence/batch-1a/build-complete.txt",
+    "?? docs/audits/evidence/batch-1a/build-final.txt",
+    "?? docs/audits/evidence/batch-1a/build-verified.txt",
+    "?? docs/audits/evidence/batch-1a/build.txt",
+    "?? docs/audits/evidence/batch-1a/capture-baseline.cjs",
+    "?? docs/audits/evidence/batch-1a/close-geometry-diagnostic.png",
+    "?? docs/audits/evidence/batch-1a/focused-final-run.txt",
+    "?? docs/audits/evidence/batch-1a/focused-first-results.json",
+    "?? docs/audits/evidence/batch-1a/focused-results.json",
+    "?? docs/audits/evidence/batch-1a/focused-retry-run.txt",
+    "?? docs/audits/evidence/batch-1a/focused-run.txt",
+    "?? docs/audits/evidence/batch-1a/focused-settled-run.txt",
+    "?? docs/audits/evidence/batch-1a/focused-verified-run.txt",
+    "?? docs/audits/evidence/batch-1a/focused.cjs",
+    "?? docs/audits/evidence/batch-1a/git-status-final.txt",
+    "?? docs/audits/evidence/batch-1a/lifecycle-accepted-run.txt",
+    "?? docs/audits/evidence/batch-1a/lifecycle-clean-teardown-run.txt",
+    "?? docs/audits/evidence/batch-1a/lifecycle-complete-run.txt",
+    "?? docs/audits/evidence/batch-1a/lifecycle-final-run.txt",
+    "?? docs/audits/evidence/batch-1a/lifecycle-final-verified.txt",
+    "?? docs/audits/evidence/batch-1a/lifecycle-harness.html",
+    "?? docs/audits/evidence/batch-1a/lifecycle-harness.tsx",
+    "?? docs/audits/evidence/batch-1a/lifecycle-results.json",
+    "?? docs/audits/evidence/batch-1a/lifecycle-retry-run.txt",
+    "?? docs/audits/evidence/batch-1a/lifecycle-teardown.json",
+    "?? docs/audits/evidence/batch-1a/lifecycle-verified-run.txt",
+    "?? docs/audits/evidence/batch-1a/lifecycle.cjs",
+    "?? docs/audits/evidence/batch-1a/local-checks-complete-run.txt",
+    "?? docs/audits/evidence/batch-1a/local-checks-first-results.json",
+    "?? docs/audits/evidence/batch-1a/local-checks-results.json",
+    "?? docs/audits/evidence/batch-1a/local-checks-run.txt",
+    "?? docs/audits/evidence/batch-1a/local-checks.cjs",
+    "?? docs/audits/evidence/batch-1a/owned-process-cleanup.txt",
+    "?? docs/audits/evidence/batch-1a/pointer.cjs",
+    "?? docs/audits/evidence/batch-1a/preservation-command.txt",
+    "?? docs/audits/evidence/batch-1a/preservation-results.json",
+    "?? docs/audits/evidence/batch-1a/public-smoke-results.json",
+    "?? docs/audits/evidence/batch-1a/public-smoke-run.txt",
+    "?? docs/audits/evidence/batch-1a/public-smoke.cjs",
+    "?? docs/audits/evidence/batch-1a/regression-complete-results.json",
+    "?? docs/audits/evidence/batch-1a/regression-complete-run.txt",
+    "?? docs/audits/evidence/batch-1a/regression-corrected-results.json",
+    "?? docs/audits/evidence/batch-1a/regression-corrected-run.txt",
+    "?? docs/audits/evidence/batch-1a/regression-final-results.json",
+    "?? docs/audits/evidence/batch-1a/regression-final-run.txt",
+    "?? docs/audits/evidence/batch-1a/regression-final-targeted-results.json",
+    "?? docs/audits/evidence/batch-1a/regression-final-targeted-run.txt",
+    "?? docs/audits/evidence/batch-1a/regression-first-results.json",
+    "?? docs/audits/evidence/batch-1a/regression-navigation-retry-results.json",
+    "?? docs/audits/evidence/batch-1a/regression-navigation-retry-run.txt",
+    "?? docs/audits/evidence/batch-1a/regression-results.json",
+    "?? docs/audits/evidence/batch-1a/regression-retry-results.json",
+    "?? docs/audits/evidence/batch-1a/regression-retry-run.txt",
+    "?? docs/audits/evidence/batch-1a/regression-run.txt",
+    "?? docs/audits/evidence/batch-1a/regression-settled-results.json",
+    "?? docs/audits/evidence/batch-1a/regression-settled-run.txt",
+    "?? docs/audits/evidence/batch-1a/regression-verified-results.json",
+    "?? docs/audits/evidence/batch-1a/regression-verified-run.txt",
+    "?? docs/audits/evidence/batch-1a/regression.cjs",
+    "?? docs/audits/evidence/batch-1a/smoke-careers-open.png",
+    "?? docs/audits/evidence/batch-1a/smoke-gallery-open.png",
+    "?? docs/audits/evidence/batch-1a/smoke-products-open.png",
+    "?? docs/audits/evidence/batch-1a/smoke-results.json",
+    "?? docs/audits/evidence/batch-1a/smoke.cjs",
+    "?? docs/audits/evidence/batch-1a/typecheck-complete.txt",
+    "?? docs/audits/evidence/batch-1a/typecheck-final.txt",
+    "?? docs/audits/evidence/batch-1a/typecheck-verified.txt",
+    "?? docs/audits/evidence/batch-1a/typecheck.txt",
+    "?? docs/audits/evidence/batch-1a/validation-summary.json",
+    "?? docs/audits/evidence/batch-1a/verify-preservation.cjs",
+    "?? docs/audits/evidence/blog-1-1440-en.png",
+    "?? docs/audits/evidence/blog-1-390-bn.png",
+    "?? docs/audits/evidence/blog-1-390-en.png",
+    "?? docs/audits/evidence/blog-1440-en.png",
+    "?? docs/audits/evidence/blog-390-bn.png",
+    "?? docs/audits/evidence/blog-390-en.png",
+    "?? docs/audits/evidence/blog-featured-1440-en.png",
+    "?? docs/audits/evidence/blog-featured-390-bn.png",
+    "?? docs/audits/evidence/blog-featured-390-en.png",
+    "?? docs/audits/evidence/blog-invalid-1440-en.png",
+    "?? docs/audits/evidence/blog-invalid-390-bn.png",
+    "?? docs/audits/evidence/blog-invalid-390-en.png",
+    "?? docs/audits/evidence/brand-media-contact-sheet.png",
+    "?? docs/audits/evidence/browser-audit.cjs",
+    "?? docs/audits/evidence/browser-first-attempt.txt",
+    "?? docs/audits/evidence/browser-run.txt",
+    "?? docs/audits/evidence/build.txt",
+    "?? docs/audits/evidence/button-style-results.json",
+    "?? docs/audits/evidence/careers-1440-en.png",
+    "?? docs/audits/evidence/careers-390-bn.png",
+    "?? docs/audits/evidence/careers-390-en.png",
+    "?? docs/audits/evidence/careers-form-390.png",
+    "?? docs/audits/evidence/certificate-contact-sheet.png",
+    "?? docs/audits/evidence/certificates-1440-en.png",
+    "?? docs/audits/evidence/certificates-320-en.png",
+    "?? docs/audits/evidence/certificates-390-bn.png",
+    "?? docs/audits/evidence/certificates-390-en.png",
+    "?? docs/audits/evidence/chat-landscape-667x375.png",
+    "?? docs/audits/evidence/commands.json",
+    "?? docs/audits/evidence/contact-1440-en.png",
+    "?? docs/audits/evidence/contact-320-en.png",
+    "?? docs/audits/evidence/contact-390-bn.png",
+    "?? docs/audits/evidence/contact-390-en.png",
+    "?? docs/audits/evidence/contact-top-390.png",
+    "?? docs/audits/evidence/delivery-validation.json",
+    "?? docs/audits/evidence/deployed-modina-rim-and-parts-ltd.png",
+    "?? docs/audits/evidence/deployment-results.json",
+    "?? docs/audits/evidence/desktop-dropdown-1440.png",
+    "?? docs/audits/evidence/download-action-390.png",
+    "?? docs/audits/evidence/downloads-1440-en.png",
+    "?? docs/audits/evidence/downloads-390-bn.png",
+    "?? docs/audits/evidence/downloads-390-en.png",
+    "?? docs/audits/evidence/engine-availability.json",
+    "?? docs/audits/evidence/environment.json",
+    "?? docs/audits/evidence/faq-1440-en.png",
+    "?? docs/audits/evidence/faq-390-bn.png",
+    "?? docs/audits/evidence/faq-390-en.png",
+    "?? docs/audits/evidence/faq-expanded-390.png",
+    "?? docs/audits/evidence/final-browser-check.cjs",
+    "?? docs/audits/evidence/final-browser-first-run.txt",
+    "?? docs/audits/evidence/final-browser-retry-run.txt",
+    "?? docs/audits/evidence/final-browser-run.txt",
+    "?? docs/audits/evidence/finalize-audit.cjs",
+    "?? docs/audits/evidence/findings.json",
+    "?? docs/audits/evidence/focused-results.json",
+    "?? docs/audits/evidence/focused-run.txt",
+    "?? docs/audits/evidence/focused-verification.cjs",
+    "?? docs/audits/evidence/gallery-1440-en.png",
+    "?? docs/audits/evidence/gallery-320-en.png",
+    "?? docs/audits/evidence/gallery-390-bn.png",
+    "?? docs/audits/evidence/gallery-390-en.png",
+    "?? docs/audits/evidence/gallery-lightbox-390.png",
+    "?? docs/audits/evidence/git-final.txt",
+    "?? docs/audits/evidence/global-search-390.png",
+    "?? docs/audits/evidence/home-1440-en.png",
+    "?? docs/audits/evidence/home-320-en.png",
+    "?? docs/audits/evidence/home-390-bn.png",
+    "?? docs/audits/evidence/home-390-en.png",
+    "?? docs/audits/evidence/initial-motion-captures/about-390-en.png",
+    "?? docs/audits/evidence/initial-motion-captures/home-1440-en.png",
+    "?? docs/audits/evidence/initial-motion-captures/home-390-en.png",
+    "?? docs/audits/evidence/interaction-audit.cjs",
+    "?? docs/audits/evidence/interaction-first-results.json",
+    "?? docs/audits/evidence/interaction-first-run.txt",
+    "?? docs/audits/evidence/interaction-results.json",
+    "?? docs/audits/evidence/interaction-retry-run.txt",
+    "?? docs/audits/evidence/interaction-run.txt",
+    "?? docs/audits/evidence/locale-performance-audit.cjs",
+    "?? docs/audits/evidence/locale-performance-run.txt",
+    "?? docs/audits/evidence/locale-results.json",
+    "?? docs/audits/evidence/mission-1440-en.png",
+    "?? docs/audits/evidence/mission-390-bn.png",
+    "?? docs/audits/evidence/mission-390-en.png",
+    "?? docs/audits/evidence/mobile-menu-390.png",
+    "?? docs/audits/evidence/mobile-top-contact-sheet.png",
+    "?? docs/audits/evidence/news-1-1440-en.png",
+    "?? docs/audits/evidence/news-1-390-bn.png",
+    "?? docs/audits/evidence/news-1-390-en.png",
+    "?? docs/audits/evidence/news-1440-en.png",
+    "?? docs/audits/evidence/news-390-bn.png",
+    "?? docs/audits/evidence/news-390-en.png",
+    "?? docs/audits/evidence/news-invalid-1440-en.png",
+    "?? docs/audits/evidence/news-invalid-390-bn.png",
+    "?? docs/audits/evidence/news-invalid-390-en.png",
+    "?? docs/audits/evidence/page-errors.json",
+    "?? docs/audits/evidence/performance-results.json",
+    "?? docs/audits/evidence/polish-report.cjs",
+    "?? docs/audits/evidence/preloader-320.png",
+    "?? docs/audits/evidence/preloader-results.json",
+    "?? docs/audits/evidence/preservation-verification.json",
+    "?? docs/audits/evidence/privacy-1440-en.png",
+    "?? docs/audits/evidence/privacy-390-bn.png",
+    "?? docs/audits/evidence/privacy-390-en.png",
+    "?? docs/audits/evidence/product-contact-sheet.png",
+    "?? docs/audits/evidence/product-drawer-390.png",
+    "?? docs/audits/evidence/product-enquiry-subject-390.png",
+    "?? docs/audits/evidence/products-1440-en.png",
+    "?? docs/audits/evidence/products-320-en.png",
+    "?? docs/audits/evidence/products-390-bn.png",
+    "?? docs/audits/evidence/products-390-en.png",
+    "?? docs/audits/evidence/products-empty-390.png",
+    "?? docs/audits/evidence/products-image-failure-390.png",
+    "?? docs/audits/evidence/products-text200-390.png",
+    "?? docs/audits/evidence/public-data.json",
+    "?? docs/audits/evidence/quality-1440-en.png",
+    "?? docs/audits/evidence/quality-390-bn.png",
+    "?? docs/audits/evidence/quality-390-en.png",
+    "?? docs/audits/evidence/recapture-first-run.txt",
+    "?? docs/audits/evidence/recapture-pages.cjs",
+    "?? docs/audits/evidence/recapture-results.json",
+    "?? docs/audits/evidence/recapture-retry-run.txt",
+    "?? docs/audits/evidence/recapture-run.txt",
+    "?? docs/audits/evidence/reduced-motion.json",
+    "?? docs/audits/evidence/review-overviews.cjs",
+    "?? docs/audits/evidence/route-overview-1.png",
+    "?? docs/audits/evidence/route-overview-2.png",
+    "?? docs/audits/evidence/route-overview-3.png",
+    "?? docs/audits/evidence/route-overview-4.png",
+    "?? docs/audits/evidence/route-results.json",
+    "?? docs/audits/evidence/sustainability-1440-en.png",
+    "?? docs/audits/evidence/sustainability-390-bn.png",
+    "?? docs/audits/evidence/sustainability-390-en.png",
+    "?? docs/audits/evidence/terms-1440-en.png",
+    "?? docs/audits/evidence/terms-390-bn.png",
+    "?? docs/audits/evidence/terms-390-en.png",
+    "?? docs/audits/evidence/typecheck.txt",
+    "?? docs/audits/evidence/visibility-diagnostic-run.txt",
+    "?? docs/audits/evidence/visibility-diagnostic.cjs",
+    "?? docs/audits/evidence/write-command-log.cjs",
+    "?? docs/audits/evidence/write-reports.cjs",
+    "?? docs/audits/evidence/write-supporting-reports.cjs",
+    "?? src/components/PublicModal.tsx"
+  ],
+  "files": [
+    {
+      "path": ".env.example",
+      "sha256": "B6D12C728DE0AAC8B0BC6239E53AA8088C1431BCB4F9A3D61E5E8A2DF1C7C400"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "DB691F14FCF678985362A42C6AEDB581E42CD6BB99962CE1B44AEA460FB2A4DF"
+    },
+    {
+      "path": ".vscode/extensions.json",
+      "sha256": "B0EF426EC81DE75E04C9111C71BE0BF6E98C9D841592896FB067E8B4C1D622B2"
+    },
+    {
+      "path": "DESIGN.md",
+      "sha256": "3C50994CD875553F8290E8BB86461C3D09A216F42304700C3835820474218223"
+    },
+    {
+      "path": "docs/audits/2026-10-27-PUBLIC-UIUX-AUDIT.md",
+      "sha256": "939A77573F47B269BFBAB9F01E73FA6FFA1F6D3381AB62E269822D35DF2F0DE5"
+    },
+    {
+      "path": "docs/audits/BATCH-1A-ACCEPTANCE-CHECK.md",
+      "sha256": "AFDD9D7C91615170F054FA9BF05C37CB5F59A47E24E2F20B6C2F8C9EDF98D078"
+    },
+    {
+      "path": "docs/audits/BATCH-1A-IMPLEMENTATION-REPORT.md",
+      "sha256": "CAFE1D6F18E1702C0D12E70E0E821E8E61AFF5A44232E1E29AD5D60825C5DAB6"
+    },
+    {
+      "path": "docs/audits/COMMAND-LOG.md",
+      "sha256": "5264A960653D3657A223D2D1538C0B5188537426C0734E2CC39357EE21179784"
+    },
+    {
+      "path": "docs/audits/DESIGN-SYSTEM-GAP-ANALYSIS.md",
+      "sha256": "CF9CE1D63DA918D6661948E903DF17B615A91740A330D7E1C4F41E258205351C"
+    },
+    {
+      "path": "docs/audits/evidence/about-1440-en.png",
+      "sha256": "5A4802E71987411725AA2DF2240F837F094C4434AB1BB0D4780B27D676959D2C"
+    },
+    {
+      "path": "docs/audits/evidence/about-390-bn.png",
+      "sha256": "6B8930F6789CC337EAA801810E3830F1ED54B3A9F4EBB9BD2A93BB098BE025C2"
+    },
+    {
+      "path": "docs/audits/evidence/about-390-en.png",
+      "sha256": "B2AA94BE44E887A6508FF6EDB9BAE74B989EEF901D30AD432ED494C0C20C7BB1"
+    },
+    {
+      "path": "docs/audits/evidence/artifact-manifest.json",
+      "sha256": "8DED72BA46B3DAC90FA6B446CC89166B62788D95F4018D96A0F98773BB0F2826"
+    },
+    {
+      "path": "docs/audits/evidence/asset-inventory.cjs",
+      "sha256": "E476EF7D2444A129569A0DC463AB5CFD7E1D3B58D07F702981273085E6707316"
+    },
+    {
+      "path": "docs/audits/evidence/asset-metadata.json",
+      "sha256": "58BB52CBD3F7B14653E3A6111ECA0E000EEDC928D5C0ACDBD60FCCAFFFD7CE52"
+    },
+    {
+      "path": "docs/audits/evidence/audit-missing-page-1440-en.png",
+      "sha256": "479F59259D76F62160D8B01280DA073924B6FCA189B4259D2B1F99D640733340"
+    },
+    {
+      "path": "docs/audits/evidence/audit-missing-page-390-bn.png",
+      "sha256": "60A2DEE0C691DC785D99266583E22845728688B3A449756AD545D2A4116F5EEA"
+    },
+    {
+      "path": "docs/audits/evidence/audit-missing-page-390-en.png",
+      "sha256": "D18DA62163286766FE8FD2E431A0E396BA55A5B063EBDD2C6689DF0ACF727DE2"
+    },
+    {
+      "path": "docs/audits/evidence/axe.min.js",
+      "sha256": "880970C081707360E64F34CEA25FF91892F5BC95675B0776925B9709DD8A68BB"
+    },
+    {
+      "path": "docs/audits/evidence/baseline-hashes.json",
+      "sha256": "4BC4A899765D0DE0E953C8E76D18D9E209F0903484DB66693CB01D45734F7BEE"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/a11y-ownership.json",
+      "sha256": "024C3F5A970A27A065133DD1594B5D81A0AF61FB66718A56177B358EC7E0D684"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/a11y-server.txt",
+      "sha256": "69A6A3331EA046B4BB1B8E497AEF8C1E7253265FE5E30A7D08E58FEAC9C37585"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/a11y.cjs",
+      "sha256": "510943800C30CA6CF6BABF632D8CA4E50EE9B9A4799A9E576A20639AD77A97F3"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/aborted-no-server-results.json",
+      "sha256": "FEF1AB370D70D90A0360DC6AA4664C704121DD57A74719F1E38E21AF9E506775"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/aborted-no-server-run.txt",
+      "sha256": "A763FE4C2FDA2918520C68ED887A396411BB28AF89F3A12C54524FDBB5E2BEC3"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/acceptance-summary-run.txt",
+      "sha256": "B1DD1B3006CE31567DCDD96CFAF484A5097937A4FA7B9E6CB5B919D8F7A27292"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/acceptance-summary.json",
+      "sha256": "3021B97F8836CB4F40386DF4272BE3C77AF7C9F2CB8DE38B05C477F5FE3AF7AA"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/after-careers-1440-bn.png",
+      "sha256": "144F9C449E0A42C68DDF62739516D6526C6B3F384F20ACF42EF4046AAEC33F97"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/after-careers-1440-en.png",
+      "sha256": "BC57CAC313B854931631FE770AD794968C59630108B165EBAD168E4C82803F90"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/after-careers-390-bn.png",
+      "sha256": "704A7ECEB6D044184072365FFCB538701180F26FD967C62B0FFEC6C7328034FF"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/after-careers-390-en.png",
+      "sha256": "E6210C47474DEE2D0C21FF105188FF05AA965F5D84B46FA288E8D0B1E964B04C"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/after-careers-open-1440-bn.png",
+      "sha256": "8D390A9B1FC842EEA6A824F84278132864DCA62D0B906511E9089BDE210A47E7"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/after-careers-open-1440-en.png",
+      "sha256": "DD38B82256DE552290A7CF581423BB9E7A7415092E0D7AEDC331B34D99533DFB"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/after-careers-open-390-bn.png",
+      "sha256": "659C25B78EF65E5F3F0127EA38FB1C217575FCB3894A0291357C23B42000DA8C"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/after-careers-open-390-en.png",
+      "sha256": "088E896B04ED7C133CE2B87EDC24A70B8DED22F921D1C9B7D90DD2E6E02E949F"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/after-contact-1440-bn.png",
+      "sha256": "849C56B1C41F383F91A7E407C680C36A0247E0E14597B1F9E1E2A68373D0C92A"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/after-contact-1440-en.png",
+      "sha256": "45100994980B250D8F837706D7E882F11DE654858B44BAA90C3BFCB1A127AAF6"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/after-contact-390-bn.png",
+      "sha256": "C21522731F439256BD98BBAD5B15E292E7665A0FC22C14EEEE45F564FD63AA26"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/after-contact-390-en.png",
+      "sha256": "F2A04FBA5FB1BCA5E35481262CBFEC9B8A4942746E524373779D8FC89CF33974"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/after-gallery-1440-bn.png",
+      "sha256": "AD0E459A09F4CA27511D80A73792D8D9DED325C638C94E0E2608FCF579465E80"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/after-gallery-1440-en.png",
+      "sha256": "86CB3C7B551F07D2B8B536ABA4B9493833013306C428333BB015817BEAF04167"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/after-gallery-390-bn.png",
+      "sha256": "4EDDD4A2557028B4B75371F1E5FF82A5922180041AEDA1FADC59EECE11C94B94"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/after-gallery-390-en.png",
+      "sha256": "ABAAC21CBD204CD287FF67D722E84FE758AF191A1BFF0AA9A22ECB844C461DBE"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/after-gallery-open-1440-bn.png",
+      "sha256": "23ED6352A20D50DEC4C435A34BDD7761D3C24E4A5907460D2093A37C3CD5DADA"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/after-gallery-open-1440-en.png",
+      "sha256": "C0B0AABF14DE27AC714EB3D0B01B4CC654B53CF106254EE6B11420EA91E6FB16"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/after-gallery-open-390-bn.png",
+      "sha256": "7443D77C4170B58D621E31A00F2AE36394F24ED89FC57175BD95B4788734BC60"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/after-gallery-open-390-en.png",
+      "sha256": "6AE5FDB5531CFE2FC94D601EBF673E6ECECDF54A08B7DCC7EC018E4B6CE62989"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/after-menu-390-bn.png",
+      "sha256": "7137251B52EA011CB8CCA6DBA42226C7D1677E819B7EDADCD714B2AFBB7B97F6"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/after-menu-390-en.png",
+      "sha256": "F42F1BF7A2C65C69E28727E20C51E8842F04AFA0C6E6595C38D4FD51A7282262"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/after-products-1440-bn.png",
+      "sha256": "B6F9EBAA95565B1F60EFE7E308A19099AFAC567BED4D30A0044DD1C403D7DE3A"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/after-products-1440-en.png",
+      "sha256": "A1EB2CC408065F66F8C3CFEAB300937FF3DF101E01696F8B2DB96D0D96D9222D"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/after-products-390-bn.png",
+      "sha256": "C4A6D4B973D6F01F40B1E069B81525261E8887DEBE49908846C2395CE53E5ACE"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/after-products-390-en.png",
+      "sha256": "F004AD3A574ED8A247F5B0A74FBCE8B1CF388C1FF610C854CB0D0568689BF95D"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/after-products-open-1440-bn.png",
+      "sha256": "D14B62976A677F2DCEED7712049EF0372C08C1078DAE5024595EC48983A3BF27"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/after-products-open-1440-en.png",
+      "sha256": "77B21D9221CB0AA4ED38BCBFEE8B54C757972DACD4061348078AA078F2A2DA14"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/after-products-open-390-bn.png",
+      "sha256": "5FE6C7C250838834FB3ECB5F8D0A0FDB9AA1B3C1147A360D80B35AFF89FC8413"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/after-products-open-390-en.png",
+      "sha256": "34D03A2408DD34E62BC23B562DA3A2A7780E2BF4E7CACB56F4F0B0637F018414"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/baseline.json",
+      "sha256": "2102371625F6D2548C9AEE6D88DE521692AF8FE599285D3D54888463B4A1EF4B"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/bn-320-touch.png",
+      "sha256": "DE8257A4FE4BF3F915EAC7BF82B730DBC56CB3C9ED5C2C8D7266FBC1E476249A"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/build.txt",
+      "sha256": "7C6F9D7DD32BDB9A509090F0AA81B03116A3F92E65D0C712B2BCA94B90CB6C56"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/desktop-owned.json",
+      "sha256": "92EDF9EB4232E42CBB82EE22F08CB6E0DEBCC686607357F6804B8305224CE395"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/desktop-retry-results.json",
+      "sha256": "15B6F37A132864B3D7898F5418FE021C27CB88059E72A58492FA154E6B68AD9F"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/desktop-retry-run.txt",
+      "sha256": "FD1ACF7C0E12B9030512A486714ED5AB32355AD9783A9FEAC92A334D50B66BFB"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/diagnostic-run.txt",
+      "sha256": "A2785B8287D78CF7B173AA85F7CFAE7D6899AE40E62864B9F548A4EC2154FE64"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/diagnostic.cjs",
+      "sha256": "B38A9B36CC8118698FA71A2C484B25C4A32C509FEEEC05C0891F6E8EAFA807F9"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/diagnostic.json",
+      "sha256": "605DA27E712900A8FC589A460400F9F160DE159A704C44264DAD9ACE8F40D4BD"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/diff-check.txt",
+      "sha256": "31277AD910EBF65E19CE5B9CCCBBA7D49F9D7BE94FF4066F1E83AB686A733B37"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/external-resources-run.txt",
+      "sha256": "674CB88D7C8D2E07A9F36C00591F1154FB09B3D4D8EBC982FCD4F735013C7AE9"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/external-resources.cjs",
+      "sha256": "3793136EB5F2D4288CDB03FDB62C2DCA4A370DB2BD1E76DCC28F4F073FF6C361"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/external-resources.json",
+      "sha256": "AF900A24E27C826BAFC297420E508A9051D2FB41C515825EEB22C781B4560A17"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/external-spa-resources-run.txt",
+      "sha256": "E69B4B11B66A1967D6BA05A6592091F65ECE04CD006C8D2E724CF9BB7E44F99E"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/external-spa-resources.cjs",
+      "sha256": "AE2D0B19ECBDDC99498D902F4EFE58E388209169EC932E0AF6E42B1830CD0143"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/external-spa-resources.json",
+      "sha256": "71BF8583D7BAF463C3D044C2AC0B5F11A80ECA3E1F7063C70EB6FAFA81F622CA"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/final-owned.json",
+      "sha256": "D9E1454AC24554AB41DEDA9A52AEF6D6A2ADACD991BEE6D57DF7DF00BC89050B"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/final-regression-results.json",
+      "sha256": "97FD5991BEDE3E27AA7ABA5CAF63750F33FABAC4A06C1755FEF8322B44EDD88E"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/final-regression-run.txt",
+      "sha256": "E5569CB142FD20F5C517E01BD8613D46DCEDB05AA98097CFA06D02FE23A916C9"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/first-sweep-runner.cjs",
+      "sha256": "33697DBC0719226D2C286088ACDD2C376F4E4FB75E4C6BC2A80F0AD423CFB25B"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/git-status-final.txt",
+      "sha256": "C602DD88DA55E7B48060C9037741DE245C33F5FC1D3D60AA30E61DD92096DAB9"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/host-routing-run.txt",
+      "sha256": "8DF540352ABD4026DF2C0DFC43B11F7B7AAE5387AF9D37283D50620369802ED4"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/host-routing.cjs",
+      "sha256": "29330CDB6BB96A6A078C2AEBBCFBD5CC2E2865839A9636C1AE01C47ADE2DEA46"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/host-routing.json",
+      "sha256": "82F48AEF8D78BF10702F20B8B066ED07CDAAB0AE90DC38C101088FD60D049D41"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/host-status-run.txt",
+      "sha256": "AE8047FAD8771C023520FCB5D7BF0A861639E2AFE0621040B7956F59A0AF7989"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/host-status.cjs",
+      "sha256": "39108C596E472CBD857530FFE1EF04EE763E3D5BD05E6D62971C9AA4166267FF"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/host-status.json",
+      "sha256": "382B4F86E0012F3CD8BEF6F43AF5A2C51BB85594531C048BCEFA3802E46840EC"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/lifecycle-before-fix-pass-results.json",
+      "sha256": "9A042F987D09EFDDB079D9859C09EFB1ED604F17923DE7CA685A7099CC95069B"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/lifecycle-before-fix-pass-run.txt",
+      "sha256": "310D940F2518961F6346759C86025ECC0BA3ACC74DC0F099D9DD42E2012BD21B"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/lifecycle-early-assertion-ownership.json",
+      "sha256": "6ABAF1074664DA419BB3317073695488E0E6C8CCC5D7C1B17938305D1E0A55B5"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/lifecycle-early-assertion-results.json",
+      "sha256": "4F53CDA18C2BAA0C0354BB5F9A3ECBE5ED12AB4D8E11BA873C2F11161202B945"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/lifecycle-early-assertion-run.txt",
+      "sha256": "03C09E84593D95624B39B6F10093C01A6C744FEC64D92D35CE6D8B772D198B42"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/lifecycle-early-assertion.cjs",
+      "sha256": "1AEF449DFE320578FD5589108745A91CEC896C5F9D069E93DAFCAC1CF5D206C7"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/lifecycle-harness.html",
+      "sha256": "85C5707467D1C7824896B8B24E7876B9C5C9E908A6AE5DA9F3B765EFC5EF9F10"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/lifecycle-harness.tsx",
+      "sha256": "939E6E544CD61898A63C69BBC83D1BD51D38FC77540CDD1049404D5B7EB1AF2D"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/lifecycle-ownership.json",
+      "sha256": "9749863EC7B2F3E8B42B5F5FCEA0FA024D88ACD2114D86E9786DBA7A92D408EF"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/lifecycle-race-failure-run.txt",
+      "sha256": "B2AD19ECCB1E31EFE4E9AB301F5919F7521D2D6F8124FFC614B52B08F4B7151C"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/lifecycle-race-failure.cjs",
+      "sha256": "B0B39C808CF6413C465EE4921D25EC9E994CD5404F66C1AC546565151C3ED565"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/lifecycle-results.json",
+      "sha256": "9A042F987D09EFDDB079D9859C09EFB1ED604F17923DE7CA685A7099CC95069B"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/lifecycle-run.txt",
+      "sha256": "310D940F2518961F6346759C86025ECC0BA3ACC74DC0F099D9DD42E2012BD21B"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/lifecycle-server.txt",
+      "sha256": "EB28BC527E9326CD6E56BD5DAE81C68D20BDAC81B234D70904C68242F9F5E141"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/lifecycle-teardown.json",
+      "sha256": "C5A1D677512B6070FBDE7385B6676872E8B6FF0F6ED13AE281F01A38B8946F1E"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/lifecycle.cjs",
+      "sha256": "77192FB1463B7D530C71B4C9B6A909AE90CD3233AD9FE602934F1F504C571F5C"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/modina-rim-and-parts-ltd.vercel.app-root.png",
+      "sha256": "47424855C9A8C78A2E9A95E7444BA91B0154497B63F931B448CD5F3C2E9F8416"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/modinarimandpartsltd.netlify.app-root.png",
+      "sha256": "2AF4368B937E00AD5CEF003D3F02A85AAC3D9326A968F85B83B4D3DE49FAAFF3"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/owned-run.json",
+      "sha256": "9C77E7A9AC608E30CFC0F0B47AE95FF7A2858CC76FC121D1167554AA53175775"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/pointer.cjs",
+      "sha256": "CEF17A9ED39A28E126C2465E6C4030164F161AE04EAC95E283ECFF32706DD0F5"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/prepare-external-spa.cjs",
+      "sha256": "297D11E9BDECB6744346F5D65C7FE62761E11F7B19E975DDA07A6D4C40A04BB7"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/prepare-lifecycle.cjs",
+      "sha256": "917713FDD29C9DE17B1000A689EBC360E02E129AFA8CDC849D5C8C71BFFFAC49"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/prepare-runner.cjs",
+      "sha256": "76BDAD2BEF0D7B2CA6F1812A3FF731A14B2CB33A193A074A6ACE88B3CB2A59C3"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/preservation-results.json",
+      "sha256": "DDE5C1A70DF19747332B19985993D2AA4C9862F4D823633983AA9934E5B78C7B"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/preservation.cjs",
+      "sha256": "ED4C825B93592B4DFCA9DC2B6176CE6BCD58A3EC087FEE5884273882B25DCC81"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/preview-server.txt",
+      "sha256": "4724FBEACD7E06FDEE70E9CDB3D8756F57EE6BDE702031F9B9B5EA274900C851"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/public-modal-before-acceptance.tsx",
+      "sha256": "73B0CD400EFD2A971299598283621C003E24257170A0FC3757E4F8147461EAC0"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/public-modal-stabilization.diff",
+      "sha256": "4844B3E1E4296A98E60EE883CEF09EF001FC18B7DE27D1F2BC8F3983F20383E8"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/race-before-fix-results.json",
+      "sha256": "A4E52ECE86BC072C4FB1F590C5980E4036BA89C54A3B71A06AF7AD2D5B9A7435"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/race-before-fix-run.txt",
+      "sha256": "41E5185945B4FBFB71D1E6829B5A4CF0B47304A97BA594FA1F976E83D49138DE"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/race-failure.png",
+      "sha256": "2B3933998FC5C5845F304392C7E9D64181083E6F99A5BAAC770A0FB2F2AC4148"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/race-ownership.json",
+      "sha256": "7F77302B9C45A3524168E66A37F00DFB5F2123354A481326B986136FCA814455"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/race-results.json",
+      "sha256": "C4EC3BC254DC51C5B38A0347980EFBF1D98971233C290CDF19C6FD6E478A1F0F"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/race-run.txt",
+      "sha256": "1D1A6EEED14DECED78FB8FF53E1DEB0A3E7C7796E54A4F2417D58895BF462B9B"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/race-server.txt",
+      "sha256": "A921F7518CABE1F8E19FCC55B21D0C8AEADFB072BE3DA90BAC8D6922A83544E6"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/race.cjs",
+      "sha256": "2BBDD48A7EEB10AB9D183F9F339F8BB5432EFC64C13AAF7C64300E20CC77885C"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/regression-results.json",
+      "sha256": "6F75C89EB934949933F2D7D324166A13474AD5B5A877954A8CB58775F8FD014A"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/regression-run.txt",
+      "sha256": "F9AF92B9F51BC744CEFCCB97FFFC4ABC92173FECED4021C23CB3B62BFB1EDB99"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/regression.cjs",
+      "sha256": "281CE83812D8A76D232E81DFECC5F38EB18279CFED20DE947045087BB53030D1"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/run-isolated.cjs",
+      "sha256": "A8179F7A3B30239FACB2460C8222F236D483646BF6D769188F579F634A53006C"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/run-owned.cjs",
+      "sha256": "48CD3A21FCDC29F4D6665319E11F6ABD7C0AC1148195AE658FEC1FEDE1D1F250"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/settled-a11y-results.json",
+      "sha256": "F7D4963154628A57D4725E670408C66DEE7518561A8C829E6663E2F9F3137196"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/settled-a11y-run.txt",
+      "sha256": "559B220DF530C064CE98E8815A63EBB257633937BC16A9901BEE67A3F9817E9B"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/summarize.cjs",
+      "sha256": "F3DD5262FE86EAAC9C24D00A2F1F94E0A0B923D0C56CD96FF5A37DC058A96E66"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/touch-ownership.json",
+      "sha256": "E5ADF8B2F3C76DFC72B66CA32FE94361AB754CAA1BA37C694D3808B56867682E"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/touch-results.json",
+      "sha256": "F43DCFDFD72F6113DB0A908AA042AD88CB84EC4969994404C55B2088A5BE679A"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/touch-run.txt",
+      "sha256": "E064C4C66BA8B277561C33E7403FAD056CA3560F8BF7856DC806B4E65965253F"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/touch-server.txt",
+      "sha256": "69A6A3331EA046B4BB1B8E497AEF8C1E7253265FE5E30A7D08E58FEAC9C37585"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/touch-settled-320-bn.png",
+      "sha256": "0887ABC959C3D0D3575F758B6E20F0928E5833D663303117D5C2C630A627F3DB"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/touch-settled-320-en.png",
+      "sha256": "8B07C5461B1ADC183F411DFB9A5AC52644EBD34BFDAEBA194025986A4E2C73F5"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/touch-settled-390-bn.png",
+      "sha256": "6408C4B206D3D8921130E78A9660A0C3080744315F81337EF4678FDF978C7FFD"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/touch-settled-390-en.png",
+      "sha256": "83C3A13408D9ADE2920A5BCE2025B7F13A18A15B7BDD353D3525C76A76890085"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/touch.cjs",
+      "sha256": "36252AF6B64D34595FDEB28E42942F2D737C28ACC1D4A5D9B4A291DB2D1E18D6"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a-acceptance/typecheck.txt",
+      "sha256": "A37CA5AC8B9F1B66CD787D9075618BE76BDA385D5B1DABB893115124E46A7E34"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/after-careers-1440-bn.png",
+      "sha256": "2372194A359FAA1DAC172FCFE26E4BF83B83D0712EF877CBFE67C44EA703C10C"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/after-careers-1440-en.png",
+      "sha256": "9575A3DD7C06DC9BD256E0042DA4DB26B36A61E7764100AB7280DA597F782057"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/after-careers-390-bn.png",
+      "sha256": "5942AF3D5995ED13B0047C082AACBDDCE45AB3C9A6E4AC6DB2429E889418132B"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/after-careers-390-en.png",
+      "sha256": "0C830F6642D765FE0576B4E5C595F5560DDB1C486F9F0E9C6D6FE29FF78D3E1C"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/after-careers-open-1440-bn.png",
+      "sha256": "5A199921DD2690C97C7C81F7124DB0FF99B5FE6A3FB2415CBC119846AAB0B998"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/after-careers-open-1440-en.png",
+      "sha256": "57268CD3030E738B8849A4432B117839FE75548A90A2C7B5A97A9E85B6F01180"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/after-careers-open-390-bn.png",
+      "sha256": "A2AB5A97BDCCABF0D792E4A09CBA7D3BD81463E4812D5BEF19BE8EF9843A9EBC"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/after-careers-open-390-en.png",
+      "sha256": "754CEF0C9DFA069B522C7FB0A32F05A764CAA28C3825EBF8C2BFF8EDAA35523F"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/after-contact-1440-bn.png",
+      "sha256": "3C92EB52C185E8EF1C5E54D65D078516BC5D10116C7E8E2AE600A6F15C0C0D5F"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/after-contact-1440-en.png",
+      "sha256": "C84F8F210C26DD7626C17CD045C28FFC9073E1CEEC6612386DCF39B3783A8535"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/after-contact-390-bn.png",
+      "sha256": "10DDF81E7523387DCFDA8EC6401F7A625F648C5A49F01E9FAA2712C71C4BA997"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/after-contact-390-en.png",
+      "sha256": "46EF338D1CB0235EC0777EE67B2CDAA9F8025618BA3344F1482E9D2939078E5B"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/after-gallery-1440-bn.png",
+      "sha256": "57F77960CBB6A881EB4F749CF50D6C4D5E53A810FEF9BDCA52473D6EE28D4804"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/after-gallery-1440-en.png",
+      "sha256": "0062DE46759979AC457C25154943613EF41F353FBED08A0764430C6D773E3E7C"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/after-gallery-390-bn.png",
+      "sha256": "AF8BDA4504B16AD76670B264064C737DBC776B4A5403DCDC7622B14678D1F549"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/after-gallery-390-en.png",
+      "sha256": "658D196D987BF3218368823716B41B9FADFBB635D446A6BBB3D3380AD7D7EE39"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/after-gallery-open-1440-bn.png",
+      "sha256": "676ED2A14DBD2571F45FC13D3473A1D3338232C56D64C62529007C64AE41B1C0"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/after-gallery-open-1440-en.png",
+      "sha256": "DAD89A84FEFA5CABDA8A36A2E2B77CC1B02B9E13CDAA5B24F643397EE53327AA"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/after-gallery-open-390-bn.png",
+      "sha256": "7443D77C4170B58D621E31A00F2AE36394F24ED89FC57175BD95B4788734BC60"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/after-gallery-open-390-en.png",
+      "sha256": "6AE5FDB5531CFE2FC94D601EBF673E6ECECDF54A08B7DCC7EC018E4B6CE62989"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/after-menu-390-bn.png",
+      "sha256": "7137251B52EA011CB8CCA6DBA42226C7D1677E819B7EDADCD714B2AFBB7B97F6"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/after-menu-390-en.png",
+      "sha256": "F42F1BF7A2C65C69E28727E20C51E8842F04AFA0C6E6595C38D4FD51A7282262"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/after-products-1440-bn.png",
+      "sha256": "7641F7897F986051D479638EF7CA3A2F5782B8BBBA5E8A52D32FE30285E1B021"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/after-products-1440-en.png",
+      "sha256": "BF0A22FF7A797BCC2F9685B97F264358B24DB41AA404FD23B01FABF166B33605"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/after-products-390-bn.png",
+      "sha256": "9C81D3E91114A3FD7C7FA62948ECA92A494B68231AB2FA97A2571A648D089227"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/after-products-390-en.png",
+      "sha256": "0CFE873BD98C8570B5B2DB11F86FDE03932CDA8A0BF0BE359AFE8F14F2626AFF"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/after-products-open-1440-bn.png",
+      "sha256": "9FC70501995A9C94CE517B607F6CC4761356133806B594BD208215BE23031CC0"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/after-products-open-1440-en.png",
+      "sha256": "1D0EDBC555DAB9FD2FEF422CE9119922C263F4E31A6C39F9C26835B55A1FDA28"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/after-products-open-390-bn.png",
+      "sha256": "53678AC851103F75CDB29AA44F750CF4443B2240CE7402B3516EDE2C3B21A5A7"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/after-products-open-390-en.png",
+      "sha256": "FCBEE7F26B9B42D4352D52B7A44E170F8188187DAD3813CC1BA8C0742E5415A8"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/baseline.json",
+      "sha256": "7F12B3A4A0E214FB0170ACD78F707339651F8FBA1DE54521D9C8E7A9AF66956B"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/before-careers-1440.png",
+      "sha256": "02FA441F7BC96ECDC3174610DFCD85FE8BB407826D49E3F8C365DC1E247C0054"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/before-careers-390.png",
+      "sha256": "51B81BF56B9432E991D9F007D935AB6493BB667F7BE6859C3169107804899E44"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/before-contact-1440.png",
+      "sha256": "BAB9FFA3C6116ED6F84A3AADA2152713AEF646F3D92E97CECF40AFA278C4E33F"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/before-contact-390.png",
+      "sha256": "DA7507C7C0E768C2CB2ACAB48F7DA93B24102627C187721D4719FC3373A2A3B2"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/before-gallery-1440.png",
+      "sha256": "BC61A0F700992FC3D2482FBA14C7CE2F1C9D9E711B7CEC61EAA735FC3D8F3D41"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/before-gallery-390.png",
+      "sha256": "D5B23ED1864925349BCF6D8F4CCB091608580291AB0600F12F4253CF524A6DD8"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/before-observations.json",
+      "sha256": "F3CE47E7A0CC2AD979AE9711B2F57DEF660EFB4EB920D89942594BCC64ADE65C"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/before-products-1440.png",
+      "sha256": "D64C80AC81F09FFB3727FAFEA51639D826D585DE0637B635CDAF54018A43F801"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/before-products-390.png",
+      "sha256": "9C713CED58CC8346E499C7849BA3925DEBDDDBF04E7681DD491AB82667954CD4"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/browser-cleanup.cjs",
+      "sha256": "313DD07937E47995186A04796263B2E5E02E23748F90F8BD8486365484FF1D4C"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/build-complete.txt",
+      "sha256": "33CF0439E7E2C1A06A78B28B55AA9147CF619D1C416C712AE94202BCFF30972C"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/build-final.txt",
+      "sha256": "7FE819EA5DB8B4731C602BC40719615182264CBBD61D2FAAF342352F3F225867"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/build-verified.txt",
+      "sha256": "072DB9FC211776D3CA2BF39A91CE81ADBC0FADAE771F0BE50B6625D3C5DB8FF3"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/build.txt",
+      "sha256": "C01716C64DEA7DAD8A7C96247964C861B6E663259AFC829BA6B03035421AD0E5"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/capture-baseline.cjs",
+      "sha256": "17A5904503A787A0E7ABF58B1371631D894EEB4FD0A5C1A0BFE4661323A32AE0"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/close-geometry-diagnostic.png",
+      "sha256": "00013FD9CC5015717FFFDF680BE90CA5BDDF665664BAB62B342579D2D28093C4"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/focused-final-run.txt",
+      "sha256": "F8B3D3ACB87EDC808208CAC10F6E3F1D326C68A37C1A85D139392088D8E85610"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/focused-first-results.json",
+      "sha256": "EE0FA8FEAC688C116649C156159779413AE8D90FEAABA978274F865671F178A2"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/focused-results.json",
+      "sha256": "AB2DA0B77B3FD1AE8A9DF7EAB21A51581A8FB98ED481C48E95EEBDA4B46C0558"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/focused-retry-run.txt",
+      "sha256": "F9EA89C7D2246DAFDAB6544D3417A76EC29F4E051983137180B939C0DD74552C"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/focused-run.txt",
+      "sha256": "B8E346263B7B8F6BDA28BDAAE8FCDB6A0721676457435F0C9574489F846516E0"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/focused-settled-run.txt",
+      "sha256": "7F77CCC6C8E08DF3819ECE9E3E2099155A1757EE977280AB50440A0224274296"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/focused-verified-run.txt",
+      "sha256": "504CFF1AC1CEB085C84B1208D6D96C1C1D1A3CCA6E2BDEA174530AE054B71D2F"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/focused.cjs",
+      "sha256": "C12F467C3A2A7196284F096C6B2A1DD52FA0F1BF5BA332A46CC9E05C81979950"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/git-status-final.txt",
+      "sha256": "961C274FB2729883BFDEFB874C20CFEE0813738B6A6443A7604A4382EA716B38"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/lifecycle-accepted-run.txt",
+      "sha256": "06D8D1DDB15D239564F6BEFA3D189D1D2E8DEA61CE1734F63A99461B700F496C"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/lifecycle-clean-teardown-run.txt",
+      "sha256": "10C75E4F5826EEB65A0483EF0A3C4924D41C91F85B8C626C862EC148B5FAB79B"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/lifecycle-complete-run.txt",
+      "sha256": "0862CA1C980B937B2FC615518CC93E6823763FDD0A1F1CE3A5B3A78475857E94"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/lifecycle-final-run.txt",
+      "sha256": "10C75E4F5826EEB65A0483EF0A3C4924D41C91F85B8C626C862EC148B5FAB79B"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/lifecycle-final-verified.txt",
+      "sha256": "E1D6958AB5005C8D6300D009AEBF2CD5397A6E7113660059318906B1C048CA90"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/lifecycle-harness.html",
+      "sha256": "85C5707467D1C7824896B8B24E7876B9C5C9E908A6AE5DA9F3B765EFC5EF9F10"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/lifecycle-harness.tsx",
+      "sha256": "939E6E544CD61898A63C69BBC83D1BD51D38FC77540CDD1049404D5B7EB1AF2D"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/lifecycle-results.json",
+      "sha256": "9A042F987D09EFDDB079D9859C09EFB1ED604F17923DE7CA685A7099CC95069B"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/lifecycle-retry-run.txt",
+      "sha256": "D9C219FE74552F0379F4A427C91FDC50E0E77D08825A4EA31DC853D526B831D1"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/lifecycle-teardown.json",
+      "sha256": "AD59C170508D1F3AA86F0A426CBAE14273EB2DF8E75004886EF2BD4FC24D89A1"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/lifecycle-verified-run.txt",
+      "sha256": "10C75E4F5826EEB65A0483EF0A3C4924D41C91F85B8C626C862EC148B5FAB79B"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/lifecycle.cjs",
+      "sha256": "57D10DB59B1A53DE088E689279075916260363896C1F6642C5D361AB45F5B167"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/local-checks-complete-run.txt",
+      "sha256": "6F18530D129DDE46E4FEA6A84C8EA234C71E108725862FB66961CF9F97D7C693"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/local-checks-first-results.json",
+      "sha256": "C04317042778D86365BA36DE757A16C40136972509D5AA291FF50A1229466D10"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/local-checks-results.json",
+      "sha256": "6FDAF49B316A94E1A36FD0E7912B9F2A7DA8D6B0EC7C753F8D2BB0EBBED283D0"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/local-checks-run.txt",
+      "sha256": "B255DAC11BC59AAEEEA9033FE3601B8199D101FF9AB2E0E5352BB7903904DC01"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/local-checks.cjs",
+      "sha256": "266CA834C7B5B7CB29639B9C087442A1036853B5B84E16B7174191B43867164C"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/owned-process-cleanup.txt",
+      "sha256": "2EF4211FBB4BB2B8748B053810EE7BABAABE9E542A7442861A5E9B8F8D6D8353"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/pointer.cjs",
+      "sha256": "FDD8E42D7B767C966D09A90529D13BA192D37DC0EAB358B86C261F096F0E6366"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/preservation-command.txt",
+      "sha256": "2BD660E4F49FCBF0DFDE52732F0ACF6DD0402FEC4E30D05825BD7C1A3483536E"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/preservation-results.json",
+      "sha256": "85BA7568E0FD65AD15DC3A97FC4CB9F70212F8A48FB961CFF6BC16D852F1F0F3"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/public-smoke-results.json",
+      "sha256": "9BC3F8017DAF6F6DAD73F1553EC6E8DC784705561035E395C26E63F1E40C2AC6"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/public-smoke-run.txt",
+      "sha256": "F15B3E64BB5A3C2888CE0EB95891102B8F4F6AE343B6B6CB9B6DF9B27AFEE4D0"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/public-smoke.cjs",
+      "sha256": "BD94FA6250096CD2CCD77BD1C415A150CE62DCFE89EACE7F37240034C91E36B3"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/README.md",
+      "sha256": "DAE1EB566EE05EA48C6A8F7D1ED95190F5EB5CFC386620F43739093CA377EA49"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/regression-complete-results.json",
+      "sha256": "D30F7613FE809B7AB591595573359CE97E1F46E7C9E948A0F4AA8A4905500053"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/regression-complete-run.txt",
+      "sha256": "F299C676ECAD17D31B402B620858D5FC5BCD3FD31664839216165D69AB3C4B99"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/regression-corrected-results.json",
+      "sha256": "82A0EDBF1D3BBE7AC3F6C54ADC56E5206346E673FCC9635A2C8658EA68B341A3"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/regression-corrected-run.txt",
+      "sha256": "46464103B9A3C96308DD4A49B485AE50C96E832C581583ABB95AB9F76908A435"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/regression-final-results.json",
+      "sha256": "B4D8707FC0F3A51947C0592F96ADD2F4E8F55C74CC9382E675F5DE40A7716DDB"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/regression-final-run.txt",
+      "sha256": "605BA48A901956DCF4CE45039AF1909E4951DC87A63807ABCD31D3082E2FB004"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/regression-final-targeted-results.json",
+      "sha256": "8D407CDD6D737109D5B92437297295DC5411663B4659A613406277EC806F4371"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/regression-final-targeted-run.txt",
+      "sha256": "BC7BA0441E03AB57BE18E2E3D82453B2CB712E7DD4F28EC469F1D5E783ED9CD7"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/regression-first-results.json",
+      "sha256": "6735EC0A9399EB73B0FF724ED72C4774B150780B116C337EC3463A79E4AD118A"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/regression-navigation-retry-results.json",
+      "sha256": "BB726F567764D8145C36B90CAF2D13B63F49DE1DA8337F85D0C87737FD74BEA7"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/regression-navigation-retry-run.txt",
+      "sha256": "EDE7971931999234BE638D6793A74BC3381283561D08A9B2804DC96117EE3314"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/regression-results.json",
+      "sha256": "6735EC0A9399EB73B0FF724ED72C4774B150780B116C337EC3463A79E4AD118A"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/regression-retry-results.json",
+      "sha256": "E81B1E5551355A0A399106AD29202E58335B34B1B5C91984DFD6AE46291DD502"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/regression-retry-run.txt",
+      "sha256": "8AA272F70B624580486059ABAA6647D27FFF9B8ADF3D75B18C135216A1C9F18E"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/regression-run.txt",
+      "sha256": "7722E30FBA86F81FBA5B83D2D2649775848AE41A30650622AAEDB4AE01067B55"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/regression-settled-results.json",
+      "sha256": "910BE645F47E214BFD44850D6CCBCAE604A7AC383AB2114B3164E5ABC3316E2A"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/regression-settled-run.txt",
+      "sha256": "9C6F9151F08316E1D1743B4788D746B8221A6B8BEA09215C15708E273672DF6B"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/regression-verified-results.json",
+      "sha256": "C3A3CDB4413D1580F9D17A5E7A3EDFECCC6C75A58F6BD601FC539A8492483E8E"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/regression-verified-run.txt",
+      "sha256": "791DB8F5D57C387CD7ADB77686E5A690145D971B5CD2A72F4ED001006AED5C24"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/regression.cjs",
+      "sha256": "E615CD7475FE6F13755309D2E562573B1718C09AD3A456DD99B0B0C06FF2E4E9"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/smoke-careers-open.png",
+      "sha256": "4291684B80D73B594DD2F77C2125D8CB8A200649850A50D7B262C40B76560440"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/smoke-gallery-open.png",
+      "sha256": "FC260E353CFDF4D097CBC10BF345DCEEDF3846DFD921F4D961355AA04BEA2263"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/smoke-products-open.png",
+      "sha256": "ACB9B0B3C082B6B17EF1867B37AD88B76000E259B0257C67E8B8AA8B07D4E932"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/smoke-results.json",
+      "sha256": "A1B4B2FDA906921CD2C8EAD150479809DAF33C572DAABC9F7F1675F7773BC535"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/smoke.cjs",
+      "sha256": "E9C45FB4B9BB7133A8355A598BC3B63906493AE0E72ED87C40E714E2A54DDB7C"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/typecheck-complete.txt",
+      "sha256": "7F3594D7A965C703E6361AE50C0EF50CF9C344C621D801592B074B48554F4235"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/typecheck-final.txt",
+      "sha256": "7F3594D7A965C703E6361AE50C0EF50CF9C344C621D801592B074B48554F4235"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/typecheck-verified.txt",
+      "sha256": "7F3594D7A965C703E6361AE50C0EF50CF9C344C621D801592B074B48554F4235"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/typecheck.txt",
+      "sha256": "7F3594D7A965C703E6361AE50C0EF50CF9C344C621D801592B074B48554F4235"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/validation-summary.json",
+      "sha256": "44F4970F395B36C93FE8437A58CF96DCC5F296C2AB17485F32E5F4B9F7794861"
+    },
+    {
+      "path": "docs/audits/evidence/batch-1a/verify-preservation.cjs",
+      "sha256": "C6C7D486ABFF172485A467CD61D11F18DF40119468EA868E34BB31827932B051"
+    },
+    {
+      "path": "docs/audits/evidence/blog-1-1440-en.png",
+      "sha256": "6329335FDECA83FE47047BA168DE8BB1E505C0731F713AD5D6F8CC3EB49C54DB"
+    },
+    {
+      "path": "docs/audits/evidence/blog-1-390-bn.png",
+      "sha256": "5A671C8F1A664786FE0B3667AD0CA69D5F522843A0F4D10A45D66ADC87AF18E3"
+    },
+    {
+      "path": "docs/audits/evidence/blog-1-390-en.png",
+      "sha256": "8CBBA638C68FA4234655BCCBF0E582B93B73C411AD35EF94EF9CD95EAC3380D3"
+    },
+    {
+      "path": "docs/audits/evidence/blog-1440-en.png",
+      "sha256": "B7FCCDD7CBE61F7042867161DC3EE17DEC9768D3A16AB6CF06C7D26093D5C8FB"
+    },
+    {
+      "path": "docs/audits/evidence/blog-390-bn.png",
+      "sha256": "5491E3467B783E60E04621BC9ABAE9CDF180356993DD9C374D2047B4EB87F916"
+    },
+    {
+      "path": "docs/audits/evidence/blog-390-en.png",
+      "sha256": "21EC02AA899CD28A11C805D219D4440214DDAE284C94A559BB4D34F8CCE4EA9C"
+    },
+    {
+      "path": "docs/audits/evidence/blog-featured-1440-en.png",
+      "sha256": "A3CB180A22B062B37CDEA9DA2BED2FCED9414F3425A9074727A8CA0F548364E8"
+    },
+    {
+      "path": "docs/audits/evidence/blog-featured-390-bn.png",
+      "sha256": "09824042B46E6CEA3906C2AFEB1A43866DC205596012E63332F396B3451C4476"
+    },
+    {
+      "path": "docs/audits/evidence/blog-featured-390-en.png",
+      "sha256": "9B9273374BFC102B749B8CAAA875F5E262A80AA8E16F00E88882D17131FD6B46"
+    },
+    {
+      "path": "docs/audits/evidence/blog-invalid-1440-en.png",
+      "sha256": "E2EF79DDC366AE7BEF4BC7BF4B890F39E7DB1FAB11AF4C5DA01A767E2E33E733"
+    },
+    {
+      "path": "docs/audits/evidence/blog-invalid-390-bn.png",
+      "sha256": "BDB47007D50EA9EB5648E53A64E877B0CF587BB4839FE30F458166D81947A26A"
+    },
+    {
+      "path": "docs/audits/evidence/blog-invalid-390-en.png",
+      "sha256": "D9D294140CFDE7E3E2C6F6D1BF4D84BC1DA64E13911A236626CAA4FE3C9C221F"
+    },
+    {
+      "path": "docs/audits/evidence/brand-media-contact-sheet.png",
+      "sha256": "CC8ED8C40DE87EE41BE6433F885E755B3B1B93A40B8FAF4ABB47F1F72109213B"
+    },
+    {
+      "path": "docs/audits/evidence/browser-audit.cjs",
+      "sha256": "C4554854406048BC5FA7206A884DFAD72DBB06CF4B0F6E9C85ECC1C993B09BEE"
+    },
+    {
+      "path": "docs/audits/evidence/browser-first-attempt.txt",
+      "sha256": "ECF68D38C5CD5A98372665319942B373E546824D53479788A79E48AA1E83D2D3"
+    },
+    {
+      "path": "docs/audits/evidence/browser-run.txt",
+      "sha256": "19F0AA5101B8AB5FD5EB4A9CCE7D695B3A1101B1BAD4A873A8EDD54018132933"
+    },
+    {
+      "path": "docs/audits/evidence/build.txt",
+      "sha256": "152B17B585443B9C91C6D76249DC446CB2E70F92ED45B3CE7E5D937C8547EE6D"
+    },
+    {
+      "path": "docs/audits/evidence/button-style-results.json",
+      "sha256": "243853E39007534C11502C80E00CA9651861E3CC18C963C178B03A1E259C5860"
+    },
+    {
+      "path": "docs/audits/evidence/careers-1440-en.png",
+      "sha256": "45CFB1962FDEF7FF9D889FCDC76B8D7A3F2E628852981F61040C6C249E23D091"
+    },
+    {
+      "path": "docs/audits/evidence/careers-390-bn.png",
+      "sha256": "BD0447027BE2FD3C0A4FB39FC2953DEAD4039C1E8E3F5C45736EA989F74C5616"
+    },
+    {
+      "path": "docs/audits/evidence/careers-390-en.png",
+      "sha256": "B5DBB2ECC0F5A5FB620FBEFED199E3AC4A02B9D3B8878A621B5E313E10E80599"
+    },
+    {
+      "path": "docs/audits/evidence/careers-form-390.png",
+      "sha256": "B3FD595D3FABF40C9A8BF96332678274B5ADD317C3F6025DB26A412116B5D9D0"
+    },
+    {
+      "path": "docs/audits/evidence/certificate-contact-sheet.png",
+      "sha256": "920651BB79A1F137911F6BA800272F959FD7E3A89AA32A6FDDB997E9C409F9A3"
+    },
+    {
+      "path": "docs/audits/evidence/certificates-1440-en.png",
+      "sha256": "3E42FE42F78674319704A18F07083EE567FE60C55B120F6E002161DFD66506C9"
+    },
+    {
+      "path": "docs/audits/evidence/certificates-320-en.png",
+      "sha256": "81C9539D44A3988B13CCCDD17B68AA8A3CAF410690AC21C022C69F7A3BA03E11"
+    },
+    {
+      "path": "docs/audits/evidence/certificates-390-bn.png",
+      "sha256": "703784C410532F97165CB70E2EFC769D46E80C4B5DC2AAB9538296E73A1CEDF2"
+    },
+    {
+      "path": "docs/audits/evidence/certificates-390-en.png",
+      "sha256": "006710E5ED45FDD756C6A90C5C75C0A1FE76FDBB767C9B001DB59E0AADC303A2"
+    },
+    {
+      "path": "docs/audits/evidence/chat-landscape-667x375.png",
+      "sha256": "4EEE432FC2C2C1591D1B5574E33C52E65E81F9D6ED6F6E723F95D9FA6A4BB0FA"
+    },
+    {
+      "path": "docs/audits/evidence/commands.json",
+      "sha256": "C5AE9709FCFA1124D81EC862DDE88E35EF46841B4E4F33F4AF9A5024F5F8596B"
+    },
+    {
+      "path": "docs/audits/evidence/contact-1440-en.png",
+      "sha256": "5B565A86918214F104796B9369C1C6138C29DDF2D0937E03CFBB4B65E46C227E"
+    },
+    {
+      "path": "docs/audits/evidence/contact-320-en.png",
+      "sha256": "3C2904E6FBEC22CC38EBC47363FEB3162843EA803365E42A71EC97CA9466E63E"
+    },
+    {
+      "path": "docs/audits/evidence/contact-390-bn.png",
+      "sha256": "942136B4050F35843819974FDC09E0ADBC9A0A6E318D1C6BBCF73673100E1F98"
+    },
+    {
+      "path": "docs/audits/evidence/contact-390-en.png",
+      "sha256": "224A4A7895686D2462807A98775BB68FE93B4D2C1381F7B02A1BA9B99B64216B"
+    },
+    {
+      "path": "docs/audits/evidence/contact-top-390.png",
+      "sha256": "5A160332BEC2F9A66E70C64EB5EEEB28976816C1B770B5D5CE2F31ABB635D8A2"
+    },
+    {
+      "path": "docs/audits/evidence/delivery-validation.json",
+      "sha256": "3BA68A2FD2B9E046FF58474D5D744C66F5BCE1986D8B8C1CCC77A8B9509BE2C6"
+    },
+    {
+      "path": "docs/audits/evidence/deployed-modina-rim-and-parts-ltd.png",
+      "sha256": "E433563C9059208B62EC5AE064BAE29F2850EB4D7F14B43310E141C9EC571D45"
+    },
+    {
+      "path": "docs/audits/evidence/deployment-results.json",
+      "sha256": "78576E4CB786F3B5512E4967762D6244F268494A8EE12CF5E5EE54452E115BDC"
+    },
+    {
+      "path": "docs/audits/evidence/desktop-dropdown-1440.png",
+      "sha256": "3220E150B906F4194464F3AC9531EC809682BF5D7C5C6A1B08B0FC5EF976AE89"
+    },
+    {
+      "path": "docs/audits/evidence/download-action-390.png",
+      "sha256": "8F1819CDACD39F192646BB56A55B12C386791583A329EDE863CA5E01EE6265AB"
+    },
+    {
+      "path": "docs/audits/evidence/downloads-1440-en.png",
+      "sha256": "981181FC76B97F455C7C632A03FCE3E65917898CE0E677C859498B197B2EDAB7"
+    },
+    {
+      "path": "docs/audits/evidence/downloads-390-bn.png",
+      "sha256": "A7CED1D909177E14156A63FC5EF9F665BC87542D9A359B576C27CD183203F362"
+    },
+    {
+      "path": "docs/audits/evidence/downloads-390-en.png",
+      "sha256": "BB23C684474DA0B8B72A1FA4AB43EB1E3F49789818E30D94D153F2B67974097A"
+    },
+    {
+      "path": "docs/audits/evidence/engine-availability.json",
+      "sha256": "6C88F6FB9490246FE7E269F2135B027C3B7E833A043D6DFCE8E63E6A9D1D01FE"
+    },
+    {
+      "path": "docs/audits/evidence/environment.json",
+      "sha256": "E6B7889096CDFE1594B284196B998C55CD1E1187847B9520763572CBC8F9E279"
+    },
+    {
+      "path": "docs/audits/evidence/faq-1440-en.png",
+      "sha256": "7B6C85A1CE92C2930F3072115419D5B557340E8A2357E8CDDEA18B4A4DF01337"
+    },
+    {
+      "path": "docs/audits/evidence/faq-390-bn.png",
+      "sha256": "D6F330E8FCD9D901F8A46A04288FECE381EBA60607C5037CA6A23047648C01D3"
+    },
+    {
+      "path": "docs/audits/evidence/faq-390-en.png",
+      "sha256": "FFD0F040F8EB42CBE78716D85B94B35D588827A2915714A3CBE63A066D627504"
+    },
+    {
+      "path": "docs/audits/evidence/faq-expanded-390.png",
+      "sha256": "46E79F7A6E708E7EEDF56304F8456C0A46C759E517624D7BC62DB5E36320397F"
+    },
+    {
+      "path": "docs/audits/evidence/final-browser-check.cjs",
+      "sha256": "718DA75927BB978513548F3F59DFC7068199BB9417C79722726A11929EDB2C28"
+    },
+    {
+      "path": "docs/audits/evidence/final-browser-first-run.txt",
+      "sha256": "CC0BC23E4616FBC9F0A7F512CC14879915A590A639750FAB0D863EA65C487BB5"
+    },
+    {
+      "path": "docs/audits/evidence/final-browser-retry-run.txt",
+      "sha256": "F7F1B8CF6A03A0E188067B16AAE4E7EA58A76FCFE6988C8C2C52A338C168098B"
+    },
+    {
+      "path": "docs/audits/evidence/final-browser-run.txt",
+      "sha256": "CC0BC23E4616FBC9F0A7F512CC14879915A590A639750FAB0D863EA65C487BB5"
+    },
+    {
+      "path": "docs/audits/evidence/finalize-audit.cjs",
+      "sha256": "B70DDEA1371A59777826420CE0F05F90211F1576F579D06EE5B4B4E833A755AC"
+    },
+    {
+      "path": "docs/audits/evidence/findings.json",
+      "sha256": "FBB7B2DF4BC1FBFC676B475589B5285EA28AB5E4D64496A63438BD5D3A86B59B"
+    },
+    {
+      "path": "docs/audits/evidence/focused-results.json",
+      "sha256": "76F2D528DFD9C728B2F0AD607333A636FA338D8CCAEB574615CEF1C36B3618FA"
+    },
+    {
+      "path": "docs/audits/evidence/focused-run.txt",
+      "sha256": "F522DACE29D3A4C6233D0168B0AC2BDB860B5282179EA4C41F2322012B56292A"
+    },
+    {
+      "path": "docs/audits/evidence/focused-verification.cjs",
+      "sha256": "88F0C0769AE090F3AC6A0D2AD98C0DC432BF49B90717D8F5389D06EE6CB85F6D"
+    },
+    {
+      "path": "docs/audits/evidence/gallery-1440-en.png",
+      "sha256": "B6A6102D0C411358AEFA5416B0850E6CA3D57654B175CC2F79A04C112C6D1AD6"
+    },
+    {
+      "path": "docs/audits/evidence/gallery-320-en.png",
+      "sha256": "1442462F7C11E0E655901A5B2A8B08FEC1F11FB5957ABAEADBB5C356B3EEB114"
+    },
+    {
+      "path": "docs/audits/evidence/gallery-390-bn.png",
+      "sha256": "8122EA9DE245F3F2DA494D3B66E2595B7E23BD70C61B198887D5951312B384E4"
+    },
+    {
+      "path": "docs/audits/evidence/gallery-390-en.png",
+      "sha256": "8C15244B3C23577BE6FE8FE2517A8B9E583C9C9181B51DE24E9BC157949B3854"
+    },
+    {
+      "path": "docs/audits/evidence/gallery-lightbox-390.png",
+      "sha256": "7AF4F2314D3472E7200EA78E8A549AAAFA4DDD03C7D5BF8D03E256A0492632D5"
+    },
+    {
+      "path": "docs/audits/evidence/git-final.txt",
+      "sha256": "E9D0CC0FED87CF679E9C15252263C923FFCCD6BB33B231D668D87E3EEC1D4634"
+    },
+    {
+      "path": "docs/audits/evidence/global-search-390.png",
+      "sha256": "FC47CEE001AE964AFFF86641BA131A240A00D73B4E7E8906F29387F9D74E339C"
+    },
+    {
+      "path": "docs/audits/evidence/home-1440-en.png",
+      "sha256": "01691F5DF3EF5CEDF7EADFCE82508D92CE8A634C2D1511ABFE49DCFEFC00506B"
+    },
+    {
+      "path": "docs/audits/evidence/home-320-en.png",
+      "sha256": "0A899578B9220B839A51F9D46E5C26E2C5C5EF98ECE011AF75459B52D78DF0B1"
+    },
+    {
+      "path": "docs/audits/evidence/home-390-bn.png",
+      "sha256": "683F13715F2C8C2CBB4A908AC29A86CE1433F9FBCE53122A398C873E56874E40"
+    },
+    {
+      "path": "docs/audits/evidence/home-390-en.png",
+      "sha256": "217E5251D1F1801D996126D95B3384F2FDF3578D7898540540E054811E01C1C3"
+    },
+    {
+      "path": "docs/audits/evidence/initial-motion-captures/about-390-en.png",
+      "sha256": "B2AA94BE44E887A6508FF6EDB9BAE74B989EEF901D30AD432ED494C0C20C7BB1"
+    },
+    {
+      "path": "docs/audits/evidence/initial-motion-captures/home-1440-en.png",
+      "sha256": "3BBC0714BEAD92DBCA6652167BC04A54935B084CB6C9D9D1AE05EEAC6D334836"
+    },
+    {
+      "path": "docs/audits/evidence/initial-motion-captures/home-390-en.png",
+      "sha256": "0B232D61E5B2F236251B364FEEC613E7C1EC4BB8B8A951186BB8C4B8014D55A5"
+    },
+    {
+      "path": "docs/audits/evidence/interaction-audit.cjs",
+      "sha256": "8E4CB01F2AA47F98D5089257BED1304E6D498F23A4E832A50834DCED8A00C8C6"
+    },
+    {
+      "path": "docs/audits/evidence/interaction-first-results.json",
+      "sha256": "81B691D13E676D95A47506E434C51CAD8C67E5499709A6BDA5F705505183D733"
+    },
+    {
+      "path": "docs/audits/evidence/interaction-first-run.txt",
+      "sha256": "DAF77F97888AF8B07C3EE8FFC0D1F8894FD0FD80E281BC9D3570D2E672DC7A81"
+    },
+    {
+      "path": "docs/audits/evidence/interaction-results.json",
+      "sha256": "32E2C079ABD9FD21658B15379D6851ADF3E57065878024CC666E98179FCDFE6F"
+    },
+    {
+      "path": "docs/audits/evidence/interaction-retry-run.txt",
+      "sha256": "0DCBBD1D01DFB4CFF4ADB0C356C2A0C51D923DC2A79357F1A663DA18D89C6120"
+    },
+    {
+      "path": "docs/audits/evidence/interaction-run.txt",
+      "sha256": "DAF77F97888AF8B07C3EE8FFC0D1F8894FD0FD80E281BC9D3570D2E672DC7A81"
+    },
+    {
+      "path": "docs/audits/evidence/locale-performance-audit.cjs",
+      "sha256": "C7E170D783EC2F729932B57E0A9A18EF2E5E9609D6325137269934E39F7C92A3"
+    },
+    {
+      "path": "docs/audits/evidence/locale-performance-run.txt",
+      "sha256": "2EB23DE9F8E3BA1D82837E82CCED9B9640AF275A45457A2003B2E7BA1DCDC2F7"
+    },
+    {
+      "path": "docs/audits/evidence/locale-results.json",
+      "sha256": "2B16F791604C49279A74B0701EF0F7602C273FF6C1703D64A2AF612864E32043"
+    },
+    {
+      "path": "docs/audits/evidence/mission-1440-en.png",
+      "sha256": "CA7A00B1B46B228DF111E8B913E710BCC58FD70C78197FF8E25BACEEECAD7EA7"
+    },
+    {
+      "path": "docs/audits/evidence/mission-390-bn.png",
+      "sha256": "20DB0A908B885F0ACC06C2CCA2082237B25F07F5E824F30A6DA9D4FB1C5112F4"
+    },
+    {
+      "path": "docs/audits/evidence/mission-390-en.png",
+      "sha256": "4D83F23E93873E13FDCD9242E2E30728F53167C3B6ED0868A370B16113CA483F"
+    },
+    {
+      "path": "docs/audits/evidence/mobile-menu-390.png",
+      "sha256": "5FC965242FC10A483D6C5D7EFA6BC243CB2158A07414D3D00CCA69E7AECAE358"
+    },
+    {
+      "path": "docs/audits/evidence/mobile-top-contact-sheet.png",
+      "sha256": "5805C24296816C3704B42282F05A49A1B03C4CABBA0C35E65E9285C7003E4DC4"
+    },
+    {
+      "path": "docs/audits/evidence/news-1-1440-en.png",
+      "sha256": "A6285CAA3EFB5DFFD0C0A8B14A3C835613D9DFA8F123134E46355B054610D768"
+    },
+    {
+      "path": "docs/audits/evidence/news-1-390-bn.png",
+      "sha256": "A4ADC14AD97A2AD9092D164C9228E4653123FC69DE9D7ED51DBD6DA5CB6BC6B2"
+    },
+    {
+      "path": "docs/audits/evidence/news-1-390-en.png",
+      "sha256": "D622EE20B986085BA1290BEF176E5134C19011CD5540DE26DE9586AEF99AAEC6"
+    },
+    {
+      "path": "docs/audits/evidence/news-1440-en.png",
+      "sha256": "6CA11C4A4BA9C879E3FE4F0DD7203F61BE046E2A8512E25B1FDDB211EA55C2F9"
+    },
+    {
+      "path": "docs/audits/evidence/news-390-bn.png",
+      "sha256": "F6E1EADAA46A7DE5CE827795F44C554E60EB6223367624C4CF78EDFB00C9FFCE"
+    },
+    {
+      "path": "docs/audits/evidence/news-390-en.png",
+      "sha256": "2AD7DB6324843F0180514BC53DA36DCC613019D0F6B876C4740BF6891CE86FD2"
+    },
+    {
+      "path": "docs/audits/evidence/news-invalid-1440-en.png",
+      "sha256": "D42FAE68C3590AA8A6136228BBE2701507BD84115E670447859CC9AC60DDF158"
+    },
+    {
+      "path": "docs/audits/evidence/news-invalid-390-bn.png",
+      "sha256": "C4F792D0FB9A33FF375D2C4711FF1CF55EC16460CD008C23172196DDF0088532"
+    },
+    {
+      "path": "docs/audits/evidence/news-invalid-390-en.png",
+      "sha256": "EFA550EAE1392B078AF520C9445DBAB551E630E410659F02D4E8CB89A97A687B"
+    },
+    {
+      "path": "docs/audits/evidence/page-errors.json",
+      "sha256": "4F53CDA18C2BAA0C0354BB5F9A3ECBE5ED12AB4D8E11BA873C2F11161202B945"
+    },
+    {
+      "path": "docs/audits/evidence/performance-results.json",
+      "sha256": "08F4ACF708EDC28F147C71F5911D256AB2F7265AEC91E372584CE09DA0CFF15D"
+    },
+    {
+      "path": "docs/audits/evidence/polish-report.cjs",
+      "sha256": "4C45AFA73E7284FEFA1CD1959BA41437BBD219F2DCBDBEA6361848DE81C1E4EC"
+    },
+    {
+      "path": "docs/audits/evidence/preloader-320.png",
+      "sha256": "483A8456C939C383BAB52D7F31E2F57167C38D658DDA6C3A8D830064ACE40039"
+    },
+    {
+      "path": "docs/audits/evidence/preloader-results.json",
+      "sha256": "7F8454D14537EE15E649732F3C4A2CD36A6337EB082C574E93C8BBDB09AAAAC1"
+    },
+    {
+      "path": "docs/audits/evidence/preservation-verification.json",
+      "sha256": "7D5BA3894E1AE952C17E87AC3DFE38E37C8695165D2A9B94F07F13CA995D047D"
+    },
+    {
+      "path": "docs/audits/evidence/privacy-1440-en.png",
+      "sha256": "4EDF15A5E975DD02C88805BB1841A2B259802D1031685901DD5050931B4B795E"
+    },
+    {
+      "path": "docs/audits/evidence/privacy-390-bn.png",
+      "sha256": "710B62A83A5F1D131973484222A198102D93CB07C3664046D37228BE4474CA09"
+    },
+    {
+      "path": "docs/audits/evidence/privacy-390-en.png",
+      "sha256": "C76F2984BF412E981CD27CDF0D82D1BE43B227E200C9612BDD0086E0B1810EBB"
+    },
+    {
+      "path": "docs/audits/evidence/product-contact-sheet.png",
+      "sha256": "2404F33DDB73E2063924C8D3F76DB73C7F9169233A1FBA5486CE2BFF8A353340"
+    },
+    {
+      "path": "docs/audits/evidence/product-drawer-390.png",
+      "sha256": "971E36A0B2F67CD0246685C93186E3DED45AC00EFB070D2E8C2665766BEB8BE4"
+    },
+    {
+      "path": "docs/audits/evidence/product-enquiry-subject-390.png",
+      "sha256": "3D6FDB33AF426F65AE40D9055E57B43A2C8B5B6147C1AA7B86FF0076B5B98EC9"
+    },
+    {
+      "path": "docs/audits/evidence/products-1440-en.png",
+      "sha256": "87A4ECE2AA4AA3EC7117427CC3B19F3893B02893AD663230340FE246A9DE078A"
+    },
+    {
+      "path": "docs/audits/evidence/products-320-en.png",
+      "sha256": "F048A468AA3351D2E31EEEA68795572DD8D7A7A493D89C29F2DD146952E5E18E"
+    },
+    {
+      "path": "docs/audits/evidence/products-390-bn.png",
+      "sha256": "333820A8EF26C1177D2417C0D22F29ADB7680855C69121BA6CA25716C4564EDD"
+    },
+    {
+      "path": "docs/audits/evidence/products-390-en.png",
+      "sha256": "AB2C0DA022CF94041DACBBF6C3D5084E3D96976CFCD90D9DEB08F747838AC465"
+    },
+    {
+      "path": "docs/audits/evidence/products-empty-390.png",
+      "sha256": "FB32313E11BC8FFBD5310A1660E630B64CEDB4622F8462A5EAE2D5464AC8279E"
+    },
+    {
+      "path": "docs/audits/evidence/products-image-failure-390.png",
+      "sha256": "E7B2CAAC465725F43F70D45DFD16675F981311A3BEE68B4B607916DEB2016BA2"
+    },
+    {
+      "path": "docs/audits/evidence/products-text200-390.png",
+      "sha256": "71EC269A81F6C5C6685C078419805AD837EAF01222247F1CC636FBF0F56B789C"
+    },
+    {
+      "path": "docs/audits/evidence/public-data.json",
+      "sha256": "D9ADAED9917AF6972820C5D68EFA6DCE7329ED2EB78D87C37512E7335F67C9BC"
+    },
+    {
+      "path": "docs/audits/evidence/quality-1440-en.png",
+      "sha256": "79AE282B08454C950EF2F6F934EBAC7EC75C6D2AD59A646947FD87D3DC4BAF74"
+    },
+    {
+      "path": "docs/audits/evidence/quality-390-bn.png",
+      "sha256": "ED1E734BE5481727F0D4F1550C0B2C2A2206D7A363F1677FF60D17CF66A6AE90"
+    },
+    {
+      "path": "docs/audits/evidence/quality-390-en.png",
+      "sha256": "75F561F26880229BC81493987FBB2B6EAE9A73A568F3175D2610B38242BF9A25"
+    },
+    {
+      "path": "docs/audits/evidence/README.md",
+      "sha256": "F8361A993441F584819C6DD409D8197FFEB7E495A172DE109C38863652D49545"
+    },
+    {
+      "path": "docs/audits/evidence/recapture-first-run.txt",
+      "sha256": "F8F033402CE7D718A1752E4305799D6F108BF658BA8B72610C0509C88D371C56"
+    },
+    {
+      "path": "docs/audits/evidence/recapture-pages.cjs",
+      "sha256": "EFE2A69C7145F6E59FAF545B60C0772976CE2BB7FE9AC6546BA027AA2ECA6CA2"
+    },
+    {
+      "path": "docs/audits/evidence/recapture-results.json",
+      "sha256": "457B73A15DD1228B0025C936700CBE80261A00104C5DAEBAAB171A845FE9544D"
+    },
+    {
+      "path": "docs/audits/evidence/recapture-retry-run.txt",
+      "sha256": "2DB517F2EF0322568DE130A692012B7AD88AC51E5295576995A6E1549FDB2A62"
+    },
+    {
+      "path": "docs/audits/evidence/recapture-run.txt",
+      "sha256": "F8F033402CE7D718A1752E4305799D6F108BF658BA8B72610C0509C88D371C56"
+    },
+    {
+      "path": "docs/audits/evidence/reduced-motion.json",
+      "sha256": "46862B446157CE88BABB455210C84409E016F9582C3A7E66F47DA4C26AD7489E"
+    },
+    {
+      "path": "docs/audits/evidence/review-overviews.cjs",
+      "sha256": "AE6EE18ED758487382AE98EB945DC0914697E7D735D9330E5BDF997AB407440E"
+    },
+    {
+      "path": "docs/audits/evidence/route-overview-1.png",
+      "sha256": "CC9AE6EFB2763E15A9AA1497C4F6DEAD2F08083417935689C2685FC8DB0F9E22"
+    },
+    {
+      "path": "docs/audits/evidence/route-overview-2.png",
+      "sha256": "5F2487ABAD87ECE57CCA8F0F4971C9E1818B0EFDD37FB61A3A6A9D55313CFCEF"
+    },
+    {
+      "path": "docs/audits/evidence/route-overview-3.png",
+      "sha256": "1A3BA30271D5897E089831969FDA52AE4BA7E451839E736094B2DC0D4FF6CFF4"
+    },
+    {
+      "path": "docs/audits/evidence/route-overview-4.png",
+      "sha256": "CB66145A3EE8FA4CA6994CFD5A24AD5F920D58C68F01C21BC4822869BC33C3CB"
+    },
+    {
+      "path": "docs/audits/evidence/route-results.json",
+      "sha256": "5A630566EAA6236C34B72442CAF89C9F073D9D2E138014FC0BD6532044421182"
+    },
+    {
+      "path": "docs/audits/evidence/sustainability-1440-en.png",
+      "sha256": "30E487535D8D61624DBE96647260929F0ABBD5571EB39FCAE9402B3C2BBA0C0B"
+    },
+    {
+      "path": "docs/audits/evidence/sustainability-390-bn.png",
+      "sha256": "9AB6199E943A02AED572F3BB34421DC49A7411719DCBA03F5BC8ADDD8905CC48"
+    },
+    {
+      "path": "docs/audits/evidence/sustainability-390-en.png",
+      "sha256": "303103171AB9F6937412E309FEBEC5FE77A148C84C05BC76EDE88DA1B697A07D"
+    },
+    {
+      "path": "docs/audits/evidence/terms-1440-en.png",
+      "sha256": "51EE88C8A5574844DB0837FD1E53512F2976B4EDDF977E5326EBCE6FE7A7EDB3"
+    },
+    {
+      "path": "docs/audits/evidence/terms-390-bn.png",
+      "sha256": "2CC86E52CCC585D7483C04FB9AD1CE4F2A519668D1E0E909603C2CCC441F9D4E"
+    },
+    {
+      "path": "docs/audits/evidence/terms-390-en.png",
+      "sha256": "4F19FC15BE5FB8BA9314E1BE3B8DBE07EE65B67C3077ED8E65776E3764AD19AD"
+    },
+    {
+      "path": "docs/audits/evidence/typecheck.txt",
+      "sha256": "7F3594D7A965C703E6361AE50C0EF50CF9C344C621D801592B074B48554F4235"
+    },
+    {
+      "path": "docs/audits/evidence/visibility-diagnostic-run.txt",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "path": "docs/audits/evidence/visibility-diagnostic.cjs",
+      "sha256": "A41951D96B368FFDA2F65B81E0111D96D55A3D9F0AF6337DA855951EC270EE0B"
+    },
+    {
+      "path": "docs/audits/evidence/write-command-log.cjs",
+      "sha256": "64DCB8F0C7C70FD94E70D94E79B3387E78CA809BB7F9CA78FEBA2AFD62ABF190"
+    },
+    {
+      "path": "docs/audits/evidence/write-reports.cjs",
+      "sha256": "D3D54C702016FF4D49EBD20469ECDA547626899B4EDB4E6CC337D10E4BEEF5F9"
+    },
+    {
+      "path": "docs/audits/evidence/write-supporting-reports.cjs",
+      "sha256": "B126D29AD81A77F20EE10FAFADF4D0D4377C6E6FA09D57EFA925A8AE62507431"
+    },
+    {
+      "path": "docs/audits/IMPLEMENTATION-ROADMAP.md",
+      "sha256": "CBFDA8611A8CEF14A150B947F9AC3CAE2CBA6089833A4F967299E0962BC5223F"
+    },
+    {
+      "path": "docs/audits/ISSUE-REGISTER.md",
+      "sha256": "EF346B2876FBC517D9566A6738EED7CAC56488925F25A23AB73B644AE709B19C"
+    },
+    {
+      "path": "docs/audits/PLACEHOLDER-ASSET-INVENTORY.md",
+      "sha256": "C3E114A9C8E93204A3180302E0C10BE2A0E058A42DC142BBCF247E2E596B7158"
+    },
+    {
+      "path": "docs/audits/PRODUCT-IMAGE-INVENTORY.csv",
+      "sha256": "0FF378B074D7763B87ECCD090A52D1D4D180CF3E663A5BCEED526F5FEF0F02A2"
+    },
+    {
+      "path": "docs/audits/PUBLIC-ROUTE-MATRIX.md",
+      "sha256": "A4FC82B38FAA39C82BB567ACED7F5D4C7EA26BA0A2D2D233395F7B74EE06B114"
+    },
+    {
+      "path": "docs/audits/RESPONSIVE-QA-MATRIX.md",
+      "sha256": "B05ECACEB6071AEF5084274063BD04AB7D61AC6261EF3BFBFC3238754E9B687B"
+    },
+    {
+      "path": "index.html",
+      "sha256": "AF831AF21878A2CEFFB9E632828038290CE1A25FABDE45A04A92D4675875238B"
+    },
+    {
+      "path": "metadata.json",
+      "sha256": "AE1F65390A6F46364174DF548B30A0FA48C2E65FC1C7B0843940C865DA0954D3"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "31E941DCA52C27F8033A79811436293F93282BDCCC9219816B04204901277304"
+    },
+    {
+      "path": "package.json",
+      "sha256": "3EA5638C316DA13A0CBFBF194632F0E7959961745A0D78CB70A9511AEE9DBC7F"
+    },
+    {
+      "path": "public/cat_accessories.jpg",
+      "sha256": "E1F6EF1D421033E2B76B18B7B5E4009100B8F85061A727F06BE498E51A4F53CB"
+    },
+    {
+      "path": "public/cat_motorcycle_parts.jpg",
+      "sha256": "B07C773149D2204D86D86F985F417C43553BC89C68AFFD1BABEEC8A3D03C187E"
+    },
+    {
+      "path": "public/cat_motorcycle_parts.png",
+      "sha256": "F9341EE63EB156ABE352460532B8CC0F2EF9C5B868E677E396C62CB97ADDDAEE"
+    },
+    {
+      "path": "public/hero_bicycle.jpg",
+      "sha256": "2E65FE0C3114E38E4FEF7E14AFA00394581A22A14D9664F8CDF65DE0FB6791A6"
+    },
+    {
+      "path": "public/hero_cng_parts.jpg",
+      "sha256": "BA91AB5232960B0F614440323089FB91EB745B119A79194AA2AC289564EB1C4B"
+    },
+    {
+      "path": "public/hero_hardware.jpg",
+      "sha256": "932D3D4056BFEB2906748A34FD5B45760BE8AB73C18BA1B22A9D6102CD390269"
+    },
+    {
+      "path": "public/hero_products.jpg",
+      "sha256": "5C27196DD5FF99BA5189CBE759CCE759B8817FFE16CFC7BA11EE546104E4EFED"
+    },
+    {
+      "path": "public/hero_rims.jpg",
+      "sha256": "913183A62D26114151E0587E2AF4F8E9145D2460EA89FB476BA5B08C7DAFC67E"
+    },
+    {
+      "path": "public/hero.jpg",
+      "sha256": "44DF2231A38B7E97DE8FAC6DAE0BBA5099AD3CA063009A8BDF33E8A15EFE0EF5"
+    },
+    {
+      "path": "public/iso/iso-14001.png",
+      "sha256": "37B2004DDE11261DAA583288CD8068667591B4AEA8508A218BFB15855E899B1A"
+    },
+    {
+      "path": "public/iso/iso-45001.png",
+      "sha256": "AC9BBBABD00BCFA6868376C7C70392BDEB5DD4EBFBF523607E7E1CCA37BF728E"
+    },
+    {
+      "path": "public/iso/iso-9001.png",
+      "sha256": "11A1CE3FC20069978696BFB41A6AF8688DFABE65A4B22E4D5B0B6A7D9755B0A2"
+    },
+    {
+      "path": "public/logo.jpg",
+      "sha256": "2C90F6E7F0B1F408C25083A70AC073266A80D22EE4DC63B5174EFCE8BD13DE55"
+    },
+    {
+      "path": "public/products/sku-001/01-product.png",
+      "sha256": "53858231EF306EB94E0F4089F3118A60F6D68CE23D48FEE5E99008DEB9854206"
+    },
+    {
+      "path": "public/products/sku-001/02-engineering.jpg",
+      "sha256": "E8FA1806F8653D3524A21D9F7A8D291CB84F0C5194D6674F0EB7E417442DF5A1"
+    },
+    {
+      "path": "public/products/sku-001/03-assembly.png",
+      "sha256": "FD9697D0440B872E56476003BCD9EA5773B9FC632C8A4B1CDDA4145FBB1EEB13"
+    },
+    {
+      "path": "public/products/sku-002/01-product.png",
+      "sha256": "0996D4EBBE39A5D097F0A59F43F8D2C962CF74E2408BA6EE33684B9F5722E820"
+    },
+    {
+      "path": "public/products/sku-002/02-engineering.jpg",
+      "sha256": "8F847E74E5220474068F26AC05DC0A23A698C6ACC0AF6083FCEC1DDA7F1FB100"
+    },
+    {
+      "path": "public/products/sku-002/03-assembly.png",
+      "sha256": "59ED1E625CDD9CF3D8B6CE70B7652A523D90A969E5E793DE73A99772A55DAB54"
+    },
+    {
+      "path": "public/products/sku-003/01-product.png",
+      "sha256": "BA09B920ABD4829E0033B796FBEF26A1B070DFC00C07AEC117CA5AC0E12D553A"
+    },
+    {
+      "path": "public/products/sku-003/02-engineering.jpg",
+      "sha256": "ED9BF02B802229C538422139D310E33BB0B525C46FBA160FE883D797A750E428"
+    },
+    {
+      "path": "public/products/sku-003/03-assembly.png",
+      "sha256": "DB34AC291DD07DACB3476C1DED962810C054FDE88D1304888C58FF86B8273F7E"
+    },
+    {
+      "path": "public/robots.txt",
+      "sha256": "914E2F98E14C637B7C24BA83F14DC91E9F55EDB24E6169E6C0646F0B7E9C3E9D"
+    },
+    {
+      "path": "public/sitemap.xml",
+      "sha256": "AF8ACC393E40D012D0A2C44D215659215DA9C595E51C9E067FFEEA5FC978499A"
+    },
+    {
+      "path": "README.md",
+      "sha256": "563E57ABD13A064491128537B319C1C077C27D18EA5244F723C2FCDE862CDB87"
+    },
+    {
+      "path": "src/admin/admin.css",
+      "sha256": "030FD1567C736433C74242FC075A30ABDF4D81F23C197C43C24DFA79E5495ADC"
+    },
+    {
+      "path": "src/admin/AdminRoutes.tsx",
+      "sha256": "41898D78783DA7880DF526B086D7E92C438067A77BA2A0503036D91F9D822FE0"
+    },
+    {
+      "path": "src/admin/components/AdminSidebar.tsx",
+      "sha256": "973654CEE2288571173ECCA8961456C17ABCEC0676E48B7641768476987C62C2"
+    },
+    {
+      "path": "src/admin/components/AdminTopbar.tsx",
+      "sha256": "67E6ED31A5591FAA94A45897132862F6D4F1C9A5FD410D5E33C5CA905A9EE07A"
+    },
+    {
+      "path": "src/admin/components/applications/ApplicantSummary.tsx",
+      "sha256": "449F1EB0D82D3C4E0E588730B1C1CF0927ED95B3799C5E49B575654149DBA7BA"
+    },
+    {
+      "path": "src/admin/components/applications/ApplicationDocumentSection.tsx",
+      "sha256": "07818F8ADB64902F0F9CFA07D6EB6F2C0F307244517EAD502812F7C0E2D53078"
+    },
+    {
+      "path": "src/admin/components/applications/ApplicationStatusPanel.tsx",
+      "sha256": "4B9612B35E0C2A704B1841CA3A2C3A62400D3BAB5719B6DB31C9EB811E2867B4"
+    },
+    {
+      "path": "src/admin/components/careers/CareerDetailsSection.tsx",
+      "sha256": "335BE4699DA5B8956FE1D1B658ECF1D4AF3925B136DAEA13BD7CEE74B7B1B647"
+    },
+    {
+      "path": "src/admin/components/careers/CareerPublishingPanel.tsx",
+      "sha256": "3E9621996A1CE4A45ED3BBCC633FFA4D6939DAC038989A25505569846AB0049E"
+    },
+    {
+      "path": "src/admin/components/careers/CareerTranslations.tsx",
+      "sha256": "79BD51D490857B44A0370845BA8297CC4EB02A540ADC053AA57E79E3A090C437"
+    },
+    {
+      "path": "src/admin/components/company-content/CompanyPageEditor.tsx",
+      "sha256": "DA789A02C89A3E41549BE9F7E1D8FA0596AA3D8D6218566C691FE0C5CD17766D"
+    },
+    {
+      "path": "src/admin/components/configuration/ConfigurationActions.tsx",
+      "sha256": "7ABE4D66C12698BE8B4C1D0C9180D15800922516F1395C6E6712E9FE816CDC73"
+    },
+    {
+      "path": "src/admin/components/downloads/DownloadFileSection.tsx",
+      "sha256": "AD97476F69B18E81EBE1FD3AF86E8D31629A5D9F353AC6324B063C1853DA191D"
+    },
+    {
+      "path": "src/admin/components/editorial/EditorialContentEditor.tsx",
+      "sha256": "8D25B225AEEEC9322BB4020455FA5038C804280E6BCE33CC98D129DAF678B7AC"
+    },
+    {
+      "path": "src/admin/components/editorial/EditorialEditorLayout.tsx",
+      "sha256": "29CFECDF3F73E264EA62746E8A4542CE3940F07E4EF5CE2FFBA17E5DD5272E3A"
+    },
+    {
+      "path": "src/admin/components/editorial/EditorialMediaSection.tsx",
+      "sha256": "49EF3E890BD28F91004C77EA75FE4A1DC9218B1425B9EC71DE58B4915DE8DCA3"
+    },
+    {
+      "path": "src/admin/components/editorial/EditorialPublishingPanel.tsx",
+      "sha256": "F2A9C912B52FD4F36FEC649302E86AD8BB9661B127DDF70ECD4496BFE022EADF"
+    },
+    {
+      "path": "src/admin/components/editorial/EditorialSeoSection.tsx",
+      "sha256": "F128F112B0A3E787FB1D454FFC9637E10A6505CF08203BFFF4410CB72D0E66B8"
+    },
+    {
+      "path": "src/admin/components/editorial/EditorialTranslations.tsx",
+      "sha256": "C8093BA0D1104BF23BED818B9C07E204BA31EB28E0BC773477D0E6A687CBCB9D"
+    },
+    {
+      "path": "src/admin/components/gallery/GalleryDisplaySection.tsx",
+      "sha256": "B5AE8F6256C0ED0AA2845D1BBCF6A892BF065CE247DE20A37B946432B3D73D89"
+    },
+    {
+      "path": "src/admin/components/gallery/GalleryMediaSection.tsx",
+      "sha256": "BD8A86E147946C024517953F887AF30BEFB3A15E3A8E3A726ECAC85B25975E20"
+    },
+    {
+      "path": "src/admin/components/governance/EffectiveAccessPreview.tsx",
+      "sha256": "4B9A29256C9758EC189F981365F756DAC5E44F7A1345074DC0E907E0770C2043"
+    },
+    {
+      "path": "src/admin/components/governance/GovernanceNotice.tsx",
+      "sha256": "CF5CDE6740473D94EC9F315E4DF6AC8B5D1795EE8FD9BAE7796F11BBD533392C"
+    },
+    {
+      "path": "src/admin/components/governance/PermissionGroups.tsx",
+      "sha256": "7AB33C18E79FE444C8A247FB9F73C549FB899D1BA371568D2F08590E0C249705"
+    },
+    {
+      "path": "src/admin/components/homepage/HomepageSectionNav.tsx",
+      "sha256": "EBF666BC96D6B6EA7E8FEE9A73B4AAFFC2EE5745A43B68062E6B1ACC2F3ADCF7"
+    },
+    {
+      "path": "src/admin/components/homepage/HomepageSections.tsx",
+      "sha256": "CBA900D8312761B110AD56948BB7F5957A3BEBED2B632DD3327161D75DE1C230"
+    },
+    {
+      "path": "src/admin/components/products/ProductMediaManager.tsx",
+      "sha256": "B194BD6C78CB848007CF35737446D8F93FF7802DF58E095A70E870A2774F5089"
+    },
+    {
+      "path": "src/admin/components/products/ProductPublishingPanel.tsx",
+      "sha256": "6DA3C7A050F64BF58249A7116C6D9F14D17F3DA76FE6FF5A49F2317E7AD3E588"
+    },
+    {
+      "path": "src/admin/components/products/ProductSeoSection.tsx",
+      "sha256": "C5DC05D00386F308E675B0CF0A3D9C99A617AAEA8F6B3AECF1E9CDC9B98BE45D"
+    },
+    {
+      "path": "src/admin/components/products/ProductTranslations.tsx",
+      "sha256": "FD9E7A84C878438E7F5C019E0EBBBDB450561F5CF0D0A2CFCFEFAD2A6F589E25"
+    },
+    {
+      "path": "src/admin/components/products/SpecificationEditor.tsx",
+      "sha256": "D567F5D40DE925B11DC128AEE50A02756DA8614615E5B3C874D188C8B2EB152A"
+    },
+    {
+      "path": "src/admin/components/testimonials/TestimonialSections.tsx",
+      "sha256": "E2F99F99B937E71AF5DFE62A4F76AF6628BD4C5E66A0878B7AF9A1457EC1A38A"
+    },
+    {
+      "path": "src/admin/data/activity-log.ts",
+      "sha256": "7B8188FE628C60D716D68E0B86D97A68EAA34F78DB7AA6376AAB983B57C293C9"
+    },
+    {
+      "path": "src/admin/data/admin-users.ts",
+      "sha256": "7CBDCD9147EF3ED4635EC0583B5F44E155D038CF152D7464C3A2759F1FA6F6A1"
+    },
+    {
+      "path": "src/admin/data/applications.ts",
+      "sha256": "97581D317FBFCCF4ED33A719F9F58EACCAB2F8D0EAFEF1AE6E589253419F4400"
+    },
+    {
+      "path": "src/admin/data/blog.ts",
+      "sha256": "C571664D7D42B545FC244A9B92B10D26FF6BC5152208C3F3630D414A6E4DD2CD"
+    },
+    {
+      "path": "src/admin/data/capabilities.ts",
+      "sha256": "A5F55EB7303F20E71C024A6ED339B72F0B9CA86485B2B6F1EDB5AAB244F0EC6C"
+    },
+    {
+      "path": "src/admin/data/careers.ts",
+      "sha256": "F719198767EEAA17C8CEC7E48611C90E92C2A635D5AE0B49D5988D3A1A966A85"
+    },
+    {
+      "path": "src/admin/data/certificates.ts",
+      "sha256": "16E6AAD4330673A3C2DFE237E3AF4A3259A11BA04FD96599399DC410CD7CB4A4"
+    },
+    {
+      "path": "src/admin/data/company.ts",
+      "sha256": "C383179BC913508B638EFB83C74D491440E239FCFD88CDC318EAA2B28A9912A9"
+    },
+    {
+      "path": "src/admin/data/contact-messages.ts",
+      "sha256": "B333A3B946675FCB0082706AECD7A5FBEB8AFEF6112B64EDAEF513F1387B28AE"
+    },
+    {
+      "path": "src/admin/data/contact.ts",
+      "sha256": "55626E033FB6B25491ADD5BE7CE9DF9FD0949CDDB33C98CCD5EE558047F5A9AB"
+    },
+    {
+      "path": "src/admin/data/dashboard.ts",
+      "sha256": "4E385FD19009A1C9F1F625BF732DDF1E2105A3AD662FCD7F79F634C5F4091FE8"
+    },
+    {
+      "path": "src/admin/data/downloads.ts",
+      "sha256": "3BC173351D05B27DBA4D34988534B77B61DC5548C0680F9D0B536257FF21D798"
+    },
+    {
+      "path": "src/admin/data/faq.ts",
+      "sha256": "5A9B727D63652554AC19D656F6DFE0C90CEDC8D8C57D4C2893BF3B5326807D53"
+    },
+    {
+      "path": "src/admin/data/footer.ts",
+      "sha256": "EBB3C3D9C8196E26C29EC61428F4DF99C9CA1AD395F2A0BA9D4D8078B2F7F913"
+    },
+    {
+      "path": "src/admin/data/gallery.ts",
+      "sha256": "688CF62AB606F90953EAB8F5B0057F8213AA8403B4B92F074A092DC322961AA5"
+    },
+    {
+      "path": "src/admin/data/homepage.ts",
+      "sha256": "393367081815850F77260CC335995122A5B47B0E29CAAEE0C39DA5B2749D5AD9"
+    },
+    {
+      "path": "src/admin/data/languages.ts",
+      "sha256": "D7AE870EC765CE5616CB88636B220F93824BB235A5444DF445F8C33E764085A9"
+    },
+    {
+      "path": "src/admin/data/navigation-settings.ts",
+      "sha256": "30B6E6EC361BFC71E574614BA8DBFC0A38470F79421B0755B34A97C482CCA81F"
+    },
+    {
+      "path": "src/admin/data/navigation.ts",
+      "sha256": "5F6F39E2898E026F7137FAB838B76A3F0DFDF932EEA80590D6858F189B978204"
+    },
+    {
+      "path": "src/admin/data/news.ts",
+      "sha256": "9D40F49D792D5B62326EBB7A653654246D31E3A08978CC3B6B31DBD7CCE960CE"
+    },
+    {
+      "path": "src/admin/data/products.ts",
+      "sha256": "E2D837F5AE0B10EDEA3F6E0F41617A219C6733E5A80B89A6C35726EE04CFF36C"
+    },
+    {
+      "path": "src/admin/data/roles.ts",
+      "sha256": "845E993D39F3233790022157D245D9410054D7F2CEFABFE3C5C6D0BD973678E5"
+    },
+    {
+      "path": "src/admin/data/seo.ts",
+      "sha256": "18987BBE8203C8925711E2E467DBD2D7EEA6F5E0A7EC9F88320EEA5BA61B7AFF"
+    },
+    {
+      "path": "src/admin/data/site-settings.ts",
+      "sha256": "A3CAA4EC60C09507DE4FFEF6D9AF7BC915C145622F165F818818CA64319CB439"
+    },
+    {
+      "path": "src/admin/data/testimonials.ts",
+      "sha256": "23BCB720680A181D39A817C03A756052E79ABA75319AB00F314508ECD10F5E6D"
+    },
+    {
+      "path": "src/admin/layouts/AdminLayout.tsx",
+      "sha256": "F42AFC5E717D87D4A4821C28BB661E54A067BD18693DB24800F350136590C950"
+    },
+    {
+      "path": "src/admin/pages/about/AboutEditor.tsx",
+      "sha256": "56BE601112F0ADCA8C3321E341F81F5608511C8BE2A9C0A3F392926BAF2504A6"
+    },
+    {
+      "path": "src/admin/pages/activity-log/ActivityLogDetail.tsx",
+      "sha256": "ED232D3DAFEF3CEF85B27559DF97F708F6D825A3987F098685A8948D4C969CFE"
+    },
+    {
+      "path": "src/admin/pages/activity-log/ActivityLogList.tsx",
+      "sha256": "C731A48E88B0184EE528D53C54A8DDEB868CB5F5B04451CFCF66B3BEDC283C24"
+    },
+    {
+      "path": "src/admin/pages/AdminNotFound.tsx",
+      "sha256": "29BFF04C08CD8F6A2447F5B2A9BCA20B5F0AC760E01E6BA487A41FC258BCD805"
+    },
+    {
+      "path": "src/admin/pages/applications/ApplicationDetail.tsx",
+      "sha256": "8B22777600CA7BDF17D30D492EE786817472FB4791A5BD2EAB3C9B56A6A28CC6"
+    },
+    {
+      "path": "src/admin/pages/applications/ApplicationsList.tsx",
+      "sha256": "6C84148A1C0D45302C871938474ED6C0A8A88301437D3CE16437A7D1F983501E"
+    },
+    {
+      "path": "src/admin/pages/blog/BlogEditor.tsx",
+      "sha256": "DCC30EBEACFAF5C9E8490B1A70FEDBD68B126FC6AC7180EC30F14B7F0CB4CA06"
+    },
+    {
+      "path": "src/admin/pages/blog/BlogList.tsx",
+      "sha256": "D318E3809B084ECC12AF053ECD1122B26E93E594A08D0C9012B178B18129362D"
+    },
+    {
+      "path": "src/admin/pages/careers/CareerEditor.tsx",
+      "sha256": "2D59293B38F68C35DB9F21D42933F80A1F14E195D7C34F5FEE3DEF257F316624"
+    },
+    {
+      "path": "src/admin/pages/careers/CareersList.tsx",
+      "sha256": "F98B44556712E7315F9BF30D2543E816E3C99697A86B39321F954F40D950CA63"
+    },
+    {
+      "path": "src/admin/pages/certificates/CertificateEditor.tsx",
+      "sha256": "E4CE85EBB2BCC0162483D19586C85BDE714A6802558B92BB211BCB0A2DB32894"
+    },
+    {
+      "path": "src/admin/pages/certificates/CertificatesList.tsx",
+      "sha256": "3FEC1078646BD817E791F091486D4C9D112FDFDCF4C2643E7FEE9B455153ACDD"
+    },
+    {
+      "path": "src/admin/pages/contact-messages/ContactMessageDetail.tsx",
+      "sha256": "C295A4E072C027BC96015AD3D4C0744CA21F05CB5E069E0F7AECAEA662F2B06B"
+    },
+    {
+      "path": "src/admin/pages/contact-messages/ContactMessagesList.tsx",
+      "sha256": "9E8DAC7D61F9DE0621808230290C5BBD926EE6832443A06227FE1A2AB1B2E0B5"
+    },
+    {
+      "path": "src/admin/pages/contact/ContactEditor.tsx",
+      "sha256": "87C2EE9CF744249FB28D637C91CAD38E4269FF2EE60E3F81F01C92DBEC7E4395"
+    },
+    {
+      "path": "src/admin/pages/Dashboard.tsx",
+      "sha256": "91D65C834DF618A61C6EEA8E4453C8F0D3F30249636F8D39F0A4660BC2650CC6"
+    },
+    {
+      "path": "src/admin/pages/downloads/DownloadEditor.tsx",
+      "sha256": "3E921E13AC2B0D42CB7CE8C61441D9B27A155B5958B0A0B4BF1A68C1D94FA5B4"
+    },
+    {
+      "path": "src/admin/pages/downloads/DownloadsList.tsx",
+      "sha256": "7BCBA1056F0581818E5C48BAA875A29435AD471E4A1C23C2A3BF5B7AE8F457E0"
+    },
+    {
+      "path": "src/admin/pages/faq/FaqEditor.tsx",
+      "sha256": "CBCCE12FE0D459B67B44FA6DC2E37E5EC944B820F324D721A2A2A904CFA1889F"
+    },
+    {
+      "path": "src/admin/pages/faq/FaqList.tsx",
+      "sha256": "F5D3C57DC23461E126B9ED85799C289ED5A9CCF3A0BEDBBB4BB26712B5113809"
+    },
+    {
+      "path": "src/admin/pages/footer/FooterEditor.tsx",
+      "sha256": "CEAF72193B220128A959B46488A3056FFCEF3088038E12AA551CC2D25FB64A90"
+    },
+    {
+      "path": "src/admin/pages/FoundationPreview.tsx",
+      "sha256": "7C2174BEB6AE995EB93CE5BD28E97438F1EB3F9A73BE7CA6DAD057DA76371814"
+    },
+    {
+      "path": "src/admin/pages/gallery/GalleryEditor.tsx",
+      "sha256": "44E7367444A7405B7E0C0C1D30B4F0FD99BB0DAE41F1D04B737B8C1CB0FEC8A5"
+    },
+    {
+      "path": "src/admin/pages/gallery/GalleryList.tsx",
+      "sha256": "72A68DD33F3F1AA584CBDBEBFD8388949B941255C94BEAEA67477C0F11D27DC5"
+    },
+    {
+      "path": "src/admin/pages/homepage/HomepageEditor.tsx",
+      "sha256": "05D1EF1EC346C92CCDF652F59FB82F3A1054B731ED2D6E90BE135B6F4970E4CD"
+    },
+    {
+      "path": "src/admin/pages/languages/LanguagesEditor.tsx",
+      "sha256": "967C8DDCB3CA789115338098338E0D1BCBC92BAF515D5E1CE6654D7948596FA5"
+    },
+    {
+      "path": "src/admin/pages/mission/MissionEditor.tsx",
+      "sha256": "403E3EB20CAEF921E4364CF9DCD20FC2CF39C8F4E7351564F4C92BD49108E131"
+    },
+    {
+      "path": "src/admin/pages/ModulePlaceholder.tsx",
+      "sha256": "776501E5F7E81BD0F53E071BF2D03731F433C068217943CC25F963A6C4C32724"
+    },
+    {
+      "path": "src/admin/pages/navigation/NavigationEditor.tsx",
+      "sha256": "200F6DE209A35B2777036A86485EFA2BD9FF779A11A837F017C7EFEF26AB3184"
+    },
+    {
+      "path": "src/admin/pages/news/NewsEditor.tsx",
+      "sha256": "5E762F879B1C014FA9A3E57E30B89D32058776B298FF7630B99F53470800EDF9"
+    },
+    {
+      "path": "src/admin/pages/news/NewsList.tsx",
+      "sha256": "845BDBE673F2A2A73DB86FDBDED83A01CECF36779C84C60EB57A2A7B3533CCB0"
+    },
+    {
+      "path": "src/admin/pages/products/ProductEditor.tsx",
+      "sha256": "2B360935CF48726E33DE2090879FF1CF0D26521B340919926D3B21E8B55EE44F"
+    },
+    {
+      "path": "src/admin/pages/products/ProductList.tsx",
+      "sha256": "504D3CA6E86429AFF72DCD1B16E29EF135B703B2130EB7685685782B897E82CF"
+    },
+    {
+      "path": "src/admin/pages/quality/QualityEditor.tsx",
+      "sha256": "7D0C9099BD8B68775919664CE38507B309733197C84FE85080B539B5DDFF599A"
+    },
+    {
+      "path": "src/admin/pages/roles/RoleEditor.tsx",
+      "sha256": "DEBB4D72495D7FBDDADE8A5A804D5CB11774EA3F523F2B64370900E5BA2AE26E"
+    },
+    {
+      "path": "src/admin/pages/roles/RolesList.tsx",
+      "sha256": "A5513D3E47B7359E473C3918BB41AB660367A3496ADBF64C82D90895DC1FEA5C"
+    },
+    {
+      "path": "src/admin/pages/seo/SeoEditor.tsx",
+      "sha256": "5B0D214337CADB0374C407A4E3638D86E50B3329553070BF58E67A4646F49D8D"
+    },
+    {
+      "path": "src/admin/pages/site-settings/SiteSettingsEditor.tsx",
+      "sha256": "005FEDB38AD2A8C5AE42922E72C3874AF2606D85B9C560A05C2C692E18E7ABDB"
+    },
+    {
+      "path": "src/admin/pages/sustainability/SustainabilityEditor.tsx",
+      "sha256": "E7A496BDBBFE36321DC092FA82EF5BB05626EBB6A087FD2DF0E6BB08C59A83C2"
+    },
+    {
+      "path": "src/admin/pages/testimonials/TestimonialEditor.tsx",
+      "sha256": "A5CF96E7C2B79B99CC0392B19A3195D689FF0AE1063B540DB74F8F99A766B5DC"
+    },
+    {
+      "path": "src/admin/pages/testimonials/TestimonialsList.tsx",
+      "sha256": "DA4E4F018C9358BF5CB0844B182D951165521297D674A16C4D8A15F43DABAA23"
+    },
+    {
+      "path": "src/admin/pages/users/UserEditor.tsx",
+      "sha256": "05C1CDD6E781A98FB2BEDE37A64FFA4A1F9279D819EB73A1773FED193328410C"
+    },
+    {
+      "path": "src/admin/pages/users/UsersList.tsx",
+      "sha256": "FAC6A2D0235EC8FA4E4BFFCECE80872BF7EB3C1C6F4ABFF21139449315116840"
+    },
+    {
+      "path": "src/admin/types.ts",
+      "sha256": "A212D266CD1B4ADF185D47E294B1EA5C327DB62556E4EC140EDA284A9D7D58DD"
+    },
+    {
+      "path": "src/admin/types/applications.ts",
+      "sha256": "1B4735D1534BA9E2042EF26E1F9A5EB25DADFA69E758437B8E2F97499E6B03C8"
+    },
+    {
+      "path": "src/admin/types/blog.ts",
+      "sha256": "E76A323294EA1E66F614DB287D13B265B06119653D6A3C422D9714629AC0ADE4"
+    },
+    {
+      "path": "src/admin/types/careers.ts",
+      "sha256": "1982F1BF2C202C0117A52D1BAEDCF89236E0476E28DDF818EBC7AB8AEFFCF890"
+    },
+    {
+      "path": "src/admin/types/certificates.ts",
+      "sha256": "0DD7B1C3672ED6BDD5A66C4397F1B0F769D39B1608DF61EEAA1F73E2941A9E68"
+    },
+    {
+      "path": "src/admin/types/company.ts",
+      "sha256": "BDFCC2C02EA345C13AE0A6C7198F19C8C2542E2EB87459FD82383D6772873948"
+    },
+    {
+      "path": "src/admin/types/contact-messages.ts",
+      "sha256": "6017C15DF47DBCBFAFB4C82B2B326EC1CC4106F257FF5D45966C81257BD66A96"
+    },
+    {
+      "path": "src/admin/types/contact.ts",
+      "sha256": "C994E12137F36326FB68A10DFD6F83DBC059477803729A251520E447F16B7F96"
+    },
+    {
+      "path": "src/admin/types/downloads.ts",
+      "sha256": "58B99A22D3736D8DB51A7D3D85A3FA0AC43C75066910EBB219B133060C1E0B8C"
+    },
+    {
+      "path": "src/admin/types/editorial.ts",
+      "sha256": "5BB3A09478A26EDB8AC6AC3BEA364F1A0DC8E14F083ADB5A8F56972B2DA0835A"
+    },
+    {
+      "path": "src/admin/types/faq.ts",
+      "sha256": "E7B0C12CB31A03190294BF661B5BFD5635FD3FB5D00D90C22F14FFBE76CB7AC9"
+    },
+    {
+      "path": "src/admin/types/footer.ts",
+      "sha256": "95006EE0DD102E0550DB4424C01A94BC316CAECDE56FC960EEA3D72271F36AE9"
+    },
+    {
+      "path": "src/admin/types/gallery.ts",
+      "sha256": "50A1B519947A038B348D368A55382767635884F5DE9B522CCCD4081166BD0372"
+    },
+    {
+      "path": "src/admin/types/governance.ts",
+      "sha256": "FA41140395DE12F0B21C5BDF1B8937C2CB4AE77B43BB4BBCB487EFB90AF29A9F"
+    },
+    {
+      "path": "src/admin/types/homepage.ts",
+      "sha256": "77BEE107E0800AF8AA4165C84526948EC163AD6DD1DA9BBA0EA048EC6916DE7A"
+    },
+    {
+      "path": "src/admin/types/languages.ts",
+      "sha256": "D7B1E9C85EA676832C3176C58A09A7FA2553CB9278102039B43EBFA68E98323E"
+    },
+    {
+      "path": "src/admin/types/navigation-settings.ts",
+      "sha256": "AA9E97FA49FB5D82745603D83158CAFE5BB7608A57B30E1B78B6E8ADCBE4226E"
+    },
+    {
+      "path": "src/admin/types/news.ts",
+      "sha256": "DA8D71D4804E313B5ABF5AA4BB5FD85623D761E0D558B6A29798C8336D95EA02"
+    },
+    {
+      "path": "src/admin/types/products.ts",
+      "sha256": "E9B329F19FA053C9230BA34A0CF834AA315B548FCF763BDD402E6A2861765FB3"
+    },
+    {
+      "path": "src/admin/types/seo.ts",
+      "sha256": "8AAA98702ED0CCA2E90C93CFAA45BC6225F79D1B006E6BE8E9AFEE4EA503E2EA"
+    },
+    {
+      "path": "src/admin/types/site-settings.ts",
+      "sha256": "261A4F8A2D53E06B78FEB7031E8E826126865E84814052F8631E729425CDE7D1"
+    },
+    {
+      "path": "src/admin/types/testimonials.ts",
+      "sha256": "DC5915E398CFF1CD67A14463191C2EC9CD7307B65200C347226641C79F391AC5"
+    },
+    {
+      "path": "src/admin/ui/Button.tsx",
+      "sha256": "8EA768A1AE0372A88DE19CA6C0229018054B0EA98E4FFF96A28F30B33E6B4183"
+    },
+    {
+      "path": "src/admin/ui/Card.tsx",
+      "sha256": "28BFB8ADD9F74CE8ADB4F7E1F76DA39EE620A821482C9A979487CB969C57B1C6"
+    },
+    {
+      "path": "src/admin/ui/Dialog.tsx",
+      "sha256": "2A8FC597052B4553B0B5D98E517657EA14B520E6361CFFB2B003F4BCEF274F13"
+    },
+    {
+      "path": "src/admin/ui/DocumentUpload.tsx",
+      "sha256": "AE9B2E836048B733001B67CDDA2BEE72CDBB5C304941D2243AB9A9932DC95D7D"
+    },
+    {
+      "path": "src/admin/ui/FeedbackStates.tsx",
+      "sha256": "8F247F7A6329E93B96636F2D997B423A449C798DCB18907644838BB5A7B3A693"
+    },
+    {
+      "path": "src/admin/ui/FormControls.tsx",
+      "sha256": "1E6BC0330ABE902B1CAC5AA8DEAC42E5F7C9C732C543430A4AE8C86138E7590F"
+    },
+    {
+      "path": "src/admin/ui/MediaUpload.tsx",
+      "sha256": "C5550A0DEF1051545335C7A7974A159727E49F0E78697ED963749F32A6F6BB52"
+    },
+    {
+      "path": "src/admin/ui/MultilingualFields.tsx",
+      "sha256": "8C7CBC6FE44DA4B6786EFE3D3D94DB01D6190B59BD6846D53B576F9A3D3A2286"
+    },
+    {
+      "path": "src/admin/ui/PageHeader.tsx",
+      "sha256": "12637852ECB699FEB7464BA98BFF8CD4DDF4E9F8734508A3BD3E4E51B26966BD"
+    },
+    {
+      "path": "src/admin/ui/ReorderControls.tsx",
+      "sha256": "90CA69FF88AAB64AFF550D184568AA5B4FAC0AFFA4181EB285727BD1BE88A825"
+    },
+    {
+      "path": "src/admin/ui/ResponsiveDataList.tsx",
+      "sha256": "DEF088589DD17B33C8E17D6D0C06A2CE935764F151DE25FD7DA36CA13CE98863"
+    },
+    {
+      "path": "src/admin/ui/SearchFilterBar.tsx",
+      "sha256": "1273E88765DAE04C84A51FE104C306FB2A67EE936A51CF4178B2D564CD449A24"
+    },
+    {
+      "path": "src/admin/ui/StatusBadge.tsx",
+      "sha256": "9CE891A81D666822448783FFD23C7C14EC8B7D176752269AD131D97572393724"
+    },
+    {
+      "path": "src/App.tsx",
+      "sha256": "C1D5B9F919168C4CDF17B088016E5DBB5556A5DD4FD72CB4DEBEDD8DE005ADE6"
+    },
+    {
+      "path": "src/assets/cat_motorcycle_parts.webp",
+      "sha256": "0C2C89D735E3A8740FB63FC998AC21F83FC97DE4EA1B5BC846C3F2930A67D3B3"
+    },
+    {
+      "path": "src/assets/CNG Rim.webp",
+      "sha256": "EB1C86674245EADF886D3902585E783EF27744110DDEBC4EEF0A7EE1B7ABDAC7"
+    },
+    {
+      "path": "src/assets/company.webp",
+      "sha256": "6E4C7F342D702399495347B39C7358F19215E6B486FBE35F5CDE898D6E578DEC"
+    },
+    {
+      "path": "src/assets/Fonts/NiladriNodia/ANSI V1/Li Niladri Nodia ANSI V1 Italic.ttf",
+      "sha256": "C59B7B82A20073586EC8C18976162C38CA5DE918EF89080D842F0C45992CB453"
+    },
+    {
+      "path": "src/assets/Fonts/NiladriNodia/ANSI V1/Li Niladri Nodia ANSI V1.ttf",
+      "sha256": "8D0ACF0CF0CFDD7CB19F5AF391151B9969E4FC5B270C9D1382ACC062498A4589"
+    },
+    {
+      "path": "src/assets/Fonts/NiladriNodia/ANSI V2/Li Niladri Nodia ANSI V2 Italic.ttf",
+      "sha256": "8762E40F1622090280929EDFD411F91727B02EAAA4C97102969E8BED1FC09FA1"
+    },
+    {
+      "path": "src/assets/Fonts/NiladriNodia/ANSI V2/Li Niladri Nodia ANSI V2.ttf",
+      "sha256": "E92A195FA770CE102D9B794CCE0CE72562459C82EBEBED91104E1F749DEB520D"
+    },
+    {
+      "path": "src/assets/Fonts/NiladriNodia/Readme.txt",
+      "sha256": "4BA2969F2D7D076AC2FF1DFCA36761CA5F88C5D63DDF0E27E3B58E6A324763E4"
+    },
+    {
+      "path": "src/assets/Fonts/NiladriNodia/Unicode/Li Niladri Nodia Unicode Italic.ttf",
+      "sha256": "EBEE2451CA489413E6B0F04957E795ADD206DDDF69BEC4828E1CCE4FE5D24421"
+    },
+    {
+      "path": "src/assets/Fonts/NiladriNodia/Unicode/Li Niladri Nodia Unicode.ttf",
+      "sha256": "E90AEFF9B4AF001A2C8F8627D0768284577032C0C5FE21AA87C4025CE225167C"
+    },
+    {
+      "path": "src/assets/Hero Image.png",
+      "sha256": "44DF2231A38B7E97DE8FAC6DAE0BBA5099AD3CA063009A8BDF33E8A15EFE0EF5"
+    },
+    {
+      "path": "src/assets/ISO/Certificate-02.png",
+      "sha256": "37B2004DDE11261DAA583288CD8068667591B4AEA8508A218BFB15855E899B1A"
+    },
+    {
+      "path": "src/assets/ISO/Certificate-03.png",
+      "sha256": "11A1CE3FC20069978696BFB41A6AF8688DFABE65A4B22E4D5B0B6A7D9755B0A2"
+    },
+    {
+      "path": "src/assets/ISO/Certificate.png",
+      "sha256": "AC9BBBABD00BCFA6868376C7C70392BDEB5DD4EBFBF523607E7E1CCA37BF728E"
+    },
+    {
+      "path": "src/assets/ITEM NAME.xls",
+      "sha256": "707EB1CDCC3DC0549FA4097BD1560EA97F8FA306FA17CCB52F7497E10302EAC4"
+    },
+    {
+      "path": "src/assets/Logo - Modina Rim & Parts Ltd..jpg",
+      "sha256": "2C90F6E7F0B1F408C25083A70AC073266A80D22EE4DC63B5174EFCE8BD13DE55"
+    },
+    {
+      "path": "src/assets/logo-horizontal.png",
+      "sha256": "091467B6B35E563D7055430F9876A4F4B42B9E8912A68B7F0E1401F16F684D55"
+    },
+    {
+      "path": "src/assets/logo.png",
+      "sha256": "035C45FF9DA09443E3708B5432C6867E2B3421468D1E6A3F2F3A6862734F6C33"
+    },
+    {
+      "path": "src/assets/Md. Faruq Hossain.webp",
+      "sha256": "9C72F79CB758D120BD96F4518F93E8E550648B683C47CE708C4C538651917ECA"
+    },
+    {
+      "path": "src/assets/Premium Rims.webp",
+      "sha256": "A502A97060E9BBD87B306B2792DC173C6E42BD4A93BFD5862572890DA10C02C5"
+    },
+    {
+      "path": "src/assets/products/SKU-001_product_01_master.png",
+      "sha256": "53858231EF306EB94E0F4089F3118A60F6D68CE23D48FEE5E99008DEB9854206"
+    },
+    {
+      "path": "src/assets/products/SKU-001_product_01_master(2).jpg",
+      "sha256": "E8FA1806F8653D3524A21D9F7A8D291CB84F0C5194D6674F0EB7E417442DF5A1"
+    },
+    {
+      "path": "src/assets/products/SKU-001_product_01_master(3).png",
+      "sha256": "FD9697D0440B872E56476003BCD9EA5773B9FC632C8A4B1CDDA4145FBB1EEB13"
+    },
+    {
+      "path": "src/assets/products/SKU-002_product_01_master.png",
+      "sha256": "0996D4EBBE39A5D097F0A59F43F8D2C962CF74E2408BA6EE33684B9F5722E820"
+    },
+    {
+      "path": "src/assets/products/SKU-002_product_01_master(2).jpg",
+      "sha256": "8F847E74E5220474068F26AC05DC0A23A698C6ACC0AF6083FCEC1DDA7F1FB100"
+    },
+    {
+      "path": "src/assets/products/SKU-002_product_01_master(3).png",
+      "sha256": "59ED1E625CDD9CF3D8B6CE70B7652A523D90A969E5E793DE73A99772A55DAB54"
+    },
+    {
+      "path": "src/assets/products/SKU-003_product_01_master.png",
+      "sha256": "BA09B920ABD4829E0033B796FBEF26A1B070DFC00C07AEC117CA5AC0E12D553A"
+    },
+    {
+      "path": "src/assets/products/SKU-003_product_01_master(2).jpg",
+      "sha256": "ED9BF02B802229C538422139D310E33BB0B525C46FBA160FE883D797A750E428"
+    },
+    {
+      "path": "src/assets/products/SKU-003_product_01_master(3).png",
+      "sha256": "DB34AC291DD07DACB3476C1DED962810C054FDE88D1304888C58FF86B8273F7E"
+    },
+    {
+      "path": "src/assets/State of the Art Facility.webm",
+      "sha256": "D6C5542BBDFE6409BDE6EAB7E0475CBF6487771CD7137623324DB5E48AD62417"
+    },
+    {
+      "path": "src/assets/wasar.webp",
+      "sha256": "6A402EE1EE3D082FA5A59CCBF2C1431D9BA644A1CFAFC78647C9BAD68CE8A5AA"
+    },
+    {
+      "path": "src/components/BackToTop.tsx",
+      "sha256": "3B1026D536644C2607D8C9E7B4476E30A006A7A43EE854B54E64F353F361964F"
+    },
+    {
+      "path": "src/components/Chatbot.tsx",
+      "sha256": "189C21C565487C1F92A1930203F7423CCD49B9315B6CE7CD975254DB02009B89"
+    },
+    {
+      "path": "src/components/Footer.tsx",
+      "sha256": "0572DC90AC9DF68D49B8691F9EBB91F79526CB10B8905216161BE8A4CFBD5379"
+    },
+    {
+      "path": "src/components/Logo.tsx",
+      "sha256": "C00A531DC8028915B1537E828C45CA93AC300367B7A6DD750A69D5568E645701"
+    },
+    {
+      "path": "src/components/Navbar.tsx",
+      "sha256": "1BFBDC58B0CA0C2B7C21856650DC497E03B4A13C26C7A85AD6B17504B1E48F90"
+    },
+    {
+      "path": "src/components/Preloader.tsx",
+      "sha256": "B6C0127CA94469AC8D5DA6766E07E9EAD4215B59FAAD2F0C49FEF813CA88A062"
+    },
+    {
+      "path": "src/components/ProductImageCarousel.tsx",
+      "sha256": "7D1A43AA1A73235F986F5AC80F20B25D3486FE97467B6CF44C7C1A77281F3CEA"
+    },
+    {
+      "path": "src/components/PublicModal.tsx",
+      "sha256": "8C204373D4EDA5B56F593B6A533AD6CD7453ABA61F2BD91D32791360C417BDD9"
+    },
+    {
+      "path": "src/components/ScrollToTop.tsx",
+      "sha256": "867D062DA320921792C8BB60984A5C2E4FEE71A1BC5A382F8ECE4F17A142BBB4"
+    },
+    {
+      "path": "src/hooks/useLocaleSync.ts",
+      "sha256": "4E30EC38DC22E2D2CC0F6D353EC9D06C59B653E4F6EC593274FF9261E8EDB2A5"
+    },
+    {
+      "path": "src/i18n/bn.json",
+      "sha256": "23E6F7F31C343A834837C102E35A52C06801C8341330F5DBA6E12346D96BD090"
+    },
+    {
+      "path": "src/i18n/en.json",
+      "sha256": "A1CC6771D72BDCF0D0A7100C55854FBA02E6E21629681983A9D71535B3FA4DC1"
+    },
+    {
+      "path": "src/i18n/index.ts",
+      "sha256": "B4A53203349E312D7D4235CEDB27AFDE85CA0F0FC4F91A55BD542F7AACEB854B"
+    },
+    {
+      "path": "src/i18n/locales.ts",
+      "sha256": "F6366CA65EFDA15C0EEC409D9B10B605C893642ED72205081F16500C8FCF7EB8"
+    },
+    {
+      "path": "src/index.css",
+      "sha256": "FF4DDA6E586DB1BFACC1BB0A6D4B4E84E979DEC4EE8CDB19CA6B0DD1AAAD2160"
+    },
+    {
+      "path": "src/layouts/Layout.tsx",
+      "sha256": "B772E23F01EC8F8809E7FCB9032A9E8D5108969A195CD96B6EFCDBB29D8A5B77"
+    },
+    {
+      "path": "src/lib/data.ts",
+      "sha256": "791CDD9E616901EFA455177200709A5221E570BDFD25E221D8DB22A8817D1312"
+    },
+    {
+      "path": "src/lib/utils.ts",
+      "sha256": "D1F1E0D62CB8D8D1E04C26E14DE842D8A151F75812D81B046C65B5D1FE8E4B27"
+    },
+    {
+      "path": "src/main.tsx",
+      "sha256": "CC3225A6DCA763D31A197E41DC0233E3A73034F7AAA0ACBC55A06AAA2A921849"
+    },
+    {
+      "path": "src/pages/About.tsx",
+      "sha256": "5F3E725D925C4B0DA605EADA8773F734985D2779EAC725BF7E26B0E7B15A3B6F"
+    },
+    {
+      "path": "src/pages/Blog.tsx",
+      "sha256": "7F4BF5150482B50E188FBE568C0AD8910DD1EBFF8F9A49773927AC6939E0F042"
+    },
+    {
+      "path": "src/pages/BlogDetail.tsx",
+      "sha256": "2433A874ADD1126AAA641364EFAAB66CDD5CCF86BD312927DA8410DF0228CF99"
+    },
+    {
+      "path": "src/pages/Careers.tsx",
+      "sha256": "AC214DAE6B4B9610F667349DC976500B4D6251C484BAE0C5A7FE6C4508CF19D8"
+    },
+    {
+      "path": "src/pages/Certificates.tsx",
+      "sha256": "535189AB7AA5AE5811CFF3097FD41D4C26712161C85108EF9A7E4BFADE4BE3F3"
+    },
+    {
+      "path": "src/pages/Contact.tsx",
+      "sha256": "5B0E80245E1ACC618D722EAC87F13336EC4A000A7D7B3D17FE68B7FF51582210"
+    },
+    {
+      "path": "src/pages/Downloads.tsx",
+      "sha256": "71EA3DE8AD7765951EE77C966AC848D4E00E610E74903F8F508563530075559B"
+    },
+    {
+      "path": "src/pages/FAQ.tsx",
+      "sha256": "F77D53D2B3C7227D9DB99A5CD8A4BF9C91BB496CEF493815A3F0DA2A61A432C8"
+    },
+    {
+      "path": "src/pages/Gallery.tsx",
+      "sha256": "EE39C540F838580515EC526A47112C2985DBE211F094E5AB1F8C0106808D44B7"
+    },
+    {
+      "path": "src/pages/Home.tsx",
+      "sha256": "2D68C315767B4588E8A1AF30C657D2C156943F21ECE1F13E1CA8FD8844D167B8"
+    },
+    {
+      "path": "src/pages/Mission.tsx",
+      "sha256": "D7A8503917B37B02073D6BBCC7C5779FE411CA5166E5CFE2A8DFE148DF887D0E"
+    },
+    {
+      "path": "src/pages/News.tsx",
+      "sha256": "44E3BC3CA708168D5A413DD5104DCD38F664D1CF49FA026BC0737368B6E818C6"
+    },
+    {
+      "path": "src/pages/NewsDetail.tsx",
+      "sha256": "3CE754194F7E2B1E41B4A71B10F6ED37826B8B6EC2CC00CDB2B83108F6C73D34"
+    },
+    {
+      "path": "src/pages/NotFound.tsx",
+      "sha256": "D36A51A12AA9443E7C22E990599690B91FF12190935E48AE9CA0F6804A73476D"
+    },
+    {
+      "path": "src/pages/Privacy.tsx",
+      "sha256": "FE789E49375C1FE13AD812C64B1DEC34B93C81C3C4EBEB106A57729359D0AB41"
+    },
+    {
+      "path": "src/pages/Products.tsx",
+      "sha256": "FE6B66723EED23A5F0F430B5AE7CC8BE691A2A210E26E2DE8563AE5BE51D0939"
+    },
+    {
+      "path": "src/pages/Quality.tsx",
+      "sha256": "6A44CA5B30CF7773B7FD58F2D83219369725BB6347167A2626E1D742149F7B78"
+    },
+    {
+      "path": "src/pages/Sustainability.tsx",
+      "sha256": "6F406897C407C8B9CC700A16F68CB5DC3AE67C17C2874BB6D0C169C5E82B10E0"
+    },
+    {
+      "path": "src/pages/Terms.tsx",
+      "sha256": "1A86EC23E2210C8315A4687CCA50B67E4620B096820A7E91C0B84282A34E37EB"
+    },
+    {
+      "path": "src/vite-env.d.ts",
+      "sha256": "65996936FBB042915F7B74A200FCDDE7E410F32A669B1AB9597CFAA4B0FADDB5"
+    },
+    {
+      "path": "TASK_5B_PRODUCTION_ARCHITECTURE_AUDIT.md",
+      "sha256": "CFAB42A690C7E37C3FFAE11BA84670C1AE7BEE6106B65E96EC94A38876E2D91E"
+    },
+    {
+      "path": "tsconfig.json",
+      "sha256": "043B8294CD65F328DAC7F01A466EFEF57E881B5221C598D56A591ADEC1538B16"
+    },
+    {
+      "path": "vite.config.ts",
+      "sha256": "06A2A1669AAE5BEF048E22357D363B66D51907EEC68EEE0FDB735B0FF5B84781"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "browser": "156.0.8078.48",
+  "engine": "Chromium",
+  "playwright": "1.62.1",
+  "baseURL": "http://127.0.0.1:4173",
+  "touch": true,
+  "physicalDevices": false,
+  "widths": [
+    320,
+    360,
+    375,
+    390,
+    430,
+    768,
+    1024,
+    1440
+  ],
+  "axeAvailable": true
+}

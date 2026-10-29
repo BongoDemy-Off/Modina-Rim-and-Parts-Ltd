@@ -1,0 +1,37 @@
+warning: in the working copy of 'docs/audits/evidence/batch-1a-acceptance/public-modal-before-acceptance.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/PublicModal.tsx', LF will be replaced by CRLF the next time Git touches it
+diff --git a/docs/audits/evidence/batch-1a-acceptance/public-modal-before-acceptance.tsx b/src/components/PublicModal.tsx
+index 8f60c8c..bb7de35 100644
+--- a/docs/audits/evidence/batch-1a-acceptance/public-modal-before-acceptance.tsx
++++ b/src/components/PublicModal.tsx
+@@ -1,5 +1,5 @@
+-import { useLayoutEffect, useRef, type ReactNode, type RefObject } from 'react';
+-import { AnimatePresence, motion, useReducedMotion } from 'motion/react';
++import { useEffect, useLayoutEffect, useRef, type ReactNode, type RefObject } from 'react';
++import { AnimatePresence, motion, useAnimationControls, useReducedMotion } from 'motion/react';
+ import { useLocation } from 'react-router-dom';
+ 
+ interface PublicModalProps {
+@@ -58,6 +58,13 @@ export default function PublicModal({ open, onRequestClose, labelledBy, initialF
+   const route = useLocation().key;
+   const openedOnRoute = useRef(route);
+   const reduceMotion = useReducedMotion();
++  const shellAnimation = useAnimationControls();
++
++  useEffect(() => {
++    // Re-entry can interrupt AnimatePresence's exit with the same content key.
++    // Explicitly restart the shell so an old exit cannot leave modality invisible.
++    if (open) void shellAnimation.start({ opacity: 1, transition: { duration: 0 } });
++  }, [open, shellAnimation]);
+ 
+   const requestClose = () => {
+     if (!active.current || requested.current || !latest.current.open) return;
+@@ -143,7 +150,7 @@ export default function PublicModal({ open, onRequestClose, labelledBy, initialF
+             key="contents"
+             className="fixed inset-0"
+             initial={{ opacity: 1 }}
+-            animate={{ opacity: 1 }}
++            animate={shellAnimation}
+             exit={{ opacity: 0 }}
+             transition={{ duration: reduceMotion ? 0 : exitDuration }}
+             onAnimationComplete={definition => {

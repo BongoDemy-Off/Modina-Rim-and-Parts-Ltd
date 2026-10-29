@@ -1,0 +1,14 @@
+[
+  {
+    "suite": "intro",
+    "exitCode": 0
+  },
+  {
+    "suite": "motion",
+    "exitCode": 0
+  },
+  {
+    "suite": "text",
+    "exitCode": 1
+  }
+]

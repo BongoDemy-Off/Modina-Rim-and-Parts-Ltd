@@ -1,0 +1,95 @@
+{
+  "mode": "motion",
+  "base": "http://127.0.0.1:4199",
+  "cases": [
+    {
+      "name": "three normal rotation intervals, one timer",
+      "timers": {
+        "created": 1,
+        "fired": 2,
+        "active": [
+          17
+        ]
+      },
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:\n\n  assert.ok(r.timers.fired>=3)\n\n    at C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-2b\\checks.cjs:32:164\n    at async test (C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-2b\\checks.cjs:9:77)\n    at async C:\\Users\\BongoDemy\\Documents\\BongoDemy\\Modina-Rim-and-Parts-Ltd\\docs\\audits\\evidence\\batch-2b\\checks.cjs:32:3"
+    },
+    {
+      "name": "explicit pause persists across manual navigation",
+      "timers": {
+        "created": 1,
+        "fired": 2,
+        "active": []
+      },
+      "passed": true
+    },
+    {
+      "name": "Play, keyboard focus, hover and offscreen suspension",
+      "passed": true
+    },
+    {
+      "name": "document hidden suspension",
+      "nativeHidden": false,
+      "syntheticFallback": true,
+      "passed": true
+    },
+    {
+      "name": "reduced-motion static with manual selection",
+      "passed": true
+    },
+    {
+      "name": "/ reduced video native controls",
+      "video": {
+        "src": "/src/assets/State%20of%20the%20Art%20Facility.webm",
+        "controls": true,
+        "paused": true,
+        "autoplay": false,
+        "muted": true,
+        "inline": true
+      },
+      "passed": true
+    },
+    {
+      "name": "/about reduced video native controls",
+      "video": {
+        "src": "/src/assets/State%20of%20the%20Art%20Facility.webm",
+        "controls": true,
+        "paused": true,
+        "autoplay": false,
+        "muted": true,
+        "inline": true
+      },
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "blocked": [
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    }
+  ],
+  "browser": "156.0.8078.49",
+  "completed": true,
+  "teardown": {
+    "normal": false,
+    "bounded": true,
+    "connected": false
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "matches": true,
+  "image1": "/hero_products.jpg",
+  "image2": "/hero_rims.jpg",
+  "video": [
+    {
+      "autoplay": true,
+      "paused": true,
+      "controls": false,
+      "loop": true
+    }
+  ]
+}

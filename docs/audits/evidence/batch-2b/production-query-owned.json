@@ -1,0 +1,10 @@
+{
+  "serverPid": 13316,
+  "node": "v24.15.0",
+  "start": "2026-10-28T05:00:08.189Z",
+  "ready": true,
+  "testPid": 12884,
+  "exitCode": 0,
+  "serverStopped": true,
+  "finished": "2026-10-28T05:02:08.362Z"
+}

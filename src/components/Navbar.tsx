@@ -1,14 +1,23 @@
 import React, { useState, useEffect, useMemo, useRef } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { ChevronDown, X, Search, Globe, Package, FileText, Image, PenTool, Headphones } from 'lucide-react';
-import { motion, AnimatePresence } from 'motion/react';
+import { motion, AnimatePresence, useIsPresent, useReducedMotion } from 'motion/react';
 import { useTranslation } from 'react-i18next';
 import { cn } from '../lib/utils';
 import Logo from './Logo';
+import PublicModal from './PublicModal';
 import { productsData, filesData, galleryItems, postsData } from '../lib/data';
+
+// Exiting links may still be painted by Motion, but must leave the tab order
+// as soon as their disclosure announces that it is collapsed.
+function DisclosurePanel(props: React.ComponentProps<typeof motion.div>) {
+  const present = useIsPresent();
+  return <motion.div {...props} inert={!present} aria-hidden={!present || undefined} />;
+}
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const [isDesktop, setIsDesktop] = useState(() => window.matchMedia('(min-width: 1280px)').matches);
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
   const [activeMobileDropdown, setActiveMobileDropdown] = useState<string | null>(null);
   const [isScrolled, setIsScrolled] = useState(false);
@@ -21,6 +30,16 @@ export default function Navbar() {
   const [isSearchFocused, setIsSearchFocused] = useState(false);
   const desktopSearchRef = useRef<HTMLDivElement>(null);
   const mobileSearchRef = useRef<HTMLDivElement>(null);
+  const mobileSearchOpener = useRef<HTMLButtonElement>(null);
+  const firstMobileControl = useRef<HTMLAnchorElement>(null);
+  const reduceMotion = useReducedMotion();
+
+  const closeSearch = () => {
+    setIsMobileSearchOpen(false);
+    setIsSearchFocused(false);
+    setSearchQuery('');
+    mobileSearchOpener.current?.focus({ preventScroll: true });
+  };
 
   const searchResults = useMemo(() => {
     if (!searchQuery.trim()) return null;
@@ -68,15 +87,22 @@ export default function Navbar() {
   }, []);
 
   useEffect(() => {
-    if (isOpen) {
-      document.body.style.overflow = 'hidden';
-    } else {
-      document.body.style.overflow = 'unset';
-    }
-    return () => {
-      document.body.style.overflow = 'unset';
+    const desktop = window.matchMedia('(min-width: 1280px)');
+    const closeAtDesktop = () => {
+      setIsDesktop(desktop.matches);
+      if (desktop.matches) setIsOpen(false);
     };
-  }, [isOpen]);
+    desktop.addEventListener('change', closeAtDesktop);
+    return () => desktop.removeEventListener('change', closeAtDesktop);
+  }, []);
+
+  useEffect(() => {
+    const outside = (event: PointerEvent) => {
+      if (event.target instanceof Element && !event.target.closest('[data-nav-disclosure]')) setActiveDropdown(null);
+    };
+    document.addEventListener('pointerdown', outside);
+    return () => document.removeEventListener('pointerdown', outside);
+  }, []);
 
   useEffect(() => {
     setIsOpen(false);
@@ -85,12 +111,13 @@ export default function Navbar() {
     setIsSearchFocused(false);
     setIsMobileSearchOpen(false);
     setSearchQuery('');
-  }, [location.pathname]);
+  }, [location.key]);
 
   const navItems = [
     { name: t('nav.home'), path: '/' },
     { name: t('nav.products'), path: '/products' },
     {
+      id: 'quality',
       name: t('nav.quality_dropdown'),
       dropdown: [
         { name: t('nav.quality_assurance'), path: '/quality' },
@@ -99,6 +126,7 @@ export default function Navbar() {
       ]
     },
     {
+      id: 'company',
       name: t('nav.company'),
       dropdown: [
         { name: t('nav.about'), path: '/about' },
@@ -109,6 +137,7 @@ export default function Navbar() {
       ]
     },
     {
+      id: 'media',
       name: t('nav.media'),
       dropdown: [
         { name: t('nav.gallery'), path: '/gallery' },
@@ -142,7 +171,7 @@ export default function Navbar() {
               {searchResults.products.map(p => (
                 <Link
                   key={p.id}
-                  to={`/products?category=${p.category}`}
+                  to={`/products?category=${encodeURIComponent(p.category)}&product=${p.id}`}
                   className="group flex flex-col p-2 rounded-lg hover:bg-modina-bg-alt transition-colors duration-200"
                 >
                   <span className="text-sm font-bold text-modina-heading group-hover:text-modina-red transition-colors">{p.name}</span>
@@ -254,28 +283,42 @@ export default function Navbar() {
 
               return (
                 <motion.div
-                  key={item.name}
+                  key={item.id || item.path}
                   initial={{ opacity: 0, y: -8 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.4, delay: 0.15 + idx * 0.05, ease: 'easeOut' }}
                   className="relative h-full flex items-center"
-                  onMouseEnter={() => setActiveDropdown(item.name)}
-                  onMouseLeave={() => setActiveDropdown(null)}
+                  data-nav-disclosure
+                  onPointerEnter={event => { if (item.id && event.pointerType === 'mouse') setActiveDropdown(item.id); }}
+                  onPointerLeave={event => { if (!event.currentTarget.contains(document.activeElement)) setActiveDropdown(null); }}
+                  onBlur={event => { if (!event.currentTarget.contains(event.relatedTarget)) setActiveDropdown(null); }}
+                  onKeyDown={event => {
+                    if (event.key === 'Escape' && activeDropdown) {
+                      event.preventDefault();
+                      setActiveDropdown(null);
+                      event.currentTarget.querySelector<HTMLButtonElement>('[data-disclosure-trigger]')?.focus();
+                    }
+                  }}
                 >
                   {item.dropdown ? (
-                    <div
+                    <button
+                      type="button"
+                      data-disclosure-trigger
+                      aria-expanded={activeDropdown === item.id}
+                      aria-controls={`desktop-nav-${item.id}`}
+                      onClick={() => setActiveDropdown(activeDropdown === item.id ? null : item.id!)}
                       className={cn(
                         'flex items-center gap-1.5 px-3 py-2 rounded-lg cursor-pointer text-[15px] font-semibold transition-all duration-200',
-                        activeDropdown === item.name || location.pathname.startsWith(item.path || '/*') 
+                        activeDropdown === item.id || item.dropdown.some(link => link.path === location.pathname)
                           ? 'text-modina-red'
                           : 'text-modina-muted hover:text-modina-heading'
                       )}
                     >
                       <span>{item.name}</span>
                       <ChevronDown
-                        className={cn('w-4 h-4 transition-transform duration-200', activeDropdown === item.name ? 'rotate-180 text-modina-red' : '')}
+                        className={cn('w-4 h-4 transition-transform duration-200', activeDropdown === item.id ? 'rotate-180 text-modina-red' : '')}
                       />
-                    </div>
+                    </button>
                   ) : (
                     <Link
                       to={item.path!}
@@ -299,8 +342,9 @@ export default function Navbar() {
                   {/* Dropdown */}
                   {item.dropdown && (
                     <AnimatePresence>
-                      {activeDropdown === item.name && (
-                        <motion.div
+                      {activeDropdown === item.id && (
+                        <DisclosurePanel
+                          id={`desktop-nav-${item.id}`}
                           initial={{ opacity: 0, y: 8, scale: 0.97 }}
                           animate={{ opacity: 1, y: 0, scale: 1 }}
                           exit={{ opacity: 0, y: 6, scale: 0.97 }}
@@ -332,7 +376,7 @@ export default function Navbar() {
                               );
                             })}
                           </div>
-                        </motion.div>
+                        </DisclosurePanel>
                       )}
                     </AnimatePresence>
                   )}
@@ -354,6 +398,8 @@ export default function Navbar() {
                 <Search className="w-5 h-5 absolute right-2.5 top-1/2 -translate-y-1/2 text-modina-heading group-hover:text-modina-red group-focus-within:text-modina-red transition-colors duration-200 pointer-events-none z-10" />
                 <input
                   type="text"
+                  aria-label={lang === 'EN' ? 'Search' : 'অনুসন্ধান'}
+                  onKeyDown={event => { if (event.key === 'Escape') setIsSearchFocused(false); }}
                   placeholder={lang === 'EN' ? 'Search...' : 'অনুসন্ধান...'}
                   value={searchQuery}
                   onChange={(e) => {
@@ -402,9 +448,12 @@ export default function Navbar() {
             {/* Mobile Actions: Search Icon + Talk to Sales + Menu Toggle */}
             <div className="flex w-full xl:hidden items-center justify-between gap-1.5 sm:w-auto sm:justify-end sm:gap-2 sm:ml-1">
               <button
+                ref={mobileSearchOpener}
                 onClick={() => setIsMobileSearchOpen(true)}
                 className="flex md:hidden items-center justify-center w-11 h-11 text-modina-heading hover:text-modina-red transition-colors duration-200"
                 aria-label="Search"
+                aria-expanded={isMobileSearchOpen}
+                aria-controls="mobile-search"
               >
                 <Search className="w-5 h-5" />
               </button>
@@ -419,6 +468,8 @@ export default function Navbar() {
                 onClick={() => setIsOpen(true)}
                 className="flex items-center justify-center h-11 px-3 sm:px-4 border border-modina-border rounded-[6px] text-[12px] sm:text-[13px] font-bold text-modina-heading hover:text-modina-red hover:border-modina-red/40 hover:bg-modina-bg-alt transition-all duration-200"
                 aria-label="Open menu"
+                aria-expanded={isOpen}
+                aria-controls="mobile-navigation"
               >
                 {t('nav.menu')}
               </button>
@@ -429,6 +480,8 @@ export default function Navbar() {
           <AnimatePresence>
             {isMobileSearchOpen && (
               <motion.div
+                id="mobile-search"
+                onKeyDown={event => { if (event.key === 'Escape') closeSearch(); }}
                 initial={{ opacity: 0, y: -10 }}
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -10 }}
@@ -440,6 +493,7 @@ export default function Navbar() {
                     <Search className="w-4 h-4 absolute left-3.5 top-1/2 -translate-y-1/2 text-modina-subtle group-focus-within:text-modina-red transition-colors duration-200" />
                     <input
                       type="text"
+                      aria-label={lang === 'EN' ? 'Search' : 'অনুসন্ধান'}
                       autoFocus
                       placeholder={lang === 'EN' ? 'Search products, catalogs...' : 'অনুসন্ধান করুন...'}
                       value={searchQuery}
@@ -452,10 +506,7 @@ export default function Navbar() {
                     />
                   </div>
                   <button
-                    onClick={() => {
-                      setIsMobileSearchOpen(false);
-                      setSearchQuery('');
-                    }}
+                    onClick={closeSearch}
                     className="flex h-11 w-11 shrink-0 items-center justify-center text-modina-muted hover:text-modina-red hover:bg-modina-bg-alt rounded-lg transition-colors duration-200"
                     aria-label="Close search"
                   >
@@ -484,29 +535,27 @@ export default function Navbar() {
       </header>
 
       {/* Mobile Drawer Backdrop */}
-      <AnimatePresence>
-        {isOpen && (
+      {!isDesktop && <PublicModal open={isOpen} onRequestClose={() => setIsOpen(false)} labelledBy="mobile-navigation-title" initialFocusRef={firstMobileControl} exitDuration={0.3}>
+        <>
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            transition={{ duration: 0.2 }}
+            transition={{ duration: reduceMotion ? 0 : 0.2 }}
             className="fixed inset-0 bg-black/40 z-[55] xl:hidden"
-            onClick={() => setIsOpen(false)}
+            data-public-backdrop
           />
-        )}
-      </AnimatePresence>
 
       {/* Mobile Partial Drawer */}
-      <AnimatePresence>
-        {isOpen && (
           <motion.div
-            initial={{ opacity: 0, x: '100%' }}
+            initial={{ opacity: 0, x: reduceMotion ? 0 : '100%' }}
             animate={{ opacity: 1, x: 0 }}
-            exit={{ opacity: 0, x: '100%' }}
-            transition={{ duration: 0.3, ease: [0.32, 0.72, 0, 1] }}
+            exit={{ opacity: 0, x: reduceMotion ? 0 : '100%' }}
+            transition={{ duration: reduceMotion ? 0 : 0.3, ease: [0.32, 0.72, 0, 1] }}
+              id="mobile-navigation"
               className="fixed top-0 right-0 bottom-0 w-[min(90vw,400px)] bg-white z-[60] flex flex-col border-l border-modina-border shadow-design-lg xl:hidden"
           >
+            <h2 id="mobile-navigation-title" className="sr-only">{t('nav.menu')}</h2>
             {/* Drawer Header */}
             <div className="flex justify-between items-center h-16 border-b border-modina-border px-4 sm:px-6 shrink-0">
               <Link to="/" className="flex items-center gap-2" onClick={() => setIsOpen(false)}>
@@ -530,19 +579,22 @@ export default function Navbar() {
             <div className="flex-1 flex flex-col px-4 sm:px-6 py-4 gap-1 overflow-y-auto scrollbar-hide">
               {navItems.map((link, idx) => {
                 const isActive = location.pathname === link.path;
-                const isDropdownActive = activeMobileDropdown === link.name;
+                const isDropdownActive = activeMobileDropdown === link.id;
                 
                 return (
                   <motion.div
-                    key={link.name}
-                    initial={{ opacity: 0, x: 16 }}
+                    key={link.id || link.path}
+                    initial={{ opacity: 0, x: reduceMotion ? 0 : 16 }}
                     animate={{ opacity: 1, x: 0 }}
-                    transition={{ delay: 0.05 + idx * 0.04, duration: 0.3, ease: 'easeOut' }}
+                    transition={{ delay: reduceMotion ? 0 : 0.05 + idx * 0.04, duration: reduceMotion ? 0 : 0.3, ease: 'easeOut' }}
                   >
                     {link.dropdown ? (
                       <div className="flex flex-col border-b border-modina-divider/50">
                         <button 
-                          onClick={() => setActiveMobileDropdown(isDropdownActive ? null : link.name)}
+                          type="button"
+                          aria-expanded={isDropdownActive}
+                          aria-controls={`mobile-nav-${link.id}`}
+                          onClick={() => setActiveMobileDropdown(isDropdownActive ? null : link.id!)}
                           className="flex items-center justify-between py-3.5 w-full text-left"
                         >
                           <span className={cn("text-lg font-bold transition-colors duration-200", isDropdownActive ? "text-modina-red" : "text-modina-heading")}>
@@ -552,11 +604,12 @@ export default function Navbar() {
                         </button>
                         <AnimatePresence>
                           {isDropdownActive && (
-                            <motion.div
+                            <DisclosurePanel
+                              id={`mobile-nav-${link.id}`}
                               initial={{ height: 0, opacity: 0 }}
                               animate={{ height: 'auto', opacity: 1 }}
                               exit={{ height: 0, opacity: 0 }}
-                              transition={{ duration: 0.2, ease: "easeInOut" }}
+                              transition={{ duration: reduceMotion ? 0 : 0.2, ease: "easeInOut" }}
                               className="overflow-hidden"
                             >
                               <div className="flex flex-col pl-4 pb-3 gap-1.5">
@@ -578,12 +631,13 @@ export default function Navbar() {
                                   )
                                 })}
                               </div>
-                            </motion.div>
+                            </DisclosurePanel>
                           )}
                         </AnimatePresence>
                       </div>
                     ) : link.isButton ? null : (
                       <Link
+                        ref={idx === 0 ? firstMobileControl : undefined}
                         to={link.path!}
                         onClick={() => setIsOpen(false)}
                         className={cn(
@@ -623,8 +677,8 @@ export default function Navbar() {
               </div>
             </div>
           </motion.div>
-        )}
-      </AnimatePresence>
+        </>
+      </PublicModal>}
     </>
   );
 }

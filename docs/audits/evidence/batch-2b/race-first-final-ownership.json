@@ -1,0 +1,11 @@
+{
+  "serverPid": 11736,
+  "runtime": "v24.15.0",
+  "start": "2026-10-28T04:57:56.337Z",
+  "hmrDisabled": true,
+  "ready": true,
+  "testPid": 1612,
+  "exitCode": 1,
+  "serverStopped": true,
+  "finished": "2026-10-28T04:58:09.490Z"
+}

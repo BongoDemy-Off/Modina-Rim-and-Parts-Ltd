@@ -1,0 +1,529 @@
+[
+  {
+    "name": "Product search, empty state, category, pagination",
+    "counts": [
+      9,
+      18,
+      20,
+      9
+    ],
+    "empty": true,
+    "screenshot": "products-empty-390.png"
+  },
+  {
+    "name": "Product card keyboard access and mobile CTA",
+    "tag": "DIV",
+    "role": null,
+    "tabindex": null,
+    "detailsOpacity": "0"
+  },
+  {
+    "name": "Product drawer carousel, focus, Escape",
+    "focus": {
+      "tag": "BODY",
+      "text": "\n    Modina Rim & Parts Ltd.HomeProductsQualityCompanyMediaE",
+      "dialogCount": 0,
+      "overflow": "hidden"
+    },
+    "before": "/products/sku-001/01-product.png",
+    "after": "/products/sku-001/02-engineering.jpg",
+    "tab": {
+      "tag": "BUTTON",
+      "name": "Go to slide 1",
+      "inside": true
+    },
+    "escapeClosed": true,
+    "screenshot": "product-drawer-390.png"
+  },
+  {
+    "name": "Product enquiry context",
+    "url": "http://127.0.0.1:4173/contact?product=Box%20Frame%20Bearing%20%26%20Racer%20(Black%20Blue%20%26%20Red)",
+    "fields": {
+      "value": "General Inquiry",
+      "selectedIndex": 1,
+      "valid": true,
+      "options": [
+        "",
+        "General Inquiry",
+        "Product Inquiry",
+        "Partnership",
+        "Quality Certification",
+        "Other"
+      ]
+    },
+    "message": "Hello,\n\nI am interested in the following product:\nBox Frame Bearing & Racer (Black Blue & Red)\n\nPlease send me pricing, MOQ, and lead time information.",
+    "screenshot": "product-enquiry-subject-390.png"
+  },
+  {
+    "name": "Mobile menu focus and Escape",
+    "before": {
+      "active": "Open menu",
+      "dialogCount": 0,
+      "expanded": null
+    },
+    "escapeClosed": false,
+    "screenshot": "mobile-menu-390.png"
+  },
+  {
+    "name": "Mobile global search",
+    "href": "/products?category=Hardware",
+    "url": "http://127.0.0.1:4173/products?category=Hardware",
+    "drawerOpen": false,
+    "productVisible": [
+      "Box Frame Bearing & Racer (Black Blue & Red)",
+      "Van Spoke (Black & White)",
+      "Wasar"
+    ],
+    "screenshot": "global-search-390.png"
+  },
+  {
+    "name": "Gallery lightbox keyboard, scrolling",
+    "before": {
+      "y": 53,
+      "bodyOverflow": "unset",
+      "dialogs": 0,
+      "active": "BODY"
+    },
+    "escapeStillOpen": true,
+    "afterScrollY": 553,
+    "screenshot": "gallery-lightbox-390.png"
+  },
+  {
+    "name": "Downloads inert action",
+    "downloads": 0,
+    "requests": 0,
+    "url": "http://127.0.0.1:4173/downloads",
+    "screenshot": "download-action-390.png"
+  },
+  {
+    "name": "FAQ toggle semantics",
+    "expanded": null,
+    "controls": null,
+    "answerVisible": true,
+    "screenshot": "faq-expanded-390.png"
+  },
+  {
+    "name": "Careers drawer labels and Escape",
+    "labels": [
+      {
+        "name": "name",
+        "id": "",
+        "labels": 0,
+        "aria": null
+      },
+      {
+        "name": "email",
+        "id": "",
+        "labels": 0,
+        "aria": null
+      },
+      {
+        "name": "phone",
+        "id": "",
+        "labels": 0,
+        "aria": null
+      }
+    ],
+    "escapeStillOpen": true,
+    "screenshot": "careers-form-390.png"
+  },
+  {
+    "name": "Contact labels and native validation without submission",
+    "fields": [
+      {
+        "name": "name",
+        "labels": 0,
+        "required": true,
+        "valid": false
+      },
+      {
+        "name": "company",
+        "labels": 0,
+        "required": false,
+        "valid": true
+      },
+      {
+        "name": "email",
+        "labels": 0,
+        "required": true,
+        "valid": false
+      },
+      {
+        "name": "phone",
+        "labels": 0,
+        "required": false,
+        "valid": true
+      },
+      {
+        "name": "subject",
+        "labels": 0,
+        "required": true,
+        "valid": false
+      },
+      {
+        "name": "message",
+        "labels": 0,
+        "required": true,
+        "valid": false
+      }
+    ],
+    "screenshot": "contact-top-390.png"
+  },
+  {
+    "name": "Chatbot small landscape",
+    "input": {
+      "x": 310,
+      "y": 224,
+      "width": 264,
+      "height": 46
+    },
+    "screenshot": "chat-landscape-667x375.png"
+  },
+  {
+    "name": "Desktop dropdown pointer versus keyboard",
+    "semantics": {
+      "tag": "DIV",
+      "role": null,
+      "tabindex": null
+    },
+    "linkVisible": true,
+    "rect": {
+      "x": 542.765625,
+      "y": 91,
+      "width": 202,
+      "height": 68
+    },
+    "screenshot": "desktop-dropdown-1440.png"
+  },
+  {
+    "name": "Intermediate and landscape layout sweep",
+    "rows": [
+      {
+        "route": "/",
+        "width": 639,
+        "height": 844,
+        "scrollWidth": 639,
+        "viewport": 639,
+        "headerHeight": 110.6875
+      },
+      {
+        "route": "/",
+        "width": 640,
+        "height": 844,
+        "scrollWidth": 640,
+        "viewport": 640,
+        "headerHeight": 73.859375
+      },
+      {
+        "route": "/",
+        "width": 767,
+        "height": 900,
+        "scrollWidth": 767,
+        "viewport": 767,
+        "headerHeight": 72
+      },
+      {
+        "route": "/",
+        "width": 769,
+        "height": 900,
+        "scrollWidth": 769,
+        "viewport": 769,
+        "headerHeight": 72
+      },
+      {
+        "route": "/",
+        "width": 1023,
+        "height": 900,
+        "scrollWidth": 1023,
+        "viewport": 1023,
+        "headerHeight": 72
+      },
+      {
+        "route": "/",
+        "width": 1279,
+        "height": 900,
+        "scrollWidth": 1279,
+        "viewport": 1279,
+        "headerHeight": 72
+      },
+      {
+        "route": "/",
+        "width": 1280,
+        "height": 900,
+        "scrollWidth": 1280,
+        "viewport": 1280,
+        "headerHeight": 72
+      },
+      {
+        "route": "/",
+        "width": 1920,
+        "height": 1080,
+        "scrollWidth": 1920,
+        "viewport": 1920,
+        "headerHeight": 72
+      },
+      {
+        "route": "/",
+        "width": 667,
+        "height": 375,
+        "scrollWidth": 667,
+        "viewport": 667,
+        "headerHeight": 72
+      },
+      {
+        "route": "/",
+        "width": 844,
+        "height": 390,
+        "scrollWidth": 844,
+        "viewport": 844,
+        "headerHeight": 72
+      },
+      {
+        "route": "/products",
+        "width": 639,
+        "height": 844,
+        "scrollWidth": 639,
+        "viewport": 639,
+        "headerHeight": 110.703125
+      },
+      {
+        "route": "/products",
+        "width": 640,
+        "height": 844,
+        "scrollWidth": 640,
+        "viewport": 640,
+        "headerHeight": 75.21875
+      },
+      {
+        "route": "/products",
+        "width": 767,
+        "height": 900,
+        "scrollWidth": 767,
+        "viewport": 767,
+        "headerHeight": 72
+      },
+      {
+        "route": "/products",
+        "width": 769,
+        "height": 900,
+        "scrollWidth": 769,
+        "viewport": 769,
+        "headerHeight": 72
+      },
+      {
+        "route": "/products",
+        "width": 1023,
+        "height": 900,
+        "scrollWidth": 1023,
+        "viewport": 1023,
+        "headerHeight": 72
+      },
+      {
+        "route": "/products",
+        "width": 1279,
+        "height": 900,
+        "scrollWidth": 1279,
+        "viewport": 1279,
+        "headerHeight": 72
+      },
+      {
+        "route": "/products",
+        "width": 1280,
+        "height": 900,
+        "scrollWidth": 1280,
+        "viewport": 1280,
+        "headerHeight": 72
+      },
+      {
+        "route": "/products",
+        "width": 1920,
+        "height": 1080,
+        "scrollWidth": 1920,
+        "viewport": 1920,
+        "headerHeight": 72
+      },
+      {
+        "route": "/products",
+        "width": 667,
+        "height": 375,
+        "scrollWidth": 667,
+        "viewport": 667,
+        "headerHeight": 72
+      },
+      {
+        "route": "/products",
+        "width": 844,
+        "height": 390,
+        "scrollWidth": 844,
+        "viewport": 844,
+        "headerHeight": 72
+      },
+      {
+        "route": "/contact",
+        "width": 639,
+        "height": 844,
+        "scrollWidth": 639,
+        "viewport": 639,
+        "headerHeight": 109.859375
+      },
+      {
+        "route": "/contact",
+        "width": 640,
+        "height": 844,
+        "scrollWidth": 640,
+        "viewport": 640,
+        "headerHeight": 75.484375
+      },
+      {
+        "route": "/contact",
+        "width": 767,
+        "height": 900,
+        "scrollWidth": 767,
+        "viewport": 767,
+        "headerHeight": 72
+      },
+      {
+        "route": "/contact",
+        "width": 769,
+        "height": 900,
+        "scrollWidth": 769,
+        "viewport": 769,
+        "headerHeight": 72
+      },
+      {
+        "route": "/contact",
+        "width": 1023,
+        "height": 900,
+        "scrollWidth": 1023,
+        "viewport": 1023,
+        "headerHeight": 72
+      },
+      {
+        "route": "/contact",
+        "width": 1279,
+        "height": 900,
+        "scrollWidth": 1279,
+        "viewport": 1279,
+        "headerHeight": 72
+      },
+      {
+        "route": "/contact",
+        "width": 1280,
+        "height": 900,
+        "scrollWidth": 1280,
+        "viewport": 1280,
+        "headerHeight": 72
+      },
+      {
+        "route": "/contact",
+        "width": 1920,
+        "height": 1080,
+        "scrollWidth": 1920,
+        "viewport": 1920,
+        "headerHeight": 72
+      },
+      {
+        "route": "/contact",
+        "width": 667,
+        "height": 375,
+        "scrollWidth": 667,
+        "viewport": 667,
+        "headerHeight": 72
+      },
+      {
+        "route": "/contact",
+        "width": 844,
+        "height": 390,
+        "scrollWidth": 844,
+        "viewport": 844,
+        "headerHeight": 72
+      },
+      {
+        "route": "/gallery",
+        "width": 639,
+        "height": 844,
+        "scrollWidth": 639,
+        "viewport": 639,
+        "headerHeight": 105.34375
+      },
+      {
+        "route": "/gallery",
+        "width": 640,
+        "height": 844,
+        "scrollWidth": 640,
+        "viewport": 640,
+        "headerHeight": 73.390625
+      },
+      {
+        "route": "/gallery",
+        "width": 767,
+        "height": 900,
+        "scrollWidth": 767,
+        "viewport": 767,
+        "headerHeight": 72
+      },
+      {
+        "route": "/gallery",
+        "width": 769,
+        "height": 900,
+        "scrollWidth": 769,
+        "viewport": 769,
+        "headerHeight": 72
+      },
+      {
+        "route": "/gallery",
+        "width": 1023,
+        "height": 900,
+        "scrollWidth": 1023,
+        "viewport": 1023,
+        "headerHeight": 72
+      },
+      {
+        "route": "/gallery",
+        "width": 1279,
+        "height": 900,
+        "scrollWidth": 1279,
+        "viewport": 1279,
+        "headerHeight": 72
+      },
+      {
+        "route": "/gallery",
+        "width": 1280,
+        "height": 900,
+        "scrollWidth": 1280,
+        "viewport": 1280,
+        "headerHeight": 72
+      },
+      {
+        "route": "/gallery",
+        "width": 1920,
+        "height": 1080,
+        "scrollWidth": 1920,
+        "viewport": 1920,
+        "headerHeight": 72
+      },
+      {
+        "route": "/gallery",
+        "width": 667,
+        "height": 375,
+        "scrollWidth": 667,
+        "viewport": 667,
+        "headerHeight": 72
+      },
+      {
+        "route": "/gallery",
+        "width": 844,
+        "height": 390,
+        "scrollWidth": 844,
+        "viewport": 844,
+        "headerHeight": 72
+      }
+    ]
+  },
+  {
+    "name": "200 percent text enlargement approximation",
+    "method": "Computed font and line-height doubled in browser DOM; approximates text-only zoom, not native browser zoom",
+    "scrollWidth": 417,
+    "screenshot": "products-text200-390.png"
+  }
+]

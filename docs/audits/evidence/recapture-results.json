@@ -1,0 +1,147 @@
+[
+  {
+    "route": "/",
+    "width": 390,
+    "filename": "home-390-en.png",
+    "mainOpacityZero": [
+      {
+        "tag": "H2",
+        "text": "Forging the Backbone of Modern Mobility",
+        "class": "font-display font-bold text-modina-heading mb-6 tracking-tight leading-tight [text-wrap:balance]"
+      },
+      {
+        "tag": "P",
+        "text": "Modina Rim & Parts Ltd. is a premier manufacturer of automotive components in Bangladesh. ",
+        "class": "text-modina-muted leading-relaxed mb-8"
+      },
+      {
+        "tag": "DIV",
+        "text": "0+Years of Excellence",
+        "class": "flex flex-col gap-1.5 items-start"
+      },
+      {
+        "tag": "DIV",
+        "text": "0+B2B Clients",
+        "class": "flex flex-col gap-1.5 items-start"
+      },
+      {
+        "tag": "DIV",
+        "text": "0+Premium Products",
+        "class": "flex flex-col gap-1.5 items-start"
+      },
+      {
+        "tag": "DIV",
+        "text": "Using modern technologyISO 9001:2015 Certified",
+        "class": "relative h-[450px] lg:h-[580px] rounded-[12px] overflow-hidden shadow-[var(--shadow-lg)] border border-modina-border"
+      },
+      {
+        "tag": "H2",
+        "text": "New Arrival",
+        "class": "font-display font-bold text-modina-heading mb-3 tracking-tight"
+      },
+      {
+        "tag": "P",
+        "text": "We don't just manufacture parts; we engineer reliability. Every component that leaves our ",
+        "class": "text-modina-muted text-lg leading-relaxed"
+      },
+      {
+        "tag": "DIV",
+        "text": "01CATEGORY 01MOTORCYCLEStands, Guards, Handlebars",
+        "class": "group relative bg-[#111] cursor-pointer overflow-hidden rounded-[12px] border border-[#222] shadow-[var(--shadow-sm)] hover:shadow-[var(--shadow-hover)] transition-all duration-300 ease-in-out hover:-translate-y-1 h-full"
+      },
+      {
+        "tag": "DIV",
+        "text": "02CATEGORY 02PREMIUM RIMSEasy Bike, Mishuk, CNG",
+        "class": "group relative bg-[#111] cursor-pointer overflow-hidden rounded-[12px] border border-[#222] shadow-[var(--shadow-sm)] hover:shadow-[var(--shadow-hover)] transition-all duration-300 ease-in-out hover:-translate-y-1 h-full"
+      },
+      {
+        "tag": "DIV",
+        "text": "03CATEGORY 03BICYCLE & RICKSHAWAvon, Gazi, Jumbo",
+        "class": "group relative bg-[#111] cursor-pointer overflow-hidden rounded-[12px] border border-[#222] shadow-[var(--shadow-sm)] hover:shadow-[var(--shadow-hover)] transition-all duration-300 ease-in-out hover:-translate-y-1 h-full"
+      },
+      {
+        "tag": "DIV",
+        "text": "04CATEGORY 04HARDWAREBearings, Spokes, Washers",
+        "class": "group relative bg-[#111] cursor-pointer overflow-hidden rounded-[12px] border border-[#222] shadow-[var(--shadow-sm)] hover:shadow-[var(--shadow-hover)] transition-all duration-300 ease-in-out hover:-translate-y-1 h-full"
+      },
+      {
+        "tag": "H2",
+        "text": "The Trust Factor",
+        "class": "font-display font-bold text-modina-heading mb-4 tracking-tight"
+      },
+      {
+        "tag": "P",
+        "text": "Triple ISO certified manufacturing with 100% batch testing for dimensional accuracy and te",
+        "class": "text-modina-muted text-lg leading-relaxed"
+      },
+      {
+        "tag": "DIV",
+        "text": "01Uncompromising QualityTriple ISO certified manufacturing with 100% batch testing for dim",
+        "class": "card-premium p-8 flex flex-col group"
+      },
+      {
+        "tag": "DIV",
+        "text": "02Scale & ConsistencyAutomated production lines ensuring consistent tolerance across high-",
+        "class": "card-premium p-8 flex flex-col group"
+      },
+      {
+        "tag": "DIV",
+        "text": "03Technical SupportDirect access to our engineering team for custom specifications and vol",
+        "class": "card-premium p-8 flex flex-col group"
+      },
+      {
+        "tag": "H2",
+        "text": "Partner with Modina Rim & Parts",
+        "class": "font-display font-bold text-white mb-6 tracking-tight leading-tight [text-wrap:balance]"
+      },
+      {
+        "tag": "P",
+        "text": "Contact our sales team today for a comprehensive product catalog, volume pricing, and cust",
+        "class": "text-white/70 text-lg leading-relaxed mb-10 max-w-2xl"
+      },
+      {
+        "tag": "DIV",
+        "text": "Request a Quote",
+        "class": ""
+      }
+    ],
+    "imagesPending": 0,
+    "scrollWidth": 390,
+    "innerWidth": 390
+  },
+  {
+    "route": "/",
+    "width": 1440,
+    "filename": "home-1440-en.png",
+    "mainOpacityZero": [
+      {
+        "tag": "H2",
+        "text": "Global Trust",
+        "class": "font-display font-bold text-modina-heading tracking-tight"
+      },
+      {
+        "tag": "DIV",
+        "text": "\"Modina's premium rims have significantly reduced our warranty claims. Their precision eng",
+        "class": "bg-white border border-modina-border rounded-[12px] px-6 py-8 md:px-12 md:py-10 relative shadow-[var(--shadow-sm)] hover:shadow-[var(--shadow-md)] transition-all duration-300 ease-in-out"
+      },
+      {
+        "tag": "H2",
+        "text": "Partner with Modina Rim & Parts",
+        "class": "font-display font-bold text-white mb-6 tracking-tight leading-tight [text-wrap:balance]"
+      },
+      {
+        "tag": "P",
+        "text": "Contact our sales team today for a comprehensive product catalog, volume pricing, and cust",
+        "class": "text-white/70 text-lg leading-relaxed mb-10 max-w-2xl"
+      },
+      {
+        "tag": "DIV",
+        "text": "Request a Quote",
+        "class": ""
+      }
+    ],
+    "imagesPending": 0,
+    "scrollWidth": 1440,
+    "innerWidth": 1440
+  }
+]

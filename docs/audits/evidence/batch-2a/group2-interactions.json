@@ -1,0 +1,81 @@
+{
+  "baseURL": "http://127.0.0.1:4191",
+  "browser": "156.0.8078.48",
+  "runtime": "v24.19.0",
+  "navigation": [
+    {
+      "case": "en/390/gallery",
+      "url": "http://127.0.0.1:4191/gallery",
+      "status": 200,
+      "domcontentloadedMs": 1271
+    },
+    {
+      "case": "en/1440/gallery",
+      "url": "http://127.0.0.1:4191/gallery",
+      "status": 200,
+      "domcontentloadedMs": 786
+    }
+  ],
+  "resources": [
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 390,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4191/gallery",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1440,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4191/gallery",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    }
+  ],
+  "cases": [
+    {
+      "name": "en/390/gallery",
+      "passed": true
+    },
+    {
+      "name": "en/1440/gallery",
+      "passed": true
+    }
+  ],
+  "console": [],
+  "axe": [
+    {
+      "state": "en/390/gallery-open",
+      "violations": []
+    }
+  ],
+  "geometry": [
+    {
+      "lang": "en",
+      "route": "gallery",
+      "width": 390,
+      "scrollWidth": 390,
+      "headerHeight": 112
+    },
+    {
+      "lang": "en",
+      "route": "gallery",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headerHeight": 66.453125
+    }
+  ],
+  "currentCase": "en/1440/gallery",
+  "assertionsFinishedAt": "2026-10-27T13:45:09.692Z",
+  "teardown": {
+    "closedNormally": true,
+    "durationMs": 1163
+  },
+  "completed": true
+}

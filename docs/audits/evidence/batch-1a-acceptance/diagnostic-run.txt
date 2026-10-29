@@ -1,0 +1,15 @@
+{"ms":2079,"type":"browser","version":"156.0.8078.48","node":"v24.19.0"}
+{"ms":3622,"type":"navigation-start"}
+{"ms":4464,"type":"domcontentloaded","url":"http://127.0.0.1:4191/products"}
+{"ms":5711,"type":"intentional-block","url":"https://www.google-analytics.com/g/collect","method":"POST","resourceType":"fetch"}
+{"ms":5749,"type":"requestfailed","url":"https://www.google-analytics.com/g/collect","resourceType":"fetch","error":"net::ERR_FAILED"}
+{"ms":5749,"type":"Fetch","url":"https://www.google-analytics.com/g/collect","began":5711,"error":"net::ERR_FAILED","canceled":false}
+{"ms":5750,"type":"intentional-block","url":"https://www.google.com/g/collect","method":"POST","resourceType":"fetch"}
+{"ms":5776,"type":"requestfailed","url":"https://www.google.com/g/collect","resourceType":"fetch","error":"net::ERR_FAILED"}
+{"ms":5776,"type":"Fetch","url":"https://www.google.com/g/collect","began":5750,"error":"net::ERR_FAILED","canceled":false}
+{"ms":8589,"type":"before-company-tap","rect":{"x":49,"y":263,"width":255,"height":56,"top":263,"right":304,"bottom":319,"left":49},"hit":true,"outer":"opacity: 1; transform: none;"}
+{"ms":8684,"type":"after-company-tap","expanded":"true","pointers":[{"pointerType":"touch","name":"মেনু"},{"pointerType":"touch","name":"কোম্পানি"}]}
+{"ms":9122,"type":"closed","root":"","body":""}
+{"ms":9154,"type":"context-closed"}
+{"ms":9156,"type":"browser-closing"}
+{"ms":12261,"type":"browser-closed"}

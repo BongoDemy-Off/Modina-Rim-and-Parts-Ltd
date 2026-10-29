@@ -1,0 +1,14 @@
+[
+  {
+    "suite": "caption",
+    "exitCode": 0
+  },
+  {
+    "suite": "accessibility",
+    "exitCode": 0
+  },
+  {
+    "suite": "details-final",
+    "exitCode": 0
+  }
+]

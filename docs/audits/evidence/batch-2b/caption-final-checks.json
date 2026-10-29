@@ -1,0 +1,42 @@
+{
+  "mode": "caption",
+  "base": "http://127.0.0.1:4199",
+  "cases": [
+    {
+      "name": "en enlarged long caption keyboard",
+      "scroll": {
+        "top": 40,
+        "height": 112,
+        "content": 596
+      },
+      "passed": true
+    },
+    {
+      "name": "bn enlarged long caption keyboard",
+      "scroll": {
+        "top": 40,
+        "height": 112,
+        "content": 652
+      },
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "blocked": [
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    }
+  ],
+  "browser": "156.0.8078.49",
+  "completed": true,
+  "teardown": {
+    "normal": true
+  }
+}

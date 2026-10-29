@@ -154,8 +154,8 @@ export default function NewsDetail() {
 
   if (!article) {
     return (
-      <div className="min-h-screen bg-white text-modina-text pt-[112px] sm:pt-[72px] flex flex-col items-center justify-center gap-6">
-        <p className="text-xs font-bold tracking-widest text-modina-muted uppercase">Article not found</p>
+      <div className="min-h-screen bg-white text-modina-text pt-[112px] sm:pt-[72px] flex flex-col items-center justify-center gap-6 public-page public-recovery">
+        <h1 className="public-article-title text-modina-heading text-center">Article not found</h1>
         <Link to="/news" className="text-xs font-bold tracking-widest text-modina-red uppercase hover:text-modina-heading transition-colors duration-300">
           ← Back to News
         </Link>
@@ -164,7 +164,7 @@ export default function NewsDetail() {
   }
 
   return (
-    <div className="min-h-screen bg-white text-modina-text pt-[112px] sm:pt-[72px]">
+    <div className="min-h-screen bg-white text-modina-text pt-[112px] sm:pt-[72px] public-page">
       <Helmet>
         <title>{article.title} | Modina Rim &amp; Parts Ltd.</title>
         <meta name="description" content={article.excerpt} />
@@ -172,7 +172,7 @@ export default function NewsDetail() {
       </Helmet>
 
       {/* HERO IMAGE */}
-      <div className="relative w-full h-[45vh] md:h-[55vh] overflow-hidden">
+      <div className="public-article-media relative w-full overflow-hidden">
         <motion.img
           initial={{ scale: 1.06 }}
           animate={{ scale: 1 }}
@@ -183,9 +183,9 @@ export default function NewsDetail() {
           referrerPolicy="no-referrer"
         />
         <div className="absolute inset-0 bg-[linear-gradient(to_top,rgba(15,23,42,0.6)_0%,transparent_50%)]" />
-        <div className="absolute bottom-0 left-0 right-0 container mx-auto px-6 md:px-12 lg:px-24 pb-10">
+        <div className="absolute bottom-0 left-0 right-0 container-premium pb-10">
           <div className="flex items-center gap-2 mb-4">
-            <span className="text-xs font-bold tracking-widest text-modina-red uppercase border border-modina-red/40 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-sm">
+            <span className="text-xs font-bold tracking-widest text-modina-red uppercase border border-modina-red/40 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-sm public-meta">
               {article.category}
             </span>
           </div>
@@ -193,9 +193,9 @@ export default function NewsDetail() {
       </div>
 
       {/* ARTICLE CONTENT */}
-      <article className="container mx-auto px-6 md:px-12 lg:px-24 py-16 max-w-3xl">
+      <article className="container-premium public-task-content max-w-3xl public-reading">
         {/* Breadcrumb */}
-        <div className="text-xs font-bold tracking-widest text-modina-muted uppercase flex items-center gap-2 mb-10">
+        <div className="text-xs font-bold tracking-widest text-modina-muted uppercase flex items-center gap-2 mb-10 public-breadcrumb">
           <Link to="/" className="hover:text-modina-red transition-colors duration-300">Home</Link>
           <ChevronRight className="w-2.5 h-2.5" />
           <Link to="/news" className="hover:text-modina-red transition-colors duration-300">News</Link>
@@ -205,11 +205,11 @@ export default function NewsDetail() {
 
         {/* Meta */}
         <div className="flex items-center gap-6 mb-6">
-          <span className="text-xs font-bold tracking-widest text-modina-muted uppercase">{article.date}</span>
+          <span className="text-xs font-bold tracking-widest text-modina-muted uppercase public-meta">{article.date}</span>
           <span className="w-[0.5px] h-3 bg-modina-divider" />
           <div className="flex items-center gap-2">
             <Clock className="w-3 h-3 text-modina-subtle" />
-            <span className="text-xs font-bold tracking-widest text-modina-muted uppercase">{article.readTime}</span>
+            <span className="text-xs font-bold tracking-widest text-modina-muted uppercase public-meta">{article.readTime}</span>
           </div>
         </div>
 
@@ -218,7 +218,7 @@ export default function NewsDetail() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
-          className="font-display font-bold text-modina-heading text-3xl md:text-4xl lg:text-5xl tracking-tight leading-tight mb-8"
+          className="font-display font-bold text-modina-heading tracking-tight leading-tight mb-8 public-article-title"
         >
           {article.title}
         </motion.h1>
@@ -227,7 +227,7 @@ export default function NewsDetail() {
         <div className="w-16 h-[2px] bg-modina-red mb-10" />
 
         {/* Excerpt */}
-        <p className="text-[16px] text-modina-muted font-light leading-relaxed mb-10 border-l-2 border-modina-red pl-6">
+        <p className="text-[16px] text-modina-muted font-light leading-relaxed mb-10 border-l-2 border-modina-red pl-6 public-body">
           {article.excerpt}
         </p>
 
@@ -239,7 +239,7 @@ export default function NewsDetail() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: '-40px' }}
             transition={{ duration: 0.6, delay: idx * 0.05 }}
-            className="text-[15px] text-modina-muted font-light leading-relaxed mb-6"
+            className="text-[15px] text-modina-muted font-light leading-relaxed mb-6 public-body"
           >
             {para}
           </motion.p>
@@ -248,8 +248,8 @@ export default function NewsDetail() {
         {/* Article footer */}
         <div className="mt-14 pt-8 border-t border-modina-divider flex items-center justify-between flex-wrap gap-4">
           <div>
-            <p className="text-xs font-bold tracking-widest text-modina-subtle uppercase mb-1">Published by</p>
-            <p className="text-xs font-bold tracking-widest text-modina-muted uppercase">Modina Rim &amp; Parts Ltd.</p>
+            <p className="text-xs font-bold tracking-widest text-modina-subtle uppercase mb-1 public-meta">Published by</p>
+            <p className="text-xs font-bold tracking-widest text-modina-muted uppercase public-meta">Modina Rim &amp; Parts Ltd.</p>
           </div>
           <button
             type="button"
@@ -274,10 +274,10 @@ export default function NewsDetail() {
                 <div className="absolute top-0 left-0 w-0 group-hover:w-full h-[2px] bg-modina-red transition-all duration-500" />
                 <div className="flex items-center gap-2 text-modina-subtle group-hover:text-modina-red transition-colors duration-300">
                   <ArrowLeft className="w-3.5 h-3.5" />
-                  <span className="text-xs font-bold tracking-widest uppercase">Previous</span>
+                  <span className="text-xs font-bold tracking-widest uppercase public-meta">Previous</span>
                 </div>
-                <p className="text-xs font-bold tracking-widest text-modina-subtle uppercase">{prevArticle.category}</p>
-                <h3 className="font-display font-bold text-modina-muted group-hover:text-modina-heading text-lg tracking-tight transition-colors duration-300 line-clamp-2">
+                <p className="text-xs font-bold tracking-widest text-modina-subtle uppercase public-meta">{prevArticle.category}</p>
+                <h3 className="font-display font-bold text-modina-muted group-hover:text-modina-heading text-lg tracking-tight transition-colors duration-300 line-clamp-2 public-card-title">
                   {prevArticle.title}
                 </h3>
               </Link>
@@ -290,11 +290,11 @@ export default function NewsDetail() {
               >
                 <div className="absolute top-0 right-0 w-0 group-hover:w-full h-[2px] bg-modina-red transition-all duration-500" />
                 <div className="flex items-center gap-2 text-modina-subtle group-hover:text-modina-red transition-colors duration-300">
-                  <span className="text-xs font-bold tracking-widest uppercase">Next</span>
+                  <span className="text-xs font-bold tracking-widest uppercase public-meta">Next</span>
                   <ArrowRight className="w-3.5 h-3.5" />
                 </div>
-                <p className="text-xs font-bold tracking-widest text-modina-subtle uppercase">{nextArticle.category}</p>
-                <h3 className="font-display font-bold text-modina-muted group-hover:text-modina-heading text-lg tracking-tight transition-colors duration-300 line-clamp-2">
+                <p className="text-xs font-bold tracking-widest text-modina-subtle uppercase public-meta">{nextArticle.category}</p>
+                <h3 className="font-display font-bold text-modina-muted group-hover:text-modina-heading text-lg tracking-tight transition-colors duration-300 line-clamp-2 public-card-title">
                   {nextArticle.title}
                 </h3>
               </Link>

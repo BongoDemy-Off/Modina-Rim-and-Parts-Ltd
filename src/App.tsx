@@ -1,6 +1,6 @@
-import { lazy, Suspense, useState } from 'react';
+import { lazy, Suspense, useEffect, useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { AnimatePresence } from 'motion/react';
+import { AnimatePresence, useReducedMotion } from 'motion/react';
 import Layout from './layouts/Layout';
 import ScrollToTop from './components/ScrollToTop';
 import { useLocaleSync } from './hooks/useLocaleSync';
@@ -28,22 +28,27 @@ import Preloader from './components/Preloader';
 const AdminRoutes = lazy(() => import('./admin/AdminRoutes'));
 
 function PublicSiteLayout() {
-  // Preserve the approved public preloader behavior inside the public route tree.
+  const reduceMotion = useReducedMotion();
   const [loading, setLoading] = useState(
-    () => !sessionStorage.getItem('modina_loaded')
+    () => !sessionStorage.getItem('modina_loaded') && !matchMedia('(prefers-reduced-motion: reduce)').matches
   );
 
   const handlePreloaderComplete = () => {
+    const returnFocus = document.activeElement?.closest('[data-public-intro]');
     sessionStorage.setItem('modina_loaded', '1');
     setLoading(false);
+    if (returnFocus) requestAnimationFrame(() => document.querySelector<HTMLElement>('[data-public-main]')?.focus({ preventScroll: true }));
   };
+  useEffect(() => {
+    if (reduceMotion) handlePreloaderComplete();
+  }, [reduceMotion]);
 
   return (
     <>
       <AnimatePresence>
         {loading && <Preloader onComplete={handlePreloaderComplete} />}
       </AnimatePresence>
-      <Layout />
+      <Layout introActive={loading} />
     </>
   );
 }

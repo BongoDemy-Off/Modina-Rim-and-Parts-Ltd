@@ -1,0 +1,36 @@
+START no-preference
+fixture loaded
+initial focus passed
+native cancel / exit / restoration passed
+duplicate native cancellation requests coalesced
+rapid cycle 1 passed
+rapid cycle 2 passed
+rapid cycle 3 passed
+rapid cycle 4 passed
+rapid cycle 5 passed
+rapid cycle 6 passed
+AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+
+8 !== 9
+
+    at C:\Users\BongoDemy\Documents\BongoDemy\Modina-Rim-and-Parts-Ltd\docs\audits\evidence\batch-1a-acceptance\lifecycle.cjs:57:14 {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: 8,
+  expected: 9,
+  operator: 'strictEqual',
+  diff: 'simple'
+}
+closing lifecycle browser
+AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+
+8 !== 9
+
+    at C:\Users\BongoDemy\Documents\BongoDemy\Modina-Rim-and-Parts-Ltd\docs\audits\evidence\batch-1a-acceptance\lifecycle.cjs:57:14 {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: 8,
+  expected: 9,
+  operator: 'strictEqual',
+  diff: 'simple'
+}

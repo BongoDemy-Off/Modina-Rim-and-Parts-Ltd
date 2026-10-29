@@ -1,0 +1,5 @@
+PASS en 320 hero touch
+PASS en 390 hero touch
+PASS bn 320 hero touch
+PASS bn 390 hero touch
+RESULT 4/4

@@ -103,7 +103,7 @@ export default function Privacy() {
   const ctaInView = useInView(ctaRef, { once: true, margin: '-60px' });
 
   return (
-    <div className="min-h-screen bg-white text-modina-text pt-[112px] sm:pt-[72px]">
+    <div className="min-h-screen bg-white text-modina-text pt-[112px] sm:pt-[72px] public-page">
       <Helmet>
         <title>Privacy Policy | Modina Rim &amp; Parts Ltd.</title>
         <meta name="description" content="Privacy Policy for Modina Rim & Parts Ltd. — how we collect, use, and protect your personal information on our website and in our business dealings." />
@@ -111,8 +111,8 @@ export default function Privacy() {
       </Helmet>
 
       {/* SECTION 1 — HERO */}
-      <section className="w-full py-20 lg:py-28 flex flex-col items-center text-center bg-white border-b border-modina-divider">
-        <div className="text-xs font-bold tracking-widest text-modina-subtle uppercase flex items-center gap-2 justify-center mb-10">
+      <section className="w-full public-task-hero flex flex-col items-center text-center bg-white border-b border-modina-divider">
+        <div className="text-xs font-bold tracking-widest text-modina-subtle uppercase flex items-center gap-2 justify-center mb-10 public-breadcrumb">
           <Link to="/" className="hover:text-modina-red transition-colors duration-300">Home</Link>
           <ChevronRight className="w-2.5 h-2.5 text-modina-subtle" />
           <span className="text-modina-muted">Privacy Policy</span>
@@ -120,7 +120,7 @@ export default function Privacy() {
 
         <div className="w-24 h-[2px] bg-modina-red mx-auto mb-10" />
 
-        <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-[9rem] font-display font-bold tracking-tight text-modina-heading uppercase leading-none flex items-center justify-center flex-wrap">
+        <h1 className="font-display font-bold tracking-tight text-modina-heading uppercase leading-none flex items-center justify-center flex-wrap public-hero-title">
           {letters.map((letter, i) => (
             <motion.span
               key={i}
@@ -141,7 +141,7 @@ export default function Privacy() {
           className="w-32 h-[1px] bg-modina-red mx-auto my-10"
         />
 
-        <p className="text-xs font-bold tracking-widest text-modina-muted uppercase flex items-center justify-center flex-wrap gap-2">
+        <p className="text-xs font-bold tracking-widest text-modina-muted uppercase flex items-center justify-center flex-wrap gap-2 public-meta">
           <span>Modina Rim &amp; Parts Ltd.</span>
           <span className="text-modina-red">·</span>
           <span>Privacy Policy</span>
@@ -149,36 +149,27 @@ export default function Privacy() {
           <span>Effective: January 2026</span>
         </p>
 
-        <div className="flex flex-col items-center gap-3 mt-14">
-          <motion.div 
-            initial={{ scaleY: 0 }}
-            animate={{ scaleY: 1 }}
-            transition={{ duration: 1, delay: 1.2, ease: [0.16, 1, 0.3, 1] }}
-            style={{ transformOrigin: 'top' }}
-            className="w-[0.5px] h-10 bg-modina-divider" 
-          />
-          <span className="text-xs font-bold tracking-widest text-modina-red uppercase">Scroll</span>
-        </div>
+
       </section>
 
       {/* SECTION 2 — INTRO STATEMENT */}
-      <section className="w-full border-b border-modina-divider bg-modina-bg-alt py-16 lg:py-20" ref={introRef}>
+      <section className="w-full border-b border-modina-divider bg-modina-bg-alt public-section-compact" ref={introRef}>
         <motion.div 
           initial={{ opacity: 0, y: 24 }}
           animate={introInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.9, ease: [0.16, 1, 0.3, 1] }}
-          className="container mx-auto px-6 md:px-12 lg:px-24 max-w-3xl"
+          className="container-premium max-w-3xl public-reading"
         >
-          <p className="text-xs font-bold tracking-widest text-modina-red uppercase mb-6">— Our Commitment</p>
-          <p className="text-xl md:text-2xl font-light text-modina-heading tracking-tight leading-relaxed">
+          <p className="text-xs font-bold tracking-widest text-modina-red uppercase mb-6 public-meta">— Our Commitment</p>
+          <p className="text-xl md:text-2xl font-light text-modina-heading tracking-tight leading-relaxed public-body">
             Modina Rim &amp; Parts Ltd. treats your personal data with the same precision and care that we apply to every component we manufacture. Your privacy is our responsibility.
           </p>
         </motion.div>
       </section>
 
       {/* SECTION 3 — POLICY BODY */}
-      <section className="w-full border-b border-modina-divider py-20 lg:py-28 bg-white">
-        <div className="container mx-auto px-6 md:px-12 lg:px-24 max-w-3xl">
+      <section className="w-full border-b border-modina-divider public-section bg-white">
+        <div className="container-premium max-w-3xl public-reading">
           {sections.map((section, idx) => (
             <motion.div
               key={idx}
@@ -188,11 +179,11 @@ export default function Privacy() {
               transition={{ duration: 0.6, delay: 0.1 }}
               className="mb-14"
             >
-              <h2 className="font-display font-bold text-modina-heading text-xl md:text-2xl tracking-tight mb-6 border-b border-modina-divider pb-4">
+              <h2 className="font-display font-bold text-modina-heading text-xl md:text-2xl tracking-tight mb-6 border-b border-modina-divider pb-4 public-card-title">
                 {section.heading}
               </h2>
               {section.body.map((para, pIdx) => (
-                <p key={pIdx} className="text-[15px] text-modina-muted font-light leading-relaxed mb-4">
+                <p key={pIdx} className="text-[15px] text-modina-muted font-light leading-relaxed mb-4 public-body">
                   {para}
                 </p>
               ))}
@@ -202,8 +193,8 @@ export default function Privacy() {
       </section>
 
       {/* SECTION 4 — CTA BANNER */}
-      <section className="w-full border-t border-modina-divider py-24 lg:py-32 bg-modina-heading" ref={ctaRef}>
-        <div className="container mx-auto px-6 md:px-12 lg:px-24 flex flex-col lg:flex-row items-start lg:items-center justify-between gap-10">
+      <section className="w-full border-t border-modina-divider public-section bg-modina-heading public-dark" ref={ctaRef}>
+        <div className="container-premium flex flex-col lg:flex-row items-start lg:items-center justify-between gap-10">
           <motion.div 
             initial={{ opacity: 0, x: -24 }}
             animate={ctaInView ? { opacity: 1, x: 0 } : {}}
@@ -217,8 +208,8 @@ export default function Privacy() {
               style={{ transformOrigin: 'top' }}
               className="absolute left-0 top-0 w-1 h-20 bg-modina-red"
             />
-            <p className="text-xs font-bold tracking-widest text-modina-red uppercase mb-4">— Have Questions?</p>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-white tracking-tight leading-tight">
+            <p className="text-xs font-bold tracking-widest text-modina-red uppercase mb-4 public-meta">— Have Questions?</p>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-white tracking-tight leading-tight public-section-title">
               Get in Touch<br />With Our Team
             </h2>
           </motion.div>

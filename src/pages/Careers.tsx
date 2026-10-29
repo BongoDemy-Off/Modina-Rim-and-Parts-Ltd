@@ -1,6 +1,9 @@
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 import { Helmet } from 'react-helmet-async';
-import { motion, AnimatePresence } from 'motion/react';
+import { motion, AnimatePresence, useReducedMotion } from 'motion/react';
+import PublicModal from '../components/PublicModal';
+import { useTranslation } from 'react-i18next';
+import { scrollToPublicTarget } from '../hooks/usePublicLayout';
 import { Link } from 'react-router-dom';
 import { ChevronRight, ArrowRight, MapPin, Clock, Briefcase, Send, X } from 'lucide-react';
 
@@ -115,12 +118,15 @@ const perks = [
 ];
 
 export default function Careers() {
+  const { t } = useTranslation();
   const letters = 'CAREERS'.split('');
   const [activeDept, setActiveDept] = useState('All');
   const [selectedJob, setSelectedJob] = useState<Job | null>(null);
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
   const [formData, setFormData] = useState({ name: '', email: '', phone: '', message: '' });
   const [submitted, setSubmitted] = useState(false);
+  const jobHeading = useRef<HTMLHeadingElement>(null);
+  const reduceMotion = useReducedMotion();
 
   const filtered = activeDept === 'All' ? jobs : jobs.filter(j => j.department === activeDept);
 
@@ -129,12 +135,10 @@ export default function Careers() {
     setIsDrawerOpen(true);
     setSubmitted(false);
     setFormData({ name: '', email: '', phone: '', message: '' });
-    document.body.style.overflow = 'hidden';
   };
 
   const closeDrawer = () => {
     setIsDrawerOpen(false);
-    document.body.style.overflow = '';
   };
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -143,7 +147,7 @@ export default function Careers() {
   };
 
   return (
-    <div className="min-h-screen bg-white text-modina-text pt-[112px] sm:pt-[72px]">
+    <div className="min-h-screen bg-white text-modina-text pt-[112px] sm:pt-[72px] public-page">
       <Helmet>
         <title>Careers | Modina Rim &amp; Parts Ltd. — Join Our Team</title>
         <meta name="description" content="Join Modina Rim & Parts Ltd., Bangladesh's ISO-certified automotive parts manufacturer. View current job openings in manufacturing, quality, sales and operations at our Jashore facility." />
@@ -151,14 +155,14 @@ export default function Careers() {
       </Helmet>
 
       {/* SECTION 1 — HERO */}
-      <section className="w-full py-20 lg:py-28 flex flex-col items-center text-center bg-white border-b border-modina-divider">
-        <div className="text-xs font-bold tracking-widest text-modina-subtle uppercase flex items-center gap-2 justify-center mb-10">
+      <section className="w-full public-task-hero flex flex-col items-center text-center bg-white border-b border-modina-divider">
+        <div className="text-xs font-bold tracking-widest text-modina-subtle uppercase flex items-center gap-2 justify-center mb-10 public-breadcrumb">
           <Link to="/" className="hover:text-modina-red transition-colors duration-300">Home</Link>
           <ChevronRight className="w-2.5 h-2.5 text-modina-subtle" />
           <span className="text-modina-muted">Careers</span>
         </div>
         <div className="w-24 h-[2px] bg-modina-red mx-auto mb-10" />
-        <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-[9rem] font-display font-bold tracking-tight text-modina-heading uppercase leading-none flex items-center justify-center flex-wrap">
+        <h1 className="font-display font-bold tracking-tight text-modina-heading uppercase leading-none flex items-center justify-center flex-wrap public-hero-title">
           {letters.map((letter, i) => (
             <motion.span key={i} initial={{ opacity: 0, y: 28 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: i * 0.055, ease: [0.16, 1, 0.3, 1] }}>
               {letter}
@@ -171,25 +175,22 @@ export default function Careers() {
           style={{ transformOrigin: 'left' }}
           className="w-32 h-[1px] bg-modina-red mx-auto my-10"
         />
-        <p className="text-xs font-bold tracking-widest text-modina-muted uppercase flex items-center justify-center flex-wrap gap-2">
+        <p className="text-xs font-bold tracking-widest text-modina-muted uppercase flex items-center justify-center flex-wrap gap-2 public-meta">
           <span>{jobs.length} Open Positions</span>
           <span className="text-modina-red">·</span>
           <span>Jashore, Bangladesh</span>
           <span className="text-modina-red">·</span>
           <span>Est. 2010</span>
         </p>
-        <div className="flex flex-col items-center gap-3 mt-14">
-          <motion.div initial={{ scaleY: 0 }} animate={{ scaleY: 1 }} transition={{ duration: 1, delay: 1.2, ease: [0.16, 1, 0.3, 1] }} style={{ transformOrigin: 'top' }} className="w-[0.5px] h-10 bg-modina-divider" />
-          <span className="text-xs font-bold tracking-widest text-modina-red uppercase">Scroll</span>
-        </div>
+        <a href="#open-positions" className="btn-primary mt-6" onClick={e => { e.preventDefault(); scrollToPublicTarget('open-positions', true); }}>{t('public_ui.open_roles')}<ArrowRight className="w-5 h-5" /></a>
       </section>
 
       {/* SECTION 2 — WHY JOIN US */}
-      <section className="w-full border-b border-modina-divider py-20 lg:py-28 bg-modina-bg-alt">
-        <div className="container mx-auto px-6 md:px-12 lg:px-24">
+      <section className="w-full border-b border-modina-divider public-section bg-modina-bg-alt">
+        <div className="container-premium">
           <div className="mb-16">
-            <p className="text-xs font-bold tracking-widest text-modina-red uppercase mb-4">— Why Modina</p>
-            <h2 className="text-3xl md:text-4xl font-display font-bold text-modina-heading tracking-tight">
+            <p className="text-xs font-bold tracking-widest text-modina-red uppercase mb-4 public-meta">— Why Modina</p>
+            <h2 className="text-3xl md:text-4xl font-display font-bold text-modina-heading tracking-tight public-section-title">
               Build Your Career<br />In Precision
             </h2>
           </div>
@@ -201,12 +202,12 @@ export default function Careers() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: '-60px' }}
                 transition={{ duration: 0.6, delay: idx * 0.1, ease: [0.16, 1, 0.3, 1] }}
-                className="card-premium group cursor-default flex flex-col transition-all duration-300 ease-in-out"
+                className="card-premium p-6 sm:p-8 group cursor-default flex flex-col transition-all duration-300 ease-in-out"
               >
-                <span className="text-3xl mb-6">{perk.icon}</span>
-                <h3 className="font-display font-bold text-modina-heading text-xl tracking-tight mb-4">{perk.title}</h3>
+                <span className="text-3xl mb-4">{perk.icon}</span>
+                <h3 className="font-display font-bold text-modina-heading text-xl tracking-tight mb-4 public-card-title">{perk.title}</h3>
                 <hr className="border-modina-border mb-4" />
-                <p className="text-[13px] text-modina-muted leading-relaxed font-light flex-grow">{perk.desc}</p>
+                <p className="text-[13px] text-modina-muted leading-relaxed font-light flex-grow public-body">{perk.desc}</p>
               </motion.div>
             ))}
           </div>
@@ -214,12 +215,12 @@ export default function Careers() {
       </section>
 
       {/* SECTION 3 — JOB LISTINGS */}
-      <section className="w-full border-b border-modina-divider py-20 lg:py-28 bg-modina-bg-section">
-        <div className="container mx-auto px-6 md:px-12 lg:px-24">
+      <section className="w-full border-b border-modina-divider public-section bg-modina-bg-section">
+        <div className="container-premium">
           <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
             <div>
-              <p className="text-xs font-bold tracking-widest text-modina-red uppercase mb-4">— Open Positions</p>
-              <h2 className="text-3xl md:text-4xl font-display font-bold text-modina-heading tracking-tight">
+              <p className="text-xs font-bold tracking-widest text-modina-red uppercase mb-4 public-meta">— Open Positions</p>
+              <h2 id="open-positions" tabIndex={-1} className="public-anchor text-3xl md:text-4xl font-display font-bold text-modina-heading tracking-tight public-section-title">
                 Build Your Career In Precision
               </h2>
             </div>
@@ -230,7 +231,8 @@ export default function Careers() {
                   key={dept}
                   type="button"
                   onClick={() => setActiveDept(dept)}
-                  className={`px-5 py-2.5 rounded-[8px] text-xs font-bold tracking-widest uppercase transition-all duration-300 ease-in-out border ${activeDept === dept ? 'bg-modina-red border-modina-red text-white shadow-design-sm' : 'bg-white border-modina-border text-modina-muted hover:border-modina-red hover:text-modina-red'}`}
+                  aria-pressed={activeDept === dept}
+                  className={`public-filter px-5 py-2.5 rounded-[8px] text-xs font-bold tracking-widest uppercase transition-all duration-300 ease-in-out border ${activeDept === dept ? 'bg-modina-red border-modina-red text-white shadow-design-sm' : 'bg-white border-modina-border text-modina-muted hover:border-modina-red hover:text-modina-red'}`}
                 >
                   {dept}
                 </button>
@@ -248,39 +250,38 @@ export default function Careers() {
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0 }}
                   transition={{ duration: 0.4, delay: idx * 0.06 }}
-                  className="group bg-white rounded-[8px] border border-modina-border p-6 md:px-8 md:py-6 shadow-sm hover:bg-modina-bg-alt hover:border-modina-red/30 cursor-pointer transition-all duration-300 ease-in-out flex flex-col md:flex-row md:items-center justify-between gap-6"
-                  onClick={() => openJob(job)}
+                  className="group bg-white rounded-[8px] border border-modina-border p-6 md:px-8 md:py-6 shadow-sm hover:bg-modina-bg-alt hover:border-modina-red/30 transition-all duration-300 ease-in-out flex flex-col md:flex-row md:items-center justify-between gap-6"
                 >
                   <div className="flex-1">
-                    <div className="flex items-center gap-3 mb-3">
-                      <span className="text-[10px] font-bold tracking-widest text-modina-red uppercase bg-modina-red/5 px-2.5 py-1 rounded-sm border border-modina-red/10">
+                    <div className="flex flex-wrap items-center gap-3 mb-3">
+                      <span className="text-[10px] font-bold tracking-widest text-modina-red uppercase bg-modina-red/5 px-2.5 py-1 rounded-sm border border-modina-red/10 public-meta">
                         {job.department}
                       </span>
                       <span className="w-1 h-1 rounded-full bg-modina-divider" />
-                      <span className="text-[10px] font-bold tracking-widest text-modina-muted uppercase">
+                      <span className="text-[10px] font-bold tracking-widest text-modina-muted uppercase public-meta">
                         {job.type}
                       </span>
                     </div>
-                    <h3 className="font-display font-bold text-modina-heading text-xl md:text-2xl tracking-tight mb-4 group-hover:text-modina-red transition-colors duration-300 ease-in-out">
+                    <h3 className="font-display font-bold text-modina-heading text-xl md:text-2xl tracking-tight mb-4 group-hover:text-modina-red transition-colors duration-300 ease-in-out public-card-title">
                       {job.title}
                     </h3>
                     <div className="flex flex-wrap items-center gap-y-2 gap-x-6">
                       <div className="flex items-center gap-2">
                         <MapPin className="w-4 h-4 text-modina-subtle" />
-                        <span className="text-[13px] text-modina-muted font-medium">{job.location}</span>
+                        <span className="text-[13px] text-modina-muted font-medium public-meta">{job.location}</span>
                       </div>
                       <div className="flex items-center gap-2">
                         <Briefcase className="w-4 h-4 text-modina-subtle" />
-                        <span className="text-[13px] text-modina-muted font-medium">{job.experience}</span>
+                        <span className="text-[13px] text-modina-muted font-medium public-meta">{job.experience}</span>
                       </div>
                     </div>
                   </div>
 
                   <div className="shrink-0 flex items-center md:justify-end">
-                    <div className="inline-flex items-center gap-3 text-sm font-bold text-modina-heading border border-transparent rounded-md px-6 py-3 bg-transparent group-hover:border-modina-red/30 group-hover:text-modina-red group-hover:bg-modina-red/5 transition-all duration-300 ease-in-out">
+                    <button type="button" onClick={() => openJob(job)} aria-label={`View role: ${job.title}`} className="btn-secondary inline-flex items-center gap-3 text-sm font-bold text-modina-heading px-6 py-3 bg-transparent group-hover:border-modina-red/30 group-hover:text-modina-red group-hover:bg-modina-red/5 transition-all duration-300 ease-in-out">
                       View Role
                       <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
-                    </div>
+                    </button>
                   </div>
                 </motion.div>
               ))}
@@ -289,7 +290,7 @@ export default function Careers() {
 
           {filtered.length === 0 && (
             <div className="flex flex-col items-center justify-center py-24 text-center bg-white rounded-[8px] border border-modina-border border-dashed">
-              <p className="text-xs font-bold tracking-widest text-modina-subtle uppercase mb-4">No openings in this department currently</p>
+              <p className="text-xs font-bold tracking-widest text-modina-subtle uppercase mb-4 public-meta">No openings in this department currently</p>
               <button type="button" onClick={() => setActiveDept('All')} className="text-xs font-bold tracking-widest text-modina-red uppercase hover:text-modina-red-dark transition-colors duration-300">
                 — View All Positions
               </button>
@@ -299,23 +300,23 @@ export default function Careers() {
       </section>
 
       {/* JOB DETAIL DRAWER */}
-      <AnimatePresence>
-        {isDrawerOpen && selectedJob && (
+      <PublicModal open={isDrawerOpen} onRequestClose={closeDrawer} labelledBy="career-detail-title" initialFocusRef={jobHeading}>
+        {selectedJob && (
           <>
-            <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 0.25 }} onClick={closeDrawer} className="fixed inset-0 bg-modina-heading/40 backdrop-blur-sm z-[70]" />
+            <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: reduceMotion ? 0 : 0.25 }} data-public-backdrop className="fixed inset-0 bg-modina-heading/40 backdrop-blur-sm z-[70]" />
             <motion.div
-              initial={{ x: '100%' }}
+              initial={{ x: reduceMotion ? 0 : '100%' }}
               animate={{ x: 0 }}
-              exit={{ x: '100%' }}
-              transition={{ type: 'tween', duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
+              exit={{ x: reduceMotion ? 0 : '100%' }}
+              transition={{ type: 'tween', duration: reduceMotion ? 0 : 0.4, ease: [0.16, 1, 0.3, 1] }}
               className="fixed right-0 top-0 h-full w-full max-w-[520px] bg-white z-[80] flex flex-col border-l border-modina-border shadow-design-lg overflow-hidden"
             >
               {/* Drawer header */}
               <div className="sticky top-0 bg-white z-10 flex min-w-0 items-center justify-between gap-3 px-4 py-3 sm:px-8 sm:py-5 border-b border-modina-border">
                 <div className="flex min-w-0 flex-wrap items-center gap-2 sm:gap-4">
-                  <span className="text-xs font-bold tracking-widest text-modina-red uppercase">{selectedJob.department}</span>
+                  <span className="text-xs font-bold tracking-widest text-modina-red uppercase public-meta">{selectedJob.department}</span>
                   <span className="w-[0.5px] h-3 bg-modina-divider" />
-                  <span className="text-xs font-bold tracking-widest text-modina-muted uppercase">{selectedJob.type}</span>
+                  <span className="text-xs font-bold tracking-widest text-modina-muted uppercase public-meta">{selectedJob.type}</span>
                 </div>
                 <button type="button" onClick={closeDrawer} className="flex h-11 shrink-0 items-center gap-2 px-2 text-xs font-bold tracking-widest text-modina-muted uppercase hover:text-modina-red transition-colors duration-300">
                   Close <X className="w-3 h-3" />
@@ -323,49 +324,49 @@ export default function Careers() {
               </div>
 
               {/* Drawer body */}
-              <div className="flex-1 overflow-y-auto [&::-webkit-scrollbar]:hidden">
+              <div className="min-h-0 flex-1 overflow-y-auto [&::-webkit-scrollbar]:hidden">
                 <div className="px-4 py-6 sm:px-8 sm:py-8">
-                  <h2 className="text-2xl md:text-3xl font-display font-bold text-modina-heading tracking-tight mb-2">{selectedJob.title}</h2>
+                  <h2 id="career-detail-title" ref={jobHeading} tabIndex={-1} className="text-2xl md:text-3xl font-display font-bold text-modina-heading tracking-tight mb-2 public-section-title">{selectedJob.title}</h2>
                   <div className="flex items-center gap-4 flex-wrap mb-6">
                     <div className="flex items-center gap-2">
                       <MapPin className="w-3 h-3 text-modina-red" />
-                      <span className="text-xs font-bold tracking-widest text-modina-muted uppercase">{selectedJob.location}</span>
+                      <span className="text-xs font-bold tracking-widest text-modina-muted uppercase public-meta">{selectedJob.location}</span>
                     </div>
                     <div className="flex items-center gap-2">
                       <Briefcase className="w-3 h-3 text-modina-red" />
-                      <span className="text-xs font-bold tracking-widest text-modina-muted uppercase">{selectedJob.experience}</span>
+                      <span className="text-xs font-bold tracking-widest text-modina-muted uppercase public-meta">{selectedJob.experience}</span>
                     </div>
                   </div>
 
-                  <p className="text-[13px] text-modina-muted leading-relaxed font-light mb-8">{selectedJob.description}</p>
+                  <p className="text-[13px] text-modina-muted leading-relaxed font-light mb-8 public-body">{selectedJob.description}</p>
 
                   <div className="border-t border-modina-border pt-6 mb-6">
-                    <p className="text-xs font-bold tracking-widest text-modina-subtle uppercase mb-4">Responsibilities</p>
+                    <p className="text-xs font-bold tracking-widest text-modina-subtle uppercase mb-4 public-meta">Responsibilities</p>
                     {selectedJob.responsibilities.map((r, i) => (
                       <div key={i} className="flex items-start gap-3 mb-3">
-                        <span className="text-xs text-modina-red mt-1">—</span>
-                        <span className="text-[13px] text-modina-muted font-light leading-relaxed">{r}</span>
+                        <span className="text-xs text-modina-red mt-1 public-meta">—</span>
+                        <span className="text-[13px] text-modina-muted font-light leading-relaxed public-meta">{r}</span>
                       </div>
                     ))}
                   </div>
 
                   <div className="border-t border-modina-border pt-6 mb-8">
-                    <p className="text-xs font-bold tracking-widest text-modina-subtle uppercase mb-4">Requirements</p>
+                    <p className="text-xs font-bold tracking-widest text-modina-subtle uppercase mb-4 public-meta">Requirements</p>
                     {selectedJob.requirements.map((r, i) => (
                       <div key={i} className="flex items-start gap-3 mb-3">
-                        <span className="text-xs text-modina-red mt-1">—</span>
-                        <span className="text-[13px] text-modina-muted font-light leading-relaxed">{r}</span>
+                        <span className="text-xs text-modina-red mt-1 public-meta">—</span>
+                        <span className="text-[13px] text-modina-muted font-light leading-relaxed public-meta">{r}</span>
                       </div>
                     ))}
                   </div>
 
                   {/* Application form */}
                   <div className="border-t border-modina-border pt-8">
-                    <p className="text-xs font-bold tracking-widest text-modina-red uppercase mb-6">— Apply Now</p>
+                    <p className="text-xs font-bold tracking-widest text-modina-red uppercase mb-6 public-meta">— Apply Now</p>
                     {submitted ? (
                       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="flex flex-col items-start">
-                        <p className="text-xs font-bold tracking-widest text-modina-red uppercase mb-3">— Application Received</p>
-                        <p className="text-[13px] text-modina-muted font-light">Thank you for your interest. We will review your application and reach out within 5–7 business days.</p>
+                        <p className="text-xs font-bold tracking-widest text-modina-red uppercase mb-3 public-meta">— Application Received</p>
+                        <p className="text-[13px] text-modina-muted font-light public-body">Thank you for your interest. We will review your application and reach out within 5–7 business days.</p>
                       </motion.div>
                     ) : (
                       <form onSubmit={handleSubmit} className="flex flex-col gap-6">
@@ -375,32 +376,34 @@ export default function Careers() {
                           { label: 'Phone Number', name: 'phone', type: 'tel', required: false },
                         ].map((field) => (
                           <div key={field.name} className="flex flex-col">
-                            <label className="text-xs font-bold tracking-widest text-modina-muted uppercase mb-2">{field.label}</label>
+                            <label htmlFor={`career-${field.name}`} className="text-xs font-bold tracking-widest text-modina-muted uppercase mb-2 public-meta">{field.label}</label>
                             <input
                               required={field.required}
                               type={field.type}
                               name={field.name}
+                              id={`career-${field.name}`}
                               value={formData[field.name as keyof typeof formData]}
                               onChange={e => setFormData(p => ({ ...p, [field.name]: e.target.value }))}
-                              className="bg-transparent border-b border-modina-border focus:border-modina-red outline-none text-base text-modina-text py-3 font-light transition-all duration-300 rounded-none"
+                              className="public-field transition-colors duration-200"
                             />
                           </div>
                         ))}
                         <div className="flex flex-col">
-                          <label className="text-xs font-bold tracking-widest text-modina-muted uppercase mb-2">Cover Note</label>
+                          <label htmlFor="career-message" className="text-xs font-bold tracking-widest text-modina-muted uppercase mb-2 public-meta">Cover Note</label>
                           <textarea
                             name="message"
+                            id="career-message"
                             rows={4}
                             value={formData.message}
                             onChange={e => setFormData(p => ({ ...p, message: e.target.value }))}
                             placeholder="Tell us briefly about your experience..."
-                            className="bg-transparent border-b border-modina-border focus:border-modina-red outline-none text-base text-modina-text py-3 font-light transition-all duration-300 rounded-none resize-none placeholder:text-modina-subtle"
+                            className="public-field transition-colors duration-200 resize-none placeholder:text-modina-subtle"
                           />
                         </div>
                         <button type="submit" className="btn-primary w-full flex items-center justify-center gap-4 mt-2">
                           Submit Application <Send className="w-3.5 h-3.5" />
                         </button>
-                        <p className="text-xs font-bold tracking-widest text-modina-subtle uppercase text-center">We respond within 5–7 business days</p>
+                        <p className="text-xs font-bold tracking-widest text-modina-subtle uppercase text-center public-meta">We respond within 5–7 business days</p>
                       </form>
                     )}
                   </div>
@@ -409,15 +412,15 @@ export default function Careers() {
             </motion.div>
           </>
         )}
-      </AnimatePresence>
+      </PublicModal>
 
       {/* SECTION 4 — OPEN APPLICATION CTA */}
-      <section className="w-full border-t border-modina-divider py-24 lg:py-32 bg-modina-heading">
-        <div className="container mx-auto px-6 md:px-12 lg:px-24 flex flex-col lg:flex-row items-start lg:items-center justify-between gap-10">
+      <section className="w-full border-t border-modina-divider public-section bg-modina-heading public-dark">
+        <div className="container-premium flex flex-col lg:flex-row items-start lg:items-center justify-between gap-10">
           <div className="relative pl-6">
             <div className="absolute left-0 top-0 w-1 h-20 bg-modina-red" />
-            <p className="text-xs font-bold tracking-widest text-modina-red uppercase mb-4">— Don't See Your Role?</p>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-white tracking-tight leading-tight">
+            <p className="text-xs font-bold tracking-widest text-modina-red uppercase mb-4 public-meta">— Don't See Your Role?</p>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-white tracking-tight leading-tight public-section-title">
               Send Us Your<br />CV Anyway
             </h2>
           </div>

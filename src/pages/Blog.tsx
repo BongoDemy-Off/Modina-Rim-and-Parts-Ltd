@@ -1,3 +1,5 @@
+import { useTranslation } from 'react-i18next';
+import { scrollToPublicTarget, usePublicToolbar } from '../hooks/usePublicLayout';
 import React, { useRef, useState, useMemo } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { motion, AnimatePresence, useInView } from 'motion/react';
@@ -9,6 +11,8 @@ import { type Post, postsData } from '../lib/data';
 const categories = ['All', 'Engineering', 'Quality', 'Industry', 'Company', 'Manufacturing'];
 
 export default function Blog() {
+  const { t } = useTranslation();
+  const toolbar = usePublicToolbar<HTMLDivElement>();
   const letters = "OUR BLOG".split("");
   
   const [activeCategory, setActiveCategory] = useState('All');
@@ -31,7 +35,7 @@ export default function Blog() {
   }, [activeCategory, searchQuery]);
 
   return (
-    <div className="min-h-screen bg-white text-modina-text pt-[112px] sm:pt-[72px]">
+    <div className="min-h-screen bg-white text-modina-text pt-[112px] sm:pt-[72px] public-page">
       <Helmet>
         <title>Blog | Modina Rim &amp; Parts Ltd. — Engineering &amp; Industry Insights</title>
         <meta name="description" content="Engineering insights, manufacturing deep-dives, and industry analysis from Modina Rim &amp; Parts Ltd. Topics: CNC machining, ISO standards, heat treatment, Bangladesh auto parts market." />
@@ -41,8 +45,8 @@ export default function Blog() {
       </Helmet>
 
       {/* SECTION 1 — HERO */}
-      <section className="w-full py-20 lg:py-28 flex flex-col items-center text-center bg-white border-b border-modina-divider">
-        <div className="text-xs font-bold tracking-widest text-modina-subtle uppercase flex items-center gap-2 justify-center mb-10">
+      <section className="w-full public-task-hero flex flex-col items-center text-center bg-white border-b border-modina-divider">
+        <div className="text-xs font-bold tracking-widest text-modina-subtle uppercase flex items-center gap-2 justify-center mb-10 public-breadcrumb">
           <Link to="/" className="hover:text-modina-red transition-colors duration-300">Home</Link>
           <ChevronRight className="w-2.5 h-2.5 text-modina-subtle" />
           <span className="text-modina-muted">Blog</span>
@@ -50,7 +54,7 @@ export default function Blog() {
 
         <div className="w-24 h-[2px] bg-modina-red mx-auto mb-10" />
 
-        <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-[9rem] font-display font-bold tracking-tight text-modina-heading uppercase leading-none flex items-center justify-center flex-wrap">
+        <h1 className="font-display font-bold tracking-tight text-modina-heading uppercase leading-none flex items-center justify-center flex-wrap public-hero-title">
           {letters.map((letter, i) => (
             letter === " " ? (
               <span key={i} className="w-[0.3em]">&nbsp;</span>
@@ -75,7 +79,7 @@ export default function Blog() {
           className="w-32 h-[1px] bg-modina-red mx-auto my-10"
         />
 
-        <p className="text-xs font-bold tracking-widest text-modina-muted uppercase flex items-center justify-center flex-wrap gap-2">
+        <p className="text-xs font-bold tracking-widest text-modina-muted uppercase flex items-center justify-center flex-wrap gap-2 public-meta">
           <span>Modina Rim &amp; Parts Ltd.</span>
           <span className="text-modina-red">·</span>
           <span>Insights &amp; Engineering</span>
@@ -88,21 +92,22 @@ export default function Blog() {
         <div className="responsive-stat-strip grid w-full max-w-xl grid-cols-[1fr_auto_1fr_auto_1fr] items-center mx-auto">
           <div className="flex min-w-0 flex-col items-center px-1 sm:px-10 md:px-14">
             <span className="text-3xl md:text-4xl font-display font-bold text-modina-red">10+</span>
-            <span className="text-xs font-bold tracking-widest text-modina-muted uppercase mt-1">Articles</span>
+            <span className="text-xs font-bold tracking-widest text-modina-muted uppercase mt-1 public-meta">Articles</span>
           </div>
           <span className="w-[0.5px] h-8 bg-modina-divider" />
           <div className="flex min-w-0 flex-col items-center px-1 sm:px-10 md:px-14">
             <span className="text-3xl md:text-4xl font-display font-bold text-modina-red">5</span>
-            <span className="text-xs font-bold tracking-widest text-modina-muted uppercase mt-1">Topics</span>
+            <span className="text-xs font-bold tracking-widest text-modina-muted uppercase mt-1 public-meta">Topics</span>
           </div>
           <span className="w-[0.5px] h-8 bg-modina-divider" />
           <div className="flex min-w-0 flex-col items-center px-1 sm:px-10 md:px-14">
             <span className="text-3xl md:text-4xl font-display font-bold text-modina-red">2026</span>
-            <span className="text-xs font-bold tracking-widest text-modina-muted uppercase mt-1">Latest Post</span>
+            <span className="text-xs font-bold tracking-widest text-modina-muted uppercase mt-1 public-meta">Latest Post</span>
           </div>
         </div>
 
 
+        <a href="#posts-list" className="btn-secondary mt-6" onClick={e => { e.preventDefault(); scrollToPublicTarget('posts-list', true); }}>{t('public_ui.view_posts')}<ArrowRight className="w-5 h-5" /></a>
       </section>
 
       {/* SECTION 2 — FEATURED POST */}
@@ -120,7 +125,7 @@ export default function Blog() {
             />
             <div className="absolute inset-0 bg-[linear-gradient(to_top,rgba(15,23,42,0.5)_0%,transparent_40%)]" />
             <div className="absolute top-6 left-6">
-              <span className="text-xs font-bold tracking-widest text-modina-red uppercase border border-modina-red/40 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-sm">
+              <span className="text-xs font-bold tracking-widest text-modina-red uppercase border border-modina-red/40 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-sm public-meta">
                 Editor's Pick
               </span>
             </div>
@@ -132,23 +137,23 @@ export default function Blog() {
             transition={{ duration: 0.9, delay: 0.15, ease: [0.16, 1, 0.3, 1] }}
             className="bg-modina-bg-alt p-10 lg:p-16 flex flex-col justify-center border-l border-modina-divider"
           >
-            <p className="text-xs font-bold tracking-widest text-modina-red uppercase mb-4">— Featured Post</p>
-            <p className="text-xs font-bold tracking-widest text-modina-muted uppercase mb-4">April 2026</p>
-            <h2 className="text-2xl md:text-3xl font-display font-bold text-modina-heading tracking-tight leading-tight mb-6">
+            <p className="text-xs font-bold tracking-widest text-modina-red uppercase mb-4 public-meta">— Featured Post</p>
+            <p className="text-xs font-bold tracking-widest text-modina-muted uppercase mb-4 public-meta">April 2026</p>
+            <h2 className="text-2xl md:text-3xl font-display font-bold text-modina-heading tracking-tight leading-tight mb-6 public-section-title">
               Why Precision Tolerance Is the Most Underrated Factor in Auto Parts Manufacturing
             </h2>
-            <p className="text-[14px] text-modina-muted font-light leading-relaxed mb-6 max-w-lg">
+            <p className="text-[14px] text-modina-muted font-light leading-relaxed mb-6 max-w-lg public-body">
               Across the automotive supply chain, tolerance specifications are often treated as an afterthought. At Modina, we argue that ±0.01mm is not a number on a datasheet — it is the difference between a part that lasts and a part that fails. This article breaks down why precision matters at every stage of manufacturing.
             </p>
             <div className="flex gap-2 mb-8">
-              <span className="text-xs font-bold tracking-widest text-modina-muted uppercase border border-modina-border px-3 py-1 rounded-sm">
+              <span className="text-xs font-bold tracking-widest text-modina-muted uppercase border border-modina-border px-3 py-1 rounded-sm public-meta">
                 Engineering
               </span>
-              <span className="text-xs font-bold tracking-widest text-modina-muted uppercase border border-modina-border px-3 py-1 rounded-sm">
+              <span className="text-xs font-bold tracking-widest text-modina-muted uppercase border border-modina-border px-3 py-1 rounded-sm public-meta">
                 Quality
               </span>
             </div>
-            <Link to="/blog/featured" className="inline-flex items-center gap-3 text-xs font-bold tracking-widest text-modina-muted uppercase hover:text-modina-red transition-all duration-300 ease-in-out">
+            <Link to="/blog/featured" className="inline-flex items-center gap-3 text-xs font-bold tracking-widest text-modina-muted uppercase hover:text-modina-red transition-all duration-300 ease-in-out public-inline-action">
               Read Article
               <ArrowRight className="w-3.5 h-3.5" />
             </Link>
@@ -157,14 +162,15 @@ export default function Blog() {
       </section>
 
       {/* SECTION 3 — FILTER BAR */}
-      <div className="sticky top-[112px] sm:top-16 z-30 bg-white/95 backdrop-blur-md border-b border-modina-divider">
-        <div className="container mx-auto flex min-h-[104px] flex-col-reverse gap-2 px-4 py-2 md:px-12 xl:h-14 xl:min-h-0 xl:flex-row xl:items-center xl:justify-between xl:px-24 xl:py-0">
+      <div ref={toolbar} className="public-sticky-toolbar sticky z-30 bg-white/95 backdrop-blur-md border-b border-modina-divider">
+        <div className="container-premium flex min-h-[104px] flex-col-reverse gap-2 py-2 xl:h-14 xl:min-h-0 xl:flex-row xl:items-center xl:justify-between xl:py-0">
           <div className="flex w-full min-w-0 items-center overflow-x-auto no-scrollbar xl:w-auto">
             {categories.map((cat, idx) => (
               <React.Fragment key={cat}>
                 <button
                   onClick={() => setActiveCategory(cat)}
-                  className={`relative px-6 h-14 text-xs font-bold tracking-widest uppercase whitespace-nowrap transition-all duration-300 ease-in-out ${
+                  aria-pressed={activeCategory === cat}
+                  className={`public-filter relative px-6 h-14 text-xs font-bold tracking-widest uppercase whitespace-nowrap transition-all duration-300 ease-in-out ${
                     activeCategory === cat ? 'text-modina-red' : 'text-modina-muted hover:text-modina-red'
                   }`}
                 >
@@ -185,13 +191,13 @@ export default function Blog() {
               <Search className="w-3.5 h-3.5 text-modina-muted absolute left-0" />
               <input
                 type="text"
-                placeholder="Search posts..."
+                placeholder="Search posts..." aria-label="Search posts"
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-full bg-transparent border-b border-modina-border focus:border-modina-red outline-none text-base text-modina-text placeholder:text-modina-subtle transition-all duration-300 pl-6 pb-1 xl:w-32 xl:text-xs xl:focus:w-48"
+                className="public-search-field w-full bg-transparent border-b border-modina-border focus:border-modina-red outline-none text-base text-modina-text placeholder:text-modina-subtle transition-all duration-300 pl-6 pb-1 xl:w-40 xl:focus:w-48"
               />
             </div>
-            <p className="hidden sm:block text-xs font-bold tracking-widest text-modina-muted whitespace-nowrap">
+            <p className="hidden sm:block text-xs font-bold tracking-widest text-modina-muted whitespace-nowrap public-meta">
               — {filteredPosts.length} RESULTS
             </p>
           </div>
@@ -199,7 +205,7 @@ export default function Blog() {
       </div>
 
       {/* SECTION 4 — POSTS GRID */}
-      <section className="container mx-auto px-6 md:px-12 lg:px-24 py-16 lg:py-24 min-h-[400px]">
+      <section id="posts-list" tabIndex={-1} aria-label="Blog posts" className="public-anchor container-premium public-task-content min-h-[400px]">
         {filteredPosts.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <AnimatePresence mode="popLayout">
@@ -223,24 +229,24 @@ export default function Blog() {
                         referrerPolicy="no-referrer"
                       />
                       <div className="absolute top-4 left-4">
-                        <span className="text-xs font-bold tracking-widest text-modina-red uppercase border border-modina-red/30 bg-white/90 px-2 py-1 backdrop-blur-sm rounded-sm">
+                        <span className="text-xs font-bold tracking-widest text-modina-red uppercase border border-modina-red/30 bg-white/90 px-2 py-1 backdrop-blur-sm rounded-sm public-meta">
                           {post.category}
                         </span>
                       </div>
                     </div>
                     <div className="p-6 flex flex-col gap-3 border-t border-modina-border flex-grow">
-                      <p className="text-xs font-bold tracking-widest text-modina-muted uppercase">{post.date}</p>
-                      <h3 className="text-[14px] font-display font-bold text-modina-heading leading-snug group-hover:text-modina-red transition-colors duration-300 ease-in-out line-clamp-2">{post.title}</h3>
-                      <p className="text-[12px] text-modina-muted font-light leading-relaxed line-clamp-3 mt-1">{post.excerpt}</p>
+                      <p className="text-xs font-bold tracking-widest text-modina-muted uppercase public-meta">{post.date}</p>
+                      <h3 className="text-[14px] font-display font-bold text-modina-heading leading-snug group-hover:text-modina-red transition-colors duration-300 ease-in-out line-clamp-2 public-card-title">{post.title}</h3>
+                      <p className="text-[12px] text-modina-muted font-light leading-relaxed line-clamp-3 mt-1 public-copy">{post.excerpt}</p>
                       <div className="flex flex-wrap gap-2 mt-2">
                         {post.tags.map(tag => (
-                          <span key={tag} className="text-xs font-bold tracking-widest text-modina-muted border border-modina-border px-2 py-0.5 uppercase group-hover:border-modina-red group-hover:text-modina-red transition-all duration-300 ease-in-out rounded-sm">
+                          <span key={tag} className="text-xs font-bold tracking-widest text-modina-muted border border-modina-border px-2 py-0.5 uppercase group-hover:border-modina-red group-hover:text-modina-red transition-all duration-300 ease-in-out rounded-sm public-meta">
                             {tag}
                           </span>
                         ))}
                       </div>
                       <div className="mt-auto pt-4 border-t border-modina-border flex items-center justify-between">
-                        <span className="text-xs text-modina-subtle group-hover:text-modina-muted transition-colors uppercase">{post.readTime}</span>
+                        <span className="text-xs text-modina-subtle group-hover:text-modina-muted transition-colors uppercase public-meta">{post.readTime}</span>
                         <ArrowRight className="w-3.5 h-3.5 text-modina-red opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in-out" />
                       </div>
                     </div>
@@ -255,7 +261,7 @@ export default function Blog() {
             className="flex flex-col items-center justify-center py-32 text-center"
           >
             <Minus className="w-8 h-8 text-modina-subtle mb-6" />
-            <p className="text-xs font-bold tracking-widest text-modina-muted uppercase mb-6">
+            <p className="text-xs font-bold tracking-widest text-modina-muted uppercase mb-6 public-meta">
               No posts found
             </p>
             <button
@@ -269,8 +275,8 @@ export default function Blog() {
       </section>
 
       {/* SECTION 5 — CTA BANNER */}
-      <section className="w-full border-t border-modina-divider py-24 lg:py-32 bg-modina-heading" ref={ctaRef}>
-        <div className="container mx-auto px-6 md:px-12 lg:px-24 flex flex-col lg:flex-row items-start lg:items-center justify-between gap-10">
+      <section className="w-full border-t border-modina-divider public-section bg-modina-heading public-dark" ref={ctaRef}>
+        <div className="container-premium flex flex-col lg:flex-row items-start lg:items-center justify-between gap-10">
           <motion.div 
             initial={{ opacity: 0, x: -24 }}
             animate={ctaInView ? { opacity: 1, x: 0 } : {}}
@@ -284,8 +290,8 @@ export default function Blog() {
               style={{ transformOrigin: 'top' }}
               className="absolute left-0 top-0 w-1 h-20 bg-modina-red"
             />
-            <p className="text-xs font-bold tracking-widest text-modina-red uppercase mb-4">— Explore Further</p>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-white tracking-tight leading-tight">
+            <p className="text-xs font-bold tracking-widest text-modina-red uppercase mb-4 public-meta">— Explore Further</p>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-white tracking-tight leading-tight public-section-title">
               See What<br />We Make
             </h2>
           </motion.div>

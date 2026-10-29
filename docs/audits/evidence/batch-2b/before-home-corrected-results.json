@@ -1,0 +1,174 @@
+{
+  "mode": "before-home-corrected",
+  "base": "http://127.0.0.1:4210",
+  "states": [
+    {
+      "route": "/",
+      "lang": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer — Bangladesh",
+      "targets": [
+        {
+          "text": "Forging the Backbone of Modern Mobility",
+          "top": 1066
+        },
+        {
+          "text": "New Arrival",
+          "top": 2411
+        },
+        {
+          "text": "The Trust Factor",
+          "top": 4411
+        },
+        {
+          "text": "Equipping Our Partners.",
+          "top": 5847
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/",
+      "lang": "en",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer — Bangladesh",
+      "targets": [
+        {
+          "text": "Forging the Backbone of Modern Mobility",
+          "top": 1076
+        },
+        {
+          "text": "New Arrival",
+          "top": 1914
+        },
+        {
+          "text": "The Trust Factor",
+          "top": 3009
+        },
+        {
+          "text": "Equipping Our Partners.",
+          "top": 3894
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/",
+      "lang": "bn",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer — Bangladesh",
+      "targets": [
+        {
+          "text": "Forging the Backbone of Modern Mobility",
+          "top": 1075
+        },
+        {
+          "text": "New Arrival",
+          "top": 2496
+        },
+        {
+          "text": "The Trust Factor",
+          "top": 4515
+        },
+        {
+          "text": "Equipping Our Partners.",
+          "top": 5996
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/",
+      "lang": "bn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer — Bangladesh",
+      "targets": [
+        {
+          "text": "Forging the Backbone of Modern Mobility",
+          "top": 1076
+        },
+        {
+          "text": "New Arrival",
+          "top": 1964
+        },
+        {
+          "text": "The Trust Factor",
+          "top": 3077
+        },
+        {
+          "text": "Equipping Our Partners.",
+          "top": 3992
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "captures": [
+    "before-home-corrected-home-390-en-hero.png",
+    {
+      "file": "before-home-corrected-home-390-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          24,
+          359.5,
+          342,
+          77
+        ],
+        "images": true
+      }
+    },
+    "before-home-corrected-home-1440-en-hero.png",
+    {
+      "file": "before-home-corrected-home-1440-en-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          152,
+          368,
+          520,
+          115
+        ],
+        "images": true
+      }
+    },
+    "before-home-corrected-home-390-bn-hero.png",
+    {
+      "file": "before-home-corrected-home-390-bn-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          24,
+          353.5,
+          342,
+          89.5
+        ],
+        "images": true
+      }
+    },
+    "before-home-corrected-home-1440-bn-hero.png",
+    {
+      "file": "before-home-corrected-home-1440-bn-body.png",
+      "readiness": {
+        "visible": true,
+        "rect": [
+          152,
+          359,
+          520,
+          134.5
+        ],
+        "images": true
+      }
+    }
+  ],
+  "browser": "156.0.8078.49",
+  "completed": true,
+  "teardown": {
+    "normal": true
+  }
+}

@@ -1,0 +1,2306 @@
+{
+  "baseURL": "http://127.0.0.1:4191",
+  "browser": "156.0.8078.48",
+  "runtime": "v24.19.0",
+  "navigation": [
+    {
+      "case": "en/320/products",
+      "url": "http://127.0.0.1:4191/products",
+      "status": 200,
+      "domcontentloadedMs": 1094
+    },
+    {
+      "case": "en/320/gallery",
+      "url": "http://127.0.0.1:4191/gallery",
+      "status": 200,
+      "domcontentloadedMs": 678
+    },
+    {
+      "case": "en/320/careers",
+      "url": "http://127.0.0.1:4191/careers",
+      "status": 200,
+      "domcontentloadedMs": 811
+    },
+    {
+      "case": "en/320/contact",
+      "url": "http://127.0.0.1:4191/contact",
+      "status": 200,
+      "domcontentloadedMs": 421
+    },
+    {
+      "case": "en/320/navigation",
+      "url": "http://127.0.0.1:4191/products",
+      "status": 200,
+      "domcontentloadedMs": 484
+    },
+    {
+      "case": "en/320/navigation",
+      "url": "http://127.0.0.1:4191/products",
+      "status": 200,
+      "domcontentloadedMs": 684
+    },
+    {
+      "case": "en/390/products",
+      "url": "http://127.0.0.1:4191/products",
+      "status": 200,
+      "domcontentloadedMs": 997
+    },
+    {
+      "case": "en/390/gallery",
+      "url": "http://127.0.0.1:4191/gallery",
+      "status": 200,
+      "domcontentloadedMs": 1162
+    },
+    {
+      "case": "en/390/careers",
+      "url": "http://127.0.0.1:4191/careers",
+      "status": 200,
+      "domcontentloadedMs": 549
+    },
+    {
+      "case": "en/390/contact",
+      "url": "http://127.0.0.1:4191/contact",
+      "status": 200,
+      "domcontentloadedMs": 607
+    },
+    {
+      "case": "en/390/navigation",
+      "url": "http://127.0.0.1:4191/products",
+      "status": 200,
+      "domcontentloadedMs": 549
+    },
+    {
+      "case": "en/390/navigation",
+      "url": "http://127.0.0.1:4191/products",
+      "status": 200,
+      "domcontentloadedMs": 1044
+    },
+    {
+      "case": "en/430/products",
+      "url": "http://127.0.0.1:4191/products",
+      "status": 200,
+      "domcontentloadedMs": 856
+    },
+    {
+      "case": "en/430/gallery",
+      "url": "http://127.0.0.1:4191/gallery",
+      "status": 200,
+      "domcontentloadedMs": 578
+    },
+    {
+      "case": "en/430/careers",
+      "url": "http://127.0.0.1:4191/careers",
+      "status": 200,
+      "domcontentloadedMs": 399
+    },
+    {
+      "case": "en/430/contact",
+      "url": "http://127.0.0.1:4191/contact",
+      "status": 200,
+      "domcontentloadedMs": 778
+    },
+    {
+      "case": "en/430/navigation",
+      "url": "http://127.0.0.1:4191/products",
+      "stage": "pending-at-8s",
+      "pending": [
+        {
+          "url": "https://www.googletagmanager.com/gtag/js",
+          "type": "script"
+        },
+        {
+          "url": "https://fonts.googleapis.com/css2",
+          "type": "stylesheet"
+        }
+      ]
+    },
+    {
+      "case": "en/430/navigation",
+      "url": "http://127.0.0.1:4191/products",
+      "status": 200,
+      "domcontentloadedMs": 9726
+    },
+    {
+      "case": "en/430/navigation",
+      "url": "http://127.0.0.1:4191/products",
+      "status": 200,
+      "domcontentloadedMs": 3454
+    },
+    {
+      "case": "en/768/products",
+      "url": "http://127.0.0.1:4191/products",
+      "status": 200,
+      "domcontentloadedMs": 3154
+    },
+    {
+      "case": "en/768/gallery",
+      "url": "http://127.0.0.1:4191/gallery",
+      "status": 200,
+      "domcontentloadedMs": 570
+    },
+    {
+      "case": "en/768/careers",
+      "url": "http://127.0.0.1:4191/careers",
+      "status": 200,
+      "domcontentloadedMs": 532
+    },
+    {
+      "case": "en/768/contact",
+      "url": "http://127.0.0.1:4191/contact",
+      "status": 200,
+      "domcontentloadedMs": 402
+    },
+    {
+      "case": "en/768/navigation",
+      "url": "http://127.0.0.1:4191/products",
+      "status": 200,
+      "domcontentloadedMs": 730
+    },
+    {
+      "case": "en/768/navigation",
+      "url": "http://127.0.0.1:4191/products",
+      "status": 200,
+      "domcontentloadedMs": 619
+    },
+    {
+      "case": "en/1024/products",
+      "url": "http://127.0.0.1:4191/products",
+      "status": 200,
+      "domcontentloadedMs": 2151
+    },
+    {
+      "case": "en/1024/gallery",
+      "url": "http://127.0.0.1:4191/gallery",
+      "status": 200,
+      "domcontentloadedMs": 848
+    },
+    {
+      "case": "en/1024/careers",
+      "url": "http://127.0.0.1:4191/careers",
+      "status": 200,
+      "domcontentloadedMs": 731
+    },
+    {
+      "case": "en/1024/contact",
+      "url": "http://127.0.0.1:4191/contact",
+      "status": 200,
+      "domcontentloadedMs": 765
+    },
+    {
+      "case": "en/1024/navigation",
+      "url": "http://127.0.0.1:4191/products",
+      "status": 200,
+      "domcontentloadedMs": 697
+    },
+    {
+      "case": "en/1024/navigation",
+      "url": "http://127.0.0.1:4191/products",
+      "status": 200,
+      "domcontentloadedMs": 796
+    },
+    {
+      "case": "en/1440/products",
+      "url": "http://127.0.0.1:4191/products",
+      "status": 200,
+      "domcontentloadedMs": 672
+    },
+    {
+      "case": "en/1440/gallery",
+      "url": "http://127.0.0.1:4191/gallery",
+      "status": 200,
+      "domcontentloadedMs": 930
+    },
+    {
+      "case": "en/1440/careers",
+      "url": "http://127.0.0.1:4191/careers",
+      "status": 200,
+      "domcontentloadedMs": 648
+    },
+    {
+      "case": "en/1440/contact",
+      "url": "http://127.0.0.1:4191/contact",
+      "status": 200,
+      "domcontentloadedMs": 437
+    },
+    {
+      "case": "en/1440/navigation",
+      "url": "http://127.0.0.1:4191/products",
+      "status": 200,
+      "domcontentloadedMs": 997
+    },
+    {
+      "case": "bn/320/products",
+      "url": "http://127.0.0.1:4191/products",
+      "status": 200,
+      "domcontentloadedMs": 583
+    },
+    {
+      "case": "bn/320/gallery",
+      "url": "http://127.0.0.1:4191/gallery",
+      "status": 200,
+      "domcontentloadedMs": 670
+    },
+    {
+      "case": "bn/320/careers",
+      "url": "http://127.0.0.1:4191/careers",
+      "status": 200,
+      "domcontentloadedMs": 522
+    },
+    {
+      "case": "bn/320/contact",
+      "url": "http://127.0.0.1:4191/contact",
+      "status": 200,
+      "domcontentloadedMs": 535
+    },
+    {
+      "case": "bn/320/navigation",
+      "url": "http://127.0.0.1:4191/products",
+      "status": 200,
+      "domcontentloadedMs": 875
+    },
+    {
+      "case": "bn/320/navigation",
+      "url": "http://127.0.0.1:4191/products",
+      "status": 200,
+      "domcontentloadedMs": 2940
+    },
+    {
+      "case": "bn/390/products",
+      "url": "http://127.0.0.1:4191/products",
+      "status": 200,
+      "domcontentloadedMs": 599
+    },
+    {
+      "case": "bn/390/gallery",
+      "url": "http://127.0.0.1:4191/gallery",
+      "status": 200,
+      "domcontentloadedMs": 1179
+    },
+    {
+      "case": "bn/390/careers",
+      "url": "http://127.0.0.1:4191/careers",
+      "status": 200,
+      "domcontentloadedMs": 894
+    },
+    {
+      "case": "bn/390/contact",
+      "url": "http://127.0.0.1:4191/contact",
+      "status": 200,
+      "domcontentloadedMs": 542
+    },
+    {
+      "case": "bn/390/navigation",
+      "url": "http://127.0.0.1:4191/products",
+      "status": 200,
+      "domcontentloadedMs": 1012
+    },
+    {
+      "case": "bn/390/navigation",
+      "url": "http://127.0.0.1:4191/products",
+      "status": 200,
+      "domcontentloadedMs": 1282
+    },
+    {
+      "case": "bn/430/products",
+      "url": "http://127.0.0.1:4191/products",
+      "status": 200,
+      "domcontentloadedMs": 631
+    },
+    {
+      "case": "bn/430/gallery",
+      "url": "http://127.0.0.1:4191/gallery",
+      "status": 200,
+      "domcontentloadedMs": 763
+    },
+    {
+      "case": "bn/430/careers",
+      "url": "http://127.0.0.1:4191/careers",
+      "status": 200,
+      "domcontentloadedMs": 924
+    },
+    {
+      "case": "bn/430/contact",
+      "url": "http://127.0.0.1:4191/contact",
+      "status": 200,
+      "domcontentloadedMs": 796
+    },
+    {
+      "case": "bn/430/navigation",
+      "url": "http://127.0.0.1:4191/products",
+      "status": 200,
+      "domcontentloadedMs": 1365
+    },
+    {
+      "case": "bn/430/navigation",
+      "url": "http://127.0.0.1:4191/products",
+      "status": 200,
+      "domcontentloadedMs": 812
+    },
+    {
+      "case": "bn/768/products",
+      "url": "http://127.0.0.1:4191/products",
+      "status": 200,
+      "domcontentloadedMs": 1644
+    },
+    {
+      "case": "bn/768/gallery",
+      "url": "http://127.0.0.1:4191/gallery",
+      "status": 200,
+      "domcontentloadedMs": 752
+    },
+    {
+      "case": "bn/768/careers",
+      "url": "http://127.0.0.1:4191/careers",
+      "status": 200,
+      "domcontentloadedMs": 650
+    },
+    {
+      "case": "bn/768/contact",
+      "url": "http://127.0.0.1:4191/contact",
+      "status": 200,
+      "domcontentloadedMs": 1123
+    },
+    {
+      "case": "bn/768/navigation",
+      "url": "http://127.0.0.1:4191/products",
+      "status": 200,
+      "domcontentloadedMs": 811
+    },
+    {
+      "case": "bn/768/navigation",
+      "url": "http://127.0.0.1:4191/products",
+      "status": 200,
+      "domcontentloadedMs": 574
+    },
+    {
+      "case": "bn/1024/products",
+      "url": "http://127.0.0.1:4191/products",
+      "status": 200,
+      "domcontentloadedMs": 687
+    },
+    {
+      "case": "bn/1024/gallery",
+      "url": "http://127.0.0.1:4191/gallery",
+      "status": 200,
+      "domcontentloadedMs": 890
+    },
+    {
+      "case": "bn/1024/careers",
+      "url": "http://127.0.0.1:4191/careers",
+      "status": 200,
+      "domcontentloadedMs": 680
+    },
+    {
+      "case": "bn/1024/contact",
+      "url": "http://127.0.0.1:4191/contact",
+      "status": 200,
+      "domcontentloadedMs": 410
+    },
+    {
+      "case": "bn/1024/navigation",
+      "url": "http://127.0.0.1:4191/products",
+      "status": 200,
+      "domcontentloadedMs": 917
+    },
+    {
+      "case": "bn/1024/navigation",
+      "url": "http://127.0.0.1:4191/products",
+      "status": 200,
+      "domcontentloadedMs": 3137
+    },
+    {
+      "case": "bn/1440/products",
+      "url": "http://127.0.0.1:4191/products",
+      "status": 200,
+      "domcontentloadedMs": 646
+    },
+    {
+      "case": "bn/1440/gallery",
+      "url": "http://127.0.0.1:4191/gallery",
+      "status": 200,
+      "domcontentloadedMs": 1242
+    },
+    {
+      "case": "bn/1440/careers",
+      "url": "http://127.0.0.1:4191/careers",
+      "status": 200,
+      "domcontentloadedMs": 983
+    },
+    {
+      "case": "bn/1440/contact",
+      "url": "http://127.0.0.1:4191/contact",
+      "status": 200,
+      "domcontentloadedMs": 671
+    },
+    {
+      "case": "bn/1440/navigation",
+      "url": "http://127.0.0.1:4191/products",
+      "status": 200,
+      "domcontentloadedMs": 450
+    },
+    {
+      "case": "products/search-filters-pagination",
+      "url": "http://127.0.0.1:4191/products",
+      "status": 200,
+      "domcontentloadedMs": 661
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4191/contact?product=Box%20Frame%20Bearing%20%26%20Racer%20(Black%20Blue%20%26%20Red)",
+      "status": 200,
+      "domcontentloadedMs": 728
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4191/contact?product=Motor%20Cycle%20Center%20Stand",
+      "status": 200,
+      "domcontentloadedMs": 3614
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4191/contact?product=Motor%20Cycle%20Double%20Stand",
+      "status": 200,
+      "domcontentloadedMs": 1575
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4191/contact?product=Motor%20Cycle%20Foot%20Rest%20Rod",
+      "status": 200,
+      "domcontentloadedMs": 1098
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4191/contact?product=Motor%20Cycle%20Handlebar",
+      "status": 200,
+      "domcontentloadedMs": 1252
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4191/contact?product=Motor%20Cycle%20Leg%20Guard",
+      "status": 200,
+      "domcontentloadedMs": 3558
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4191/contact?product=Motor%20Cycle%20Sharee%20Guard%20Ladies%20(Black%20%26%20Nickel)",
+      "status": 200,
+      "domcontentloadedMs": 1021
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4191/contact?product=Easy%20Bike%20RIM%20(Black%20%26%20White)",
+      "status": 200,
+      "domcontentloadedMs": 1520
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4191/contact?product=Rikshaw%20Avon%20Rim",
+      "status": 200,
+      "domcontentloadedMs": 904
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4191/contact?product=Cycle%20Rim%20(Bichue%20%26%20Hero)",
+      "status": 200,
+      "domcontentloadedMs": 3405
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4191/contact?product=Cycle%20Rim%20(26%22X1.5%22)",
+      "status": 200,
+      "domcontentloadedMs": 816
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4191/contact?product=CNG%20Rim",
+      "status": 200,
+      "domcontentloadedMs": 1286
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4191/contact?product=Rikshaw%20Rim%20Gazi",
+      "status": 200,
+      "domcontentloadedMs": 832
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4191/contact?product=Mishuk%20Rim%20Black%20%26%20White",
+      "status": 200,
+      "domcontentloadedMs": 990
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4191/contact?product=VAN%20Rickshaw%20Jumbo%20Rim",
+      "status": 200,
+      "domcontentloadedMs": 919
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4191/contact?product=VAN%20Rickshaw%20Gold%20Rim",
+      "status": 200,
+      "domcontentloadedMs": 1109
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4191/contact?product=Rickshaw%20Japan%20Rim",
+      "status": 200,
+      "domcontentloadedMs": 1307
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4191/contact?product=Nosimon%20Rim",
+      "status": 200,
+      "domcontentloadedMs": 935
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4191/contact?product=Patti%20Rim",
+      "status": 200,
+      "domcontentloadedMs": 810
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4191/contact?product=Van%20Spoke%20(Black%20%26%20White)",
+      "status": 200,
+      "domcontentloadedMs": 618
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4191/contact?product=Wasar",
+      "status": 200,
+      "domcontentloadedMs": 524
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4191/contact",
+      "status": 200,
+      "domcontentloadedMs": 868
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4191/contact?product=",
+      "status": 200,
+      "domcontentloadedMs": 3903
+    },
+    {
+      "case": "enquiry/all-products-and-direct-defaults",
+      "url": "http://127.0.0.1:4191/contact?product=Unknown",
+      "status": 200,
+      "domcontentloadedMs": 517
+    },
+    {
+      "case": "enquiry/history-edited-values-and-route-departure",
+      "url": "http://127.0.0.1:4191/products",
+      "status": 200,
+      "domcontentloadedMs": 699
+    },
+    {
+      "case": "radius-and-admin-isolation",
+      "url": "http://127.0.0.1:4191/products",
+      "status": 200,
+      "domcontentloadedMs": 3906
+    },
+    {
+      "case": "radius-and-admin-isolation",
+      "url": "http://127.0.0.1:4191/admin",
+      "status": 200,
+      "domcontentloadedMs": 999
+    }
+  ],
+  "resources": [
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 320,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4191/products",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 320,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4191/gallery",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 320,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4191/careers",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 320,
+      "url": "https://www.google.com/maps/embed",
+      "method": "GET",
+      "pageURL": "http://127.0.0.1:4191/contact",
+      "resourceType": "document",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "touch-proof",
+      "lang": "en",
+      "width": 320,
+      "events": [
+        {
+          "pointerType": "touch",
+          "name": "mobile-nav-company"
+        }
+      ],
+      "hit": true
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 390,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4191/products",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 390,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4191/gallery",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 390,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4191/careers",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "touch-proof",
+      "lang": "en",
+      "width": 390,
+      "events": [
+        {
+          "pointerType": "touch",
+          "name": "mobile-nav-company"
+        }
+      ],
+      "hit": true
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 390,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4191/about",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 390,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4191/products",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 430,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4191/products",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 430,
+      "url": "https://www.google.com/maps/embed",
+      "method": "GET",
+      "pageURL": "http://127.0.0.1:4191/contact",
+      "resourceType": "document",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "touch-proof",
+      "lang": "en",
+      "width": 430,
+      "events": [
+        {
+          "pointerType": "touch",
+          "name": "mobile-nav-company"
+        }
+      ],
+      "hit": true
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 768,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4191/products",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 768,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4191/gallery",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 768,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4191/careers",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 768,
+      "url": "https://www.google.com/maps/embed",
+      "method": "GET",
+      "pageURL": "http://127.0.0.1:4191/contact",
+      "resourceType": "document",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "touch-proof",
+      "lang": "en",
+      "width": 768,
+      "events": [
+        {
+          "pointerType": "touch",
+          "name": "mobile-nav-company"
+        }
+      ],
+      "hit": true
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 768,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4191/products",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1024,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4191/products",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1024,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4191/gallery",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1024,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4191/careers",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1024,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4191/contact",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1024,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4191/products",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "touch-proof",
+      "lang": "en",
+      "width": 1024,
+      "events": [
+        {
+          "pointerType": "touch",
+          "name": "mobile-nav-company"
+        }
+      ],
+      "hit": true
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1440,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4191/products",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1440,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4191/gallery",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1440,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4191/careers",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1440,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4191/products",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "bn",
+      "width": 320,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4191/products",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "bn",
+      "width": 320,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4191/gallery",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "bn",
+      "width": 320,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4191/careers",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "bn",
+      "width": 320,
+      "url": "https://www.google.com/maps/embed",
+      "method": "GET",
+      "pageURL": "http://127.0.0.1:4191/contact",
+      "resourceType": "document",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "touch-proof",
+      "lang": "bn",
+      "width": 320,
+      "events": [
+        {
+          "pointerType": "touch",
+          "name": "mobile-nav-company"
+        }
+      ],
+      "hit": true
+    },
+    {
+      "type": "failed",
+      "lang": "bn",
+      "width": 390,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4191/products",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "bn",
+      "width": 390,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4191/gallery",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "bn",
+      "width": 390,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4191/careers",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "bn",
+      "width": 390,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4191/contact",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "touch-proof",
+      "lang": "bn",
+      "width": 390,
+      "events": [
+        {
+          "pointerType": "touch",
+          "name": "mobile-nav-company"
+        }
+      ],
+      "hit": true
+    },
+    {
+      "type": "failed",
+      "lang": "bn",
+      "width": 390,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4191/products",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "bn",
+      "width": 390,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4191/products",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "bn",
+      "width": 430,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4191/products",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "bn",
+      "width": 430,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4191/gallery",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "bn",
+      "width": 430,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4191/careers",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "bn",
+      "width": 430,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4191/contact",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "touch-proof",
+      "lang": "bn",
+      "width": 430,
+      "events": [
+        {
+          "pointerType": "touch",
+          "name": "mobile-nav-company"
+        }
+      ],
+      "hit": true
+    },
+    {
+      "type": "failed",
+      "lang": "bn",
+      "width": 430,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4191/about",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "bn",
+      "width": 430,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4191/products",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "bn",
+      "width": 768,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4191/products",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "bn",
+      "width": 768,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4191/gallery",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "bn",
+      "width": 768,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4191/careers",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "blocked-write",
+      "url": "https://maps.googleapis.com/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/GetViewportInfo",
+      "method": "POST",
+      "resourceType": "xhr"
+    },
+    {
+      "type": "failed",
+      "lang": "bn",
+      "width": 768,
+      "url": "https://maps.googleapis.com/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/GetViewportInfo",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4191/contact",
+      "resourceType": "xhr",
+      "error": "net::ERR_FAILED"
+    },
+    {
+      "type": "touch-proof",
+      "lang": "bn",
+      "width": 768,
+      "events": [
+        {
+          "pointerType": "touch",
+          "name": "mobile-nav-company"
+        }
+      ],
+      "hit": true
+    },
+    {
+      "type": "failed",
+      "lang": "bn",
+      "width": 1024,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4191/products",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "bn",
+      "width": 1024,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4191/gallery",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "bn",
+      "width": 1024,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4191/careers",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "blocked-write",
+      "url": "https://maps.googleapis.com/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/GetViewportInfo",
+      "method": "POST",
+      "resourceType": "xhr"
+    },
+    {
+      "type": "failed",
+      "lang": "bn",
+      "width": 1024,
+      "url": "https://maps.googleapis.com/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/GetViewportInfo",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4191/contact",
+      "resourceType": "xhr",
+      "error": "net::ERR_FAILED"
+    },
+    {
+      "type": "touch-proof",
+      "lang": "bn",
+      "width": 1024,
+      "events": [
+        {
+          "pointerType": "touch",
+          "name": "mobile-nav-company"
+        }
+      ],
+      "hit": true
+    },
+    {
+      "type": "failed",
+      "lang": "bn",
+      "width": 1440,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4191/products",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "bn",
+      "width": 1440,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4191/gallery",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "bn",
+      "width": 1440,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4191/careers",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1440,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4191/products",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1440,
+      "url": "https://www.google.com/maps/embed",
+      "method": "GET",
+      "pageURL": "http://127.0.0.1:4191/contact",
+      "resourceType": "document",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1440,
+      "url": "https://www.google.com/maps/embed",
+      "method": "GET",
+      "pageURL": "http://127.0.0.1:4191/contact",
+      "resourceType": "document",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1440,
+      "url": "https://www.google.com/maps/embed",
+      "method": "GET",
+      "pageURL": "http://127.0.0.1:4191/contact",
+      "resourceType": "document",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1440,
+      "url": "https://www.google.com/maps/embed",
+      "method": "GET",
+      "pageURL": "http://127.0.0.1:4191/contact",
+      "resourceType": "document",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1440,
+      "url": "https://www.google.com/maps/embed",
+      "method": "GET",
+      "pageURL": "http://127.0.0.1:4191/contact",
+      "resourceType": "document",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1440,
+      "url": "https://www.google.com/maps/embed",
+      "method": "GET",
+      "pageURL": "http://127.0.0.1:4191/contact",
+      "resourceType": "document",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1440,
+      "url": "https://www.google.com/maps/embed",
+      "method": "GET",
+      "pageURL": "http://127.0.0.1:4191/contact",
+      "resourceType": "document",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1440,
+      "url": "https://www.google.com/maps/embed",
+      "method": "GET",
+      "pageURL": "http://127.0.0.1:4191/contact",
+      "resourceType": "document",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1440,
+      "url": "https://www.google.com/maps/embed",
+      "method": "GET",
+      "pageURL": "http://127.0.0.1:4191/contact",
+      "resourceType": "document",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1440,
+      "url": "https://www.google.com/maps/embed",
+      "method": "GET",
+      "pageURL": "http://127.0.0.1:4191/contact",
+      "resourceType": "document",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1440,
+      "url": "https://www.google.com/maps/embed",
+      "method": "GET",
+      "pageURL": "http://127.0.0.1:4191/contact",
+      "resourceType": "document",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1440,
+      "url": "https://www.google.com/maps/embed",
+      "method": "GET",
+      "pageURL": "http://127.0.0.1:4191/contact",
+      "resourceType": "document",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1440,
+      "url": "https://www.google.com/maps/embed",
+      "method": "GET",
+      "pageURL": "http://127.0.0.1:4191/contact",
+      "resourceType": "document",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1440,
+      "url": "https://www.google-analytics.com/g/collect",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4191/products",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "blocked-write",
+      "url": "https://maps.googleapis.com/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/GetViewportInfo",
+      "method": "POST",
+      "resourceType": "xhr"
+    },
+    {
+      "type": "failed",
+      "lang": "en",
+      "width": 1440,
+      "url": "https://maps.googleapis.com/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/GetViewportInfo",
+      "method": "POST",
+      "pageURL": "http://127.0.0.1:4191/contact",
+      "resourceType": "xhr",
+      "error": "net::ERR_FAILED"
+    }
+  ],
+  "cases": [
+    {
+      "name": "en/320/products",
+      "passed": true
+    },
+    {
+      "name": "en/320/gallery",
+      "passed": true
+    },
+    {
+      "name": "en/320/careers",
+      "passed": true
+    },
+    {
+      "name": "en/320/contact",
+      "passed": true
+    },
+    {
+      "name": "en/320/navigation",
+      "passed": true
+    },
+    {
+      "name": "en/390/products",
+      "passed": true
+    },
+    {
+      "name": "en/390/gallery",
+      "passed": true
+    },
+    {
+      "name": "en/390/careers",
+      "passed": true
+    },
+    {
+      "name": "en/390/contact",
+      "passed": true
+    },
+    {
+      "name": "en/390/navigation",
+      "passed": true
+    },
+    {
+      "name": "en/430/products",
+      "passed": true
+    },
+    {
+      "name": "en/430/gallery",
+      "passed": true
+    },
+    {
+      "name": "en/430/careers",
+      "passed": true
+    },
+    {
+      "name": "en/430/contact",
+      "passed": true
+    },
+    {
+      "name": "en/430/navigation",
+      "passed": true
+    },
+    {
+      "name": "en/768/products",
+      "passed": true
+    },
+    {
+      "name": "en/768/gallery",
+      "passed": true
+    },
+    {
+      "name": "en/768/careers",
+      "passed": true
+    },
+    {
+      "name": "en/768/contact",
+      "passed": true
+    },
+    {
+      "name": "en/768/navigation",
+      "passed": true
+    },
+    {
+      "name": "en/1024/products",
+      "passed": true
+    },
+    {
+      "name": "en/1024/gallery",
+      "passed": true
+    },
+    {
+      "name": "en/1024/careers",
+      "passed": true
+    },
+    {
+      "name": "en/1024/contact",
+      "passed": true
+    },
+    {
+      "name": "en/1024/navigation",
+      "passed": true
+    },
+    {
+      "name": "en/1440/products",
+      "passed": true
+    },
+    {
+      "name": "en/1440/gallery",
+      "passed": true
+    },
+    {
+      "name": "en/1440/careers",
+      "passed": true
+    },
+    {
+      "name": "en/1440/contact",
+      "passed": true
+    },
+    {
+      "name": "en/1440/navigation",
+      "passed": true
+    },
+    {
+      "name": "bn/320/products",
+      "passed": true
+    },
+    {
+      "name": "bn/320/gallery",
+      "passed": true
+    },
+    {
+      "name": "bn/320/careers",
+      "passed": true
+    },
+    {
+      "name": "bn/320/contact",
+      "passed": true
+    },
+    {
+      "name": "bn/320/navigation",
+      "passed": true
+    },
+    {
+      "name": "bn/390/products",
+      "passed": true
+    },
+    {
+      "name": "bn/390/gallery",
+      "passed": true
+    },
+    {
+      "name": "bn/390/careers",
+      "passed": true
+    },
+    {
+      "name": "bn/390/contact",
+      "passed": true
+    },
+    {
+      "name": "bn/390/navigation",
+      "passed": true
+    },
+    {
+      "name": "bn/430/products",
+      "passed": true
+    },
+    {
+      "name": "bn/430/gallery",
+      "passed": true
+    },
+    {
+      "name": "bn/430/careers",
+      "passed": true
+    },
+    {
+      "name": "bn/430/contact",
+      "passed": true
+    },
+    {
+      "name": "bn/430/navigation",
+      "passed": true
+    },
+    {
+      "name": "bn/768/products",
+      "passed": true
+    },
+    {
+      "name": "bn/768/gallery",
+      "passed": true
+    },
+    {
+      "name": "bn/768/careers",
+      "passed": true
+    },
+    {
+      "name": "bn/768/contact",
+      "passed": true
+    },
+    {
+      "name": "bn/768/navigation",
+      "passed": true
+    },
+    {
+      "name": "bn/1024/products",
+      "passed": true
+    },
+    {
+      "name": "bn/1024/gallery",
+      "passed": true
+    },
+    {
+      "name": "bn/1024/careers",
+      "passed": true
+    },
+    {
+      "name": "bn/1024/contact",
+      "passed": true
+    },
+    {
+      "name": "bn/1024/navigation",
+      "passed": true
+    },
+    {
+      "name": "bn/1440/products",
+      "passed": true
+    },
+    {
+      "name": "bn/1440/gallery",
+      "passed": true
+    },
+    {
+      "name": "bn/1440/careers",
+      "passed": true
+    },
+    {
+      "name": "bn/1440/contact",
+      "passed": true
+    },
+    {
+      "name": "bn/1440/navigation",
+      "passed": true
+    },
+    {
+      "name": "products/search-filters-pagination",
+      "passed": true
+    },
+    {
+      "name": "enquiry/all-products-and-direct-defaults",
+      "passed": true
+    },
+    {
+      "name": "enquiry/history-edited-values-and-route-departure",
+      "passed": true
+    },
+    {
+      "name": "radius-and-admin-isolation",
+      "passed": true
+    }
+  ],
+  "console": [
+    {
+      "type": "console",
+      "lang": "bn",
+      "width": 768,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "bn",
+      "width": 1024,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "type": "console",
+      "lang": "en",
+      "width": 1440,
+      "text": "Failed to load resource: net::ERR_FAILED"
+    }
+  ],
+  "axe": [
+    {
+      "state": "en/390/products-open",
+      "violations": []
+    },
+    {
+      "state": "en/390/gallery-open",
+      "violations": []
+    },
+    {
+      "state": "en/390/careers-open",
+      "violations": []
+    },
+    {
+      "state": "en/390/contact",
+      "violations": [
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                ".hover\\:bg-modina-red\\/5.hover\\:border-modina-red\\/40[href=\"#\"]:nth-child(1)"
+              ],
+              "summary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            },
+            {
+              "target": [
+                ".hover\\:bg-modina-red\\/5.hover\\:border-modina-red\\/40[href=\"#\"]:nth-child(2)"
+              ],
+              "summary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            },
+            {
+              "target": [
+                ".hover\\:bg-modina-red\\/5.hover\\:border-modina-red\\/40[href=\"#\"]:nth-child(3)"
+              ],
+              "summary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            },
+            {
+              "target": [
+                ".hover\\:bg-modina-red\\/5.hover\\:border-modina-red\\/40[href=\"#\"]:nth-child(4)"
+              ],
+              "summary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "state": "en/menu-open",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                ".gap-2\\.5.hover\\:bg-modina-bg-alt[href$=\"about\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.61 (foreground color: #c8ccd2, background color: #ffffff, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "a[href$=\"mission\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.61 (foreground color: #c8ccd2, background color: #ffffff, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "a[href$=\"careers\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.61 (foreground color: #c8ccd2, background color: #ffffff, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".gap-2\\.5.hover\\:bg-modina-bg-alt[href$=\"faq\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.61 (foreground color: #c8ccd2, background color: #ffffff, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "state": "bn/390/products-open",
+      "violations": []
+    },
+    {
+      "state": "bn/390/gallery-open",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                ".ml-auto"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.82 (foreground color: #f8f8f8, background color: #7e7e7e, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "state": "bn/390/careers-open",
+      "violations": []
+    },
+    {
+      "state": "bn/390/contact",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                "label[for=\"contact-name\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.63 (foreground color: #7d8795, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "label[for=\"contact-company\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.03 (foreground color: #8c95a1, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "label[for=\"contact-email\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.51 (foreground color: #9ca4ae, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "#contact-email"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.8 (foreground color: #7f838b, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "label[for=\"contact-phone\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.08 (foreground color: #aeb4bd, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "#contact-phone"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.85 (foreground color: #9699a0, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "label[for=\"contact-subject\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.73 (foreground color: #c1c5cc, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "#contact-subject"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #aeb1b6, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "label[for=\"contact-message\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.43 (foreground color: #d4d8dc, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".mt-2"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.2 (foreground color: #ffffff, background color: #fce5e5, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                ".hover\\:bg-modina-red\\/5.hover\\:border-modina-red\\/40[href=\"#\"]:nth-child(1)"
+              ],
+              "summary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            },
+            {
+              "target": [
+                ".hover\\:bg-modina-red\\/5.hover\\:border-modina-red\\/40[href=\"#\"]:nth-child(2)"
+              ],
+              "summary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            },
+            {
+              "target": [
+                ".hover\\:bg-modina-red\\/5.hover\\:border-modina-red\\/40[href=\"#\"]:nth-child(3)"
+              ],
+              "summary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            },
+            {
+              "target": [
+                ".hover\\:bg-modina-red\\/5.hover\\:border-modina-red\\/40[href=\"#\"]:nth-child(4)"
+              ],
+              "summary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "state": "bn/menu-open",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                ".gap-2\\.5.hover\\:bg-modina-bg-alt[href$=\"about\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.35 (foreground color: #6f7a8a, background color: #ffffff, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "a[href$=\"mission\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.35 (foreground color: #6f7a8a, background color: #ffffff, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "a[href$=\"careers\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.35 (foreground color: #6f7a8a, background color: #ffffff, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".gap-2\\.5.hover\\:bg-modina-bg-alt[href$=\"faq\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.35 (foreground color: #6f7a8a, background color: #ffffff, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".gap-2\\.5.hover\\:bg-modina-bg-alt[href$=\"downloads\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.35 (foreground color: #6f7a8a, background color: #ffffff, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "geometry": [
+    {
+      "lang": "en",
+      "route": "products",
+      "width": 320,
+      "scrollWidth": 320,
+      "headerHeight": 112
+    },
+    {
+      "lang": "en",
+      "route": "gallery",
+      "width": 320,
+      "scrollWidth": 320,
+      "headerHeight": 112
+    },
+    {
+      "lang": "en",
+      "route": "careers",
+      "width": 320,
+      "scrollWidth": 320,
+      "headerHeight": 112
+    },
+    {
+      "lang": "en",
+      "route": "contact",
+      "width": 320,
+      "scrollWidth": 320,
+      "headerHeight": 112
+    },
+    {
+      "lang": "en",
+      "route": "products",
+      "width": 390,
+      "scrollWidth": 390,
+      "headerHeight": 112
+    },
+    {
+      "lang": "en",
+      "route": "gallery",
+      "width": 390,
+      "scrollWidth": 390,
+      "headerHeight": 112
+    },
+    {
+      "lang": "en",
+      "route": "careers",
+      "width": 390,
+      "scrollWidth": 390,
+      "headerHeight": 112
+    },
+    {
+      "lang": "en",
+      "route": "contact",
+      "width": 390,
+      "scrollWidth": 390,
+      "headerHeight": 112
+    },
+    {
+      "lang": "en",
+      "route": "products",
+      "width": 430,
+      "scrollWidth": 430,
+      "headerHeight": 112
+    },
+    {
+      "lang": "en",
+      "route": "gallery",
+      "width": 430,
+      "scrollWidth": 430,
+      "headerHeight": 112
+    },
+    {
+      "lang": "en",
+      "route": "careers",
+      "width": 430,
+      "scrollWidth": 430,
+      "headerHeight": 112
+    },
+    {
+      "lang": "en",
+      "route": "contact",
+      "width": 430,
+      "scrollWidth": 430,
+      "headerHeight": 112
+    },
+    {
+      "lang": "en",
+      "route": "products",
+      "width": 768,
+      "scrollWidth": 768,
+      "headerHeight": 65.4375
+    },
+    {
+      "lang": "en",
+      "route": "gallery",
+      "width": 768,
+      "scrollWidth": 768,
+      "headerHeight": 64.03125
+    },
+    {
+      "lang": "en",
+      "route": "careers",
+      "width": 768,
+      "scrollWidth": 768,
+      "headerHeight": 64
+    },
+    {
+      "lang": "en",
+      "route": "contact",
+      "width": 768,
+      "scrollWidth": 768,
+      "headerHeight": 69.140625
+    },
+    {
+      "lang": "en",
+      "route": "products",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "headerHeight": 64
+    },
+    {
+      "lang": "en",
+      "route": "gallery",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "headerHeight": 64
+    },
+    {
+      "lang": "en",
+      "route": "careers",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "headerHeight": 64
+    },
+    {
+      "lang": "en",
+      "route": "contact",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "headerHeight": 64
+    },
+    {
+      "lang": "en",
+      "route": "products",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headerHeight": 64
+    },
+    {
+      "lang": "en",
+      "route": "gallery",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headerHeight": 64.96875
+    },
+    {
+      "lang": "en",
+      "route": "careers",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headerHeight": 64
+    },
+    {
+      "lang": "en",
+      "route": "contact",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headerHeight": 67.796875
+    },
+    {
+      "lang": "bn",
+      "route": "products",
+      "width": 320,
+      "scrollWidth": 320,
+      "headerHeight": 112
+    },
+    {
+      "lang": "bn",
+      "route": "gallery",
+      "width": 320,
+      "scrollWidth": 320,
+      "headerHeight": 112
+    },
+    {
+      "lang": "bn",
+      "route": "careers",
+      "width": 320,
+      "scrollWidth": 320,
+      "headerHeight": 112
+    },
+    {
+      "lang": "bn",
+      "route": "contact",
+      "width": 320,
+      "scrollWidth": 320,
+      "headerHeight": 112
+    },
+    {
+      "lang": "bn",
+      "route": "products",
+      "width": 390,
+      "scrollWidth": 390,
+      "headerHeight": 112
+    },
+    {
+      "lang": "bn",
+      "route": "gallery",
+      "width": 390,
+      "scrollWidth": 390,
+      "headerHeight": 112
+    },
+    {
+      "lang": "bn",
+      "route": "careers",
+      "width": 390,
+      "scrollWidth": 390,
+      "headerHeight": 112
+    },
+    {
+      "lang": "bn",
+      "route": "contact",
+      "width": 390,
+      "scrollWidth": 390,
+      "headerHeight": 112
+    },
+    {
+      "lang": "bn",
+      "route": "products",
+      "width": 430,
+      "scrollWidth": 430,
+      "headerHeight": 112
+    },
+    {
+      "lang": "bn",
+      "route": "gallery",
+      "width": 430,
+      "scrollWidth": 430,
+      "headerHeight": 112
+    },
+    {
+      "lang": "bn",
+      "route": "careers",
+      "width": 430,
+      "scrollWidth": 430,
+      "headerHeight": 112
+    },
+    {
+      "lang": "bn",
+      "route": "contact",
+      "width": 430,
+      "scrollWidth": 430,
+      "headerHeight": 112
+    },
+    {
+      "lang": "bn",
+      "route": "products",
+      "width": 768,
+      "scrollWidth": 768,
+      "headerHeight": 64.03125
+    },
+    {
+      "lang": "bn",
+      "route": "gallery",
+      "width": 768,
+      "scrollWidth": 768,
+      "headerHeight": 64
+    },
+    {
+      "lang": "bn",
+      "route": "careers",
+      "width": 768,
+      "scrollWidth": 768,
+      "headerHeight": 64
+    },
+    {
+      "lang": "bn",
+      "route": "contact",
+      "width": 768,
+      "scrollWidth": 768,
+      "headerHeight": 64.953125
+    },
+    {
+      "lang": "bn",
+      "route": "products",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "headerHeight": 64
+    },
+    {
+      "lang": "bn",
+      "route": "gallery",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "headerHeight": 64
+    },
+    {
+      "lang": "bn",
+      "route": "careers",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "headerHeight": 71.171875
+    },
+    {
+      "lang": "bn",
+      "route": "contact",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "headerHeight": 70.328125
+    },
+    {
+      "lang": "bn",
+      "route": "products",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headerHeight": 64
+    },
+    {
+      "lang": "bn",
+      "route": "gallery",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headerHeight": 64
+    },
+    {
+      "lang": "bn",
+      "route": "careers",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headerHeight": 68.9375
+    },
+    {
+      "lang": "bn",
+      "route": "contact",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headerHeight": 72
+    }
+  ],
+  "currentCase": "radius-and-admin-isolation",
+  "assertionsFinishedAt": "2026-10-27T14:27:03.320Z",
+  "teardown": {
+    "closedNormally": false,
+    "bounded": true,
+    "connected": false,
+    "durationMs": 15010
+  },
+  "completed": true
+}

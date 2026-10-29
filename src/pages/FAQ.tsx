@@ -1,6 +1,8 @@
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
+import { usePublicToolbar } from '../hooks/usePublicLayout';
 import { Helmet } from 'react-helmet-async';
-import { motion, AnimatePresence } from 'motion/react';
+import { motion, AnimatePresence, useReducedMotion } from 'motion/react';
 import { Link } from 'react-router-dom';
 import { ChevronRight, Plus, Minus, Search, ArrowRight } from 'lucide-react';
 
@@ -44,10 +46,14 @@ const faqs: FAQItem[] = [
 const categories = ['All', 'Products', 'Quality', 'Shipping', 'Pricing', 'Company'];
 
 export default function FAQ() {
+  const { t } = useTranslation();
+  const toolbar = usePublicToolbar<HTMLDivElement>();
+  const reduceMotion = useReducedMotion();
   const letters = 'FAQ'.split('');
   const [activeCategory, setActiveCategory] = useState('All');
   const [openId, setOpenId] = useState<number | null>(null);
   const [searchQuery, setSearchQuery] = useState('');
+  useEffect(() => setOpenId(null), [activeCategory, searchQuery]);
 
   const filtered = useMemo(() => {
     return faqs.filter(f => {
@@ -61,7 +67,7 @@ export default function FAQ() {
   const toggle = (id: number) => setOpenId(prev => prev === id ? null : id);
 
   return (
-    <div className="min-h-screen bg-modina-bg text-modina-text pt-[112px] sm:pt-[72px]">
+    <div className="min-h-screen bg-modina-bg text-modina-text pt-[112px] sm:pt-[72px] public-page">
       <Helmet>
         <title>FAQ | Modina Rim &amp; Parts Ltd. — Frequently Asked Questions</title>
         <meta name="description" content="Frequently asked questions about Modina Rim & Parts Ltd. — product specifications, minimum order quantities, ISO certifications, shipping across Bangladesh, export terms, pricing, and distributor partnerships." />
@@ -69,14 +75,14 @@ export default function FAQ() {
       </Helmet>
 
       {/* SECTION 1 — HERO */}
-      <section className="w-full py-20 lg:py-28 flex flex-col items-center text-center bg-modina-bg">
-        <div className="text-modina-red text-xs font-bold tracking-widest uppercase flex items-center gap-2 justify-center mb-10">
+      <section className="w-full public-task-hero flex flex-col items-center text-center bg-modina-bg">
+        <div className="text-modina-red text-xs font-bold tracking-widest uppercase flex items-center gap-2 justify-center mb-10 public-breadcrumb">
           <Link to="/" className="hover:text-modina-red transition-all duration-300 ease-in-out text-modina-muted">Home</Link>
           <ChevronRight className="w-2.5 h-2.5 text-modina-subtle" />
           <span className="text-modina-muted">FAQ</span>
         </div>
         <div className="w-24 h-[2px] bg-modina-red mx-auto mb-10" />
-        <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-[9rem] font-display font-bold tracking-tight text-modina-heading uppercase leading-none flex items-center justify-center flex-wrap">
+        <h1 className="font-display font-bold tracking-tight text-modina-heading uppercase leading-none flex items-center justify-center flex-wrap public-hero-title">
           {letters.map((letter, i) => (
             <motion.span key={i} initial={{ opacity: 0, y: 28 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: i * 0.055, ease: [0.16, 1, 0.3, 1] }}>
               {letter}
@@ -89,7 +95,7 @@ export default function FAQ() {
           style={{ transformOrigin: 'left' }}
           className="w-32 h-[1px] bg-modina-red mx-auto my-10"
         />
-        <p className="text-modina-red text-xs font-bold tracking-widest uppercase flex items-center justify-center flex-wrap gap-2">
+        <p className="text-modina-red text-xs font-bold tracking-widest uppercase flex items-center justify-center flex-wrap gap-2 public-meta">
           <span>{faqs.length} Questions</span>
           <span className="text-modina-red">·</span>
           <span>{categories.length - 1} Categories</span>
@@ -100,8 +106,8 @@ export default function FAQ() {
       </section>
 
       {/* SECTION 2 — FILTER + SEARCH BAR */}
-      <div className="sticky top-[112px] sm:top-16 z-30 w-full bg-white/90 backdrop-blur-md border-t border-modina-border border-b shadow-design-sm">
-        <div className="container mx-auto flex min-h-[104px] flex-col-reverse gap-2 px-4 py-2 md:px-12 xl:h-14 xl:min-h-0 xl:flex-row xl:items-center xl:justify-between xl:px-24 xl:py-0">
+      <div ref={toolbar} className="public-sticky-toolbar sticky z-30 w-full bg-white/90 backdrop-blur-md border-t border-modina-border border-b shadow-design-sm">
+        <div className="container-premium flex min-h-[104px] flex-col-reverse gap-2 py-2 xl:h-14 xl:min-h-0 xl:flex-row xl:items-center xl:justify-between xl:py-0">
           {/* Category pills */}
           <div className="flex w-full min-w-0 items-center gap-0 overflow-x-auto no-scrollbar xl:w-auto xl:shrink-0">
             {categories.map((cat, idx) => {
@@ -112,7 +118,8 @@ export default function FAQ() {
                   <button
                     type="button"
                     onClick={() => { setActiveCategory(cat); setOpenId(null); }}
-                    className={`relative px-5 h-14 text-xs font-bold tracking-widest uppercase whitespace-nowrap transition-all duration-300 ease-in-out ${isActive ? 'text-modina-heading' : 'text-modina-muted hover:text-modina-red'}`}
+                    aria-pressed={isActive}
+                    className={`public-filter relative px-5 h-14 text-xs font-bold tracking-widest uppercase whitespace-nowrap transition-all duration-300 ease-in-out ${isActive ? 'text-modina-heading' : 'text-modina-muted hover:text-modina-red'}`}
                   >
                     {cat} ({count})
                     {isActive && <motion.span layoutId="activeFaqCat" className="absolute bottom-0 left-0 w-full h-[1px] bg-modina-red" />}
@@ -131,14 +138,15 @@ export default function FAQ() {
               placeholder="Search questions..."
               value={searchQuery}
               onChange={e => { setSearchQuery(e.target.value); setOpenId(null); }}
-              className="w-full bg-transparent border-b border-modina-divider focus:border-modina-red outline-none text-base text-modina-heading placeholder:text-modina-subtle transition-all pl-6 pb-1 xl:w-36 xl:text-xs xl:focus:w-52"
+              className="w-full bg-transparent border-b border-modina-divider focus:border-modina-red outline-none text-base text-modina-heading placeholder:text-modina-subtle transition-all pl-6 pb-1 xl:w-40 xl:focus:w-52"
             />
           </div>
         </div>
       </div>
 
       {/* SECTION 3 — FAQ ACCORDION */}
-      <section className="container mx-auto px-6 md:px-12 lg:px-24 py-16 lg:py-24 max-w-4xl">
+      <section className="container-premium public-task-content max-w-4xl public-reading-wide">
+        <p role="status" className="sr-only">{t('public_ui.results', { count: filtered.length })}</p>
         {filtered.length > 0 ? (
           <div className="flex flex-col gap-2">
             <AnimatePresence mode="popLayout" initial={false}>
@@ -158,13 +166,17 @@ export default function FAQ() {
                     <div className={`absolute top-0 left-0 h-[1px] bg-modina-red transition-all duration-500 ease-in-out rounded-tl-[12px] rounded-tr-[12px] ${isOpen ? 'w-full' : 'w-0 group-hover:w-full'}`} />
 
                     {/* Question row */}
+                    <h2 className="public-faq-heading public-anchor">
                     <button
                       type="button"
+                      id={`faq-question-${faq.id}`}
+                      aria-expanded={isOpen}
+                      aria-controls={`faq-panel-${faq.id}`}
                       onClick={() => toggle(faq.id)}
                       className="w-full text-left px-6 md:px-8 py-6 flex items-start justify-between gap-6"
                     >
                       <div className="flex-1">
-                        <span className={`text-xs font-bold tracking-widest uppercase mb-2 block ${isOpen ? 'text-modina-red' : 'text-modina-subtle group-hover:text-modina-red'} transition-all duration-300 ease-in-out`}>
+                        <span className={`public-meta text-xs font-bold tracking-widest uppercase mb-2 block ${isOpen ? 'text-modina-red' : 'text-modina-subtle group-hover:text-modina-red'} transition-all duration-300 ease-in-out`}>
                           {faq.category}
                         </span>
                         <span className={`font-display font-bold text-lg md:text-xl tracking-tight leading-snug transition-all duration-300 ease-in-out ${isOpen ? 'text-modina-heading' : 'text-modina-muted group-hover:text-modina-heading'}`}>
@@ -178,23 +190,26 @@ export default function FAQ() {
                         }
                       </div>
                     </button>
+                    </h2>
 
                     {/* Answer */}
+                    <div id={`faq-panel-${faq.id}`} role={isOpen ? 'region' : undefined} aria-labelledby={`faq-question-${faq.id}`} aria-hidden={!isOpen} inert={!isOpen}>
                     <AnimatePresence initial={false}>
                       {isOpen && (
                         <motion.div
-                          initial={{ height: 0, opacity: 0 }}
+                          initial={reduceMotion ? false : { height: 0, opacity: 0 }}
                           animate={{ height: 'auto', opacity: 1 }}
                           exit={{ height: 0, opacity: 0 }}
-                          transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
+                          transition={{ duration: reduceMotion ? 0 : 0.3, ease: [0.16, 1, 0.3, 1] }}
                           className="overflow-hidden"
                         >
                           <div className="px-6 md:px-8 pb-8 border-t border-modina-divider pt-5">
-                            <p className="text-[14px] text-modina-muted leading-relaxed font-light">{faq.answer}</p>
+                            <p className="text-[14px] text-modina-muted leading-relaxed font-light public-body">{faq.answer}</p>
                           </div>
                         </motion.div>
                       )}
                     </AnimatePresence>
+                    </div>
                   </motion.div>
                 );
               })}
@@ -203,7 +218,7 @@ export default function FAQ() {
         ) : (
           <div className="flex flex-col items-center justify-center py-32 text-center">
             <Minus className="w-8 h-8 text-modina-subtle mb-6" />
-            <p className="text-modina-muted text-xs font-bold tracking-widest uppercase mb-6">No results found</p>
+            <p className="text-modina-muted text-xs font-bold tracking-widest uppercase mb-6 public-meta">No results found</p>
             <button
               type="button"
               onClick={() => { setSearchQuery(''); setActiveCategory('All'); }}
@@ -216,12 +231,12 @@ export default function FAQ() {
       </section>
 
       {/* SECTION 4 — STILL HAVE QUESTIONS */}
-      <section className="w-full border-t border-modina-border py-24 lg:py-32 bg-modina-heading">
-        <div className="container mx-auto px-6 md:px-12 lg:px-24 flex flex-col lg:flex-row items-start lg:items-center justify-between gap-10">
+      <section className="w-full border-t border-modina-border public-section bg-modina-heading public-dark">
+        <div className="container-premium flex flex-col lg:flex-row items-start lg:items-center justify-between gap-10">
           <div className="relative pl-6">
             <div className="absolute left-0 top-0 w-1 h-20 bg-modina-red" />
-            <p className="text-modina-red text-xs font-bold tracking-widest uppercase mb-4">— Still Have Questions?</p>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-white tracking-tight leading-tight">
+            <p className="text-modina-red text-xs font-bold tracking-widest uppercase mb-4 public-meta">— Still Have Questions?</p>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-white tracking-tight leading-tight public-section-title">
               Talk to Our<br />Sales Team
             </h2>
           </div>

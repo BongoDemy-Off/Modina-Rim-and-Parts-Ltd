@@ -1,0 +1,11 @@
+PASS en/390/products
+PASS en/390/careers
+PASS en/390/contact
+PASS en/1440/products
+PASS en/1440/careers
+PASS en/1440/contact
+PASS products/search-filters-pagination
+PASS enquiry/all-products-and-direct-defaults
+PASS enquiry/history-edited-values-and-route-departure
+Closing browser after assertions
+9/9 cases passed; 3 axe scans.

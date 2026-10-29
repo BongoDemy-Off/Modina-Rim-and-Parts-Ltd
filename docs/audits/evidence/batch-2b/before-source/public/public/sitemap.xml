@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://www.modinarim.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://www.modinarim.com/products</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.modinarim.com/about</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.modinarim.com/mission</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.modinarim.com/quality</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.modinarim.com/certificates</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.modinarim.com/sustainability</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.modinarim.com/downloads</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.modinarim.com/news</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.modinarim.com/blog</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.modinarim.com/contact</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.modinarim.com/privacy</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://www.modinarim.com/terms</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+</urlset>

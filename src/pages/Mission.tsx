@@ -29,7 +29,7 @@ export default function Mission() {
   const ctaInView = useInView(ctaRef, { once: true, margin: '-60px' });
 
   return (
-    <div className="min-h-screen bg-white text-modina-text pt-[112px] sm:pt-[72px]">
+    <div className="min-h-screen bg-white text-modina-text pt-[112px] sm:pt-[72px] public-page public-company">
       <Helmet>
         <title>Our Mission &amp; Values | Modina Rim &amp; Parts Ltd.</title>
         <meta name="description" content="Modina Rim & Parts Ltd. is guided by five core values: precision, integrity, reliability, sustainability, and excellence. Discover the philosophy behind our manufacturing standards." />
@@ -39,8 +39,8 @@ export default function Mission() {
       </Helmet>
 
       {/* SECTION 1 — HERO */}
-      <section className="w-full py-20 lg:py-28 flex flex-col items-center text-center bg-white border-b border-modina-divider">
-        <div className="text-xs font-bold tracking-widest text-modina-subtle uppercase flex items-center gap-2 justify-center mb-10">
+      <section className="w-full public-story-hero flex flex-col items-center text-center bg-white border-b border-modina-divider">
+        <div className="text-xs font-bold tracking-widest text-modina-subtle uppercase flex items-center gap-2 justify-center mb-10 public-breadcrumb">
           <Link to="/" className="hover:text-modina-red transition-colors duration-300">Home</Link>
           <ChevronRight className="w-2.5 h-2.5 text-modina-subtle" />
           <span className="text-modina-muted">Mission</span>
@@ -48,7 +48,7 @@ export default function Mission() {
 
         <div className="w-24 h-[2px] bg-modina-red mx-auto mb-10" />
 
-        <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-[9rem] font-display font-bold tracking-tight text-modina-heading uppercase leading-none flex items-center justify-center flex-wrap">
+        <h1 className="font-display font-bold tracking-tight text-modina-heading uppercase leading-none flex items-center justify-center flex-wrap public-hero-title">
           {letters.map((letter, i) => (
             letter === " " ? (
               <span key={i} className="w-[0.3em]">&nbsp;</span>
@@ -73,7 +73,7 @@ export default function Mission() {
           className="w-32 h-[1px] bg-modina-red mx-auto my-10"
         />
 
-        <p className="text-xs font-bold tracking-widest text-modina-muted uppercase flex items-center justify-center flex-wrap gap-2">
+        <p className="text-xs font-bold tracking-widest text-modina-muted uppercase flex items-center justify-center flex-wrap gap-2 public-meta">
           <span>Modina Rim &amp; Parts Ltd.</span>
           <span className="text-modina-red">·</span>
           <span>Purpose &amp; Values</span>
@@ -86,17 +86,17 @@ export default function Mission() {
         <div className="responsive-stat-strip grid w-full max-w-xl grid-cols-[1fr_auto_1fr_auto_1fr] items-center mx-auto">
           <div className="flex min-w-0 flex-col items-center px-1 sm:px-10 md:px-14">
             <span className="text-3xl md:text-4xl font-display font-bold text-modina-red">3</span>
-            <span className="text-xs font-bold tracking-widest text-modina-muted uppercase mt-1">Core Values</span>
+            <span className="text-xs font-bold tracking-widest text-modina-muted uppercase mt-1 public-meta">Core Values</span>
           </div>
           <span className="w-[0.5px] h-8 bg-modina-divider" />
           <div className="flex min-w-0 flex-col items-center px-1 sm:px-10 md:px-14">
             <span className="text-3xl md:text-4xl font-display font-bold text-modina-red">15+</span>
-            <span className="text-xs font-bold tracking-widest text-modina-muted uppercase mt-1">Years of Purpose</span>
+            <span className="text-xs font-bold tracking-widest text-modina-muted uppercase mt-1 public-meta">Years of Purpose</span>
           </div>
           <span className="w-[0.5px] h-8 bg-modina-divider" />
           <div className="flex min-w-0 flex-col items-center px-1 sm:px-10 md:px-14">
             <span className="text-3xl md:text-4xl font-display font-bold text-modina-red">ISO</span>
-            <span className="text-xs font-bold tracking-widest text-modina-muted uppercase mt-1">Certified</span>
+            <span className="text-xs font-bold tracking-widest text-modina-muted uppercase mt-1 public-meta">Certified</span>
           </div>
         </div>
       </section>
@@ -110,13 +110,13 @@ export default function Mission() {
             transition={{ duration: 0.9, ease: [0.16, 1, 0.3, 1] }}
             className="bg-modina-bg-alt p-10 lg:p-16 flex flex-col justify-center border-r border-modina-divider"
           >
-            <p className="text-[200px] font-display font-bold text-modina-divider leading-none select-none tracking-tight">
+            <p aria-hidden="true" className="text-[200px] font-display font-bold text-modina-divider leading-none select-none tracking-tight">
               M
             </p>
-            <p className="text-xs font-bold tracking-widest text-modina-red uppercase mt-2">
+            <p className="text-xs font-bold tracking-widest text-modina-red uppercase mt-2 public-meta">
               — Our Purpose
             </p>
-            <p className="text-xs font-bold tracking-widest text-modina-subtle uppercase mt-1">
+            <p className="text-xs font-bold tracking-widest text-modina-subtle uppercase mt-1 public-meta">
               Why We Exist
             </p>
           </motion.div>
@@ -127,16 +127,16 @@ export default function Mission() {
             transition={{ duration: 0.9, delay: 0.15, ease: [0.16, 1, 0.3, 1] }}
             className="bg-white p-10 lg:p-16 flex flex-col justify-center"
           >
-            <p className="text-xs font-bold tracking-widest text-modina-red uppercase mb-8">
+            <p className="text-xs font-bold tracking-widest text-modina-red uppercase mb-8 public-meta">
               — Mission Statement
             </p>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-modina-heading tracking-tight leading-tight mb-8">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-modina-heading tracking-tight leading-tight mb-8 public-section-title">
               Engineering Trust. Delivering Excellence.
             </h2>
-            <p className="text-[14px] text-modina-muted font-light leading-relaxed max-w-lg mb-5">
+            <p className="text-[14px] text-modina-muted font-light leading-relaxed max-w-lg mb-5 public-body">
               Our mission is to manufacture automotive components that exceed international quality standards, empowering mobility across Bangladesh and beyond. We exist to prove that precision engineering and uncompromising quality can originate from Bangladesh.
             </p>
-            <p className="text-[14px] text-modina-muted font-light leading-relaxed max-w-lg mb-5">
+            <p className="text-[14px] text-modina-muted font-light leading-relaxed max-w-lg mb-5 public-body">
               Every rim we forge, every component we machine, and every standard we uphold is a direct expression of our founding belief — that Bangladesh can and should compete at the highest level of global manufacturing.
             </p>
             <Link to="/about" className="inline-flex items-center gap-3 mt-4 text-xs font-bold tracking-widest text-modina-muted uppercase hover:text-modina-red transition-all duration-300 ease-in-out">
@@ -148,14 +148,14 @@ export default function Mission() {
       </section>
 
       {/* SECTION 3 — VISION STATEMENT */}
-      <section className="w-full border-b border-modina-divider bg-modina-bg-section py-20 lg:py-28" ref={visionRef}>
+      <section className="w-full border-b border-modina-divider bg-modina-bg-section public-section" ref={visionRef}>
         <motion.div 
           initial={{ opacity: 0, y: 32 }}
           animate={visionInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.9, ease: [0.16, 1, 0.3, 1] }}
-          className="container mx-auto px-6 md:px-12 lg:px-24 max-w-4xl text-center"
+          className="container-premium max-w-4xl text-center"
         >
-          <p className="text-xs font-bold tracking-widest text-modina-red uppercase mb-6">— Vision</p>
+          <p className="text-xs font-bold tracking-widest text-modina-red uppercase mb-6 public-meta">— Vision</p>
           <p className="text-2xl md:text-3xl lg:text-4xl font-light text-modina-heading tracking-tight leading-relaxed mb-10">
             "To be South Asia's most trusted automotive components manufacturer — recognized not just for what we make, but for how we make it."
           </p>
@@ -166,22 +166,22 @@ export default function Mission() {
             style={{ transformOrigin: 'center' }}
             className="w-24 h-[1px] bg-modina-red mx-auto mb-10"
           />
-          <p className="text-xs font-bold tracking-widest text-modina-muted uppercase">
+          <p className="text-xs font-bold tracking-widest text-modina-muted uppercase public-meta">
             Modina Rim &amp; Parts Ltd. — 2026 Vision Statement
           </p>
         </motion.div>
       </section>
 
       {/* SECTION 4 — CORE VALUES */}
-      <section className="w-full border-b border-modina-divider py-20 lg:py-28 bg-modina-bg-section">
-        <div className="container mx-auto px-6 md:px-12 lg:px-24 mb-16">
-          <p className="text-xs font-bold tracking-widest text-modina-red uppercase mb-4">— What We Stand For</p>
-          <h2 className="text-3xl md:text-4xl font-display font-bold text-modina-heading tracking-tight">
+      <section className="w-full border-b border-modina-divider public-section bg-modina-bg-section">
+        <div className="container-premium mb-16">
+          <p className="text-xs font-bold tracking-widest text-modina-red uppercase mb-4 public-meta">— What We Stand For</p>
+          <h2 className="text-3xl md:text-4xl font-display font-bold text-modina-heading tracking-tight public-section-title">
             Core Values
           </h2>
         </div>
 
-        <div className="container mx-auto px-6 md:px-12 lg:px-24 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 auto-rows-[minmax(300px,auto)]">
+        <div className="container-premium grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:auto-rows-[minmax(300px,auto)]">
           {coreValues.map((value, idx) => {
             // Create a bento grid effect by making some cards span more columns or rows on larger screens
             const isWide = idx === 0 || idx === 3;
@@ -193,9 +193,9 @@ export default function Mission() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: '-60px' }}
                 transition={{ duration: 0.6, delay: idx * 0.1, ease: [0.16, 1, 0.3, 1] }}
-                className={`group cursor-default flex flex-col bg-white rounded-[12px] shadow-design-sm hover:shadow-design-md border border-modina-border p-8 lg:p-10 transition-all duration-300 ease-in-out hover:-translate-y-1 relative overflow-hidden ${isWide ? 'lg:col-span-2' : ''}`}
+                className={`group cursor-default flex flex-col bg-white rounded-[12px] shadow-design-sm hover:shadow-design-md border border-modina-border p-6 sm:p-8 lg:p-10 transition-all duration-300 ease-in-out hover:-translate-y-1 relative overflow-hidden ${isWide ? 'lg:col-span-2' : ''}`}
               >
-                <div className="absolute -top-4 -right-4 text-[120px] font-display font-black text-modina-bg-alt opacity-50 select-none z-0 group-hover:scale-110 group-hover:text-modina-border transition-all duration-500 ease-in-out">
+                <div aria-hidden="true" className="absolute -top-4 -right-4 text-[120px] font-display font-black text-modina-bg-alt opacity-50 select-none z-0 group-hover:scale-110 group-hover:text-modina-border transition-all duration-500 ease-in-out">
                   {value.num.replace('—', '')}
                 </div>
                 
@@ -203,15 +203,15 @@ export default function Mission() {
                   <p className="text-[48px] font-display font-extrabold text-modina-subtle leading-none mb-6 group-hover:text-modina-red transition-colors duration-300 ease-in-out">
                     {value.num.replace('—', '')}
                   </p>
-                  <h3 className="text-2xl md:text-3xl font-display font-bold text-modina-heading tracking-tight mb-4">
+                  <h3 className="text-2xl md:text-3xl font-display font-bold text-modina-heading tracking-tight mb-4 public-card-title">
                     {value.title}
                   </h3>
                   <hr className="border-modina-divider mb-4 w-12" />
-                  <p className="text-[15px] text-modina-muted leading-relaxed font-light flex-grow max-w-md">
+                  <p className="text-[15px] text-modina-muted leading-relaxed font-light flex-grow max-w-md public-body">
                     {value.desc}
                   </p>
                   <div className="mt-8 flex items-center">
-                    <span className="text-xs font-bold tracking-widest text-modina-muted uppercase bg-modina-bg-alt px-3 py-1.5 rounded-md border border-modina-border group-hover:border-modina-red/30 transition-colors duration-300 ease-in-out">
+                    <span className="text-xs font-bold tracking-widest text-modina-muted uppercase bg-modina-bg-alt px-3 py-1.5 rounded-md border border-modina-border group-hover:border-modina-red/30 transition-colors duration-300 ease-in-out public-meta">
                       {value.badge}
                     </span>
                   </div>
@@ -242,10 +242,10 @@ export default function Mission() {
             </motion.div>
             <div className="absolute inset-0 bg-[linear-gradient(to_top,rgba(15,23,42,0.6)_0%,transparent_40%)] pointer-events-none" />
             <div className="absolute bottom-8 left-8 pointer-events-none">
-              <p className="text-xs font-bold tracking-widest text-white/70 uppercase">
+              <p className="text-xs font-bold tracking-widest text-white/70 uppercase public-meta">
                 Leadership Philosophy
               </p>
-              <p className="text-xs font-bold tracking-widest text-white uppercase mt-1">
+              <p className="text-xs font-bold tracking-widest text-white uppercase mt-1 public-meta">
                 Mohammed Rafiqul Islam — Founder
               </p>
             </div>
@@ -257,10 +257,10 @@ export default function Mission() {
             transition={{ duration: 0.9, delay: 0.15, ease: [0.16, 1, 0.3, 1] }}
             className="bg-white p-10 lg:p-16 flex flex-col justify-center border-l border-modina-divider transition-colors duration-500 group-hover:bg-red-50/30"
           >
-            <p className="text-xs font-bold tracking-widest text-modina-red uppercase mb-8">
+            <p className="text-xs font-bold tracking-widest text-modina-red uppercase mb-8 public-meta">
               — Founder's Note
             </p>
-            <h2 className="text-3xl md:text-4xl font-display font-bold text-modina-heading tracking-tight leading-tight mb-8 group-hover:text-modina-red transition-colors duration-300">
+            <h2 className="text-3xl md:text-4xl font-display font-bold text-modina-heading tracking-tight leading-tight mb-8 group-hover:text-modina-red transition-colors duration-300 public-section-title">
               Built on Conviction.
             </h2>
             
@@ -268,14 +268,14 @@ export default function Mission() {
               "We started Modina with a single conviction — that quality is not a luxury reserved for large multinationals. It is a discipline available to anyone willing to commit to it absolutely."
             </blockquote>
 
-            <p className="text-[14px] text-modina-muted font-light leading-relaxed mb-4 max-w-lg">
+            <p className="text-[14px] text-modina-muted font-light leading-relaxed mb-4 max-w-lg public-body">
               Fifteen years later, that conviction has never wavered. Every ISO certification we earn, every zero-defect audit we pass, and every international market we enter is proof that our founding belief was right.
             </p>
-            <p className="text-[14px] text-modina-muted font-light leading-relaxed mb-4 max-w-lg">
+            <p className="text-[14px] text-modina-muted font-light leading-relaxed mb-4 max-w-lg public-body">
               Our values are not written on walls. They are built into every product we ship and every decision we make.
             </p>
             
-            <p className="text-xs font-bold tracking-widest text-modina-muted uppercase mt-6">
+            <p className="text-xs font-bold tracking-widest text-modina-muted uppercase mt-6 public-meta">
               — Mohammed Rafiqul Islam, Founder &amp; MD
             </p>
           </motion.div>
@@ -283,8 +283,8 @@ export default function Mission() {
       </section>
 
       {/* SECTION 6 — CTA BANNER */}
-      <section className="w-full border-t border-modina-divider py-24 lg:py-32 bg-modina-heading" ref={ctaRef}>
-        <div className="container mx-auto px-6 md:px-12 lg:px-24 flex flex-col lg:flex-row items-start lg:items-center justify-between gap-10">
+      <section className="w-full border-t border-modina-divider public-section bg-modina-heading public-dark" ref={ctaRef}>
+        <div className="container-premium flex flex-col lg:flex-row items-start lg:items-center justify-between gap-10">
           <motion.div 
             initial={{ opacity: 0, x: -24 }}
             animate={ctaInView ? { opacity: 1, x: 0 } : {}}
@@ -298,8 +298,8 @@ export default function Mission() {
               style={{ transformOrigin: 'top' }}
               className="absolute left-0 top-0 w-1 h-20 bg-modina-red"
             />
-            <p className="text-xs font-bold tracking-widest text-modina-red uppercase mb-4">— Live Our Values</p>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-white tracking-tight leading-tight">
+            <p className="text-xs font-bold tracking-widest text-modina-red uppercase mb-4 public-meta">— Live Our Values</p>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-white tracking-tight leading-tight public-section-title">
               Explore Our<br />Product Range
             </h2>
           </motion.div>

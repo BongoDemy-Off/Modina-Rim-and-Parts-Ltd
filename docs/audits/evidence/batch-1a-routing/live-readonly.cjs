@@ -1,0 +1,8 @@
+const {chromium}=require('C:/Users/BongoDemy/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');const fs=require('node:fs');const path=require('node:path');
+const output={purpose:'Read-only live status after local-only configuration correction; no deployment',pages:[]};
+(async()=>{const browser=await chromium.launch({executablePath:'C:/Users/BongoDemy/AppData/Local/Google/Chrome/Application/chrome.exe',headless:true});
+try{for(const origin of ['https://modina-rim-and-parts-ltd.vercel.app','https://modinarimandpartsltd.netlify.app']){
+ const context=await browser.newContext();await context.addInitScript(()=>sessionStorage.setItem('modina_loaded','1'));await context.route('**/*',r=>['GET','HEAD','OPTIONS'].includes(r.request().method())?r.continue():r.fulfill({status:204,body:''}));const page=await context.newPage();
+ for(const route of ['/','/products','/gallery']){const record={url:origin+route,checkedAt:new Date().toISOString()};try{const response=await page.goto(record.url,{waitUntil:'domcontentloaded',timeout:30000});record.status=response.status();record.server=(await response.allHeaders()).server;if(record.status>=400)record.body=(await page.locator('body').innerText()).slice(0,600);}catch(e){record.error=e.message;}output.pages.push(record);console.log(JSON.stringify(record));fs.writeFileSync(path.join(__dirname,'live-status.json'),JSON.stringify(output,null,2));}
+ await context.close();
+}}finally{await browser.close();output.browserClosedNormally=true;fs.writeFileSync(path.join(__dirname,'live-status.json'),JSON.stringify(output,null,2));}})().catch(e=>{output.error=e.stack;console.error(e);process.exitCode=1;});

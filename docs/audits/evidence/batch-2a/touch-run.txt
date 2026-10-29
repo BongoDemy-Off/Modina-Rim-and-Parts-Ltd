@@ -1,0 +1,4 @@
+PASS bn/320/no-preference genuine-touch
+PASS bn/390/reduce genuine-touch
+PASS en/320/reduce genuine-touch
+PASS en/390/no-preference genuine-touch

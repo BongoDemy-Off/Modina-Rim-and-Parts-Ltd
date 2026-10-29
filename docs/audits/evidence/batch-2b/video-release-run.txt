@@ -1,0 +1,5 @@
+PASS / explicit pause retained
+PASS /about explicit pause retained
+PASS / autoplay rejection
+PASS /about autoplay rejection
+RESULT 4/4

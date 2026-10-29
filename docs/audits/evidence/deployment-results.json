@@ -1,0 +1,16 @@
+[
+  {
+    "url": "https://modina-rim-and-parts-ltd.vercel.app/",
+    "status": 200,
+    "title": "Modina Rim & Parts Ltd. | Automotive Components Manufacturer — Bangladesh",
+    "h1": [
+      "MODINA",
+      "EngineeringExcellence"
+    ],
+    "screenshot": "deployed-modina-rim-and-parts-ltd.png"
+  },
+  {
+    "url": "https://modinarimandpartsltd.netlify.app/",
+    "error": "page.goto: net::ERR_CONNECTION_CLOSED at https://modinarimandpartsltd.netlify.app/\nCall log:\n\u001b[2m  - navigating to \"https://modinarimandpartsltd.netlify.app/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+  }
+]

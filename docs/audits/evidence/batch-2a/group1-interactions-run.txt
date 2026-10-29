@@ -1,0 +1,25 @@
+FAIL en/390/products: page.screenshot: Timeout 8000ms exceeded.
+Call log:
+[2m  - taking page screenshot[22m
+[2m  - waiting for fonts to load...[22m
+[2m  - fonts loaded[22m
+
+PASS en/390/careers
+FAIL en/390/contact: page.screenshot: Timeout 8000ms exceeded.
+Call log:
+[2m  - taking page screenshot[22m
+[2m  - waiting for fonts to load...[22m
+[2m  - fonts loaded[22m
+
+FAIL en/1440/products: page.screenshot: Timeout 8000ms exceeded.
+Call log:
+[2m  - taking page screenshot[22m
+[2m  - waiting for fonts to load...[22m
+[2m  - fonts loaded[22m
+
+PASS en/1440/careers
+PASS en/1440/contact
+PASS products/search-filters-pagination
+PASS enquiry/all-products-and-direct-defaults
+PASS enquiry/history-edited-values-and-route-departure
+Closing browser after assertions

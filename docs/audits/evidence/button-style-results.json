@@ -1,0 +1,77 @@
+[
+  {
+    "name": "BN",
+    "radius": "0px",
+    "class": "hidden md:flex items-center gap-2 bg-modina-bg-alt hover:bg-modina-bg-section border border-modina-border rounded-lg px-3 py-2.5 transition-all duration-200 hover:border-modina-red/40"
+  },
+  {
+    "name": "Search",
+    "radius": "0px",
+    "class": "flex md:hidden items-center justify-center w-11 h-11 text-modina-heading hover:text-modina-red transition-colors duration-200"
+  },
+  {
+    "name": "Open menu",
+    "radius": "0px",
+    "class": "flex items-center justify-center h-11 px-3 sm:px-4 border border-modina-border rounded-[6px] text-[12px] sm:text-[13px] font-bold text-modina-heading hover:text-modina-red hover:border-modina-red/40 hover:bg-modina-bg-alt transition-all duration-200"
+  },
+  {
+    "name": "Filter by All",
+    "radius": "0px",
+    "class": "px-5 py-2 rounded-lg text-sm font-semibold transition-all duration-200 ease-in-out whitespace-nowrap bg-modina-red text-white"
+  },
+  {
+    "name": "Filter by Motorcycle",
+    "radius": "0px",
+    "class": "px-5 py-2 rounded-lg text-sm font-semibold transition-all duration-200 ease-in-out whitespace-nowrap text-modina-muted hover:text-modina-red hover:bg-modina-red/5"
+  },
+  {
+    "name": "Filter by Rims",
+    "radius": "0px",
+    "class": "px-5 py-2 rounded-lg text-sm font-semibold transition-all duration-200 ease-in-out whitespace-nowrap text-modina-muted hover:text-modina-red hover:bg-modina-red/5"
+  },
+  {
+    "name": "Filter by Hardware",
+    "radius": "0px",
+    "class": "px-5 py-2 rounded-lg text-sm font-semibold transition-all duration-200 ease-in-out whitespace-nowrap text-modina-muted hover:text-modina-red hover:bg-modina-red/5"
+  },
+  {
+    "name": "Previous image",
+    "radius": "0px",
+    "class": "absolute left-2 sm:left-3 top-1/2 -translate-y-1/2 w-11 h-11 rounded-full bg-white/90 backdrop-blur border border-modina-border/50 text-modina-heading flex items-center justify-center shadow-sm opacity-100 transition-all duration-300 hover:bg-white hover:text-modina-red z-10 lg:opacity-0 lg:group-hover/carousel:opacity-100 lg:focus:opacity-100"
+  },
+  {
+    "name": "Next image",
+    "radius": "0px",
+    "class": "absolute right-2 sm:right-3 top-1/2 -translate-y-1/2 w-11 h-11 rounded-full bg-white/90 backdrop-blur border border-modina-border/50 text-modina-heading flex items-center justify-center shadow-sm opacity-100 transition-all duration-300 hover:bg-white hover:text-modina-red z-10 lg:opacity-0 lg:group-hover/carousel:opacity-100 lg:focus:opacity-100"
+  },
+  {
+    "name": "Go to slide 1",
+    "radius": "0px",
+    "class": "flex h-8 w-8 items-center justify-center rounded-full"
+  },
+  {
+    "name": "Go to slide 2",
+    "radius": "0px",
+    "class": "flex h-8 w-8 items-center justify-center rounded-full"
+  },
+  {
+    "name": "Go to slide 3",
+    "radius": "0px",
+    "class": "flex h-8 w-8 items-center justify-center rounded-full"
+  },
+  {
+    "name": "Previous image",
+    "radius": "0px",
+    "class": "absolute left-2 sm:left-3 top-1/2 -translate-y-1/2 w-11 h-11 rounded-full bg-white/90 backdrop-blur border border-modina-border/50 text-modina-heading flex items-center justify-center shadow-sm opacity-100 transition-all duration-300 hover:bg-white hover:text-modina-red z-10 lg:opacity-0 lg:group-hover/carousel:opacity-100 lg:focus:opacity-100"
+  },
+  {
+    "name": "Next image",
+    "radius": "0px",
+    "class": "absolute right-2 sm:right-3 top-1/2 -translate-y-1/2 w-11 h-11 rounded-full bg-white/90 backdrop-blur border border-modina-border/50 text-modina-heading flex items-center justify-center shadow-sm opacity-100 transition-all duration-300 hover:bg-white hover:text-modina-red z-10 lg:opacity-0 lg:group-hover/carousel:opacity-100 lg:focus:opacity-100"
+  },
+  {
+    "name": "Go to slide 1",
+    "radius": "0px",
+    "class": "flex h-8 w-8 items-center justify-center rounded-full"
+  }
+]

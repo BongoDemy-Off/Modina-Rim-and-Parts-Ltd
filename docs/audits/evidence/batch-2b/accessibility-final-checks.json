@@ -1,0 +1,109 @@
+{
+  "mode": "accessibility",
+  "base": "http://127.0.0.1:4199",
+  "cases": [
+    {
+      "name": "en / new accessibility scope",
+      "violations": [],
+      "passed": true
+    },
+    {
+      "name": "en /faq new accessibility scope",
+      "violations": [],
+      "passed": true
+    },
+    {
+      "name": "en /about new accessibility scope",
+      "violations": [],
+      "passed": true
+    },
+    {
+      "name": "en /quality new accessibility scope",
+      "violations": [],
+      "passed": true
+    },
+    {
+      "name": "bn / new accessibility scope",
+      "violations": [],
+      "passed": true
+    },
+    {
+      "name": "bn /faq new accessibility scope",
+      "violations": [],
+      "passed": true
+    },
+    {
+      "name": "bn /about new accessibility scope",
+      "violations": [],
+      "passed": true
+    },
+    {
+      "name": "bn /quality new accessibility scope",
+      "violations": [],
+      "passed": true
+    },
+    {
+      "name": "/news/9999 recovery heading",
+      "passed": true
+    },
+    {
+      "name": "/blog/9999 recovery heading",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "blocked": [
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    }
+  ],
+  "browser": "156.0.8078.49",
+  "completed": true,
+  "teardown": {
+    "normal": false,
+    "bounded": true,
+    "connected": false
+  }
+}

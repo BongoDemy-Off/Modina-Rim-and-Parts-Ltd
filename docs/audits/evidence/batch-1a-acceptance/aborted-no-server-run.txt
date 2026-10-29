@@ -1,0 +1,95 @@
+FAIL en/320/products: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:4191/products
+Call log:
+[2m  - navigating to "http://127.0.0.1:4191/products", waiting until "domcontentloaded"[22m
+
+FAIL en/320/gallery: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:4191/gallery
+Call log:
+[2m  - navigating to "http://127.0.0.1:4191/gallery", waiting until "domcontentloaded"[22m
+
+FAIL en/320/careers: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:4191/careers
+Call log:
+[2m  - navigating to "http://127.0.0.1:4191/careers", waiting until "domcontentloaded"[22m
+
+FAIL en/320/contact: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:4191/contact
+Call log:
+[2m  - navigating to "http://127.0.0.1:4191/contact", waiting until "domcontentloaded"[22m
+
+FAIL en/320/navigation: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:4191/products
+Call log:
+[2m  - navigating to "http://127.0.0.1:4191/products", waiting until "domcontentloaded"[22m
+
+FAIL en/390/products: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:4191/products
+Call log:
+[2m  - navigating to "http://127.0.0.1:4191/products", waiting until "domcontentloaded"[22m
+
+FAIL en/390/gallery: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:4191/gallery
+Call log:
+[2m  - navigating to "http://127.0.0.1:4191/gallery", waiting until "domcontentloaded"[22m
+
+FAIL en/390/careers: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:4191/careers
+Call log:
+[2m  - navigating to "http://127.0.0.1:4191/careers", waiting until "domcontentloaded"[22m
+
+FAIL en/390/contact: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:4191/contact
+Call log:
+[2m  - navigating to "http://127.0.0.1:4191/contact", waiting until "domcontentloaded"[22m
+
+FAIL en/390/navigation: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:4191/products
+Call log:
+[2m  - navigating to "http://127.0.0.1:4191/products", waiting until "domcontentloaded"[22m
+
+FAIL en/430/products: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:4191/products
+Call log:
+[2m  - navigating to "http://127.0.0.1:4191/products", waiting until "domcontentloaded"[22m
+
+FAIL en/430/gallery: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:4191/gallery
+Call log:
+[2m  - navigating to "http://127.0.0.1:4191/gallery", waiting until "domcontentloaded"[22m
+
+FAIL en/430/careers: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:4191/careers
+Call log:
+[2m  - navigating to "http://127.0.0.1:4191/careers", waiting until "domcontentloaded"[22m
+
+FAIL en/430/contact: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:4191/contact
+Call log:
+[2m  - navigating to "http://127.0.0.1:4191/contact", waiting until "domcontentloaded"[22m
+
+FAIL en/430/navigation: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:4191/products
+Call log:
+[2m  - navigating to "http://127.0.0.1:4191/products", waiting until "domcontentloaded"[22m
+
+FAIL en/768/products: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:4191/products
+Call log:
+[2m  - navigating to "http://127.0.0.1:4191/products", waiting until "domcontentloaded"[22m
+
+FAIL en/768/gallery: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:4191/gallery
+Call log:
+[2m  - navigating to "http://127.0.0.1:4191/gallery", waiting until "domcontentloaded"[22m
+
+FAIL en/768/careers: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:4191/careers
+Call log:
+[2m  - navigating to "http://127.0.0.1:4191/careers", waiting until "domcontentloaded"[22m
+
+FAIL en/768/contact: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:4191/contact
+Call log:
+[2m  - navigating to "http://127.0.0.1:4191/contact", waiting until "domcontentloaded"[22m
+
+FAIL en/768/navigation: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:4191/products
+Call log:
+[2m  - navigating to "http://127.0.0.1:4191/products", waiting until "domcontentloaded"[22m
+
+FAIL en/1024/products: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:4191/products
+Call log:
+[2m  - navigating to "http://127.0.0.1:4191/products", waiting until "domcontentloaded"[22m
+
+FAIL en/1024/gallery: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:4191/gallery
+Call log:
+[2m  - navigating to "http://127.0.0.1:4191/gallery", waiting until "domcontentloaded"[22m
+
+FAIL en/1024/careers: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:4191/careers
+Call log:
+[2m  - navigating to "http://127.0.0.1:4191/careers", waiting until "domcontentloaded"[22m
+
+FAIL en/1024/contact: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:4191/contact
+Call log:
+[2m  - navigating to "http://127.0.0.1:4191/contact", waiting until "domcontentloaded"[22m

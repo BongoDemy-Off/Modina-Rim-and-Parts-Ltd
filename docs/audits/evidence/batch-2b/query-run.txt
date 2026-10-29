@@ -1,0 +1,50 @@
+PASS direct/close product 1
+PASS direct/close product 2
+PASS direct/close product 3
+PASS direct/close product 4
+PASS direct/close product 5
+PASS direct/close product 6
+PASS direct/close product 7
+PASS direct/close product 8
+PASS direct/close product 9
+PASS direct/close product 10
+PASS direct/close product 11
+PASS direct/close product 12
+PASS direct/close product 13
+PASS direct/close product 14
+PASS direct/close product 15
+PASS direct/close product 16
+PASS direct/close product 17
+PASS direct/close product 18
+PASS direct/close product 19
+PASS direct/close product 20
+PASS direct/close product 21
+PASS navbar result product 1
+PASS navbar result product 2
+PASS navbar result product 3
+PASS navbar result product 4
+PASS navbar result product 5
+PASS navbar result product 6
+PASS navbar result product 7
+PASS navbar result product 8
+PASS navbar result product 9
+PASS navbar result product 10
+PASS navbar result product 11
+PASS navbar result product 12
+PASS navbar result product 13
+PASS navbar result product 14
+PASS navbar result product 15
+PASS navbar result product 16
+PASS navbar result product 17
+PASS navbar result product 18
+PASS navbar result product 19
+PASS navbar result product 20
+PASS navbar result product 21
+PASS refresh and conflicting category
+PASS invalid ID 9999
+PASS invalid ID abc
+PASS invalid ID -1
+PASS invalid ID 1.5
+PASS invalid ID 01
+PASS query history and same-route second product
+RESULT 49/49

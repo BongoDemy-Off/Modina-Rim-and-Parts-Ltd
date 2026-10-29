@@ -1,0 +1,60 @@
+{
+  "regression": {
+    "cases": 64,
+    "passed": 64,
+    "completed": true,
+    "exitCode": 0,
+    "pageErrors": 0,
+    "resourceConsoleEntries": 13,
+    "axeStates": 10,
+    "teardown": {
+      "closedNormally": false,
+      "bounded": true,
+      "connected": false,
+      "durationMs": 15005
+    }
+  },
+  "settled": {
+    "states": 10,
+    "contrastNodes": 0,
+    "linkNameNodes": 16,
+    "error": null
+  },
+  "sweep": {
+    "states": 352,
+    "passed": 352,
+    "completed": true,
+    "pageErrors": 0,
+    "fontCache": {
+      "hits": 907,
+      "misses": 5
+    }
+  },
+  "touch": {
+    "cases": 4,
+    "passed": 4,
+    "exitCode": 0
+  },
+  "lifecycle": {
+    "groups": 2,
+    "exitCode": 0
+  },
+  "race": {
+    "cycles": 40,
+    "passed": true,
+    "exitCode": 0
+  },
+  "contracts": {
+    "cases": 10,
+    "headings": 24,
+    "enlargement": 8,
+    "enlargementFits": true,
+    "nativeZoomSupported": false
+  },
+  "workspaceBuild": {
+    "files": 43,
+    "byteIdenticalToTestedBuild": false,
+    "normalizedEquivalent": true,
+    "explanation": "Audit text caused Tailwind to emit an unused 6-byte .grow alias; chunk references change. Existing compiled rules and normalized JS/HTML match the tested build."
+  }
+}

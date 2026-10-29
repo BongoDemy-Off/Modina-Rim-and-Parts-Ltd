@@ -1,0 +1,59 @@
+{
+  "mode": "short-careers",
+  "base": "http://127.0.0.1:4199",
+  "cases": [
+    {
+      "name": "Careers form 667x375",
+      "submit": {
+        "x": 180,
+        "y": 242.453125,
+        "width": 455,
+        "height": 56
+      },
+      "passed": true
+    },
+    {
+      "name": "Careers form 844x390",
+      "submit": {
+        "x": 357,
+        "y": 256.578125,
+        "width": 455,
+        "height": 56
+      },
+      "passed": true
+    },
+    {
+      "name": "Careers form 320x568",
+      "submit": {
+        "x": 17,
+        "y": 422.21875,
+        "width": 287,
+        "height": 56
+      },
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "blocked": [
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST"
+    }
+  ],
+  "browser": "156.0.8078.49",
+  "completed": true,
+  "teardown": {
+    "normal": true
+  }
+}

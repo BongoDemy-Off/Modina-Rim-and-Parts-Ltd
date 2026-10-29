@@ -1,0 +1,234 @@
+{
+  "recommendation": "CONDITIONAL PASS",
+  "qualification": "Local Batch 1A checks pass after modal stabilization. Public-host nested routes return HTTP 404 and require separately authorized hosting verification; production-release blockers remain.",
+  "browser": "156.0.8078.48",
+  "node": "v24.19.0",
+  "finalCases": 64,
+  "passed": 64,
+  "axeStates": 10,
+  "axeViolations": [
+    {
+      "key": "color-contrast",
+      "count": 53
+    },
+    {
+      "key": "link-name",
+      "count": 8
+    }
+  ],
+  "pageErrors": 0,
+  "consoleErrors": 6,
+  "resourceFailures": [
+    {
+      "key": "https://www.google-analytics.com/g/collect | POST | fetch | net::ERR_ABORTED",
+      "count": 38
+    },
+    {
+      "key": "https://maps.googleapis.com/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/GetViewportInfo | POST | xhr | net::ERR_FAILED",
+      "count": 5
+    },
+    {
+      "key": "https://www.google.com/maps/embed | GET | document | net::ERR_ABORTED",
+      "count": 9
+    }
+  ],
+  "guardActions": [
+    {
+      "key": "locally-fulfilled-analytics | https://www.google-analytics.com/g/collect",
+      "count": 38
+    },
+    {
+      "key": "blocked-write | https://maps.googleapis.com/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/GetViewportInfo",
+      "count": 6
+    }
+  ],
+  "httpErrors": [],
+  "navigationMaxMs": 2740,
+  "navigationOver8s": [],
+  "oldTimeoutCases": [
+    {
+      "case": "bn/320/navigation",
+      "url": "http://127.0.0.1:4191/products",
+      "status": 200,
+      "domcontentloadedMs": 477
+    },
+    {
+      "case": "bn/320/navigation",
+      "url": "http://127.0.0.1:4191/products",
+      "status": 200,
+      "domcontentloadedMs": 1858
+    },
+    {
+      "case": "bn/390/products",
+      "url": "http://127.0.0.1:4191/products",
+      "status": 200,
+      "domcontentloadedMs": 545
+    },
+    {
+      "case": "bn/390/gallery",
+      "url": "http://127.0.0.1:4191/gallery",
+      "status": 200,
+      "domcontentloadedMs": 582
+    },
+    {
+      "case": "radius-and-admin-isolation",
+      "url": "http://127.0.0.1:4191/products",
+      "status": 200,
+      "domcontentloadedMs": 2691
+    },
+    {
+      "case": "radius-and-admin-isolation",
+      "url": "http://127.0.0.1:4191/admin",
+      "status": 200,
+      "domcontentloadedMs": 546
+    }
+  ],
+  "rapidCycles": [
+    {
+      "motion": "no-preference",
+      "passed": true,
+      "cycles": 20
+    },
+    {
+      "motion": "reduce",
+      "passed": true,
+      "cycles": 20
+    }
+  ],
+  "lifecycle": [
+    {
+      "reducedMotion": "no-preference",
+      "passed": true,
+      "metrics": {
+        "closeRequests": 12,
+        "shows": 13,
+        "closes": 13
+      },
+      "errors": []
+    },
+    {
+      "reducedMotion": "reduce",
+      "passed": true,
+      "metrics": {
+        "closeRequests": 12,
+        "shows": 19,
+        "closes": 19
+      },
+      "errors": []
+    }
+  ],
+  "focusedTouch": [
+    {
+      "lang": "bn",
+      "width": 320,
+      "motion": "no-preference",
+      "passed": true,
+      "control": {
+        "rect": {
+          "x": 49,
+          "y": 263,
+          "width": 255,
+          "height": 56,
+          "top": 263,
+          "right": 304,
+          "bottom": 319,
+          "left": 49
+        },
+        "hit": true,
+        "expanded": "true"
+      },
+      "menuRadius": "6px"
+    },
+    {
+      "lang": "bn",
+      "width": 390,
+      "motion": "reduce",
+      "passed": true,
+      "control": {
+        "rect": {
+          "x": 56,
+          "y": 263,
+          "width": 318,
+          "height": 56,
+          "top": 263,
+          "right": 374,
+          "bottom": 319,
+          "left": 56
+        },
+        "hit": true,
+        "expanded": "true"
+      },
+      "menuRadius": "6px"
+    },
+    {
+      "lang": "en",
+      "width": 320,
+      "motion": "reduce",
+      "passed": true,
+      "control": {
+        "rect": {
+          "x": 49,
+          "y": 263,
+          "width": 255,
+          "height": 56,
+          "top": 263,
+          "right": 304,
+          "bottom": 319,
+          "left": 49
+        },
+        "hit": true,
+        "expanded": "true"
+      },
+      "menuRadius": "6px"
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "motion": "no-preference",
+      "passed": true,
+      "control": {
+        "rect": {
+          "x": 56,
+          "y": 263,
+          "width": 318,
+          "height": 56,
+          "top": 263,
+          "right": 374,
+          "bottom": 319,
+          "left": 56
+        },
+        "hit": true,
+        "expanded": "true"
+      },
+      "menuRadius": "6px"
+    }
+  ],
+  "teardown": {
+    "closedNormally": true,
+    "durationMs": 68120
+  },
+  "ownership": {
+    "serverPid": 7184,
+    "node": "v24.19.0",
+    "start": "2026-10-27T11:30:03.301Z",
+    "ready": true,
+    "testPid": 12588,
+    "exitCode": 0,
+    "serverStopped": true,
+    "finished": "2026-10-27T11:39:03.348Z"
+  },
+  "settledAccessibility": {
+    "states": 10,
+    "violations": [
+      {
+        "key": "color-contrast",
+        "count": 58
+      },
+      {
+        "key": "link-name",
+        "count": 16
+      }
+    ],
+    "closedNormally": true
+  }
+}

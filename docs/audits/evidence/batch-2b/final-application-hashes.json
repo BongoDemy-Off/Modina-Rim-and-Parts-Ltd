@@ -1,0 +1,126 @@
+[
+  {
+    "path": "src/App.tsx",
+    "sha256": "0fa56447ebdeb25c30614b0fe065dcdee20e5973527c5516c9937f574c31f9f0"
+  },
+  {
+    "path": "src/components/BackToTop.tsx",
+    "sha256": "83f5525a2dab9d4a5ca900bb0ff5f3adca0d3ba63420d49fad3d3a5dfad31d70"
+  },
+  {
+    "path": "src/components/Chatbot.tsx",
+    "sha256": "b768345be9530d8b78d5cb7191ce73e59270fb8123d0610a6e99e533cd87771a"
+  },
+  {
+    "path": "src/components/Navbar.tsx",
+    "sha256": "54d6551afeb2b6fc8aee3342870bfba713eaa73ea73d3cf91ff6d631a3497283"
+  },
+  {
+    "path": "src/components/Preloader.tsx",
+    "sha256": "bdaf068715e8fd3e0575a75e516222785d423b76c2fcdee11d09d304cfe88f87"
+  },
+  {
+    "path": "src/i18n/bn.json",
+    "sha256": "6c310dcf7881f9f17a390cd3a5f561f017423faf25245add838d6d83fe541985"
+  },
+  {
+    "path": "src/i18n/en.json",
+    "sha256": "9d0c533d6f4dcfb1bc42c51f8a92471e14e49f71f52fc1abde8fcafdeee23167"
+  },
+  {
+    "path": "src/index.css",
+    "sha256": "04f298b99c718078c3c70ccfa66b8cd60bd6951c835f243991bdd9b681610fef"
+  },
+  {
+    "path": "src/layouts/Layout.tsx",
+    "sha256": "4124b27f7d0b5dcd6354d1de6877bf26211a29d53f394d714acf2a43d91a5e6b"
+  },
+  {
+    "path": "src/pages/About.tsx",
+    "sha256": "fd70881ab62fa4544ce619de5bc05c628c4fcacd079b16bf5675c905aaeebb94"
+  },
+  {
+    "path": "src/pages/Blog.tsx",
+    "sha256": "8cadebf9f6bc521865cddf75aa595672f31831372eb30038787ad310da019ac7"
+  },
+  {
+    "path": "src/pages/BlogDetail.tsx",
+    "sha256": "7467c151476359567830feec12275607a3cf86d23048d40b8cff4b18f478358c"
+  },
+  {
+    "path": "src/pages/Careers.tsx",
+    "sha256": "5c15f99f0c867c2c43da9d1b84b054d8f80751cd6fb6d8b6b27a57c7e3ddf689"
+  },
+  {
+    "path": "src/pages/Certificates.tsx",
+    "sha256": "91011bd36415511f10922704f7f0f1923078ce62a5e9e92f58d2c7c27b8eb0c5"
+  },
+  {
+    "path": "src/pages/Contact.tsx",
+    "sha256": "bf7fc25960317bb6ad50ebfcddf2255579a0c571239872ad4b5d2b3f266ba3d3"
+  },
+  {
+    "path": "src/pages/Downloads.tsx",
+    "sha256": "7dd1fd84a2d09debf408945dd416b39023836f5e12480e43fad1fb7cfe069741"
+  },
+  {
+    "path": "src/pages/FAQ.tsx",
+    "sha256": "9576387209936bb14090d970b1f4cb5a12f964dbbbf3db94a1bc7a5d40366d60"
+  },
+  {
+    "path": "src/pages/Gallery.tsx",
+    "sha256": "230aee5cb7ff84850e3b37947c36c11e01eb570266362af3f0a36819d43abe26"
+  },
+  {
+    "path": "src/pages/Home.tsx",
+    "sha256": "3284c129b3d54a8c8e584f31d8ec532fd1a5ff5117dd0e175af7152671280473"
+  },
+  {
+    "path": "src/pages/Mission.tsx",
+    "sha256": "6c26e7d674662b161e63aafae01da8ccab2447b9447e4e04878e750b07cc46ad"
+  },
+  {
+    "path": "src/pages/News.tsx",
+    "sha256": "c4753f25959fb9549587428a39578a3cd5f1a08d7e815d1ac0da686502082669"
+  },
+  {
+    "path": "src/pages/NewsDetail.tsx",
+    "sha256": "faf73dd65706cc0201025330f4d21789f256131db037d78b67cfb67fb60c650b"
+  },
+  {
+    "path": "src/pages/NotFound.tsx",
+    "sha256": "80fe519da85b8df871edf15d05ac113f3528a8392051c716e587607ad05cce87"
+  },
+  {
+    "path": "src/pages/Privacy.tsx",
+    "sha256": "c0c4ae38a356725d4b72060dc3c61810d7fca7e6f6afc74086976b92abf81040"
+  },
+  {
+    "path": "src/pages/Products.tsx",
+    "sha256": "4a08799148abc66a3cc3e033d04fa76b1c09cff5d26015af1672b6c868594bfa"
+  },
+  {
+    "path": "src/pages/Quality.tsx",
+    "sha256": "df52bd099c650600a6a064a3a869b1a2e659c43213f828474c72219ac66a3fbb"
+  },
+  {
+    "path": "src/pages/Sustainability.tsx",
+    "sha256": "28a7ee28eda83932f50b5611036f9babf70ed3b9ae28147b17ee6f3c4f1795b7"
+  },
+  {
+    "path": "src/pages/Terms.tsx",
+    "sha256": "9732ee7a8264025bd81561379c63c2ca80ff98ea89f26a3729aa4f23d455167d"
+  },
+  {
+    "path": "src/components/PublicScroller.tsx",
+    "sha256": "aef56f8d2b87f815c8733add6374bc783c630c5ed6ff76c203372a23ddd1fd5f"
+  },
+  {
+    "path": "src/components/PublicVideo.tsx",
+    "sha256": "daf50a0648ac15c37aab1ae2a7e6ab4f071df4df535fcd1068626e4a76d85927"
+  },
+  {
+    "path": "src/hooks/usePublicLayout.ts",
+    "sha256": "916b30f28c20f1ffdbd2f3ff55edba48c4bb8234aa192c1bfa5f6521df97079d"
+  }
+]

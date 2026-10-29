@@ -1,0 +1,21 @@
+expect(received).toBe(expected) // Object.is equality
+
+Expected: true
+Received: false
+
+Call Log:
+- Timeout 5000ms exceeded while waiting on the predicate
+[
+  {
+    reducedMotion: 'no-preference',
+    passed: false,
+    cycles: 7,
+    failure: 8
+  },
+  {
+    reducedMotion: 'reduce',
+    passed: true,
+    cycles: 20,
+    failure: undefined
+  }
+]

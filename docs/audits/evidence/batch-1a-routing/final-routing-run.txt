@@ -1,0 +1,38 @@
+PASS control/no-fallback-reproduces-nested-404
+PASS vercel/all-published-static-files
+PASS vercel/direct-refresh/
+PASS vercel/direct-refresh/about
+PASS vercel/direct-refresh/products
+PASS vercel/direct-refresh/products?category=Rims
+PASS vercel/direct-refresh/gallery
+PASS vercel/direct-refresh/contact
+PASS vercel/direct-refresh/contact?product=Box%20Frame%20Bearing%20%26%20Racer%20(Black%20Blue%20%26%20Red)
+PASS vercel/direct-refresh/news/1
+PASS vercel/direct-refresh/blog/1
+PASS vercel/direct-refresh/blog/featured
+PASS vercel/direct-refresh/faq
+PASS vercel/direct-refresh/routing-acceptance-unknown
+PASS vercel/client-navigation-query-history
+PASS vercel/batch-1a-product-enquiry-and-overlays
+PASS vercel/admin-route-boundary-only
+PASS vercel/320-bengali-client-route-cleanup
+PASS netlify/all-published-static-files
+PASS netlify/direct-refresh/
+PASS netlify/direct-refresh/about
+PASS netlify/direct-refresh/products
+PASS netlify/direct-refresh/products?category=Rims
+PASS netlify/direct-refresh/gallery
+PASS netlify/direct-refresh/contact
+PASS netlify/direct-refresh/contact?product=Box%20Frame%20Bearing%20%26%20Racer%20(Black%20Blue%20%26%20Red)
+PASS netlify/direct-refresh/news/1
+PASS netlify/direct-refresh/blog/1
+PASS netlify/direct-refresh/blog/featured
+PASS netlify/direct-refresh/faq
+PASS netlify/direct-refresh/routing-acceptance-unknown
+PASS netlify/client-navigation-query-history
+PASS netlify/batch-1a-product-enquiry-and-overlays
+PASS netlify/admin-route-boundary-only
+PASS netlify/320-bengali-client-route-cleanup
+Closing owned browser
+35/35 cases passed; 86 static-file responses verified.
+EXIT_CODE=0

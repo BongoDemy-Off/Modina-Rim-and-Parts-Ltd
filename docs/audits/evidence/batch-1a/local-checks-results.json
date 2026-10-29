@@ -1,0 +1,25 @@
+{
+  "assetPolicy": "External requests blocked to isolate local interaction behavior; not a visual comparison.",
+  "cases": [
+    {
+      "name": "1024-touch-carousel-visible-and-independent",
+      "passed": true
+    },
+    {
+      "name": "1440-careers-settled-close-and-containment",
+      "passed": true
+    },
+    {
+      "name": "desktop-disclosure-exit-removes-links-from-tab-order",
+      "passed": true
+    },
+    {
+      "name": "contact-labels-and-visible-native-fallback",
+      "passed": true
+    }
+  ],
+  "teardown": {
+    "graceful": false,
+    "ownedBrowserPid": 20876
+  }
+}

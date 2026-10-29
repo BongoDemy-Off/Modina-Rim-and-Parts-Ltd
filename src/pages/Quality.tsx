@@ -1,3 +1,4 @@
+import PublicScroller from '../components/PublicScroller';
 import React, { useRef } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { motion, useInView } from 'motion/react';
@@ -53,10 +54,9 @@ export default function Quality() {
   const ctaRef = useRef(null);
   const ctaInView = useInView(ctaRef, { once: true, margin: '-60px' });
 
-  const stepOpacity = [1, 0.7, 0.55, 0.4, 0.28, 0.18];
 
   return (
-    <div className="min-h-screen bg-modina-bg text-modina-text pt-[112px] sm:pt-[72px]">
+    <div className="min-h-screen bg-modina-bg text-modina-text pt-[112px] sm:pt-[72px] public-page">
       <Helmet>
         <title>Quality Assurance | Modina Rim &amp; Parts Ltd. — ISO 9001:2015 Certified</title>
         <meta name="description" content="Modina Rim &amp; Parts Ltd. operates a zero-defect quality policy with 6-stage manufacturing QC, ISO 9001:2015, ISO 14001:2015, and ISO 45001:2018 certifications from LMS Certification Limited." />
@@ -66,8 +66,8 @@ export default function Quality() {
       </Helmet>
 
       {/* SECTION 1 — HERO */}
-      <section className="w-full py-20 lg:py-28 flex flex-col items-center text-center bg-modina-bg">
-        <div className="text-modina-red text-xs font-bold tracking-widest uppercase flex items-center gap-2 justify-center mb-10">
+      <section className="w-full public-story-hero flex flex-col items-center text-center bg-modina-bg">
+        <div className="text-modina-red text-xs font-bold tracking-widest uppercase flex items-center gap-2 justify-center mb-10 public-breadcrumb">
           <Link to="/" className="hover:text-modina-heading transition-all duration-300 ease-in-out text-modina-muted">Home</Link>
           <ChevronRight className="w-2.5 h-2.5 text-modina-subtle" />
           <span className="text-modina-muted">Quality</span>
@@ -75,7 +75,7 @@ export default function Quality() {
 
         <div className="w-24 h-[2px] bg-modina-red mx-auto mb-10" />
 
-        <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-[9rem] font-display font-bold tracking-tight text-modina-heading uppercase leading-none flex items-center justify-center flex-wrap">
+        <h1 className="font-display font-bold tracking-tight text-modina-heading uppercase leading-none flex items-center justify-center flex-wrap public-hero-title">
           {letters.map((letter, i) => (
             letter === " " ? (
               <span key={i} className="w-[0.3em]">&nbsp;</span>
@@ -100,7 +100,7 @@ export default function Quality() {
           className="w-32 h-[1px] bg-modina-red mx-auto my-10"
         />
 
-        <p className="text-modina-red text-xs font-bold tracking-widest uppercase flex items-center justify-center flex-wrap gap-2">
+        <p className="text-modina-red text-xs font-bold tracking-widest uppercase flex items-center justify-center flex-wrap gap-2 public-meta">
           <span>Modina Rim &amp; Parts Ltd.</span>
           <span className="text-modina-red">·</span>
           <span>ISO 9001:2015</span>
@@ -113,17 +113,17 @@ export default function Quality() {
         <div className="responsive-stat-strip grid w-full max-w-xl grid-cols-[1fr_auto_1fr_auto_1fr] items-center mx-auto mb-10">
           <div className="flex min-w-0 flex-col items-center px-1 sm:px-10 md:px-14">
             <span className="text-[clamp(32px,4vw,48px)] font-display font-bold text-modina-red">ISO</span>
-            <span className="text-modina-muted text-xs font-bold tracking-widest uppercase mt-2">Certified</span>
+            <span className="text-modina-muted text-xs font-bold tracking-widest uppercase mt-2 public-meta">Certified</span>
           </div>
           <span className="w-[0.5px] h-12 bg-modina-divider" />
           <div className="flex min-w-0 flex-col items-center px-1 sm:px-10 md:px-14">
             <span className="text-[clamp(32px,4vw,48px)] font-display font-bold text-modina-red">100%</span>
-            <span className="text-modina-muted text-xs font-bold tracking-widest uppercase mt-2">Pass Rate</span>
+            <span className="text-modina-muted text-xs font-bold tracking-widest uppercase mt-2 public-meta">Pass Rate</span>
           </div>
           <span className="w-[0.5px] h-12 bg-modina-divider" />
           <div className="flex min-w-0 flex-col items-center px-1 sm:px-10 md:px-14">
             <span className="text-[clamp(32px,4vw,48px)] font-display font-bold text-modina-red">15+</span>
-            <span className="text-modina-muted text-xs font-bold tracking-widest uppercase mt-2">Years QA</span>
+            <span className="text-modina-muted text-xs font-bold tracking-widest uppercase mt-2 public-meta">Years QA</span>
           </div>
         </div>
       </section>
@@ -137,13 +137,13 @@ export default function Quality() {
             transition={{ duration: 0.9, ease: [0.16, 1, 0.3, 1] }}
             className="bg-white p-10 lg:p-16 flex flex-col justify-center"
           >
-            <p className="text-[120px] md:text-[160px] lg:text-[200px] font-display font-bold text-modina-bg-alt leading-none select-none tracking-tight">
+            <p aria-hidden="true" className="text-[120px] md:text-[160px] lg:text-[200px] font-display font-bold text-modina-bg-alt leading-none select-none tracking-tight">
               100
             </p>
-            <p className="text-modina-red text-xs font-bold tracking-widest uppercase mt-2">
+            <p className="text-modina-red text-xs font-bold tracking-widest uppercase mt-2 public-meta">
               — Our Standard
             </p>
-            <p className="text-modina-subtle text-xs font-bold tracking-widest uppercase mt-1">
+            <p className="text-modina-subtle text-xs font-bold tracking-widest uppercase mt-1 public-meta">
               Zero Defect Policy
             </p>
           </motion.div>
@@ -154,16 +154,16 @@ export default function Quality() {
             transition={{ duration: 0.9, delay: 0.15, ease: [0.16, 1, 0.3, 1] }}
             className="bg-white p-10 lg:p-16 flex flex-col justify-center"
           >
-            <p className="text-modina-red text-xs font-bold tracking-widest uppercase mb-8">
+            <p className="text-modina-red text-xs font-bold tracking-widest uppercase mb-8 public-meta">
               — Quality First
             </p>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-modina-heading tracking-tight leading-tight mb-8">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-modina-heading tracking-tight leading-tight mb-8 public-section-title">
               Precision Is Not Optional
             </h2>
-            <p className="text-[14px] text-modina-muted leading-relaxed font-light mb-5 max-w-lg">
+            <p className="text-[14px] text-modina-muted leading-relaxed font-light mb-5 max-w-lg public-body">
               At Modina Rim &amp; Parts Ltd., quality is not just a department—it is the foundation of our entire manufacturing process. From raw material sourcing to final dispatch, every component undergoes rigorous testing to ensure it meets our exacting standards.
             </p>
-            <p className="text-[14px] text-modina-muted leading-relaxed font-light mb-5 max-w-lg">
+            <p className="text-[14px] text-modina-muted leading-relaxed font-light mb-5 max-w-lg public-body">
               Our zero-defect policy means we do not compromise. We continuously invest in advanced measurement tools, automated inspection systems, and ongoing training for our quality assurance team to maintain our ISO 9001:2015 certification.
             </p>
             <Link to="/certificates" className="group inline-flex items-center gap-3 mt-4 text-modina-muted text-xs font-bold tracking-widest uppercase hover:text-modina-heading transition-all duration-300 ease-in-out">
@@ -175,21 +175,21 @@ export default function Quality() {
       </section>
 
       {/* SECTION 3 — PROCESS TIMELINE */}
-      <section className="w-full border-t border-modina-border bg-modina-bg-section py-20 lg:py-28 overflow-hidden" ref={processRef}>
-        <div className="container mx-auto px-6 md:px-12 lg:px-24">
+      <section className="w-full border-t border-modina-border bg-modina-bg-section public-section overflow-hidden" ref={processRef}>
+        <div className="container-premium">
           <div className="flex items-end justify-between mb-16">
             <div>
-              <p className="text-modina-red text-xs font-bold tracking-widest uppercase mb-3">— Our Process</p>
-              <h2 className="text-3xl md:text-4xl font-display font-bold text-modina-heading tracking-tight">
+              <p className="text-modina-red text-xs font-bold tracking-widest uppercase mb-3 public-meta">— Our Process</p>
+              <h2 id="quality-process-title" className="text-3xl md:text-4xl font-display font-bold text-modina-heading tracking-tight public-section-title">
                 From Raw Material to Delivery
               </h2>
             </div>
-            <p className="text-modina-muted text-xs font-bold tracking-widest uppercase hidden md:block">
+            <p className="text-modina-muted text-xs font-bold tracking-widest uppercase hidden md:block public-meta">
               Step 01 — 06
             </p>
           </div>
 
-          <div className="relative overflow-x-auto pb-4">
+          <PublicScroller labelledBy="quality-process-title" className="relative overflow-x-auto pb-4">
             <div className="absolute top-[28px] left-0 right-0 h-[0.5px] bg-modina-divider" />
             <motion.div
               initial={{ scaleX: 0 }}
@@ -199,41 +199,41 @@ export default function Quality() {
               className="absolute top-[28px] left-0 right-0 h-[0.5px] bg-modina-red"
             />
             
-            <div className="flex items-start gap-0 min-w-[700px] relative">
+            <ol className="public-timeline-items flex items-start gap-0 min-w-[700px] relative">
               {steps.map((step, idx) => (
-                <div key={idx} className="flex-1 flex flex-col items-center">
+                <li key={idx} className="flex-1 flex flex-col items-center">
                   <motion.div
                     initial={{ scale: 0 }}
                     animate={processInView ? { scale: 1 } : {}}
                     transition={{ duration: 0.4, delay: 0.3 + idx * 0.25, ease: [0.16, 1, 0.3, 1] }}
-                    className={`w-3 h-3 border z-10 mb-6 mt-[22px] transition-all duration-300 ease-in-out cursor-pointer ${idx === 0 ? 'bg-modina-red border-modina-red' : 'bg-modina-bg-section border-modina-border hover:border-modina-red'}`}
+                    className={`w-3 h-3 border z-10 mb-6 mt-[22px] transition-all duration-300 ease-in-out ${idx === 0 ? 'bg-modina-red border-modina-red' : 'bg-modina-bg-section border-modina-border hover:border-modina-red'}`}
                   />
                   <div className="flex flex-col items-center text-center px-2">
-                    <p style={{ opacity: stepOpacity[idx] }} className="text-modina-red text-xs font-bold tracking-widest uppercase mb-2">{step.num}</p>
-                    <p className="text-modina-heading text-xs font-bold tracking-widest uppercase mb-2 leading-tight cursor-pointer hover:text-modina-red transition-all duration-300 ease-in-out">
+                    <p  className="text-modina-red text-xs font-bold tracking-widest uppercase mb-2 public-meta">{step.num}</p>
+                    <p className="text-modina-heading text-xs font-bold tracking-widest uppercase mb-2 leading-tight hover:text-modina-red transition-all duration-300 ease-in-out public-meta">
                       {step.title}
                     </p>
-                    <p className="text-[12px] text-modina-muted leading-relaxed max-w-[120px] font-light">
+                    <p className="text-[12px] text-modina-muted leading-relaxed max-w-[176px] font-light public-copy">
                       {step.desc}
                     </p>
                   </div>
-                </div>
+                </li>
               ))}
-            </div>
-          </div>
+            </ol>
+          </PublicScroller>
         </div>
       </section>
 
       {/* SECTION 4 — CERTIFICATIONS GRID */}
-      <section className="w-full border-t border-modina-border py-20 lg:py-28 bg-modina-bg">
-        <div className="container mx-auto px-6 md:px-12 lg:px-24 mb-16">
-          <p className="text-modina-red text-xs font-bold tracking-widest uppercase mb-4">— What We Stand For</p>
-          <h2 className="text-3xl md:text-4xl font-display font-bold text-modina-heading tracking-tight">
+      <section className="w-full border-t border-modina-border public-section bg-modina-bg">
+        <div className="container-premium mb-16">
+          <p className="text-modina-red text-xs font-bold tracking-widest uppercase mb-4 public-meta">— What We Stand For</p>
+          <h2 className="text-3xl md:text-4xl font-display font-bold text-modina-heading tracking-tight public-section-title">
             Certifications &amp; Standards
           </h2>
         </div>
 
-        <div className="container mx-auto px-6 md:px-12 lg:px-24">
+        <div className="container-premium">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {certifications.map((cert, idx) => (
               <motion.div
@@ -255,15 +255,15 @@ export default function Quality() {
                 </div>
                 <div className="p-8 flex flex-col flex-grow relative">
                   <div className="absolute top-0 left-0 w-0 group-hover:w-full h-[2px] bg-modina-red transition-all duration-500 ease-out" />
-                  <p className="text-modina-red text-xs font-bold tracking-widest uppercase mb-4">{cert.num}</p>
-                  <h3 className="text-2xl font-display font-bold text-modina-heading tracking-tight mb-4">
+                  <p className="text-modina-red text-xs font-bold tracking-widest uppercase mb-4 public-meta">{cert.num}</p>
+                  <h3 className="text-2xl font-display font-bold text-modina-heading tracking-tight mb-4 public-card-title">
                     {cert.title}
                   </h3>
                   <hr className="border-modina-divider mb-4" />
-                  <p className="text-[14px] text-modina-muted leading-relaxed font-light flex-grow">
+                  <p className="text-[14px] text-modina-muted leading-relaxed font-light flex-grow public-body">
                     {cert.desc}
                   </p>
-                  <p className="text-modina-subtle text-xs font-bold tracking-widest uppercase mt-6 group-hover:text-modina-red transition-all duration-300 ease-in-out">
+                  <p className="text-modina-subtle text-xs font-bold tracking-widest uppercase mt-6 group-hover:text-modina-red transition-all duration-300 ease-in-out public-meta">
                     {cert.detail}
                   </p>
                 </div>
@@ -274,8 +274,8 @@ export default function Quality() {
       </section>
 
       {/* SECTION 5 — CTA BANNER */}
-      <section className="w-full border-t border-modina-border py-24 lg:py-32 bg-modina-heading" ref={ctaRef}>
-        <div className="container mx-auto px-6 md:px-12 lg:px-24 flex flex-col lg:flex-row items-start lg:items-center justify-between gap-10">
+      <section className="w-full border-t border-modina-border public-section bg-modina-heading public-dark" ref={ctaRef}>
+        <div className="container-premium flex flex-col lg:flex-row items-start lg:items-center justify-between gap-10">
           <motion.div 
             initial={{ opacity: 0, x: -24 }}
             animate={ctaInView ? { opacity: 1, x: 0 } : {}}
@@ -289,8 +289,8 @@ export default function Quality() {
               style={{ transformOrigin: 'top' }}
               className="absolute left-0 top-0 w-1 h-20 bg-modina-red"
             />
-            <p className="text-modina-red text-xs font-bold tracking-widest uppercase mb-4">— Verified Quality</p>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-white tracking-tight leading-tight">
+            <p className="text-modina-red text-xs font-bold tracking-widest uppercase mb-4 public-meta">— Verified Quality</p>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-white tracking-tight leading-tight public-section-title">
               Explore Our<br />Product Range
             </h2>
           </motion.div>

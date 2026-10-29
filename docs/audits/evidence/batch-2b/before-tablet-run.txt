@@ -1,0 +1,6 @@
+before-tablet en 768 /
+before-tablet en 768 /products
+before-tablet en 768 /contact
+before-tablet en 768 /careers
+before-tablet en 768 /gallery
+RESULT 5 0 failed

@@ -1,0 +1,68 @@
+PASS en/320/products
+PASS en/320/gallery
+PASS en/320/careers
+PASS en/320/contact
+PASS en/320/navigation
+PASS en/390/products
+PASS en/390/gallery
+PASS en/390/careers
+PASS en/390/contact
+PASS en/390/navigation
+PASS en/430/products
+PASS en/430/gallery
+PASS en/430/careers
+PASS en/430/contact
+PASS en/430/navigation
+PASS en/768/products
+PASS en/768/gallery
+PASS en/768/careers
+PASS en/768/contact
+PASS en/768/navigation
+FAIL en/1024/products: Navbar composition changed
+PASS en/1024/gallery
+PASS en/1024/careers
+PASS en/1024/contact
+PASS en/1024/navigation
+PASS en/1440/products
+PASS en/1440/gallery
+FAIL en/1440/careers: locator.click: Error: strict mode violation: getByRole('button', { name: 'Quality', exact: true }) resolved to 2 elements:
+    1) <button type="button" aria-expanded="false" data-disclosure-trigger="true" aria-controls="desktop-nav-quality" class="flex items-center gap-1.5 px-3 py-2 rounded-lg cursor-pointer text-[15px] font-semibold transition-all
+PASS en/1440/contact
+PASS en/1440/navigation
+PASS bn/320/products
+PASS bn/320/gallery
+PASS bn/320/careers
+PASS bn/320/contact
+PASS bn/320/navigation
+PASS bn/390/products
+PASS bn/390/gallery
+PASS bn/390/careers
+PASS bn/390/contact
+PASS bn/390/navigation
+PASS bn/430/products
+PASS bn/430/gallery
+PASS bn/430/careers
+PASS bn/430/contact
+PASS bn/430/navigation
+PASS bn/768/products
+PASS bn/768/gallery
+PASS bn/768/careers
+PASS bn/768/contact
+PASS bn/768/navigation
+PASS bn/1024/products
+PASS bn/1024/gallery
+PASS bn/1024/careers
+PASS bn/1024/contact
+PASS bn/1024/navigation
+PASS bn/1440/products
+PASS bn/1440/gallery
+PASS bn/1440/careers
+PASS bn/1440/contact
+PASS bn/1440/navigation
+PASS products/search-filters-pagination
+PASS enquiry/all-products-and-direct-defaults
+PASS enquiry/history-edited-values-and-route-departure
+FAIL radius-and-admin-isolation: page.goto: Timeout 10000ms exceeded.
+Call log:
+[2m  - navigating to "http://127.0.0.1:4181/products", waiting until "load"[22m
+

@@ -1,0 +1,24 @@
+{
+  "rawByteIdentical": false,
+  "extraUnusedUtility": ".grow alias for .flex-grow",
+  "cssByteDelta": 6,
+  "normalizedEquivalent": true,
+  "checks": [
+    {
+      "file": "dist/assets/index-ENv0hXpe.css",
+      "equivalent": true
+    },
+    {
+      "file": "dist/assets/index-CkI7LcT-.js",
+      "equivalent": true
+    },
+    {
+      "file": "dist/assets/AdminRoutes-D6B0T3Su.js",
+      "equivalent": true
+    },
+    {
+      "file": "dist/index.html",
+      "equivalent": true
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+[
+  {
+    "path": "public/_redirects",
+    "status": 200,
+    "type": "",
+    "matches": true
+  },
+  {
+    "path": "public/cat_accessories.jpg",
+    "status": 200,
+    "type": "image/jpeg",
+    "matches": true
+  },
+  {
+    "path": "public/cat_motorcycle_parts.jpg",
+    "status": 200,
+    "type": "image/jpeg",
+    "matches": true
+  },
+  {
+    "path": "public/cat_motorcycle_parts.png",
+    "status": 200,
+    "type": "image/png",
+    "matches": true
+  },
+  {
+    "path": "public/hero.jpg",
+    "status": 200,
+    "type": "image/jpeg",
+    "matches": true
+  },
+  {
+    "path": "public/hero_bicycle.jpg",
+    "status": 200,
+    "type": "image/jpeg",
+    "matches": true
+  },
+  {
+    "path": "public/hero_cng_parts.jpg",
+    "status": 200,
+    "type": "image/jpeg",
+    "matches": true
+  },
+  {
+    "path": "public/hero_hardware.jpg",
+    "status": 200,
+    "type": "image/jpeg",
+    "matches": true
+  },
+  {
+    "path": "public/hero_products.jpg",
+    "status": 200,
+    "type": "image/jpeg",
+    "matches": true
+  },
+  {
+    "path": "public/hero_rims.jpg",
+    "status": 200,
+    "type": "image/jpeg",
+    "matches": true
+  },
+  {
+    "path": "public/iso/iso-14001.png",
+    "status": 200,
+    "type": "image/png",
+    "matches": true
+  },
+  {
+    "path": "public/iso/iso-45001.png",
+    "status": 200,
+    "type": "image/png",
+    "matches": true
+  },
+  {
+    "path": "public/iso/iso-9001.png",
+    "status": 200,
+    "type": "image/png",
+    "matches": true
+  },
+  {
+    "path": "public/logo.jpg",
+    "status": 200,
+    "type": "image/jpeg",
+    "matches": true
+  },
+  {
+    "path": "public/products/sku-001/01-product.png",
+    "status": 200,
+    "type": "image/png",
+    "matches": true
+  },
+  {
+    "path": "public/products/sku-001/02-engineering.jpg",
+    "status": 200,
+    "type": "image/jpeg",
+    "matches": true
+  },
+  {
+    "path": "public/products/sku-001/03-assembly.png",
+    "status": 200,
+    "type": "image/png",
+    "matches": true
+  },
+  {
+    "path": "public/products/sku-002/01-product.png",
+    "status": 200,
+    "type": "image/png",
+    "matches": true
+  },
+  {
+    "path": "public/products/sku-002/02-engineering.jpg",
+    "status": 200,
+    "type": "image/jpeg",
+    "matches": true
+  },
+  {
+    "path": "public/products/sku-002/03-assembly.png",
+    "status": 200,
+    "type": "image/png",
+    "matches": true
+  },
+  {
+    "path": "public/products/sku-003/01-product.png",
+    "status": 200,
+    "type": "image/png",
+    "matches": true
+  },
+  {
+    "path": "public/products/sku-003/02-engineering.jpg",
+    "status": 200,
+    "type": "image/jpeg",
+    "matches": true
+  },
+  {
+    "path": "public/products/sku-003/03-assembly.png",
+    "status": 200,
+    "type": "image/png",
+    "matches": true
+  },
+  {
+    "path": "public/robots.txt",
+    "status": 200,
+    "type": "text/plain",
+    "matches": true
+  },
+  {
+    "path": "public/sitemap.xml",
+    "status": 200,
+    "type": "text/xml",
+    "matches": true
+  }
+]

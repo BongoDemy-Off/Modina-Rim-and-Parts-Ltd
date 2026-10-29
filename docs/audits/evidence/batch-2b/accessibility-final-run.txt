@@ -1,0 +1,11 @@
+PASS en / new accessibility scope
+PASS en /faq new accessibility scope
+PASS en /about new accessibility scope
+PASS en /quality new accessibility scope
+PASS bn / new accessibility scope
+PASS bn /faq new accessibility scope
+PASS bn /about new accessibility scope
+PASS bn /quality new accessibility scope
+PASS /news/9999 recovery heading
+PASS /blog/9999 recovery heading
+RESULT 10/10

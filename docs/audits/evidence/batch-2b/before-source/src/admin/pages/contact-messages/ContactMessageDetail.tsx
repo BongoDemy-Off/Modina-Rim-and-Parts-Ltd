@@ -1,0 +1,17 @@
+import { useState } from 'react';
+import { Link, useParams } from 'react-router-dom';
+import { ArrowLeft } from 'lucide-react';
+import { adminContactMessages, contactMessageDemoNotice, contactMessageStatusNotice } from '../../data/contact-messages';
+import type { ContactMessageStatus } from '../../types/contact-messages';
+import { AdminButton, adminButtonClass } from '../../ui/Button';
+import { SectionCard } from '../../ui/Card';
+import { DemoToast } from '../../ui/FeedbackStates';
+import { PageHeader } from '../../ui/PageHeader';
+
+function ReadOnlyValue({label,value}: {label:string;value:string}) { return <div className="min-w-0"><dt className="text-xs font-extrabold uppercase tracking-wide text-[var(--admin-muted)]">{label}</dt><dd className="mt-1 break-words rounded-lg border border-[var(--admin-border)] bg-slate-50 px-3 py-3 text-sm text-[var(--admin-text)]">{value||'Not provided'}</dd></div>; }
+
+export default function ContactMessageDetail(){const {id}=useParams();const message=adminContactMessages.find((item)=>item.id===id);const [status,setStatus]=useState<ContactMessageStatus>(message?.status??'New');const [toast,setToast]=useState(false);
+  if(!message)return <div className="space-y-6"><PageHeader eyebrow="Communication" title="Contact Message Not Found" description="The requested demo record does not exist."/><Link to="/admin/contact-messages" className={adminButtonClass('secondary')}><ArrowLeft className="h-4 w-4"/>Back to Contact Messages</Link></div>;
+  const update=(next:ContactMessageStatus)=>{setStatus(next);setToast(true)};
+  return <div className="space-y-6 xl:space-y-8"><PageHeader eyebrow="Communication" title={message.subject} description="Read-only synthetic submission details with a local review-status control." actions={<Link to="/admin/contact-messages" className={adminButtonClass('secondary')}><ArrowLeft className="h-4 w-4"/>Back</Link>}/>{toast&&<DemoToast onClose={()=>setToast(false)} title={`Status changed to ${status}`} description={contactMessageStatusNotice} tone="success"/>}<p className="rounded-lg border border-sky-200 bg-sky-50 px-4 py-3 text-sm font-extrabold text-sky-950">{contactMessageDemoNotice}</p><SectionCard title="Submitted fields — read only" description="Name, company, email, phone, subject, message and synthetic timestamp cannot be edited."><dl className="grid gap-4 p-4 sm:grid-cols-2 sm:p-5"><ReadOnlyValue label="Name" value={message.name}/><ReadOnlyValue label="Company" value={message.company}/><ReadOnlyValue label="Email" value={message.email}/><ReadOnlyValue label="Phone" value={message.phone}/><ReadOnlyValue label="Subject" value={message.subject}/><ReadOnlyValue label="Synthetic submitted timestamp" value={message.submittedAt}/><div className="sm:col-span-2"><ReadOnlyValue label="Message" value={message.message}/></div></dl></SectionCard><SectionCard title="Review status" description="Simple corrections are allowed; there is no rigid transition graph or side effect."><div className="grid gap-3 p-4 sm:grid-cols-3 sm:p-5">{(['New','Read','Resolved'] as ContactMessageStatus[]).map((option)=><AdminButton key={option} variant={status===option?'primary':'secondary'} aria-pressed={status===option} onClick={()=>update(option)}>{option}</AdminButton>)}</div><p className="px-4 pb-4 text-xs font-semibold text-[var(--admin-muted)] sm:px-5">No Delete, Reply, assignment, notes, tags, attachments, profile, or email action exists.</p></SectionCard></div>;
+}
